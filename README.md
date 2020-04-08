@@ -12,6 +12,14 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
+Error: 
+sh: react-scripts: command not found
+npm ERR! code ELIFECYCLE
+...
+
+Solution:
+Execute "npm install react-scripts"
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.<br />
