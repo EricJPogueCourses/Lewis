@@ -1,29 +1,64 @@
 
 import React from 'react';
 
-class OOPSprint01 extends React.Component {
+const sprint01ActivitiesListContent = (
+  <ul>
+    <li>Apples</li>
+    <li>Bananas</li>
+    <li>Cherries</li>
+  </ul>
+);
+
+
+let x=0
+function getContent() { 
+	x++
+	return "<h1>This </h1>" + (x*5) 
+}
+
+
+
+class OOPSprint00 extends React.Component {
 	render() {
 		return (
 
-<div className="sprint-01">
-<h2>Object-Oriented Programming</h2>
-<h3>Sprint 1: Getting Started, Object-Oriented Programming Concepts, Patterns, and Tools of the Trade</h3>
+<div className="shopping-list">
 
-<p><em>Welcome to Object-Oriented Programming!</em> By this point in your programming journey I'm sure that you are 
-confident in writing basic software programs. You've learned about structured programming techniques like sequence, 
-selection, and repetition. You've learned how to break complicated programs down into more manageable pieces by using 
-functions. That's great, but to create modern programs you need to master some additional skills. These additional skills 
-are what object-oriented programming give us.</p>
+<h1>Shopping List for {this.props.name}</h1>
+<ul>
+	<li>Instagram {5+5}</li>
+	<li>WhatsApp</li>
+	<li>Oculus</li>
+</ul>
+
+{getContent()}
+
+<h3>Object-Oriented Programming{getContent()}</h3>
+
+<form>
+	<select value="Ford">
+        <option value="1">Sprint 1: Getting Started, Object-Oriented Programming Concepts, and Tools of the Trade</option>
+        <option value="Volvo">Volvo</option>
+        <option value="Fiat">Fiat</option>
+	</select>
+</form>
+<h3>Sprint 1: Getting Started, Object-Oriented Programming Concepts, and Tools of the Trade</h3>
+
+<p><em>Welcome to Object-Oriented Programming!</em> By this point in your programming journey I'm sure that you are confident
+in writing basic software programs. You've learned about structured programming techniques like sequence, selection,
+and repetition. You've learned how to break complicated programs down into more manageable pieces by using functions.
+That's great, but to create modern programs you need to master some additional skills. These additional skills are
+what object-oriented programming give us.</p>
 
 <p>You have likely noticed that I am using the term “sprint 1” to describe our first set of course activities and
 assignments. Sprints are part of the Scrum development process. The term is used to describe a unit of work which will
 be delivered in a given amount of time. We will be learning more about sprints and Scrum in the coming days. For now
-it is sufficient to know that our sprint 1 activities listed below are expected to take approximately 18 hours of
+it is sufficient to know that our sprint 1 activities listed below are expected to take approximately 20 hours of
 focused effort to complete.</p>
 
 <p>Let's start with what we hope to learn in sprint 1. By the end of sprint 1 we will be able to:</p>
 <ul style={{ listStyleType: "square" }}>
-	<li>Identify and understand key object-oriented programming concepts</li>
+	<li>Identify and understand key object-oriented programming concepts and practices</li>
 	<li>Identify, define, and discuss object-oriented programming patterns</li>
 	<li>Compile and execute basic Java applications utilizing Java command line tools</li>
 	<li>Utilize command line and graphical tools to navigate our computer operating system and local file system</li>
@@ -111,4 +146,4 @@ graded assignments.</p>
 	}
 }
 
-export default OOPSprint01
+export default OOPSprint00
