@@ -1,15 +1,6 @@
 
 import React from 'react';
 
-const sprint01ActivitiesListContent = (
-  <ul>
-    <li>Apples</li>
-    <li>Bananas</li>
-    <li>Cherries</li>
-  </ul>
-);
-
-
 let x=0
 function getContent() { 
 	x++
@@ -107,8 +98,7 @@ graded assignments.</p>
 		standard comments at the top application (i.e. your name, class, etc.), changing the names of variables, adding
 		small features, etc. Finally, be sure to save your unique creation as I will often be asking you to submit it as
 		part of your programming assignment. 
-		<a href="https://mediaatoz.blob.core.windows.net/object-oriented-programming/java-hello-world.mp4"
-		target="_blank">[video]</a></li>
+		<a href="https://mediaatoz.blob.core.windows.net/object-oriented-programming/java-hello-world.mp4">[video]</a></li>
 	<li>If you don’t already have a GitHub account, set up a GitHub account utilizing the Student Developer Pack
 		<a href="https://help.github.com/en/articles/applying-for-a-student-developer-pack">[link]</a></li>
 	<li>Install the Git command line client

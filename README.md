@@ -3,6 +3,8 @@ Review https://www.taniarascia.com/getting-started-with-react/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+And installed the React Router with the "npm i react-router-dom --save" command. 
+
 ## Available Scripts
 
 In the project directory, you can run:

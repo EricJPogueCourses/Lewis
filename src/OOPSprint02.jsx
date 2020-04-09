@@ -6,14 +6,12 @@ class OOPSprint02 extends React.Component {
 		return (
 
 <div className="sprint-02">
-
 <h3>Object-Oriented Programming</h3>
-
 <form>
-	<select value="Ford">
+	<select value="SprintNumber">
 		<option value="1">Sprint 1: Getting Started, Object-Oriented Programming Concepts, and Tools of the Trade</option>
 		<option value="2">Sprint 2: Patterns, Principles, and Java Programming</option>
-		<option value="3">Next up</option>
+		<option value="3">Next up...</option>
 	</select>
 </form>
 
@@ -47,11 +45,9 @@ minutes unless otherwise noted.</p>
 	<li>Complete the Java "Shapes Step 1" tutorial. As will all tutorials, be sure to follow along and complete
 		the steps yourself, make the resulting application uniquely your own, and to be ready to submit your
 		personalized version of the application as part of an assignment	
-		<a href="https://mediaatoz.blob.core.windows.net/object-oriented-programming/java-shapes-step1.mp4"
-		target="_blank">[video]</a></li> 
+		<a href="https://mediaatoz.blob.core.windows.net/object-oriented-programming/java-shapes-step1.mp4">[video]</a></li> 
 	<li>Complete the Java “Shapes Step 2” tutorial
-		<a href="https://mediaatoz.blob.core.windows.net/object-oriented-programming/java-shapes-step2.mp4"
-		target="_blank">[video]</a></li>
+		<a href="https://mediaatoz.blob.core.windows.net/object-oriented-programming/java-shapes-step2.mp4">[video]</a></li>
 	<li>Complete your initial Discussion Board (DB) post by the middle of the sprint</li>
 	<li>Complete “Object-Oriented Programming Principles”
 		<a href="http://mediaatoz.blob.core.windows.net/object-oriented-programming/principles.mp4">[video]</a>
@@ -60,9 +56,9 @@ minutes unless otherwise noted.</p>
 	<li>Read and Understand the article “What is JSON? JavaScript Object Notation explained” 
 		<a
 		href="https://www.infoworld.com/article/3222851/javascript/what-is-json-javascript-object-notation-explained.html"
-		target="_blank">[link]</a></li> 
+		target="_blank" rel="noopener noreferrer">[link]</a></li> 
 	<li>Read and Understand “JSON Introduction” from W3C 
-		<a href="https://www.w3schools.com/js/js_json_intro.asp" target="_blank">[link]</a></li> 
+		<a href="https://www.w3schools.com/js/js_json_intro.asp" target="_blank" rel="noopener noreferrer">[link]</a></li> 
 	<li>If you do not already have access to a current version of Microsoft Office, install the current
 		Microsoft PowerPoint (PowerPoint Mobile) and Word (Word Mobile) viewers
 		<a
@@ -77,12 +73,12 @@ minutes unless otherwise noted.</p>
 <p>Additional external references are provided below:</p>
 <ul style={{ listStyleType:"square" }}>
 	<li>Sprint 2 Recorded Lecture/Discussion session from the Spring 2020 online Object-Oriented Programming class
-		<a href="https://botb.blob.core.windows.net/ovun/2020-01-22_sprint-02-oop.mp4" target="_blank">[link]</a></li>
+		<a href="https://botb.blob.core.windows.net/ovun/2020-01-22_sprint-02-oop.mp4">[link]</a></li>
 	<li>Git/GitHub Cheat Sheet	
-		<a href="https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf" target="_blank">[link]</a></li> 
+		<a href="https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf" target="_blank" rel="noopener noreferrer"
+		>[link]</a></li> 
 </ul> 
 </div>
-// End of "div" tag.
 
 		);
 	}

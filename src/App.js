@@ -5,7 +5,6 @@ import './App.css';
 import OOPSprint00 from './OOPSprint00'
 import OOPSprint01 from './OOPSprint01'
 import OOPSprint02 from './OOPSprint02'
-import Truck from './Truck'
 import Credit from './credit'
 import Test02 from './Test02'
 import ShoppingList from './ShoppingList'
