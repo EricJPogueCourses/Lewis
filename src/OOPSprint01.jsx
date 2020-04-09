@@ -8,7 +8,7 @@ class OOPSprint01 extends React.Component {
 	render() {
 		return (
 
-<div className="sprint-01">
+<div>
 <h2>Object-Oriented Programming</h2>
 <h3>Sprint 1: Getting Started, Object-Oriented Programming Concepts, Patterns, and Tools of the Trade</h3>
 
@@ -53,7 +53,7 @@ graded assignments.</p>
 		[video]</a>
 		<a
 		href="https://mediaatoz.blob.core.windows.net/object-oriented-programming/concepts-and-practices-slides-only.pptx">
-		[slides]</a> ~1 hour</li>
+		[slides]</a></li>
 	<li><em>Consistently work on Programming Assignment 1 and Quiz 1 throughout the sprint ~6 hours</em></li>
 	<li>Install or update MS Windows PowerShell if you are utilizing MS Windows
 		<a href="http://mediaatoz.blob.core.windows.net/environment-configuration/powershell-windows10-setup.mp4">
@@ -64,7 +64,6 @@ graded assignments.</p>
 		<a href="https://mediaatoz.blob.core.windows.net/environment-configuration/java-jdk-windows10-setup.mp4">
 		[video]</a></li>
 	<li><em>Create your initial Discussion Board 1 post by the middle of the sprint</em></li>
-
 	<li>Install the Microsoft Visual Studio Code text editor and the Google Chrome web browser
 		<a href="https://mediaatoz.blob.core.windows.net/environment-configuration/mscode-and-chrome-windows10-setup.mp4">
 		[video]</a>
@@ -101,6 +100,7 @@ graded assignments.</p>
 <br />
 <p>Additional references:</p>
 	<ul style={{ listStyleType: "square" }}>
+		<li>Sprint 2 preview <NavLink to="/sprint02">[link]</NavLink></li>
 		<li>Sprint 1 recorded Lecture/Discussion session from a recent (2020) online Object-Oriented Programming class
 			<a href="https://recordings.join.me/cnMa4X_YHEqYRult_T00qw">[link]</a></li> 
 		<li>Git/GitHub Cheat Sheet

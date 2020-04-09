@@ -6,14 +6,8 @@ class OOPSprint02 extends React.Component {
 		return (
 
 <div className="sprint-02">
-<h3>Object-Oriented Programming</h3>
-<form>
-	<select value="SprintNumber">
-		<option value="1">Sprint 1: Getting Started, Object-Oriented Programming Concepts, and Tools of the Trade</option>
-		<option value="2">Sprint 2: Patterns, Principles, and Java Programming</option>
-		<option value="3">Next up...</option>
-	</select>
-</form>
+<h2>Object-Oriented Programming</h2>
+<h3>Sprint 2: Patterns, Principles, and Java Programming</h3>
 
 <p><em>Welcome to sprint 2.</em> We covered a lot of material in sprint 1. However, we didn't get a
 chance to write much code. This sprint get your Java compilers out. We are going to start practicing some of the
@@ -68,7 +62,6 @@ minutes unless otherwise noted.</p>
 	<li><em>Complete Discussion Board 2 by responding to at least one of your classmates' posts</em></li>
 	<li><em>Complete and submit Programming Assignment 2 and Quiz 2</em></li>
 </ol> 
-<p>Feel free to post a note in our class forum or to send me an email you have questions.</p> 
 <br />
 <p>Additional external references are provided below:</p>
 <ul style={{ listStyleType:"square" }}>
