@@ -1,16 +1,12 @@
 
 import React from 'react';
-import {
-	NavLink,
-} from "react-router-dom";
 
 class OOPSprint01 extends React.Component {
 	render() {
 		return (
 
 <div>
-<h2>Object-Oriented Programming</h2>
-<h3>Sprint 1: Getting Started, Object-Oriented Programming Concepts, Patterns, and Tools of the Trade</h3>
+<h5>Sprint 1: Getting Started, Concepts, Patterns, and Tools of the Trade</h5>
 
 <p><em>Welcome to Object-Oriented Programming!</em> By this point in your programming journey I'm sure that you are 
 confident in writing basic software programs. You've learned about structured programming techniques like sequence, 
@@ -100,7 +96,6 @@ graded assignments.</p>
 <br />
 <p>Additional references:</p>
 	<ul style={{ listStyleType: "square" }}>
-		<li>Sprint 2 preview <NavLink to="/sprint02">[link]</NavLink></li>
 		<li>Sprint 1 recorded Lecture/Discussion session from a recent (2020) online Object-Oriented Programming class
 			<a href="https://recordings.join.me/cnMa4X_YHEqYRult_T00qw">[link]</a></li> 
 		<li>Git/GitHub Cheat Sheet
