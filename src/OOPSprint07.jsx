@@ -1,8 +1,5 @@
 
 import React from 'react';
-import {
-	NavLink,
-} from "react-router-dom";
 
 class OOPSprint07 extends React.Component {
 	render() {
@@ -38,7 +35,7 @@ class OOPSprint07 extends React.Component {
 			<a href="https://mediaatoz.blob.core.windows.net/object-oriented-programming/java-thunderbird-lite.mp4"
 			target="_blank">[video]</a> using the ThunderbirdLite source code from the
 			"https://github.com/EricJPogueCourses/Thunderbird.git" repository as needed</li>
-		<li><em>Complete Programming Assignment 7a Thunderbird by the middle of the sprint ~6
+		<li style={{color: "red"}}><em>Complete Programming Assignment 7a Thunderbird by the middle of the sprint ~6
 		hours</em></li>
 		<li><em>Complete your initial Discussion Board post by the middle of the sprint</em></li>
 		<li>Continue to monitor and update your DB6 thread from last sprint and update your JSON contact files as
@@ -48,7 +45,7 @@ class OOPSprint07 extends React.Component {
 			<a href="https://mediaatoz.blob.core.windows.net/object-oriented-programming/application-architecture-part1.mp4"
 			target="_blank">[video]</a></li>
 		<li><em>Complete all activity list items and assignments including PA7a Thunderbird, PA7b Final Project v1, Quiz
-		7, and discussion board 7 by the end of the sprint</em></li>
+			7, and discussion board 7 by the end of the sprint</em></li>
 	</ol> 
 	<p>Feel free to post a note in our class forum or to send me an email you have questions.</p><br />
 	<p>Additional references:</p>

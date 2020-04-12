@@ -5,6 +5,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 And installed the React Router with the "npm i react-router-dom --save" command. 
 
+This project also uses React Bootstrap
+
+which is installed with "npm install react-bootstrap bootstrap"
+
 ## Available Scripts
 
 In the project directory, you can run:
