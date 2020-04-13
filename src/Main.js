@@ -56,7 +56,7 @@ class Main extends Component {
 
 	</div>
 	<div className="Main">
-
+		<Route exact path="/" component={OOPSprint01}/>
 		<Route path="/sprint01" component={OOPSprint01}/>
 		<Route path="/sprint02" component={OOPSprint02}/>
 		<Route path="/sprint03" component={OOPSprint03}/>
