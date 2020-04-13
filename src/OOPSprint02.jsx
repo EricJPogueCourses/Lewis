@@ -26,7 +26,7 @@ beneficial for you to work through the topics. The time commitment for each line
 minutes unless otherwise noted.</p>
 <ol>
 	<li><em>Review Programming Assignment 2, Quiz 2, and Discussion Board 2</em></li>
-	<li>Analyze and commit to adopting the “How to Be a Success Programmer” suggestions that you feel are the
+	<li>Analyze and commit to adopting the “How to Be a Successful Programmer” suggestions that you feel are the
 		most important 
 		<a href="https://cpsc-24500.azurewebsites.net/successful-programmer.html">[link]</a></li>
 	<li>Sign up for Safari Books Online which is available to you free through Lewis University

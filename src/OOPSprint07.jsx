@@ -27,23 +27,22 @@ class OOPSprint07 extends React.Component {
 
 	<p>Notice that in this sprint we have two programming assignments. I would highly encourage you to try to
 	complete the Thunderbird assignment (PA7a) by the middle of the sprint so that you can be working on your final
-	project during the second half of the sprint. haOur activities list for this sprint includes:</p>
+	project during the second half of the sprint. Our activities list for this sprint includes:</p>
 	<ol>
 		<li><em>Review Programming Assignment 7a Thunderbird, Programming Assignment 7b Final Project v1, Quiz 7,
 		and Discuss Board (DB) 7</em></li>
 		<li>Complete the ThunderbirdLite tutorial
-			<a href="https://mediaatoz.blob.core.windows.net/object-oriented-programming/java-thunderbird-lite.mp4"
-			target="_blank">[video]</a> using the ThunderbirdLite source code from the
+			<a href="https://mediaatoz.blob.core.windows.net/object-oriented-programming/java-thunderbird-lite.mp4">
+			[video]</a> using the ThunderbirdLite source code from the
 			"https://github.com/EricJPogueCourses/Thunderbird.git" repository as needed</li>
 		<li style={{color: "red"}}><em>Complete Programming Assignment 7a Thunderbird by the middle of the sprint ~6
-		hours</em></li>
+			hours</em></li>
 		<li><em>Complete your initial Discussion Board post by the middle of the sprint</em></li>
 		<li>Continue to monitor and update your DB6 thread from last sprint and update your JSON contact files as
 		necessary</li>
 		<li><em>Consistently work on the version 1 of your Final Project throughout the sprint ~6 hours</em></li>
 		<li>Complete "Application Architectures, Object-Oriented Programming, and Databases - Part 1"
-			<a href="https://mediaatoz.blob.core.windows.net/object-oriented-programming/application-architecture-part1.mp4"
-			target="_blank">[video]</a></li>
+			<a href="https://mediaatoz.blob.core.windows.net/object-oriented-programming/application-architecture-part1.mp4">[video]</a></li>
 		<li><em>Complete all activity list items and assignments including PA7a Thunderbird, PA7b Final Project v1, Quiz
 			7, and discussion board 7 by the end of the sprint</em></li>
 	</ol> 
@@ -51,11 +50,10 @@ class OOPSprint07 extends React.Component {
 	<p>Additional references:</p>
 		<ul style={{ listStyleType: "square" }}>
 		<li>Sprint 7 recorded Lecture/Discussion session from a previous online Object-Oriented Programming class
-			<a href="https://24500lt1.blob.core.windows.net/lecture-recordings/cpsc-24500-2019-01-spring-lt1_2019-02-25.mp4"
-			target="_blank">[link]</a></li> 
+			<a href="https://24500lt1.blob.core.windows.net/lecture-recordings/cpsc-24500-2019-01-spring-lt1_2019-02-25.mp4">[link]</a></li> 
 	<li>Git/GitHub Cheat Sheet 
 			<a href="https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf"
-			target="_blank">[link]</a></li> 
+			target="_blank" rel="noopener noreferrer">[link]</a></li> 
 	</ul>
 </div>
 

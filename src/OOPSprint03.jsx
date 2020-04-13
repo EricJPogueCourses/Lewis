@@ -31,17 +31,15 @@ class OOPSprint03 extends React.Component {
 		<li><em>Review Programming Assignment 3, Quiz 3, and Discussion Board 3</em></li>
 		<li>Start working early and stay focused on the Programming Assignment 3 - FaceDraw</li>
 		<li>Complete "Graphical User Interfaces (GUI) in Java" lesson 
-			<a href="https://mediaatoz.blob.core.windows.net/object-oriented-programming/java-gui-programming.mp4"
-			target="_blank">[video]</a></li>
+			<a href="https://mediaatoz.blob.core.windows.net/object-oriented-programming/java-gui-programming.mp4">[video]</a></li>
 		<li>Complete the FaceDrawLite tutorial
-			<a href="https://mediaatoz.blob.core.windows.net/object-oriented-programming/java-facedraw-lite.mp4"
-			target="_blank">[video]</a> ~2 hours</li>
+			<a href="https://mediaatoz.blob.core.windows.net/object-oriented-programming/java-facedraw-lite.mp4">[video]</a> ~2 hours</li>
 		<li>FaceDraw, FaceDraw, FaceDraw ~8 to 12 hours</li>
 		<li>Review the answers from Quiz 2</li>
 		<li><em>Complete your initial Discussion Board (DB) post by the middle of the sprint</em></li>
-		<li>Take one last look at "How to Be a Success Programmer" suggestions and intentionally decide if there is
-			something you are going to change now that the programming assignments are becoming more challenging.
-			<a href="https://cpsc-24500.azurewebsites.net/successful-programmer.html" target="_blank">[link]</a></li>
+		<li>Take one last look at "How to Be a Success Programmer" suggestions <NavLink to="/successful-programmer">[link]</NavLink> 
+			and consider decide if there is something you are going to change now that the programming assignments are becoming more 
+			challenging </li>
 		<li><em>Complete Discussion Board 3 by responding to at least one of your classmates' posts</em></li>
 		<li><em>Complete and submit Programming Assignment 3 and Quiz 3</em></li>
 	</ol> 
@@ -51,11 +49,10 @@ class OOPSprint03 extends React.Component {
 	<ul style={{ listStyleType: "square" }}>
 		<li>Sprint 3 Recorded Lecture/Discussion session from the Spring 2020 online Object-Oriented Programming class
 		Programming class
-			<a href="https://botb.blob.core.windows.net/ovun/2020-01-29_sprint-03-oop.mp4"
-			target="_blank">[link]</a></li>
+			<a href="https://botb.blob.core.windows.net/ovun/2020-01-29_sprint-03-oop.mp4">[link]</a></li>
 		<li>Git/GitHub Cheat Sheet
 			<a href="https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf"
-			target="_blank">[link]</a></li> 
+			target="_blank" rel="noopener noreferrer">[link]</a></li> 
 	</ul>
 </div>
 

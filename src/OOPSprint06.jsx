@@ -1,8 +1,5 @@
 
 import React from 'react';
-import {
-	NavLink,
-} from "react-router-dom";
 
 class OOPSprint06 extends React.Component {
 	render() {
@@ -33,24 +30,19 @@ class OOPSprint06 extends React.Component {
 	<ol>
 		<li><em>Review Programming Assignment 6, Quiz 6, and Discussion Board 6</em></li>
 		<li>Review "Website Creation With GitHub and Microsoft Azure" Tutorial 
-			<a href="https://mediaatoz.blob.core.windows.net/environment-configuration/github-deployment-to-azure.mp4"
-				target="_blank">[video]</a> as needed</li>
+			<a href="https://mediaatoz.blob.core.windows.net/environment-configuration/github-deployment-to-azure.mp4">[video]</a> as needed</li>
 		<li>Complete "Personal Information JSON Files" Tutorial 
-			<a href="https://mediaatoz.blob.core.windows.net/object-oriented-programming/personal-info-json-to-azure.mp4"
-				target="_blank">[video]</a></li>
+			<a href="https://mediaatoz.blob.core.windows.net/object-oriented-programming/personal-info-json-to-azure.mp4">[video]</a></li>
 		<li><em>Consistently work on the SwissArmyKnife v2 assignment (PA6) and Quiz 6 throughout the sprint ~10 hours</em></li>
 		<li><em>Complete your initial Discussion Board post by the middle of the sprint</em></li>
 		<li>Create and/or update your JSON files on your MS Azure website by the middle of the sprint to reflect the
 			requirements identified in our sprint 6 assignments</li>
 		<li>Review "Performance and Multithreading" 
-			<a href="https://mediaatoz.blob.core.windows.net/object-oriented-programming/performance-and-multithreaded-programming.mp4"
-				target="_blank">[video]</a></li>
+			<a href="https://mediaatoz.blob.core.windows.net/object-oriented-programming/performance-and-multithreaded-programming.mp4">[video]</a></li>
 		<li>Complete "SleepFast" Tutorial
-			<a href="https://mediaatoz.blob.core.windows.net/object-oriented-programming/java-sleep-fast.mp4"
-				target="_blank">[video]</a></li>
+			<a href="https://mediaatoz.blob.core.windows.net/object-oriented-programming/java-sleep-fast.mp4">[video]</a></li>
 		<li>Review Object-Oriented Programming Languages and Platforms
-			<a href="https://mediaatoz.blob.core.windows.net/object-oriented-programming/languages-and-platforms.mp4"
-				target="_blank">[video]</a></li>
+			<a href="https://mediaatoz.blob.core.windows.net/object-oriented-programming/languages-and-platforms.mp4">[video]</a></li>
 		<li><em>Complete all sprint 6 assignments and activity list items by the end of the sprint</em></li>
 	</ol>
 
@@ -59,11 +51,10 @@ class OOPSprint06 extends React.Component {
 	<p>Additional references:</p>
 		<ul style={{ listStyleType: "square" }}>
 		<li>Sprint 6 recorded Lecture/Discussion session from a previous online Object-Oriented Programming class
-			<a href="https://24500lt1.blob.core.windows.net/lecture-recordings/cpsc-24500-2019-01-spring-lt1_2019-02-20.mp4"
-				target="_blank">[link]</a></li> 
+			<a href="https://24500lt1.blob.core.windows.net/lecture-recordings/cpsc-24500-2019-01-spring-lt1_2019-02-20.mp4">[link]</a></li> 
 		<li>Git/GitHub Cheat Sheet	
 			<a href="https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf"
-			target="_blank">[link]</a></li> 
+			target="_blank" rel="noopener noreferrer">[link]</a></li> 
 	</ul> 
 </div>
 

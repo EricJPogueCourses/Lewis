@@ -16,6 +16,7 @@ import OOPSprint07 from './OOPSprint07'
 import OOPSprint08 from './OOPSprint08'
 import Credits from './Credits'
 import Tools from './Tools'
+import SuccessfulProgrammer from './SuccessfulProgrammer'
 
 import { Nav } from 'react-bootstrap'
 import { Navbar } from 'react-bootstrap'
@@ -30,11 +31,11 @@ class Main extends Component {
 	<div className="Header">
 		
 	<Navbar bg="light" expand="lg">
-		<Navbar.Brand href="#home"><h5>Object-Oriented Programming</h5></Navbar.Brand>
+
 		<Navbar.Toggle aria-controls="basic-navbar-nav" />
 		<Navbar.Collapse id="basic-navbar-nav">
 			<Nav className="mr-auto">
-				<Nav.Link href="#home">Home</Nav.Link>
+				<Nav.Link href="#home">Lewis.education</Nav.Link>
 					<NavDropdown title="Activity Lists" id="basic-nav-dropdown">
 						<NavDropdown.Item href="#sprint01">Sprint 1</NavDropdown.Item>
 						<NavDropdown.Item href="#sprint02">Sprint 2</NavDropdown.Item>
@@ -46,6 +47,7 @@ class Main extends Component {
 						<NavDropdown.Item href="#sprint08">Sprint 8</NavDropdown.Item>
 						<NavDropdown.Divider />
 						<NavDropdown.Item href="#tools">Tools</NavDropdown.Item>
+						<NavDropdown.Item href="#successful-programmer">Successful Programmer</NavDropdown.Item>
 					</NavDropdown>
 				<Nav.Link href="#credits">Credits</Nav.Link>
 			</Nav>
@@ -54,6 +56,7 @@ class Main extends Component {
 
 	</div>
 	<div className="Main">
+
 		<Route path="/sprint01" component={OOPSprint01}/>
 		<Route path="/sprint02" component={OOPSprint02}/>
 		<Route path="/sprint03" component={OOPSprint03}/>
@@ -63,6 +66,7 @@ class Main extends Component {
 		<Route path="/sprint07" component={OOPSprint07}/>
 		<Route path="/sprint08" component={OOPSprint08}/>
 		<Route path="/tools" component={Tools}/>
+		<Route path="/successful-programmer" component={SuccessfulProgrammer}/>
 		<Route path="/credits" component={Credits}/>
 	</div>
 	

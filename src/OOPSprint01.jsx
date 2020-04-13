@@ -1,11 +1,15 @@
 
 import React from 'react';
+import {
+	NavLink,
+} from "react-router-dom";
 
 class OOPSprint01 extends React.Component {
 	render() {
 		return (
 
 <div>
+<h4>Object-Oriented Programming</h4>
 <h5>Sprint 1: Getting Started, Concepts, Patterns, and Tools of the Trade</h5>
 
 <p><em>Welcome to Object-Oriented Programming!</em> By this point in your programming journey I'm sure that you are 
@@ -39,6 +43,7 @@ graded assignments.</p>
 <ol>
 	<li>Review course syllabus</li>
 	<li><em>Review Programming Assignment 1, Quiz 1, and Discussion Board 1</em></li>
+	<li><em>[[Todo: REVIEW]]</em> Complete Tools of the Trade<NavLink to="/tools">[link]</NavLink></li>
 	<li>Understand how Blended Learning, Flipped Classroom, and Online class formats relate by reviewing "Blended
 		Learning & Flipped Classroom" 
 		<a href="https://www.youtube.com/watch?v=paQCE58334M&vl=en-US" target="_blank" rel="noopener noreferrer">[video]</a></li>
