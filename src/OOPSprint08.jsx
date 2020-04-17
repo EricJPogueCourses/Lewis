@@ -6,8 +6,8 @@ class OOPSprint08 extends React.Component {
 		return (
 
 <div>
-	<h2>Object-Oriented Programming</h2>
-	<h3>Sprint 8: Final Project, Application Architecture, and Databases</h3>
+	<h4>Object-Oriented Programming</h4>
+	<h5>Sprint 8: Final Project, Application Architecture, and Databases</h5>
 
 	<p>Sprint 8! Need I say more. With one sprint left, let's finish strong. My challenge to you is to make your final
 	project something that makes you proud. Not because it will get you a good grade (which it likely will), but because

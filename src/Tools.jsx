@@ -1,14 +1,12 @@
 
 import React from 'react';
-import Calendar from './Calendar';
 
 class Tools extends React.Component {
 	render() {
 		return (
 
 <div>
-	<h3>Tools of the Trade</h3>
-	<Calendar />
+	<h4>Tools of the Trade</h4>
 	<p>To be successful in this class you will need to be able to effectively utilize a Windows 10 or MacOS (or Linux)
 	computer and the following tools and services:</p>
 	<ol>

@@ -6,8 +6,8 @@ class OOPSprint06 extends React.Component {
 		return (
 
 <div>
-	<h2>Object-Oriented Programming</h2>
-	<h3>Sprint 6: Multithreading and Application Programming Interfaces</h3>
+	<h4>Object-Oriented Programming</h4>
+	<h5>Sprint 6: Multithreading and Application Programming Interfaces</h5>
 
 	<p>Sprint 6! This sprint offers a mix of the old and the new. Some things like hosting JSON files on our Azure
 	websites and enhancing our SwissArmyKnife application will be additions to what we have already learned. On the

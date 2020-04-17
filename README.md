@@ -9,6 +9,9 @@ This project also uses React Bootstrap
 
 which is installed with "npm install react-bootstrap bootstrap"
 
+Also uses react-bootstrap-table2
+which is installed with "npm install react-bootstrap-table-next"
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -92,5 +95,10 @@ npm start
 https://create-react-app.dev/docs/getting-started/
 
 Press Command+Shift+Dot to view hidden files in MacOS Finder
+
+Tables:
+https://engineering.shopify.com/blogs/engineering/building-data-table-component-react
+https://dev.to/abdulbasit313/an-easy-way-to-create-a-customize-dynamic-table-in-react-js-3igg
+
 
 

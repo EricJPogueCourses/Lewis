@@ -9,8 +9,8 @@ class OOPSprint03 extends React.Component {
 		return (
 
 <div>
-	<h2>Object-Oriented Programming</h2>
-	<h3>Sprint 3: Graphical User Interfaces and FaceDraw</h3>
+	<h4>Object-Oriented Programming</h4>
+	<h5>Sprint 3: Graphical User Interfaces and FaceDraw</h5>
 
 	<p>Welcome to Sprint 3. We have covered a lot in the first two sprints. Much of it was preparing us for our first
 	substantial programming assignment. I believe we are ready to apply what we have learned to our FaceDraw project. Be

@@ -6,8 +6,8 @@ class OOPSprint07 extends React.Component {
 		return (
 
 <div>
-	<h2>Object-Oriented Programming</h2>
-	<h3>Sprint 7: Thunderbird, Final Project v1, and Application Architecture</h3>
+	<h4>Object-Oriented Programming</h4>
+	<h5>Sprint 7: Thunderbird, Final Project v1, and Application Architecture</h5>
 	
 	<p><em>Welcome to sprint 7.</em> How time flies. We have two separate programming assignments this sprint. The
 	first assignment (PA7) is Thunderbird. We will be completing the Thunderbird application by the middle of the

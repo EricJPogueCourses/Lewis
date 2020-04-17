@@ -6,6 +6,7 @@ class OOPSprint02 extends React.Component {
 		return (
 
 <div className="sprint-02">
+<h4>Object-Oriented Programming</h4>
 <h5>Sprint 2: Patterns, Principles, and Java Programming</h5>
 
 <p><em>Welcome to sprint 2.</em> We covered a lot of material in sprint 1. However, we didn't get a

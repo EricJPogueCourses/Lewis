@@ -6,8 +6,8 @@ class OOPSprint04 extends React.Component {
 		return (
 
 <div>
-	<h2>Object-Oriented Programming</h2>
-	<h3>Sprint 4: Interactive User Interfaces and Mosaic</h3>
+	<h4>Object-Oriented Programming</h4>
+	<h5>Sprint 4: Interactive User Interfaces and Mosaic</h5>
 
 	<p>Welcome to sprint 4. We have covered a lot of material in the first three sprints. I suspect
 	that the FaceDraw programming assignment was challenging. As we near the halfway point of our course, we will

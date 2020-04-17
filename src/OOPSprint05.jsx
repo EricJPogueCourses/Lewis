@@ -6,8 +6,8 @@ class OOPSprint05 extends React.Component {
 		return (
 
 <div>
-	<h2>Object-Oriented Programming</h2>
-	<h3>Sprint 5: Network Programming and The Cloud</h3>
+	<h4>Object-Oriented Programming</h4>
+	<h5>Sprint 5: Network Programming and The Cloud</h5>
 
 	<p>Wow! Sprint 5. How did that come so fast? I must say that I am impressed. This is a challenging class and
 	it's obvious that you are working hard and delivering assignments that you are proud of delivering. Well done!</p>
