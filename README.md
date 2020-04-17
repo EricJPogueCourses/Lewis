@@ -100,5 +100,8 @@ Tables:
 https://engineering.shopify.com/blogs/engineering/building-data-table-component-react
 https://dev.to/abdulbasit313/an-easy-way-to-create-a-customize-dynamic-table-in-react-js-3igg
 
+HTTPs with custom domain on Azure
+https://docs.microsoft.com/en-us/azure/app-service/configure-ssl-certificate#create-a-free-certificate-preview
+
 
 

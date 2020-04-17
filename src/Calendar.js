@@ -20,7 +20,7 @@ class Calendar extends Component {
 		}
 		
 		if (includeTime) {
-			dateString = dateString + ' ' + 
+			dateString = dateString + ' at ' + 
 					((date.getUTCHours()%12) || 12) + ':' +
 					('0' + date.getUTCMinutes()).slice(-2) + ' ' +
 					(date.getUTCHours() < 12? 'AM CT':'PM CT');
@@ -58,7 +58,7 @@ class Calendar extends Component {
 	}
 
 	createCalendarXL = () => {
-		const headings = [ '', 'End Date & Time', 'Duration', 'Notes' ];
+		const headings = [ '', 'End Date', 'Duration', 'Notes' ];
 
 		const sprintCalendarSpring2020 = [																											 
 			{ 'start':'Mon Jan 13 2020 08:00:00 GMT-0600', 'end':'Sun Jan 26 2020 23:59:00 GMT-0600', 'notes':'Martin Luther King Day' },
