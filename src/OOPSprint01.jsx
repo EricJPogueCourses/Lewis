@@ -37,8 +37,8 @@ focused effort to complete.</p>
 
 <p>Below is our sprint 1 activities list. Although you are welcome to pursue the activities in any order, they are
 listed in the order I think will be the most beneficial for you to work through the topics. Each item is expected to
-take 20 to 40 minutes of focused time unless otherwise noted. Highlighted activities are <em>directly</em> related to 
-graded assignments.</p>
+take 20 to 40 minutes of focused time unless otherwise noted. <em>Highlighted activities are directly related to 
+graded assignments.</em></p>
 
 <ol>
 	<li>Review course syllabus</li>

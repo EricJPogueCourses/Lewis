@@ -28,7 +28,7 @@ class Main extends Component {
 <HashRouter>
 <div>
 
-	<HeaderNav showNav="yes"/>
+	<HeaderNav />
 
 	<div className="Main">
 		<Route exact path="/" component={OOPSprint01}/>

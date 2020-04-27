@@ -5,13 +5,25 @@ import { Navbar } from 'react-bootstrap'
 import { NavDropdown } from 'react-bootstrap'
 
 class HeaderNav extends Component {
-    constructor(props) {
-        super(props);this.state = {
-        };
-      }
+	hideNavBar() {
+		const hideNavID = 'hide-nav';
 
-    render() {
-		if (this.props.showNav === 'no') {
+		// Parse URL for input parameters
+		var vars = {};
+		window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+			vars[key] = value;
+		});
+
+		if (typeof vars[hideNavID] !== 'undefined') {
+			// return true to hide navigation bar if 'hide-nav' exists in url params.
+			return true; 
+		}
+
+		return false;
+	}
+
+	render() {
+		if (this.hideNavBar()) {
 			return (null)
 		}
 		else
@@ -43,8 +55,8 @@ class HeaderNav extends Component {
 	</Navbar>
 </div>
 
-        )
-    }
+		)
+	}
 }
 
 export default HeaderNav
