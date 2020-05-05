@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+	<title>Software Engineering</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		/* General style attributes */
+		body {font-family: Arial;}
+		em {font-weight:bold}
+		a:hover {background-color: #caa612;}
+		p {margin-top:10px; margin-bottom: 0;}
+		ul {margin-top: 0px;}
+		ol {margin-top: 0px;}
+		li {margin-top: 10px;}
+
+		/* Style the tab */
+		.tab {
+			overflow: hidden;
+			border: 1px solid #ccc;
+			background-color: #f1f1f1;
+			width: 1048px;
+		}
+
+		/* Style the buttons inside the tab */
+		.tab button {
+			background-color: inherit;
+			float: left;
+			border: none;
+			outline: none;
+			cursor: pointer;
+			padding: 14px 16px;
+			transition: 0.3s;
+			font-size: 17px;
+		}
+
+		/* Change background color of buttons on hover */
+		.tab button:hover {
+			background-color: #ddd;
+		}
+
+		/* Create an active/current tablink class */
+		.tab button.active {
+			background-color: #ccc;
+		}
+
+		/* Style the tab content */
+		.tabcontent {
+			display: none;
+			padding: 6px 12px;
+			width: 1024px;
+			border: 1px solid #ccc;
+			border-top: none;
+		}
+
+		table {
+			width:100%;
+		}
+		table, th, td {
+			border: 1px solid black;
+			border-collapse: collapse;
+		}
+		th, td {
+			padding: 15px;
+			text-align: left;
+		}
+		table tr:nth-child(even) {
+			background-color: #eee;
+		}
+		table tr:nth-child(odd) {
+			background-color: #fff;
+		}
+		table th {
+			background-color: #707070;
+			color: white;
+		}
+	</style>
+</head>
+
+<body>
+<div class="tab">
+	<button class="tablinks" onclick="openTab(event, 'calendar')" id="idCalendar">Calendar</button>  
+	<button class="tablinks" onclick="openTab(event, 'sprint-01')" id="idSprint1">Sprint 1</button>
+	<button class="tablinks" onclick="openTab(event, 'sprint-02')" id="idSprint2">Sprint 2</button>
+	<button class="tablinks" onclick="openTab(event, 'sprint-03')" id="idSprint3">Sprint 3</button>
+	<button class="tablinks" onclick="openTab(event, 'sprint-04')" id="idSprint4">Sprint 4</button>
+	<button class="tablinks" onclick="openTab(event, 'sprint-05')" id="idSprint5">Sprint 5</button>
+	<button class="tablinks" onclick="openTab(event, 'sprint-06')" id="idSprint6">Sprint 6</button>
+	<button class="tablinks" onclick="openTab(event, 'sprint-07')" id="idSprint7">Sprint 7</button>
+	<button class="tablinks" onclick="openTab(event, 'sprint-08')" id="idSprint8">Sprint 8</button>
+	<button class="tablinks" onclick="openTab(event, 'credits')">Credits</button>
+</div>
+
+<div id="sprint-01" class="tabcontent">
+	<h3>Software Engineering</h3>
+	<h3>Sprint 1: Getting Started, Software Engineering Methods, Software as a Service, and Tools of the Trade</h3>
+
+	<p><em>Welcome to Software Engineering!</em> By this point in your software development journey
+	I'm sure that you are confident in writing moderately complicated software programs. You've
+	learned about structured programming techniques like sequence, selection, and repetition. You've
+	learned how to break complicated programs down into more manageable pieces by using functions.
+	You've even understand Object-Oriented Programming can help you develope more complex
+	applications by utilizing encapsulation, inheritance, and polymorphism. </p>
+
+	<p>That's wonderful, however to create sophisticated modern programs we need to master some
+	additional skills that allow us to effectively work across teams to predictably develop, enhance,
+	and maintain complex systems that meet real users needs.  These additional Software Engineering
+	skills are included in what we call the Software Development Life Cycle and include topics like
+	Project Management, Architecture, Requirements, Testing, Support, and Maintenance. These are some of
+	the topics that we will be exploring as part of this Software Engineering course.</p>
+
+	<p>You have likely noticed that I am using the term “sprint 1” to describe our first set of course
+	activities and assignments. Sprints are part of the Scrum development process. The term is used to
+	describe a unit of work which will be delivered in a given amount of time. We will be learning
+	more about sprints, Scrum, and Agile development in the coming days. For now it is sufficient to
+	know that our sprint 1 activities listed below are expected to take approximately 20 hours of
+	focused effort to complete.</p>
+
+	<p>Let's start with what we hope to learn in sprint 1. By the end of sprint 1 we will be able to:</p>
+	<ul style="list-style-type:square">
+		<li>describe the basic steps in the Software Development Life Cycle (SDLC)</li>
+		<li>compare and contrast software life cycle methodologies</li>
+		<li>explain why agile development has become the preferred software development process</li>
+		<li>define software quality</li>
+		<li>describe software as a service and its benefits</li>
+		<li>explain legacy code</li>
+		<li>list the pros and cons of cloud computing</li>
+		<li>describe client-server, three-tier and MVC design patterns</li>
+	</ul>
+
+	<p>Below is our sprint 1 activities list. Although you are welcome to pursue the activities in any order, they are
+	listed in the order I think will be the most beneficial for you to work through the topics. Each item is expected to
+	take 10 to 30 minutes of focused time unless otherwise noted. Highlighted activities are
+	<em>directly</em> related to graded assignments.</p>
+	<ol>
+		<li>Review our course syllabus 
+			<a href="https://cpsc-44000.azurewebsites.net/cpsc-44000-2020-01-spring-lt1-syllabus.pdf" target="_blank">[pdf]</a>
+			and familiarize yourself with our Blackboard course structure</li>
+		<li><em>Review our week 1 / sprint 1 assignments in Blackboard that include two discussion boards, quiz 1, lab
+			1, and a journal entry</em></li>
+		<li>Understand how Blended Learning, Flipped Classroom, and Online class formats relate by reviewing "Blended
+			Learning & Flipped Classroom" 
+			<a href="https://www.youtube.com/watch?v=paQCE58334M&vl=en-US" target="_blank">[video]</a></li>
+		<li>Develop a basic understanding of Scrum by reviewing “Introduction to Scrum in 7 Minutes”
+			<a href="https://www.youtube.com/watch?v=9TycLR0TqFA" target="_blank">[video]</a></li> 
+		<li>Read Chapter 1 of “Engineering Software as a Service: An Agile Approach Using Cloud Computing” by Armando Fox
+			and David Patterson (Fox) and review our class lecture on Chapter 1
+			<a href="https://botb.blob.core.windows.net/ovun/nt1x35m58.html?name=chapter-01-lecture.mp4" target="_blank">[video]</a> ~2 hours</li>
+		<li>Review everything that came before Chapter 1 including Preface in our Fox textbook 
+			<a href="https://botb.blob.core.windows.net/ovun/nt1x35m58.html?name=chapter-00-lecture.mp4" target="_blank">[video]</a></li>  
+		<li><em>Consistently work on your sprint 1 assignments throughout the sprint ~6 hours</em></li>
+		<li><em>Complete discussion board initial posts (DB* & DB1) by the middle of the sprint</em></li>
+		<li>Read Chapter 2 of Fox and review our class lecture on Chapter 2 
+			<a href="https://botb.blob.core.windows.net/ovun/nt1x35m58.html?name=chapter-02-lecture.mp4" target="_blank">[video]</a></li> 
+		<li>Review navigation of your computer local file system utilizing MacOS terminal, 
+			<a href="https://cpsc201908fallsa.blob.core.windows.net/classrecordings/macos-setup-terminal-finder-and-git.mp4" 
+				target="_blank">[video]</a>, 
+			MS Windows PowerShell
+			<a href="http://mediaatoz.blob.core.windows.net/environment-configuration/powershell-windows10-setup.mp4" 
+				target="_blank">[video]</a>,
+			or Linux</li>
+		<li>Install the Git command line client 
+			<a href="https://mediaatoz.blob.core.windows.net/environment-configuration/git-installation-on-windows-10.mp4"
+				target="_blank">[video]</a>
+			<a href="https://git-scm.com/" target="_blank">[git]</a></li>
+		<li>Create a GitHub account 
+			<a href="https://help.github.com/" target="_blank">[link]</a>
+			optionally utilizing the Student Developer Pack
+			<a href="https://help.github.com/en/articles/applying-for-a-student-developer-pack" target="_blank">[link]</a> (recommended)</li>
+		<li>Become comfortable with using Git and GitHub to manage development documents by completing the following tutorials:
+		<ul style="list-style-type:square">
+			<li>“An Intro to Git and GitHub for Beginners” from the GitHub website
+				<a href="https://guides.github.com/activities/hello-world/" target="_blank">[link]</a></li>
+			<li>“An Intro to Git and GitHub for Beginners” from HubSpot 
+				<a href="https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners" target="_blank">[link]</a></li>
+			<li>Review the “Git Handbook” guide
+				<a href="https://guides.github.com/introduction/git-handbook/" target="_blank">[link]</a></li>
+		</ul></li>
+		<li>Install the Microsoft Visual Studio Code text editor and the FireFox or Chrome web browser
+			<a href="https://mediaatoz.blob.core.windows.net/environment-configuration/mscode-and-chrome-windows10-setup.mp4" target="_blank">
+				[video]</a>
+			<a href="https://code.visualstudio.com/" target="_blank">[code]</a>
+			<a href="https://www.mozilla.org/en-US/firefox/" target="_blank">[firefox]</a>
+			<a href="https://www.google.com/chrome/" target="_blank">[chrome]</a></li>
+		<li>Begin working on the "HTML5 Tutorial" from W3C  
+			<a href="https://www.w3schools.com/html/">[link]</a> while attempting to elegantly format our course
+			syllabus into an HTML 5 document</li>
+		<li>Setup a Microsoft Azure Student account
+			<a href="https://azure.microsoft.com/en-us/free/students/" target="_blank">[link]</a>,
+			or set up a regular Azure account with a free trial subscription
+			<a href="https://azure.microsoft.com/en-us/free/" target="_blank">[link]</a></li>
+		<li>Briefly review the following short videos on 
+			HTML <a href="https://www.youtube.com/watch?v=wy6O5hAjKAo" target="_blank">[video]</a>,
+			CSS <a href="https://www.youtube.com/watch?v=AfBK2Masemk" target="_blank">[video]</a>,
+			Cookies <a href="https://www.youtube.com/watch?v=Xlt7xeqVfO4" target="_blank">[video]</a>,
+			HTML Attributes <a href="https://www.youtube.com/watch?v=X5ArSbUea_o" target="_blank">[video]</a>,
+			Ruby MVC Create and Update <a href="https://www.youtube.com/watch?v=XXrYmVzjTKQ" target="_blank">[video]</a>,
+			and HAML <a href="https://www.youtube.com/watch?v=yX1tMdBuG3g" target="_blank">[video]</a></li>
+		<li><em>Complete and submit all sprint 1 assignments including Lab 1, Quiz 1, final DB posts, and your Journal entry</em></li>
+	</ol><br>
+	<p>Additional references:</p>
+	<ul>
+		<li>Activate the Microsoft 365 account that is available to you free through Lewis University by going to the
+			Office 365 website
+			<a href="https://www.office.com" target="_blank">[link]</a> and signing in with your Lewis University ID
+			(<em>username</em>@lewisu.edu) password</li>
+		<li>Git/GitHub Cheat Sheet 
+			<a href="https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf" target="_blank">[link]</a></li> 
+	</ul>
+</div>
+
+<div id="sprint-02" class="tabcontent">
+	<h3>Software Engineering</h3>
+	<h3>Sprint 2: Node.js, JavaScript, Ruby on Rails, and Azure</h3>
+
+	<p><em>Welcome to sprint 2.</em> We covered a lot of material in sprint 1. However, we didn't get a
+	chance to write much code. This sprint get your code editors out. We are going to start practicing some of the
+	concepts we learned.</p>
+
+	<p>By the end of sprint 2 we will be able to:</p>
+	<ul style="list-style-type:square">
+		<li>Write simple HTML, CSS, Javascript, and Node.js applications and install them to Azure</li>
+		<li>Understand simple Ruby programs using basic control structures and data structures</li>
+		<li>Write and interpret regular expressions</li>
+		<li>Comfortably be able to utilize single-developer workflow with Git and GitHub</li>
+	</ul>
+
+	<p>Below is the list of activities that we will need to complete this sprint. Once again you are welcome to
+	pursue the activities in any order you prefer. However, they are listed in the order I think will be the most
+	beneficial for you to work through the topics. The time commitment for each line item is generally 20 to 40
+	minutes unless otherwise noted.</p>
+	<ol>
+		<li><em>Review our sprint 2 assignments in Blackboard that include discussion board 2, quiz 2, lab 2 and a
+		journal entry</em></li>
+		<li>Read Chapter 6 of Fox on developing SaaS client applications in JavaScript using technologies like AJAX and
+			JSON and review the associated class lecture 
+			<a href="https://botb.blob.core.windows.net/ovun/nt1x35m58.html?name=chapter-06-lecture.mp4"
+			target="_blank">[video]</a></li>
+		<li>Briefly scan Chapters 3, 4, and 5 of Fox and review the associated class lecture 
+			<a href="https://botb.blob.core.windows.net/ovun/nt1x35m58.html?name=chapter-03-lecture.mp4"
+			target="_blank">[video]</a></li>
+		<li>Sign up for Safari Books Online which is available to you free through Lewis University
+			<a href="https://www.oreilly.com/library/view/temporary-access/" target="_blank">[link]</a></li>
+		<li>Within Safari Books Online execute searches for combinations of Node.js, Azure, JavaScript, TypeScript,
+			Express, Git, GitHub, JSON, and maybe Sails and review the results</li>
+		<li>Analyze and commit to adopting the “How to Be a Success Programmer” suggestions that you feel are the
+			most important 
+			<a href="https://cpsc-24500.azurewebsites.net/successful-programmer.html" target="_blank">[link]</a></li>
+		<li>Complete the "HTML5 Tutorial" from W3C 
+			<a href="https://www.w3schools.com/html/" target="_blank">[link]</a> while attempting to elegantly format our course
+			syllabus into an HTML 5 document</li>
+		<li>Complete the "CSS Tutorial" from W3C 
+			<a href="https://www.w3schools.com/css/" target="_blank">[link]</a> while enhancing our formatted course syllabus using both
+			HTML and CSS</li>
+		<li><em>Consistently work on your sprint 2 assignments throughout the sprint ~12 hours</em></li>
+		<li><em>Complete discussion board initial DB2 post by the middle of the sprint</em></li>
+		<li>Activate the Microsoft 365 account that is available to you free through Lewis University by going to the
+			Office 365 website and install the products as needed to up to 5 devices
+			<a href="https://www.office.com" target="_blank">[link]</a> and signing in with your Lewis University ID
+		<li>Start working on the “JavaScript tutorial” also from W3C
+			<a href="https://www.w3schools.com/js/" target="_blank">[link]</a> with an eye toward how we might utilize
+			JavaScript and eventually JSON to dynamically create a data driven implementation of our Syllabus
+			formatter</li>
+		<li>Review Regular Expressions and how to effectively utilize them within JavaScript
+			<a href="https://www.w3schools.com/jsref/jsref_obj_regexp.asp" target="_blank">[link]</a></li>
+		<li>Read and Understand the article “What is JSON? JavaScript Object Notation explained” 
+			<a
+			href="https://www.infoworld.com/article/3222851/javascript/what-is-json-javascript-object-notation-explained.html"
+			target="_blank">[link]</a></li> 
+		<li>Read and Understand “JSON Introduction” from W3C 
+			<a href="https://www.w3schools.com/js/js_json_intro.asp" target="_blank">[link]</a></li> 
+		<li>Read Fox sections "A.6 Getting Started With Git for Version Control" and "A.7 Getting Started with GitHub"
+		<li><em>Complete and submit all sprint 2 assignments including Lab 2, Quiz 2, Discussion Board 2, and your Journal entry</em></li>
+	</ol><br>
+
+	<p>Additional references:</p>
+	<ul style="list-style-type:square">
+		<li>Git/GitHub Cheat Sheet  
+		<a href="https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf"
+			target="_blank">[link]</a></li> 
+	</ul> 
+</div>
+
+<div id="sprint-03" class="tabcontent">
+	<h3>Software Engineering</h3>
+	<h3>Sprint 3: Application Requirements, Behavior-Driven Design, Node.js, and Azure, </h3>
+
+	<p>Welcome to sprint 3. This sprint we are going to be focused on Node.js as a platform for Saas. We will be
+	utilizing in a book from our Safari Books Online in order to help us learn more about the Node.js platform. The book
+	that we are utilizing learn more about Node.js and the Express framework is “Web Development with Node and Express,
+	2nd Edition” by Ethan Brown. You will also notice that starting in sprint 3 the assignments are becoming more open-ended and less
+	prescriptive. I also want to encourage you to collaborate more with your peers as you work through some of the open-ended topics.
+
+	<p>By the end of sprint 3 we will be able to:</p>
+	<ul style="list-style-type:square">
+		<li>Understand how client-side HTML, CSS, JavaScript, and Bootstrap applications can be hosted using Node.js and Express</li>
+		<li>Create and modify basic Node.js utilizing server-side JavaScript applications</li>
+		<li>Migrate all of your HTML, CSS, JavaScript, and Bootstrap applications over to a single Node.js hosted site running locally</li>
+		<li>Create a basic Node.js application on Azure</li>
+	</ul>
+	<p>Below is the list of activities that we will need to complete this sprint.</p>
+	<ol>
+		<li><em>Review our sprint 3 assignments in Blackboard that include discussion board 3, quiz 3, lab 3 and a
+		journal entry 3</em></li>
+		<li>Recall signing up for Safari Books Online which is available to you free through Lewis University
+			<a href="https://www.oreilly.com/library/view/temporary-access/" target="_blank">[link]</a></li>
+		<li>Within Safari Books Online find “Web Development with Node and Express, 2nd Edition” by Ethan Brown (Brown)
+			and preview the preface and first four chapters of the book
+		<li>Thoroughly read chapters 1 and 2 of Brown while completing each of the exercises</li>
+		<li><em>Consistently work on your sprint 3 assignments throughout the sprint ~12 hours</em></li>
+		<li><em>Complete discussion board initial DB3 post by the middle of the sprint</em></li>
+		<li>Thoroughly read chapters 3 and 4 of Brown while completing each of the exercises</li>
+		<li>Review the “Node.js Tutorial” also from W3C
+			<a href="https://www.w3schools.com/nodejs/" target="_blank">[link]</a></li>
+		<li>Review Section 4.5 of Fox on Debugging</li>
+		<li>Read Chapter 7 of Fox on Requirements</li>
+		<li><em>Complete and submit all sprint 3 assignments including discussion board 3, quiz 3, lab 3 and a journal
+			entry 3</em></li>
+	</ol><br>
+
+	<p>Additional references:</p>
+	<ul style="list-style-type:square">
+		<li>Git/GitHub Cheat Sheet  
+		<a href="https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf"
+			target="_blank">[link]</a></li> 
+	</ul> 
+</div>
+
+<div id="sprint-04" class="tabcontent">
+	<h3>Software Engineering</h3>
+	<h3>Sprint 4: Testing, Test-Driven Development, Express, Node.js, and Azure</h3>
+
+	<p>Welcome to sprint 4. This sprint we are going to be focused focused on learning about Testing and Test-Driven
+	Development while we add the Express library to our Node.js and Azure a platform for software as a service (Saas).
+	We will continue to utilize the “Web Development with Node and Express, 2nd Edition” by Ethan Brown from our Safari
+	Online library to help prepare us for our final projects. 
+
+	<p>By the end of sprint 4 we will be able to:</p>
+	<ul style="list-style-type:square">
+		<li>Utilize client-side HTML, CSS, JavaScript, and Bootstrap to create client applications</li>
+		<li>Create and modify basic Node.js, Express, and JavaScript to create server-side applications</li>
+		<li>Migrate all of our previous HTML, CSS, JavaScript, and Bootstrap applications over to a single Node.js
+		hosted site in Azure</li>
+	</ul>
+	<p>Below is the list of activities that we will need to complete this sprint.</p>
+	<ol>
+		<li><em>Review our sprint 4 assignments in Blackboard that include discussion board 4, quiz 4, lab 4, and
+		journal entry 4</em></li>
+		<li>Recall signing up for Safari Books Online which is available to you free through Lewis University
+			<a href="https://www.oreilly.com/library/view/temporary-access/" target="_blank">[link]</a></li>
+		<li>Within Safari Books Online find “Web Development with Node and Express, 2nd Edition” by Ethan Brown (Brown)
+			and preview the preface and first four chapters of the book
+		<li>Thoroughly read chapters 5 of Brown while completing each of the exercises</li>
+		<li>Thoroughly read chapters 6 of Brown while completing each of the exercises</li>
+		<li><em>Consistently work on your sprint 4 assignments throughout the sprint ~12 hours</em></li>
+		<li><em>Complete discussion board initial DB4 post by the middle of the sprint</em></li>
+		<li>Review W3C Tutorials on HTML, CSS, JavaScript, Bootstrap, and Node.js as needed</li>
+		<li>Read Chapter 8 of Fox on Test-Drive Development</li>
+		<li><em>Complete and submit all sprint 4 assignments including discussion board 4, quiz 4, lab 4, and journal
+			entry 4</em></li>
+	</ol><br>
+
+	<p>Additional references:</p>
+	<ul style="list-style-type:square">
+		<li>Git/GitHub Cheat Sheet  
+		<a href="https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf"
+			target="_blank">[link]</a></li> 
+	</ul>
+</div>
+
+<div id="sprint-05" class="tabcontent">
+	<h3>Software Engineering</h3>
+	<h3>Sprint 5: Software Maintenance, Final Project Proposal, and production Azure Site Setup</h3>
+
+	<p>Welcome to sprint 5. This sprint marks the start of our final project. Think of this sprint as your final project
+	sprint 1 (of 4). In this sprint you will be defining your final project in terms Epics and User Stories, submitting
+	them as part of Lab 5, and sharing them with your classmates' as part of Discussion Board 5. If you would like to
+	work on your final project with a partner, this will also be the time for you to find a partner.</p>
+
+	<p>Now that we have demonstrated our ability to work in a HTML, CSS, JavaScript, Bootstrap, and Node.js software as
+	a service (Saas) environment, we will be setting up the production environment for our final project and migrating
+	all of our previous application/lab assignments to that new site.</p>
+
+	<p>Finally, we will be continuing our software engineering process knowledge journey by studying software
+	maintenance.<p>
+
+	<p>By the end of sprint 5 we will be able to:</p>
+	<ul style="list-style-type:square">
+		<li>Utilize our knowledge of Agile requirements to develop our final project proposal utilizing Epics and
+		Stories</li>
+		<li>Setup our production Azure Node.js site for our final project and migrate all of our previous application to
+		the new site</li>
+		<li>Fully test and verify our production site and its applications</li>
+		<li>Explain why change is inevitable for software systems and describe the processes involved in software
+		evolution</li>
+		<li>Assess whether a legacy system should be scrapped, maintained, re-engineered or replaced</li>
+	</ul>
+	<p>Below is the list of activities that we will need to complete this sprint.</p>
+	<ol>
+		<li><em>Review our sprint 5 assignments in Blackboard that include discussion board 5, quiz 5, lab 5, and
+		reflections 5</em></li>
+		<li><em>Develop your final project proposal by providing Agile Epics and Stories that describe the intended application 
+			functionality from a user perspective and by providing it an excellent name</em></li>
+		<li>Review the Agile Alliance site <a href="https://www.agilealliance.org/" target="_blank">[link]</a>, analyze
+			“Agile 101” (you should understand these topics), and perform a quick overview of the “Agile Glossary”</li>
+		<li><em>Complete discussion board initial DB5 post by the middle of the sprint</em></li>
+		<li><em>Setup your production final project Node.js based website and migrate all of the applications that you
+		developed previously in this class to the new site</em></li>
+		<li>Create and execute a test plan on the production site that verifies that the site and all migrated 
+		applications are correctly up and running</li>
+		<li>Read Chapter 9 of Fox on Software Maintenance</li>
+		<li><em>Complete and submit all sprint 5 assignments including discussion board 5, quiz 5, lab 5, and
+		reflections 5</em></li>
+	</ol><br>
+
+	<p>Additional references:</p>
+	<ul style="list-style-type:square">
+		<li>Git/GitHub Cheat Sheet  
+		<a href="https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf"
+			target="_blank">[link]</a></li> 
+	</ul> 
+</div>
+
+<div id="sprint-06" class="tabcontent">
+	<h3>Software Engineering</h3>
+	<h3>Sprint 6: Project Management, Serverless Computing, and Final Project</h3>
+
+	<p>Welcome to sprint 6. This sprint will see us splitting our time between working on our final project, implementing 
+	our first serverless computing services utilizing Azure Functions, and learning more about project management.</p>
+
+	<p>By the end of this sprint we will be able to:</p>
+	<ul style="list-style-type:square">
+		<li>Utilize your knowledge of Agile development and Saas to deliver the first features of our final project</li>
+		<li>Understand where serverless computing fits in to modern software architecture</li>
+		<li>Write your first serverless computing application utilizing Azure Functions</li>
+		<li>Understand Project Management, Scrum, Pairs, and VCS</li>
+		<li>Understand the basics of Scaled Agile</li>
+	</ul>
+	<p>Below is the list of activities that we will need to complete this sprint.</p>
+	<ol>
+		<li><em>Review our sprint 6 assignments in Blackboard that include discussion board 6, quiz 6, lab 6, and
+			reflections 6</em></li>
+		<li>Start working on your final project project and implement the start implementing the functionality that you 
+			identified in the highest priority stories last sprint</li>
+		<li>Update your final project Requirements for next sprint and document your commitment for what you will 
+			accomplish next sprint</li>
+		<li>Recall signing up for Safari Books Online which is available to you free through Lewis University
+			<a href="https://www.oreilly.com/library/view/temporary-access/" target="_blank">[link]</a></li>
+		<li><em>Complete discussion board initial DB6 post by the middle of the sprint</em></li>
+		<li>Within Safari Books Online do a search on “Azure Functions” and “Serverless Computing”</li>
+		<li>Scan the resulting books and identify what you think is the best source of information on both topics</li>
+		<li>Read/Watch and Analyze the following cloud services material below:
+		<ul style="list-style-type:square">
+			<li>Analyze Microsoft Serverless Computing
+				<a href="https://azure.microsoft.com/en-us/overview/serverless-computing/" target="_blank">[link]</a></li>
+			<li>Analyze AWS Lambda 
+				<a href="https://aws.amazon.com/lambda/" target="_blank">[link]</a></li>
+			<li>Analyze Google App Engine
+				<a href="https://cloud.google.com/appengine/" target="_blank">[link]</a></li>
+		</ul></li>
+		<li>Build a serverless computing Azure Function utilizing information and tutorials referenced above or possibly
+		utilizing an “Additional resources” link below</li>
+		<li>Within Safari Books Online find the book “Scaling Software Agility: Best Practices for Large Enterprises” by
+			Dean Luffingwell and read chapters 1 and 2 paying close attention to the “Assumptions Underlying The Model”
+			section</li>
+		<li>Read Chapter 10 of Fox on Project Management, Scrum, Pairs, and VCS</li>
+		<li><em>Complete and submit all sprint 6 assignments including responding back to one of your classmates' 
+			discussion board 6 post, quiz 6, lab 6, and reflections 6</em></li>
+	</ol><br>
+
+	<p>Additional references:</p>
+	<ul style="list-style-type:square">
+		<li>Azure serverless computing tutorial
+			<a href="https://mikepfeiffer.io/blog/azure-serverless-101"
+			target="_blank">[link]</a></li>
+		<li>Git/GitHub Cheat Sheet  
+		<a href="https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf"
+			target="_blank">[link]</a></li> 
+	</ul>
+</div>
+
+<div id="sprint-07" class="tabcontent">
+	<h3>Software Engineering</h3>
+	<h3>Sprint 7: Design Patterns, Model-View-Controller, Application Architecture, and Final Project</h3>
+
+	<p>Welcome to sprint 7. This sprint will see us focussing more on our final project while we also take a look
+	at the important topic of Design Patterns.</p>
+
+	<p>By the end of this sprint we will be able to:</p>
+	<ul style="list-style-type:square">
+		<li>Utilize your knowledge of Agile development and Saas to deliver additional features for our final project</li>
+		<li>Understand Design Patterns with a particular focus on the Model-View-Controller pattern</li>
+		<li>Understand Application architecture particularly as it relates to Object-Oriented Programming and Databases</li>
+	</ul>
+	<p>Below is the list of activities that we will need to complete this sprint.</p>
+	<ol>
+		<li><em>Review our sprint 7 assignments in Blackboard that include discussion board 7, quiz 7, lab 7, and
+			reflections 7</em></li>
+		<li>Continue working on your final project project and implement and test additional high priority functionality that you 
+			identified last sprint</li>
+		<li>Update your final project Requirements for next sprint and document your commitment for what you will 
+			accomplish next sprint</li>
+		<li>Recall signing up for Safari Books Online which is available to you free through Lewis University
+			<a href="https://www.oreilly.com/library/view/temporary-access/" target="_blank">[link]</a></li>
+		<li>Within Safari Books Online find the book “Design Patterns: Elements of Reusable Object-Oriented Software” by
+			Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides and read everything through chapter 1 paying close
+			attention to the “Guide to Readers” and “Model/View/Controller” sections</li>
+		<li>Read Chapter 11 of Fox on Design Patterns</li>
+		<li>Complete "Application Architectures, Object-Oriented Programming, and Databases - Part 1" 
+			<a href="https://mediaatoz.blob.core.windows.net/object-oriented-programming/application-architecture-part1.mp4" 
+			target="_blank">[link]</a></li>
+		<li><em>Complete and submit all sprint 7 assignments including your initial discussion board post, responding
+			back to one of your classmates' discussion board 7 post, quiz 7, lab 7, and reflections 7</em></li>
+	</ol><br>
+</div>
+
+<div id="sprint-08" class="tabcontent">
+	<h3>Software Engineering</h3>
+	<h3>Sprint 8: Final project, Software Architecture, Performance, Releases, Reliability, and Security</h3>
+
+	<p>Welcome to sprint 8. Stay focused on your final project. We will be learning about a couple other topics, but this
+	sprint is all about your final project.</p>
+
+	<p><em>It is important to remember that in our final sprint all assignments are due Thursday at 11:59pm CT. You do have a grace
+	period until 6am CT the morning of Friday, March 6th to submit them.</em></p>
+
+	<p>By the end of this sprint we will be able to:</p>
+	<ul style="list-style-type:square">
+		<li>Utilize your knowledge of Agile development and Saas to deliver a final project that you are proud of creating</li>
+		<li>Understand Software Architecture including performance, releases, reliability, and security</li>
+		<li>Enhance your understanding of application architecture, Object-Oriented Programming, and Databases</li>
+	</ul>
+
+	<p>Below is the list of activities that we will need to complete this sprint.</p>
+	<ol>
+		<li><em>Review our sprint 8 assignments in Blackboard that include discussion board 8, quiz 8, lab 8, and
+			reflections 8</em></li>
+		<li>Stay focused on your final project by implementing and testing the additional high priority functionality
+			that you identified last sprint</li>
+		<li>Read Chapter 12 of Fox on Project Management, Scrum, Pairs, and VCS</li>
+		<li>Complete "Application Architectures, Object-Oriented Programming, and Databases - Part 2" 
+			<a href="https://mediaatoz.blob.core.windows.net/object-oriented-programming/application-architecture-part2.mp4" 
+			target="_blank">[link]</a></li>
+		<li style="color:red"><em>Complete and submit all sprint 8 assignments including quiz 8, lab 8, and reflections
+			8 by Thursday (March 5th) at 11:59pm CT</em></li>
+	</ol>
+	<p>Let's finish strong and deliver something that makes us proud.</p>	
+</div>
+
+<div id="calendar" class="tabcontent">
+  <h3>Calendar</h3>
+  <p id="calendar-id">
+</div>
+
+<div id="credits" class="tabcontent">
+	<h3>Developed by Eric Pogue</h3>
+	<p id="last-updated">
+	<br><br>
+	<pre>
+  The MIT License
+
+  Copyright (c) 2020 Eric Pogue
+
+  Permission is hereby granted, free of charge, 
+  to any person obtaining a copy of this software and 
+  associated documentation files (the "Software"), to 
+  deal in the Software without restriction, including 
+  without limitation the rights to use, copy, modify, 
+  merge, publish, distribute, sublicense, and/or sell 
+  copies of the Software, and to permit persons to whom 
+  the Software is furnished to do so, 
+  subject to the following conditions:
+
+  The above copyright notice and this permission notice 
+  shall be included in all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, 
+  EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES 
+  OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. 
+  IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR 
+  ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, 
+  TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE 
+  SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+	</pre>
+</div>
+
+<script>
+function openTab(evt, tabName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(tabName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+function getCSTDate(dateIn, includeYear, includeTime) {
+  var months = ['January','February','March','April','May','June','July',
+                'August','September','October','November','December'];
+  var days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
+  var date = new Date(dateIn);
+
+  // CST is UTC -0600 so subtract 6 hours and use UTC values
+  date.setUTCHours(date.getUTCHours() - 6);  
+
+  var dateString = days[date.getUTCDay()] + ', ' +
+        months[date.getUTCMonth()] + ' ' +
+        date.getUTCDate();
+        
+  if (includeYear) {
+    dateString = dateString + ', ' + date.getUTCFullYear();
+  }
+   
+  if (includeTime) {
+    dateString = dateString + ' ' + 
+        ((date.getUTCHours()%12) || 12) + ':' +
+        ('0' + date.getUTCMinutes()).slice(-2) + ' ' +
+        (date.getUTCHours() < 12? 'AM CT':'PM CT');
+  }
+
+  return dateString;
+}
+
+function createCalendar(termID, classID) {
+  // Events must be listed in date order and can only have one event per sprint. Start times should all be 8:00 (8am)
+  // and end times should all be 20:00 (10pm) to minimize chance of daylight savings time and timezone differences. 
+  const eventsSpring2020 = [                                                       
+      {'description':'Martin Luther King Day', 'start':'Mon Jan 20 2020 08:00:00 GMT-0600', 'end':'Mon Jan 20 2020 20:00:00 GMT-0600', 'add':0},
+      {'description':'Spring Break**',         'start':'Mon Mar 09 2020 08:00:00 GMT-0600', 'end':'Fri Mar 13 2020 08:00:00 GMT-0600', 'add':7},
+      {'description':'Easter Holiday',         'start':'Thu Apr 09 2020 08:00:00 GMT-0600', 'end':'Mon Apr 13 2020 08:00:00 GMT-0600', 'add':0},
+      {'description':'Final Exams',            'start':'Mon May 04 2020 08:00:00 GMT-0600', 'end':'Fri May 08 2020 08:00:00 GMT-0600', 'add':0}
+  ]; 
+  let events = eventsSpring2020;
+  let nextEventIndex = 0;
+
+  const classtermSpring2020 = {
+    "sprint1Start":"Mon Jan 13 2020 08:00:00 GMT-0600",
+    "sprint1End":  "Sun Jan 26 2020 23:59:00 GMT-0600",
+    "daysPerSprint":14
+  }
+
+  const classtermSpring2020Lt = {
+    "sprint1Start":"Mon Jan 13 2020 08:00:00 GMT-0600",
+    "sprint1End":  "Sun Jan 19 2020 23:59:00 GMT-0600",
+    "daysPerSprint":7
+  }
+
+  let classData = classtermSpring2020;
+  if (classID == "lt") {
+    classData = classtermSpring2020Lt;
+  }
+
+  let sprintStartDate = new Date(classData.sprint1Start);
+  //console.log("Sprint 1 Start Date (should be Monday 8:00 CT:\n"+sprintStartDate);
+
+  let sprintEndDate = new Date(classData.sprint1End);
+  //console.log("Sprint 1 End Date (should be Sunday 23:59 CT:\n"+sprintEndDate);
+
+  let daysPerSprint = Math.round(sprintEndDate.getUTCDate() - sprintStartDate.getUTCDate());;
+  //console.log("Days Per Sprint (should be 7 or 14):\n"+daysPerSprint);
+
+  let currentDate = new Date();
+  // To test future dates, uncomment following line:
+  // currentDate = new Date("Mon Mar 09 2020 18:00:00 GMT-0600");
+  // console.log("Current Date/Time:\n"+currentDate);  
+
+  var table = "<table>";
+  table = table +"<tr>";
+  table = table +"<th></th>";
+  table = table +"<th>Sprint End</th>";
+  table = table +'<th style="text-align:center">Duration</th>';
+  table = table +"<th>Notes</th>";
+  table = table +"</tr>";
+
+  let dateAdjustment = 0; // BugBug
+  for (i=0; i<8; i++) {
+    if (i!=0) {
+	  if (i<7) {
+      	sprintStartDate.setUTCDate(sprintStartDate.getUTCDate() + daysPerSprint);
+      	sprintEndDate.setUTCDate(sprintEndDate.getUTCDate() + daysPerSprint);
+	  } else {
+		// Hard code values for Sprint 8. 
+		// BugBug: Fix this calculation by making it more generic. 
+		dateAdjustment = 3;
+      	sprintStartDate.setUTCDate(sprintStartDate.getUTCDate() + daysPerSprint);
+      	sprintEndDate.setUTCDate(sprintEndDate.getUTCDate() + daysPerSprint - dateAdjustment);
+		daysPerSprint = 5;
+	  }
+    }
+
+    // Debug code:
+    // console.log("Start Date UTCDate():\n"+sprintStartDate);  
+    // console.log("End Date UTCDate():\n"+sprintEndDate);  
+    // console.log("Current Date UTCDate():\n"+currentDate); 
+    var highlightRow = false;
+    if ((currentDate > sprintStartDate)&&(currentDate < sprintEndDate)) {
+      highlightRow = true;
+    }
+
+    var currentNote = "";
+    var nextEventDate = new Date(events[nextEventIndex].start);
+
+    let duration = daysPerSprint;
+    if (nextEventDate < sprintEndDate) {
+      currentNote = events[nextEventIndex].description;
+
+      if (events[nextEventIndex].add > 0) {
+        sprintEndDate.setUTCDate(sprintEndDate.getUTCDate() + events[nextEventIndex].add);
+        duration += events[nextEventIndex].add;
+      }
+        
+      nextEventIndex++;
+    }
+
+    let endDate = getCSTDate(sprintEndDate, true, true);
+    if (i!=0) {
+      endDate = getCSTDate(sprintEndDate, true, true);
+    }
+
+    if (highlightRow) {
+      table = table +'<tr style="background-color:#adebdb">';
+      table = table + '<td><em>Sprint '+(i+1)+'</em></td><td><em>'+endDate+'</em></td><td style="text-align:center"><em>'+
+        duration+' days</em></td><td><em>'+currentNote+'</em></td>';
+
+    } else {
+      table = table +"<tr>";
+      table = table + '<td>Sprint '+(i+1)+'</td><td>'+endDate+'</td><td style="text-align:center">'+
+        duration+' days</td><td>'+currentNote+'</td>';
+    }
+    table = table +"</tr>";      
+  }
+
+  return table
+}
+
+var x = document.lastModified;
+document.getElementById("last-updated").innerHTML = "Last Update: "+x;
+
+// Get the element with id="defaultOpen" and click on it
+//document.getElementById("defaultOpen").click();
+
+// Parse URL for input parameters
+var vars = {};
+var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+  vars[key] = value;
+});
+
+// Get the term (ie. "2020s" for spring term 2020)from the URL.
+let termID = "";
+if (typeof vars["term-id"] !== 'undefined') {
+  termID = vars["term-id"];
+}
+
+// Get the class identifier (ie. "lt" for accelerated classes).
+// For this instance the default is being set to "lt" for accelerated. 
+let classID = "lt";
+if (typeof vars["classtype-id"] !== 'undefined') {
+  classID = vars["classype-id"];
+  console.log("classID="+classID);
+}
+
+// If In order for the calendar to be created we need the class start date and the length of each 
+// sprint. This should be included on the 
+document.getElementById("calendar-id").innerHTML = createCalendar(termID, classID);
+
+// Set default tab.
+// Get the class identifier (ie. "1" for sprint 1).
+let sprint = 0;
+let sprintID = "";
+if (typeof vars["sprint-id"] !== 'undefined') {
+  sprintID = vars["sprint-id"];
+  sprint = parseInt(sprintID, 10);
+}
+
+switch(sprint) {
+  case 1:
+    document.getElementById("idSprint1").click(); 
+  break;
+
+  case 2:
+    document.getElementById("idSprint2").click(); 
+  break;
+
+  case 3:
+    document.getElementById("idSprint3").click(); 
+  break;
+
+  case 4:
+    document.getElementById("idSprint4").click(); 
+  break;
+
+  case 5:
+    document.getElementById("idSprint5").click(); 
+  break;
+
+  case 6:
+    document.getElementById("idSprint6").click(); 
+  break;
+    
+  case 7:
+    document.getElementById("idSprint7").click(); 
+  break;
+
+  case 8:
+    document.getElementById("idSprint8").click(); 
+  break;
+    
+  default:
+    document.getElementById("idCalendar").click(); 
+} 
+
+</script>
+</body>
+</html>

@@ -19,6 +19,7 @@ import Tools from './Tools'
 import SuccessfulProgrammer from './SuccessfulProgrammer'
 import Calendar from './Calendar'
 import HeaderNav from './HeaderNav'
+import SESprint01 from './SESprint01'
 
 
 class Main extends Component {
@@ -44,6 +45,7 @@ class Main extends Component {
 		<Route path="/successful-programmer" component={SuccessfulProgrammer}/>
 		<Route path="/credits" component={Credits}/>
 		<Route path="/calendar" component={Calendar}/>
+		<Route path="/sprint01se" component={SESprint01}/>
 	</div>
 	
 </div>

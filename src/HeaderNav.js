@@ -48,6 +48,7 @@ class HeaderNav extends Component {
 						<NavDropdown.Item href="#calendar">Calendar</NavDropdown.Item>
 						<NavDropdown.Item href="#successful-programmer">Successful Programmer</NavDropdown.Item>
 						<NavDropdown.Item href="#tools">Tools</NavDropdown.Item>
+						<NavDropdown.Item href="#sprint01se">Sprint 1 - SE</NavDropdown.Item>
 					</NavDropdown>
 				<Nav.Link href="#credits">Credits</Nav.Link>
 			</Nav>

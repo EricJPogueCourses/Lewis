@@ -28,7 +28,7 @@ class OOPSprint08 extends React.Component {
 		<li>Complete "Application Architectures, Object-Oriented Programming, and Databases - Part 2"
 			<a href="https://mediaatoz.blob.core.windows.net/object-oriented-programming/application-architecture-part2.mp4"> [video]</a></li>
 		<li style={{color: "red"}}>All course assignments including Programming Assignment 8 Final Project and Quiz 8 must be
-			submitted by Wednesday, May 6th at 11:59pm CT</li>
+			submitted at least 2 hours prior to your final project review session</li>
 	</ol>
 	<p>Feel free to post a note in our class forum or to send me an email you have questions.</p><br />
 	<p>Additional references:</p>

@@ -1,4 +1,4 @@
-import React,  { Component } from 'react'
+import React, { Component } from 'react'
 import Table from 'react-bootstrap/Table'
 
 class Calendar extends Component {
@@ -79,14 +79,14 @@ class Calendar extends Component {
 		)
 	}
 
-    render() {
-    	return (
+	render() {
+		return (
 			<div>
 				<h4>Course Schedule</h4>
 				{this.createCalendarXL()}
-			</div>  
-        )
-    }
+			</div>
+		)
+	}
 }
 
 export default Calendar
