@@ -36,19 +36,27 @@ class HeaderNav extends Component {
 			<Nav className="mr-auto">
 				<Nav.Link href="#home">Lewis.education</Nav.Link>
 					<NavDropdown title="Activity Lists" id="basic-nav-dropdown">
-						<NavDropdown.Item href="#sprint01">Sprint 1</NavDropdown.Item>
-						<NavDropdown.Item href="#sprint02">Sprint 2</NavDropdown.Item>
-						<NavDropdown.Item href="#sprint03">Sprint 3</NavDropdown.Item>
-						<NavDropdown.Item href="#sprint04">Sprint 4</NavDropdown.Item>
-						<NavDropdown.Item href="#sprint05">Sprint 5</NavDropdown.Item>
-						<NavDropdown.Item href="#sprint06">Sprint 6</NavDropdown.Item>
-						<NavDropdown.Item href="#sprint07">Sprint 7</NavDropdown.Item>
-						<NavDropdown.Item href="#sprint08">Sprint 8</NavDropdown.Item>
+						<NavDropdown.Item href="#oop-sprint01">Sprint 1</NavDropdown.Item>
+						<NavDropdown.Item href="#oop-sprint02">Sprint 2</NavDropdown.Item>
+						<NavDropdown.Item href="#oop-sprint03">Sprint 3</NavDropdown.Item>
+						<NavDropdown.Item href="#oop-sprint04">Sprint 4</NavDropdown.Item>
+						<NavDropdown.Item href="#oop-sprint05">Sprint 5</NavDropdown.Item>
+						<NavDropdown.Item href="#oop-sprint06">Sprint 6</NavDropdown.Item>
+						<NavDropdown.Item href="#oop-sprint07">Sprint 7</NavDropdown.Item>
+						<NavDropdown.Item href="#oop-sprint08">Sprint 8</NavDropdown.Item>
+						<NavDropdown.Divider />
+						<NavDropdown.Item href="#se-sprint01">Sprint 1 - SE</NavDropdown.Item>
+						<NavDropdown.Item href="#se-sprint02">Sprint 2 - SE</NavDropdown.Item>
+						<NavDropdown.Item href="#se-sprint03">Sprint 3 - SE</NavDropdown.Item>
+						<NavDropdown.Item href="#se-sprint04">Sprint 4 - SE</NavDropdown.Item>
+						<NavDropdown.Item href="#se-sprint05">Sprint 5 - SE</NavDropdown.Item>
+						<NavDropdown.Item href="#se-sprint06">Sprint 6 - SE</NavDropdown.Item>
+						<NavDropdown.Item href="#se-sprint07">Sprint 7 - SE</NavDropdown.Item>
+						<NavDropdown.Item href="#se-sprint08">Sprint 8 - SE</NavDropdown.Item>
 						<NavDropdown.Divider />
 						<NavDropdown.Item href="#calendar">Calendar</NavDropdown.Item>
 						<NavDropdown.Item href="#successful-programmer">Successful Programmer</NavDropdown.Item>
 						<NavDropdown.Item href="#tools">Tools</NavDropdown.Item>
-						<NavDropdown.Item href="#sprint01se">Sprint 1 - SE</NavDropdown.Item>
 					</NavDropdown>
 				<Nav.Link href="#credits">Credits</Nav.Link>
 			</Nav>

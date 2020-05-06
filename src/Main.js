@@ -20,7 +20,13 @@ import SuccessfulProgrammer from './SuccessfulProgrammer'
 import Calendar from './Calendar'
 import HeaderNav from './HeaderNav'
 import SESprint01 from './SESprint01'
-
+import SESprint02 from './SESprint02'
+import SESprint03 from './SESprint03'
+import SESprint04 from './SESprint04'
+import SESprint05 from './SESprint05'
+import SESprint06 from './SESprint06'
+import SESprint07 from './SESprint07'
+import SESprint08 from './SESprint08'
 
 class Main extends Component {
 	render() {
@@ -33,19 +39,28 @@ class Main extends Component {
 
 	<div className="Main">
 		<Route exact path="/" component={OOPSprint01}/>
-		<Route path="/sprint01" component={OOPSprint01}/>
-		<Route path="/sprint02" component={OOPSprint02}/>
-		<Route path="/sprint03" component={OOPSprint03}/>
-		<Route path="/sprint04" component={OOPSprint04}/>
-		<Route path="/sprint05" component={OOPSprint05}/>
-		<Route path="/sprint06" component={OOPSprint06}/>
-		<Route path="/sprint07" component={OOPSprint07}/>
-		<Route path="/sprint08" component={OOPSprint08}/>
+		<Route path="/oop-sprint01" component={OOPSprint01}/>
+		<Route path="/oop-sprint02" component={OOPSprint02}/>
+		<Route path="/oop-sprint03" component={OOPSprint03}/>
+		<Route path="/oop-sprint04" component={OOPSprint04}/>
+		<Route path="/oop-sprint05" component={OOPSprint05}/>
+		<Route path="/oop-sprint06" component={OOPSprint06}/>
+		<Route path="/oop-sprint07" component={OOPSprint07}/>
+		<Route path="/oop-sprint08" component={OOPSprint08}/>
+
+		<Route path="/se-sprint01" component={SESprint01}/>
+		<Route path="/se-sprint02" component={SESprint02}/>
+		<Route path="/se-sprint03" component={SESprint03}/>
+		<Route path="/se-sprint04" component={SESprint04}/>
+		<Route path="/se-sprint05" component={SESprint05}/>
+		<Route path="/se-sprint06" component={SESprint06}/>
+		<Route path="/se-sprint07" component={SESprint07}/>
+		<Route path="/se-sprint08" component={SESprint08}/>
+
 		<Route path="/tools" component={Tools}/>
 		<Route path="/successful-programmer" component={SuccessfulProgrammer}/>
 		<Route path="/credits" component={Credits}/>
 		<Route path="/calendar" component={Calendar}/>
-		<Route path="/sprint01se" component={SESprint01}/>
 	</div>
 	
 </div>
