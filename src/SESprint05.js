@@ -61,4 +61,4 @@ class SESprint05 extends React.Component {
 	}
 }
 
-export default SESprint05
+export { SESprint05 }

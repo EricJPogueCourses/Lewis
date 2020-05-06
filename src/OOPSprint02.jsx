@@ -77,4 +77,4 @@ minutes unless otherwise noted.</p>
 	}
 }
 
-export default OOPSprint02
+export { OOPSprint02 }

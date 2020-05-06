@@ -6,27 +6,29 @@ import {
 	HashRouter
 } from "react-router-dom";
 
-import OOPSprint01 from './OOPSprint01'
-import OOPSprint02 from './OOPSprint02'
-import OOPSprint03 from './OOPSprint03'
-import OOPSprint04 from './OOPSprint04'
-import OOPSprint05 from './OOPSprint05'
-import OOPSprint06 from './OOPSprint06'
-import OOPSprint07 from './OOPSprint07'
-import OOPSprint08 from './OOPSprint08'
+import HeaderNav from './HeaderNav'
+import { OOPSprint01 } from './OOPSprint01'
+import { OOPSprint02 } from './OOPSprint02'
+import { OOPSprint03 } from './OOPSprint03'
+import { OOPSprint04 } from './OOPSprint04'
+import { OOPSprint05 } from './OOPSprint05'
+import { OOPSprint06 } from './OOPSprint06'
+import { OOPSprint07 } from './OOPSprint07'
+import { OOPSprint08 } from './OOPSprint08'
+
+import { SESprint01 } from './SESprint01'
+import { SESprint02 } from './SESprint02'
+import { SESprint03 } from './SESprint03'
+import { SESprint04 } from './SESprint04'
+import { SESprint05 } from './SESprint05'
+import { SESprint06 } from './SESprint06'
+import { SESprint07 } from './SESprint07'
+import { SESprint08 } from './SESprint08'
+
 import Credits from './Credits'
 import Tools from './Tools'
 import SuccessfulProgrammer from './SuccessfulProgrammer'
 import Calendar from './Calendar'
-import HeaderNav from './HeaderNav'
-import SESprint01 from './SESprint01'
-import SESprint02 from './SESprint02'
-import SESprint03 from './SESprint03'
-import SESprint04 from './SESprint04'
-import SESprint05 from './SESprint05'
-import SESprint06 from './SESprint06'
-import SESprint07 from './SESprint07'
-import SESprint08 from './SESprint08'
 
 class Main extends Component {
 	render() {

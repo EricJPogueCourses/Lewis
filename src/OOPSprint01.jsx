@@ -113,4 +113,4 @@ graded assignments.</em></p>
 	}
 }
 
-export default OOPSprint01
+export { OOPSprint01 }

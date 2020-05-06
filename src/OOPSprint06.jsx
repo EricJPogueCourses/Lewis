@@ -62,4 +62,4 @@ class OOPSprint06 extends React.Component {
 	}
 }
 
-export default OOPSprint06
+export { OOPSprint06 }
