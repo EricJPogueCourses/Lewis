@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const al25000Sprint01 = ( props ) => {
 	return (
-		
+
 <div>
 <h4>Object-Oriented Programming</h4>
 <h5>Sprint 1: Getting Started, Concepts, Patterns, and Tools of the Trade</h5>

@@ -38,13 +38,28 @@ class HeaderNav extends Component {
 					<NavDropdown title="Activity Lists" id="basic-nav-dropdown">
 						<NavDropdown.Item href="#oop-sprint01">Sprint 1</NavDropdown.Item>
 						<NavDropdown.Item href="#25000-sprint01">Sprint 1b</NavDropdown.Item>
+
 						<NavDropdown.Item href="#oop-sprint02">Sprint 2</NavDropdown.Item>
+						<NavDropdown.Item href="#25000-sprint02">Sprint 2b</NavDropdown.Item>
+
 						<NavDropdown.Item href="#oop-sprint03">Sprint 3</NavDropdown.Item>
+						<NavDropdown.Item href="#25000-sprint03">Sprint 3b</NavDropdown.Item>
+
 						<NavDropdown.Item href="#oop-sprint04">Sprint 4</NavDropdown.Item>
+						<NavDropdown.Item href="#25000-sprint04">Sprint 4b</NavDropdown.Item>
+
 						<NavDropdown.Item href="#oop-sprint05">Sprint 5</NavDropdown.Item>
+						<NavDropdown.Item href="#25000-sprint05">Sprint 5b</NavDropdown.Item>
+
 						<NavDropdown.Item href="#oop-sprint06">Sprint 6</NavDropdown.Item>
+						<NavDropdown.Item href="#25000-sprint06">Sprint 6b</NavDropdown.Item>
+
 						<NavDropdown.Item href="#oop-sprint07">Sprint 7</NavDropdown.Item>
+						<NavDropdown.Item href="#25000-sprint07">Sprint 7b</NavDropdown.Item>
+
 						<NavDropdown.Item href="#oop-sprint08">Sprint 8</NavDropdown.Item>
+						<NavDropdown.Item href="#25000-sprint08">Sprint 8b</NavDropdown.Item>
+						
 						<NavDropdown.Divider />
 						<NavDropdown.Item href="#se-sprint01">Sprint 1 - SE</NavDropdown.Item>
 						<NavDropdown.Item href="#se-sprint02">Sprint 2 - SE</NavDropdown.Item>
