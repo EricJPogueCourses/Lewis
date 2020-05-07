@@ -31,39 +31,36 @@ class Main extends Component {
 	render() {
 		return (
 
-<HashRouter>
 <div>
+	<HeaderNav course="25000" />
+	<HashRouter>
+		<div className="Main">
+			<Route exact path="/" component={Calendar}/>
+			<Route path="/25000-sprint01" component={al25000Sprint01}/>
+			<Route path="/25000-sprint02" component={al25000Sprint02}/>
+			<Route path="/25000-sprint03" component={al25000Sprint03}/>
+			<Route path="/25000-sprint04" component={al25000Sprint04}/>
+			<Route path="/25000-sprint05" component={al25000Sprint05}/>
+			<Route path="/25000-sprint06" component={al25000Sprint06}/>
+			<Route path="/25000-sprint07" component={al25000Sprint07}/>
+			<Route path="/25000-sprint08" component={al25000Sprint08}/>
 
-	<HeaderNav />
+			<Route path="/44000-sprint01" component={al44000Sprint01}/>
+			<Route path="/44000-sprint02" component={al44000Sprint02}/>
+			<Route path="/44000-sprint03" component={al44000Sprint03}/>
+			<Route path="/44000-sprint04" component={al44000Sprint04}/>
+			<Route path="/44000-sprint05" component={al44000Sprint05}/>
+			<Route path="/44000-sprint06" component={al44000Sprint06}/>
+			<Route path="/44000-sprint07" component={al44000Sprint07}/>
+			<Route path="/44000-sprint08" component={al44000Sprint08}/>
 
-	<div className="Main">
-		<Route exact path="/" component={Calendar}/>
-		<Route path="/25000-sprint01" component={al25000Sprint01}/>
-		<Route path="/25000-sprint02" component={al25000Sprint02}/>
-		<Route path="/25000-sprint03" component={al25000Sprint03}/>
-		<Route path="/25000-sprint04" component={al25000Sprint04}/>
-		<Route path="/25000-sprint05" component={al25000Sprint05}/>
-		<Route path="/25000-sprint06" component={al25000Sprint06}/>
-		<Route path="/25000-sprint07" component={al25000Sprint07}/>
-		<Route path="/25000-sprint08" component={al25000Sprint08}/>
-
-		<Route path="/44000-sprint01" component={al44000Sprint01}/>
-		<Route path="/44000-sprint02" component={al44000Sprint02}/>
-		<Route path="/44000-sprint03" component={al44000Sprint03}/>
-		<Route path="/44000-sprint04" component={al44000Sprint04}/>
-		<Route path="/44000-sprint05" component={al44000Sprint05}/>
-		<Route path="/44000-sprint06" component={al44000Sprint06}/>
-		<Route path="/44000-sprint07" component={al44000Sprint07}/>
-		<Route path="/44000-sprint08" component={al44000Sprint08}/>
-
-		<Route path="/tools" component={Tools}/>
-		<Route path="/successful-programmer" component={SuccessfulProgrammer}/>
-		<Route path="/credits" component={Credits}/>
-		<Route path="/calendar" component={Calendar}/>
-	</div>
-	
+			<Route path="/tools" component={Tools}/>
+			<Route path="/successful-programmer" component={SuccessfulProgrammer}/>
+			<Route path="/credits" component={Credits}/>
+			<Route path="/calendar" component={Calendar}/>
+		</div>
+	</HashRouter>
 </div>
-</HashRouter>
 
 		);
 	}
