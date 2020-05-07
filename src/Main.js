@@ -8,6 +8,8 @@ import {
 
 import HeaderNav from './HeaderNav'
 import { OOPSprint01 } from './OOPSprint01'
+
+import al25000Sprint01 from './ActivityLists/AL25000Sprint01'
 import { OOPSprint02 } from './OOPSprint02'
 import { OOPSprint03 } from './OOPSprint03'
 import { OOPSprint04 } from './OOPSprint04'
@@ -42,6 +44,9 @@ class Main extends Component {
 	<div className="Main">
 		<Route exact path="/" component={OOPSprint01}/>
 		<Route path="/oop-sprint01" component={OOPSprint01}/>
+		<Route path="/25000-sprint01" component={al25000Sprint01}/>
+
+
 		<Route path="/oop-sprint02" component={OOPSprint02}/>
 		<Route path="/oop-sprint03" component={OOPSprint03}/>
 		<Route path="/oop-sprint04" component={OOPSprint04}/>
