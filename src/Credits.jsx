@@ -1,7 +1,7 @@
 
 import React from 'react';
 
-class OOPSprint07 extends React.Component {
+class Credits extends React.Component {
 	render() {
 		return (
 
@@ -42,4 +42,4 @@ class OOPSprint07 extends React.Component {
 	}
 }
 
-export default OOPSprint07
+export { Credits }

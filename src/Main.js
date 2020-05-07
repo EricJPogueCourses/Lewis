@@ -25,10 +25,10 @@ import { SESprint06 } from './SESprint06'
 import { SESprint07 } from './SESprint07'
 import { SESprint08 } from './SESprint08'
 
-import Credits from './Credits'
-import Tools from './Tools'
-import SuccessfulProgrammer from './SuccessfulProgrammer'
-import Calendar from './Calendar'
+import { Credits } from './Credits'
+import { Tools } from './Tools'
+import { SuccessfulProgrammer } from './SuccessfulProgrammer'
+import { Calendar } from './Calendar'
 
 class Main extends Component {
 	render() {

@@ -45,4 +45,4 @@ class Tools extends React.Component {
 	}
 }
 
-export default Tools
+export { Tools }
