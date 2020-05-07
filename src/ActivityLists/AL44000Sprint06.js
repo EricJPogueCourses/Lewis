@@ -1,8 +1,8 @@
 import React from 'react'
+import { NavLink } from "react-router-dom";
 
-class SESprint06 extends React.Component {
-	render() {
-		return (
+const al44000Sprint06 = () => {
+	return (
 
 <div>
 	<h4>Software Engineering</h4>
@@ -62,8 +62,7 @@ class SESprint06 extends React.Component {
 	</ul>
 </div>
 
-		)
-	}
-}
+	)
+};
 
-export { SESprint06 }
+export default al44000Sprint06

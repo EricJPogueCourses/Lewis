@@ -1,44 +1,26 @@
 import './Main.css';
 
 import React, { Component } from "react";
-import {
-	Route,
-	HashRouter
-} from "react-router-dom";
+import { Route, HashRouter } from "react-router-dom";
 
 import HeaderNav from './HeaderNav'
-import { OOPSprint01 } from './OOPSprint01'
 import al25000Sprint01 from './ActivityLists/AL25000Sprint01'
-
-import { OOPSprint02 } from './OOPSprint02'
 import al25000Sprint02 from './ActivityLists/AL25000Sprint02'
-
-import { OOPSprint03 } from './OOPSprint03'
 import al25000Sprint03 from './ActivityLists/AL25000Sprint03'
-
-import { OOPSprint04 } from './OOPSprint04'
 import al25000Sprint04 from './ActivityLists/AL25000Sprint04'
-
-import { OOPSprint05 } from './OOPSprint05'
 import al25000Sprint05 from './ActivityLists/AL25000Sprint05'
-
-import { OOPSprint06 } from './OOPSprint06'
 import al25000Sprint06 from './ActivityLists/AL25000Sprint06'
-
-import { OOPSprint07 } from './OOPSprint07'
 import al25000Sprint07 from './ActivityLists/AL25000Sprint07'
-
-import { OOPSprint08 } from './OOPSprint08'
 import al25000Sprint08 from './ActivityLists/AL25000Sprint08'
 
-import { SESprint01 } from './SESprint01'
-import { SESprint02 } from './SESprint02'
-import { SESprint03 } from './SESprint03'
-import { SESprint04 } from './SESprint04'
-import { SESprint05 } from './SESprint05'
-import { SESprint06 } from './SESprint06'
-import { SESprint07 } from './SESprint07'
-import { SESprint08 } from './SESprint08'
+import al44000Sprint01 from './ActivityLists/AL44000Sprint01'
+import al44000Sprint02 from './ActivityLists/AL44000Sprint02'
+import al44000Sprint03 from './ActivityLists/AL44000Sprint03'
+import al44000Sprint04 from './ActivityLists/AL44000Sprint04'
+import al44000Sprint05 from './ActivityLists/AL44000Sprint05'
+import al44000Sprint06 from './ActivityLists/AL44000Sprint06'
+import al44000Sprint07 from './ActivityLists/AL44000Sprint07'
+import al44000Sprint08 from './ActivityLists/AL44000Sprint08'
 
 import { Credits } from './Credits'
 import { Tools } from './Tools'
@@ -55,39 +37,24 @@ class Main extends Component {
 	<HeaderNav />
 
 	<div className="Main">
-		<Route exact path="/" component={OOPSprint01}/>
-		<Route path="/oop-sprint01" component={OOPSprint01}/>
+		<Route exact path="/" component={Calendar}/>
 		<Route path="/25000-sprint01" component={al25000Sprint01}/>
-
-		<Route path="/oop-sprint02" component={OOPSprint02}/>
 		<Route path="/25000-sprint02" component={al25000Sprint02}/>
-
-		<Route path="/oop-sprint03" component={OOPSprint03}/>
 		<Route path="/25000-sprint03" component={al25000Sprint03}/>
-
-		<Route path="/oop-sprint04" component={OOPSprint04}/>
 		<Route path="/25000-sprint04" component={al25000Sprint04}/>
-
-		<Route path="/oop-sprint05" component={OOPSprint05}/>
 		<Route path="/25000-sprint05" component={al25000Sprint05}/>
-
-		<Route path="/oop-sprint06" component={OOPSprint06}/>
 		<Route path="/25000-sprint06" component={al25000Sprint06}/>
-
-		<Route path="/oop-sprint07" component={OOPSprint07}/>
 		<Route path="/25000-sprint07" component={al25000Sprint07}/>
-
-		<Route path="/oop-sprint08" component={OOPSprint08}/>
 		<Route path="/25000-sprint08" component={al25000Sprint08}/>
 
-		<Route path="/se-sprint01" component={SESprint01}/>
-		<Route path="/se-sprint02" component={SESprint02}/>
-		<Route path="/se-sprint03" component={SESprint03}/>
-		<Route path="/se-sprint04" component={SESprint04}/>
-		<Route path="/se-sprint05" component={SESprint05}/>
-		<Route path="/se-sprint06" component={SESprint06}/>
-		<Route path="/se-sprint07" component={SESprint07}/>
-		<Route path="/se-sprint08" component={SESprint08}/>
+		<Route path="/44000-sprint01" component={al44000Sprint01}/>
+		<Route path="/44000-sprint02" component={al44000Sprint02}/>
+		<Route path="/44000-sprint03" component={al44000Sprint03}/>
+		<Route path="/44000-sprint04" component={al44000Sprint04}/>
+		<Route path="/44000-sprint05" component={al44000Sprint05}/>
+		<Route path="/44000-sprint06" component={al44000Sprint06}/>
+		<Route path="/44000-sprint07" component={al44000Sprint07}/>
+		<Route path="/44000-sprint08" component={al44000Sprint08}/>
 
 		<Route path="/tools" component={Tools}/>
 		<Route path="/successful-programmer" component={SuccessfulProgrammer}/>
