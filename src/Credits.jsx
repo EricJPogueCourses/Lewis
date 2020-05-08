@@ -6,8 +6,8 @@ class Credits extends React.Component {
 		return (
 
 <div>
-	<h2>Object-Oriented Programming</h2>
-	<h3>Developed by Eric Pogue</h3>
+	<h4>Lewis.education</h4>
+	<h5>Developed by Eric Pogue</h5>
 
 	 <pre>{`
 

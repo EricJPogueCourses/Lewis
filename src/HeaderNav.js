@@ -5,34 +5,17 @@ import { Navbar } from 'react-bootstrap'
 import { NavDropdown } from 'react-bootstrap'
 
 class HeaderNav extends Component {
-	state = {
-		courseNumber: '25000'
-	}
+	constructor(props) {
+		super(props)
 
-	constructor( props ) {
-		super( props )
-		this.state.courseNumber = props.course
+		this.state = {
+			courseNumber: props.course,
+			show: props.show
+		}
 	} 
 
-	hideNavBar = () => {
-		const hideNavID = 'hide-nav';
-
-		// Parse URL for input parameters
-		var vars = {};
-		window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
-			vars[key] = value;
-		});
-
-		if (typeof vars[hideNavID] !== 'undefined') {
-			// return true to hide navigation bar if 'hide-nav' exists in url params.
-			return true; 
-		}
-
-		return false;
-	}
-
 	getMenu = () => {
-		if (this.state.courseNumber == '25000'){
+		if (this.state.courseNumber === 25000){
 			return this.getCPSC25000Menu()
 		} else {
 			return this.getCPSC44000Menu()
@@ -48,7 +31,7 @@ class HeaderNav extends Component {
 						<Nav className="mr-auto">
 							<Nav.Link href="#home">Lewis.education</Nav.Link>
 								<NavDropdown title="Activity Lists" id="basic-nav-dropdown">
-									<NavDropdown.Item href="#25000-sprint01">Sprint 1 {this.state.courseNumber}</NavDropdown.Item>
+									<NavDropdown.Item href="#25000-sprint01">Sprint 1</NavDropdown.Item>
 									<NavDropdown.Item href="#25000-sprint02">Sprint 2</NavDropdown.Item>
 									<NavDropdown.Item href="#25000-sprint03">Sprint 3</NavDropdown.Item>
 									<NavDropdown.Item href="#25000-sprint04">Sprint 4</NavDropdown.Item>
@@ -101,8 +84,8 @@ class HeaderNav extends Component {
 		)
 	}
 
-	render( props ) {
-		if (this.hideNavBar()) {
+	render() {
+		if (!this.state.show) {
 			return (null)
 		}
 		else

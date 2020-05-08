@@ -1,5 +1,4 @@
 import React from 'react'
-import { NavLink } from "react-router-dom";
 
 const al44000Sprint04 = () => {
 	return (
@@ -25,7 +24,7 @@ const al44000Sprint04 = () => {
 		<li><em>Review our sprint 4 assignments in Blackboard that include discussion board 4, quiz 4, lab 4, and
 		journal entry 4</em></li>
 		<li>Recall signing up for Safari Books Online which is available to you free through Lewis University
-			<a href="https://www.oreilly.com/library/view/temporary-access/" target="_blank">[link]</a></li>
+			<a href="https://www.oreilly.com/library/view/temporary-access/" target="_blank" rel="noopener noreferrer">[link]</a></li>
 		<li>Within Safari Books Online find “Web Development with Node and Express, 2nd Edition” by Ethan Brown (Brown)
 			and preview the preface and first four chapters of the book</li>
 		<li>Thoroughly read chapters 5 of Brown while completing each of the exercises</li>
@@ -42,7 +41,7 @@ const al44000Sprint04 = () => {
 	<ul style={{ listStyleType: "square" }}>
 		<li>Git/GitHub Cheat Sheet  
 		<a href="https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf"
-			target="_blank">[link]</a></li> 
+			target="_blank" rel="noopener noreferrer">[link]</a></li> 
 	</ul>
 </div>
 

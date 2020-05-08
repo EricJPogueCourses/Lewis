@@ -1,12 +1,11 @@
 import React from 'react'
-import { NavLink } from "react-router-dom";
 
 const al44000Sprint03 = () => {
 	return (
 
 <div>
-	<h3>Software Engineering</h3>
-	<h3>Sprint 3: Application Requirements, Behavior-Driven Design, Node.js, and Azure, </h3>
+	<h4>Software Engineering</h4>
+	<h5>Sprint 3: Application Requirements, Behavior-Driven Design, Node.js, and Azure, </h5>
 
 	<p>Welcome to sprint 3. This sprint we are going to be focused on Node.js as a platform for Saas. We will be
 	utilizing in a book from our Safari Books Online in order to help us learn more about the Node.js platform. The book
@@ -26,7 +25,7 @@ const al44000Sprint03 = () => {
 		<li><em>Review our sprint 3 assignments in Blackboard that include discussion board 3, quiz 3, lab 3 and a
 		journal entry 3</em></li>
 		<li>Recall signing up for Safari Books Online which is available to you free through Lewis University
-			<a href="https://www.oreilly.com/library/view/temporary-access/" target="_blank">[link]</a></li>
+			<a href="https://www.oreilly.com/library/view/temporary-access/" target="_blank" rel="noopener noreferrer">[link]</a></li>
 		<li>Within Safari Books Online find “Web Development with Node and Express, 2nd Edition” by Ethan Brown (Brown)
 			and preview the preface and first four chapters of the book</li>
 		<li>Thoroughly read chapters 1 and 2 of Brown while completing each of the exercises</li>
@@ -34,7 +33,7 @@ const al44000Sprint03 = () => {
 		<li><em>Complete discussion board initial DB3 post by the middle of the sprint</em></li>
 		<li>Thoroughly read chapters 3 and 4 of Brown while completing each of the exercises</li>
 		<li>Review the “Node.js Tutorial” also from W3C
-			<a href="https://www.w3schools.com/nodejs/" target="_blank">[link]</a></li>
+			<a href="https://www.w3schools.com/nodejs/" target="_blank" rel="noopener noreferrer">[link]</a></li>
 		<li>Review Section 4.5 of Fox on Debugging</li>
 		<li>Read Chapter 7 of Fox on Requirements</li>
 		<li><em>Complete and submit all sprint 3 assignments including discussion board 3, quiz 3, lab 3 and a journal
@@ -45,7 +44,7 @@ const al44000Sprint03 = () => {
 	<ul style={{ listStyleType: "square" }}>
 		<li>Git/GitHub Cheat Sheet  
 			<a href="https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf"
-			target="_blank">[link]</a></li> 
+			target="_blank" rel="noopener noreferrer">[link]</a></li> 
 	</ul> 
 </div>
 

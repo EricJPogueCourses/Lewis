@@ -1,5 +1,4 @@
 import React from 'react'
-import { NavLink } from "react-router-dom";
 
 const al44000Sprint08 = () => {
 	return (
@@ -28,8 +27,7 @@ const al44000Sprint08 = () => {
 			that you identified last sprint</li>
 		<li>Read Chapter 12 of Fox on Project Management, Scrum, Pairs, and VCS</li>
 		<li>Complete "Application Architectures, Object-Oriented Programming, and Databases - Part 2" 
-			<a href="https://mediaatoz.blob.core.windows.net/object-oriented-programming/application-architecture-part2.mp4" 
-			target="_blank">[link]</a></li>
+			<a href="https://mediaatoz.blob.core.windows.net/object-oriented-programming/application-architecture-part2.mp4">[link]</a></li>
 		<li style={{color: "red"}}><em>Complete and submit all sprint 8 assignments including quiz 8, lab 8, and reflections
 			8 by Thursday (March 5th) at 11:59pm CT</em></li>
 	</ol>that we will need to complete this sprint.</p>

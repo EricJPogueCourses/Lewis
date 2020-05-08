@@ -1,5 +1,4 @@
 import React from 'react'
-import { NavLink } from "react-router-dom";
 
 const al44000Sprint05 = () => {
 	return (
@@ -37,7 +36,7 @@ const al44000Sprint05 = () => {
 		reflections 5</em></li>
 		<li><em>Develop your final project proposal by providing Agile Epics and Stories that describe the intended application 
 			functionality from a user perspective and by providing it an excellent name</em></li>
-		<li>Review the Agile Alliance site <a href="https://www.agilealliance.org/" target="_blank">[link]</a>, analyze
+		<li>Review the Agile Alliance site <a href="https://www.agilealliance.org/" target="_blank" rel="noopener noreferrer">[link]</a>, analyze
 			“Agile 101” (you should understand these topics), and perform a quick overview of the “Agile Glossary”</li>
 		<li><em>Complete discussion board initial DB5 post by the middle of the sprint</em></li>
 		<li><em>Setup your production final project Node.js based website and migrate all of the applications that you
@@ -53,7 +52,7 @@ const al44000Sprint05 = () => {
 	<ul style={{ listStyleType: "square" }}>
 		<li>Git/GitHub Cheat Sheet  
 		<a href="https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf"
-			target="_blank">[link]</a></li> 
+			target="_blank" rel="noopener noreferrer">[link]</a></li> 
 	</ul> 
 </div>
 

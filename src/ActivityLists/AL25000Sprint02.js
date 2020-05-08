@@ -1,5 +1,4 @@
 import React from 'react'
-import { NavLink } from "react-router-dom";
 
 const al25000Sprint02 = ( props ) => {
 	return (
@@ -67,8 +66,7 @@ minutes unless otherwise noted.</p>
 	<li>Sprint 2 Recorded Lecture/Discussion session from the Spring 2020 online Object-Oriented Programming class
 		<a href="https://botb.blob.core.windows.net/ovun/2020-01-22_sprint-02-oop.mp4">[link]</a></li>
 	<li>Git/GitHub Cheat Sheet	
-		<a href="https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf" target="_blank" rel="noopener noreferrer"
-		>[link]</a></li> 
+		<a href="https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf" target="_blank" rel="noopener noreferrer">[link]</a></li> 
 </ul> 
 </div>
 
