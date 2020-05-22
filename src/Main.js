@@ -4,6 +4,15 @@ import React, { Component } from "react";
 import { Route, HashRouter } from "react-router-dom";
 
 import HeaderNav from './HeaderNav'
+import al20000Sprint01 from './ActivityLists/AL20000Sprint01'
+import al20000Sprint02 from './ActivityLists/AL20000Sprint02'
+import al20000Sprint03 from './ActivityLists/AL20000Sprint03'
+import al20000Sprint04 from './ActivityLists/AL20000Sprint04'
+import al20000Sprint05 from './ActivityLists/AL20000Sprint05'
+import al20000Sprint06 from './ActivityLists/AL20000Sprint06'
+import al20000Sprint07 from './ActivityLists/AL20000Sprint07'
+import al20000Sprint08 from './ActivityLists/AL20000Sprint08'
+
 import al25000Sprint01 from './ActivityLists/AL25000Sprint01'
 import al25000Sprint02 from './ActivityLists/AL25000Sprint02'
 import al25000Sprint03 from './ActivityLists/AL25000Sprint03'
@@ -61,6 +70,7 @@ class Main extends Component {
 		// Example 4: http://localhost:3000/?course=25000
 		// Example 5: http://localhost:3000/
 		// Example 6: http://localhost:3000/?course=what 
+		// Example 7: http://localhost:3000/?course=20000
 
 		// Example 1b: https://www.lewis.education/?hide-nav=y&course=44000&#/44000-sprint03
 		// Example 2b: https://www.lewis.education/?course=44000&#/44000-sprint05 
@@ -86,6 +96,15 @@ class Main extends Component {
 				<HashRouter>
 					<div className="Main">
 						<Route exact path="/" component={Calendar}/>
+						<Route path="/20000-sprint01" component={al20000Sprint01}/>
+						<Route path="/20000-sprint02" component={al20000Sprint02}/>						
+						<Route path="/20000-sprint03" component={al20000Sprint03}/>
+						<Route path="/20000-sprint04" component={al20000Sprint04}/>
+						<Route path="/20000-sprint05" component={al20000Sprint05}/>
+						<Route path="/20000-sprint06" component={al20000Sprint06}/>
+						<Route path="/20000-sprint07" component={al20000Sprint07}/>
+						<Route path="/20000-sprint08" component={al20000Sprint08}/>
+
 						<Route path="/25000-sprint01" component={al25000Sprint01}/>
 						<Route path="/25000-sprint02" component={al25000Sprint02}/>
 						<Route path="/25000-sprint03" component={al25000Sprint03}/>
