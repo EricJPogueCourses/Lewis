@@ -31,6 +31,8 @@ import al44000Sprint06 from './ActivityLists/AL44000Sprint06'
 import al44000Sprint07 from './ActivityLists/AL44000Sprint07'
 import al44000Sprint08 from './ActivityLists/AL44000Sprint08'
 
+import version from './Version'
+
 import { Credits } from './Credits'
 import { Tools } from './Tools'
 import { SuccessfulProgrammer } from './SuccessfulProgrammer'
@@ -123,6 +125,8 @@ class Main extends Component {
 						<Route path="/44000-sprint06" component={al44000Sprint06}/>
 						<Route path="/44000-sprint07" component={al44000Sprint07}/>
 						<Route path="/44000-sprint08" component={al44000Sprint08}/>
+
+						<Route path="/version" component={version}/>
 
 						<Route path="/tools" component={Tools}/>
 						<Route path="/successful-programmer" component={SuccessfulProgrammer}/>

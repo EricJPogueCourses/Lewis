@@ -8,7 +8,6 @@ class Credits extends React.Component {
 <div>
 	<h4>Lewis.education</h4>
 	<h5>Developed by Eric Pogue</h5>
-	<h5>Version: 0.0.4</h5>
 
 	 <pre>{`
 
