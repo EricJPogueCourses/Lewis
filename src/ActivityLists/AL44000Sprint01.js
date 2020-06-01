@@ -24,7 +24,7 @@ const al44000Sprint01 = () => {
 	activities and assignments. Sprints are part of the Scrum development process. The term is used to
 	describe a unit of work which will be delivered in a given amount of time. We will be learning
 	more about sprints, Scrum, and Agile development in the coming days. For now it is sufficient to
-	know that our sprint 1 activities listed below are expected to take approximately 20 hours of
+	know that our sprint 1 activities listed below are expected to take approximately 18 hours of
 	focused effort to complete.</p>
 
 	<p>Let's start with what we hope to learn in sprint 1. By the end of sprint 1 we will be able to:</p>
@@ -45,9 +45,9 @@ const al44000Sprint01 = () => {
 	<em>directly</em> related to graded assignments.</p>
 	<ol>
 		<li>Review our course syllabus 
-			<a href="https://cpsc-44000.azurewebsites.net/cpsc-44000-2020-01-spring-lt1-syllabus.pdf">[pdf]</a>
+			<a href="https://www.lewis.education/2020-08-fall-cpsc-44000-001/syllabus.pdf">[pdf]</a>
 			and familiarize yourself with our Blackboard course structure</li>
-		<li><em>Review our week 1 / sprint 1 assignments in Blackboard that include two discussion boards, quiz 1, lab
+		<li><em>Review our week 1 and 2 (sprint 1) assignments in Blackboard that include two discussion boards, quiz 1, lab
 			1, and a journal entry</em></li>
 		<li>Understand how Blended Learning, Flipped Classroom, and Online class formats relate by reviewing "Blended
 			Learning & Flipped Classroom" 
