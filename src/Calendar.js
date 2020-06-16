@@ -59,7 +59,7 @@ class Calendar extends Component {
 
 	createCalendarXL = () => {
 		const headings = [ '', 'End Date', 'Duration', 'Notes' ];
-
+/*
 		const sprintCalendarSpring2020 = [																											 
 			{ 'start':'Mon Jan 13 2020 08:00:00 GMT-0600', 'end':'Sun Jan 26 2020 23:59:00 GMT-0600', 'notes':'Martin Luther King Day' },
 			{ 'start':'Mon Jan 27 2020 08:00:00 GMT-0600', 'end':'Sun Feb 09 2020 23:59:00 GMT-0600', 'notes':'' },
@@ -70,7 +70,7 @@ class Calendar extends Component {
 			{ 'start':'Mon Apr 13 2020 08:00:00 GMT-0600', 'end':'Sun Apr 26 2020 23:59:00 GMT-0600', 'notes':'' },
 			{ 'start':'Mon Apr 27 2020 08:00:00 GMT-0600', 'end':'Thu May 07 2020 23:59:00 GMT-0600', 'notes':'Final Exams' }
 		]; 
-
+*/
 		const sprintCalendarFall2020 = [
 			{ 'start':'Mon Aug 31 2020 08:00:00 GMT-0600', 'end':'Sun Sep 13 2020 23:59:00 GMT-0600', 'notes':'Labor Day' },
 			{ 'start':'Mon Sep 14 2020 08:00:00 GMT-0600', 'end':'Sun Sep 27 2020 23:59:00 GMT-0600', 'notes':'' },
@@ -93,7 +93,7 @@ class Calendar extends Component {
 	render() {
 		return (
 			<div>
-				<h4>Course Schedule</h4>
+				<h4>Calendar</h4>
 				{this.createCalendarXL()}
 			</div>
 		)
