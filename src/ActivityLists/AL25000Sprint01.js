@@ -39,7 +39,7 @@ graded assignments.</em></p>
 <ol>
 	<li>Review course syllabus</li>
 	<li><em>Review Programming Assignment 1, Quiz 1, and Discussion Board 1</em></li>
-	<li><em>[[Todo: REVIEW]]</em> Complete Tools of the Trade<NavLink to="/tools">[link]</NavLink></li>
+	<li><em>[[Todo!!: REVIEW]]</em> Complete Tools of the Trade<NavLink to="/tools" style={{ marginLeft: 2 }}>[link]</NavLink></li>
 	<li>Understand how Blended Learning, Flipped Classroom, and Online class formats relate by reviewing "Blended
 		Learning & Flipped Classroom" 
 		<a href="https://www.youtube.com/watch?v=paQCE58334M&vl=en-US" target="_blank" rel="noopener noreferrer">[video]</a></li>
@@ -94,7 +94,6 @@ graded assignments.</em></p>
 	<li><em>Complete Discussion Board 1 by responding to at least one of your classmates' posts</em></li>
 	<li><em>Complete and submit Programming Assignment 1 and Quiz 1</em></li>
 </ol>
-<br />
 <p>Additional references:</p>
 	<ul style={{ listStyleType: "square" }}>
 		<li>Sprint 1 recorded Lecture/Discussion session from a recent (2020) online Object-Oriented Programming class

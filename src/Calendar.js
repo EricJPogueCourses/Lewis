@@ -71,10 +71,21 @@ class Calendar extends Component {
 			{ 'start':'Mon Apr 27 2020 08:00:00 GMT-0600', 'end':'Thu May 07 2020 23:59:00 GMT-0600', 'notes':'Final Exams' }
 		]; 
 
+		const sprintCalendarFall2020 = [
+			{ 'start':'Mon Aug 31 2020 08:00:00 GMT-0600', 'end':'Sun Sep 13 2020 23:59:00 GMT-0600', 'notes':'Labor Day' },
+			{ 'start':'Mon Sep 14 2020 08:00:00 GMT-0600', 'end':'Sun Sep 27 2020 23:59:00 GMT-0600', 'notes':'' },
+			{ 'start':'Mon Sep 28 2020 08:00:00 GMT-0600', 'end':'Sun Oct 11 2020 23:59:00 GMT-0600', 'notes':'' },
+			{ 'start':'Mon Oct 12 2020 08:00:00 GMT-0600', 'end':'Sun Oct 25 2020 23:59:00 GMT-0600', 'notes':'' },
+			{ 'start':'Mon Oct 26 2020 08:00:00 GMT-0600', 'end':'Sun Nov 08 2020 23:59:00 GMT-0600', 'notes':'' },
+			{ 'start':'Mon Nov 09 2020 08:00:00 GMT-0600', 'end':'Sun Nov 22 2020 23:59:00 GMT-0600', 'notes':'' },
+			{ 'start':'Mon Nov 23 2020 08:00:00 GMT-0600', 'end':'Sun Dec 06 2020 23:59:00 GMT-0600', 'notes':'Thanksgiving Holiday' },
+			{ 'start':'Mon Dec 07 2020 08:00:00 GMT-0600', 'end':'Thu Dec 17 2020 23:59:00 GMT-0600', 'notes':'Final Exams' }
+		]; 
+
 		return (
 			<Table striped bordered hover>
 				<thead><tr>{this.renderCalendarHeader(headings)}</tr></thead>
-				<tbody>{this.renderCalendarBody(sprintCalendarSpring2020)}</tbody>
+				<tbody>{this.renderCalendarBody(sprintCalendarFall2020)}</tbody>
 			</Table>
 		)
 	}

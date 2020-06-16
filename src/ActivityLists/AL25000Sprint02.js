@@ -60,8 +60,7 @@ minutes unless otherwise noted.</p>
 	<li><em>Complete Discussion Board 2 by responding to at least one of your classmates' posts</em></li>
 	<li><em>Complete and submit Programming Assignment 2 and Quiz 2</em></li>
 </ol> 
-<br />
-<p>Additional external references are provided below:</p>
+<p>Additional references are provided below:</p>
 <ul style={{ listStyleType:"square" }}>
 	<li>Sprint 2 Recorded Lecture/Discussion session from the Spring 2020 online Object-Oriented Programming class
 		<a href="https://botb.blob.core.windows.net/ovun/2020-01-22_sprint-02-oop.mp4">[link]</a></li>

@@ -61,7 +61,7 @@ class Main extends Component {
 			return false /* false to show the nav bar */;
 		}
 
-		return true /* true to show the nav bar */;
+		return true /* true to hide the nav bar */;
 	}
 
 	getCourseFromURL = () => {

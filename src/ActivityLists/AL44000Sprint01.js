@@ -41,8 +41,8 @@ const al44000Sprint01 = () => {
 
 	<p>Below is our sprint 1 activities list. Although you are welcome to pursue the activities in any order, they are
 	listed in the order I think will be the most beneficial for you to work through the topics. Each item is expected to
-	take 10 to 30 minutes of focused time unless otherwise noted. Highlighted activities are
-	<em>directly</em> related to graded assignments.</p>
+	take 10 to 30 minutes of focused time unless otherwise noted. Highlighted activities are <em>directly</em> related to 
+	graded assignments.</p>
 	<ol>
 		<li>Review our course syllabus 
 			<a href="https://www.lewis.education/2020-08-fall-cpsc-44000-001/syllabus.pdf">[pdf]</a>
