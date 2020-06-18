@@ -37,6 +37,7 @@ import { Credits } from './Credits'
 import { Tools } from './Tools'
 import { SuccessfulProgrammer } from './SuccessfulProgrammer'
 import { Calendar } from './Calendar'
+import infoEricPogue from './InfoEricPogue'
 
 class Main extends Component {
 	constructor(props) {
@@ -132,6 +133,7 @@ class Main extends Component {
 						<Route path="/successful-programmer" component={SuccessfulProgrammer}/>
 						<Route path="/credits" component={Credits}/>
 						<Route path="/calendar" component={Calendar}/>
+						<Route path="/info" component={infoEricPogue}/>
 					</div>
 				</HashRouter>
 			</div>

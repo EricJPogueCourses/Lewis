@@ -22,12 +22,13 @@ const al44000Sprint01 = () => {
 
 	<p>You have likely noticed that I am using the term “sprint 1” to describe our first set of course
 	activities and assignments. Sprints are part of the Scrum development process. The term is used to
-	describe a unit of work which will be delivered in a given amount of time. We will be learning
+	describe a unit of work which will be delivered in by a given date and time. We will be learning
 	more about sprints, Scrum, and Agile development in the coming days. For now it is sufficient to
 	know that our sprint 1 activities listed below are expected to take approximately 18 hours of
 	focused effort to complete.</p>
 
-	<p>Let's start with what we hope to learn in sprint 1. By the end of sprint 1 we will be able to:</p>
+	<p>Let's start with what we hope to learn in sprint 1. You can think of these as our Learning Objectives.
+	By the end of sprint 1 we will be able to:</p>
 	<ul style={{ listStyleType: "square" }}>
 		<li>describe the basic steps in the Software Development Life Cycle (SDLC)</li>
 		<li>compare and contrast software life cycle methodologies</li>

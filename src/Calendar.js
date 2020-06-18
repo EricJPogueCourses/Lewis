@@ -3,8 +3,8 @@ import Table from 'react-bootstrap/Table'
 
 class Calendar extends Component {
 	getCSTDate(dateIn, includeYear, includeTime) {
-		var months = ['January','February','March','April','May','June','July',
-									'August','September','October','November','December'];
+		var months = ['January','February','March','April','May','June','July', 'August',
+			'September','October','November','December'];
 		var days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
 		var date = new Date(dateIn);
 
@@ -20,7 +20,7 @@ class Calendar extends Component {
 		}
 		
 		if (includeTime) {
-			dateString = dateString + ' at ' + 
+			dateString = dateString + ' at ' +
 					((date.getUTCHours()%12) || 12) + ':' +
 					('0' + date.getUTCMinutes()).slice(-2) + ' ' +
 					(date.getUTCHours() < 12? 'AM CT':'PM CT');
