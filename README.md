@@ -1,3 +1,15 @@
+## Test, build deploy
+from lewis
+npm start 
+npm run build 
+git add / commit / push
+
+deploy lewis
+
+from lewis-eduction
+git add / commit / push
+
+
 ## Todo 
 Review https://www.taniarascia.com/getting-started-with-react/ 
 
@@ -47,9 +59,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-create link
 
-ln -s /Users/eric/Repositories/lewis/build /Users/eric/Repositories/lewis-education
 
 ### `npm run eject`
 
