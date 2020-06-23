@@ -84,6 +84,7 @@ class Main extends Component {
 		// Example 5b: https://www.lewis.education/
 		// Example 6b: https://www.lewis.education/ 
 		// Example 7b: https://www.lewis.education/?course=25000
+		// Example 8b: https://www.lewis.education//?hide-nav=y&course=44000&#/44000-welcome
 
 		const defaultCourseNumber = 25000 /* default to OOP (cpsc-25000) */ ;
 		const queryString = window.location.search;
