@@ -22,6 +22,7 @@ import al25000Sprint06 from './ActivityLists/AL25000Sprint06'
 import al25000Sprint07 from './ActivityLists/AL25000Sprint07'
 import al25000Sprint08 from './ActivityLists/AL25000Sprint08'
 
+import al44000Welcome from './ActivityLists/AL44000Welcome'
 import al44000Sprint01 from './ActivityLists/AL44000Sprint01'
 import al44000Sprint02 from './ActivityLists/AL44000Sprint02'
 import al44000Sprint03 from './ActivityLists/AL44000Sprint03'
@@ -74,6 +75,7 @@ class Main extends Component {
 		// Example 5: http://localhost:3000/
 		// Example 6: http://localhost:3000/?course=what 
 		// Example 7: http://localhost:3000/?course=20000
+		// Example 8: http://localhost:3000/?hide-nav=y&course=44000&#/44000-welcome
 
 		// Example 1b: https://www.lewis.education/?hide-nav=y&course=44000&#/44000-sprint03
 		// Example 2b: https://www.lewis.education/?course=44000&#/44000-sprint05 
@@ -118,6 +120,7 @@ class Main extends Component {
 						<Route path="/25000-sprint07" component={al25000Sprint07}/>
 						<Route path="/25000-sprint08" component={al25000Sprint08}/>
 
+						<Route path="/44000-welcome" component={al44000Welcome}/>
 						<Route path="/44000-sprint01" component={al44000Sprint01}/>
 						<Route path="/44000-sprint02" component={al44000Sprint02}/>
 						<Route path="/44000-sprint03" component={al44000Sprint03}/>

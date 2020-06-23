@@ -24,6 +24,9 @@ which is installed with "npm install react-bootstrap bootstrap"
 Also uses react-bootstrap-table2
 which is installed with "npm install react-bootstrap-table-next"
 
+Also uses react-player
+which is installed with "npm install react-player --save"
+
 ## Available Scripts
 
 In the project directory, you can run:

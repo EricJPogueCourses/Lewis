@@ -95,6 +95,7 @@ class HeaderNav extends Component {
 						<Nav className="mr-auto">
 							<Nav.Link href="#home">Lewis.education</Nav.Link>
 								<NavDropdown title="Activity Lists" id="basic-nav-dropdown">
+									<NavDropdown.Item href="#44000-welcome">Welcome</NavDropdown.Item>
 									<NavDropdown.Item href="#44000-sprint01">Sprint 1</NavDropdown.Item>
 									<NavDropdown.Item href="#44000-sprint02">Sprint 2</NavDropdown.Item>
 									<NavDropdown.Item href="#44000-sprint03">Sprint 3</NavDropdown.Item>

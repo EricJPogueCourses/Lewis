@@ -18,7 +18,7 @@ instructor.<br /><br />
 email me directly. History suggests that posts to our Class Forum get the quickest and highest 
 quality responses. However, if your question is of personal nature, email is your best alternative. 
 In either case, you can expect a maximum response time of 24 hours weekdays.</p>
-<p>If you need an immediate response, call me on my mobile phone.</p>
+<p>If you need an immediate response, call my mobile phone.</p>
 </div>
 
 	)
