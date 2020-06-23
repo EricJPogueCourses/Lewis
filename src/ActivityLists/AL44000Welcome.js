@@ -8,7 +8,7 @@ const al44000Welcome = () => {
 	<h4>Software Engineering</h4>
 	<h5>Welcome Message</h5>
 
-	<p><em>Welcome to Software Engineering!</em> Please take a moment to review welcome video below.</p>
+	<p><em>Welcome to Software Engineering!</em> Please take a moment to view the following welcome video.</p>
 
 	<ReactPlayer url="https://botb.blob.core.windows.net/nvm4zqwm/pz316akr-welcome.mp4" controls={true} />
 
