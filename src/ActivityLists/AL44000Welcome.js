@@ -6,11 +6,11 @@ const al44000Welcome = () => {
 
 <div>
 	<h4>Software Engineering</h4>
-	<h5>Welcome Message</h5>
+	<h5>Welcome to Software Engineering!</h5>
+	<br />
+	<p>Please take a few minutes to view the following welcome video.</p>
 
-	<p><em>Welcome to Software Engineering!</em> Please take a moment to view the following welcome video.</p>
-
-	<ReactPlayer url="https://botb.blob.core.windows.net/nvm4zqwm/pz316akr-welcome.mp4" controls={true} />
+	<ReactPlayer url="https://botb.blob.core.windows.net/nvm4zqwm/pz316akr-welcome.mp4" controls={true} width={1024} height={576} />
 
 	<br />
 	<p>Prior to our first class session, please take a few minutes to gain a better understand of 
