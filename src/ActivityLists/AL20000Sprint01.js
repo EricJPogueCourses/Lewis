@@ -19,7 +19,7 @@ it is sufficient to know that our sprint 1 activities listed below are expected 
 focused effort to complete.</p>
 
 <p>Let's start with what we hope to learn in sprint 1. By the end of sprint 1 we will be able to:</p>
-<ul style={{ listStyleType: "square" }}>
+<ul style={{listStyleType: "square"}}>
 	<li>Understand and effectively participate in a blended classroom setting</li>
 	<li>Understand the basics of Scrum and Agile software development</li>
 	<li>Identify, define, and discuss numbering systems</li>
@@ -34,16 +34,17 @@ focused effort to complete.</p>
 <p>Below is our sprint 1 activities list. Although you are welcome to pursue the activities in any order, they are
 listed in the order I think will be the most beneficial for you to work through the topics. Each item is expected to
 take 20 to 40 minutes of focused time unless otherwise noted. <em>Highlighted activities are directly related to 
-graded assignments.</em></p>
+graded assignments.</em> Throughout the course I try to consistently utilize the “assignment” term to indicate a 
+<em>graded</em> activity.</p>
 <ol>
-	<li>Review course syllabus</li>
-	<li><em>Review Programming Assignment 1, Quiz 1, and Discussion Board 1</em></li>
-	<li><em>[[Todo: REVIEW]]</em> Complete Tools of the Trade<NavLink to="/tools">[link]</NavLink></li>
 	<li>Understand how Blended Learning, Flipped Classroom, and Online class formats relate by reviewing "Blended
 		Learning & Flipped Classroom" 
 		<a href="https://www.youtube.com/watch?v=paQCE58334M&vl=en-US" target="_blank" rel="noopener noreferrer">[video]</a></li>
 	<li>Review “Introduction to Scrum in 7 Minutes”
 		<a href="https://www.youtube.com/watch?v=9TycLR0TqFA">[video]</a></li>
+	<li>Review course syllabus <em>ToDo: Add syllabus PDF to lewis app</em></li>
+	<li><em>Review our sprint 1 assignments including Lab 1, Quiz 1, Discussion 1, and Reflection 1</em></li>
+	<li>Complete Tools of the Trade<NavLink to="/tools">[link]</NavLink></li>
 	<li>Complete “[[Todo: First topic”
 		<a href="http://mediaatoz.blob.core.windows.net/object-oriented-programming/concepts-and-practices.mp4">
 		[video]</a>
