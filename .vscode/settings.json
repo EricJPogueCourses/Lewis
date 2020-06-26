@@ -1,3 +1,8 @@
 {
-	"editor.lineNumbers": "off"
+	"editor.lineNumbers": "off",
+	"rewrap.wrappingColumn": 100,
+	"cSpell.words": [
+		"noopener",
+		"noreferrer"
+	]
 }

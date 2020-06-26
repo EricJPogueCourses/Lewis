@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 class SuccessfulProgrammer extends React.Component {
@@ -13,7 +12,7 @@ class SuccessfulProgrammer extends React.Component {
         so that you know where to start when you return.</p>
 
         <p>Below are some additional suggestions on how to Be a successful programmer:</p>
-        <ul style={{ listStyleType: "square" }}>
+        <ul style={{listStyleType: "square"}}>
             <li>Start early</li>
             <li>Allocate time in sufficient blocks of an hour or more</li>
             <li>Establish a physical work environment where you can focus and not be interrupted</li>
@@ -35,7 +34,7 @@ class SuccessfulProgrammer extends React.Component {
 
         <p>Programming can be a creative and enjoyable endeavor. I assure you that it will be more enjoyable, if you start 
             early, give yourself sufficient time, work in a productive environment, iteratively develop and test your code, 
-            and leave yourself sufficient time to submit your projects. </p>
+            and leave yourself sufficient time to submit your labs. </p>
 </div>
 
 		);

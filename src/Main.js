@@ -35,7 +35,7 @@ import al44000Sprint08 from './ActivityLists/AL44000Sprint08'
 import version from './Version'
 
 import { Credits } from './Credits'
-import { Tools } from './Tools'
+import { tools } from './ToolsOfTheTrade'
 import { SuccessfulProgrammer } from './SuccessfulProgrammer'
 import { Calendar } from './Calendar'
 import infoEricPogue from './InfoEricPogue'
@@ -133,7 +133,7 @@ class Main extends Component {
 
 						<Route path="/version" component={version}/>
 
-						<Route path="/tools" component={Tools}/>
+						<Route path="/tools" component={tools}/>
 						<Route path="/successful-programmer" component={SuccessfulProgrammer}/>
 						<Route path="/credits" component={Credits}/>
 						<Route path="/calendar" component={Calendar}/>
