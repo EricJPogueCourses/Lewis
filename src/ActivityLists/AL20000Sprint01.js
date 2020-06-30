@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink } from "react-router-dom";
+import { AL20000Link } from './AL20000Link'
 
 const al20000Sprint01 = ( props ) => {
 	return (
@@ -34,18 +34,14 @@ take 20 to 40 minutes of focused time unless otherwise noted. <em>Highlighted ac
 graded assignments.</em> Throughout the course I try to consistently utilize the “assignment” term to indicate a 
 <em>graded</em> activity.</p>
 <ol>
-	<li>Review our course syllabus 
-			<a href="https://botb.blob.core.windows.net/nvm4zqwm/qknzei8k-syllabus.pdf">[link]</a></li>
-	<li>Be laser focused on due dates by reviewing our course calendar <NavLink to="/calendar">[link]</NavLink></li>
-	<li>Understand how Blended Learning, Flipped Classroom, and Online class formats relate by reviewing "Blended
-		Learning & Flipped Classroom" 
-		<a href="https://www.youtube.com/watch?v=paQCE58334M&vl=en-US" target="_blank" rel="noopener noreferrer">[video]</a></li>
-	<li>Understand the basics of Scrum by reviewing “Introduction to Scrum in 7 Minutes”
-		<a href="https://www.youtube.com/watch?v=9TycLR0TqFA">[video]</a></li>
+	<li><AL20000Link to='/syllabus'>[link]</AL20000Link></li>
+	<li><AL20000Link to='/calendar'>[link]</AL20000Link></li>
+	<li><AL20000Link to='/blended-learning'>[video]</AL20000Link></li>
+	<li><AL20000Link to='/scrum-in-7-min'>[video]</AL20000Link></li>
 	<li><em>Review our sprint 1 assignments including Lab 1, Quiz 1, Discussion 1, and Reflection 1 in Blackboard</em></li>
-	<li>Complete Tools of the Trade<NavLink to="/tools">[link]</NavLink> ~4 hours</li>
+	<li><AL20000Link to='/tools'>[video]</AL20000Link></li>
 	<li><em>Start early and consistently work on Lab 1 and Quiz 1 throughout the sprint ~6 hours</em></li>
-
+	<li><AL20000Link to='/chapter-01'>[video]</AL20000Link></li>
 
 	<li>Complete Numbering Systems [[Todo: Numbering Systems First topic]] 
 		<a href="http://mediaatoz.blob.core.windows.net/object-oriented-programming/concepts-and-practices.mp4">
@@ -54,7 +50,8 @@ graded assignments.</em> Throughout the course I try to consistently utilize the
 		[slides]</a></li>
 
 	<li><em>Create your initial Discussion 1 post by the middle of the sprint</em></li>
-
+	<li>Read Chapter 2 of Dale and review the associated class lecture [[Todo: Record and post class lecture.]]</li>
+	
 	<li>Complete the “Hello World” in Python tutorial [[Todo: Create tutorial]] As in all tutorials, you should follow along and complete the steps
 		yourself. As you go through the tutorial, you should make the resulting application uniquely your own by adding
 		standard comments at the top application (i.e. your name, class, etc.), changing the names of variables, adding
@@ -68,8 +65,7 @@ graded assignments.</em> Throughout the course I try to consistently utilize the
 		<a href="https://mediaatoz.blob.core.windows.net/object-oriented-programming/patterns-slides-only.pptx">
 		[slides]</a></li>
 	<li><em>Complete Discussion 1 by responding to at least two of your classmates’ posts</em></li>
-	<li><em>Submit Lab 1 and Quiz 1</em></li>
-	<li><em>Complete Reflection 1</em></li>
+	<li><em>Submit Lab 1, Quiz 1, and Reflection 1</em></li>
 </ol>
 <br />
 <p>Additional references:</p>

@@ -32,6 +32,8 @@ import al44000Sprint06 from './ActivityLists/AL44000Sprint06'
 import al44000Sprint07 from './ActivityLists/AL44000Sprint07'
 import al44000Sprint08 from './ActivityLists/AL44000Sprint08'
 
+import { ALVideo } from './ActivityLists/ALVideo'
+
 import version from './Version'
 
 import { Credits } from './Credits'
@@ -39,6 +41,7 @@ import { tools } from './ToolsOfTheTrade'
 import { SuccessfulProgrammer } from './SuccessfulProgrammer'
 import { Calendar } from './Calendar'
 import infoEricPogue from './InfoEricPogue'
+
 
 class Main extends Component {
 	constructor(props) {
@@ -130,6 +133,8 @@ class Main extends Component {
 						<Route path="/44000-sprint06" component={al44000Sprint06}/>
 						<Route path="/44000-sprint07" component={al44000Sprint07}/>
 						<Route path="/44000-sprint08" component={al44000Sprint08}/>
+
+						<Route path="/video" component={ALVideo}/>
 
 						<Route path="/version" component={version}/>
 
