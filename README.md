@@ -122,5 +122,8 @@ https://docs.microsoft.com/en-us/azure/app-service/configure-ssl-certificate#cre
 
 Todo: Move URL param functions to shared class.
 
+Passing parameters through NavLink
+Reference: https://www.youtube.com/watch?v=5pt_igBTCsI
+
 
 

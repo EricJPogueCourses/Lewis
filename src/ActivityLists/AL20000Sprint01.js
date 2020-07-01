@@ -43,6 +43,7 @@ graded assignments.</em> Throughout the course I try to consistently utilize the
 	<li><em>Start early and consistently work on Lab 1 and Quiz 1 throughout the sprint ~6 hours</em></li>
 	<li><AL20000Link to='/chapter-01'>[video]</AL20000Link></li>
 
+
 	<li>Complete Numbering Systems [[Todo: Numbering Systems First topic]] 
 		<a href="http://mediaatoz.blob.core.windows.net/object-oriented-programming/concepts-and-practices.mp4">
 		[video]</a>

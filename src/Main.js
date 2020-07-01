@@ -42,6 +42,8 @@ import { SuccessfulProgrammer } from './SuccessfulProgrammer'
 import { Calendar } from './Calendar'
 import infoEricPogue from './InfoEricPogue'
 
+import { Test } from './Test'
+
 
 class Main extends Component {
 	constructor(props) {
@@ -79,6 +81,7 @@ class Main extends Component {
 		// Example 6: http://localhost:3000/?course=what 
 		// Example 7: http://localhost:3000/?course=20000
 		// Example 8: http://localhost:3000/?hide-nav=y&course=44000&#/44000-welcome
+		// Example 9: http://localhost:3000/?course=20000&#/20000-sprint01
 
 		// Example 1b: https://www.lewis.education/?hide-nav=y&course=44000&#/44000-sprint03
 		// Example 2b: https://www.lewis.education/?course=44000&#/44000-sprint05 
@@ -88,6 +91,7 @@ class Main extends Component {
 		// Example 6b: https://www.lewis.education/ 
 		// Example 7b: https://www.lewis.education/?course=25000
 		// Example 8b: https://www.lewis.education//?hide-nav=y&course=44000&#/44000-welcome
+		// Example 9b: https://www.lewis.education/?course=20000&#/20000-sprint01
 
 		const defaultCourseNumber = 25000 /* default to OOP (cpsc-25000) */ ;
 		const queryString = window.location.search;
@@ -134,15 +138,16 @@ class Main extends Component {
 						<Route path="/44000-sprint07" component={al44000Sprint07}/>
 						<Route path="/44000-sprint08" component={al44000Sprint08}/>
 
-						<Route path="/video" component={ALVideo}/>
+						<Route path="/video/:url" component={ALVideo}/>
 
 						<Route path="/version" component={version}/>
-
 						<Route path="/tools" component={tools}/>
 						<Route path="/successful-programmer" component={SuccessfulProgrammer}/>
 						<Route path="/credits" component={Credits}/>
 						<Route path="/calendar" component={Calendar}/>
 						<Route path="/info" component={infoEricPogue}/>
+
+						<Route path={"/test/:id"} component={Test}/>
 					</div>
 				</HashRouter>
 			</div>
