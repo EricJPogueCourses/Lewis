@@ -17,10 +17,18 @@ export class AL20000Link extends ALLink {
 
 			case '/chapter-01': return (<div>
 				Read Chapter 1 of “Computer Science Illuminated” by Nell Dale and John Lewis (Dale) and review chapter 1 lecture 
-				<NavLink to="/video/chapter-01-video" >{this.props.children}</NavLink></div>)
+				<NavLink to="/20000-video/20000-chapter-01-video" >{this.props.children}</NavLink></div>)
 
-			case '/chapter-01-video': return (<div>
+			case '/20000-chapter-01-video': return (<div>
 				<ReactPlayer url='https://botb.blob.core.windows.net/nvm4zqwm/jlh8u41d-chapter-01-lecture.mp4' controls={true} width={1024} height={576} />
+			</div> )
+
+			case '/chapter-02': return (<div>
+				Read Chapter 2 of Dale and review chapter 2 lecture 
+				<NavLink to="/20000-video/20000-chapter-02-video" >{this.props.children}</NavLink></div>)
+
+			case '/20000-chapter-02-video': return (<div>
+				<ReactPlayer url='https://botb.blob.core.windows.net/nvm4zqwm/jlh8u41d-chapter-02-lecture.mp4' controls={true} width={1024} height={576} />
 			</div> )
 
 			default: 

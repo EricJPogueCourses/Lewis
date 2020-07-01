@@ -12,6 +12,7 @@ import al20000Sprint05 from './ActivityLists/AL20000Sprint05'
 import al20000Sprint06 from './ActivityLists/AL20000Sprint06'
 import al20000Sprint07 from './ActivityLists/AL20000Sprint07'
 import al20000Sprint08 from './ActivityLists/AL20000Sprint08'
+import { AL20000Video } from './ActivityLists/AL20000Video'
 
 import al25000Sprint01 from './ActivityLists/AL25000Sprint01'
 import al25000Sprint02 from './ActivityLists/AL25000Sprint02'
@@ -31,8 +32,6 @@ import al44000Sprint05 from './ActivityLists/AL44000Sprint05'
 import al44000Sprint06 from './ActivityLists/AL44000Sprint06'
 import al44000Sprint07 from './ActivityLists/AL44000Sprint07'
 import al44000Sprint08 from './ActivityLists/AL44000Sprint08'
-
-import { ALVideo } from './ActivityLists/ALVideo'
 
 import version from './Version'
 
@@ -118,6 +117,7 @@ class Main extends Component {
 						<Route path="/20000-sprint06" component={al20000Sprint06}/>
 						<Route path="/20000-sprint07" component={al20000Sprint07}/>
 						<Route path="/20000-sprint08" component={al20000Sprint08}/>
+						<Route path="/20000-video/:ref" component={AL20000Video}/>
 
 						<Route path="/25000-sprint01" component={al25000Sprint01}/>
 						<Route path="/25000-sprint02" component={al25000Sprint02}/>
@@ -138,7 +138,6 @@ class Main extends Component {
 						<Route path="/44000-sprint07" component={al44000Sprint07}/>
 						<Route path="/44000-sprint08" component={al44000Sprint08}/>
 
-						<Route path="/video/:url" component={ALVideo}/>
 
 						<Route path="/version" component={version}/>
 						<Route path="/tools" component={tools}/>
