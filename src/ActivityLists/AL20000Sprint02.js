@@ -11,13 +11,16 @@ const al20000Sprint02 = ( props ) => {
 
 <p>Let's start with what we hope to learn in sprint 2:</p>
 <ul style={{ listStyleType: "square" }}>
+	<li>Understand how to manage source code utilizing the GitHub and the Git command line client</li>
 	<li>[[Todo]]</li>
 </ul>
 
 <p>Below is our sprint 2 activities list:</p>
 <ol>
-	<li>[[Todo]]</li>
+	<li>[[Todo: Create topic 2 Data Representations]] Complete Topic 2</li>
+
 </ol>
+
 <br />
 <p>Additional references:</p>
 <ul style={{ listStyleType: "square" }}>

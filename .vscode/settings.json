@@ -4,5 +4,6 @@
 	"cSpell.words": [
 		"noopener",
 		"noreferrer"
-	]
+	],
+	"python.pythonPath": "/usr/local/bin/python3"
 }

@@ -17,8 +17,8 @@ const tools = () => {
 			folders/files, and execute applications</li>
 		<li>Install FireFox 
 			<a href="https://www.mozilla.org/en-US/firefox/new/" target="_blank" rel="noopener noreferrer">[link]</a>
-			and Chrome web browsers
-			<a href="https://www.google.com/chrome/" target="_blank" rel="noopener noreferrer">[link]</a></li>
+			and Chrome 
+			<a href="https://www.google.com/chrome/" target="_blank" rel="noopener noreferrer">[link]</a> web browsers</li> 
 		<li>Install Visual Studio Code source code editor
 			<a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer">[link]</a></li>
 		<li>Install the Visual Studio Code Python 3 programming environment

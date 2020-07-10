@@ -12,8 +12,13 @@
 	margin: 0 auto;
 }
 
+em {
+	font-weight: bold;
+}
+
 a {
 	padding-left: 2px;
+	padding-right: 2px;
 }
 
 a:link {
