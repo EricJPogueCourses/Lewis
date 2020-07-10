@@ -35,7 +35,7 @@ focused time unless otherwise noted. <em>Bold</em> items are graded assignments.
 	<li><AL20000Link to='/calendar'>[link]</AL20000Link></li>
 	<li><AL20000Link to='/blended-learning'>[video]</AL20000Link></li>
 	<li><AL20000Link to='/scrum-in-7-min'>[video]</AL20000Link></li>
-	<li>Review our sprint 1 assignments including Introduction, Lab 1, Quiz 1, Discussion 1, and Reflection 1 in 
+	<li>Review sprint 1 assignments including Introduction, Lab 1, Quiz 1, Discussion 1, and Reflection 1 in 
 		Blackboard</li>
 	<li>Start early and consistently work on Lab 1 and Quiz 1 throughout the sprint ~6 hours</li>
 	<li><AL20000Link to='/tools-part1'>[video]</AL20000Link></li>
