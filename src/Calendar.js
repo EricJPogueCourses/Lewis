@@ -93,7 +93,8 @@ class Calendar extends Component {
 	render() {
 		return (
 			<div>
-				<h4>Calendar</h4>
+				<h4>Calendar!!</h4>
+				<p>calendarref={this.props.match.params.calendarref}</p>
 				{this.createCalendarXL()}
 			</div>
 		)

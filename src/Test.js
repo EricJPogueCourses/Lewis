@@ -7,7 +7,7 @@ export class Test extends React.Component {
 		return (
 			<div>
 			<h4>Test</h4>
-			<p>{this.props.match.params.id}</p>
+				<p>{this.props.match.params.id}</p>
 			</div>
 		)
 	}

@@ -10,11 +10,20 @@ class HeaderNav extends Component {
 
 		this.state = {
 			courseNumber: props.course,
+			courseCalendar: props.calendar,
 			show: props.show
 		}
 	} 
 
-	getMenu = () => {
+	calendarLink = () => {
+		if (this.state.courseNumber === '2020-08-31-16') {
+			return ( <NavDropdown.Item href="#sprint-calendar/2020-08-31-16">Calendar</NavDropdown.Item> )
+		} else {
+			return ( <NavDropdown.Item href="#sprint-calendar/2020-01-13-16">Calendar</NavDropdown.Item> )
+		}
+	}
+
+	menu = () => {
 		if (this.state.courseNumber === 20000) {
 			return this.getCPSC20000Menu()
 		} else if (this.state.courseNumber === 25000){
@@ -41,9 +50,8 @@ class HeaderNav extends Component {
 									<NavDropdown.Item href="#20000-sprint06">Sprint 6</NavDropdown.Item>
 									<NavDropdown.Item href="#20000-sprint07">Sprint 7</NavDropdown.Item>
 									<NavDropdown.Item href="#20000-sprint08">Sprint 8</NavDropdown.Item>
-
 									<NavDropdown.Divider />
-									<NavDropdown.Item href="#calendar">Calendar</NavDropdown.Item>
+									{this.calendarLink()}
 									<NavDropdown.Item href="#successful-programmer">Successful Programmer</NavDropdown.Item>
 									<NavDropdown.Item href="#tools">Tools</NavDropdown.Item>
 								</NavDropdown>
@@ -72,9 +80,8 @@ class HeaderNav extends Component {
 									<NavDropdown.Item href="#25000-sprint06">Sprint 6</NavDropdown.Item>
 									<NavDropdown.Item href="#25000-sprint07">Sprint 7</NavDropdown.Item>
 									<NavDropdown.Item href="#25000-sprint08">Sprint 8</NavDropdown.Item>
-
 									<NavDropdown.Divider />
-									<NavDropdown.Item href="#calendar">Calendar</NavDropdown.Item>
+									{this.calendarLink()}
 									<NavDropdown.Item href="#successful-programmer">Successful Programmer</NavDropdown.Item>
 									<NavDropdown.Item href="#tools">Tools</NavDropdown.Item>
 								</NavDropdown>
@@ -96,6 +103,7 @@ class HeaderNav extends Component {
 							<Nav.Link href="#home">Lewis.education</Nav.Link>
 								<NavDropdown title="Activity Lists" id="basic-nav-dropdown">
 									<NavDropdown.Item href="#44000-welcome">Welcome</NavDropdown.Item>
+									<NavDropdown.Divider />
 									<NavDropdown.Item href="#44000-sprint01">Sprint 1</NavDropdown.Item>
 									<NavDropdown.Item href="#44000-sprint02">Sprint 2</NavDropdown.Item>
 									<NavDropdown.Item href="#44000-sprint03">Sprint 3</NavDropdown.Item>
@@ -104,9 +112,8 @@ class HeaderNav extends Component {
 									<NavDropdown.Item href="#44000-sprint06">Sprint 6</NavDropdown.Item>
 									<NavDropdown.Item href="#44000-sprint07">Sprint 7</NavDropdown.Item>
 									<NavDropdown.Item href="#44000-sprint08">Sprint 8</NavDropdown.Item>
-
 									<NavDropdown.Divider />
-									<NavDropdown.Item href="#calendar">Calendar</NavDropdown.Item>
+									{this.calendarLink()}
 									<NavDropdown.Item href="#successful-programmer">Successful Programmer</NavDropdown.Item>
 									<NavDropdown.Item href="#tools">Tools</NavDropdown.Item>
 								</NavDropdown>
@@ -125,7 +132,7 @@ class HeaderNav extends Component {
 		else
 			return (
 				<div className="Header">
-					{this.getMenu()}
+					{this.menu()}
 				</div>
 		)
 	}

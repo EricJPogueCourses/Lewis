@@ -1,5 +1,6 @@
 import React from 'react'
 import { AL20000Link } from './AL20000Link'
+import { NavLink } from "react-router-dom";
 
 const al20000Sprint01 = ( props ) => {
 	return (
@@ -13,19 +14,20 @@ science. The course will include an overview of computer architecture, networkin
 Together we will also explore algorithms, abstractions, computational problem solving, and programming. </p>
 
 <p>You likely noticed that I am using the term “sprint 1” to describe our first set of course activities. Sprints are 
-part of the Scrum software development process. The term is used to describe a unit of work which will be delivered by
-a given date. We will be learning more about sprints and Scrum in the coming days. For now it is sufficient to know 
-that our sprint 1 activities will need to be completed by the end of sprint 1 and are expected to take approximately 18 
-hours of focused effort to complete.</p>
+part of the Scrum software development process. The term is used to describe a unit of work which we have committed to
+delivering by a given date. We will be learning more about sprints and Scrum in the coming days. For now it is sufficient to know 
+that our sprint 1 activities will take approximately 18 hours of focused effort to complete, and we need to complete the 
+activities by the sprint 1 end date listed on our course calendar
+<NavLink to="/calendar">[link]</NavLink>.</p>
 
 <p>Let’s start with our sprint 1 Learning Objectives. By the end of sprint 1 we will be able to:</p>
 <ul style={{listStyleType: "square"}}>
 	<li>Effectively participate in a blended classroom environment</li>
 	<li>Understand the basics of Scrum and participate in a Scrum team</li>
 	<li>Identify, define, and discuss numbering systems and data representations</li>
+	<li>Begin to understand algorithmic thinking, representation, programming, and design</li>
 	<li>Utilize command line and graphical tools to navigate our computer operating system and file system</li>
 	<li>Create, edit, and execute basic Python source code and applications</li>
-	<li>Begin to understand algorithmic thinking, representation, programming, and design</li>
 </ul>
 <p>Below is our sprint 1 activities list. Although you are welcome to pursue the activities in any order, they are
 listed in the order I think will be the most efficient to complete. Expect each item to take 20 to 40 minutes of 

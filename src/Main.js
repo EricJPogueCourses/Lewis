@@ -4,6 +4,9 @@ import React, { Component } from "react";
 import { Route, HashRouter } from "react-router-dom";
 
 import HeaderNav from './HeaderNav'
+
+import { SprintCalendar } from './SprintCalendar'
+
 import al20000Sprint01 from './ActivityLists/AL20000Sprint01'
 import al20000Sprint02 from './ActivityLists/AL20000Sprint02'
 import al20000Sprint03 from './ActivityLists/AL20000Sprint03'
@@ -38,9 +41,8 @@ import version from './Version'
 import { Credits } from './Credits'
 import { tools } from './ToolsOfTheTrade'
 import { SuccessfulProgrammer } from './SuccessfulProgrammer'
-import { Calendar } from './Calendar'
-import infoEricPogue from './InfoEricPogue'
 
+import infoEricPogue from './InfoEricPogue'
 import { Test } from './Test'
 
 
@@ -51,7 +53,7 @@ class Main extends Component {
 		this.state = {
 			showNav: this.getShowNavFlagFromURL(),
 			course: this.getCourseFromURL(),
-			calendar: ""
+			calendar: this.getCalendarFromURL()
 		}
 	}
 
@@ -72,15 +74,20 @@ class Main extends Component {
 
 	getCourseFromURL = () => {
 		// The 'course-id' URL parameter must be before any React routing parameters. 
-		// Example 1: http://localhost:3000/?hide-nav=y&course=44000&#/44000-sprint03
-		// Example 2: http://localhost:3000/?course=44000&#/44000-sprint05
-		// Example 3: http://localhost:3000/?course=44000
-		// Example 4: http://localhost:3000/?course=25000
-		// Example 5: http://localhost:3000/
-		// Example 6: http://localhost:3000/?course=what 
-		// Example 7: http://localhost:3000/?course=20000
-		// Example 8: http://localhost:3000/?hide-nav=y&course=44000&#/44000-welcome
-		// Example 9: http://localhost:3000/?course=20000&#/20000-sprint01
+		// Example 01: http://localhost:3000/?hide-nav=y&course=44000&#/44000-sprint03
+		// Example 02: http://localhost:3000/?course=44000&calendar=2020-08-31-16#/44000-sprint05
+		// Example 03: http://localhost:3000/?course=44000&calendar=2020-08-31-16
+		// Example 04: http://localhost:3000/?course=25000&calendar=2020-08-31-16
+		// Example 05: http://localhost:3000/
+		// Example 06: http://localhost:3000/?course=20000&calendar=2020-08-31-16#/20000-sprint01
+		// Example 07: http://localhost:3000/?course=20000
+		// Example 08: http://localhost:3000/?hide-nav=y&course=44000&#/44000-welcome
+		// Example 09: http://localhost:3000/?course=20000&#/20000-sprint01
+		// Example 10: http://localhost:3000/#/test/10
+		// Example 11: http://localhost:3000/?hide-nav=y#/sprint-calendar/2020-08-31-16-01
+		// Example 12: http://localhost:3000/#/sprint-calendar/2020-08-31-16-01
+
+		// Example 09: http://localhost:3000/?course=25000&calendar=2020-08-31-16#/25000-sprint01
 
 		// Example 1b: https://www.lewis.education/?hide-nav=y&course=44000&#/44000-sprint03
 		// Example 2b: https://www.lewis.education/?course=44000&#/44000-sprint05 
@@ -89,10 +96,10 @@ class Main extends Component {
 		// Example 5b: https://www.lewis.education/
 		// Example 6b: https://www.lewis.education/ 
 		// Example 7b: https://www.lewis.education/?course=25000
-		// Example 8b: https://www.lewis.education//?hide-nav=y&course=44000&#/44000-welcome
+		// Example 8b: https://www.lewis.education/?hide-nav=y&course=44000&#/44000-welcome
 		// Example 9b: https://www.lewis.education/?course=20000&#/20000-sprint01
 
-		const defaultCourseNumber = 25000 /* default to OOP (cpsc-25000) */ ;
+		const defaultCourseNumber = 25000 // Default to cpsc-25000 which is OOP
 		const queryString = window.location.search;
 		const urlParams = new URLSearchParams(queryString);
 		let course = parseInt(urlParams.get('course'), 10);
@@ -102,13 +109,24 @@ class Main extends Component {
 		return course
 	}
 
+	getCalendarFromURL = () =>  {
+		// The 'calendar' URL parameter must be before the React routing parameters.
+		// For example: http://localhost:3000/?course=20000&calendar=2020-08-31-16#/20000-sprint01
+		const queryString = window.location.search;
+		const urlParams = new URLSearchParams(queryString);
+		const calendar = urlParams.get('calendar');
+		return calendar
+	}
+
 	render() {
 		return (
 			<div>
-				<HeaderNav show={this.state.showNav} course={this.state.course} />
+				<HeaderNav show={this.state.showNav} course={this.state.course} calendar={this.state.calendar}/>
 				<HashRouter>
 					<div className="Main">
-						<Route exact path="/" component={Calendar}/>
+						<Route exact path="/" component={SprintCalendar}/>
+						<Route path="/sprint-calendar/:reference" component={SprintCalendar}/>
+
 						<Route path="/20000-sprint01" component={al20000Sprint01}/>
 						<Route path="/20000-sprint02" component={al20000Sprint02}/>						
 						<Route path="/20000-sprint03" component={al20000Sprint03}/>
@@ -138,12 +156,11 @@ class Main extends Component {
 						<Route path="/44000-sprint07" component={al44000Sprint07}/>
 						<Route path="/44000-sprint08" component={al44000Sprint08}/>
 
-
 						<Route path="/version" component={version}/>
 						<Route path="/tools" component={tools}/>
 						<Route path="/successful-programmer" component={SuccessfulProgrammer}/>
 						<Route path="/credits" component={Credits}/>
-						<Route path="/calendar" component={Calendar}/>
+
 						<Route path="/info" component={infoEricPogue}/>
 
 						<Route path={"/test/:id"} component={Test}/>
