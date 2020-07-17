@@ -2,14 +2,17 @@ import React, { Component } from 'react'
 import Table from 'react-bootstrap/Table'
 
 import * as SprintDates from './SprintDates'
+import * as URLParameters from './URLParameters'
 
 class SprintCalendar extends Component {
 	sprintCalendar() {
 		// Expecting a date and duration string representation of YYYY-MM-DD-RR-LL where RR is the two digit duration 
 		// in weeks (e.g. '2020-08-31-16') and LL is the sprint to highligh (e.g. '2020-08-31-16-05')
 
-		let referenceString = this.props.match.params.reference
-		
+		// BugBug: Remove reference to "let referenceString = this.props.match.params.reference"
+		// http://localhost:3000/?cpsc=20000-fall-2020-002#/sprint-calendar/2020-01-13-16
+
+		let referenceString = URLParameters.courseStartDateAndDuration()
 		
 		// The 13 below come from the length of the calendarReference (e.g. '2020-08-31-16').
 		let calendarReference = referenceString.substring(0,13)

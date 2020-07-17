@@ -5,6 +5,8 @@ import { Route, HashRouter } from "react-router-dom";
 
 import HeaderNav from './HeaderNav'
 
+
+import Welcome from './Welcome'
 import { SprintCalendar } from './SprintCalendar'
 
 import al20000Sprint01 from './ActivityLists/AL20000Sprint01'
@@ -73,6 +75,8 @@ class Main extends Component {
 	}
 
 	getCourseFromURL = () => {
+		// BugBug: Need to clean up (and move) all of the test URL examples to reflect new parameter passing. 
+		// BugBug: Remove the call and replace with call to URLParams
 		// The 'course-id' URL parameter must be before any React routing parameters. 
 		// Example 01: http://localhost:3000/?hide-nav=y&course=44000&#/44000-sprint03
 		// Example 02: http://localhost:3000/?course=44000&calendar=2020-08-31-16#/44000-sprint05
@@ -124,11 +128,12 @@ class Main extends Component {
 				<HeaderNav show={this.state.showNav} course={this.state.course} calendar={this.state.calendar}/>
 				<HashRouter>
 					<div className="Main">
-						<Route exact path="/" component={al44000Welcome}/>
+						<Route exact path="/" component={Welcome}/>
 						<Route exact path="/home" component={al44000Welcome}/>
 						
 						<Route path="/sprint-calendar/:reference" component={SprintCalendar}/>
 
+						<Route path="/welcome" component={Welcome}/>
 						<Route path="/20000-sprint01" component={al20000Sprint01}/>
 						<Route path="/20000-sprint02" component={al20000Sprint02}/>						
 						<Route path="/20000-sprint03" component={al20000Sprint03}/>
