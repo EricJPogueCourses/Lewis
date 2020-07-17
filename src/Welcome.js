@@ -16,4 +16,4 @@ const Welcome = () => {
 	}
 };
 
-export default Welcome
+export { Welcome }
