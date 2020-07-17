@@ -16,7 +16,7 @@ class HeaderNav extends Component {
 	} 
 
 	calendarLink = () => {
-		if (this.state.courseNumber === '2020-08-31-16') {
+		if (this.state.courseCalendar === '2020-08-31-16') {
 			return ( <NavDropdown.Item href="#sprint-calendar/2020-08-31-16">Calendar</NavDropdown.Item> )
 		} else {
 			return ( <NavDropdown.Item href="#sprint-calendar/2020-01-13-16">Calendar</NavDropdown.Item> )
@@ -42,6 +42,8 @@ class HeaderNav extends Component {
 						<Nav className="mr-auto">
 							<Nav.Link href="#home">Lewis.education</Nav.Link>
 								<NavDropdown title="Activity Lists" id="basic-nav-dropdown">
+									<NavDropdown.Item href="#44000-welcome">Welcome</NavDropdown.Item>
+									<NavDropdown.Divider />
 									<NavDropdown.Item href="#20000-sprint01">Sprint 1</NavDropdown.Item>
 									<NavDropdown.Item href="#20000-sprint02">Sprint 2</NavDropdown.Item>
 									<NavDropdown.Item href="#20000-sprint03">Sprint 3</NavDropdown.Item>
@@ -72,6 +74,8 @@ class HeaderNav extends Component {
 						<Nav className="mr-auto">
 							<Nav.Link href="#home">Lewis.education</Nav.Link>
 								<NavDropdown title="Activity Lists" id="basic-nav-dropdown">
+									<NavDropdown.Item href="#44000-welcome">Welcome</NavDropdown.Item>
+									<NavDropdown.Divider />
 									<NavDropdown.Item href="#25000-sprint01">Sprint 1</NavDropdown.Item>
 									<NavDropdown.Item href="#25000-sprint02">Sprint 2</NavDropdown.Item>
 									<NavDropdown.Item href="#25000-sprint03">Sprint 3</NavDropdown.Item>

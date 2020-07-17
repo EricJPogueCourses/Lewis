@@ -43,7 +43,7 @@ focused time unless otherwise noted. <em>Bold</em> items are graded assignments.
 	<li><AL20000Link to='/tools-part1'>[video]</AL20000Link></li>
 	<li><AL20000Link to='/hello-world-python'>[video]</AL20000Link></li>
 	<li><AL20000Link to='/chapter-01'>[video]</AL20000Link></li>
-	<li><em>Complete your Introduction post and Discussion 1 post by the middle of the sprint</em></li>
+	<li><em>Complete your Introduction and Discussion 1 posts by the middle of the sprint</em></li>
 	<li><AL20000Link to='/chapter-02'>[video]</AL20000Link></li>
 	<li><AL20000Link to='/numbering-systems-python'>[video]</AL20000Link></li>
 	<li><em>Complete Discussion 1 by responding to at least two of your classmates’ posts</em></li>

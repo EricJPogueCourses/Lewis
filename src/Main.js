@@ -124,7 +124,9 @@ class Main extends Component {
 				<HeaderNav show={this.state.showNav} course={this.state.course} calendar={this.state.calendar}/>
 				<HashRouter>
 					<div className="Main">
-						<Route exact path="/" component={SprintCalendar}/>
+						<Route exact path="/" component={al44000Welcome}/>
+						<Route exact path="/home" component={al44000Welcome}/>
+						
 						<Route path="/sprint-calendar/:reference" component={SprintCalendar}/>
 
 						<Route path="/20000-sprint01" component={al20000Sprint01}/>

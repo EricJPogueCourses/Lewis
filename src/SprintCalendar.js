@@ -10,6 +10,7 @@ class SprintCalendar extends Component {
 
 		let referenceString = this.props.match.params.reference
 		
+		
 		// The 13 below come from the length of the calendarReference (e.g. '2020-08-31-16').
 		let calendarReference = referenceString.substring(0,13)
 		return SprintDates.sprintCalendar(calendarReference)

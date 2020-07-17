@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { NavLink } from "react-router-dom";
 
 class Credits extends React.Component {
 	render() {
@@ -7,7 +8,7 @@ class Credits extends React.Component {
 
 <div>
 	<h4>Lewis.education</h4>
-	<h5>Developed by Eric Pogue</h5>
+	<h5>Developed by Eric Pogue <NavLink to="/info">[link]</NavLink></h5>
 
 	 <pre>{`
 
