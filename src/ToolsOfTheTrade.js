@@ -1,6 +1,6 @@
 import React from 'react';
 
-const tools = () => {
+const Tools = () => {
 	return (
 
 <div>
@@ -85,4 +85,4 @@ const tools = () => {
 	);
 }
 
-export { tools }
+export { Tools }

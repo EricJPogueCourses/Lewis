@@ -1,4 +1,18 @@
+import * as URLParameters from './URLParameters'
 
+export const sprintCalendarFromURL = () => {
+	let cpsc = URLParameters.cpsc()
+	switch(cpsc) {
+		case '20000-fall-2020-002': return sprintCalendar('2020-08-31-16')
+		case '20000-fall-2020-003': return sprintCalendar('2020-08-31-16')
+		case '24700-fall-2020-001': return sprintCalendar('2020-08-31-16')
+		case '44000-fall-2020-001': return sprintCalendar('2020-08-31-16')
+
+		default:
+			console.log('Error: Course start date and duration not found (cpsc='+cpsc+')') 
+			return sprintCalendar('2020-08-31-16')
+	}
+}
 
 export const sprintCalendar = (startDateAndDuration) => {
 	// The following structure represents the sprint calendar for any class that starts on 2020-01-13 and is 16 weeks long. 
