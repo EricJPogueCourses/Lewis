@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from "react-router-dom";
 
 const al44000Sprint01 = () => {
 	return (
@@ -20,12 +21,12 @@ const al44000Sprint01 = () => {
 	Project Management, Architecture, Requirements, Testing, Support, and Maintenance. These are some of
 	the topics that we will be exploring as part of this Software Engineering course.</p>
 
-	<p>You have likely noticed that I am using the term “sprint 1” to describe our first set of course
-	activities and assignments. Sprints are part of the Scrum development process. The term is used to
-	describe a unit of work which will be delivered in by a given date and time. We will be learning
-	more about sprints, Scrum, and Agile development in the coming days. For now it is sufficient to
-	know that our sprint 1 activities listed below are expected to take approximately 18 hours of
-	focused effort to complete.</p>
+<p>You likely noticed that I am using the term “sprint 1” to describe our first set of course activities. Sprints are 
+part of the Scrum software development process. The term is used to describe a unit of work which we have committed to
+delivering by a given date. We will be learning more about sprints and Scrum in the coming days. For now it is 
+sufficient to know that our sprint 1 activities will take approximately 18 hours of focused effort to complete, and we 
+need to complete the activities by the sprint 1 end date listed on our course calendar 
+<NavLink to="/calendar/1">[link]</NavLink>.</p>
 
 	<p>Let's start with what we hope to learn in sprint 1. You can think of these as our Learning Objectives.
 	By the end of sprint 1 we will be able to:</p>
@@ -38,6 +39,7 @@ const al44000Sprint01 = () => {
 		<li>explain legacy code</li>
 		<li>list the pros and cons of cloud computing</li>
 		<li>describe client-server, three-tier and MVC design patterns</li>
+		<li>Utilize important developer tools to create and update basic software applications</li>
 	</ul>
 
 	<p>Below is our sprint 1 activities list. Although you are welcome to pursue the activities in any order, they are

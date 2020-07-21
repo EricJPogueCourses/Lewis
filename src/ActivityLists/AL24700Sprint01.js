@@ -1,16 +1,16 @@
 import React from 'react'
-import { NavLink } from "react-router-dom";
+import { NavLink } from 'react-router-dom';
 
-const al20000Sprint01 = (syllabusURL) => {
+const al24700Sprint01 = (syllabusURL) => {
 	return (
 
 <div>
-<h4>Introduction to Computer Science</h4>
-<h5>Sprint 1: Getting Started, Number Systems, Data Representation, and Tools of the Trade</h5>
+<h4>Web and Distributed Programming</h4>
+<h5>Sprint 1: The Internet, the Web, Programming with HTML5, and Tools of the Trade</h5>
 
-<p>Welcome to Introduction to Computer Science! In this course we will be exploring the field of computer 
-science. The course will include an overview of computer architecture, networking, data organization, and security. 
-Together we will also explore algorithms, abstractions, computational problem solving, and programming. </p>
+<p><em>Welcome to Web and Distributed Programming!</em> I am looking forward to working with you to deliver high 
+quality and interesting Internet software applications. We will be working with multiple software development 
+languages in cloud based environments to deliver industrial strength software applications.</p>
 
 <p>You likely noticed that I am using the term “sprint 1” to describe our first set of course activities. Sprints are 
 part of the Scrum software development process. The term is used to describe a unit of work which we have committed to
@@ -23,8 +23,8 @@ need to complete the activities by the sprint 1 end date listed on our course ca
 <ul style={{listStyleType: "square"}}>
 	<li>Effectively participate in a blended classroom environment</li>
 	<li>Understand the basics of Scrum and participate in a Scrum team</li>
-	<li>Identify, define, and discuss numbering systems and data representations</li>
-	<li>Begin to understand algorithmic thinking, representation, programming, and design</li>
+	<li>Identify, define, and discuss the Internet and the Web</li>
+	<li>Develop browser based HTML5 applications that utilize common HTML elements</li>
 	<li>Utilize important developer tools to create and update basic software applications</li>
 </ul>
 
@@ -42,21 +42,32 @@ focused time unless otherwise noted. <em>Bold</em> items are graded assignments.
 	<li><em>Review sprint 1 assignments including Introduction, Lab 1, Quiz 1, Discussion 1, and Reflection 1</em></li>
 	<li>Start early and consistently work on Lab 1 and Quiz 1 throughout the sprint</li>
 	<li>Complete “Tools of the Trade - Part 1” ~3 hours <NavLink to="/activity/tools">[link]</NavLink></li>
-	<li>Read Chapter 1 of “Computer Science Illuminated” by Nell Dale and John Lewis (Dale) and review our chapter 1 
-		lecture <NavLink to="/activity/dale-chapter-01">[video]</NavLink></li>
+
+	<li>Read chapter 2 of “Programming The World Wide Web” (Sebesta) and review our chapter 2 lecture
+		<NavLink to="/activity/sebesta-chapter-02">[video]</NavLink></li>
+
 	<li><em>Complete the Introduction assignment by making your post and responding to at least two of your classmates'</em></li>
 	<li><em>Make your initial Discussion 1 post by the middle of the sprint</em></li>
 	<li>Complete “Hello World with Python”<NavLink to="/activity/hello-world-python">[link]</NavLink></li>
-	<li>Read Chapter 2 of “Computer Science Illuminated” by Nell Dale and John Lewis (Dale) and chapter 2 lecture 
-		<NavLink to="/activity/dale-chapter-02">[video]</NavLink></li>
-	<li>Complete “Numbering Systems with Python”<NavLink to="/activity/numbering-systems-python">[link]</NavLink></li>
+
+	<li>Complete “HTML Part 1” from W3C<NavLink to="/activity/html">[link]</NavLink></li>
+	<li>Read chapter 1 of Sebesta and review the related lecture 
+		<NavLink to="/activity/sebesta-chapter-01">[video]</NavLink></li>
+
 	<li><em>Complete Discussion 1 by responding to at least two of your classmates’ posts</em></li>
 	<li><em>Submit Lab 1, Quiz 1, and Reflection 1</em></li>
 </ol>
 <p>Be sure start assignments early and to reward yourself when you reach significant milestones.</p>
+<p>Additional references:</p>
+<ul style={{ listStyleType: "square" }}>
+	<li>Sebesta HTML examples <a href="http://examples.epogue.info/" target="_blank" rel="noopener noreferrer">[link]</a></li>
+	<li>Sebesta chapter 1 slides <a href="https://mediaatoz.blob.core.windows.net/web-and-distributed-programming/intro-to-web-and-distributed-programming.pptx" target="_blank" rel="noopener noreferrer">[slides]</a></li>
+	<li>Sebesta chapter 2 slides <a href="https://mediaatoz.blob.core.windows.net/web-and-distributed-programming/html5-slides-only.pptx" target="_blank"  rel="noopener noreferrer">[slides]</a></li>
+</ul>
+
 </div>
 
 	)
 };
 
-export default al20000Sprint01
+export { al24700Sprint01 }

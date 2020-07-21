@@ -4,7 +4,50 @@ const Tools = () => {
 	return (
 
 <div>
+
 	<h4>Tools of the Trade</h4>
+
+<ul style={{listStyleType: "square"}}>
+	<li>Utilize important developer tools to create and update basic software applications</li>	
+	<li>Utilize command line and graphical tools to navigate our computer operating system and file system</li>
+	<li>Create, edit, and update source code in a text editor</li>
+	<li>Manage source code utilizing the GitHub and the Git command line and Web clients</li>
+	<li>Utilize command line and graphical tools to navigate our computer operating system and local file system</li>
+	<li>Create, edit, and update source code in a text editor</li>
+	<li>Manage source code utilizing the GitHub and the Git command line client</li>
+	<li>Understand basic Scrum development techniques</li>
+</ul>
+
+Review from Web and Distributed
+<ul>	<li>Review navigation of your computer local file system utilizing MS Windows PowerShell, MS Windows command
+		prompt, MacOS terminal, or your preferred Linux shell</li>
+
+		<li>Install the Microsoft Visual Studio Code text editor and the Google Chrome web browser
+		<a href="https://mediaatoz.blob.core.windows.net/environment-configuration/mscode-and-chrome-windows10-setup.mp4">[video]</a>
+		<a href="https://www.google.com/chrome/" target="_blank" rel="noopener noreferrer">[chrome]</a>
+		<a href="https://code.visualstudio.com/">[code]</a></li>	
+		<li>If you don’t already have a GitHub account, set up a GitHub account utilizing the Student Developer Pack
+		<a href="https://help.github.com/en/articles/applying-for-a-student-developer-pack">[link]</a></li>	
+
+		<li>Install the Git command line client
+		<a href="https://mediaatoz.blob.core.windows.net/environment-configuration/git-installation-on-windows-10.mp4">[video]</a>
+		<a href="https://git-scm.com/">[link]</a></li>
+	<li>Utilize your GitHub account and Git client to:
+	<ul style={{ listStyleType: "square" }}>
+		<li>Complete the “An Intro to Git and GitHub for Beginners” tutorial from the GitHub website
+			<a href="https://guides.github.com/activities/hello-world/" target="_blank" rel="noopener noreferrer">[link]</a></li>
+		<li>Complete the “An Intro to Git and GitHub for Beginners” tutorial from HubSpot 
+			<a href="https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners">[link]</a></li>
+		<li>Review the “Git Handbook” guide
+			<a href="https://guides.github.com/introduction/git-handbook/">[link]</a></li>
+			<li>Install or update MS Windows PowerShell if you are utilizing MS Windows
+		<a href="http://mediaatoz.blob.core.windows.net/environment-configuration/powershell-windows10-setup.mp4">[video]</a></li>
+	</ul></li>
+
+
+
+		</ul>
+
 	<p>To be successful in this class you will need to effectively utilize the following software applications and 
 	services on Windows 10 or MacOS. Please install or sign up for each of the following applications and services.</p>
 	<ol>

@@ -1,8 +1,11 @@
 
 /* Below are a series of test URL that can be utilized for local and production testing:
 	http://localhost:3000/?cpsc=44000-fall-2020-002#/welcome
-	https://www.lewis.education//?cpsc=44000-fall-2020-002#/sprint-1
-	https://www.lewis.education//?cpsc=44000-fall-2020-002&hide-nav=y#/sprint-1
+	https://www.lewis.education/?cpsc=44000-fall-2020-002#/sprint-1
+	https://www.lewis.education/?cpsc=44000-fall-2020-002&hide-nav=y#/sprint-1
+
+	http://localhost:3000/?cpsc=24700-fall-2020-001#/sprint-1
+	https://www.lewis.education/?cpsc=24700-fall-2020-001#/sprint-1
 
 			// BugBug: Need to clean up (and move) all of the test URL examples to reflect new parameter passing. 
 
@@ -33,29 +36,14 @@
 		// Example 9b: https://www.lewis.education/?course=20000&#/20000-sprint01
 */
 
-export const courseNumber = () => { 
-	const defaultCourseNumber = 20000 // Default to cpsc-25000 which is OOP
-	const queryString = window.location.search;
-	const urlParams = new URLSearchParams(queryString);
-
-	let cpsc = urlParams.get('cpsc')
-	if (cpsc == null) {
-		return defaultCourseNumber;
-	}
-
-	// The first 5 characters of 'cpsc' are the course number (e.g. cpsc=20000-fall-2020-002)
-	let course = parseInt(cpsc.substring(0, 5));
-
-	if (isNaN(course)) {
-		course = defaultCourseNumber; 
-	}
-	return course
-}
-
 export const cpsc = () => {
 	const queryString = window.location.search;
 	const urlParams = new URLSearchParams(queryString);
-	return urlParams.get('cpsc')
+	const cpscParam = urlParams.get('cpsc')
+	if (cpscParam === null) {
+		return ''
+	}
+	return cpscParam
 }
 
 export const showHeaderNavigation = () => {
@@ -70,4 +58,53 @@ export const showHeaderNavigation = () => {
 			return false; // false to show the nav bar
 		}
 		return true; // true to hide the nav bar
+}
+
+export const courseNumber = () => { 
+	const defaultCourseNumber = 20000 // Default to cpsc-25000 which is OOP
+	const queryString = window.location.search;
+	const urlParams = new URLSearchParams(queryString);
+	let cpsc = urlParams.get('cpsc')
+	if (cpsc == null) {
+		return defaultCourseNumber;
+	}
+
+	// The first 5 characters of 'cpsc' are the course number (e.g. cpsc=20000-fall-2020-002)
+	let course = parseInt(cpsc.substring(0, 5));
+
+	if (isNaN(course)) {
+		course = defaultCourseNumber; 
+	}
+	return course
+}
+
+// The following function will provide a link to a Lewis University class syllabus. A class is an instance of a 
+// course (sometimes referred to as a section). For example Object-Oriented Programming (cpsc-25000) is a course 
+// the Object-Oriented Programming class (cpsc-25000-001) is the section that meets MWF from 10-10:50am CT.
+export const classSyllabusURL = () => { 
+	let classReference = cpsc()
+	switch(classReference) {
+		case '20000-fall-2020-002': return "https://botb.blob.core.windows.net/nvm4zqwm/qknzei8k-syllabus.pdf"
+		case '20000-fall-2020-003': return "https://botb.blob.core.windows.net/nvm4zqwm/qy0o0w0u-syllabus.pdf"
+		case '24700-fall-2020-001': return "https://botb.blob.core.windows.net/nvm4zqwm/mrvgacu2-syllabus.pdf"
+		case '44000-fall-2020-001': return "https://botb.blob.core.windows.net/nvm4zqwm/o1cbypjo-syllabus.pdf"
+
+		default:
+			console.log('Error: Class syllabus URL not found (class='+classReference+')') 
+			return ""
+	}
+}
+
+export const title = () => { 
+	let classReference = cpsc()
+	switch(classReference) {
+		case '20000-fall-2020-002': return "Introduction to Computer Science"
+		case '20000-fall-2020-003': return "Introduction to Computer Science"
+		case '24700-fall-2020-001': return "Web and Distributed Programming"
+		case '44000-fall-2020-001': return "Software Engineering"
+
+		default:
+			console.log('Warning: Class title not found (class='+classReference+')') 
+			return "Introduction to Computer Science"
+	}
 }

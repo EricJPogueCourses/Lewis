@@ -15,13 +15,12 @@ import { Sprint06 } from './Sprint06'
 import { Sprint07 } from './Sprint07'
 import { Sprint08 } from './Sprint08'
 import { SprintCalendar } from './SprintCalendar'
-
 import { Credits } from './Credits'
-import { Tools } from './ToolsOfTheTrade'
-import { SuccessfulProgrammer } from './SuccessfulProgrammer'
 import { InfoEricPogue } from './InfoEricPogue'
 import { Version } from './Version'
 import { Test } from './Test'
+
+import { Activity } from './Activity'
 
 class Main extends Component {
 	render() {
@@ -41,13 +40,14 @@ class Main extends Component {
 						<Route path="/sprint-6" component={Sprint06}/>
 						<Route path="/sprint-7" component={Sprint07}/>
 						<Route path="/sprint-8" component={Sprint08}/>
-						<Route path="/sprint-calendar/:reference" component={SprintCalendar}/>
+						<Route path="/calendar/:reference" component={SprintCalendar}/>
 						<Route path="/version" component={Version}/>
-						<Route path="/tools" component={Tools}/>
-						<Route path="/successful-programmer" component={SuccessfulProgrammer}/>
 						<Route path="/credits" component={Credits}/>
 						<Route path="/info" component={InfoEricPogue}/>
 						<Route path={"/test/:id"} component={Test}/>
+
+						<Route path={"/activity/:reference"} component={Activity}/>
+
 					</div>
 				</HashRouter>
 			</div>

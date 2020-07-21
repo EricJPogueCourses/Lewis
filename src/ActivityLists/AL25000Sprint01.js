@@ -22,13 +22,11 @@ focused effort to complete.</p>
 
 <p>Let's start with what we hope to learn in sprint 1. By the end of sprint 1 we will be able to:</p>
 <ul style={{ listStyleType: "square" }}>
+	<li>Effectively participate in a blended classroom environment</li>
+	<li>Understand the basics of Scrum and participate in a Scrum team</li>
 	<li>Identify and understand key object-oriented programming concepts</li>
 	<li>Identify, define, and discuss object-oriented programming patterns</li>
-	<li>Compile and execute basic Java applications utilizing Java command line tools</li>
-	<li>Utilize command line and graphical tools to navigate our computer operating system and local file system</li>
-	<li>Create, edit, and update source code in a text editor</li>
-	<li>Manage source code utilizing the GitHub and the Git command line client</li>
-	<li>Understand basic Scrum development techniques</li>
+	<li>Utilize important developer tools to create and update basic software applications</li>
 </ul>
 
 <p>Below is our sprint 1 activities list. Although you are welcome to pursue the activities in any order, they are

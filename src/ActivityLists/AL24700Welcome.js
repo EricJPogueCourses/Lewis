@@ -2,12 +2,12 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import ReactPlayer from "react-player"
 
-export const al20000Welcome = () => {
+export const al24700Welcome = () => {
 	return (
 
 <div>
-	<h4>Introduction to Computer Science</h4>
-	<h5>Welcome to Introduction to Computer Science!</h5>
+	<h4>Web and Distributed Programming</h4>
+	<h5>Welcome to Web and Distributed Programming!</h5>
 	<br />
 	<p>Please take a few minutes to view the following welcome video and to review the “Blended Learning” and 
 		“Introduction to Scrum” videos provided below.</p>
@@ -18,7 +18,7 @@ export const al20000Welcome = () => {
 	<p>Prior to our first class session, please take a few minutes to gain a better understand of 
 	Blended Learning and Scrum by reviewing the following videos.</p>
 	<ul>
-		<li>"Blended Learning & Flipped Classroom" 
+		<li>“Blended Learning & Flipped Classroom” 
 			<NavLink to="/activity/blended-learning">[video]</NavLink></li>
 		<li>“Introduction to Scrum in 7 Minutes”
 			<NavLink to="/activity/scrum-in-7-minutes">[video]</NavLink></li> 

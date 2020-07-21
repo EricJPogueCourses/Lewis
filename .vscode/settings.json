@@ -3,7 +3,8 @@
 	"rewrap.wrappingColumn": 100,
 	"cSpell.words": [
 		"noopener",
-		"noreferrer"
+		"noreferrer",
+		"sebesta"
 	],
 	"python.pythonPath": "/usr/local/bin/python3"
 }
