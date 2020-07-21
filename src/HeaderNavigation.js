@@ -27,7 +27,7 @@ class HeaderNavigation extends Component {
 								<NavDropdown.Item href="#sprint-7">Sprint 7</NavDropdown.Item>
 								<NavDropdown.Item href="#sprint-8">Sprint 8</NavDropdown.Item>
 								<NavDropdown.Divider />
-								<NavDropdown.Item href="#sprint-calendar/0">Calendar</NavDropdown.Item>
+								<NavDropdown.Item href="#calendar/0">Calendar</NavDropdown.Item>
 							</NavDropdown>
 						<Nav.Link href="#credits">Credits</Nav.Link>
 						</Nav>
