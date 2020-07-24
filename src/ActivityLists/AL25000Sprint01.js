@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from "react-router-dom";
 
-const al25000Sprint01 = ( props ) => {
+export const al25000Sprint01 = ( props ) => {
 	return (
 
 <div>
@@ -17,13 +17,12 @@ are what object-oriented programming give us.</p>
 <p>You have likely noticed that I am using the term “sprint 1” to describe our first set of course activities and
 assignments. Sprints are part of the Scrum development process. The term is used to describe a unit of work which will
 be delivered in a given amount of time. We will be learning more about sprints and Scrum in the coming days. For now
-it is sufficient to know that our sprint 1 activities listed below are expected to take approximately 18 hours of
+it is sufficient to know that our sprint 1 activities listed below are expected to take approximately 20 hours of
 focused effort to complete.</p>
 
 <p>Let's start with what we hope to learn in sprint 1. By the end of sprint 1 we will be able to:</p>
 <ul style={{ listStyleType: "square" }}>
-	<li>Effectively participate in a blended classroom environment</li>
-	<li>Understand the basics of Scrum and participate in a Scrum team</li>
+	<li>Effectively participate in a blended classroom environment and as part of a Scrum team</li>
 	<li>Identify and understand key object-oriented programming concepts</li>
 	<li>Identify, define, and discuss object-oriented programming patterns</li>
 	<li>Utilize important developer tools to create and update basic software applications</li>
@@ -104,5 +103,3 @@ graded assignments.</em></p>
 
 	)
 };
-
-export default al25000Sprint01

@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from "react-router-dom";
 
-const al20000Sprint01 = (syllabusURL) => {
+export const al20000Sprint01 = (syllabusURL) => {
 	return (
 
 <div>
@@ -15,14 +15,14 @@ Together we will also explore algorithms, abstractions, computational problem so
 <p>You likely noticed that I am using the term “sprint 1” to describe our first set of course activities. Sprints are 
 part of the Scrum software development process. The term is used to describe a unit of work which we have committed to
 delivering by a given date. We will be learning more about sprints and Scrum in the coming days. For now it is 
-sufficient to know that our sprint 1 activities will take approximately 18 hours of focused effort to complete, and we 
+sufficient to know that our sprint 1 activities will take approximately 20 hours of focused effort to complete, and we 
 need to complete the activities by the sprint 1 end date listed on our course calendar 
 <NavLink to="/calendar/1">[link]</NavLink>.</p>
 
 <p>Let’s start with our sprint 1 Learning Objectives. By the end of sprint 1 we will be able to:</p>
 <ul style={{listStyleType: "square"}}>
-	<li>Effectively participate in a blended classroom environment</li>
-	<li>Understand the basics of Scrum and participate in a Scrum team</li>
+	<li>Effectively participate in a blended classroom environment and as part of a Scrum team</li>
+	<li>Describe the concept of abstraction</li>
 	<li>Identify, define, and discuss numbering systems and data representations</li>
 	<li>Begin to understand algorithmic thinking, representation, programming, and design</li>
 	<li>Utilize important developer tools to create and update basic software applications</li>
@@ -58,5 +58,3 @@ focused time unless otherwise noted. <em>Bold</em> items are graded assignments.
 
 	)
 };
-
-export default al20000Sprint01

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const al25000Sprint07 = ( props ) => {
+export const al25000Sprint07 = ( props ) => {
 	return (
 
 <div>
@@ -57,5 +57,3 @@ const al25000Sprint07 = ( props ) => {
 
 	)
 };
-
-export default al25000Sprint07

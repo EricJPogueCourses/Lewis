@@ -1,8 +1,9 @@
 
-import al20000Sprint01 from './ActivityLists/AL20000Sprint01'
+import { al20000Sprint01 } from './ActivityLists/AL20000Sprint01'
 import { al24700Sprint01 } from './ActivityLists/AL24700Sprint01'
-import al25000Sprint01 from './ActivityLists/AL25000Sprint01'
-import al44000Sprint01 from './ActivityLists/AL44000Sprint01'
+import { al25000Sprint01 } from './ActivityLists/AL25000Sprint01'
+import { al44000Sprint01 } from './ActivityLists/AL44000Sprint01'
+
 import * as URLParameters from './URLParameters'
 
 const Sprint01 = () => {
