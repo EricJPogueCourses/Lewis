@@ -6,7 +6,7 @@ import { al44000Welcome } from './ActivityLists/AL44000Welcome'
 
 import * as URLParameters from './URLParameters'
 
-const Welcome = () => {
+export const Welcome = () => {
 	let courseNumber = URLParameters.courseNumber()
 	switch(courseNumber) {
 		case 20000: return (al20000Welcome())
@@ -16,6 +16,4 @@ const Welcome = () => {
 
 		default: return (al20000Welcome())
 	}
-};
-
-export { Welcome }
+}

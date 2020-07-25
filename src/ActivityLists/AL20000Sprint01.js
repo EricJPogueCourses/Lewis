@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink } from "react-router-dom";
+import { NavLink } from 'react-router-dom';
 
 export const al20000Sprint01 = (syllabusURL) => {
 	return (
@@ -17,10 +17,10 @@ part of the Scrum software development process. The term is used to describe a u
 delivering by a given date. We will be learning more about sprints and Scrum in the coming days. For now it is 
 sufficient to know that our sprint 1 activities will take approximately 20 hours of focused effort to complete, and we 
 need to complete the activities by the sprint 1 end date listed on our course calendar 
-<NavLink to="/calendar/1">[link]</NavLink>.</p>
+<NavLink to='/calendar/1'>[link]</NavLink>.</p>
 
 <p>Let’s start with our sprint 1 Learning Objectives. By the end of sprint 1 we will be able to:</p>
-<ul style={{listStyleType: "square"}}>
+<ul style={{listStyleType:'square'}}>
 	<li>Effectively participate in a blended classroom environment and as part of a Scrum team</li>
 	<li>Describe the concept of abstraction</li>
 	<li>Identify, define, and discuss numbering systems and data representations</li>
@@ -32,24 +32,24 @@ need to complete the activities by the sprint 1 end date listed on our course ca
 listed in the order I think will be the most efficient to complete. Expect each item to take 20 to 40 minutes of 
 focused time unless otherwise noted. <em>Bold</em> items are graded assignments.</p>
 <ol>
-	<li>Review course syllabus <a href={syllabusURL} target="_blank" rel="noopener noreferrer">[link]</a></li>
+	<li>Review course syllabus <a href={syllabusURL} target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li>Maintain laser focus on due dates by reviewing our course calendar
-		<NavLink to="/calendar/1">[link]</NavLink></li>
+		<NavLink to='/calendar/1'>[link]</NavLink></li>
 	<li>Understand Blended Learning by reviewing “Blended Learning & Flipped Classroom” 
-		<NavLink to="/activity/blended-learning">[video]</NavLink></li>
+		<NavLink to='/activity/blended-learning'>[video]</NavLink></li>
 	<li>Be prepared to participate in a Scrum team by watching “Introduction to Scrum in 7 Minutes”
-		<NavLink to="/activity/scrum-in-7-minutes">[video]</NavLink></li>
+		<NavLink to='/activity/scrum-in-7-minutes'>[video]</NavLink></li>
 	<li><em>Review sprint 1 assignments including Introduction, Lab 1, Quiz 1, Discussion 1, and Reflection 1</em></li>
 	<li>Start early and consistently work on Lab 1 and Quiz 1 throughout the sprint</li>
-	<li>Complete “Tools of the Trade - Part 1” ~3 hours <NavLink to="/activity/tools">[link]</NavLink></li>
+	<li>Complete “Tools of the Trade - Part 1” ~3 hours <NavLink to='/activity/tools'>[link]</NavLink></li>
 	<li>Read Chapter 1 of “Computer Science Illuminated” by Nell Dale and John Lewis (Dale) and review our chapter 1 
-		lecture <NavLink to="/activity/dale-chapter-01">[video]</NavLink></li>
+		lecture <NavLink to='/activity/dale-chapter-01'>[video]</NavLink></li>
 	<li><em>Complete the Introduction assignment by making your post and responding to at least two of your classmates'</em></li>
 	<li><em>Make your initial Discussion 1 post by the middle of the sprint</em></li>
-	<li>Complete “Hello World with Python”<NavLink to="/activity/hello-world-python">[link]</NavLink></li>
+	<li>Complete “Hello World with Python”<NavLink to='/activity/hello-world-python'>[link]</NavLink></li>
 	<li>Read Chapter 2 of “Computer Science Illuminated” by Nell Dale and John Lewis (Dale) and chapter 2 lecture 
-		<NavLink to="/activity/dale-chapter-02">[video]</NavLink></li>
-	<li>Complete “Numbering Systems with Python”<NavLink to="/activity/numbering-systems-python">[link]</NavLink></li>
+		<NavLink to='/activity/dale-chapter-02'>[video]</NavLink></li>
+	<li>Complete “Numbering Systems with Python”<NavLink to='/activity/numbering-systems-python'>[link]</NavLink></li>
 	<li><em>Complete Discussion 1 by responding to at least two of your classmates’ posts</em></li>
 	<li><em>Submit Lab 1, Quiz 1, and Reflection 1</em></li>
 </ol>

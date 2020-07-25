@@ -8,7 +8,7 @@ export const PythonNumberingSystems = () => {
 
 <br />
 <h4>Numbering Systems with Python Tutorial</h4>
-<h5>Summary: Analyze and commit to adopting the "How to Be a Success Programmer" suggestions that you feel are the most important</h5>
+<h5>Summary: Analyze and commit to adopting the 'How to Be a Success Programmer' suggestions that you feel are the most important</h5>
 <h5>Prerequisites: Python (v3), VS Code, Terminal, and the Python Debugger (optional)</h5>
 			
 <p>Instructions: Complete this tutorial utilizing the following video as a guide. You should complete the steps 
@@ -19,12 +19,12 @@ comments (i.e. your name, class, etc.), changing the names of variables, and add
 <ReactPlayer url='https://botb.blob.core.windows.net/nvm4zqwm/s44aopq9-numbering-systems-with-python.mp4' controls={true} width={1024} height={576} />
 <br />
 <p>Additional references:</p>
-<ul style={{ listStyleType: "square" }}>
-	<li>Source code for tutorial <a href="https://botb.blob.core.windows.net/nvm4zqwm/s44aopq9-numbering-systems-with-python.zip">[link]</a></li>
-	<li>Getting Started with Python in VS Code tutorial <a href="https://code.visualstudio.com/docs/python/python-tutorial"
-		target="_blank" rel="noopener noreferrer">[link]</a></li> 
-	<li>Configure and Run the Python Debugger <a href="https://code.visualstudio.com/docs/python/python-tutorial#_configure-and-run-the-debugger"
-		target="_blank" rel="noopener noreferrer">[link]</a></li> 
+<ul style={{ listStyleType:'square' }}>
+	<li>Source code for tutorial <a href='https://botb.blob.core.windows.net/nvm4zqwm/s44aopq9-numbering-systems-with-python.zip'>[link]</a></li>
+	<li>Getting Started with Python in VS Code tutorial <a href='https://code.visualstudio.com/docs/python/python-tutorial'
+		target='_blank' rel='noopener noreferrer'>[link]</a></li> 
+	<li>Configure and Run the Python Debugger <a href='https://code.visualstudio.com/docs/python/python-tutorial#_configure-and-run-the-debugger'
+		target='_blank' rel='noopener noreferrer'>[link]</a></li> 
 </ul>
 
 </div> )

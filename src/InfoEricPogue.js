@@ -6,10 +6,10 @@ const InfoEricPogue = () => {
 
 <div>
 <h4>Your Instructor</h4><br />
-<img src={photo} alt="Eric Pogue" height="200" /><br /><br />
+<img src={photo} alt='Eric Pogue' height='200' /><br /><br />
 <h5>Eric Pogue</h5>
-Email: <a href="mailto:webmaster@example.com">epogue@lewisu.edu</a><br />
-Mobile Phone: <a href="tel: +15632097280">(563)209-7280</a><br />
+Email: <a href='mailto:webmaster@example.com'>epogue@lewisu.edu</a><br />
+Mobile Phone: <a href='tel: +15632097280'>(563)209-7280</a><br />
 Short Bio: Professional software developer and software development manager turned college 
 instructor.<br /><br />
 

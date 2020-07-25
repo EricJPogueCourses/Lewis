@@ -20,7 +20,7 @@ export const al44000Sprint05 = () => {
 	maintenance.</p>
 
 	<p>By the end of sprint 5 we will be able to:</p>
-	<ul style={{ listStyleType: "square" }}>
+	<ul style={{ listStyleType: 'square' }}>
 		<li>Utilize our knowledge of Agile requirements to develop our final project proposal utilizing Epics and
 		Stories</li>
 		<li>Setup our production Azure Node.js site for our final project and migrate all of our previous application to
@@ -36,7 +36,7 @@ export const al44000Sprint05 = () => {
 		reflections 5</em></li>
 		<li><em>Develop your final project proposal by providing Agile Epics and Stories that describe the intended application 
 			functionality from a user perspective and by providing it an excellent name</em></li>
-		<li>Review the Agile Alliance site <a href="https://www.agilealliance.org/" target="_blank" rel="noopener noreferrer">[link]</a>, analyze
+		<li>Review the Agile Alliance site <a href='https://www.agilealliance.org/' target='_blank' rel='noopener noreferrer'>[link]</a>, analyze
 			“Agile 101” (you should understand these topics), and perform a quick overview of the “Agile Glossary”</li>
 		<li><em>Complete discussion board initial DB5 post by the middle of the sprint</em></li>
 		<li><em>Setup your production final project Node.js based website and migrate all of the applications that you
@@ -49,10 +49,10 @@ export const al44000Sprint05 = () => {
 	</ol>
 
 	<p>Additional references:</p>
-	<ul style={{ listStyleType: "square" }}>
+	<ul style={{ listStyleType: 'square' }}>
 		<li>Git/GitHub Cheat Sheet  
-		<a href="https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf"
-			target="_blank" rel="noopener noreferrer">[link]</a></li> 
+		<a href='https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf'
+			target='_blank' rel='noopener noreferrer'>[link]</a></li> 
 	</ul> 
 </div>
 

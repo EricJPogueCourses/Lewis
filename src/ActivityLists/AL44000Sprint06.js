@@ -11,7 +11,7 @@ export const al44000Sprint06 = () => {
 	our first serverless computing services utilizing Azure Functions, and learning more about project management.</p>
 
 	<p>By the end of this sprint we will be able to:</p>
-	<ul style={{ listStyleType: "square" }}>
+	<ul style={{listStyleType:'square'}}>
 		<li>Utilize your knowledge of Agile development and Saas to deliver the first features of our final project</li>
 		<li>Understand where serverless computing fits in to modern software architecture</li>
 		<li>Write your first serverless computing application utilizing Azure Functions</li>
@@ -27,18 +27,18 @@ export const al44000Sprint06 = () => {
 		<li>Update your final project Requirements for next sprint and document your commitment for what you will 
 			accomplish next sprint</li>
 		<li>Recall signing up for Safari Books Online which is available to you free through Lewis University
-			<a href="https://www.oreilly.com/library/view/temporary-access/" target="_blank" rel="noopener noreferrer">[link]</a></li>
+			<a href='https://www.oreilly.com/library/view/temporary-access/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 		<li><em>Complete discussion board initial DB6 post by the middle of the sprint</em></li>
 		<li>Within Safari Books Online do a search on “Azure Functions” and “Serverless Computing”</li>
 		<li>Scan the resulting books and identify what you think is the best source of information on both topics</li>
 		<li>Read/Watch and Analyze the following cloud services material below:
-		<ul style={{ listStyleType: "square" }}>
+		<ul style={{ listStyleType:'square'}}>
 			<li>Analyze Microsoft Serverless Computing
-				<a href="https://azure.microsoft.com/en-us/overview/serverless-computing/" target="_blank" rel="noopener noreferrer">[link]</a></li>
+				<a href='https://azure.microsoft.com/en-us/overview/serverless-computing/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 			<li>Analyze AWS Lambda 
-				<a href="https://aws.amazon.com/lambda/" target="_blank" rel="noopener noreferrer">[link]</a></li>
+				<a href='https://aws.amazon.com/lambda/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 			<li>Analyze Google App Engine
-				<a href="https://cloud.google.com/appengine/" target="_blank" rel="noopener noreferrer">[link]</a></li>
+				<a href='https://cloud.google.com/appengine/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 		</ul></li>
 		<li>Build a serverless computing Azure Function utilizing information and tutorials referenced above or possibly
 		utilizing an “Additional resources” link below</li>
@@ -51,13 +51,13 @@ export const al44000Sprint06 = () => {
 	</ol>
 	
 	<p>Additional references:</p>
-	<ul style={{ listStyleType: "square" }}>
+	<ul style={{listStyleType:'square'}}>
 		<li>Azure serverless computing tutorial
-			<a href="https://mikepfeiffer.io/blog/azure-serverless-101"
-			target="_blank" rel="noopener noreferrer">[link]</a></li>
+			<a href='https://mikepfeiffer.io/blog/azure-serverless-101'
+			target='_blank' rel='noopener noreferrer'>[link]</a></li>
 		<li>Git/GitHub Cheat Sheet  
-		<a href="https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf"
-			target="_blank" rel="noopener noreferrer">[link]</a></li> 
+		<a href='https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf'
+			target='_blank' rel='noopener noreferrer'>[link]</a></li> 
 	</ul>
 </div>
 

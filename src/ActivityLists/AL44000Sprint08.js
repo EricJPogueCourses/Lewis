@@ -14,7 +14,7 @@ export const al44000Sprint08 = () => {
 	period until 6am CT the morning of Friday, March 6th to submit them.</em></p>
 
 	<p>By the end of this sprint we will be able to:</p>
-	<ul style={{ listStyleType: "square" }}>
+	<ul style={{ listStyleType:'square'}}>
 		<li>Utilize your knowledge of Agile development and Saas to deliver a final project that you are proud of creating</li>
 		<li>Understand Software Architecture including performance, releases, reliability, and security</li>
 		<li>Enhance your understanding of application architecture, Object-Oriented Programming, and Databases</li>
@@ -26,9 +26,9 @@ export const al44000Sprint08 = () => {
 		<li>Stay focused on your final project by implementing and testing the additional high priority functionality
 			that you identified last sprint</li>
 		<li>Read Chapter 12 of Fox on Project Management, Scrum, Pairs, and VCS</li>
-		<li>Complete "Application Architectures, Object-Oriented Programming, and Databases - Part 2" 
-			<a href="https://mediaatoz.blob.core.windows.net/object-oriented-programming/application-architecture-part2.mp4">[link]</a></li>
-		<li style={{color: "red"}}><em>Complete and submit all sprint 8 assignments including quiz 8, lab 8, and reflections
+		<li>Complete 'Application Architectures, Object-Oriented Programming, and Databases - Part 2' 
+			<a href='https://mediaatoz.blob.core.windows.net/object-oriented-programming/application-architecture-part2.mp4'>[link]</a></li>
+		<li style={{color:'red'}}><em>Complete and submit all sprint 8 assignments including quiz 8, lab 8, and reflections
 			8 by Thursday (March 5th) at 11:59pm CT</em></li>
 	</ol>that we will need to complete this sprint.</p>
 

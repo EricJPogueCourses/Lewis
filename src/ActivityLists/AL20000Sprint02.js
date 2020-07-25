@@ -10,7 +10,7 @@ export const al20000Sprint02 = ( props ) => {
 <p>[[Todo]]</p>
 
 <p>Let's start with what we hope to learn in sprint 2:</p>
-<ul style={{ listStyleType: "square" }}>
+<ul style={{ listStyleType:'square' }}>
 	<li>Understand how to manage source code utilizing the GitHub and the Git command line client</li>
 	<li>[[Todo]]</li>
 </ul>
@@ -23,7 +23,7 @@ export const al20000Sprint02 = ( props ) => {
 
 <br />
 <p>Additional references:</p>
-<ul style={{ listStyleType: "square" }}>
+<ul style={{ listStyleType: 'square' }}>
 	<li>[[Todo]]</li> 
 </ul> 
 </div>

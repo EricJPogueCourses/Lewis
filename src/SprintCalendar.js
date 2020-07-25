@@ -18,7 +18,7 @@ class SprintCalendar extends Component {
 			if (index === this.highlightRow()) {
 				return (
 					<tr key={index+1}>
-						<td style={{backgroundColor: '#adebdb'}}><div style={{textAlign: "center"}}>{index+1}</div></td>
+						<td style={{backgroundColor: '#adebdb'}}><div style={{textAlign:'center'}}>{index+1}</div></td>
 						<td style={{backgroundColor: '#adebdb'}}>{SprintDates.CSTDate(end,true,true)}</td>
 						<td style={{backgroundColor: '#adebdb'}}>{SprintDates.duration(start,end)} days</td>
 						<td style={{backgroundColor: '#adebdb'}}>{notes}</td>
@@ -27,7 +27,7 @@ class SprintCalendar extends Component {
 			} else { 
 				return (
 					<tr key={index+1}>
-						<td><div style={{textAlign: "center"}}>{index+1}</div></td>
+						<td><div style={{textAlign:'center'}}>{index+1}</div></td>
 						<td>{SprintDates.CSTDate(end,true,true)}</td>
 						<td>{SprintDates.duration(start,end)} days</td>
 						<td>{notes}</td>
@@ -43,7 +43,7 @@ class SprintCalendar extends Component {
 				<h4>Calendar</h4>
 				<Table striped bordered hover>
 					<thead><tr>
-						<th style={{textAlign: "center"}}>Sprint</th>
+						<th style={{textAlign:'center'}}>Sprint</th>
 						<th>End Date and Time</th>
 						<th>Duration</th>
 						<th>Notes</th>

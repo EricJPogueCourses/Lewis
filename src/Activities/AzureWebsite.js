@@ -13,15 +13,15 @@ export const AzureWebsite= () => {
 			
 <p>Instructions: Create a free static Microsoft Azure Website and deploy an index.html Landing Page to the site using one
 of the methods demonstrated below. Test your website and make certain that your index.html Landing Page is working as expected.</p>
-<ul style={{listStyleType: "square"}}>
-	<li>Review "Website Creation With GitHub and Microsoft Azure" (highly recommended) 
-			<a href="https://24500lt1.blob.core.windows.net/lecture-recordings/website-creation-with-git-and-azure.mp4" target="_blank" rel="noopener noreferrer">[video]</a></li>
-	<li>Review "Git Deployment to Microsoft Azure"
-			<a href="https://mediaatoz.blob.core.windows.net/environment-configuration/git-deployment-to-azure.mp4" target="_blank" rel="noopener noreferrer">[video]</a></li>
-	<li>Review "Eric's Azure Static Website" with FTP tutorial 
-		<a href="https://mediaatoz.blob.core.windows.net/web-and-distributed-programming/my-first-website-with-ftp.mp4" target="_blank" rel="noopener noreferrer">[video]</a></li>
-	<li>Review "Create a static HTML web application in Azure" tutorial 
-		<a href="https://docs.microsoft.com/en-us/azure/app-service/app-service-web-get-started-html" target="_blank" rel="noopener noreferrer">[video]</a></li>
+<ul style={{listStyleType:'square'}}>
+	<li>Review 'Website Creation With GitHub and Microsoft Azure' (highly recommended) 
+			<a href='https://24500lt1.blob.core.windows.net/lecture-recordings/website-creation-with-git-and-azure.mp4' target='_blank' rel='noopener noreferrer'>[video]</a></li>
+	<li>Review 'Git Deployment to Microsoft Azure'
+			<a href='https://mediaatoz.blob.core.windows.net/environment-configuration/git-deployment-to-azure.mp4' target='_blank' rel='noopener noreferrer'>[video]</a></li>
+	<li>Review 'Eric's Azure Static Website' with FTP tutorial 
+		<a href='https://mediaatoz.blob.core.windows.net/web-and-distributed-programming/my-first-website-with-ftp.mp4' target='_blank' rel='noopener noreferrer'>[video]</a></li>
+	<li>Review 'Create a static HTML web application in Azure' tutorial 
+		<a href='https://docs.microsoft.com/en-us/azure/app-service/app-service-web-get-started-html' target='_blank' rel='noopener noreferrer'>[video]</a></li>
 </ul>
 
 <p>You should follow along and complete the steps yourself. As you go through the tutorial, you will need to make the 

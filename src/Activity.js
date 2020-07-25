@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 import ReactPlayer from 'react-player'
 import * as URLParameters from './URLParameters'
 
@@ -35,16 +35,16 @@ class Activity extends Component {
 			case 'html': return HTML()
 			case 'azure-website': return AzureWebsite()
 
-			// Todo: Consider moving all of the "dale" lectures to a separate function/file.
+			// Todo: Consider moving all of the “dale” lectures to a separate function/file.
 			case 'dale-chapter-01': return videoLink(
 				'“Computer Science Illuminated” by Nell Dale and John Lewis (Dale) Chapter 1 Lecture', 
 				'https://botb.blob.core.windows.net/nvm4zqwm/jlh8u41d-chapter-01-lecture.mp4')
 			case 'dale-chapter-02': return videoLink(
 				'“Computer Science Illuminated” by Nell Dale and John Lewis (Dale) Chapter 2 Lecture', 
 				'https://botb.blob.core.windows.net/nvm4zqwm/jlh8u41d-chapter-02-lecture.mp4')
-			// End "dale"
+			// End “dale”
 
-			// Todo: Consider moving all of the "sebesta" lectures to a separate function/file.
+			// Todo: Consider moving all of the “sebesta” lectures to a separate function/file.
 			// Todo: Move Sebesta video to production sharing site. 
 			case 'sebesta-chapter-01': return videoLink(
 				'“Programming The World Wide Web” by Robert W. Sebesta (Sebesta) Chapter 1 Lecture', 
@@ -76,9 +76,9 @@ class Activity extends Component {
 			case 'sebesta-chapter-13': return videoLink(
 				'“Programming The World Wide Web” by Robert W. Sebesta (Sebesta) Chapter 13 Lecture', 
 				'https://mediaatoz.blob.core.windows.net/web-and-distributed-programming/database-access-through-the-web.mp4')
-			// End "sebesta"
+			// End “sebesta”
 
-			default: return "Activity not found!"
+			default: return 'Activity not found!'
 		}
 	}
 

@@ -5,7 +5,7 @@ import { al25000Sprint05 } from './ActivityLists/AL25000Sprint05'
 import { al44000Sprint05 } from './ActivityLists/AL44000Sprint05'
 import * as URLParameters from './URLParameters'
 
-const Sprint05 = () => {
+export const Sprint05 = () => {
 	let courseNumber = URLParameters.courseNumber()
 	switch(courseNumber) {
 		case 20000: return (al20000Sprint05())
@@ -14,5 +14,4 @@ const Sprint05 = () => {
 		case 44000: return (al44000Sprint05())
 		default: return (al20000Sprint05())
 	}
-};
-export { Sprint05 }
+}

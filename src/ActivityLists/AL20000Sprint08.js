@@ -10,7 +10,7 @@ export const al20000Sprint08 = ( props ) => {
 <p>[[Todo]]</p>
 
 <p>Let's start with what we hope to learn in sprint 8:</p>
-<ul style={{ listStyleType: "square" }}>
+<ul style={{ listStyleType:'square' }}>
 	<li>[[Todo]]</li>
 </ul>
 
@@ -20,7 +20,7 @@ export const al20000Sprint08 = ( props ) => {
 </ol>
 <br />
 <p>Additional references:</p>
-<ul style={{ listStyleType: "square" }}>
+<ul style={{ listStyleType:'square' }}>
 	<li>[[Todo]]</li> 
 </ul> 
 </div>

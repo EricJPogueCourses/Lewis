@@ -18,7 +18,7 @@ eyes. Be sure to save your work after you make yourself a couple of comments so 
 return.</p>
 
 <p>Below are some additional suggestions on how to Be a successful programmer:</p>
-<ul style={{listStyleType: "square"}}>
+<ul style={{listStyleType:'square'}}>
 	<li><em>Start early</em></li>
 	<li>Allocate time in sufficient blocks of an hour or more</li>
 	<li>Establish a physical work environment where you can focus and not be interrupted</li>

@@ -50,27 +50,27 @@ export const courseNumber = () => {
 export const classSyllabusURL = () => { 
 	let classReference = cpsc()
 	switch(classReference) {
-		case '20000-fall-2020-002': return "https://botb.blob.core.windows.net/nvm4zqwm/qknzei8k-syllabus.pdf"
-		case '20000-fall-2020-003': return "https://botb.blob.core.windows.net/nvm4zqwm/qy0o0w0u-syllabus.pdf"
-		case '24700-fall-2020-001': return "https://botb.blob.core.windows.net/nvm4zqwm/mrvgacu2-syllabus.pdf"
-		case '44000-fall-2020-001': return "https://botb.blob.core.windows.net/nvm4zqwm/o1cbypjo-syllabus.pdf"
+		case '20000-fall-2020-002': return 'https://botb.blob.core.windows.net/nvm4zqwm/qknzei8k-syllabus.pdf'
+		case '20000-fall-2020-003': return 'https://botb.blob.core.windows.net/nvm4zqwm/qy0o0w0u-syllabus.pdf'
+		case '24700-fall-2020-001': return 'https://botb.blob.core.windows.net/nvm4zqwm/mrvgacu2-syllabus.pdf'
+		case '44000-fall-2020-001': return 'https://botb.blob.core.windows.net/nvm4zqwm/o1cbypjo-syllabus.pdf'
 
 		default:
 			console.log('Error: Class syllabus URL not found (class='+classReference+')') 
-			return ""
+			return ''
 	}
 }
 
 export const title = () => { 
 	let classReference = cpsc()
 	switch(classReference) {
-		case '20000-fall-2020-002': return "Introduction to Computer Science"
-		case '20000-fall-2020-003': return "Introduction to Computer Science"
-		case '24700-fall-2020-001': return "Web and Distributed Programming"
-		case '44000-fall-2020-001': return "Software Engineering"
+		case '20000-fall-2020-002': return 'Introduction to Computer Science'
+		case '20000-fall-2020-003': return 'Introduction to Computer Science'
+		case '24700-fall-2020-001': return 'Web and Distributed Programming'
+		case '44000-fall-2020-001': return 'Software Engineering'
 
 		default:
 			console.log('Warning: Class title not found (class='+classReference+')') 
-			return "Introduction to Computer Science"
+			return 'Introduction to Computer Science'
 	}
 }
