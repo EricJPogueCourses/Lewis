@@ -39,7 +39,7 @@ version 3 by implementing persistent storage. Second, we will be delivering vers
 </div>
 
 	)
-};
+}
 
 const al24700Sprint07Extras = () => {
 	return (

@@ -31,7 +31,7 @@ need to complete the activities by the sprint 1 end date listed on our course ca
 listed in the order I think will be the most efficient to complete. Expect each item to take 20 to 40 minutes of 
 focused time unless otherwise noted. <em>Bold</em> items are graded assignments.</p>
 <ol>
-	<li>Review course syllabus<a href={syllabusURL} target='_blank' rel='noopener noreferrer'>[link]</a></li>
+	<li>Review course syllabus<a href={syllabusURL}>[link]</a></li>
 	<li>Maintain laser focus on due dates by reviewing our course calendar<NavLink to='/calendar/1'>[link]</NavLink></li>
 	<li>Understand Blended Learning by reviewing “Blended Learning & Flipped Classroom”<NavLink to='/activity/blended-learning'>[video]</NavLink></li>
 	<li>Be prepared to participate in a Scrum team by watching “Introduction to Scrum in 7 Minutes”<NavLink to='/activity/scrum-in-7-minutes'>[video]</NavLink></li>
@@ -49,17 +49,8 @@ focused time unless otherwise noted. <em>Bold</em> items are graded assignments.
 </ol>
 <p>Be sure start assignments early and to reward yourself when you reach significant milestones.</p>
 
-{/*
-<p>Additional references:</p>
-<ul style={{listStyleType: 'square'}}>
-	<li>Sebesta HTML examples <a href='http://examples.epogue.info/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
-	<li>Sebesta chapter 1 slides <a href='https://mediaatoz.blob.core.windows.net/web-and-distributed-programming/intro-to-web-and-distributed-programming.pptx' target='_blank' rel='noopener noreferrer'>[slides]</a></li>
-	<li>Sebesta chapter 2 slides <a href='https://mediaatoz.blob.core.windows.net/web-and-distributed-programming/html5-slides-only.pptx' target='_blank'  rel='noopener noreferrer'>[slides]</a></li>
-</ul>
-*/}
-
 </div>
 
 	)
-};
+}
 

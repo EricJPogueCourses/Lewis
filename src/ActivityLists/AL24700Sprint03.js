@@ -36,7 +36,7 @@ This is so that you can focus your time on Lab 3 and Map Mania.</p>
 	<li><em>Make your initial Discussion 3 post by the middle of the sprint</em></li>
 	<li>Read chapter 5 of Sebesta on JavaScript and review the associated JavaScript and HTML lecture<NavLink to='/activity/sebesta-chapter-05'>[video]</NavLink></li>
 	{/* Todo: Move the example HTML from Sebesta to another site (or pick another textbook) */}
-	<li>Review the Sebesta HTML, CSS, and JavaScript examples<a href='http://examples.epogue.info/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+	<li>Review the Sebesta HTML, CSS, and JavaScript examples<a href='http://examples.epogue.info/'>[link]</a></li>
 	<li><em>Complete Discussion 3 by responding to at least two of your classmates’ posts</em></li>
 	<li><em>Submit Lab 3, Quiz 3, and Reflection 3</em></li>
 </ol>
@@ -48,4 +48,4 @@ area if you have questions. Oh yes, and treat yourself to something nice. Maybe 
 </div>
 
 	)
-};
+}

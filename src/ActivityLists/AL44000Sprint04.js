@@ -46,4 +46,4 @@ export const al44000Sprint04 = () => {
 </div>
 
 	)
-};
+}

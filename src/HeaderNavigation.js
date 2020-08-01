@@ -30,7 +30,9 @@ class HeaderNavigation extends Component {
 								<NavDropdown.Item href='#calendar/0'>Calendar</NavDropdown.Item>
 							</NavDropdown>
 							<NavDropdown title='Help' id='basic-nav-dropdown'>
-								<NavDropdown.Item href='#info'>Contact</NavDropdown.Item>
+								<NavDropdown.Item href='#getting-help'>University Resources</NavDropdown.Item>
+								<NavDropdown.Divider />
+								<NavDropdown.Item href='#info'>Your Instructor</NavDropdown.Item>
 								<NavDropdown.Item href='#credits'>Credits</NavDropdown.Item>
 							</NavDropdown>
 						{/*<Nav.Link href='#credits'>Credits</Nav.Link>*/}

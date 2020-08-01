@@ -21,11 +21,6 @@ export const al20000Sprint02 = ( props ) => {
 
 </ol>
 
-<br />
-<p>Additional references:</p>
-<ul style={{ listStyleType: 'square' }}>
-	<li>[[Todo]]</li> 
-</ul> 
 </div>
 
 	)

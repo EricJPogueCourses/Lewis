@@ -79,4 +79,4 @@ target='_blank'>[show]</a></li>
 
 
 	)
-};
+}

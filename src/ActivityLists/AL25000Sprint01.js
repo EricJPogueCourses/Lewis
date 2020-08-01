@@ -102,4 +102,4 @@ graded assignments.</em></p>
 </div>
 
 	)
-};
+}

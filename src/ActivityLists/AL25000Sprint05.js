@@ -84,4 +84,4 @@ export const al25000Sprint05 = ( props ) => {
 </div>
 
 	)
-};
+}

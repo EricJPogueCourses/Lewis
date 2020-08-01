@@ -72,8 +72,60 @@ By the end of this tutorial you should be able to:</p>
 	<li>Optionally install Java Open SDK
 		<a href='https://docs.microsoft.com/en-us/java/azure/jdk/?view=azure-java-stable' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 </ol>
+{/* Review from 44000:
+	<li>Review navigation of your computer local file system utilizing MacOS terminal, 
+		<a href='https://cpsc201908fallsa.blob.core.windows.net/classrecordings/macos-setup-terminal-finder-and-git.mp4'>[video]</a>, 
+		MS Windows PowerShell
+		<a href='http://mediaatoz.blob.core.windows.net/environment-configuration/powershell-windows10-setup.mp4'>[video]</a>,
+		or Linux</li>
+	<li>Install the Git command line client 
+		<a href='https://mediaatoz.blob.core.windows.net/environment-configuration/git-installation-on-windows-10.mp4'>[video]</a>
+		<a href='https://git-scm.com/' target='_blank' rel='noopener noreferrer'>[git]</a></li>
+	<li>Create a GitHub account 
+		<a href='https://help.github.com/' target='_blank' rel='noopener noreferrer'>[link]</a>
+		optionally utilizing the Student Developer Pack
+		<a href='https://help.github.com/en/articles/applying-for-a-student-developer-pack' target='_blank' rel='noopener noreferrer'>[link]</a> (recommended)</li>
+	<li>Become comfortable with using Git and GitHub to manage development documents by completing the following tutorials:
+	<ul style={{ listStyleType: 'square' }}>
+		<li>“An Intro to Git and GitHub for Beginners” from the GitHub website
+			<a href='https://guides.github.com/activities/hello-world/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+		<li>“An Intro to Git and GitHub for Beginners” from HubSpot 
+			<a href='https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+		<li>Review the “Git Handbook” guide
+			<a href='https://guides.github.com/introduction/git-handbook/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+	</ul></li>
+	<li>Install the Microsoft Visual Studio Code text editor and the FireFox or Chrome web browser
+		<a href='https://mediaatoz.blob.core.windows.net/environment-configuration/mscode-and-chrome-windows10-setup.mp4'>
+			[video]</a>
+		<a href='https://code.visualstudio.com/' target='_blank' rel='noopener noreferrer'>[code]</a>
+		<a href='https://www.mozilla.org/en-US/firefox/' target='_blank' rel='noopener noreferrer'>[firefox]</a>
+		<a href='https://www.google.com/chrome/' target='_blank' rel='noopener noreferrer'>[chrome]</a></li>
 
+	<li>Setup a Microsoft Azure Student account
+		<a href='https://azure.microsoft.com/en-us/free/students/' target='_blank' rel='noopener noreferrer'>[link]</a>,
+		or set up a regular Azure account with a free trial subscription
+		<a href='https://azure.microsoft.com/en-us/free/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+
+		<p>Additional references:</p>
+<ul>
+	<li>Activate the Microsoft 365 account that is available to you free through Lewis University by going to the
+		Office 365 website
+		<a href='https://www.office.com' target='_blank' rel='noopener noreferrer'>[link]</a> and signing in with your Lewis University ID
+		(<em>username</em>@lewisu.edu) password</li>
+	<li>Git/GitHub Cheat Sheet 
+		<a href='https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf' target='_blank' rel='noopener noreferrer'>[link]</a></li> 
+</ul>
+
+	<li>Sign up for Safari Books Online which is available to you free through Lewis University
+		<a href='https://www.oreilly.com/library/view/temporary-access/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+
+			<li>Activate the Microsoft 365 account that is available to you free through Lewis University by going to the
+		Office 365 website and install the products as needed to up to 5 devices
+		<a href='https://www.office.com' target='_blank' rel='noopener noreferrer'>[link]</a> and signing in with your Lewis University ID</li>
+*/}
 </div>
+
+
 
 	);
 }

@@ -70,4 +70,4 @@ minutes unless otherwise noted.</p>
 </div>
 
 	)
-};
+}

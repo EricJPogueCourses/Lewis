@@ -17,9 +17,9 @@ export class Test extends React.Component {
 <a href='http://localhost:3000/#/test/me'>http://localhost:3000/#/test/me</a><br />
 <a href='https://www.lewis.education/#/test/me'>https://www.lewis.education/#/test/me</a>
 <br /><br />
-{localAndGlobalLink('?cpsc=44000-fall-2020-002#/welcome')}
-{localAndGlobalLink('?cpsc=44000-fall-2020-002#/sprint-1')}
-{localAndGlobalLink('?cpsc=44000-fall-2020-002&hide-nav=y#/sprint-1')}
+{localAndGlobalLink('?cpsc=44000-fall-2020-001#/welcome')}
+{localAndGlobalLink('?cpsc=44000-fall-2020-001#/sprint-1')}
+{localAndGlobalLink('?cpsc=44000-fall-2020-001&hide-nav=y#/sprint-1')}
 {localAndGlobalLink('?cpsc=24700-fall-2020-001#/sprint-1')}
 {localAndGlobalLink('#/calendar/0')}
 {localAndGlobalLink('#/calendar/5')}

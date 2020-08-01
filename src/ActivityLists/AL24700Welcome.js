@@ -26,4 +26,4 @@ export const al24700Welcome = () => {
 </div>
 
 	)
-};
+}

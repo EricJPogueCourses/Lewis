@@ -57,7 +57,7 @@ export const classSyllabusURL = () => {
 
 		default:
 			console.log('Error: Class syllabus URL not found (class='+classReference+')') 
-			return ''
+			return 'https://botb.blob.core.windows.net/nvm4zqwm/qknzei8k-syllabus.pdf'
 	}
 }
 

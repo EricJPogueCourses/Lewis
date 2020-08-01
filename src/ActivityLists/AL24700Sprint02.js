@@ -28,7 +28,8 @@ efficient for you and the <em>bold</em> items are graded assignments.</p>
 	<li><em>Review sprint 2 assignments including Lab 2, Quiz 2, Discussion 2, and Reflection 2</em></li>
 	<li>Start early and consistently work on Lab 2 and Quiz 2 throughout the sprint</li>
 	<li>Read chapter 3 of Sebesta on Cascading Style Sheets (CSS) and review the associated lecture<NavLink to='/activity/sebesta-chapter-03'>[video]</NavLink></li>
-	<li>Review the Sebesta HTML, CSS, and JavaScript examples<a href='http://examples.epogue.info/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+	{/* Todo: Move example. */}
+	<li>Review the Sebesta HTML, CSS, and JavaScript examples<a href='http://examples.epogue.info/'>[link]</a></li>
     <li>Within Safari Books Online execute searches for HTML, CSS, JavaScript, and Git and save review the results</li>
 	<li><em>Make your initial Discussion 2 post by the middle of the sprint</em></li>
 	<li>Complete “Tools of the Trade - Part 2”<NavLink to='/activity/tools'>[link]</NavLink>~3 hours </li>
@@ -40,21 +41,28 @@ efficient for you and the <em>bold</em> items are graded assignments.</p>
 	<li><em>Submit Lab 2, Quiz 2, and Reflection 2</em></li>
 </ol>
 <p>If you are struggling, remember to reach out to your Scrum teammates early and often for help .</p>
-
-{/*
-	<li>Read chapter 3 of Sebesta </li>
-    <li>Review Cascading Style Sheets ~1 hour 
-        <a href='https://mediaatoz.blob.core.windows.net/web-and-distributed-programming/css.mp4' target='_blank'>[video]</a> 
-        <a href='https://mediaatoz.blob.core.windows.net/web-and-distributed-programming/css-slides-only.pptx' target='_blank'>[slides]</a> 
-        <a href='https://mediaatoz.blob.core.windows.net/web-and-distributed-programming/css.ppsx' target='_blank'>[show]</a></li>   
-	    <li>Read chapter 4 of Sebesta</li>
-    <li>Review Basic JavaScript ~1 hour 
-    	<a href='https://mediaatoz.blob.core.windows.net/web-and-distributed-programming/javascript-basics.mp4' target='_blank'>[video]</a> 
-        <a href='https://mediaatoz.blob.core.windows.net/web-and-distributed-programming/javascript-basics-slides-only.pptx' target='_blank'>[slides]</a> 
-		<a href='https://mediaatoz.blob.core.windows.net/web-and-distributed-programming/javascript-basics.ppsx' target='_blank'>[show]</a></li>
-*/}
+{extras()}
 
 </div>
 
 	)
-};
+}
+
+const extras = () => {
+	return ( 
+
+<div>
+	Additional references:
+	<ul>
+		<li>Cascading Style Sheets 
+			<a href='https://mediaatoz.blob.core.windows.net/web-and-distributed-programming/css-slides-only.pptx'>[slides]</a> 
+			<a href='https://mediaatoz.blob.core.windows.net/web-and-distributed-programming/css.ppsx'>[show]</a></li>   
+			<li>Read chapter 4 of Sebesta</li>
+		<li>Basic JavaScript 
+			<a href='https://mediaatoz.blob.core.windows.net/web-and-distributed-programming/javascript-basics-slides-only.pptx'>[slides]</a> 
+			<a href='https://mediaatoz.blob.core.windows.net/web-and-distributed-programming/javascript-basics.ppsx'>[show]</a></li>
+	</ul>
+</div>
+
+	)
+}

@@ -8,6 +8,10 @@ import { PythonNumberingSystems } from './Activities/PythonNumberingSystems'
 import { HTML } from './Activities/HTML'
 import { SuccessfulDeveloper } from './Activities/SuccessfulDeveloper'
 import { AzureWebsite } from './Activities/AzureWebsite'
+import { WebMyFavoriteHobby } from './Activities/WebMyFavoriteHobby'
+import { WebCourseSchedule } from './Activities/WebCourseSchedule'
+import { WebMapManiaVersion1 } from './Activities/WebMapManiaVersion1'
+import { WebMapManiaVersion2 } from './Activities/WebMapManiaVersion2'
 
 const videoLink = (header, url) => {
 	return ( <div><h5>{header}</h5><ReactPlayer url={url} controls={true} width={1024} height={576} /></div> )
@@ -28,12 +32,22 @@ class Activity extends Component {
 			case 'scrum-in-7-minutes': return videoLink(
 				'Introduction to Scrum', 
 				'https://www.youtube.com/watch?v=9TycLR0TqFA')
+			case 'photo-to-blackboard': return videoLink(
+				'Add Your Photo to Blackboard', 
+				'https://www.youtube.com/watch?v=PTmK3QdwZro&feature=youtu.be')
+			case 'blackboard-ultra': return videoLink(
+				'Introduction to Blackboard Ultra', 
+				'https://www.youtube.com/watch?v=IKjBxIe_138&feature=youtu.be')
 			case 'tools': return Tools()
 			case 'successful-programmer': return SuccessfulDeveloper()
 			case 'hello-world-python': return PythonHelloWorld()
 			case 'numbering-systems-python': return PythonNumberingSystems()
 			case 'html': return HTML()
 			case 'azure-website': return AzureWebsite()
+			case 'favorite-hobby': return WebMyFavoriteHobby()
+			case 'course-schedule': return WebCourseSchedule()
+			case 'map-mania-v1': return WebMapManiaVersion1()
+			case 'map-mania-v2': return WebMapManiaVersion2()
 
 			// Todo: Consider moving all of the “dale” lectures to a separate function/file.
 			case 'dale-chapter-01': return videoLink(

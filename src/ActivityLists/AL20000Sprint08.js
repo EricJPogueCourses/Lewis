@@ -18,12 +18,8 @@ export const al20000Sprint08 = ( props ) => {
 <ol>
 	<li>[[Todo]]</li>
 </ol>
-<br />
-<p>Additional references:</p>
-<ul style={{ listStyleType:'square' }}>
-	<li>[[Todo]]</li> 
-</ul> 
+
 </div>
 
 	)
-};
+}

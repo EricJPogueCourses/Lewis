@@ -38,4 +38,4 @@ does not require you to post anything.</p>
 </div>
 
 	)
-};
+}

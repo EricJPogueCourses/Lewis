@@ -1,7 +1,7 @@
 import React from 'react'
-import photo from './InfoEricPoguePhoto.png';
+import photo from './InfoEricPoguePhoto.png'
 
-const InfoEricPogue = () => {
+export const InfoEricPogue = () => {
 	return (
 
 <div>
@@ -22,6 +22,4 @@ In either case, you can expect a maximum response time of 24 hours weekdays.</p>
 </div>
 
 	)
-};
-
-export { InfoEricPogue }
+}

@@ -25,4 +25,4 @@ export const al25000Welcome = () => {
 </div>
 
 	)
-};
+}
