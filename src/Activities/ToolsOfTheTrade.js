@@ -44,7 +44,7 @@ By the end of this tutorial you should be able to:</p>
 		folders/files</li>
 	<li>Utilize Windows or MacOS screen capture
 		<a href='https://www.theverge.com/2019/11/8/20953522/how-to-take-screenshot-mac-windows-pc-iphone-android' target='_blank' rel='noopener noreferrer'>[link]</a></li>
-	<li>Sign up for the Azure cloud service for Students
+	<li>Sign up for the MS Azure cloud service for Students
 		<a href='https://azure.microsoft.com/en-us/free/students/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 </ol>
 

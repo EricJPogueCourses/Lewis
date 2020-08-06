@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom'
 
 export const al20000Sprint01 = (syllabusURL) => {
 	return (
@@ -23,7 +23,7 @@ we need to complete the activities by the sprint 1 end date listed on our course
 <ul style={{listStyleType:'square'}}>
 	<li>Effectively participate in a blended classroom environment and as part of a Scrum team</li>
 	<li>Describe the concept of abstraction</li>
-	<li>Identify, define, and discuss numbering systems and data representations</li>
+	<li>Identify, define, and discuss numbering systems</li>
 	<li>Begin to understand algorithmic thinking, representation, programming, and design</li>
 	<li>Utilize important developer tools to create and update basic software applications</li>
 </ul>
@@ -58,16 +58,5 @@ focused time unless otherwise noted. <em>Bold</em> items are graded assignments.
 }
 
 const extras = () => {
-	return ( 
-
-<div>
-<br />
-<p>Below are several Additional References that you may find useful:</p>
-<ul>
-	<li>Technology Requirements for Web Enhanced Courses<a href='https://docs.google.com/document/d/1F1t882ne3d2Y64wJxTQX1GuUV7HvVafzB7Uj8mMSARU/edit'>[link]</a></li>
-	<li>Being a Successful Online Learner<a href='https://docs.google.com/document/d/1rFkPECHaEIxEYV4ImmZmbox8VF8UiJhvDo_jbFH4jzo/edit'>[link]</a></li>
-	<li>Five Tips for Success in Online Learning<a href='https://www.youtube.com/watch?v=LQy40B4y-AE'>[link]</a></li>
-</ul>
-</div>
-	)
+	return (null)
 }

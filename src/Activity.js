@@ -8,6 +8,7 @@ import { PythonNumberingSystems } from './Activities/PythonNumberingSystems'
 import { HTML } from './Activities/HTML'
 import { SuccessfulDeveloper } from './Activities/SuccessfulDeveloper'
 import { AzureWebsite } from './Activities/AzureWebsite'
+import { WebGettingToKnowEachOther } from './Activities/WebGettingToKnowEachOther'
 import { WebMyFavoriteHobby } from './Activities/WebMyFavoriteHobby'
 import { WebCourseSchedule } from './Activities/WebCourseSchedule'
 import { WebMapManiaVersion1 } from './Activities/WebMapManiaVersion1'
@@ -44,6 +45,7 @@ class Activity extends Component {
 			case 'numbering-systems-python': return PythonNumberingSystems()
 			case 'html': return HTML()
 			case 'azure-website': return AzureWebsite()
+			case 'getting-to-know-each-other': return WebGettingToKnowEachOther()
 			case 'favorite-hobby': return WebMyFavoriteHobby()
 			case 'course-schedule': return WebCourseSchedule()
 			case 'map-mania-v1': return WebMapManiaVersion1()
@@ -56,6 +58,12 @@ class Activity extends Component {
 			case 'dale-chapter-02': return videoLink(
 				'“Computer Science Illuminated” by Nell Dale and John Lewis (Dale) Chapter 2 Lecture', 
 				'https://botb.blob.core.windows.net/nvm4zqwm/jlh8u41d-chapter-02-lecture.mp4')
+			case 'dale-chapter-03': return videoLink(
+				'“Computer Science Illuminated” by Nell Dale and John Lewis (Dale) Chapter 3 Lecture', 
+				'https://botb.blob.core.windows.net/nvm4zqwm/jlh8u41d-chapter-03-lecture.mp4')
+			case 'dale-chapter-04': return videoLink(
+				'“Computer Science Illuminated” by Nell Dale and John Lewis (Dale) Chapter 4 Lecture', 
+				'https://botb.blob.core.windows.net/nvm4zqwm/jlh8u41d-chapter-04-lecture.mp4')
 			// End “dale”
 
 			// Todo: Consider moving all of the “sebesta” lectures to a separate function/file.
