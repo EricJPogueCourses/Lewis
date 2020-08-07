@@ -3,6 +3,8 @@ import ReactPlayer from 'react-player'
 import * as URLParameters from './URLParameters'
 
 import { Tools } from './Activities/ToolsOfTheTrade'
+import { CodingStandards } from './Activities/CodingStandards'
+import { GitCommands } from './Activities/GitCommands'
 import { PythonHelloWorld } from './Activities/PythonHelloWorld'
 import { PythonNumberingSystems } from './Activities/PythonNumberingSystems'
 import { HTML } from './Activities/HTML'
@@ -40,6 +42,8 @@ class Activity extends Component {
 				'Introduction to Blackboard Ultra', 
 				'https://www.youtube.com/watch?v=IKjBxIe_138&feature=youtu.be')
 			case 'tools': return Tools()
+			case 'coding-standards': return CodingStandards()
+			case 'git-commands': return GitCommands()
 			case 'successful-programmer': return SuccessfulDeveloper()
 			case 'hello-world-python': return PythonHelloWorld()
 			case 'numbering-systems-python': return PythonNumberingSystems()
