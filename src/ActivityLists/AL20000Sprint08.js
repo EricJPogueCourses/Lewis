@@ -24,7 +24,6 @@ export const al20000Sprint08 = ( props ) => {
 	<li>Complete your final project review</li>
 	<li><em>Submit all assignments include your Lab, Quiz, and Reflection</em></li>
 </ol>
-
 </div>
 
 	)

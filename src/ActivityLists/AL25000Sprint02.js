@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom';
 
 export const al25000Sprint02 = ( props ) => {
 	return (
@@ -28,6 +29,8 @@ minutes unless otherwise noted.</p>
 	<li>Analyze and commit to adopting the “How to Be a Successful Programmer” suggestions that you feel are the
 		most important 
 		<a href='https://cpsc-24500.azurewebsites.net/successful-programmer.html'>[link]</a></li>
+	<li>Review our “Coding Standards”<NavLink to='/activity/coding-standards'>[link]</NavLink> and consistently utilize 
+		them on all activities and assignments</li>
 	<li>Sign up for Safari Books Online which is available to you free through Lewis University
 		<a href='https://www.oreilly.com/library/view/temporary-access/'>[link]</a></li>
 	<li>Within Safari Books Online execute searches for Object-Oriented Programming, OOP, Git, GitHub, and Java

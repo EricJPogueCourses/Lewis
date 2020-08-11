@@ -36,7 +36,7 @@ By the end of this tutorial you should be able to:</p>
 		<a href='https://www.office.com/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li>Sign up for OReilly Safari Books Online service which is available free through Lewis University
 		<a href='https://www.oreilly.com/library/view/temporary-access/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
-	<li>Utilize File Manager (Windows) or Finder (MacOS) to navigate and manage folders, files, zip files, and 
+	<li>Utilize File Manager (Windows) or Finder (MacOS) to navigate and manage folders, files, file extensions, zip files, and 
 		hidden folders/files</li>
 	<li>Install or update MS Windows PowerShell if you are utilizing MS Windows
 		<a href='http://mediaatoz.blob.core.windows.net/environment-configuration/powershell-windows10-setup.mp4'>[video]</a></li>

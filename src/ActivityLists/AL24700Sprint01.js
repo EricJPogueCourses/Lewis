@@ -37,12 +37,14 @@ focused time unless otherwise noted. <em>Bold</em> items are graded assignments.
 	<li>Be prepared to participate in a Scrum team by watching “Introduction to Scrum in 7 Minutes”<NavLink to='/activity/scrum-in-7-minutes'>[video]</NavLink></li>
 	<li><em>Review sprint 1 assignments including Introduction, Lab 1, Quiz 1, Discussion 1, and Reflection 1</em></li>
 	<li>Start early and consistently work on Lab 1 and Quiz 1 throughout the sprint</li>
+	<li>Add your photo to your Blackboard profile<NavLink to='/activity/photo-to-blackboard'>[video]</NavLink></li>
 	<li>Complete “Tools of the Trade - Part 1”<NavLink to='/activity/tools'>[link]</NavLink>~4 hours</li>
 	<li>Read chapter 2 of “Programming The World Wide Web” (Sebesta) and review our chapter 2 lecture<NavLink to='/activity/sebesta-chapter-02'>[video]</NavLink></li>
 	<li><em>Complete the Introduction assignment by making your post and responding to at least two of your classmates' posts</em></li>
 	<li><em>Make your initial Discussion 1 post by the middle of the sprint</em></li>
 	<li>Complete “Hello World with Python”<NavLink to='/activity/hello-world-python'>[link]</NavLink></li>
 	<li>Complete “HTML Programming - Part 1” from W3C<NavLink to='/activity/html'>[link]</NavLink>~4 hours</li>
+	<li>Complete “My Favorite Hobby”<NavLink to='/activity/favorite-hobby'>[link]</NavLink></li>
 	<li>Read chapter 1 of Sebesta and review the associated lecture<NavLink to='/activity/sebesta-chapter-01'>[video]</NavLink></li>
 	<li><em>Complete Discussion 1 by responding to at least two of your classmates’ posts</em></li>
 	<li><em>Submit Lab 1, Quiz 1, and Reflection 1</em></li>

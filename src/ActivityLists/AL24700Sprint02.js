@@ -26,16 +26,19 @@ efficient for you and the <em>bold</em> items are graded assignments.</p>
 <ol>
 	<li>Stay focused on the due dates by reviewing our course calendar<NavLink to='/calendar/2'>[link]</NavLink></li>
 	<li><em>Review sprint 2 assignments including Lab 2, Quiz 2, Discussion 2, and Reflection 2</em></li>
+	<li>Review our “Coding Standards”<NavLink to='/activity/coding-standards'>[link]</NavLink> and consistently utilize 
+		them on all activities and assignments</li>
 	<li>Start early and consistently work on Lab 2 and Quiz 2 throughout the sprint</li>
 	<li>Read chapter 3 of Sebesta on Cascading Style Sheets (CSS) and review the associated lecture<NavLink to='/activity/sebesta-chapter-03'>[video]</NavLink></li>
-	{/* Todo: Move example. */}
+	{/* Todo: Move examples below. */}
 	<li>Review the Sebesta HTML, CSS, and JavaScript examples<a href='http://examples.epogue.info/'>[link]</a></li>
     <li>Within Safari Books Online execute searches for HTML, CSS, JavaScript, and Git and save review the results</li>
 	<li><em>Make your initial Discussion 2 post by the middle of the sprint</em></li>
 	<li>Complete “Tools of the Trade - Part 2”<NavLink to='/activity/tools'>[link]</NavLink>~3 hours </li>
 	<li>Complete “HTML Programming - Part 2” from W3C<NavLink to='/activity/html'>[link]</NavLink>~3 hours</li>
-	<li>Read chapter 4 of Sebesta on Basic JavaScript and review the associated lecture<NavLink to='/activity/sebesta-chapter-04'>[video]</NavLink></li>
+	<li>Complete “Getting to Know Each Other”<NavLink to='/activity/getting-to-know-each-other'>[link]</NavLink></li>
 	<li>Complete “Azure Free Static Website”<NavLink to='/activity/azure-website'>[link]</NavLink>~3 hours</li>
+	<li>Read chapter 4 of Sebesta on Basic JavaScript and review the associated lecture<NavLink to='/activity/sebesta-chapter-04'>[video]</NavLink></li>
 	<li>Review the Google Maps JavaScript API<a href='https://developers.google.com/maps/documentation/javascript/overview' target='blank' rel='noopener noreferrer'>[link]</a></li>
 	<li><em>Complete Discussion 2 by responding to at least two of your classmates’ posts</em></li>
 	<li><em>Submit Lab 2, Quiz 2, and Reflection 2</em></li>

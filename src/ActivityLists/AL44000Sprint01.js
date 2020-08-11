@@ -50,6 +50,7 @@ graded assignments.</p>
 	<li>Be prepared to participate in a Scrum team by watching “Introduction to Scrum in 7 Minutes”
 		<NavLink to='/activity/scrum-in-7-minutes'>[video]</NavLink></li>
 	<li><em>Review sprint 1 assignments including Introduction, Lab 1, Quiz 1, Discussion 1, and Reflection 1</em></li>	
+	<li>Add your photo to your Blackboard profile<NavLink to='/activity/photo-to-blackboard'>[video]</NavLink></li>
 	<li>Read Chapter 1 of “Engineering Software as a Service: An Agile Approach Using Cloud Computing” by Armando Fox
 		and David Patterson (Fox) and review our class lecture on Chapter 1
 		<a href='https://botb.blob.core.windows.net/ovun/nt1x35m58.html?name=chapter-01-lecture.mp4'>[video]</a> ~2 hours</li>

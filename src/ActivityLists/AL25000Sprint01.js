@@ -49,6 +49,7 @@ graded assignments.</em></p>
 		href='https://mediaatoz.blob.core.windows.net/object-oriented-programming/concepts-and-practices-slides-only.pptx'>
 		[slides]</a></li>
 	<li><em>Consistently work on Programming Assignment 1 and Quiz 1 throughout the sprint ~6 hours</em></li>
+	<li>Add your photo to your Blackboard profile<NavLink to='/activity/photo-to-blackboard'>[video]</NavLink></li>
 	<li>Install or update MS Windows PowerShell if you are utilizing MS Windows
 		<a href='http://mediaatoz.blob.core.windows.net/environment-configuration/powershell-windows10-setup.mp4'>
 		[video]</a></li>
