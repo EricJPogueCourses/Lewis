@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 export const al25000Sprint05 = ( props ) => {
 	return (
@@ -32,29 +33,9 @@ export const al25000Sprint05 = ( props ) => {
 	<p>Our activities list for this sprint include:</p>
 	<ol>
 		<li><em>Review Programming Assignment 5, Quiz 5, and Discussion Board 5</em></li>
-		<li>Setup a Microsoft Azure account with a free trial subscription
-			<a href='https://azure.microsoft.com/en-us/free/' target='_blank' rel='noopener noreferrer'>[link]</a>. Although your free
-			trial will last 30 days, you will need to provide a credit card. You will also want to watch what
-			types of resources you access on your Azure account so that when you convert the account to
-			“pay-as-you-go“, you will not experience any significant charges. For this class I will be guiding
-			you toward free or very low-cost cloud resources.</li>
-		<li>Review “What is JSON? JavaScript Object Notation explained”
-			<a href='https://www.infoworld.com/article/3222851/javascript/what-is-json-javascript-object-notation-explained.html' target='_blank' rel='noopener noreferrer'>[link]</a>
-			and “JSON Introduction” from W3C
-			<a href='https://www.w3schools.com/js/js_json_intro.asp' target='_blank' rel='noopener noreferrer'>[link]</a></li>
-		<li>Create a free static Microsoft Azure Website and deploy an index.html Landing Page to the site using one
-			of the methods demonstrated below. Test your website and make certain that your index.html Landing Page is
-			working as expected. ~2 hours
-			<ul style={{ listStyleType: 'square' }}>
-				<li>Review “Website Creation With GitHub and Microsoft Azure” (highly recommended) 
-					<a href='https://24500lt1.blob.core.windows.net/lecture-recordings/website-creation-with-git-and-azure.mp4'>[video]</a></li>
-				<li>Review “Git Deployment to Microsoft Azure”
-					<a href='https://mediaatoz.blob.core.windows.net/environment-configuration/git-deployment-to-azure.mp4'>[video]</a></li>
-				<li>Review “Eric's Azure Static Website” with FTP tutorial 
-					<a href='https://mediaatoz.blob.core.windows.net/web-and-distributed-programming/my-first-website-with-ftp.mp4'>[video]</a></li>
-				<li>Review “Create a static HTML web application in Azure“ tutorial 
-					<a href='https://docs.microsoft.com/en-us/azure/app-service/app-service-web-get-started-html'>[video]</a></li>
-				</ul></li>
+		<li>Review “What is JSON? JavaScript Object Notation explained”<a href='https://www.infoworld.com/article/3222851/javascript/what-is-json-javascript-object-notation-explained.html' target='_blank' rel='noopener noreferrer'>[link]</a>
+			and “JSON Introduction” from W3C <a href='https://www.w3schools.com/js/js_json_intro.asp' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+		<li>Complete “Azure Free Static Website”<NavLink to='/activity/azure-website'>[link]</NavLink>~3 hours</li>
 		<li>Repeat the step above and create another static website that you will leave in place for the
 			duration of this class. We will be utilizing this site to deploy JSON files for us to access</li>
 		<li><em>Consistently work on the SwissArmyKnife assignment (PA5) ~5 hours</em></li>
@@ -64,8 +45,7 @@ export const al25000Sprint05 = ( props ) => {
 			folder in example code repository. You should compile, run, and test the functionality of the application, 
 			complete a source code review, and finally create a minimal UML diagram that demonstrates inheritance and 
 			ownership.</li>
-		<li>Review Testing 
-			<a href='https://mediaatoz.blob.core.windows.net/object-oriented-programming/java-testing.mp4'>[video]</a></li>
+		<li>Review Testing<NavLink to='/activity-oop/java-testing'>[link]</NavLink></li>
 		<li><em>Complete all sprint 5 assignments and activity list items by the end of the sprint</em></li>
 	</ol>
 

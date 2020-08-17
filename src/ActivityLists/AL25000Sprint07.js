@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 export const al25000Sprint07 = ( props ) => {
 	return (
@@ -29,9 +30,7 @@ export const al25000Sprint07 = ( props ) => {
 	<ol>
 		<li><em>Review Programming Assignment 7a Thunderbird, Programming Assignment 7b Final Project v1, Quiz 7,
 		and Discuss Board (DB) 7</em></li>
-		<li>Complete the ThunderbirdLite tutorial
-			<a href='https://mediaatoz.blob.core.windows.net/object-oriented-programming/java-thunderbird-lite.mp4'>
-			[video]</a> using the ThunderbirdLite source code from the
+		<li>Complete the ThunderbirdLite<NavLink to='/activity-oop/java-thunderbird-lite'>[video]</NavLink>using the ThunderbirdLite source code from the
 			'https://github.com/EricJPogueCourses/Thunderbird.git' repository as needed</li>
 		<li style={{color:'red'}}><em>Complete Programming Assignment 7a Thunderbird by the middle of the sprint ~6
 			hours</em></li>
@@ -39,8 +38,7 @@ export const al25000Sprint07 = ( props ) => {
 		<li>Continue to monitor and update your DB6 thread from last sprint and update your JSON contact files as
 		necessary</li>
 		<li><em>Consistently work on the version 1 of your Final Project throughout the sprint ~6 hours</em></li>
-		<li>Complete “Application Architectures, Object-Oriented Programming, and Databases - Part 1”
-			<a href='https://mediaatoz.blob.core.windows.net/object-oriented-programming/application-architecture-part1.mp4'>[video]</a></li>
+		<li>Complete “Application Architectures, Object-Oriented Programming, and Databases - Part 1”<NavLink to='/activity-architecture/application-architecture-part1'>[video]</NavLink></li>
 		<li><em>Complete all activity list items and assignments including PA7a Thunderbird, PA7b Final Project v1, Quiz
 			7, and discussion board 7 by the end of the sprint</em></li>
 	</ol> 

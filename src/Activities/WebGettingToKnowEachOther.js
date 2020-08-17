@@ -13,7 +13,7 @@ export const WebGettingToKnowEachOther = () => {
 <p>In this project you will create a HTML and CSS based web page about yourself. You will need to hand code this page 
 in VS Code so that you can fully understand the HTML and CSS that makes up a web page.</p>
 
-<em>Requirement 1:</em>
+<em>Requirement 1</em>
 <p>Create an aesthetically pleasing web page in HTML and CSS that includes:</p>
 <ol>
 	<li>A heading section at the top with your full name centered on the page</li>
@@ -22,7 +22,7 @@ in VS Code so that you can fully understand the HTML and CSS that makes up a web
 	<li>A hight quality and representative head and shoulders photo of yourself appropriately sized and centered</li>
 </ol>
 
-<em>Requirement 2:</em>
+<em>Requirement 2</em>
 <p>Enhance your web page by adding:</p>
 <ol>
 	<li>A sub-heading labeled “Introduction”</li>
@@ -32,7 +32,7 @@ in VS Code so that you can fully understand the HTML and CSS that makes up a web
 
 </ol>
 
-<em>Requirement 3: </em>
+<em>Requirement 3</em>
 <p>Enhance your web page so that it includes:</p>
 <ol>
 	<li>A section labeled “My Favorite Hobby” with a paragraph or two about your favorite hobby</li>
@@ -46,7 +46,7 @@ in VS Code so that you can fully understand the HTML and CSS that makes up a web
 		you that we help your your classmates remember you better</li>
 </ol>
 
-<em>Requirement 4: </em>
+<em>Requirement 4</em>
 <p>Test and validate your web page:</p>
 <ol>
 	<li>Validate that you are following our HTML and CSS coding standards</li>

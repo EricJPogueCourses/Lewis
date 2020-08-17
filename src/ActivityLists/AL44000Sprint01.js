@@ -39,7 +39,7 @@ By the end of sprint 1 we will be able to:</p>
 
 <p>Below is our sprint 1 activities list. Although you are welcome to pursue the activities in any order, they are
 listed in the order I think will be the most beneficial for you to work through the topics. Each item is expected to
-take 10 to 30 minutes of focused time unless otherwise noted. Highlighted activities are <em>directly</em> related to 
+take 20 to 40 minutes of focused time unless otherwise noted. Highlighted activities are <em>directly</em> related to 
 graded assignments.</p>
 <ol>
 	<li>Review course syllabus<a href={syllabusURL}>[link]</a></li>
@@ -52,16 +52,13 @@ graded assignments.</p>
 	<li><em>Review sprint 1 assignments including Introduction, Lab 1, Quiz 1, Discussion 1, and Reflection 1</em></li>	
 	<li>Add your photo to your Blackboard profile<NavLink to='/activity/photo-to-blackboard'>[video]</NavLink></li>
 	<li>Read Chapter 1 of “Engineering Software as a Service: An Agile Approach Using Cloud Computing” by Armando Fox
-		and David Patterson (Fox) and review our class lecture on Chapter 1
-		<a href='https://botb.blob.core.windows.net/ovun/nt1x35m58.html?name=chapter-01-lecture.mp4'>[video]</a> ~2 hours</li>
-	<li>Review everything that came before Chapter 1 including Preface in our Fox textbook and review associated lecture 
-		<a href='https://botb.blob.core.windows.net/ovun/nt1x35m58.html?name=chapter-00-lecture.mp4' target='_blank' rel='noopener noreferrer'>[video]</a></li>  
+		and David Patterson (Fox) and review our Chapter 1 lecture<NavLink to='/activity/fox-chapter-01'>[video]</NavLink> ~2 hours</li>
+	<li>Review everything that came before Chapter 1 including Preface in our Fox textbook and review associated lecture<NavLink to='/activity/fox-chapter-00'>[video]</NavLink></li>
 	<li>Start early and consistently work on Lab 1 and Quiz 1 throughout the sprint</li>
 	<li>Complete “Tools of the Trade - Parts 1 and 2”<NavLink to='/activity/tools'>[link]</NavLink> ~4 hours</li>
 	<li><em>Complete the Introduction assignment by making your post and responding to at least two of your classmates' posts</em></li>
 	<li><em>Make your initial Discussion 1 post by the middle of the sprint</em></li>
-	<li>Read Chapter 2 of Fox and review our class lecture on Chapter 2 
-		<a href='https://botb.blob.core.windows.net/ovun/nt1x35m58.html?name=chapter-02-lecture.mp4'>[video]</a></li> 
+	<li>Read Chapter 2 of Fox and review our class lecture on Chapter 2<NavLink to='/activity/fox-chapter-02'>[video]</NavLink></li>
 	<li>Complete “HTML Programming - Part 1” from W3C<NavLink to='/activity/html'>[link]</NavLink> ~4 hours</li>
 		{/* Todo: Consider assigning Part 2. */}
 	<li>Utilize what you have learned in HTML programming to to elegantly format our course syllabus into a HTML 5 document</li>
@@ -73,6 +70,7 @@ graded assignments.</p>
 		HTML Attributes <a href='https://www.youtube.com/watch?v=X5ArSbUea_o' target='_blank' rel='noopener noreferrer'>[video]</a>,
 		Ruby MVC Create and Update <a href='https://www.youtube.com/watch?v=XXrYmVzjTKQ' target='_blank' rel='noopener noreferrer'>[video]</a>,
 		and HAML <a href='https://www.youtube.com/watch?v=yX1tMdBuG3g' target='_blank' rel='noopener noreferrer'>[video]</a></li>
+	{/* Todo: Review following activity. */}
 	<li><em>Complete and submit all sprint 1 assignments including Lab 1, Quiz 1, final DB posts, and your Journal entry</em></li>
 </ol>
 

@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 export const al25000Sprint06 = ( props ) => {
 	return (
@@ -27,20 +28,15 @@ export const al25000Sprint06 = ( props ) => {
 	<p>Our activities list for this sprint includes:</p>
 	<ol>
 		<li><em>Review Programming Assignment 6, Quiz 6, and Discussion Board 6</em></li>
-		<li>Review 'Website Creation With GitHub and Microsoft Azure' Tutorial 
-			<a href='https://mediaatoz.blob.core.windows.net/environment-configuration/github-deployment-to-azure.mp4'>[video]</a> as needed</li>
-		<li>Complete 'Personal Information JSON Files' Tutorial 
-			<a href='https://mediaatoz.blob.core.windows.net/object-oriented-programming/personal-info-json-to-azure.mp4'>[video]</a></li>
+		<li>Review 'Website Creation With GitHub and Microsoft Azure'<NavLink to='/activity/azure-website'>[link]</NavLink></li>
+		<li>Complete 'Personal Information JSON Files'<NavLink to='/activity-oop/personal-info-json-to-azure'>[video]</NavLink></li>
 		<li><em>Consistently work on the SwissArmyKnife v2 assignment (PA6) and Quiz 6 throughout the sprint ~10 hours</em></li>
 		<li><em>Complete your initial Discussion Board post by the middle of the sprint</em></li>
 		<li>Create and/or update your JSON files on your MS Azure website by the middle of the sprint to reflect the
 			requirements identified in our sprint 6 assignments</li>
-		<li>Review 'Performance and Multithreading' 
-			<a href='https://mediaatoz.blob.core.windows.net/object-oriented-programming/performance-and-multithreaded-programming.mp4'>[video]</a></li>
-		<li>Complete 'SleepFast' Tutorial
-			<a href='https://mediaatoz.blob.core.windows.net/object-oriented-programming/java-sleep-fast.mp4'>[video]</a></li>
-		<li>Review Object-Oriented Programming Languages and Platforms
-			<a href='https://mediaatoz.blob.core.windows.net/object-oriented-programming/languages-and-platforms.mp4'>[video]</a></li>
+		<li>Review 'Performance and Multithreading'<NavLink to='/activity-oop/performance-and-multithreaded-programming'>[video]</NavLink></li>
+		<li>Complete 'SleepFast'<NavLink to='/activity-oop/java-sleep-fast'>[video]</NavLink></li>
+		<li>Review Object-Oriented Programming Languages and Platforms<NavLink to='/activity-oop/languages-and-platforms'>[video]</NavLink></li>
 		<li><em>Complete all sprint 6 assignments and activity list items by the end of the sprint</em></li>
 	</ol>
 

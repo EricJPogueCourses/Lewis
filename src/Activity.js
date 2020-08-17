@@ -16,8 +16,24 @@ import { WebCourseSchedule } from './Activities/WebCourseSchedule'
 import { WebMapManiaVersion1 } from './Activities/WebMapManiaVersion1'
 import { WebMapManiaVersion2 } from './Activities/WebMapManiaVersion2'
 
-const videoLink = (header, url) => {
+export const videoLink = (header, url) => {
 	return ( <div><h5>{header}</h5><ReactPlayer url={url} controls={true} width={1024} height={576} /></div> )
+}
+
+export const baseLink = () => {
+	return 'https://lewiseducation.blob.core.windows.net/'
+}
+
+const webProgrammingLink = (fileName) => {
+	return baseLink()+'web-and-distributed-programming/'+fileName
+}
+
+const daleLink = (fileName) => {
+	return baseLink()+'dale/'+fileName	
+}
+
+const foxLink = (fileName) => {
+	return baseLink()+'fox/'+fileName	
 }
 
 class Activity extends Component {
@@ -55,54 +71,72 @@ class Activity extends Component {
 			case 'map-mania-v1': return WebMapManiaVersion1()
 			case 'map-mania-v2': return WebMapManiaVersion2()
 
-			// Todo: Consider moving all of the “dale” lectures to a separate function/file.
+			// Start Computer Science Illuminated” by Nell Dale and John Lewis (Dale).
 			case 'dale-chapter-01': return videoLink(
 				'“Computer Science Illuminated” by Nell Dale and John Lewis (Dale) Chapter 1 Lecture', 
-				'https://botb.blob.core.windows.net/nvm4zqwm/jlh8u41d-chapter-01-lecture.mp4')
+				daleLink('chapter-01-lecture.mp4'))
 			case 'dale-chapter-02': return videoLink(
 				'“Computer Science Illuminated” by Nell Dale and John Lewis (Dale) Chapter 2 Lecture', 
-				'https://botb.blob.core.windows.net/nvm4zqwm/jlh8u41d-chapter-02-lecture.mp4')
+				daleLink('chapter-02-lecture.mp4'))
 			case 'dale-chapter-03': return videoLink(
-				'“Computer Science Illuminated” by Nell Dale and John Lewis (Dale) Chapter 3 Lecture', 
-				'https://botb.blob.core.windows.net/nvm4zqwm/jlh8u41d-chapter-03-lecture.mp4')
+				'“Computer Science Illuminated” by Nell Dale and John Lewis (Dale) Chapter 3 Lecture',
+				daleLink('chapter-03-lecture.mp4')) 
 			case 'dale-chapter-04': return videoLink(
 				'“Computer Science Illuminated” by Nell Dale and John Lewis (Dale) Chapter 4 Lecture', 
-				'https://botb.blob.core.windows.net/nvm4zqwm/jlh8u41d-chapter-04-lecture.mp4')
-			// End “dale”
+				daleLink('chapter-04-lecture.mp4'))
+			// End Dale.
 
-			// Todo: Consider moving all of the “sebesta” lectures to a separate function/file.
-			// Todo: Move Sebesta video to production sharing site. 
+			// Start Programming The World Wide Web” by Robert W. Sebesta (Sebesta)
 			case 'sebesta-chapter-01': return videoLink(
 				'“Programming The World Wide Web” by Robert W. Sebesta (Sebesta) Chapter 1 Lecture', 
-				'https://mediaatoz.blob.core.windows.net/web-and-distributed-programming/intro-to-web-and-distributed-programming.mp4')
+				webProgrammingLink('intro-to-web-and-distributed-programming.mp4'))
 			case 'sebesta-chapter-02': return videoLink(
 				'“Programming The World Wide Web” by Robert W. Sebesta (Sebesta) Chapter 2 Lecture', 
-				'https://mediaatoz.blob.core.windows.net/web-and-distributed-programming/html5.mp4')
+				webProgrammingLink('html4.mp4'))
 			case 'sebesta-chapter-03': return videoLink(
 				'“Programming The World Wide Web” by Robert W. Sebesta (Sebesta) Chapter 3 Lecture', 
-				'https://mediaatoz.blob.core.windows.net/web-and-distributed-programming/css.mp4')
+				webProgrammingLink('css.mp4'))
 			case 'sebesta-chapter-04': return videoLink(
 				'“Programming The World Wide Web” by Robert W. Sebesta (Sebesta) Chapter 4 Lecture', 
-				'https://mediaatoz.blob.core.windows.net/web-and-distributed-programming/javascript-basics.mp4')
+				webProgrammingLink('javascript-basics.mp4'))
 			case 'sebesta-chapter-05': return videoLink(
 				'“Programming The World Wide Web” by Robert W. Sebesta (Sebesta) Chapter 5 Lecture', 
-				'https://mediaatoz.blob.core.windows.net/web-and-distributed-programming/javascript-and-html.mp4')
+				webProgrammingLink('javascript-and-html.mp4'))
 			case 'sebesta-chapter-06': return videoLink(
 				'“Programming The World Wide Web” by Robert W. Sebesta (Sebesta) Chapter 6 Lecture', 
-				'https://mediaatoz.blob.core.windows.net/web-and-distributed-programming/dynamic-documents-with-javascript.mp4')
+				webProgrammingLink('dynamic-documents-with-javascript.mp4'))
 			case 'sebesta-chapter-07': return videoLink(
 				'“Programming The World Wide Web” by Robert W. Sebesta (Sebesta) Chapter 7 Lecture', 
-				'https://mediaatoz.blob.core.windows.net/web-and-distributed-programming/xml-and-webservices.mp4')
+				webProgrammingLink('xml-and-webservices.mp4'))
 			case 'sebesta-chapter-09': return videoLink(
-					'“Programming The World Wide Web” by Robert W. Sebesta (Sebesta) Chapter 9 Lecture', 
-					'https://mediaatoz.blob.core.windows.net/web-and-distributed-programming/intro-to-php.mp4')
+				'“Programming The World Wide Web” by Robert W. Sebesta (Sebesta) Chapter 9 Lecture', 
+				webProgrammingLink('intro-to-php.mp4'))
 			case 'sebesta-chapter-10': return videoLink(
 				'“Programming The World Wide Web” by Robert W. Sebesta (Sebesta) Chapter 10 Lecture', 
-				'https://mediaatoz.blob.core.windows.net/web-and-distributed-programming/intro-to-ajax.mp4')
+				webProgrammingLink('intro-to-ajax.mp4'))
 			case 'sebesta-chapter-13': return videoLink(
 				'“Programming The World Wide Web” by Robert W. Sebesta (Sebesta) Chapter 13 Lecture', 
-				'https://mediaatoz.blob.core.windows.net/web-and-distributed-programming/database-access-through-the-web.mp4')
-			// End “sebesta”
+				webProgrammingLink('database-access-through-the-web.mp4'))
+			// End Sebesta.
+
+			// Start Engineering Software as a Service: An Agile Approach Using Cloud Computing” by Armando Fox and 
+			//     David Patterson (Fox).
+			case 'fox-chapter-00': return videoLink(
+				'“Engineering Software as a Service: An Agile Approach Using Cloud Computing” by Armando Fox and David Patterson (Fox) Preface Lecture', 
+				foxLink('chapter-00-lecture.mp4'))
+			case 'fox-chapter-01': return videoLink(
+				'“Engineering Software as a Service: An Agile Approach Using Cloud Computing” by Armando Fox and David Patterson (Fox) Chapter 1 Lecture', 
+				foxLink('chapter-01-lecture.mp4'))
+			case 'fox-chapter-02': return videoLink(
+				'“Engineering Software as a Service” by Armando Fox and David Patterson (Fox) Chapter 2 Lecture', 
+				foxLink('chapter-01-lecture.mp4'))
+			case 'fox-chapter-06': return videoLink(
+				'“Engineering Software as a Service” by Armando Fox and David Patterson (Fox) Chapter 6 Lecture', 
+				foxLink('chapter-06-lecture.mp4'))
+			case 'fox-chapter-07': return videoLink(
+				'“Engineering Software as a Service” by Armando Fox and David Patterson (Fox) Chapter 7 Lecture', 
+				foxLink('chapter-07-lecture.mp4'))
+			// End Fox.
 
 			default: return 'Activity not found!'
 		}

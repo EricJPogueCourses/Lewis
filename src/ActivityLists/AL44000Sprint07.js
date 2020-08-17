@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 export const al44000Sprint07 = () => {
 	return (
@@ -30,8 +31,7 @@ export const al44000Sprint07 = () => {
 			Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides and read everything through chapter 1 paying close
 			attention to the “Guide to Readers” and “Model/View/Controller” sections</li>
 		<li>Read Chapter 11 of Fox on Design Patterns</li>
-		<li>Complete 'Application Architectures, Object-Oriented Programming, and Databases - Part 1' 
-			<a href='https://mediaatoz.blob.core.windows.net/object-oriented-programming/application-architecture-part1.mp4'>[link]</a></li>
+		<li>Complete 'Application Architectures, Object-Oriented Programming, and Databases - Part 1'<NavLink to='/activity-architecture/application-architecture-part1'>[video]</NavLink></li>
 		<li><em>Complete and submit all sprint 7 assignments including your initial discussion board post, responding
 			back to one of your classmates' discussion board 7 post, quiz 7, lab 7, and reflections 7</em></li>
 	</ol>

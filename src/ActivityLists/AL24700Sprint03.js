@@ -40,11 +40,8 @@ This is so that you can focus your time on Lab 3 and Map Mania.</p>
 	<li><em>Complete Discussion 3 by responding to at least two of your classmates’ posts</em></li>
 	<li><em>Submit Lab 3, Quiz 3, and Reflection 3</em></li>
 </ol>
-<p></p>
-
 <p>Alway feel free to drop a note note to your scrum teammates or to post something in our Class Forum discussion board 
 area if you have questions. Oh yes, and treat yourself to something nice. Maybe ice cream this sprint?</p>
-
 </div>
 
 	)

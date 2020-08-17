@@ -32,7 +32,7 @@ works.</p>
 	<li><em>Review Lab 4, Quiz 4, Discussion 4, and Reflection 4</em></li>
 	<li>Start early and remain laser focused on Map Mania version 2 and Lab 4</li>
 	<li>Review and start working on Map Mania version 2</li>
-    <li>Complete Map Mania Lite <a href='https://mediaatoz.blob.core.windows.net/web-and-distributed-programming/map-mania-lite.mp4' target='_blank' rel='noopener noreferrer'>[video]</a>~2 hours </li>
+    <li>Complete Map Mania Lite<NavLink to='/activity-web/map-mania-lite'>[video]</NavLink>~2 hours </li>
 	<li>Read chapter 6 of Sebesta on JavaScript and review the associated Dynamic Documents with JavaScript lecture<NavLink to='/activity/sebesta-chapter-06'>[video]</NavLink></li>
 	<li><em>Make your initial Discussion 4 post by the middle of the sprint</em></li>
 	<li><em>Complete Map Mania version 2</em>~10 hours</li>
@@ -47,36 +47,7 @@ works.</p>
 
 <p>Take a deep breath and consider if you are you getting what you hoped to get out of the course. If not, let's
 sit down and talk for a few minutes to see if we can make it something special for you.</p>
-
-{/* Review:
-
-<li>Explore Dynamic Documents with JavaScript ~1 hour 
-<a
-href='https://mediaatoz.blob.core.windows.net/web-and-distributed-programming/dynamic-documents-with-javascript.mp4'
-target='_blank'>[video]</a> 
-<a
-href='https://mediaatoz.blob.core.windows.net/web-and-distributed-programming/dynamic-documents-with-javascript-slides-only.pptx'
-target='_blank'>[slides]</a> 
-<a
-href='https://mediaatoz.blob.core.windows.net/web-and-distributed-programming/dynamic-documents-with-javascript.ppsx'
-target='_blank'>[show]</a></li>
-
-<li>Complete Programming Assignment 4: Map Mania v2 ~10 hours</li>
-<li>Explore XML and Web Services ~1 hour 
-<a
-href='https://mediaatoz.blob.core.windows.net/web-and-distributed-programming/xml-and-webservices.mp4'
-target='_blank'>[video]</a> 
-<a
-href='https://mediaatoz.blob.core.windows.net/web-and-distributed-programming/xml-and-webservices-slides-only.pptx'
-target='_blank'>[slides]</a> 
-<a
-href='https://mediaatoz.blob.core.windows.net/web-and-distributed-programming/xml-and-webservices.ppsx'
-target='_blank'>[show]</a></li>
-*/}
-
 </div>
-
-
 
 	)
 }

@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 export const al25000Sprint08 = ( props ) => {
 	return (
@@ -23,8 +24,7 @@ export const al25000Sprint08 = ( props ) => {
 	<ol>
 		<li><em>Final Project, Final Project, and more Final Project</em></li>
 		<li>Review Programming Assignment 8 Final Project v2, Quiz 8, and Discussion Board 8</li>
-		<li>Complete “Application Architectures, Object-Oriented Programming, and Databases - Part 2”
-			<a href='https://mediaatoz.blob.core.windows.net/object-oriented-programming/application-architecture-part2.mp4'> [video]</a></li>
+		<li>Complete “Application Architectures, Object-Oriented Programming, and Databases - Part 2”<NavLink to='/activity-architecture/application-architecture-part2'>[video]</NavLink></li>
 		<li style={{color: 'red'}}>All course assignments including Programming Assignment 8 Final Project and Quiz 8 must be
 			submitted at least 2 hours prior to your final project review session</li>
 	</ol>

@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 export const al44000Sprint08 = () => {
 	return (
@@ -26,8 +27,7 @@ export const al44000Sprint08 = () => {
 		<li>Stay focused on your final project by implementing and testing the additional high priority functionality
 			that you identified last sprint</li>
 		<li>Read Chapter 12 of Fox on Project Management, Scrum, Pairs, and VCS</li>
-		<li>Complete 'Application Architectures, Object-Oriented Programming, and Databases - Part 2' 
-			<a href='https://mediaatoz.blob.core.windows.net/object-oriented-programming/application-architecture-part2.mp4'>[link]</a></li>
+		<li>Complete 'Application Architectures, Object-Oriented Programming, and Databases - Part 2'<NavLink to='/activity-architecture/application-architecture-part2'>[video]</NavLink></li>
 		<li style={{color:'red'}}><em>Complete and submit all sprint 8 assignments including quiz 8, lab 8, and reflections
 			8 by Thursday (March 5th) at 11:59pm CT</em></li>
 	</ol>that we will need to complete this sprint.</p>

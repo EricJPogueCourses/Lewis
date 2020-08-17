@@ -26,10 +26,8 @@ export const al25000Sprint03 = ( props ) => {
 	<ol>
 		<li><em>Review Programming Assignment 3, Quiz 3, and Discussion Board 3</em></li>
 		<li>Start working early and stay focused on the Programming Assignment 3 - FaceDraw</li>
-		<li>Complete 'Graphical User Interfaces (GUI) in Java' lesson 
-			<a href='https://mediaatoz.blob.core.windows.net/object-oriented-programming/java-gui-programming.mp4'>[video]</a></li>
-		<li>Complete the FaceDrawLite tutorial
-			<a href='https://mediaatoz.blob.core.windows.net/object-oriented-programming/java-facedraw-lite.mp4'>[video]</a> ~2 hours</li>
+		<li>Complete 'Graphical User Interfaces (GUI) in Java' lesson<NavLink to='/activity-oop/java-gui-programming'>[video]</NavLink></li>
+		<li>Complete the FaceDrawLite<NavLink to='/activity-oop/java-facedraw-lite'>[video]</NavLink>~2 hours</li>
 		<li>FaceDraw, FaceDraw, FaceDraw ~8 to 12 hours</li>
 		<li>Review the answers from Quiz 2</li>
 		<li><em>Complete your initial Discussion Board (DB) post by the middle of the sprint</em></li>

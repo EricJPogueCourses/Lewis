@@ -29,10 +29,8 @@ minutes unless otherwise noted.</p>
 	<li>Review our “Coding Standards”<NavLink to='/activity/coding-standards'>[link]</NavLink> and consistently utilize 
 		them on all activities and assignments</li>
 	<li>Read Chapter 6 of Fox on developing SaaS client applications in JavaScript using technologies like AJAX and
-		JSON and review the associated class lecture 
-		<a href='https://botb.blob.core.windows.net/ovun/nt1x35m58.html?name=chapter-06-lecture.mp4'>[video]</a></li>
-	<li>Briefly scan Chapters 3, 4, and 5 of Fox and review the associated class lecture 
-		<a href='https://botb.blob.core.windows.net/ovun/nt1x35m58.html?name=chapter-03-lecture.mp4'>[video]</a></li>
+		JSON and review the associated class lecture<NavLink to='/activity/fox-chapter-06'>[video]</NavLink></li>
+	<li>Briefly scan Chapters 3, 4, and 5 of Fox and review the associated class lecture<NavLink to='/activity/fox-chapter-03'>[video]</NavLink></li>
 	<li>Within Safari Books Online execute searches for Node.js, Azure, JavaScript, TypeScript, Express, Git, GitHub, 
 		JSON, and Sails</li>
 	<li>Analyze and commit to adopting the “How to Be a Success Programmer” suggestions that you feel are the

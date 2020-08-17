@@ -14,8 +14,8 @@ of those technologies by introducing Cascading Style Sheets (CSS) and JavaScript
 
 <p>Once again let’s start with our Learning Objectives. By the end of sprint 2 we will be able to:</p>
 <ul style={{listStyleType:'square'}}>
-	<li>Identify and classify Internet, Web, and distributed applications</li>
-	<li>Implement Cascading Style Sheets (CSS) to enhance web applications</li>
+	<li>Compare and contrast Internet, Web, and distributed applications</li>
+	<li>Implement Cascading Style Sheets to enhance web applications</li>
 	<li>Understand the basics of JavaScript</li>
 	<li>Utilize Git and GitHub along with Microsoft Azure to manage content and deploy web applications</li>
 	<li>Begin to understand APIs and toolkits by reviewing the Google Maps JavaScript API</li>
@@ -30,8 +30,7 @@ efficient for you and the <em>bold</em> items are graded assignments.</p>
 		them on all activities and assignments</li>
 	<li>Start early and consistently work on Lab 2 and Quiz 2 throughout the sprint</li>
 	<li>Read chapter 3 of Sebesta on Cascading Style Sheets (CSS) and review the associated lecture<NavLink to='/activity/sebesta-chapter-03'>[video]</NavLink></li>
-	{/* Todo: Move examples below. */}
-	<li>Review the Sebesta HTML, CSS, and JavaScript examples<a href='http://examples.epogue.info/'>[link]</a></li>
+	<li>Review the Sebesta HTML, CSS, and JavaScript examples<a href='http://sebesta-examples.azurewebsites.net/'>[link]</a></li>
     <li>Within Safari Books Online execute searches for HTML, CSS, JavaScript, and Git and save review the results</li>
 	<li><em>Make your initial Discussion 2 post by the middle of the sprint</em></li>
 	<li>Complete “Tools of the Trade - Part 2”<NavLink to='/activity/tools'>[link]</NavLink>~3 hours </li>
@@ -43,28 +42,7 @@ efficient for you and the <em>bold</em> items are graded assignments.</p>
 	<li><em>Complete Discussion 2 by responding to at least two of your classmates’ posts</em></li>
 	<li><em>Submit Lab 2, Quiz 2, and Reflection 2</em></li>
 </ol>
-<p>If you are struggling, remember to reach out to your Scrum teammates early and often for help .</p>
-{extras()}
-
-</div>
-
-	)
-}
-
-const extras = () => {
-	return ( 
-
-<div>
-	Additional references:
-	<ul>
-		<li>Cascading Style Sheets 
-			<a href='https://mediaatoz.blob.core.windows.net/web-and-distributed-programming/css-slides-only.pptx'>[slides]</a> 
-			<a href='https://mediaatoz.blob.core.windows.net/web-and-distributed-programming/css.ppsx'>[show]</a></li>   
-			<li>Read chapter 4 of Sebesta</li>
-		<li>Basic JavaScript 
-			<a href='https://mediaatoz.blob.core.windows.net/web-and-distributed-programming/javascript-basics-slides-only.pptx'>[slides]</a> 
-			<a href='https://mediaatoz.blob.core.windows.net/web-and-distributed-programming/javascript-basics.ppsx'>[show]</a></li>
-	</ul>
+<p>If you are struggling, remember to reach out to your Scrum teammates early and often for help.</p>
 </div>
 
 	)

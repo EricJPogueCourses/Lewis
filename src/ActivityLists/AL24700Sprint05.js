@@ -32,9 +32,7 @@ information about ourselves in JSON files that we can utilize to create a Distri
 	<li>Verify due dates by checking our course calendar<NavLink to='/calendar/5'>[link]</NavLink></li>
 	<li>Review assignments including lab, quiz, discussion, and reflection</li>
 	<li>Start working on our Mustang version 1 distributed contact manager</li>
-	{/* Todo: Check if there is a Mustang lite tutorial?
-		<li>Complete Map Mania Lite <a href='https://mediaatoz.blob.core.windows.net/web-and-distributed-programming/map-mania-lite.mp4' target='_blank'>[video]</a>~2 hours </li>
-	*/}
+	{/* Todo: Check if there is a Mustang lite tutorial?*/}
 	<li>Read chapter 10 of Sebesta and review our Ajax lecture<NavLink to='/activity/sebesta-chapter-10'>[video]</NavLink></li>
 	<li><em>Complete your initial discussion post by the middle of the sprint</em></li>
 	<li><em>Complete Mustang version 1 (~10 hours)</em></li>
@@ -49,28 +47,6 @@ information about ourselves in JSON files that we can utilize to create a Distri
 <p>How would you like to finishing the course by creating something that makes you proud? What type of a final project 
 would you enjoy creating? Is there a final project that would both be interesting to create and be something you could 
 add to your professional portfolio as you are looking for internships or jobs?</p>
-
-{al24700Sprint05Extras()}
-
-</div>
-
-	)
-};
-
-const al24700Sprint05Extras = () => {
-	return (
-
-<div>
-<br />
-<h5>Extras:</h5>
-<ul style={{listStyleType:'square'}}>
-	<li>Chapter 10 Sebesta - Introduction to Ajax 
-		<a href='https://mediaatoz.blob.core.windows.net/web-and-distributed-programming/intro-to-ajax-slides-only.pptx' target='_blank' rel='noopener noreferrer'>[slides]</a>
-		<a href='https://mediaatoz.blob.core.windows.net/web-and-distributed-programming/intro-to-ajax.ppsx' target='_blank' rel='noopener noreferrer'>[show]</a></li>
-	<li>Chapter 13 of Sebesta - Database Access through the Web 
-		<a href='https://mediaatoz.blob.core.windows.net/web-and-distributed-programming/database-access-through-the-web.pptx' target='_blank' rel='noopener noreferrer'>[slides]</a> 
-		<a href='https://mediaatoz.blob.core.windows.net/web-and-distributed-programming/database-access-through-the-web.ppsx' target='_blank' rel='noopener noreferrer'>[show]</a></li>
-</ul>
 </div>
 
 	)

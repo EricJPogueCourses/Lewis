@@ -35,8 +35,8 @@ algorithms.</p>
 	<li>Recall signing up for Safari Books Online which is available to you free through Lewis University
 		<a href='https://learning.oreilly.com/home/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li>Within Safari Books Online find “Introducing Python, 2nd Edition” by Bill Lubanovic (Lubanovic)
-		and briefly scan introduction and first four chapters of the book</li>
-	<li>Thoroughly read chapters 1 of Lubanovic while completing each of the exercises</li>
+		and briefly scan the introduction and first four chapters of the book</li>
+	<li>Thoroughly read chapter 1 of Lubanovic and complete each of the exercises</li>
 
 	<li>Complete “<em>Todo:</em>Programming Assignment”<NavLink to='/activity/getting-to-know-each-other'>[link]</NavLink></li>
 

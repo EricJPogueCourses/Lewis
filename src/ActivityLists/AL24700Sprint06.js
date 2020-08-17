@@ -34,22 +34,19 @@ if you would like.</p>
 	<li>Verify due dates by checking our course calendar<NavLink to='/calendar/6'>[link]</NavLink></li>
 	<li>Review assignments including lab, quiz, discussion, and reflection</li>
 	<li>Start working on our Mustang version 2 distributed contact manager</li>
-	{/* Todo: Check if there is a Mustang version 2 lite tutorial?
-		<li>Complete Map Mania Lite <a href='https://mediaatoz.blob.core.windows.net/web-and-distributed-programming/map-mania-lite.mp4' target='_blank'>[video]</a>~2 hours </li>
-	*/}
+	{/* Todo: Check if there is a Mustang version 2 lite tutorial?*/}
 	<li>Read chapter 9 of Sebesta and review our PHP lecture<NavLink to='/activity/sebesta-chapter-09'>[video]</NavLink></li>
 	<li><em>Complete your initial discussion post by the middle of the sprint</em></li>
 	<li><em>Complete Mustang version 2 (~10 hours)</em></li>
 	<li><em>Update your initial final project proposal by including a technical design and determining if you be working
 		on it as part of a team or working on it solo</em></li>
-	<li>Explore Application Architecture - Part 1<a href='https://mediaatoz.blob.core.windows.net/object-oriented-programming/application-architecture-part1.mp4' target='_blank' rel='noopener noreferrer'>[video]</a></li>
+	<li>Explore Application Architecture - Part 1<NavLink to='/activity-architecture/application-architecture-part1'>[video]</NavLink></li>
 	<li><em>Complete and submit all assignments including your lab, quiz, discussion, and reflection</em></li>
 </ol>
 
 <p>How would you like to finishing the course by creating something that makes you proud? What type of a final project 
 would you enjoy creating? Is there a final project that would both be interesting to create and be something you could 
 add to your professional portfolio as you are looking for internships or jobs?</p>
-
 {al24700Sprint06Extras()}
 
 </div>
@@ -61,17 +58,12 @@ const al24700Sprint06Extras = () => {
 	return (
 
 <div>
-<div>
 <br />
 <h5>Extras:</h5>
 <ul style={{listStyleType:'square'}}>
-	<li>Chapter 9 Sebesta - Introduction to PHP
-		<a href='https://mediaatoz.blob.core.windows.net/web-and-distributed-programming/intro-to-php-slides-only.pptx' target='_blank' rel='noopener noreferrer'>[slides]</a> 
-        <a href='https://mediaatoz.blob.core.windows.net/web-and-distributed-programming/intro-to-php.ppsx' target='_blank' rel='noopener noreferrer'>[show]</a></li>
 	<li>Sprint 6 Recorded Lecture/Discussion session from a previous class<a href='https://recordings.join.me/ZFa-lvS3G0W7TEieUjqKuw' target='_blank' rel='noopener noreferrer'>[link]</a></li>      
 	<li>Git/GitHub Cheat Sheet<a href='https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 </ul>
-</div>
 </div>
 
 	)
