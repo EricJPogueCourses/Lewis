@@ -24,11 +24,11 @@ install, configure, and utilize many tools and services. By the end of this tuto
 	<li>Install the Visual Studio Code and the Python 3 programming environment<a href='https://code.visualstudio.com/docs/python/python-tutorial' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li>Configure Office 365 Outlook and Teams which are available to you free through Lewis University<a href='https://www.office.com/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li>Sign up for OReilly Safari Books Online service which is available free through Lewis University<a href='https://www.oreilly.com/library/view/temporary-access/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
-	<li>Configure and utilize File Manager (Windows) or Finder (MacOS) to navigate and manage folders, files, file 
+	<li>Utilize File Explorer (Windows) or Finder (MacOS) to manage folders, files, file 
 		extensions, zip files, and hidden folders/files</li>
-	<li>Configure MS Windows PowerShell if you are utilizing MS Windows<NavLink to='/activity-config/powershell-windows10-setup'>[video]</NavLink></li>
-	<li>Either configure and utilize Windows PowerShell to navigate and manage folders, files, zip files, hidden folders/files<NavLink to='/activity-config/powershell-windows10-setup'>[video]</NavLink></li>
-	<li>Or configure and utilize MacOS Terminal to navigate and manage folders, files, zip files, hidden folders/files<NavLink to='/activity-config/macos-setup-terminal-finder-and-git'>[video]</NavLink></li>
+	<li>Utilize PowerShell (Windows)<NavLink to='/activity-config/powershell-windows10-setup'>[video]</NavLink>or 
+		Terminal (MacOS)<NavLink to='/activity-config/macos-setup-terminal-finder-and-git'>[video]</NavLink>to 
+		manage folders, files, zip files, and hidden folders/files</li>
 	<li>Utilize Windows or MacOS screen capture<a href='https://www.theverge.com/2019/11/8/20953522/how-to-take-screenshot-mac-windows-pc-iphone-android' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li>Sign up for the MS Azure cloud service for Students<a href='https://azure.microsoft.com/en-us/free/students/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 </ol>
@@ -41,8 +41,8 @@ install, configure, and utilize many tools and services. By the end of this tuto
 		<ul style={{ listStyleType: 'square' }}>
 			<li>Complete the “An Intro to Git and GitHub for Beginners” tutorial from the GitHub website<a href='https://guides.github.com/activities/hello-world/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 			<li>Complete the “An Intro to Git and GitHub for Beginners” tutorial from HubSpot<a href='https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners' target='_blank' rel='noopener noreferrer'>[link]</a></li>
-			<li>Review the “Git Handbook” guide<a href='https://guides.github.com/introduction/git-handbook/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
-			<li>Review GitHub Git Cheat Sheet<a href='https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf' target='_blank' rel='noopener noreferrer'>[link]</a></li> 
+			<li>Review the “Git Handbook”<a href='https://guides.github.com/introduction/git-handbook/' target='_blank' rel='noopener noreferrer'>[link]</a>
+			and the “GitHub Git Cheat Sheet”<a href='https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf' target='_blank' rel='noopener noreferrer'>[link]</a></li> 
 		</ul></li>
 	<li>Configure MS Office Teams from above or Discord for your Scrum team<a href='https://discord.com/' target='_blank' rel='noopener noreferrer'>[discord]</a></li>
 	<li>Install Node.js and NPM<a href='https://nodejs.org/en/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
@@ -51,7 +51,8 @@ install, configure, and utilize many tools and services. By the end of this tuto
 </ol>
 
 <br />
-Chocolatey (preview): You may optionally attempt to utilize the Chocolatey package manager to install the above application on Window:
+Chocolatey (preview): You may optionally install and utilize the Chocolatey (Windows) or Homebrew (MacOS) package 
+managers to install the above applications:
 <ol>
 	<li>Install Chocolatey with PowerShell<NavLink to='/activity-config/chocolatey'>[video]</NavLink></li>
 	<li>Install VS Code, Python3, VS Code Python extension, MS Teams, Git, Node.js, and OpenJDK using Chocolatey<NavLink to='/activity-config/chocolatey-install'>[video]</NavLink>

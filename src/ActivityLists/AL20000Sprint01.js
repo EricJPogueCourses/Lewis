@@ -39,10 +39,10 @@ focused time unless otherwise noted. <em>Bold</em> items are graded assignments.
 	<li><em>Review sprint 1 assignments including Introduction, Lab 1, Quiz 1, Discussion 1, and Reflection 1</em></li>
 	<li>Start early and consistently work on Lab 1 and Quiz 1 throughout the sprint</li>
 	<li>Add your photo to your Blackboard profile<NavLink to='/activity/photo-to-blackboard'>[video]</NavLink></li>
-	<li>Complete “Tools of the Trade - Part 1” ~3 hours <NavLink to='/activity/tools'>[link]</NavLink></li>
 	<li>Read Chapter 1 of “Computer Science Illuminated” by Nell Dale and John Lewis (Dale) and review our chapter 1 
 		lecture <NavLink to='/activity/dale-chapter-01'>[video]</NavLink></li>
 	<li><em>Complete the Introduction assignment by making your post and responding to at least two of your classmates'</em></li>
+	<li>Complete “Tools of the Trade - Part 1” ~3 hours <NavLink to='/activity/tools'>[link]</NavLink></li>
 	<li><em>Make your initial Discussion 1 post by the middle of the sprint</em></li>
 	<li>Complete “Hello World with Python”<NavLink to='/activity/hello-world-python'>[link]</NavLink></li>
 	<li>Read Chapter 2 of “Computer Science Illuminated” by Nell Dale and John Lewis (Dale) and chapter 2 lecture<NavLink to='/activity/dale-chapter-02'>[video]</NavLink></li>
@@ -50,7 +50,7 @@ focused time unless otherwise noted. <em>Bold</em> items are graded assignments.
 	<li><em>Complete Discussion 1 by responding to at least two of your classmates’ posts</em></li>
 	<li><em>Submit Lab 1, Quiz 1, and Reflection 1</em></li>
 </ol>
-<p>Be sure start assignments early and to reward yourself when you reach significant milestones.</p>
+<p>Be sure to start assignments early and to reward yourself when you reach significant milestones.</p>
 {extras()}
 </div>
 

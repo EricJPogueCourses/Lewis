@@ -15,6 +15,7 @@ import { Sprint06 } from './Sprint06'
 import { Sprint07 } from './Sprint07'
 import { Sprint08 } from './Sprint08'
 import { SprintCalendar } from './SprintCalendar'
+import { SprintClassActivities } from './SprintClassActivities'
 import { Credits } from './Credits'
 import { InfoEricPogue } from './InfoEricPogue'
 import { Version } from './Version'
@@ -46,6 +47,7 @@ class Main extends Component {
 						<Route path='/sprint-7' component={Sprint07}/>
 						<Route path='/sprint-8' component={Sprint08}/>
 						<Route path='/calendar/:reference' component={SprintCalendar}/>
+						<Route path='/class-activities/:reference' component={SprintClassActivities}/>
 						<Route path='/info' component={InfoEricPogue}/>
 						<Route path='/credits' component={Credits}/>
 						<Route path='/getting-help' component={UniversityResources}/>
