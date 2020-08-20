@@ -70,9 +70,9 @@ export class SprintClassActivities extends Component {
 				<thead><tr><th>Day</th><th>Activity</th></tr></thead>
 				<tbody>
 					{this.renderActivityRow(SprintDates.incrementDate(dates.start,0),'Sprint Planning')}
-					{this.renderActivityRow(SprintDates.incrementDate(dates.start,2),'Demos plus Topic Discussion')}
-					{this.renderActivityRow(SprintDates.incrementDate(dates.start,4),'Discussion Board plus Lab')}
-					{this.renderActivityRow(SprintDates.incrementDate(dates.start,7),'Topic Discussion')}
+					{this.renderActivityRow(SprintDates.incrementDate(dates.start,2),'Demos plus Discussions')}
+					{this.renderActivityRow(SprintDates.incrementDate(dates.start,4),'Lab')}
+					{this.renderActivityRow(SprintDates.incrementDate(dates.start,7),'Discussions')}
 					{this.renderActivityRow(SprintDates.incrementDate(dates.start,9),'Quiz')}
 					{this.renderActivityRow(SprintDates.incrementDate(dates.start,11),'Lab')}
 				</tbody>

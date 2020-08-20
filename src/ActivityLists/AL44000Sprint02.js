@@ -56,6 +56,13 @@ minutes unless otherwise noted.</p>
 	<li>Read and Understand “JSON Introduction” from W3C 
 		<a href='https://www.w3schools.com/js/js_json_intro.asp' target='_blank' rel='noopener noreferrer'>[link]</a></li> 
 	<li>Read Fox sections 'A.6 Getting Started With Git for Version Control' and 'A.7 Getting Started with GitHub'</li>
+	<li>Briefly review the following short videos on 
+		HTML <a href='https://www.youtube.com/watch?v=wy6O5hAjKAo' target='_blank' rel='noopener noreferrer'>[video]</a>,
+		CSS <a href='https://www.youtube.com/watch?v=AfBK2Masemk' target='_blank' rel='noopener noreferrer'>[video]</a>,
+		Cookies <a href='https://www.youtube.com/watch?v=Xlt7xeqVfO4' target='_blank' rel='noopener noreferrer'>[video]</a>,
+		HTML Attributes <a href='https://www.youtube.com/watch?v=X5ArSbUea_o' target='_blank' rel='noopener noreferrer'>[video]</a>,
+		Ruby MVC Create and Update <a href='https://www.youtube.com/watch?v=XXrYmVzjTKQ' target='_blank' rel='noopener noreferrer'>[video]</a>,
+		and HAML <a href='https://www.youtube.com/watch?v=yX1tMdBuG3g' target='_blank' rel='noopener noreferrer'>[video]</a></li>
 	<li><em>Complete and submit all sprint 2 assignments including Lab 2, Quiz 2, Discussion Board 2, and your Journal entry</em></li>
 </ol>
 </div>

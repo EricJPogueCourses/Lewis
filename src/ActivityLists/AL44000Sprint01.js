@@ -43,37 +43,26 @@ take 20 to 40 minutes of focused time unless otherwise noted. Highlighted activi
 graded assignments.</p>
 <ol>
 	<li>Review course syllabus<a href={syllabusURL}>[link]</a></li>
-	<li>Maintain laser focus on due dates by reviewing our course calendar
-		<NavLink to='/calendar/1'>[link]</NavLink></li>	
-	<li>Understand Blended Learning by reviewing “Blended Learning & Flipped Classroom” 
-		<NavLink to='/activity/blended-learning'>[video]</NavLink></li>
-	<li>Be prepared to participate in a Scrum team by watching “Introduction to Scrum in 7 Minutes”
-		<NavLink to='/activity/scrum-in-7-minutes'>[video]</NavLink></li>
+	<li>Maintain laser focus on due dates by reviewing our course calendar<NavLink to='/calendar/1'>[link]</NavLink></li>	
+	<li>Understand Blended Learning by reviewing “Blended Learning & Flipped Classroom”<NavLink to='/activity/blended-learning'>[video]</NavLink></li>
+	<li>Be prepared to participate in a Scrum team by watching “Introduction to Scrum in 7 Minutes”<NavLink to='/activity/scrum-in-7-minutes'>[video]</NavLink></li>
 	<li><em>Review sprint 1 assignments including Introduction, Lab 1, Quiz 1, Discussion 1, and Reflection 1</em></li>	
+	<li>Start early and consistently work on Lab 1 and Quiz 1 throughout the sprint</li>
 	<li>Add your photo to your Blackboard profile<NavLink to='/activity/photo-to-blackboard'>[video]</NavLink></li>
 	<li>Read Chapter 1 of “Engineering Software as a Service: An Agile Approach Using Cloud Computing” by Armando Fox
 		and David Patterson (Fox) and review our Chapter 1 lecture<NavLink to='/activity/fox-chapter-01'>[video]</NavLink> ~2 hours</li>
-	<li>Review everything that came before Chapter 1 including Preface in our Fox textbook and review associated lecture<NavLink to='/activity/fox-chapter-00'>[video]</NavLink></li>
-	<li>Start early and consistently work on Lab 1 and Quiz 1 throughout the sprint</li>
-	<li>Complete “Tools of the Trade - Parts 1 and 2”<NavLink to='/activity/tools'>[link]</NavLink> ~4 hours</li>
 	<li><em>Complete the Introduction assignment by making your post and responding to at least two of your classmates' posts</em></li>
+	<li>Complete “Tools of the Trade” parts 1 and 2<NavLink to='/activity/tools'>[link]</NavLink> ~3 hours</li>
 	<li><em>Make your initial Discussion 1 post by the middle of the sprint</em></li>
+	<li>Complete “Hello World with Python”<NavLink to='/activity/hello-world-python'>[link]</NavLink></li>
+	<li>Review everything that came before Chapter 1 including Preface in our Fox textbook and review associated lecture<NavLink to='/activity/fox-chapter-00'>[video]</NavLink></li>
 	<li>Read Chapter 2 of Fox and review our class lecture on Chapter 2<NavLink to='/activity/fox-chapter-02'>[video]</NavLink></li>
-	<li>Complete “HTML Programming - Part 1” from W3C<NavLink to='/activity/html'>[link]</NavLink> ~4 hours</li>
-		{/* Todo: Consider assigning Part 2. */}
-	<li>Utilize what you have learned in HTML programming to to elegantly format our course syllabus into a HTML 5 document</li>
-		{/* Todo: Consider removing or replacing the above activity. */}
-	<li>Briefly review the following short videos on 
-		HTML <a href='https://www.youtube.com/watch?v=wy6O5hAjKAo' target='_blank' rel='noopener noreferrer'>[video]</a>,
-		CSS <a href='https://www.youtube.com/watch?v=AfBK2Masemk' target='_blank' rel='noopener noreferrer'>[video]</a>,
-		Cookies <a href='https://www.youtube.com/watch?v=Xlt7xeqVfO4' target='_blank' rel='noopener noreferrer'>[video]</a>,
-		HTML Attributes <a href='https://www.youtube.com/watch?v=X5ArSbUea_o' target='_blank' rel='noopener noreferrer'>[video]</a>,
-		Ruby MVC Create and Update <a href='https://www.youtube.com/watch?v=XXrYmVzjTKQ' target='_blank' rel='noopener noreferrer'>[video]</a>,
-		and HAML <a href='https://www.youtube.com/watch?v=yX1tMdBuG3g' target='_blank' rel='noopener noreferrer'>[video]</a></li>
-	{/* Todo: Review following activity. */}
-	<li><em>Complete and submit all sprint 1 assignments including Lab 1, Quiz 1, final DB posts, and your Journal entry</em></li>
+	<li>Complete “HTML Programming - Part 1” from W3C<NavLink to='/activity/html'>[link]</NavLink> ~2 hours</li>
+	<li>Complete “My Favorite Hobby”<NavLink to='/activity/favorite-hobby'>[link]</NavLink>~2 hours</li>
+	<li><em>Complete Discussion 1 by responding to at least two of your classmates’ posts</em></li>
+	<li><em>Submit Lab 1, Quiz 1, and Reflection 1</em></li>
 </ol>
-
+<p>Be sure to start activities and assignments early and to reward yourself when you reach significant milestones.</p>
 </div>
 
 	)
