@@ -125,5 +125,21 @@ Todo: Move URL param functions to shared class.
 Passing parameters through NavLink
 Reference: https://www.youtube.com/watch?v=5pt_igBTCsI
 
+# Notes from new build
+Execute: git clone https://github.com/EricJPogueCourses/lewis.git
+
+Execute: npm start 
+Result: 
+> lewis@0.1.0 start /Users/epogue/Repositories/lewis
+> react-scripts start
+
+sh: react-scripts: command not found
+npm ERR! code ELIFECYCLE
+
+
+npm install react-scripts --save
+
+Wow - then it ran. Hmmmm... I thought I would need to install more packages. Cool... and strange. 
+
 
 
