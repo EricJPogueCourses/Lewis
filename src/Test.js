@@ -12,11 +12,28 @@ export class Test extends React.Component {
 
 <p>Parameter ID: {this.props.match.params.id}</p>
 <br />
-<p>Test Links:</p>
-<a href='http://localhost:3000/#/test/me'>http://localhost:3000/#/test/me</a><br />
-<a href='https://www.lewis.education/#/test/me'>https://www.lewis.education/#/test/me</a>
+<h4>Class Links:</h4>
+<h5>Introduction to Computer Science</h5> 
+<h6>20000-fall-2020-002:</h6>
+{localAndGlobalLink('?cpsc=20000-fall-2020-002#/sprint-1')}
+
+<h6>20000-fall-2020-003:</h6>
+{localAndGlobalLink('?cpsc=20000-fall-2020-003#/sprint-1')}
+
+<h5>Web & Distributed Programming</h5>
+<h6>24700-fall-2020-001:</h6>
+{localAndGlobalLink('?cpsc=24700-fall-2020-001#/sprint-1')}
+
+<h5>Software Engineering</h5>
+<h6>44000-fall-2020-001:</h6>
+{localAndGlobalLink('?cpsc=44000-fall-2020-001#/sprint-1')}
+
 <br /><br />
-{localAndGlobalLink('?cpsc=20000-fall-2020-001#/sprint-1')}
+<h4>Test Links:</h4>
+<a href='https://www.lewis.education/#/test/me'>https://www.lewis.education/#/test/me</a><br />
+<a href='http://localhost:3000/#/test/me'>http://localhost:3000/#/test/me</a>
+<br /><br />
+{localAndGlobalLink('?cpsc=20000-fall-2020-002#/sprint-1')}
 {localAndGlobalLink('?cpsc=24700-fall-2020-001#/sprint-1')}
 {localAndGlobalLink('?cpsc=25000-fall-2020-001#/sprint-1')}
 {localAndGlobalLink('?cpsc=44000-fall-2020-001#/sprint-1')}
@@ -48,8 +65,8 @@ const globalLink = (link) => {
 const localAndGlobalLink = (link) => {
 	return (
 		<div>
-			{localLink(link)}
 			{globalLink(link)}
+			{localLink(link)}
 			<br />
 		</div>
 	)
