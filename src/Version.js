@@ -4,7 +4,7 @@ export const Version = () => {
 	return (
 		<div>
 			<h4>Lewis.education</h4>
-			<h5>Version 0.1.30</h5>
+			<h5>Version 1.0.02</h5>
 		</div>
 	)
 }
