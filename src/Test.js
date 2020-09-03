@@ -33,6 +33,12 @@ export class Test extends React.Component {
 <a href='https://www.lewis.education/#/test/me'>https://www.lewis.education/#/test/me</a><br />
 <a href='http://localhost:3000/#/test/me'>http://localhost:3000/#/test/me</a>
 <br /><br />
+<a href='https://www.lewis.education/#/version'>https://www.lewis.education/#/version</a><br />
+<a href='http://localhost:3000/#/version'>http://localhost:3000/#/version</a>
+<br /><br />
+<a href='https://www.lewis.education/version'>https://www.lewis.education/version</a><br />
+<a href='http://localhost:3000/version'>http://localhost:3000/version</a>
+<br /><br />
 {localAndGlobalLink('?cpsc=20000-fall-2020-002#/sprint-1')}
 {localAndGlobalLink('?cpsc=24700-fall-2020-001#/sprint-1')}
 {localAndGlobalLink('?cpsc=25000-fall-2020-001#/sprint-1')}
