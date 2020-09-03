@@ -15,7 +15,8 @@
 		"pseudoclass",
 		"saas",
 		"sebesta",
-		"toolkits"
+		"toolkits",
+		"webservices"
 	],
 	"python.pythonPath": "/usr/local/bin/python3"
 }

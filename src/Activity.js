@@ -20,6 +20,16 @@ export const videoLink = (header, url) => {
 	return ( <div><h5>{header}</h5><ReactPlayer url={url} controls={true} width={1024} height={576} /></div> )
 }
 
+const videoLinkWithSlides = (header, url, urlSlides) => {
+	return ( 
+		<div>
+			<h5>{header}</h5><ReactPlayer url={url} controls={true} width={1024} height={576} />
+			<br />
+			If you are looking for the associated slides, you can find them here<a href={urlSlides}>[link]</a>.
+		</div>
+	)
+}
+
 export const baseLink = () => {
 	return 'https://lewiseducation.blob.core.windows.net/'
 }
@@ -72,18 +82,18 @@ class Activity extends Component {
 			case 'map-mania-v2': return WebMapManiaVersion2()
 
 			// Start Computer Science Illuminated” by Nell Dale and John Lewis (Dale).
-			case 'dale-chapter-01': return videoLink(
+			case 'dale-chapter-01': return videoLinkWithSlides(
 				'“Computer Science Illuminated” by Nell Dale and John Lewis (Dale) Chapter 1 Lecture', 
-				daleLink('chapter-01-lecture.mp4'))
-			case 'dale-chapter-02': return videoLink(
+				daleLink('chapter-01-lecture.mp4'), daleLink('chapter-01-lecture.pptx'))
+			case 'dale-chapter-02': return videoLinkWithSlides(
 				'“Computer Science Illuminated” by Nell Dale and John Lewis (Dale) Chapter 2 Lecture', 
-				daleLink('chapter-02-lecture.mp4'))
-			case 'dale-chapter-03': return videoLink(
+				daleLink('chapter-02-lecture.mp4'), daleLink('chapter-02-lecture.pptx'))
+			case 'dale-chapter-03': return videoLinkWithSlides(
 				'“Computer Science Illuminated” by Nell Dale and John Lewis (Dale) Chapter 3 Lecture',
-				daleLink('chapter-03-lecture.mp4')) 
+				daleLink('chapter-03-lecture.mp4'), daleLink('chapter-03-lecture.pptx')) 
 			case 'dale-chapter-04': return videoLink(
 				'“Computer Science Illuminated” by Nell Dale and John Lewis (Dale) Chapter 4 Lecture', 
-				daleLink('chapter-04-lecture.mp4'))
+				daleLink('chapter-04-lecture.mp4'), daleLink('chapter-04-lecture.pptx'))
 			// End Dale.
 
 			// Start Programming The World Wide Web” by Robert W. Sebesta (Sebesta)
@@ -92,7 +102,7 @@ class Activity extends Component {
 				webProgrammingLink('intro-to-web-and-distributed-programming.mp4'))
 			case 'sebesta-chapter-02': return videoLink(
 				'“Programming The World Wide Web” by Robert W. Sebesta (Sebesta) Chapter 2 Lecture', 
-				webProgrammingLink('html4.mp4'))
+				webProgrammingLink('html5.mp4'))
 			case 'sebesta-chapter-03': return videoLink(
 				'“Programming The World Wide Web” by Robert W. Sebesta (Sebesta) Chapter 3 Lecture', 
 				webProgrammingLink('css.mp4'))
@@ -129,7 +139,7 @@ class Activity extends Component {
 				foxLink('chapter-01-lecture.mp4'))
 			case 'fox-chapter-02': return videoLink(
 				'“Engineering Software as a Service” by Armando Fox and David Patterson (Fox) Chapter 2 Lecture', 
-				foxLink('chapter-01-lecture.mp4'))
+				foxLink('chapter-02-lecture.mp4'))
 			case 'fox-chapter-06': return videoLink(
 				'“Engineering Software as a Service” by Armando Fox and David Patterson (Fox) Chapter 6 Lecture', 
 				foxLink('chapter-06-lecture.mp4'))
