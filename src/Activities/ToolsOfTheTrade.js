@@ -51,11 +51,19 @@ install, configure, and utilize many tools and services. By the end of this tuto
 </ol>
 
 <br />
-Chocolatey (preview): You may optionally install and utilize the Chocolatey (Windows) or Homebrew (MacOS) package 
-managers to install the above applications:
+Chocolatey (preview): You may optionally install and utilize the Chocolatey (Windows) package manager to install the 
+above applications:
 <ol>
 	<li>Install Chocolatey with PowerShell<NavLink to='/activity-config/chocolatey'>[video]</NavLink></li>
 	<li>Install VS Code, Python3, VS Code Python extension, MS Teams, Git, Node.js, and OpenJDK using Chocolatey<NavLink to='/activity-config/chocolatey-install'>[video]</NavLink>
+		<a href='https://lewiseducation.blob.core.windows.net/configuration/choco-install-packages.txt' target='_blank' rel='noopener noreferrer'>[script]</a>
+	</li>
+</ol>
+<br />
+Homebrew (double preview): You may optionally install and utilize the Homebrew (MacOS) package manager to install the above applications:
+<ol>
+	<li>Install Homebrew with Terminal</li>
+	<li>Install Homebrew and then install VS Code, Python3, VS Code Python extension, MS Teams, Git, Node.js, and OpenJDK using Homebrew
 		<a href='https://lewiseducation.blob.core.windows.net/configuration/choco-install-packages.txt' target='_blank' rel='noopener noreferrer'>[script]</a>
 	</li>
 </ol>
