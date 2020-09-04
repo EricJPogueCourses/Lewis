@@ -97,55 +97,60 @@ class Activity extends Component {
 			// End Dale.
 
 			// Start Programming The World Wide Web” by Robert W. Sebesta (Sebesta)
-			case 'sebesta-chapter-01': return videoLink(
+			case 'sebesta-chapter-01': return videoLinkWithSlides(
 				'“Programming The World Wide Web” by Robert W. Sebesta (Sebesta) Chapter 1 Lecture', 
-				webProgrammingLink('intro-to-web-and-distributed-programming.mp4'))
-			case 'sebesta-chapter-02': return videoLink(
+				webProgrammingLink('intro-to-web-and-distributed-programming.mp4'), 
+				webProgrammingLink('intro-to-web-and-distributed-programming-slides-only.pptx'))
+			case 'sebesta-chapter-02': return videoLinkWithSlides(
 				'“Programming The World Wide Web” by Robert W. Sebesta (Sebesta) Chapter 2 Lecture', 
-				webProgrammingLink('html5.mp4'))
-			case 'sebesta-chapter-03': return videoLink(
+				webProgrammingLink('html5.mp4'), webProgrammingLink('html5-slides-only.pptx'))
+			case 'sebesta-chapter-03': return videoLinkWithSlides(
 				'“Programming The World Wide Web” by Robert W. Sebesta (Sebesta) Chapter 3 Lecture', 
-				webProgrammingLink('css.mp4'))
-			case 'sebesta-chapter-04': return videoLink(
+				webProgrammingLink('css.mp4'), webProgrammingLink('css-slide-only-pptx'))
+			case 'sebesta-chapter-04': return videoLinkWithSlides(
 				'“Programming The World Wide Web” by Robert W. Sebesta (Sebesta) Chapter 4 Lecture', 
-				webProgrammingLink('javascript-basics.mp4'))
-			case 'sebesta-chapter-05': return videoLink(
+				webProgrammingLink('javascript-basics.mp4'), webProgrammingLink('javascript-basics-slides-only.pptx'))
+			case 'sebesta-chapter-05': return videoLinkWithSlides(
 				'“Programming The World Wide Web” by Robert W. Sebesta (Sebesta) Chapter 5 Lecture', 
-				webProgrammingLink('javascript-and-html.mp4'))
-			case 'sebesta-chapter-06': return videoLink(
+				webProgrammingLink('javascript-and-html.mp4'), webProgrammingLink('javascript-and-html-slides-only.pptx'))
+			case 'sebesta-chapter-06': return videoLinkWithSlides(
 				'“Programming The World Wide Web” by Robert W. Sebesta (Sebesta) Chapter 6 Lecture', 
-				webProgrammingLink('dynamic-documents-with-javascript.mp4'))
-			case 'sebesta-chapter-07': return videoLink(
+				webProgrammingLink('dynamic-documents-with-javascript.mp4'), 
+				webProgrammingLink('dynamic-documents-with-javascript-slides-only.pptx'))
+			case 'sebesta-chapter-07': return videoLinkWithSlides(
 				'“Programming The World Wide Web” by Robert W. Sebesta (Sebesta) Chapter 7 Lecture', 
-				webProgrammingLink('xml-and-webservices.mp4'))
-			case 'sebesta-chapter-09': return videoLink(
+				webProgrammingLink('xml-and-webservices.mp4'), webProgrammingLink('xml-and-webservices-slides-only.pptx'))
+			case 'sebesta-chapter-09': return videoLinkWithSlides(
 				'“Programming The World Wide Web” by Robert W. Sebesta (Sebesta) Chapter 9 Lecture', 
-				webProgrammingLink('intro-to-php.mp4'))
-			case 'sebesta-chapter-10': return videoLink(
+				webProgrammingLink('intro-to-php.mp4'), webProgrammingLink('intro-to-php-slides-only.pptx'))
+			case 'sebesta-chapter-10': return videoLinkWithSlides(
 				'“Programming The World Wide Web” by Robert W. Sebesta (Sebesta) Chapter 10 Lecture', 
-				webProgrammingLink('intro-to-ajax.mp4'))
-			case 'sebesta-chapter-13': return videoLink(
+				webProgrammingLink('intro-to-ajax.mp4'), webProgrammingLink('intro-to-ajax-slides-only.pptx'))
+			// Todo: Create and link a 'slides-only' version of database-access-through-the-web.mp4.
+			case 'sebesta-chapter-13': return videoLinkWithSlides(
 				'“Programming The World Wide Web” by Robert W. Sebesta (Sebesta) Chapter 13 Lecture', 
-				webProgrammingLink('database-access-through-the-web.mp4'))
+				webProgrammingLink('database-access-through-the-web.mp4'), 
+				webProgrammingLink('database-access-through-the-web.pptx'))
 			// End Sebesta.
 
 			// Start Engineering Software as a Service: An Agile Approach Using Cloud Computing” by Armando Fox and 
 			//     David Patterson (Fox).
-			case 'fox-chapter-00': return videoLink(
+			// Todo: Create and link 'slides-only' versions of Fox lectures.
+			case 'fox-chapter-00': return videoLinkWithSlides(
 				'“Engineering Software as a Service: An Agile Approach Using Cloud Computing” by Armando Fox and David Patterson (Fox) Preface Lecture', 
-				foxLink('chapter-00-lecture.mp4'))
-			case 'fox-chapter-01': return videoLink(
+				foxLink('chapter-00-lecture.mp4'), foxLink('chapter-00-lecture.pptx'))
+			case 'fox-chapter-01': return videoLinkWithSlides(
 				'“Engineering Software as a Service: An Agile Approach Using Cloud Computing” by Armando Fox and David Patterson (Fox) Chapter 1 Lecture', 
-				foxLink('chapter-01-lecture.mp4'))
-			case 'fox-chapter-02': return videoLink(
+				foxLink('chapter-01-lecture.mp4'), foxLink('chapter-01-lecture.pptx'))
+			case 'fox-chapter-02': return videoLinkWithSlides(
 				'“Engineering Software as a Service” by Armando Fox and David Patterson (Fox) Chapter 2 Lecture', 
-				foxLink('chapter-02-lecture.mp4'))
-			case 'fox-chapter-06': return videoLink(
+				foxLink('chapter-02-lecture.mp4'), foxLink('chapter-02-lecture.pptx'))
+			case 'fox-chapter-06': return videoLinkWithSlides(
 				'“Engineering Software as a Service” by Armando Fox and David Patterson (Fox) Chapter 6 Lecture', 
-				foxLink('chapter-06-lecture.mp4'))
-			case 'fox-chapter-07': return videoLink(
+				foxLink('chapter-06-lecture.mp4'), foxLink('chapter-06-lecture.pptx'))
+			case 'fox-chapter-07': return videoLinkWithSlides(
 				'“Engineering Software as a Service” by Armando Fox and David Patterson (Fox) Chapter 7 Lecture', 
-				foxLink('chapter-07-lecture.mp4'))
+				foxLink('chapter-07-lecture.mp4'), foxLink('chapter-07-lecture.pptx'))
 			// End Fox.
 
 			default: return 'Activity not found!'
@@ -161,7 +166,5 @@ class Activity extends Component {
 		)
 	}
 }
-
-
 
 export { Activity }
