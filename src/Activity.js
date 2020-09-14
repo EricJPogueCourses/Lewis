@@ -145,6 +145,9 @@ class Activity extends Component {
 			case 'fox-chapter-02': return videoLinkWithSlides(
 				'“Engineering Software as a Service” by Armando Fox and David Patterson (Fox) Chapter 2 Lecture', 
 				foxLink('chapter-02-lecture.mp4'), foxLink('chapter-02-lecture.pptx'))
+			case 'fox-chapter-03': return videoLinkWithSlides(
+				'“Engineering Software as a Service” by Armando Fox and David Patterson (Fox) Chapters 3-6 Lecture', 
+				foxLink('chapter-03-lecture.mp4'), foxLink('chapter-03-lecture.pptx'))
 			case 'fox-chapter-06': return videoLinkWithSlides(
 				'“Engineering Software as a Service” by Armando Fox and David Patterson (Fox) Chapter 6 Lecture', 
 				foxLink('chapter-06-lecture.mp4'), foxLink('chapter-06-lecture.pptx'))
