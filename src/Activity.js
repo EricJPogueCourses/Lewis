@@ -46,6 +46,17 @@ const foxLink = (fileName) => {
 	return baseLink()+'fox/'+fileName	
 }
 
+// Knowmia embedded link functions
+const iframeFromKnowmia = "<iframe scrolling='no' frameborder='0' style='width: 1024px; height: 576px; border:0;' src='https://app.knowmia.com/connector/embed/index/Gt4w' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
+function Iframe(props) {
+	return (<div dangerouslySetInnerHTML={ {__html:  props.iframe?props.iframe:""}} />);
+}
+export const videoLinkFromKnowmia = (header, iframe) => {
+	return ( <div><h5>{header}</h5><Iframe iframe={iframe} /></div> )
+}
+
+
+
 class Activity extends Component {
 	activity() {
 		let activityReference = this.props.match.params.reference
@@ -155,6 +166,9 @@ class Activity extends Component {
 				'“Engineering Software as a Service” by Armando Fox and David Patterson (Fox) Chapter 7 Lecture', 
 				foxLink('chapter-07-lecture.mp4'), foxLink('chapter-07-lecture.pptx'))
 			// End Fox.
+
+			// Knowmia
+			case 'test-new-video-service': return (videoLinkFromKnowmia('Please test the new video hosting service by playing the video below and taking the embedded quiz.', iframeFromKnowmia))
 
 			default: return 'Activity not found!'
 		}

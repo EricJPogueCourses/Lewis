@@ -2,11 +2,18 @@ import React from 'react'
 
 // Passing parameters reference: https://www.youtube.com/watch?v=nmbX2QL7ZJc
 
+
+
 export class Test extends React.Component {
 	render() {
 		return (
 
 <div>
+<h4>Work</h4>
+<a href='https://www.lewis.education/#/activity/test-new-video-service'>https://www.lewis.education/#/activity/test-new-video-service</a><br />
+<a href='http://localhost:3000/?cpsc=20000-fall-2020-003/#/activity/test-new-video-service'>http://localhost:3000/?cpsc=20000-fall-2020-003/#/activity/test-new-video-service</a><br />
+<br />
+
 <h4>Test Page</h4>
 <h5>Summary: This page is intended to provide test scenarios and links</h5>
 
