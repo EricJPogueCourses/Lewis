@@ -46,16 +46,25 @@ const foxLink = (fileName) => {
 	return baseLink()+'fox/'+fileName	
 }
 
-// Knowmia embedded link functions
-const iframeFromKnowmia = "<iframe scrolling='no' frameborder='0' style='width: 1024px; height: 576px; border:0;' src='https://app.knowmia.com/connector/embed/index/Gt4w' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
-function Iframe(props) {
-	return (<div dangerouslySetInnerHTML={ {__html:  props.iframe?props.iframe:""}} />);
-}
-export const videoLinkFromKnowmia = (header, iframe) => {
-	return ( <div><h5>{header}</h5><Iframe iframe={iframe} /></div> )
+// ** Knowmia functions **
+// Knowmia Todo: Report "Uncaught Error: Highcharts error #16" to TechSmith as it occurs even when the TechSmith copied link (below) is inserted into a Hello World style html file.
+// const iFrameForChapter5 = "<iframe scrolling='no' frameborder='0' style='width: 1024px; height: 576px; border:0;' src='https://app.knowmia.com/connector/embed/index/5nwa' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
+const knowmiaVideoLink = (videoFileReference) => {
+	return 'https://app.knowmia.com/connector/embed/index/'+videoFileReference
 }
 
+const knowmiaIFrameTag = (videoFileReference) => {
+	return "<iframe scrolling='no' frameborder='0' style='width: 1024px; height: 576px; border:0;' src='"+knowmiaVideoLink(videoFileReference)+"' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
+}
 
+const IFrameComponent = (props) =>{
+	return (<div dangerouslySetInnerHTML={{__html:  props.iframe?props.iframe:""}} />);
+}
+
+const knowmiaVideoPage = (header, videoFileReference) => {
+	return ( <div><h5>{header}</h5><IFrameComponent iframe={knowmiaIFrameTag(videoFileReference)} /></div> )
+}
+// ** End -- Knowmia functions **
 
 class Activity extends Component {
 	activity() {
@@ -86,6 +95,8 @@ class Activity extends Component {
 			case 'numbering-systems-python': return PythonNumberingSystems()
 			case 'html': return HTML()
 			case 'azure-website': return AzureWebsite()
+			case 'azure-website-supplemental-2020': return knowmiaVideoPage(
+				'Website Creation with GitHub and Microsoft Azure - 2020 Supplemental Edition', '6Jkv')
 			case 'getting-to-know-each-other': return WebGettingToKnowEachOther()
 			case 'favorite-hobby': return WebMyFavoriteHobby()
 			case 'course-schedule': return WebCourseSchedule()
@@ -105,6 +116,10 @@ class Activity extends Component {
 			case 'dale-chapter-04': return videoLink(
 				'“Computer Science Illuminated” by Nell Dale and John Lewis (Dale) Chapter 4 Lecture', 
 				daleLink('chapter-04-lecture.mp4'), daleLink('chapter-04-lecture.pptx'))
+			case 'dale-chapter-05': return knowmiaVideoPage(
+				'“Computer Science Illuminated” by Nell Dale and John Lewis (Dale) Chapter 5 Lecture', '5nwa')
+			case 'dale-chapter-06': return knowmiaVideoPage(
+				'“Computer Science Illuminated” by Nell Dale and John Lewis (Dale) Chapter 6 Lecture', 'ehQJ')
 			// End Dale.
 
 			// Start Programming The World Wide Web” by Robert W. Sebesta (Sebesta)
@@ -166,9 +181,6 @@ class Activity extends Component {
 				'“Engineering Software as a Service” by Armando Fox and David Patterson (Fox) Chapter 7 Lecture', 
 				foxLink('chapter-07-lecture.mp4'), foxLink('chapter-07-lecture.pptx'))
 			// End Fox.
-
-			// Knowmia
-			case 'test-new-video-service': return (videoLinkFromKnowmia('Please test the new video hosting service by playing the video below and taking the embedded quiz.', iframeFromKnowmia))
 
 			default: return 'Activity not found!'
 		}

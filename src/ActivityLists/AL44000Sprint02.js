@@ -65,7 +65,20 @@ minutes unless otherwise noted.</p>
 		and HAML <a href='https://www.youtube.com/watch?v=yX1tMdBuG3g' target='_blank' rel='noopener noreferrer'>[video]</a></li>
 	<li><em>Complete and submit all sprint 2 assignments including Lab 2, Quiz 2, Discussion Board 2, and your Journal entry</em></li>
 </ol>
+{extras()}
 </div>
-
 	)
+}
+
+const extras = () => {
+	return (<div>	
+		<p>Additional suggested activities:</p>
+		<ul style={{listStyleType:'square'}}>
+			<li>Complete “Website Creation with GitHub and Microsoft Azure - 2020 Supplemental Edition”
+				<NavLink to='/activity/azure-website-supplemental-2020'>[link]</NavLink></li>
+			<li>Review “Website Creation with GitHub and Microsoft Azure”<NavLink to='/activity/azure-website'>[link]</NavLink></li>
+			<li>Review Git Cheat Sheet from GitHub<a href='https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf'
+				target='_blank' rel='noopener noreferrer'>[link]</a></li>
+		</ul>
+	</div>)
 }

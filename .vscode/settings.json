@@ -2,12 +2,15 @@
 	"editor.lineNumbers": "off",
 	"rewrap.wrappingColumn": 100,
 	"cSpell.words": [
+		"allowfullscreen",
 		"chdir",
 		"facedraw",
+		"highcharts",
 		"javadoc",
 		"knowmia",
 		"macos",
 		"mapreduce",
+		"mozallowfullscreen",
 		"mscode",
 		"multithreaded",
 		"multithreading",
@@ -18,6 +21,7 @@
 		"saas",
 		"sebesta",
 		"toolkits",
+		"webkitallowfullscreen",
 		"webservices"
 	],
 	"python.pythonPath": "/usr/bin/python3"
