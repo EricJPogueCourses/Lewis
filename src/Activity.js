@@ -134,7 +134,7 @@ class Activity extends Component {
 				webProgrammingLink('html5.mp4'), webProgrammingLink('html5-slides-only.pptx'))
 			case 'sebesta-chapter-03': return videoLinkWithSlides(
 				'“Programming The World Wide Web” by Robert W. Sebesta (Sebesta) Chapter 3 Lecture', 
-				webProgrammingLink('css.mp4'), webProgrammingLink('css-slide-only-pptx'))
+				webProgrammingLink('css.mp4'), webProgrammingLink('css-slides-only.pptx'))
 			case 'sebesta-chapter-04': return videoLinkWithSlides(
 				'“Programming The World Wide Web” by Robert W. Sebesta (Sebesta) Chapter 4 Lecture', 
 				webProgrammingLink('javascript-basics.mp4'), webProgrammingLink('javascript-basics-slides-only.pptx'))
