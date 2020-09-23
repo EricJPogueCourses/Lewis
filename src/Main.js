@@ -21,6 +21,7 @@ import { InfoEricPogue } from './InfoEricPogue'
 import { Version } from './Version'
 import { UniversityResources } from './UniversityResources'
 import { Test } from './Test'
+import { Home } from './Home'
 
 import { Activity } from './Activity'
 import { ActivityConfig } from './ActivityConfig'
@@ -35,8 +36,8 @@ class Main extends Component {
 				<HeaderNavigation />
 				<HashRouter>
 					<div className='Main'>
-						<Route exact path='/' component={Welcome}/>
-						<Route exact path='/home' component={Welcome}/>
+						<Route exact path='/' component={Home}/>
+						<Route exact path='/home' component={Home}/>
 						<Route path='/welcome' component={Welcome}/>
 						<Route path='/sprint-1' component={Sprint01}/>
 						<Route path='/sprint-2' component={Sprint02}/>

@@ -25,7 +25,7 @@ algorithms.</p>
 <ol>
 	<li>Stay focused on the due dates<NavLink to='/calendar/3'>[calendar]</NavLink></li>
 	<li><em>Review sprint 3 assignments including Lab 3, Quiz 3, Discussion 3, and Reflection 3</em></li>
-	<li>Review our “Git Commands and Patterns”<NavLink to='/activity/git-commands'>[link]</NavLink> and consistently utilize 
+	<li>Study our “Coding Standards”<NavLink to='/activity/coding-standards'>[link]</NavLink> and consistently utilize 
 		them on all activities and assignments</li>
 	<li>Start early and consistently work on Lab 3 and Quiz 3 throughout the sprint</li>
 	<li>Read Chapter 5 of “Computer Science Illuminated” by Nell Dale and John Lewis (Dale) and review the associated   
