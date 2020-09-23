@@ -31,12 +31,15 @@ This is so that you can focus your time on Lab 3 and Map Mania.</p>
 <ol>
 	<li>Review our course calendar<NavLink to='/calendar/3'>[link]</NavLink></li>
 	<li><em>Review Lab 3, Quiz 3, Discussion 3, and Reflection 3</em></li>
-	<li>Start early and remain laser focused on Map Mania and Lab 3</li>
-    <li>Complete “How To Be A Successful Programmer”<NavLink to='/activity/successful-programmer'>[link]</NavLink></li>
-	<li><em>Make your initial Discussion 3 post by the middle of the sprint</em></li>
+	<li>Start early and remain laser focused on “Map Mania Version 1”<NavLink to='/activity/map-mania-v1'>[link]</NavLink></li>
+	<li>Complete “Assignment Portfolio Website”<NavLink to='/activity/assignment-portfolio'>[link]</NavLink></li>
+	<li>Review our “Coding Standards”<NavLink to='/activity/coding-standards'>[link]</NavLink> and consistently utilize 
+		them on all activities and assignments</li>
 	<li>Read chapter 5 of Sebesta on JavaScript and review the associated JavaScript and HTML lecture<NavLink to='/activity/sebesta-chapter-05'>[video]</NavLink></li>
-	{/* Todo: Move the example HTML from Sebesta to another site (or pick another textbook) */}
-	<li>Review the Sebesta HTML, CSS, and JavaScript examples<a href='http://examples.epogue.info/'>[link]</a></li>
+	<li>Review the Sebesta HTML, CSS, and JavaScript examples<a href='http://sebesta-examples.azurewebsites.net/'>[link]</a></li>
+	<li><em>Make your initial Discussion 3 post by the middle of the sprint</em></li>
+    <li>Complete “How To Be A Successful Programmer”<NavLink to='/activity/successful-programmer'>[link]</NavLink></li>
+    <li>Complete “Map Mania Lite”<NavLink to='/activity-web/map-mania-lite'>[video]</NavLink>~2 hours </li>
 	<li><em>Complete Discussion 3 by responding to at least two of your classmates’ posts</em></li>
 	<li><em>Submit Lab 3, Quiz 3, and Reflection 3</em></li>
 </ol>

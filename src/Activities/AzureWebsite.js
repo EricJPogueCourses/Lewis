@@ -9,7 +9,7 @@ export const AzureWebsite= () => {
 
 <br />
 <h4>Azure Free Static Website Tutorial</h4>
-<h5>Summary: Deploy a basic web applications that utilized HTML and CSS to Microsoft Azure</h5>
+<h5>Summary: Deploy a basic web applications that utilizes HTML and CSS to Microsoft Azure</h5>
 <h5>Prerequisites: Windows 10 or MacOS, Web Browser, VS Code, Microsoft Azure subscription</h5>
 			
 <p>Instructions: Create a free static Microsoft Azure Website and deploy an index.html Landing Page to the site using 

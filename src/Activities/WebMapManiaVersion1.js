@@ -7,7 +7,6 @@ export const WebMapManiaVersion1 = () => {
 	return (
 	
 <div>
-
 <br />
 <h4>Map Mania Version 1</h4>
 <h5>Summary: We will be creating a professional looking map based game</h5>
@@ -24,7 +23,6 @@ like:</p>
 
 <img src={WebMapManiaScreenShot} alt='Eric Pogue' width= '1024' /><br /><br />
 
-
 <em>Requirement 1 - Getting Started with Google Maps JavaScript API</em>
 <p>The Google Maps JavaScript API is a broadly used and sophisticated Web API. It can be a little daunting at first. However, you can get started by:</p>
 <ol>
@@ -38,7 +36,6 @@ like:</p>
 </ol>
 
 <p>In response to this question, please provide the direct URL link to your Google Maps "Hello, World" and briefly describe how the above requirements were implemented.</p>
-    
     
 <em>Requirement #2 - Map Mania version 1</em>
 <p>Create a new  Map Mania application by copying and renaming the "Hello, World" Google Maps application from above. 
@@ -66,27 +63,10 @@ Description: This is the first version of Map Mania that I am creating for Progr
 		to consider "Google Maps JavaScript API Tutorial"
 			<a href='https://www.youtube.com/watch?v=Zxf1mnP5zcw' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 </ol>
-<p>In response to this question briefly describe you your implementation of Map Mania v1 met the above criteria. In 
-particular, be sure to provide a description of the the "interesting feature" that you add and the URL to the extra YouTube video you completed.</p>
-
-<em>Final notes and request for Feedback</em>
-<p>If your solution does not compile and execute without errors when it is submitted, you will lose the 4 points AND 
-I will send it back to you to fix and resubmit before I attempt to continue grading the assignment.</p>
-
-<p>Do not copy another student’s work. I may use MOSS or similar software to detect plagiarism and will not ask for 
-clarification if MOSS concludes you have copied another student’s work.</p>
-
-<p>Tackle this problem gradually and make sure that you review the examples that we cover in class. The main goal of 
-our discussions, lectures, and examples this week are intended to allow you to successfully deliver this application. 
-Also, don’t hesitate to post something on our discussion board or to reach out to me directly if you need assistance.</p>
-
+<p>Tackle these enhancements gradually, make sure that you alway have something that you could submit, and make sure that 
+you review the examples when you run into roadblocks.</p>
 <p>Definitely pace yourself. Do not attempt to do this in one night.</p>
-
-<p>Good luck – and have fun. This is, indeed, supposed to be fun.</p>
-
-<p>Please take a minute to provide feedback or suggestion on the project in the space below. Almost any comment or suggestion 
-will get you a point.</p>
-					
+<p>Good luck – and have fun. This is, indeed, supposed to be fun.</p>			
 </div> )
 
 }
