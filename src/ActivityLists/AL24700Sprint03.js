@@ -45,6 +45,7 @@ This is so that you can focus your time on Lab 3 and Map Mania.</p>
 </ol>
 <p>Alway feel free to drop a note note to your scrum teammates or to post something in our Class Forum discussion board 
 area if you have questions. Oh yes, and treat yourself to something nice. Maybe ice cream this sprint?</p>
+{extras()}
 </div>
 
 	)
@@ -52,6 +53,7 @@ area if you have questions. Oh yes, and treat yourself to something nice. Maybe 
 
 const extras = () => {
 	return (<div>	
+		<br />
 		<p>Additional suggested activities:</p>
 		<ul style={{listStyleType:'square'}}>
 			<li>Complete Map Mania Lite<NavLink to='/activity-web/map-mania-lite'>[video]</NavLink>~2 hours </li>

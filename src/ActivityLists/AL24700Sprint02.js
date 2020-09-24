@@ -51,6 +51,7 @@ efficient for you and the <em>bold</em> items are graded assignments.</p>
 
 const extras = () => {
 	return (<div>	
+		<br />
 		<p>Additional suggested activities:</p>
 		<ul style={{listStyleType:'square'}}>
 			<li>Review “Website Creation with GitHub and Microsoft Azure” as needed<NavLink to='/activity/azure-website'>[link]</NavLink></li>
