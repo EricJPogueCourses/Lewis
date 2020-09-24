@@ -22,11 +22,8 @@ export const al20000Sprint05 = ( props ) => {
 <ol>
 	<li>Verify sprint end date<NavLink to='/calendar/5'>[calendar]</NavLink></li>
 	<li><em>Review sprint assignments</em></li>
-	<li>Thoroughly read chapters 3 of Lubanovic and complete each of the exercises<a href='https://learning.oreilly.com/home/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+	<li>Thoroughly read chapters 2 and 3 of Lubanovic and complete each of the exercises<a href='https://learning.oreilly.com/home/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li><em>Make your initial Discussion post by the middle of the sprint</em></li>
-
-	<li>Complete “<em>Todo:</em>Programming Assignment”<NavLink to='/activity/getting-to-know-each-other'>[link]</NavLink></li>
-
 	<li>Read Chapter 8 of Dale review the associated lecture <NavLink to='/activity/dale-chapter-08'>[video]</NavLink></li>
 	<li><em>Submit all assignments include your Discussion, Lab, Quiz, and Reflection</em></li>
 </ol>

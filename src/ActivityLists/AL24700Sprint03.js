@@ -49,3 +49,14 @@ area if you have questions. Oh yes, and treat yourself to something nice. Maybe 
 
 	)
 }
+
+const extras = () => {
+	return (<div>	
+		<p>Additional suggested activities:</p>
+		<ul style={{listStyleType:'square'}}>
+			<li>Complete Map Mania Lite<NavLink to='/activity-web/map-mania-lite'>[video]</NavLink>~2 hours </li>
+			<li>Review “Website Creation with GitHub and Microsoft Azure - 2020 Supplemental Edition”
+				<NavLink to='/activity/azure-website-supplemental-2020'>[link]</NavLink></li>
+		</ul>
+	</div>)
+}

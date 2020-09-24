@@ -18,35 +18,42 @@ algorithms.</p>
 	<li>Understand and discuss computing components</li>
 	<li>Effectively utilize file systems</li>
 	<li>Understand variables and expressions</li>
-	<li>Create and update Python 3 applications that utilize variables and expressions</li>
+	<li>Utilize cloud services to create and update web applications</li>
 </ul>
 
 <p>Below is our sprint 3 activities list:</p>
 <ol>
-	<li>Stay focused on the due dates<NavLink to='/calendar/3'>[calendar]</NavLink></li>
+	<li>Stay focused on the due dates<NavLink to='/calendar/3'>[link]</NavLink></li>
 	<li><em>Review sprint 3 assignments including Lab 3, Quiz 3, Discussion 3, and Reflection 3</em></li>
 	<li>Study our “Coding Standards”<NavLink to='/activity/coding-standards'>[link]</NavLink> and consistently utilize 
-		them on all activities and assignments</li>
+		them on <em>all</em> activities and assignments</li>
 	<li>Start early and consistently work on Lab 3 and Quiz 3 throughout the sprint</li>
+	<li>Complete “HTML Programming - Part 2” from W3C<NavLink to='/activity/html'>[link]</NavLink>~4 hours</li>
 	<li>Read Chapter 5 of “Computer Science Illuminated” by Nell Dale and John Lewis (Dale) and review the associated   
 		lecture <NavLink to='/activity/dale-chapter-05'>[video]</NavLink></li>
-	<li><em>Make your initial Discussion 3 post by the middle of the sprint</em></li>
-	<li>Complete “HTML Programming - Part 2” from W3C<NavLink to='/activity/html'>[link]</NavLink>~4 hours</li>
-	<li>Recall signing up for Safari Books Online which is available to you free through Lewis University
-		<a href='https://learning.oreilly.com/home/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
-	<li>Within Safari Books Online find “Introducing Python, 2nd Edition” by Bill Lubanovic (Lubanovic)
-		and briefly scan the introduction and first four chapters of the book</li>
-	<li>Thoroughly read chapter 1 of Lubanovic and complete each of the exercises</li>
-
-	<li>Complete “<em>Todo:</em>Programming Assignment”<NavLink to='/activity/getting-to-know-each-other'>[link]</NavLink></li>
-
-
 	<li>Read Chapter 6 of Dale and review the associated lecture <NavLink to='/activity/dale-chapter-06'>[video]</NavLink></li>	
+	<li><em>Make your initial Discussion 3 post by the middle of the sprint</em></li>
+	<li>Review Git Cheat Sheet from GitHub<a href='https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf'
+		target='_blank' rel='noopener noreferrer'>[link]</a></li>
+	<li>Complete “Azure Free Static Website”<NavLink to='/activity/azure-website'>[link]</NavLink>~3 hours</li>
+	<li>Review and test your implementation of “Getting to Know Each Other”<NavLink to='/activity/getting-to-know-each-other'>[link]</NavLink>
+			from last sprint</li>
+	<li>Deploy your “Getting to Know Each Other" web page to a new Azure website</li>
 	<li><em>Complete Discussion 3 by responding to at least two of your classmates’ posts</em></li>
 	<li><em>Submit Lab 3, Quiz 3, and Reflection 3</em></li>
 </ol>
-
+{extras()}
 </div>
 
 	)
+}
+
+const extras = () => {
+	return (<div>	
+		<p>Additional suggested activities:</p>
+		<ul style={{listStyleType:'square'}}>
+			<li>Complete “Website Creation with GitHub and Microsoft Azure - 2020 Supplemental Edition”
+				<NavLink to='/activity/azure-website-supplemental-2020'>[link]</NavLink></li>
+		</ul>
+	</div>)
 }
