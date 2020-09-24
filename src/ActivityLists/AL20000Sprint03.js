@@ -37,7 +37,7 @@ algorithms.</p>
 		target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li>Complete “Azure Free Static Website”<NavLink to='/activity/azure-website'>[link]</NavLink>~3 hours</li>
 	<li>Review and test your implementation of “Getting to Know Each Other”<NavLink to='/activity/getting-to-know-each-other'>[link]</NavLink>
-			from last sprint</li>
+			from last sprint and make at least 4 substantial enhancements to your web page</li>
 	<li>Deploy your “Getting to Know Each Other" web page to a new Azure website</li>
 	<li><em>Complete Discussion 3 by responding to at least two of your classmates’ posts</em></li>
 	<li><em>Submit Lab 3, Quiz 3, and Reflection 3</em></li>
