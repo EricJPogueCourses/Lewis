@@ -40,7 +40,18 @@ efficient for you and the <em>bold</em> items are graded assignments.</p>
 	<li><em>Submit Lab 2, Quiz 2, and Reflection 2</em></li>
 </ol>
 <p>If you are struggling, remember to reach out to your Scrum teammates early and often for help .</p>
+{extras()}
 </div>
 
 	)
 };
+
+const extras = () => {
+	return (<div>	
+		<p>Additional suggested activities:</p>
+		<ul style={{listStyleType:'square'}}>
+			<li>Complete programming together “HelloWorldPlus with Pictures”<a href='https://app.knowmia.com/mhYz' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+			<li>Optionally review programming together “HelloWorld”<a href='https://app.knowmia.com/mhYz' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+		</ul>
+	</div>)
+}
