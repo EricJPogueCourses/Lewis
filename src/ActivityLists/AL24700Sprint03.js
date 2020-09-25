@@ -56,6 +56,7 @@ const extras = () => {
 		<br />
 		<p>Additional suggested activities:</p>
 		<ul style={{listStyleType:'square'}}>
+			<li>Review our class sample code by executing “git clone https://github.com/EricJPogueCourses/WEB-ExampleCode.git”</li>
 			<li>Complete Map Mania Lite<NavLink to='/activity-web/map-mania-lite'>[video]</NavLink>~2 hours </li>
 			<li>Review “Website Creation with GitHub and Microsoft Azure - 2020 Supplemental Edition”
 				<NavLink to='/activity/azure-website-supplemental-2020'>[link]</NavLink></li>

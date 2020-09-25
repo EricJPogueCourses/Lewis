@@ -51,7 +51,7 @@ const extras = () => {
 		<p>Additional suggested activities:</p>
 		<ul style={{listStyleType:'square'}}>
 			<li>Complete programming together “HelloWorldPlus with Pictures”<a href='https://app.knowmia.com/mhYz' target='_blank' rel='noopener noreferrer'>[link]</a></li>
-			<li>Optionally review programming together “HelloWorld”<a href='https://app.knowmia.com/mhYz' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+			<li>Review programming together “HelloWorld”<a href='https://app.knowmia.com/mhYz' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 		</ul>
 	</div>)
 }
