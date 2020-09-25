@@ -32,9 +32,10 @@ This is so that you can focus your time on Lab 3 and Map Mania.</p>
 	<li>Review our course calendar<NavLink to='/calendar/3'>[link]</NavLink></li>
 	<li><em>Review Lab 3, Quiz 3, Discussion 3, and Reflection 3</em></li>
 	<li>Start early and remain laser focused on “Map Mania Version 1”<NavLink to='/activity/map-mania-v1'>[link]</NavLink></li>
-	<li>Complete “Assignment Portfolio Website”<NavLink to='/activity/assignment-portfolio'>[link]</NavLink></li>
 	<li>Review our “Coding Standards”<NavLink to='/activity/coding-standards'>[link]</NavLink> and consistently utilize 
 		them on all activities and assignments</li>
+	<li>Complete “Assignment Portfolio Website”<NavLink to='/activity/assignment-portfolio'>[link]</NavLink></li>
+	<li>Complete “Dice Roller”<NavLink to='/activity/dice-roller'>[link]</NavLink></li>
 	<li>Read chapter 5 of Sebesta on JavaScript and review the associated JavaScript and HTML lecture<NavLink to='/activity/sebesta-chapter-05'>[video]</NavLink></li>
 	<li>Review the Sebesta HTML, CSS, and JavaScript examples<a href='http://sebesta-examples.azurewebsites.net/'>[link]</a></li>
 	<li><em>Make your initial Discussion 3 post by the middle of the sprint</em></li>

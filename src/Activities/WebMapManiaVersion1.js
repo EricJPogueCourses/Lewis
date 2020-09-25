@@ -37,7 +37,7 @@ like:</p>
 
 <p>In response to this question, please provide the direct URL link to your Google Maps "Hello, World" and briefly describe how the above requirements were implemented.</p>
     
-<em>Requirement #2 - Map Mania version 1</em>
+<em>Requirement 2 - Map Mania version 1</em>
 <p>Create a new  Map Mania application by copying and renaming the "Hello, World" Google Maps application from above. 
 The name of the new application should be "map-mania.html." For example, if I were creating a header section for 
 "map-mania.html" it would look something like:</p>

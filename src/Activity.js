@@ -11,6 +11,7 @@ import { HTML } from './Activities/HTML'
 import { SuccessfulDeveloper } from './Activities/SuccessfulDeveloper'
 import { AzureWebsite } from './Activities/AzureWebsite'
 import { WebAssignmentPortfolio } from './Activities/WebAssignmentPortfolio'
+import { WebDiceRoller } from './Activities/WebDiceRoller'
 import { WebGettingToKnowEachOther } from './Activities/WebGettingToKnowEachOther'
 import { WebMyFavoriteHobby } from './Activities/WebMyFavoriteHobby'
 import { WebCourseSchedule } from './Activities/WebCourseSchedule'
@@ -99,6 +100,7 @@ class Activity extends Component {
 			case 'azure-website-supplemental-2020': return knowmiaVideoPage(
 				'Website Creation with GitHub and Microsoft Azure - 2020 Supplemental Edition', '6Jkv')
 			case 'assignment-portfolio': return WebAssignmentPortfolio()
+			case 'dice-roller': return WebDiceRoller()
 			case 'getting-to-know-each-other': return WebGettingToKnowEachOther()
 			case 'favorite-hobby': return WebMyFavoriteHobby()
 			case 'course-schedule': return WebCourseSchedule()
