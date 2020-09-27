@@ -18,7 +18,6 @@ include a detailed look at two of those technologies by introducing HTML and Cas
 	<li>Identify and classify Internet, Web, and distributed applications</li>
 	<li>Develop browser based HTML5 applications that utilize common HTML and Cascading Style Sheets (CSS) elements</li>
 	<li>Utilize important developer tools and services create, update, and deploy basic software applications</li>
-	<li>Utilize Git and GitHub along with Microsoft Azure to manage content and deploy web applications</li>
 </ul> 
 
 <p>Below is our sprint 2 activities list. Once again they are provided in the order that I think will be the most

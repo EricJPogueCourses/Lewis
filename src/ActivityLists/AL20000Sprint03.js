@@ -6,7 +6,7 @@ export const al20000Sprint03 = ( props ) => {
 
 <div>
 <h4>Introduction to Computer Science</h4>
-<h5>Sprint 3: Algorithms, Abstraction, Variables, Expressions, and more Python</h5>
+<h5>Sprint 3: Algorithms, Abstraction, Variables, Expressions, and more Web development</h5>
 
 <p>Welcome to sprint 3. I hope you enjoyed our work with HTML and CSS. In this sprint we are going to get back to  
 Python as we explore variables and expressions. We will also take another look at abstraction. Finally, we will look at
@@ -18,7 +18,7 @@ algorithms.</p>
 	<li>Understand and discuss computing components</li>
 	<li>Effectively utilize file systems</li>
 	<li>Understand variables and expressions</li>
-	<li>Utilize cloud services to create and update web applications</li>
+	<li>Utilize Git and GitHub along with Microsoft Azure to manage content and deploy web applications</li>
 </ul>
 
 <p>Below is our sprint 3 activities list:</p>
@@ -36,8 +36,8 @@ algorithms.</p>
 	<li>Review Git Cheat Sheet from GitHub<a href='https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf'
 		target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li>Complete “Azure Free Static Website”<NavLink to='/activity/azure-website'>[link]</NavLink>~3 hours</li>
-	<li>Review and test your implementation of “Getting to Know Each Other”<NavLink to='/activity/getting-to-know-each-other'>[link]</NavLink>
-			from last sprint and make at least 4 substantial enhancements to your web page</li>
+	<li>Review, test, and <em>enhance</em> your implementation of “Getting to Know Each Other”<NavLink to='/activity/getting-to-know-each-other'>[link]</NavLink>
+			from last sprint</li>
 	<li>Deploy your “Getting to Know Each Other" web page to a new Azure website</li>
 	<li><em>Complete Discussion 3 by responding to at least two of your classmates’ posts</em></li>
 	<li><em>Submit Lab 3, Quiz 3, and Reflection 3</em></li>
