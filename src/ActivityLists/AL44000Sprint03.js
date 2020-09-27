@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 export const al44000Sprint03 = () => {
 	return (
@@ -27,7 +28,7 @@ prescriptive. I want to encourage you to collaborate more with your peers as you
 	<li>Recall signing up for Safari Books Online which is available to you free through Lewis University
 		<a href='https://www.oreilly.com/library/view/temporary-access/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li>Review Section 4.5 of Fox on Debugging</li>
-	<li>Read Chapter 7 of Fox on Requirements</li>
+	<li>Read Chapter 7 of Fox on Requirements and review the associated class lecture<NavLink to='/activity/fox-chapter-07'>[video]</NavLink></li>
 	<li>Within Safari Books Online find “Web Development with Node and Express, 2nd Edition” by Ethan Brown (Brown)
 		and preview the preface and first four chapters of the book</li>
 	<li>Thoroughly read chapters 1 and 2 of Brown while completing each of the exercises</li>
