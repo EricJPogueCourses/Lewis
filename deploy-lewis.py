@@ -19,8 +19,8 @@ printAndSystemExecute("git commit -a -m \"Update React client.\"")
 printAndSystemExecute("git push")
 os.chdir("/Users/epogue/Repositories/lewis")
 
-print("Waiting 50 seconds before opening browser:")
-time.sleep(50)
+print("Waiting 90 seconds before opening browser:")
+time.sleep(90)
 printAndSystemExecute("open https://www.lewis.education/#/test/me")
 
 
