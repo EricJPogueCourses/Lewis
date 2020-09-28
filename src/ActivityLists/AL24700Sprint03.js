@@ -40,7 +40,7 @@ This is so that you can focus your time on Lab 3 and Map Mania.</p>
 	<li>Review the Sebesta HTML, CSS, and JavaScript examples<a href='http://sebesta-examples.azurewebsites.net/'>[link]</a></li>
 	<li><em>Make your initial Discussion 3 post by the middle of the sprint</em></li>
     <li>Complete “How To Be A Successful Programmer”<NavLink to='/activity/successful-programmer'>[link]</NavLink></li>
-    <li>Complete “Map Mania Lite”<NavLink to='/activity-web/map-mania-lite'>[video]</NavLink>~2 hours </li>
+    <li>Start looking ahead to next sprint by reviewing “Map Mania Lite”<NavLink to='/activity-web/map-mania-lite'>[video]</NavLink>~2 hours </li>
 	<li><em>Complete Discussion 3 by responding to at least two of your classmates’ posts</em></li>
 	<li><em>Submit Lab 3, Quiz 3, and Reflection 3</em></li>
 </ol>
