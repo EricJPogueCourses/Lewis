@@ -26,9 +26,10 @@ like:</p>
 <em>Requirement 1 - Getting Started with Google Maps JavaScript API</em>
 <p>The Google Maps JavaScript API is a broadly used and sophisticated Web API. It can be a little daunting at first. However, you can get started by:</p>
 <ol>
+	<li>completing Get Started with Google Maps Platform<a href='https://developers.google.com/maps/gmp-get-started' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li>completing the Google Maps JavaScript Getting Started tutorial<a href='https://developers.google.com/maps/documentation/javascript/overview' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li>focusing on the Google Maps "Hello, World" and "Get An API Key" sections of the above tutorial</li>
-	<li>reviewing the "Google Maps Garage: Where's My Map!" video<a href='https://www.youtube.com/watch?v=21PDd17dnnI&feature=youtu.be' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+	<li>reviewing the "Google Maps Garage: Where's My Map!" video<a href='https://www.youtube.com/watch?v=21PDd17dnnI&amp;feature=youtu.be' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li>reviewing how the Maps API works by looking at the API reference to see the possible properties, methods, and events you can use in your program
 		<a href='https://developers.google.com/maps/documentation/javascript/events' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li>adding the "bounds_changed" event to your application and logging the result to the console</li>
