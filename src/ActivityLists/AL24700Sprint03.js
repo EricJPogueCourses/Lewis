@@ -35,8 +35,8 @@ This is so that you can focus your time on Lab 3 and Map Mania.</p>
 	<li>Review our “Coding Standards”<NavLink to='/activity/coding-standards'>[link]</NavLink> and consistently utilize 
 		them on all activities and assignments</li>
 	<li>Complete “Assignment Portfolio Website”<NavLink to='/activity/assignment-portfolio'>[link]</NavLink></li>
-	<li>Complete “Dice Roller”<NavLink to='/activity/dice-roller'>[link]</NavLink></li>
 	<li>Read chapter 5 of Sebesta on JavaScript and review the associated JavaScript and HTML lecture<NavLink to='/activity/sebesta-chapter-05'>[video]</NavLink></li>
+	<li>Complete “Dice Roller”<NavLink to='/activity/dice-roller'>[link]</NavLink></li>
 	<li>Review the Sebesta HTML, CSS, and JavaScript examples<a href='http://sebesta-examples.azurewebsites.net/'>[link]</a></li>
 	<li><em>Make your initial Discussion 3 post by the middle of the sprint</em></li>
     <li>Complete “How To Be A Successful Programmer”<NavLink to='/activity/successful-programmer'>[link]</NavLink></li>
@@ -60,6 +60,8 @@ const extras = () => {
 			<li>Review our class sample code by executing “git clone https://github.com/EricJPogueCourses/WEB-ExampleCode.git”</li>
 			<li>Review “Website Creation with GitHub and Microsoft Azure - 2020 Supplemental Edition”
 				<NavLink to='/activity/azure-website-supplemental-2020'>[link]</NavLink></li>
+			<li>Consider tutoring options<a href='https://botb.blob.core.windows.net/nvm4zqwm/cadahnn5-tutoring.pdf'
+				target='_blank' rel='noopener noreferrer'>[link]</a></li> 
 		</ul>
 	</div>)
 }
