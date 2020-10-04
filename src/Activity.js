@@ -25,7 +25,8 @@ export const videoLink = (header, url) => {
 const videoLinkWithSlides = (header, url, urlSlides) => {
 	return ( 
 		<div>
-			<h5>{header}</h5><ReactPlayer url={url} controls={true} width={1024} height={576} />
+			<h5>{header}</h5>
+			<ReactPlayer url={url} controls={true} width={1024} height={576} />
 			<br />
 			If you are looking for the associated slides, you can find them here<a href={urlSlides}>[link]</a>.
 		</div>
@@ -65,6 +66,16 @@ const IFrameComponent = (props) =>{
 
 const knowmiaVideoPage = (header, videoFileReference) => {
 	return ( <div><h5>{header}</h5><IFrameComponent iframe={knowmiaIFrameTag(videoFileReference)} /></div> )
+}
+
+const knowmiaVideoPageWithSlides = (header, videoFileReference, urlSlides) => {
+	return ( 
+		<div>
+			<h5>{header}</h5>
+			<IFrameComponent iframe={knowmiaIFrameTag(videoFileReference)} />
+			<br />
+			If you are looking for the associated slides, you can find them here<a href={urlSlides}>[link]</a>.
+		</div> )
 }
 // ** End -- Knowmia functions **
 
@@ -120,10 +131,12 @@ class Activity extends Component {
 			case 'dale-chapter-04': return videoLink(
 				'“Computer Science Illuminated” by Nell Dale and John Lewis (Dale) Chapter 4 Lecture', 
 				daleLink('chapter-04-lecture.mp4'), daleLink('chapter-04-lecture.pptx'))
-			case 'dale-chapter-05': return knowmiaVideoPage(
-				'“Computer Science Illuminated” by Nell Dale and John Lewis (Dale) Chapter 5 Lecture', '5nwa')
-			case 'dale-chapter-06': return knowmiaVideoPage(
-				'“Computer Science Illuminated” by Nell Dale and John Lewis (Dale) Chapter 6 Lecture', 'ehQJ')
+			case 'dale-chapter-05': return knowmiaVideoPageWithSlides(
+				'“Computer Science Illuminated” by Nell Dale and John Lewis (Dale) Chapter 5 Lecture', '5nwa',
+				daleLink('chapter-05-lecture.pptx'))
+			case 'dale-chapter-06': return knowmiaVideoPageWithSlides(
+				'“!!Computer Science Illuminated” by Nell Dale and John Lewis (Dale) Chapter 6 Lecture', 'ehQJ',
+				daleLink('chapter-06-lecture.pptx'))
 			// End Dale.
 
 			// Start Programming The World Wide Web” by Robert W. Sebesta (Sebesta)
