@@ -8,7 +8,7 @@ export const PythonNumberingSystems = () => {
 
 <br />
 <h4>Numbering Systems with Python Tutorial</h4>
-<h5>Summary: Analyze and commit to adopting the 'How to Be a Success Programmer' suggestions that you feel are the most important</h5>
+<h5>Summary: Follow the video tutorial to create a Python application that converts numbers from different bases</h5>
 <h5>Prerequisites: Python (v3), VS Code, Terminal, and the Python Debugger (optional)</h5>
 			
 <p>Instructions: Complete this tutorial utilizing the following video as a guide. You should complete the steps 

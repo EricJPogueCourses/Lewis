@@ -7,6 +7,8 @@ import { CodingStandards } from './Activities/CodingStandards'
 import { GitCommands } from './Activities/GitCommands'
 import { PythonHelloWorld } from './Activities/PythonHelloWorld'
 import { PythonNumberingSystems } from './Activities/PythonNumberingSystems'
+import { PythonMatchMaker } from './Activities/PythonMatchMaker'
+import { PythonMatchMakerExamples } from './Activities/PythonMatchMakerExamples'
 import { HTML } from './Activities/HTML'
 import { SuccessfulDeveloper } from './Activities/SuccessfulDeveloper'
 import { AzureWebsite } from './Activities/AzureWebsite'
@@ -106,6 +108,8 @@ class Activity extends Component {
 			case 'successful-programmer': return SuccessfulDeveloper()
 			case 'hello-world-python': return PythonHelloWorld()
 			case 'numbering-systems-python': return PythonNumberingSystems()
+			case 'match-maker': return PythonMatchMaker()
+			case 'match-maker-examples': return PythonMatchMakerExamples()
 			case 'html': return HTML()
 			case 'azure-website': return AzureWebsite()
 			case 'azure-website-supplemental-2020': return knowmiaVideoPage(
