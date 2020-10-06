@@ -139,8 +139,11 @@ class Activity extends Component {
 				'“Computer Science Illuminated” by Nell Dale and John Lewis (Dale) Chapter 5 Lecture', '5nwa',
 				daleLink('chapter-05-lecture.pptx'))
 			case 'dale-chapter-06': return knowmiaVideoPageWithSlides(
-				'“!!Computer Science Illuminated” by Nell Dale and John Lewis (Dale) Chapter 6 Lecture', 'ehQJ',
+				'“Computer Science Illuminated” by Nell Dale and John Lewis (Dale) Chapter 6 Lecture', 'ehQJ',
 				daleLink('chapter-06-lecture.pptx'))
+			case 'dale-chapter-11': return knowmiaVideoPageWithSlides(
+				'“Computer Science Illuminated” by Nell Dale and John Lewis (Dale) Chapter 11 Lecture', 'yn0q',
+				daleLink('chapter-11-lecture.pdf'))			
 			// End Dale.
 
 			// Start Programming The World Wide Web” by Robert W. Sebesta (Sebesta)

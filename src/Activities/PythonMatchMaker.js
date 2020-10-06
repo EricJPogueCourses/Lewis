@@ -7,7 +7,7 @@ export const PythonMatchMaker = () => {
 <div>
 
 <br />
-<h4>&#10084;&#10084;&#10084; Matchmaker &#10084;&#10084;&#10084;</h4>
+<h4><span style={{color: "red"}}>&#10084;&#10084;&#10084;</span> Matchmaker <span style={{color: "red"}}>&#10084;&#10084;&#10084;</span></h4>
 <h5>Summary: Create a Python application that will determine your true love.</h5>
 <h5>Prerequisites: Python (v3), VS Code, Terminal, and the Python Debugger (optional) plus</h5>
 <ul style={{listStyleType:'square'}}>

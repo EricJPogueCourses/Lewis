@@ -6,7 +6,7 @@ export const PythonMatchMakerExamples = () => {
 <div>
 
 <br />
-<h4>&#10084;&#10084;&#10084; Matchmaker Examples&#10084;&#10084;&#10084;</h4>
+<h4><span style={{color: "red"}}>&#10084;&#10084;&#10084;</span> Matchmaker <span style={{color: "red"}}>&#10084;&#10084;&#10084;</span></h4>
 <h5>Summary: Below are some examples of how a MatchMSummary user interface might look.</h5>
 <br />	
 <h5>First is someone who would be a great fit based on the questions Dr. Klump might ask and his desired answers:</h5>
