@@ -23,8 +23,8 @@ export const al20000Sprint04 = ( props ) => {
 	<li>Stay focused on due dates<NavLink to='/calendar/4'>[calendar]</NavLink></li>
 	<li><em>Review sprint 4 assignments including Lab 4, Quiz 4, Discussion 4, and Reflection 4</em></li>
 	<li>Start early and remain laser focused on “Matchmaker”<NavLink to='/activity/match-maker'>[link]</NavLink></li>
-	<li>Read the Dale chapter on “File Systems and Directories” the review the associated lecture <NavLink to='/activity/dale-file-systems-and-directories'>[video]</NavLink></li>
-	<li>Read the Dale chapter on “Artificial Intelligence” the review the associated lecture <NavLink to='/activity/dale-artificial-intelligence'>[video]</NavLink></li>
+	<li>Read Chapter 11 “File Systems and Directories” of Dale on  the review the associated lecture <NavLink to='/activity/dale-file-systems-and-directories'>[video]</NavLink></li>
+	<li>Read Chapter 13 “Artificial Intelligence” of Dale on  the review the associated lecture <NavLink to='/activity/dale-artificial-intelligence'>[video]</NavLink></li>
 	<li><em>Submit your initial Discussion 4 post by the middle of the sprint</em></li>
 	<li>Within Safari Books Online<a href='https://learning.oreilly.com/home/' target='_blank' rel='noopener noreferrer'>[link]</a>
 		find “Introducing Python, 2nd Edition” by Bill Lubanovic (Lubanovic)</li>
@@ -44,6 +44,8 @@ const extras = () => {
 	return (<div>	
 		<p>Additional suggested activities:</p>
 		<ul style={{listStyleType:'square'}}>
+			<li>Within Safari Books Online<a href='https://learning.oreilly.com/home/' target='_blank' rel='noopener noreferrer'>[link]</a>
+				find “Computer Science Illuminated, 6th Edition” by Dale</li>		
 			<li>Clone the sample source code from “Introducing Python, 2nd Edition” by executing: <br />
 				“git clone https://github.com/madscheme/introducing-python”</li>
 			<li>Review Git Cheat Sheet from GitHub<a href='https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf'

@@ -24,7 +24,7 @@ export const al20000Sprint05 = ( props ) => {
 	<li><em>Review sprint assignments</em></li>
 	<li>Thoroughly read chapters 2 and 3 of Lubanovic and complete each of the exercises<a href='https://learning.oreilly.com/home/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li><em>Make your initial Discussion post by the middle of the sprint</em></li>
-	<li>Read Chapter 8 of Dale review the associated lecture <NavLink to='/activity/dale-chapter-08'>[video]</NavLink></li>
+	<li>Read Chapter 15 “Networks” of Dale on the review the associated lecture <NavLink to='/activity/dale-networks'>[video]</NavLink></li>
 	<li><em>Submit all assignments include your Discussion, Lab, Quiz, and Reflection</em></li>
 </ol>
 

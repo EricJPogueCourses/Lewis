@@ -12,7 +12,7 @@ export const al20000Sprint08 = ( props ) => {
 
 <p>Let's start with what we hope to learn in sprint 8:</p>
 <ul style={{listStyleType:'square'}}>
-	<li>Independently deliver meaningful working software</li>
+	<li>Independently deliver and present meaningful working software</li>
 </ul>
 
 <p>Below is our sprint 8 activities list. </p>
