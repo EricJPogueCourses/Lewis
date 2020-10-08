@@ -21,27 +21,22 @@ export const al44000Sprint04 = () => {
 	</ul>
 	<p>Below is the list of activities that we will need to complete this sprint.</p>
 	<ol>
-		<li><em>Review our sprint 4 assignments in Blackboard that include discussion board 4, quiz 4, lab 4, and
-		journal entry 4</em></li>
-		<li>Recall signing up for Safari Books Online which is available to you free through Lewis University
-			<a href='https://www.oreilly.com/library/view/temporary-access/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
-		<li>Within Safari Books Online find “Web Development with Node and Express, 2nd Edition” by Ethan Brown (Brown)
-			and preview the preface and first four chapters of the book</li>
-		<li>Thoroughly read chapters 5 of Brown while completing each of the exercises</li>
-		<li>Thoroughly read chapters 6 of Brown while completing each of the exercises</li>
+		<li><em>Review our sprint 4 assignments in Blackboard that include discussion board 4, quiz 4, lab 4, and  4</em></li>
+		<li>Recall Safari Books Online and “Web Development with Node and Express, 2nd Edition” by Ethan Brown (Brown)
+			<a href='https://learning.oreilly.com/library/view/web-development-with/9781492053507/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+		<li>Briefly scan Brown chapters 4 through 14</li>
+		<li>Thoroughly read chapters 15 of Brown while completing each of the exercises
+			<a href='https://learning.oreilly.com/library/view/web-development-with/9781492053507/ch15.html' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 		<li><em>Consistently work on your sprint 4 assignments throughout the sprint ~12 hours</em></li>
 		<li><em>Complete discussion board initial DB4 post by the middle of the sprint</em></li>
 		<li>Review W3C Tutorials on HTML, CSS, JavaScript, Bootstrap, and Node.js as needed</li>
-		<li>Read Chapter 8 of Fox on Test-Drive Development</li>
-		<li><em>Complete and submit all sprint 4 assignments including discussion board 4, quiz 4, lab 4, and journal
-			entry 4</em></li>
+		<li>Read Chapter 8 of Fox on Test-Driven Development</li>
+		<li><em>Complete and submit all sprint 4 assignments including discussion 4, quiz 4, lab 4, and reflection 4</em></li>
 	</ol>
 
 	<p>Additional references:</p>
 	<ul style={{listStyleType:'square'}}>
-		<li>Git/GitHub Cheat Sheet  
-		<a href='https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf'
-			target='_blank' rel='noopener noreferrer'>[link]</a></li> 
+		<li>Git/GitHub Cheat Sheet<a href='https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf' target='_blank' rel='noopener noreferrer'>[link]</a></li> 
 	</ul>
 </div>
 

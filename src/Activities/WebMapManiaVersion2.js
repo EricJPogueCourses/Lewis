@@ -121,23 +121,10 @@ should be:</p>
 	<li>Validated and error free</li>
 </ol>
 
-<em>Final notes and request for Feedback</em>
-<p>If your solution does not compile and execute without errors when it is submitted, you will lose the 4 points AND 
-I will send it back to you to fix and resubmit before I attempt to continue grading the assignment.</p>
-
-<p>Do not copy another student’s work. I may use MOSS or similar software to detect plagiarism and will not ask for 
-clarification if MOSS concludes you have copied another student’s work.</p>
-
-<p>Tackle this problem gradually and make sure that you review the examples that we cover in class. The main goal of 
-our discussions, lectures, and examples this week are intended to allow you to successfully deliver this application. 
-Also, don’t hesitate to post something on our discussion board or to reach out to me directly if you need assistance.</p>
-
+<p>Tackle these enhancements gradually, make sure that you alway have something that you could submit, and make sure that 
+you review the examples when you run into roadblocks.</p>
 <p>Definitely pace yourself. Do not attempt to do this in one night.</p>
-
-<p>Good luck – and have fun. This is, indeed, supposed to be fun.</p>
-
-<p>Please take a minute to provide feedback or suggestion on the project in the space below. Almost any comment or suggestion 
-will get you a point.</p>
+<p>Good luck – and have fun. This is, indeed, supposed to be fun.</p>		
 					
 </div> )
 

@@ -61,7 +61,7 @@ minutes unless otherwise noted.</p>
 		HTML Attributes <a href='https://www.youtube.com/watch?v=X5ArSbUea_o' target='_blank' rel='noopener noreferrer'>[video]</a>,
 		Ruby MVC Create and Update <a href='https://www.youtube.com/watch?v=XXrYmVzjTKQ' target='_blank' rel='noopener noreferrer'>[video]</a>,
 		and HAML <a href='https://www.youtube.com/watch?v=yX1tMdBuG3g' target='_blank' rel='noopener noreferrer'>[video]</a></li>
-	<li><em>Complete and submit all sprint 2 assignments including Lab 2, Quiz 2, Discussion Board 2, and your Journal entry</em></li>
+	<li><em>Complete and submit all sprint 2 assignments including Lab 2, Quiz 2, Discussion Board 2, and your Reflection</em></li>
 </ol>
 {extras()}
 </div>
