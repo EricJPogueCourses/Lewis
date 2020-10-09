@@ -43,6 +43,7 @@ prescriptive. I want to encourage you to collaborate more with your peers as you
 <p>Additional references:</p>
 <ul style={{listStyleType:'square'}}>
 	<li>Review our class sample code by executing “git clone https://github.com/EricJPogueCourses/SE-ExampleCode.git”</li>
+	<li>Review “Hello World Plus with Node.js and Azure” sample code by executing “git clone https://github.com/EricJPogue/node-js-on-azure.git”</li>
 	<li>Complete “Deploying Node.js on Microsoft Azure”<a href='https://app.knowmia.com/lyyA' target='_blank' rel='noopener noreferrer'>[link]</a></li>			
 	<li>Review “Website Creation with GitHub and Microsoft Azure - 2020 Supplemental Edition”<NavLink to='/activity/azure-website-supplemental-2020'>[link]</NavLink></li>
 	<li>Review “Website Creation with GitHub and Microsoft Azure”<NavLink to='/activity/azure-website'>[link]</NavLink></li>
