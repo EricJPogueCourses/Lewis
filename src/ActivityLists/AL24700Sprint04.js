@@ -30,13 +30,12 @@ works.</p>
 <ol>
 	<li>Review our course calendar<NavLink to='/calendar/4'>[link]</NavLink></li>
 	<li><em>Review Lab 4, Quiz 4, Discussion 4, and Reflection 4</em></li>
-	<li>Start early and remain laser focused on Map Mania version 2 and Lab 4</li>
-	<li>Start early and remain laser focused on “Map Mania Version 2”<NavLink to='/activity/map-mania-v2'>[link]</NavLink></li>
-    <li>Complete Map Mania Lite<NavLink to='/activity-web/map-mania-lite'>[video]</NavLink>~2 hours </li>
+	<li>Start early and remain laser focused on “Map Mania Version 2”<NavLink to='/activity/map-mania-v2'>[link]</NavLink>and Lab 4</li>
+    <li>Review Map Mania Lite<NavLink to='/activity-web/map-mania-lite'>[video]</NavLink>~2 hours </li>
 	<li>Read chapter 6 of Sebesta on JavaScript and review the associated Dynamic Documents with JavaScript lecture<NavLink to='/activity/sebesta-chapter-06'>[video]</NavLink></li>
+	<li>Read chapter 7 of Sebesta on JavaScript and review the associated XML and Web Services lecture<NavLink to='/activity/sebesta-chapter-07'>[video]</NavLink></li>
 	<li><em>Make your initial Discussion 4 post by the middle of the sprint</em></li>
 	<li><em>Complete Map Mania version 2</em>~10 hours</li>
-	<li>Read chapter 7 of Sebesta on JavaScript and review the associated XML and Web Services lecture<NavLink to='/activity/sebesta-chapter-07'>[video]</NavLink></li>
 	<li>Review the associated Sebesta HTML, CSS, and JavaScript examples<a href='http://examples.epogue.info/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li>Read and Understand the article “What is JSON? JavaScript Object Notation explained” 
                 <a href='https://www.infoworld.com/article/3222851/javascript/what-is-json-javascript-object-notation-explained.html' target='_blank' rel='noopener noreferrer'>[link]</a></li>
