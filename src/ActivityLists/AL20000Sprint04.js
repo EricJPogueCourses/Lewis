@@ -25,10 +25,10 @@ export const al20000Sprint04 = ( props ) => {
 	<li>Start early and remain laser focused on “Matchmaker”<NavLink to='/activity/match-maker'>[link]</NavLink></li>
 	<li>Read Chapter 11 “File Systems and Directories” of Dale on  the review the associated lecture <NavLink to='/activity/dale-chapter-11'>[video]</NavLink></li>
 	<li>Read Chapter 13 “Artificial Intelligence” of Dale on  the review the associated lecture <NavLink to='/activity/dale-artificial-intelligence'>[video]</NavLink></li>
-	<li><em>Submit your initial Discussion 4 post by the middle of the sprint</em></li>
 	<li>Within Safari Books Online<a href='https://learning.oreilly.com/home/' target='_blank' rel='noopener noreferrer'>[link]</a>
 		find “Introducing Python, 2nd Edition” by Bill Lubanovic (Lubanovic)</li>
 	<li>Read Lubanovic Preface and Chapter 1 while completing “Using Code Examples” from the Preface</li>
+	<li><em>Submit your initial Discussion 4 post by the middle of the sprint</em></li>
 	<li>Execute and review “quotes.py” from the Lubanovic Chapter 1 example code</li>
 	<li>Complete “Matchmaker”<NavLink to='/activity/match-maker'>[link]</NavLink>~6 hours</li>
 	<li><em>Complete Discussion 4 by responding to at least two of your classmates’ posts</em></li>
