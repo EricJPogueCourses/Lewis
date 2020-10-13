@@ -10,6 +10,7 @@ import { PythonNumberingSystems } from './Activities/PythonNumberingSystems'
 import { PythonMatchMaker } from './Activities/PythonMatchMaker'
 import { PythonMatchMakerExamples } from './Activities/PythonMatchMakerExamples'
 import { HTML } from './Activities/HTML'
+import { PythonW3C } from './Activities/PythonW3C'
 import { SuccessfulDeveloper } from './Activities/SuccessfulDeveloper'
 import { AzureWebsite } from './Activities/AzureWebsite'
 import { WebAssignmentPortfolio } from './Activities/WebAssignmentPortfolio'
@@ -111,6 +112,7 @@ class Activity extends Component {
 			case 'match-maker': return PythonMatchMaker()
 			case 'match-maker-examples': return PythonMatchMakerExamples()
 			case 'html': return HTML()
+			case 'python-w3c': return PythonW3C()
 			case 'azure-website': return AzureWebsite()
 			case 'azure-website-supplemental-2020': return knowmiaVideoPage(
 				'Website Creation with GitHub and Microsoft Azure - 2020 Supplemental Edition', '6Jkv')
@@ -141,9 +143,14 @@ class Activity extends Component {
 			case 'dale-chapter-06': return knowmiaVideoPageWithSlides(
 				'“Computer Science Illuminated” by Nell Dale and John Lewis (Dale) Chapter 6 Lecture', 'ehQJ',
 				daleLink('chapter-06-lecture.pptx'))
+
+			// Note that dale chapters are not consistent across version of the book after chapter 6. 
 			case 'dale-chapter-11': return knowmiaVideoPageWithSlides(
 				'“Computer Science Illuminated” by Nell Dale and John Lewis (Dale) Chapter 11 Lecture', 'yn0q',
-				daleLink('chapter-11-lecture.pdf'))			
+				daleLink('chapter-11-lecture.pdf'))		
+			case 'dale-chapter-13': return knowmiaVideoPageWithSlides(
+				'“Computer Science Illuminated” by Nell Dale and John Lewis (Dale) Chapter 13 Lecture on Artificial Intelligence', 'QcQb',
+				daleLink('chapter-13-lecture.pdf'))	
 			// End Dale.
 
 			// Start Programming The World Wide Web” by Robert W. Sebesta (Sebesta)
