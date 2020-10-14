@@ -211,6 +211,9 @@ class Activity extends Component {
 			case 'fox-chapter-07': return videoLinkWithSlides(
 				'“Engineering Software as a Service” by Armando Fox and David Patterson (Fox) Chapter 7 Lecture', 
 				foxLink('chapter-07-lecture.mp4'), foxLink('chapter-07-lecture.pptx'))
+			case 'fox-chapter-08': return videoLinkWithSlides(
+				'“Engineering Software as a Service” by Armando Fox and David Patterson (Fox) Chapter 8 Lecture', 
+				foxLink('chapter-08-lecture.mp4'), foxLink('chapter-08-lecture.pdf'))
 			// End Fox.
 
 			default: return 'Activity not found!'
