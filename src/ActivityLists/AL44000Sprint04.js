@@ -30,8 +30,8 @@ export const al44000Sprint04 = () => {
 			<a href='https://learning.oreilly.com/library/view/web-development-with/9781492053507/ch15.html' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 		<li><em>Consistently work on your sprint 4 assignments throughout the sprint ~12 hours</em></li>
 		<li><em>Complete discussion board initial DB4 post by the middle of the sprint</em></li>
-		<li>Review W3C Tutorials on HTML, CSS, JavaScript, Bootstrap, and Node.js as needed</li>
 		<li>Read Chapter 8 of Fox on Test-Driven Development and review the associated class lecture<NavLink to='/activity/fox-chapter-08'>[video]</NavLink></li>
+		<li>Review W3C Tutorials on HTML, CSS, JavaScript, Bootstrap, and Node.js as needed</li>
 		<li><em>Complete and submit all sprint 4 assignments including discussion 4, quiz 4, lab 4, and reflection 4</em></li>
 	</ol>
 
