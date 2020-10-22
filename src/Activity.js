@@ -4,6 +4,7 @@ import * as URLParameters from './URLParameters'
 
 import { Tools } from './Activities/ToolsOfTheTrade'
 import { CodingStandards } from './Activities/CodingStandards'
+import { FinalProjectProposal } from './Activities/FinalProjectProposal'
 import { GitCommands } from './Activities/GitCommands'
 import { PythonHelloWorld } from './Activities/PythonHelloWorld'
 import { PythonNumberingSystems } from './Activities/PythonNumberingSystems'
@@ -105,6 +106,7 @@ class Activity extends Component {
 				'https://www.youtube.com/watch?v=IKjBxIe_138&feature=youtu.be')
 			case 'tools': return Tools()
 			case 'coding-standards': return CodingStandards()
+			case 'final-project-proposal': return FinalProjectProposal()
 			case 'git-commands': return GitCommands()
 			case 'successful-programmer': return SuccessfulDeveloper()
 			case 'hello-world-python': return PythonHelloWorld()
