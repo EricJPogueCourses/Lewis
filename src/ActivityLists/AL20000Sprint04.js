@@ -44,6 +44,7 @@ const extras = () => {
 	return (<div>	
 		<p>Additional suggested activities:</p>
 		<ul style={{listStyleType:'square'}}>
+			<li>Complete Matchmaker Lite<a href='https://app.knowmia.com/DW4E' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 			<li>** Review “Python Programming - Part 1 &amp; Part 2” from W3C<NavLink to='/activity/python-w3c'>[link]</NavLink> **</li>
 			<li>Within Safari Books Online<a href='https://learning.oreilly.com/home/' target='_blank' rel='noopener noreferrer'>[link]</a>
 				find “Computer Science Illuminated, 6th Edition” by Dale</li>		
