@@ -36,7 +36,7 @@ will have more control <em>and responsibility</em> in determining what is done a
 	<li>Start working on “TurtleDraw”<NavLink to='/activity/turtle-draw'>[link]</NavLink></li>
 	<li><em>Make your initial Discussion post by the middle of the sprint</em></li>
 	<li>Read Chapter 15 “Networks” of Dale on the review the associated lecture <NavLink to='/activity/dale-networks'>[video]</NavLink></li>
-	<li>Thoroughly read chapter 2 of Lubanovic and complete each of the exercises<a href='https://learning.oreilly.com/home/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+	<li>Read chapters 2 &amp; 3 of Lubanovic and complete each of the exercises<a href='https://learning.oreilly.com/home/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li><em>Complete your “Final Project Proposal”</em><NavLink to='/activity/final-project-proposal'>[link]</NavLink> ~2 hours</li>
 	<li><em>Complete “TurtleDraw”</em><NavLink to='/activity/turtle-draw'>[link]</NavLink> ~8 hours</li>	
 	<li><em>Submit all assignments include your Discussion, Lab, Quiz, and Reflection</em></li>
