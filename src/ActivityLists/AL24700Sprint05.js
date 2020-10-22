@@ -16,7 +16,7 @@ creating something that makes you proud? What type of a final project would you 
 that would both be interesting to create and be something you could add to your professional portfolio as you are 
 looking for internships or jobs? How can I help?</p>
 
-<p>You will also notice a continuing trend this week where assignments will become less prescriptive and you
+<p>You will also notice a continuing trend this sprint where assignments will become less prescriptive and you
 will have more control <em>and responsibility</em> in determining what is done and how it is implemented.</p>
 
 <p>Our learning objects are that by the end of the sprint we will be able to:</p>
@@ -38,7 +38,7 @@ ourselves in JSON files that we can utilize to create a Distributed contact mana
 	<li>Start working on your “Final Project Proposal”<NavLink to='/activity/final-project-proposal'>[link]</NavLink></li>
 	<li>Start working on “Mustang version 1”</li>
 	{/* Todo: Check if there is a Mustang lite tutorial?*/}
-	<li><em>Complete “Final Project Proposal”<NavLink to='/activity/final-project-proposal'>[link]</NavLink></em> ~2 hours</li>
+	<li><em>Complete “Final Project Proposal”</em><NavLink to='/activity/final-project-proposal'>[link]</NavLink> ~2 hours</li>
 	<li>Read chapter 10 of Sebesta and review our Ajax lecture<NavLink to='/activity/sebesta-chapter-10'>[video]</NavLink></li>
 	<li><em>Complete your initial discussion post by the middle of the sprint</em></li>
 	<li>Read chapter 13 of Sebesta and review our Database Access through the Web lecture<NavLink to='/activity/sebesta-chapter-13'>[video]</NavLink></li>

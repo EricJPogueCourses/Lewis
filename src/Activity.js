@@ -10,6 +10,7 @@ import { PythonHelloWorld } from './Activities/PythonHelloWorld'
 import { PythonNumberingSystems } from './Activities/PythonNumberingSystems'
 import { PythonMatchMaker } from './Activities/PythonMatchMaker'
 import { PythonMatchMakerExamples } from './Activities/PythonMatchMakerExamples'
+import { PythonTurtleDraw } from './Activities/PythonTurtleDraw'
 import { HTML } from './Activities/HTML'
 import { PythonW3C } from './Activities/PythonW3C'
 import { SuccessfulDeveloper } from './Activities/SuccessfulDeveloper'
@@ -113,6 +114,7 @@ class Activity extends Component {
 			case 'numbering-systems-python': return PythonNumberingSystems()
 			case 'match-maker': return PythonMatchMaker()
 			case 'match-maker-examples': return PythonMatchMakerExamples()
+			case 'turtle-draw': return PythonTurtleDraw()
 			case 'html': return HTML()
 			case 'python-w3c': return PythonW3C()
 			case 'azure-website': return AzureWebsite()

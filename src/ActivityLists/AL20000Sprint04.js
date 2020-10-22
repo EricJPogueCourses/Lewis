@@ -53,5 +53,6 @@ const extras = () => {
 				target='_blank' rel='noopener noreferrer'>[link]</a></li>
 			<li>Review tutoring options<a href='https://botb.blob.core.windows.net/nvm4zqwm/cadahnn5-tutoring.pdf'
 				target='_blank' rel='noopener noreferrer'>[link]</a></li> 
-		</ul></div>)
+		</ul>
+	</div>)
 }
