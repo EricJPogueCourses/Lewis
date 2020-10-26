@@ -45,7 +45,7 @@ export const al44000Sprint05 = () => {
 		applications are correctly up and running</li>
 		<li>Read Chapter 9 of Fox on Software Maintenance</li>
 		<li><em>Complete and submit all sprint 5 assignments including discussion board 5, quiz 5, lab 5, and
-		reflections 5</em></li>
+		reflection 5</em></li>
 	</ol>
 
 	<p>Additional references:</p>

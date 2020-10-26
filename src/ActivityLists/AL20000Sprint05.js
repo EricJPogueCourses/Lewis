@@ -39,7 +39,8 @@ will have more control <em>and responsibility</em> in determining what is done a
 	<li>Read chapters 2 &amp; 3 of Lubanovic and complete each of the exercises<a href='https://learning.oreilly.com/home/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li><em>Complete your “Final Project Proposal”</em><NavLink to='/activity/final-project-proposal'>[link]</NavLink> ~2 hours</li>
 	<li><em>Complete “TurtleDraw”</em><NavLink to='/activity/turtle-draw'>[link]</NavLink> ~8 hours</li>	
-	<li><em>Submit all assignments include your Discussion, Lab, Quiz, and Reflection</em></li>
+	<li><em>Complete and submit all sprint 5 assignments including discussion 5, quiz 5, lab 5, and
+		reflection 5</em></li>
 </ol>
 {extras()}
 </div>
