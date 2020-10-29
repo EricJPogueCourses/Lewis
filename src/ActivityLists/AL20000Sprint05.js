@@ -52,6 +52,7 @@ const extras = () => {
 	return (<div>	
 		<p>Additional suggested activities:</p>
 		<ul style={{listStyleType:'square'}}>
+			<li>Complete Programming Together with TurtleDrawLite<a href='https://app.knowmia.com/R6x0'target='_blank' rel='noopener noreferrer'>[link]</a></li>
 			<li>Review the Turtle graphics documentation<a href='https://docs.python.org/3/library/turtle.html#introduction'target='_blank' rel='noopener noreferrer'>[link]</a></li>
 			<li>Review “Python Programming - Part 1 &amp; Part 2” from W3C<NavLink to='/activity/python-w3c'>[link]</NavLink></li>
 			<li>Within Safari Books Online<a href='https://learning.oreilly.com/home/' target='_blank' rel='noopener noreferrer'>[link]</a>

@@ -39,11 +39,11 @@ export const al44000Sprint05 = () => {
 		<li>Review the Agile Alliance site <a href='https://www.agilealliance.org/' target='_blank' rel='noopener noreferrer'>[link]</a>, analyze
 			“Agile 101” (you should understand these topics), and perform a quick overview of the “Agile Glossary”</li>
 		<li><em>Complete discussion board initial DB5 post by the middle of the sprint</em></li>
+		<li>Read Chapter 9 of Fox on Software Maintenance</li>
 		<li><em>Setup your production final project Node.js based website and migrate all of the applications that you
 		developed previously in this class to the new site</em></li>
 		<li>Create and execute a test plan on the production site that verifies that the site and all migrated 
 		applications are correctly up and running</li>
-		<li>Read Chapter 9 of Fox on Software Maintenance</li>
 		<li><em>Complete and submit all sprint 5 assignments including discussion board 5, quiz 5, lab 5, and
 		reflection 5</em></li>
 	</ol>
