@@ -38,8 +38,8 @@ if you would like.</p>
 	<li>Read chapter 9 of Sebesta and review our PHP lecture<NavLink to='/activity/sebesta-chapter-09'>[video]</NavLink></li>
 	<li><em>Complete your initial discussion post by the middle of the sprint</em></li>
 	<li><em>Complete Mustang version 2 (~10 hours)</em></li>
-	<li><em>Update your initial final project proposal by including a technical design and determining if you be working
-		on it as part of a team or working on it solo</em></li>
+	<li>Review “Final Project Proposal”<NavLink to='/activity/final-project-proposal'>[link]</NavLink></li>
+	<li><em>Update your final project proposal by including a technical design</em></li>
 	<li>Explore Application Architecture - Part 1<NavLink to='/activity-architecture/application-architecture-part1'>[video]</NavLink></li>
 	<li><em>Complete and submit all assignments including your lab, quiz, discussion, and reflection</em></li>
 </ol>

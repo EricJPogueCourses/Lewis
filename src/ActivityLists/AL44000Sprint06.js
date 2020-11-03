@@ -15,7 +15,7 @@ export const al44000Sprint06 = () => {
 		<li>Utilize your knowledge of Agile development and Saas to deliver the first features of our final project</li>
 		<li>Understand where serverless computing fits in to modern software architecture</li>
 		<li>Write your first serverless computing application utilizing Azure Functions</li>
-		<li>Understand Project Management, Scrum, Pairs, and VCS</li>
+		<li>Understand Project Management, Scrum, Pairs, and Version Control Systems</li>
 		<li>Understand the basics of Scaled Agile</li>
 	</ul>
 	<p>Below is the list of activities that we will need to complete this sprint.</p>
@@ -41,11 +41,11 @@ export const al44000Sprint06 = () => {
 				<a href='https://cloud.google.com/appengine/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 		</ul></li>
 		<li>Build a serverless computing Azure Function utilizing information and tutorials referenced above or possibly
-		utilizing an “Additional resources” link below</li>
+			utilizing an “Additional resources” link below</li>
 		<li>Within Safari Books Online find the book “Scaling Software Agility: Best Practices for Large Enterprises” by
 			Dean Luffingwell and read chapters 1 and 2 paying close attention to the “Assumptions Underlying The Model”
 			section</li>
-		<li>Read Chapter 10 of Fox on Project Management, Scrum, Pairs, and VCS</li>
+		<li>Read Chapter 10 of Fox on Project Management, Scrum, Pairs, and Version Control Systems</li>
 		<li><em>Complete and submit all sprint 6 assignments including responding back to one of your classmates' 
 			discussion board 6 post, quiz 6, lab 6, and reflections 6</em></li>
 	</ol>

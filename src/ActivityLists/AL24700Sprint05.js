@@ -43,6 +43,7 @@ ourselves in JSON files that we can utilize to create a Distributed contact mana
 	<li><em>Complete your initial discussion post by the middle of the sprint</em></li>
 	<li>Read chapter 13 of Sebesta and review our Database Access through the Web lecture<NavLink to='/activity/sebesta-chapter-13'>[video]</NavLink></li>
 	<li><em>Complete Mustang version 1</em> ~10 hours</li>
+	<li><em>Complete “Final Project Proposal”<NavLink to='/activity/final-project-proposal'>[link]</NavLink></em></li>
 	<li><em>Complete and submit all sprint 5 assignments including your lab, quiz, discussion, and reflection</em></li>
 </ol>
 
