@@ -26,7 +26,7 @@ export const al20000Sprint07 = ( props ) => {
 	<li>Thoroughly read chapter 5 of Lubanovic and complete each of the exercises<a href='https://learning.oreilly.com/home/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li><em>Make your initial Discussion post by the middle of the sprint</em></li>
 
-	<li>Complete “<em>Todo:</em>Programming Assignment”<NavLink to='/activity/getting-to-know-each-other'>[link]</NavLink></li>
+	<li>Complete “<em>Todo:</em>Programming Assignment”<NavLink to='/activity/health-risk-calculator'>[link]</NavLink></li>
 	<li>Sign up for a final project review time</li>
 
 	<li>Read Chapter 10 of Dale review the associated lecture <NavLink to='/activity/dale-chapter-08'>[video]</NavLink></li>

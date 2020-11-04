@@ -10,7 +10,10 @@ import { PythonHelloWorld } from './Activities/PythonHelloWorld'
 import { PythonNumberingSystems } from './Activities/PythonNumberingSystems'
 import { PythonMatchMaker } from './Activities/PythonMatchMaker'
 import { PythonMatchMakerExamples } from './Activities/PythonMatchMakerExamples'
+import { WebMatchMaker } from './Activities/WebMatchMaker'
 import { PythonTurtleDraw } from './Activities/PythonTurtleDraw'
+import { PythonHealthRiskCalculator } from './Activities/PythonHealthRiskCalculator'
+import { PythonHealthRiskCalculatorExamples } from './Activities/PythonHealthRiskCalculatorExamples'
 import { HTML } from './Activities/HTML'
 import { PythonW3C } from './Activities/PythonW3C'
 import { SuccessfulDeveloper } from './Activities/SuccessfulDeveloper'
@@ -114,7 +117,10 @@ class Activity extends Component {
 			case 'numbering-systems-python': return PythonNumberingSystems()
 			case 'match-maker': return PythonMatchMaker()
 			case 'match-maker-examples': return PythonMatchMakerExamples()
+			case 'web-matchmaker': return WebMatchMaker()
 			case 'turtle-draw': return PythonTurtleDraw()
+			case 'health-risk-calculator': return PythonHealthRiskCalculator()
+			case 'health-risk-calculator-examples': return PythonHealthRiskCalculatorExamples()
 			case 'html': return HTML()
 			case 'python-w3c': return PythonW3C()
 			case 'azure-website': return AzureWebsite()

@@ -9,19 +9,19 @@ export const al24700Sprint06 = () => {
 <h5>Sprint 6: Server-side Programming with PHP or Node.js</h5>
 
 <p>Welcome to Sprint 6! Need I say more? I hope you enjoyed our first implementation Mustang. This week it’s
-time to work on Mustang version and to do a little server-side programming with PHP. Yes, I know that many of you
-would like to get your hands dirty with Node.js and JavaScript server-side programming. So would I, but we
-need to make sure that we are comfortable with PHP as well. Feel free to utilize Node.js for our assignments if
-you would like. It might be a little more challenging to complete the assignments as my examples for the week
-will be in PHP. However, feel free to give Node.js a try and I will be sure to throw a few points your way
-for trying something new. You are also welcome to utilize whichever environment you prefer in your final project.</p>
+time to work on Mustang version 2 and to start getting ready to do a little server-side programming with PHP. 
+Yes, I know that many of you would like to get your hands dirty with Node.js and JavaScript server-side 
+programming. So would I, but we need to make sure that we are comfortable with PHP as well. Feel free to utilize 
+Node.js for our assignments if you would like. It might be a little more challenging to complete the assignments 
+as my examples for the week will be in PHP. However, feel free to give Node.js. You are also welcome to utilize 
+whichever environment you prefer in your final project.</p>
 
 <p>Our learning objects are that by the end of the sprint we will be able to:</p>
 <ul style={{listStyleType:'square'}}>
 	<li>Understand server-side web programming languages and platforms</li>
 	<li>Study the PHP language and platform</li>
-    <li>Develop and test our first PHP scripts</li>
-    <li>Independently develop, test, and deploy HTML, CSS, JavaScript, and PHP based applications</li>
+	<li>Develop and test our first PHP scripts</li>
+	<li>Independently develop, test, and deploy HTML, CSS, JavaScript, and PHP based applications</li>
 </ul>  
 
 <p>In addition to implementing new features in Mustang version 2, we will be updating our final project proposals with

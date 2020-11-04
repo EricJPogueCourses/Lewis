@@ -1,21 +1,27 @@
 
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-export const PythonMatchMaker = () => {
+export const WebMatchMaker = () => {
 	return (
 	
 <div>
 
 <br />
-<h4><span style={{color: "red"}}>&#10084;&#10084;&#10084;</span> Matchmaker <span style={{color: "red"}}>&#10084;&#10084;&#10084;</span></h4>
-<h5>Summary: Create a Python application that will determine your true love.</h5>
-<h5>Prerequisites: Python (v3), VS Code, Terminal, and the Python Debugger (optional) plus</h5>
+<h4><span style={{color: "red"}}>&#10084;&#10084;&#10084;</span> Matchmaker Web<span style={{color: "red"}}>&#10084;&#10084;&#10084;</span></h4>
+<h5>Summary: Create a Web application utilizing HTML, CSS, and JavaScript that will determine your true love.</h5>
+<h5>Prerequisites: VS Code, Terminal, and the Python Debugger (optional) plus</h5>
 <ul style={{listStyleType:'square'}}>
-	<li>“Hello World with Python”<NavLink to='/activity/hello-world-python'>[link]</NavLink></li>
-	<li>“Numbering Systems with Python”<NavLink to='/activity/numbering-systems-python'>[link]</NavLink></li>
+	<li>“Getting to Know Each Other”<NavLink to='/activity/getting-to-know-each-other'>[link]</NavLink></li>
+	<li>“Azure Website 2020 Edition”<NavLink to='/activity/azure-website-supplemental-2020'>[link]</NavLink></li>
+	<li>“Azure Website”<NavLink to='/activity/azure-website'>[link]</NavLink></li>
+	<li>“Python Matchmaker” (optional)<NavLink to='/activity/match-maker'>[link]</NavLink></li>
 </ul>
 
-<p>In this assignment you will develop and test a python application that asks questions to determine if a person is 
+<p>In this assignment you will implement a Web version of Matchmaker using HTML, CSS, and JavaScript and host it in
+the Azure cloud. With the exception of “Requirement 1”, the description of the application and the requirements remain 
+the same as in the Python version of Matchmaker<NavLink to='/activity/match-maker'>[link]</NavLink></p>
+
+<p>In this assignment you will develop and test a Web application that asks questions to determine if a person is 
 your true love. More specifically your application should ask five questions in the form of statements and allow the 
 user to respond to each statement with the numbers 1 through 5 with 1 indicating strongly disagree and 5 indicating 
 strongly agree. You will then compare the person’s answers with your desired “true love” answers. The closer the 
@@ -38,15 +44,11 @@ You utilize your programming knowledge, creativity, and good taste to set and ad
 and share the results to the user. Be sure to review and test your ideas for the application with a friend or classmate 
 to get some usability feedback.</p>
 
-<p>If you are looking for some examples of what this application might look like if Dr. Klump was creating it, you can 
-see it here <NavLink to='/activity/match-maker-examples'>[link]</NavLink>. I’m sure you can improve on his design. 
-</p>
-
 <em>Requirement 1</em>
-<p>Create a command-line Python application that:</p>
+<p>Create a Web application using HTML, CSS, and JavaScript that:</p>
 <ol>
-	<li>Is implemented in a single Python3 (.py) file name “MatchMaker_xx.py” where “xx” are your initials in lower case</li>
-	<li>Successfully executes from the command line by typing “python3 MatchMaker_xx.py” </li>
+	<li>Is implemented in a single file name “index.html”</li>
+	<li>Is hosted as a public website in Microsoft Azure</li>
 	<li>Has a simple yet an aesthetically pleasing user interface</li>
 	<li>Includes user instructions that succinctly describes the application and how it works</li>
 </ol>
@@ -64,15 +66,17 @@ see it here <NavLink to='/activity/match-maker-examples'>[link]</NavLink>. I’m
 <p>Enhance the application so that it:</p>
 <ol>
 	<li>Provides excellent end user instruction when the application starts</li>
-	<li>Validates user input, displays an meaningful error message, and asks the question again if the user enters 
-		something other than “1” through “5”</li>
+	<li>Only allows users to submit valid input where possible</li>
+	<li>Displays an meaningful error message, and asks the question again if the user enters something other than “1” 
+		through “5”</li>
 </ol>
 
 <em>Requirement 4</em>
 <p>Finally test and refactor the application so that it:</p>
 <ol>
-	<li>Utilizes constants at the top of the file for <em>all</em> desired answers and question weightings</li>
-	<li>Utilizes a single function called “validate” to validate user input and displays and error message for all questions</li>
+	<li>Utilizes constants at the top of the JavaScript for <em>all</em> desired answers and question weightings</li>
+	<li>Utilizes a single function called “validate” to validate user input and displays and error message for all 
+		questions as needed</li>
 </ol>
 
 </div> )
