@@ -7,7 +7,7 @@ export const WebMatchMaker = () => {
 <div>
 
 <br />
-<h4><span style={{color: "red"}}>&#10084;&#10084;&#10084;</span> Matchmaker Web<span style={{color: "red"}}>&#10084;&#10084;&#10084;</span></h4>
+<h4><span style={{color: "red"}}>&#10084;&#10084;&#10084;</span> Matchmaker for the Web<span style={{color: "red"}}>&#10084;&#10084;&#10084;</span></h4>
 <h5>Summary: Create a Web application utilizing HTML, CSS, and JavaScript that will determine your true love.</h5>
 <h5>Prerequisites: VS Code, Terminal, and the Python Debugger (optional) plus</h5>
 <ul style={{listStyleType:'square'}}>

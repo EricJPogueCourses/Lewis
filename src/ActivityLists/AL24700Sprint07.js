@@ -14,7 +14,7 @@ version 3 by implementing persistent storage. Second, we will be delivering vers
 <p>By the end of the sprint we will be able to:</p>
 <ul style={{listStyleType:'square'}}>
 	<li>Develop server-side Ajax applications that can response to Ajax call</li>
-    <li>Understand Cloud Computing & Map Reduce applications</li>
+	<li>Understand Cloud Computing &amp; Map Reduce applications</li>
 	<li>Combine HTML, CSS, JavaScript, PHP, GitHub, and Azure to deliver a full dynamic web application</li>
 </ul>  
 

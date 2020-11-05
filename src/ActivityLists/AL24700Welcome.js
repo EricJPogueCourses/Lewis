@@ -18,7 +18,7 @@ export const al24700Welcome = () => {
 	<p>Prior to our first class session, please take a few minutes to gain a better understand of 
 	Blended Learning and Scrum by reviewing the following videos.</p>
 	<ul>
-		<li>“Blended Learning & Flipped Classroom” 
+		<li>“Blended Learning &amp; Flipped Classroom” 
 			<NavLink to='/activity/blended-learning'>[video]</NavLink></li>
 		<li>“Introduction to Scrum in 7 Minutes”
 			<NavLink to='/activity/scrum-in-7-minutes'>[video]</NavLink></li> 
