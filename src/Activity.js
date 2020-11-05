@@ -157,13 +157,16 @@ class Activity extends Component {
 			// Note that dale chapters are not consistent across version of the book after chapter 6. 
 			case 'dale-chapter-11': return knowmiaVideoPageWithSlides(
 				'“Computer Science Illuminated” by Nell Dale and John Lewis (Dale) Chapter 11 Lecture', 'yn0q',
-				daleLink('chapter-11-lecture.pdf'))		
+				daleLink('chapter-11-lecture.pdf'))
 			case 'dale-chapter-13': return knowmiaVideoPageWithSlides(
 				'“Computer Science Illuminated” by Nell Dale and John Lewis (Dale) Chapter 13 Lecture on Artificial Intelligence', 'QcQb',
-				daleLink('chapter-13-lecture.pdf'))	
+				daleLink('chapter-13-lecture.pdf'))
 			case 'dale-chapter-15': return knowmiaVideoPageWithSlides(
 				'“Computer Science Illuminated” by Nell Dale and John Lewis (Dale) Chapter 15 Lecture on Networks', 'lVyL',
-				daleLink('chapter-15-lecture.pdf'))	
+				daleLink('chapter-15-lecture.pdf'))
+			case 'dale-chapter-16': return knowmiaVideoPageWithSlides(
+				'“Computer Science Illuminated” by Nell Dale and John Lewis (Dale) Chapter 16 Lecture on The World Wide Web', '4X5Z',
+				daleLink('chapter-16-lecture.pdf'))
 			// End Dale.
 
 			// Start Programming The World Wide Web” by Robert W. Sebesta (Sebesta)
