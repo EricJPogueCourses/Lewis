@@ -31,7 +31,7 @@ point it has read. It will change colors for each line and point as it reads the
 	<li>Is implemented in a single Python3 (.py) file name “TurtleDraw_xx.py” where “xx” are your initials in lower case</li>
 	<li>Successfully executes from the command line by typing “python3 TurtleDraw_xx.py” </li>
 	<li>Opens a window of dimension 450x450</li>
-	<li>sets the turtle to run at maximum speed</li>
+	<li>Sets the turtle to run at maximum speed</li>
 </ol>
 
 <em>Requirement 2</em>
@@ -39,15 +39,15 @@ point it has read. It will change colors for each line and point as it reads the
 <ol>
 	<li>Asks the user for the name of the input file</li>
 	<li>Opens the input file</li>
-	<li>Reads the file line by line using a for loop, stripping white space from each line.</li>
-	<li>Splits each line into its component pieces.</li>
+	<li>Reads the file line by line using a for loop, stripping white space from each line</li>
+	<li>Splits each line into its component pieces</li>
 </ol>
 
 <em>Requirement 3</em>
 <p>Enhance the application so that it:</p>
 <ol>
-	<li>Moves to the first point without drawing a line from the origin to it.</li>
-	<li>Detects when a line says "stop" and lifts the pen accordingly</li>
+	<li>Moves to the first point without drawing a line from the origin to it</li>
+	<li>Detects when a line says “stop” and lifts the pen accordingly</li>
 	<li>For non-stop lines, it changes the color to the correct one</li>
 	<li>Moves to the correct (x,y) location of the next point</li>
 </ol>
@@ -55,7 +55,7 @@ point it has read. It will change colors for each line and point as it reads the
 <em>Requirement 4</em>
 <p>Finally test and refactor the application so that it:</p>
 <ol>
-	<li>Calculates the distance between each connected point correctly, omitting the disconnected ones, and sums them onto a running total</li>
+	<li>Calculates the distance between each connected point, omitting the disconnected ones, and sums them onto a total</li>
 	<li>Prints the total distance toward the bottom right of the screen</li>
 	<li>Closes the input file</li>
 	<li>Waits for the user to press enter before closing the window</li>
