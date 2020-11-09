@@ -28,11 +28,10 @@ export const al44000Sprint06 = () => {
 			accomplish next sprint</li>
 		<li>Recall signing up for Safari Books Online which is available to you free through Lewis University
 			<a href='https://www.oreilly.com/library/view/temporary-access/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
-		<li><em>Complete discussion board initial DB6 post by the middle of the sprint</em></li>
 		<li>Within Safari Books Online do a search on “Azure Functions” and “Serverless Computing”</li>
 		<li>Scan the resulting books and identify what you think is the best source of information on both topics</li>
 		<li>Read/Watch and Analyze the following cloud services material below:
-		<ul style={{ listStyleType:'square'}}>
+		<ul style={{listStyleType:'square'}}>
 			<li>Analyze Microsoft Serverless Computing
 				<a href='https://azure.microsoft.com/en-us/overview/serverless-computing/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 			<li>Analyze AWS Lambda 
@@ -40,12 +39,13 @@ export const al44000Sprint06 = () => {
 			<li>Analyze Google App Engine
 				<a href='https://cloud.google.com/appengine/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 		</ul></li>
+		<li><em>Complete discussion board initial DB6 post by the middle of the sprint</em></li>
+		<li>Read Chapter 10 of Fox on Project Management, Scrum, Pairs, and Version Control Systems</li>
 		<li>Build a serverless computing Azure Function utilizing information and tutorials referenced above or possibly
 			utilizing an “Additional resources” link below</li>
 		<li>Within Safari Books Online find the book “Scaling Software Agility: Best Practices for Large Enterprises” by
 			Dean Luffingwell and read chapters 1 and 2 paying close attention to the “Assumptions Underlying The Model”
 			section</li>
-		<li>Read Chapter 10 of Fox on Project Management, Scrum, Pairs, and Version Control Systems</li>
 		<li><em>Complete and submit all sprint 6 assignments including responding back to one of your classmates' 
 			discussion board 6 post, quiz 6, lab 6, and reflections 6</em></li>
 	</ol>
