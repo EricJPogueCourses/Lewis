@@ -33,6 +33,7 @@ create an interactive version of<span style={{color: "red"}}> &#10084;&#10084;&#
 	</ul>
 	<li>Turn your “Final Project Proposal”<NavLink to='/activity/final-project-proposal'>[link]</NavLink> into a Web 
 		application by hosting it in the Azure Cloud</li>
+	<li>Review the JavaScript tutorial from W3C <a href='https://www.w3schools.com/js/'>[link]</a></li>
 	<li>Read Chapter 16 “The World Wide Web” of Dale on the review the associated lecture<NavLink to='/activity/dale-chapter-16'>[video]</NavLink></li>
 	<li><em>Make your initial Discussion post by the middle of the sprint</em></li>
 	<li><em>Complete “Matchmaker for the Web”</em><NavLink to='/activity/web-matchmaker'>[link]</NavLink> ~8 hours</li>
