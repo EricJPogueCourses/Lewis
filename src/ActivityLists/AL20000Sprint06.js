@@ -49,6 +49,7 @@ const extras = () => {
 	return (<div>	
 		<p>Additional suggested activities:</p>
 		<ul style={{listStyleType:'square'}}>
+			<li>Complete Programming Together with MatchmakerWebLite<a href='https://app.knowmia.com/fjqp'target='_blank' rel='noopener noreferrer'>[link]</a></li>
 			<li>Review programming together “HelloWorld”<a href='https://app.knowmia.com/mhYz' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 			<li>Review programming together “HelloWorldPlus with Pictures”<a href='https://app.knowmia.com/mhYz' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 			<li>Review “HTML Programming - Part 1” from W3C<NavLink to='/activity/html'>[link]</NavLink>~4 hours</li>
