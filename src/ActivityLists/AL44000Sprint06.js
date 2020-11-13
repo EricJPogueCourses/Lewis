@@ -52,6 +52,7 @@ export const al44000Sprint06 = () => {
 	
 	<p>Additional references:</p>
 	<ul style={{listStyleType:'square'}}>
+		<li>Complete Programming Together with ReactOnAzure<a href='https://app.knowmia.com/bBVA'target='_blank' rel='noopener noreferrer'>[link]</a></li>
 		<li>Azure serverless computing tutorial
 			<a href='https://mikepfeiffer.io/blog/azure-serverless-101'
 			target='_blank' rel='noopener noreferrer'>[link]</a></li>
