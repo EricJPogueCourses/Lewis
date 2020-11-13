@@ -43,9 +43,7 @@ export const al25000Sprint06 = ( props ) => {
 	<p>Feel free to post something in our discussion board forum or to send me an email you have questions.</p><br />
 
 	<p>Additional references:</p>
-	<ul style={{ listStyleType: 'square' }}>
-		<li>Complete Programming Together with “Deploying Node.js on Microsoft Azure”<a href='https://app.knowmia.com/lyyA' target='_blank' rel='noopener noreferrer'>[link]</a></li>		
-		<li>Optionally complete Programming Together with “React On Azure”<a href='https://app.knowmia.com/bBVA'target='_blank' rel='noopener noreferrer'>[link]</a></li>			
+	<ul style={{ listStyleType: 'square' }}>	
 		<li>Sprint 6 recorded Lecture/Discussion session from a previous online Object-Oriented Programming class
 			<a href='https://24500lt1.blob.core.windows.net/lecture-recordings/cpsc-24500-2019-01-spring-lt1_2019-02-20.mp4'>[link]</a></li> 
 		<li>Git/GitHub Cheat Sheet	

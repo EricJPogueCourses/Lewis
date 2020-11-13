@@ -61,7 +61,8 @@ const al24700Sprint06Extras = () => {
 <br />
 <h5>Extras:</h5>
 <ul style={{listStyleType:'square'}}>
-	<li>Complete “Deploying Node.js on Microsoft Azure”<a href='https://app.knowmia.com/lyyA' target='_blank' rel='noopener noreferrer'>[link]</a></li>			
+	<li>Complete Programming Together with “Deploying Node.js on Microsoft Azure”<a href='https://app.knowmia.com/lyyA' target='_blank' rel='noopener noreferrer'>[link]</a></li>		
+	<li>Optionally complete Programming Together with “React On Azure”<a href='https://app.knowmia.com/bBVA'target='_blank' rel='noopener noreferrer'>[link]</a></li>			
 	<li>Sprint 6 Recorded Lecture/Discussion session from a previous class<a href='https://recordings.join.me/ZFa-lvS3G0W7TEieUjqKuw' target='_blank' rel='noopener noreferrer'>[link]</a></li>      
 	<li>Git/GitHub Cheat Sheet<a href='https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 </ul>
