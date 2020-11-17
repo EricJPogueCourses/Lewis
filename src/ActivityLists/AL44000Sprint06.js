@@ -52,6 +52,7 @@ export const al44000Sprint06 = () => {
 	
 	<p>Additional references:</p>
 	<ul style={{listStyleType:'square'}}>
+		<li>Complete Programming Together with “Azure Functions with VS Code and JavaScript”<a href='https://app.knowmia.com/OG2Q'target='_blank' rel='noopener noreferrer'>[link]</a></li>
 		<li>Complete Programming Together with “React On Azure”<a href='https://app.knowmia.com/bBVA'target='_blank' rel='noopener noreferrer'>[link]</a></li>
 		<li>Recall “Deploying Node.js on Microsoft Azure”<a href='https://app.knowmia.com/lyyA' target='_blank' rel='noopener noreferrer'>[link]</a></li>		
 		<li>Azure serverless computing tutorial
