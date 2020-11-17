@@ -22,7 +22,8 @@ export const al44000Sprint04 = () => {
 	</ul>
 	<p>Below is the list of activities that we will need to complete this sprint.</p>
 	<ol>
-		<li><em>Review our sprint 4 assignments in Blackboard that include discussion board 4, quiz 4, lab 4, and  4</em></li>
+		<li>Stay focused on the due dates by reviewing our course calendar<NavLink to='/calendar/4'>[link]</NavLink></li>
+		<li><em>Review our sprint 4 assignments in Blackboard that include discussion 4, quiz 4, lab 4, and reflection 4</em></li>
 		<li>Recall Safari Books Online and “Web Development with Node and Express, 2nd Edition” by Ethan Brown (Brown)
 			<a href='https://learning.oreilly.com/library/view/web-development-with/9781492053507/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 		<li>Briefly scan Brown chapters 4 through 14</li>

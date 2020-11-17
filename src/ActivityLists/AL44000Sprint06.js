@@ -20,8 +20,7 @@ export const al44000Sprint06 = () => {
 	</ul>
 	<p>Below is the list of activities that we will need to complete this sprint.</p>
 	<ol>
-		<li><em>Review our sprint 6 assignments in Blackboard that include discussion board 6, quiz 6, lab 6, and
-			reflections 6</em></li>
+		<li><em>Review our sprint 6 assignments including discussion 6, quiz 6, lab 6, and reflection 6</em></li>
 		<li>Start working on your final project project and implement the start implementing the functionality that you 
 			identified in the highest priority stories last sprint</li>
 		<li>Update your final project Requirements for next sprint and document your commitment for what you will 

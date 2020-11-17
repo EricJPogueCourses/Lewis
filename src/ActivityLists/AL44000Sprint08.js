@@ -21,18 +21,20 @@ export const al44000Sprint08 = () => {
 		<li>Enhance your understanding of application architecture, Object-Oriented Programming, and Databases</li>
 	</ul>
 
-	<p>Below is the list of activities 	<ol>
-		<li><em>Review our sprint 8 assignments in Blackboard that include discussion board 8, quiz 8, lab 8, and
-			reflections 8</em></li>
+	<p>Below is the list of activities</p>
+ 	<ol>
+		<li style={{color:'red'}}>Stay laser focused on the due dates by reviewing our course calendar<NavLink to='/calendar/8'>[link]</NavLink></li>
+		<li><em>Confirm your final project presentation date &amp; time</em></li>
+		<li><em>Review our sprint 8 assignments that including discussion 8, quiz 8, lab 8, and reflection 8</em></li>
 		<li>Stay focused on your final project by implementing and testing the additional high priority functionality
 			that you identified last sprint</li>
-		<li>Read Chapter 12 of Fox on Project Management, Scrum, Pairs, and VCS</li>
-		<li>Complete 'Application Architectures, Object-Oriented Programming, and Databases - Part 2'<NavLink to='/activity-architecture/application-architecture-part2'>[video]</NavLink></li>
-		<li style={{color:'red'}}><em>Complete and submit all sprint 8 assignments including quiz 8, lab 8, and reflections
-			8 by Thursday (March 5th) at 11:59pm CT</em></li>
-	</ol>that we will need to complete this sprint.</p>
+		<li>Read Chapter 12 of Fox on Performance, Releases, Reliability, and Security</li>
+		<li>Complete “Application Architectures, Object-Oriented Programming, and Databases - Part 2”<NavLink to='/activity-architecture/application-architecture-part2'>[video]</NavLink></li>
+		<li><em>Submit all assignments including your Final Project, lab 8, quiz 8, and reflection 8
+			<em style={{color:'red'}}> at least two hours prior to your scheduled Final Project presentation time</em></em></li>
+	</ol>
 
-	<p>Let's finish strong and deliver something that makes us proud.</p>
+	<p>Let's finish strong and deliver something that makes you proud.</p>
 </div>
 
 	)

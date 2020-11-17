@@ -26,10 +26,13 @@ does not require you to post anything.</p>
 
 <p>With this in mind our activities list includes:</p>
 <ol>
-	<li style={{color:'red'}}><em>**Carefully review our sprint 8 due dates by checking our course calendar</em><NavLink to='/calendar/8'>[link]</NavLink></li>
+	<li style={{color:'red'}}>Stay laser focused on the due dates by reviewing our course calendar<NavLink to='/calendar/8'>[link]</NavLink></li>
+	<li><em>Confirm your final project presentation date &amp; time</em></li>
 	<li>Review sprint 8 assignments including lab, quiz, discussion, and reflection</li>
     <li>Complete Final Project version 2 (~16 hours)</li>
     <li><em>Submit your Final Project and all assignment including lab 8, quiz 8, and reflection 8
+		<em style={{color:'red'}}> at least two hours prior to your scheduled Final Project presentation time</em></em></li>
+	<li><em>Submit all assignments including your Final Project, lab 8, quiz 8, and reflection 8
 		<em style={{color:'red'}}> at least two hours prior to your scheduled Final Project presentation time</em></em></li>
  </ol>
 

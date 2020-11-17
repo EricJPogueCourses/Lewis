@@ -20,9 +20,10 @@ export const al20000Sprint07 = ( props ) => {
 
 <p>Below is our sprint 7 activities list. </p>
 <ol>
+	<li>Stay focused on the due dates by reviewing our course calendar<NavLink to='/calendar/7'>[link]</NavLink></li>	
 	<li>Verify sprint end date<NavLink to='/calendar/7'>[calendar]</NavLink></li>
 	<li><em>Review sprint assignments</em></li>
-	<li>Read Chapter 17 “Computer Security” of Dale on the review the associated lecture <NavLink to='/activity/dale-www'>[video]</NavLink></li>
+	<li>Read Dale Chapter 17 on Computer Security and review the associated lecture <NavLink to='/activity/dale-www'>[video]</NavLink></li>
 	<li>Thoroughly read chapter 5 of Lubanovic and complete each of the exercises<a href='https://learning.oreilly.com/home/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li><em>Make your initial Discussion post by the middle of the sprint</em></li>
 

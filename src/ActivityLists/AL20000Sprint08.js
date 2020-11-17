@@ -17,12 +17,14 @@ export const al20000Sprint08 = ( props ) => {
 
 <p>Below is our sprint 8 activities list. </p>
 <ol>
-	<li style={{color: 'red'}}>Verify due dates<NavLink to='/calendar/8'>[calendar]</NavLink></li>
-	<li><em>Review sprint assignments</em></li>
-	<li>Review Discussion 8 but no post is required</li>
+	<li style={{color:'red'}}>Stay laser focused on the due dates by reviewing our course calendar<NavLink to='/calendar/8'>[link]</NavLink></li>
+	<li><em>Confirm your final project presentation date &amp; time</em></li>
+	<li>Review sprint 8 assignments including lab, quiz, discussion, and reflection</li>
 	<li>Complete “<em>Todo:</em>Programming Assignment”<NavLink to='/activity/getting-to-know-each-other'>[link]</NavLink></li>
-	<li>Complete your final project review</li>
-	<li><em>Submit all assignments include your Lab, Quiz, and Reflection</em></li>
+	<li>Complete Final Project version 2 (~16 hours)</li>
+	<li><em>Submit all assignments including your Final Project, lab 8, quiz 8, and reflection 8
+		<em style={{color:'red'}}> at least two hours prior to your scheduled Final Project presentation time</em></em></li>
+	<li><em>Compete your final project review</em></li>
 </ol>
 </div>
 

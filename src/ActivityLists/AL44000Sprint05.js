@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 export const al44000Sprint05 = () => {
 	return (
@@ -32,8 +33,8 @@ export const al44000Sprint05 = () => {
 	</ul>
 	<p>Below is the list of activities that we will need to complete this sprint.</p>
 	<ol>
-		<li><em>Review our sprint 5 assignments in Blackboard that include discussion board 5, quiz 5, lab 5, and
-		reflections 5</em></li>
+		<li>Stay focused on the due dates by reviewing our course calendar<NavLink to='/calendar/5'>[link]</NavLink></li>
+		<li><em>Review our sprint 5 assignments including discussion 5, quiz 5, lab 5, and reflection 5</em></li>
 		<li><em>Develop your final project proposal by providing Agile Epics and Stories that describe the intended application 
 			functionality from a user perspective and by providing it an excellent name</em></li>
 		<li>Review the Agile Alliance site <a href='https://www.agilealliance.org/' target='_blank' rel='noopener noreferrer'>[link]</a>, analyze
