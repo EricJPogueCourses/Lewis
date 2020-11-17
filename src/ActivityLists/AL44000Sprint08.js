@@ -23,7 +23,7 @@ export const al44000Sprint08 = () => {
 
 	<p>Below is the list of activities</p>
  	<ol>
-		<li style={{color:'red'}}>Stay laser focused on the due dates by reviewing our course calendar<NavLink to='/calendar/8'>[link]</NavLink></li>
+		<li><em style={{color:'red'}}>Stay laser focused on the due dates by reviewing our course calendar</em><NavLink to='/calendar/8'>[link]</NavLink></li>
 		<li><em>Confirm your final project presentation date &amp; time</em></li>
 		<li><em>Review our sprint 8 assignments that including discussion 8, quiz 8, lab 8, and reflection 8</em></li>
 		<li>Stay focused on your final project by implementing and testing the additional high priority functionality
