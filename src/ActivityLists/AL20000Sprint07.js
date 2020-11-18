@@ -20,7 +20,7 @@ export const al20000Sprint07 = ( props ) => {
 
 <p>Below is our sprint 7 activities list. </p>
 <ol>
-	<li>Stay focused on the due dates by reviewing our course calendar<NavLink to='/calendar/7'>[link]</NavLink></li>	
+	<li>Stay focused on dates by reviewing our course calendar<NavLink to='/calendar/7'>[link]</NavLink></li>	
 	<li>Verify sprint end date<NavLink to='/calendar/7'>[calendar]</NavLink></li>
 	<li><em>Review sprint assignments</em></li>
 	<li>Read Dale Chapter 17 on Computer Security and review the associated lecture <NavLink to='/activity/dale-www'>[video]</NavLink></li>

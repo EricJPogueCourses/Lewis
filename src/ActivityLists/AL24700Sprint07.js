@@ -20,7 +20,7 @@ version 3 by implementing persistent storage. Second, we will be delivering vers
 
 <p>With this in mind our activities list includes:</p>
 <ol>
-	<li>Verify due dates by checking our course calendar<NavLink to='/calendar/6'>[link]</NavLink></li>
+	<li>Verify due dates by checking our course calendar<NavLink to='/calendar/7'>[link]</NavLink></li>
 	<li>Review assignments including lab, quiz, discussion, and reflection</li>
 	<li>Start working on Mustang version 3</li>
 	<li style={{color:'red'}}><em>Complete Mustang version 3 contact manager by the middle of the sprint (~5 hours)</em></li>

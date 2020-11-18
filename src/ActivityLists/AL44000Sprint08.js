@@ -26,8 +26,8 @@ export const al44000Sprint08 = () => {
 		<li><em style={{color:'red'}}>Stay laser focused on the due dates by reviewing our course calendar</em><NavLink to='/calendar/8'>[link]</NavLink></li>
 		<li><em>Confirm your final project presentation date &amp; time</em></li>
 		<li><em>Review our sprint 8 assignments that including discussion 8, quiz 8, lab 8, and reflection 8</em></li>
-		<li>Stay focused on your final project by implementing and testing the additional high priority functionality
-			that you identified last sprint</li>
+		<li>Focus your energy on delivering and testing the sprint 4 stories that your final project team has committed to delivering</li>
+		<li>Complete a sprint 3 retrospective with your final project team</li>
 		<li>Read Chapter 12 of Fox on Performance, Releases, Reliability, and Security</li>
 		<li>Complete “Application Architectures, Object-Oriented Programming, and Databases - Part 2”<NavLink to='/activity-architecture/application-architecture-part2'>[video]</NavLink></li>
 		<li><em>Submit all assignments including your Final Project, lab 8, quiz 8, and reflection 8

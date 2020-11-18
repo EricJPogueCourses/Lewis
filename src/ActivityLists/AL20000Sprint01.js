@@ -34,7 +34,7 @@ focused time unless otherwise noted. <em>Bold</em> items are graded assignments.
 <ol>
 	<li>Review course syllabus<a href={syllabusURL}>[link]</a></li>
 	<li>Maintain laser focus on due dates by reviewing our course calendar<NavLink to='/calendar/1'>[link]</NavLink></li>
-	<li>Understand Blended Learning by reviewing “Blended Learning & Flipped Classroom”<NavLink to='/activity/blended-learning'>[video]</NavLink></li>
+	<li>Understand Blended Learning by reviewing “Blended Learning &amp; Flipped Classroom”<NavLink to='/activity/blended-learning'>[video]</NavLink></li>
 	<li>Be prepared to participate in a Scrum team by watching “Introduction to Scrum in 7 Minutes”<NavLink to='/activity/scrum-in-7-minutes'>[video]</NavLink></li>
 	<li><em>Review sprint 1 assignments including Introduction, Lab 1, Quiz 1, Discussion 1, and Reflection 1</em></li>
 	<li>Start early and consistently work on Lab 1 and Quiz 1 throughout the sprint</li>
