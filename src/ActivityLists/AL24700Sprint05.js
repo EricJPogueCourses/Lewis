@@ -34,7 +34,7 @@ ourselves in JSON files that we can utilize to create a Distributed contact mana
 <p>With this in mind our activities list includes:</p>
 <ol>
 	<li>Verify due dates by checking our course calendar<NavLink to='/calendar/5'>[link]</NavLink></li>
-	<li>Review assignments including lab, quiz, discussion, and reflection</li>
+	<li><em>Review sprint 5 assignments including Lab 5, Quiz 5, Discussion 5, and Reflection 5</em></li>
 	<li>Start working on your “Final Project Proposal”<NavLink to='/activity/final-project-proposal'>[link]</NavLink></li>
 	<li>Start working on “Mustang version 1”</li>
 	{/* Todo: Check if there is a Mustang lite tutorial?*/}

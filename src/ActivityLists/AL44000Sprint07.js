@@ -20,7 +20,7 @@ export const al44000Sprint07 = () => {
 	<p>Below is the list of activities that we will need to complete this sprint.</p>
 	<ol>
 		<li>Stay focused on the dates by reviewing our course calendar<NavLink to='/calendar/7'>[link]</NavLink></li>
-		<li><em>Review our sprint 7 assignments that including discussion 7, quiz 7, lab 7, and reflection 7</em></li>
+		<li><em>Review sprint 7 assignments including discussion 7, quiz 7, lab 7, and reflection 7</em></li>
 		<li>Focus your energy on delivering and testing the sprint 3 stories that your final project team has committed to delivering</li>
 		<li>Complete a sprint 2 retrospective with your final project team</li>
 		<li>Complete sprint 4 planning with your final project team</li>

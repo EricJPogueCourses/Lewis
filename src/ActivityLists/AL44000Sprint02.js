@@ -25,7 +25,7 @@ effective for you to work through the topics. The time commitment for each line 
 minutes unless otherwise noted.</p>
 <ol>
 	<li>Stay focused on the due dates by reviewing our course calendar<NavLink to='/calendar/2'>[link]</NavLink></li>
-	<li><em>Review sprint 2 assignments including Lab 2, Quiz 2, Discussion 2, and Reflection 2</em></li>
+	<li><em>Review sprint 2 assignments including lab 2, quiz 2, discussion 2, and reflection 2</em></li>
 	<li>Review our “Coding Standards”<NavLink to='/activity/coding-standards'>[link]</NavLink> and consistently utilize 
 		them on all activities and assignments</li>
 	<li>Read Chapter 6 of Fox on developing SaaS client applications in JavaScript using technologies like AJAX and

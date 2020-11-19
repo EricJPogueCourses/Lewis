@@ -37,7 +37,7 @@ graded assignments.</em></p>
 	<li><em>Review Programming Assignment 1, Quiz 1, and Discussion Board 1</em></li>
 	<li>Complete Tools of the Trade<NavLink to='/tools'>[link]</NavLink></li>
 	<li>Understand how Blended Learning, Flipped Classroom, and Online class formats relate by reviewing 'Blended
-		Learning & Flipped Classroom'<a href='https://www.youtube.com/watch?v=paQCE58334M&vl=en-US' target='_blank' rel='noopener noreferrer'>[video]</a></li>
+		Learning &amp; Flipped Classroom'<a href='https://www.youtube.com/watch?v=paQCE58334M&vl=en-US' target='_blank' rel='noopener noreferrer'>[video]</a></li>
 	<li>Review “Introduction to Scrum in 7 Minutes”<a href='https://www.youtube.com/watch?v=9TycLR0TqFA'>[video]</a></li>
 	<li>Complete “Object-Oriented Programming Concepts and Practices”<NavLink to='/activity-oop/concepts-and-practices'>[video]</NavLink></li>
 	<li><em>Consistently work on Programming Assignment 1 and Quiz 1 throughout the sprint ~6 hours</em></li>

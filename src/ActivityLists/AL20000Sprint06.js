@@ -23,7 +23,7 @@ create an interactive version of<span style={{color: "red"}}> &#10084;&#10084;&#
 <p>Below is our sprint 6 activities list. </p>
 <ol>
 	<li>Verify sprint end date<NavLink to='/calendar/6'>[calendar]</NavLink></li>
-	<li><em>Review sprint 6 assignments</em></li>
+	<li><em>Review sprint 6 assignments including Lab 6, Quiz 6, Discussion 6, and Reflection 6</em></li>
 	<li>Start working on “Matchmaker for the Web”<NavLink to='/activity/web-matchmaker'>[link]</NavLink></li>
 	<li>Review the following activities that were completed in previous sprints:</li>
 	<ul style={{listStyleType:'square'}}>

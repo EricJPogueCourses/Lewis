@@ -46,7 +46,7 @@ graded assignments.</p>
 	<li>Maintain laser focus on due dates by reviewing our course calendar<NavLink to='/calendar/1'>[link]</NavLink></li>	
 	<li>Understand Blended Learning by reviewing “Blended Learning & Flipped Classroom”<NavLink to='/activity/blended-learning'>[video]</NavLink></li>
 	<li>Be prepared to participate in a Scrum team by watching “Introduction to Scrum in 7 Minutes”<NavLink to='/activity/scrum-in-7-minutes'>[video]</NavLink></li>
-	<li><em>Review sprint 1 assignments including Introduction, Lab 1, Quiz 1, Discussion 1, and Reflection 1</em></li>	
+	<li><em>Review sprint 1 assignments including introduction, lab 1, quiz 1, discussion 1, and reflection 1</em></li>	
 	<li>Start early and consistently work on Lab 1 and Quiz 1 throughout the sprint</li>
 	<li>Add your photo to your Blackboard profile<NavLink to='/activity/photo-to-blackboard'>[video]</NavLink></li>
 	<li>Read Chapter 1 of “Engineering Software as a Service: An Agile Approach Using Cloud Computing” by Armando Fox

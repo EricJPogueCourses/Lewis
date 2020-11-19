@@ -24,7 +24,7 @@ prescriptive. I want to encourage you to collaborate more with your peers as you
 <p>Below is the list of activities that we will need to complete this sprint.</p>
 <ol>
 	<li>Stay focused on the due dates by reviewing our course calendar<NavLink to='/calendar/3'>[link]</NavLink></li>
-	<li><em>Review our sprint 3 assignments in Blackboard that include discussion 3, quiz 3, lab 3 and reflection 3</em></li>
+	<li><em>Review sprint 3 assignments including discussion 3, quiz 3, lab 3 and reflection 3</em></li>
 	<li>Recall signing up for Safari Books Online which is available to you free through Lewis University
 		<a href='https://www.oreilly.com/library/view/temporary-access/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li>Review Section 4.5 of Fox on Debugging</li>

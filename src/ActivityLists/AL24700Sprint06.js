@@ -32,7 +32,7 @@ if you would like.</p>
 <p>With this in mind our activities list includes:</p>
 <ol>
 	<li>Verify due dates by checking our course calendar<NavLink to='/calendar/6'>[link]</NavLink></li>
-	<li>Review assignments including lab, quiz, discussion, and reflection</li>
+	<li><em>Review sprint 6 assignments including Lab 6, Quiz 6, Discussion 6, and Reflection 6</em></li>
 	<li>Start working on our Mustang version 2 distributed contact manager</li>
 	{/* Todo: Check if there is a Mustang version 2 lite tutorial?*/}
 	<li>Read chapter 9 of Sebesta and review our PHP lecture<NavLink to='/activity/sebesta-chapter-09'>[video]</NavLink></li>
@@ -63,7 +63,7 @@ const al24700Sprint06Extras = () => {
 <ul style={{listStyleType:'square'}}>
 	<li>Complete Programming Together with “Deploying Node.js on Microsoft Azure”<a href='https://app.knowmia.com/lyyA' target='_blank' rel='noopener noreferrer'>[link]</a></li>		
 	<li>Optionally complete Programming Together with “React On Azure”<a href='https://app.knowmia.com/bBVA' target='_blank' rel='noopener noreferrer'>[link]</a></li>
-	<li>Optionally complete the “React - The Complete Guide” available from O'Reilly<a href='https://learning.oreilly.com/videos/react-the/9781789132229' target='_blank' rel='noopener noreferrer'>[link]</a></li>					
+	<li>Optionally review the “React - The Complete Guide” video tutorial series available from O'Reilly<a href='https://learning.oreilly.com/videos/react-the/9781789132229' target='_blank' rel='noopener noreferrer'>[link]</a></li>					
 	<li>Sprint 6 Recorded Lecture/Discussion session from a previous class<a href='https://recordings.join.me/ZFa-lvS3G0W7TEieUjqKuw' target='_blank' rel='noopener noreferrer'>[link]</a></li>      
 	<li>Git/GitHub Cheat Sheet<a href='https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 </ul>

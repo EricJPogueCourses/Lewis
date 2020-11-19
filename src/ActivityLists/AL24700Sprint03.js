@@ -30,7 +30,7 @@ at first, I think you will enjoy what you are able to create using it.</p>
 This is so that you can focus your time on Lab 3 and Map Mania.</p>
 <ol>
 	<li>Review our course calendar<NavLink to='/calendar/3'>[link]</NavLink></li>
-	<li><em>Review Lab 3, Quiz 3, Discussion 3, and Reflection 3</em></li>
+	<li><em>Review sprint 3 assignments including Lab 3, Quiz 3, Discussion 3, and Reflection 3</em></li>
 	<li>Start early and remain laser focused on “Map Mania Version 1”<NavLink to='/activity/map-mania-v1'>[link]</NavLink></li>
 	<li>Review our “Coding Standards”<NavLink to='/activity/coding-standards'>[link]</NavLink> and consistently utilize 
 		them on all activities and assignments</li>
