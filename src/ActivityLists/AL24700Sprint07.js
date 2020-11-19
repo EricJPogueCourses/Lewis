@@ -22,14 +22,13 @@ version 3 by implementing persistent storage. Second, we will be delivering vers
 <ol>
 	<li>Verify due dates by checking our course calendar<NavLink to='/calendar/7'>[link]</NavLink></li>
 	<li><em>Review sprint 7 assignments including Lab 7, Quiz 7, Discussion 7, and Reflection 7</em></li>
-	<li>Review assignments including lab, quiz, discussion, and reflection</li>
 	<li>Start working on Mustang version 3</li>
-	<li style={{color:'red'}}><em>Complete Mustang version 3 contact manager by the middle of the sprint (~5 hours)</em></li>
 	<li>Start working on your Final Project</li>
+	<li><em>Complete Mustang version 3 contact manager by the middle of the sprint</em><sup> ~5 hours</sup></li>
 	<li>Explore Application Architecture - Part 2<NavLink to='/activity-architecture/application-architecture-part2'>[video]</NavLink></li>
 	<li><em>Complete your initial discussion post by the middle of the sprint</em></li>
     <li>Explore Cloud Computing and Map Reduce<NavLink to='/activity-web/cloud-computing-mapreduce'>[video]</NavLink></li>
-	<li><em>Complete Final Project version 1 (~5 hours)</em></li>
+	<li><em>Complete Final Project version 1</em><sup> ~5 hours</sup></li>
 	<li><em>Complete and submit all assignments including your lab, quiz, discussion, and reflection</em></li>
  </ol>
 
