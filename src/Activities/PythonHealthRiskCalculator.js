@@ -12,11 +12,14 @@ export const PythonHealthRiskCalculator = () => {
 
 <br />
 <h4>Health Insurance Risk Calculator</h4>
-<h5>Summary: Create a Python application that will calculate the health risk for a new customer of an insurance company.</h5>
-<h5>Prerequisites: Python (v3), VS Code, Terminal, and the Python Debugger (optional) plus</h5>
+<h5>Summary: Create a Python application that will calculate the health risk for a new customer of an insurance company. 
+The application can be created as either a Terminal based Python application or as a Web application utilizing HTML, 
+CSS, and JavaScript.
+</h5>
+<h5>Prerequisites:</h5>
 <ul style={{listStyleType:'square'}}>
-	<li>“Hello World with Python”<NavLink to='/activity/hello-world-python'>[link]</NavLink></li>
-	<li>“Numbering Systems with Python”<NavLink to='/activity/numbering-systems-python'>[link]</NavLink></li>
+	<li>“Matchmaker” with Python<NavLink to='/activity/match-maker'>[link]</NavLink></li>
+	<li>Or “Matchmaker for the Web”<NavLink to='/activity/web-matchmaker'>[link]</NavLink></li>
 </ul>
 
 <p>In this assignment, you will create a tool a health insurance company could use to determine the risk associated with 
@@ -85,11 +88,16 @@ improve on his design in any event.
 </p>
 
 <em>Requirement 1</em>
-<p>Create a command-line Python application that:</p>
+<p>Either create a Terminal based command-line Python application that:</p>
 <ol>
-	<li>Is implemented in a multiple logically separated Python3 (.py) files</li>
-	<li>Has a main file named “RiskCalculator_xx.py” where “xx” are your initials in lower case</li>
+	<li>Is implemented in a single Python (.py) file named “RiskCalculator_xx.py” where “xx” are your initials in lower case</li>
 	<li>Successfully executes from the command line by typing “python3 RiskCalculator_xx.py” </li>
+</ol>
+
+<p>Or create a Web application using HTML, CSS, and JavaScript that:</p>
+<ol>
+	<li>Is implemented in a single file name “index.html”</li>
+	<li>Is hosted as a public website in Microsoft Azure</li>
 </ol>
 
 <em>Requirement 2</em>

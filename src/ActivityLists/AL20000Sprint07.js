@@ -9,31 +9,38 @@ export const al20000Sprint07 = ( props ) => {
 <h5>Sprint 7: Software Development Lifecycle, Security, JavaScript, and Final Projects</h5>
 
 <p>Welcome to sprint 7.</p>
+<p>Welcome to sprint 7. Sprint 7 puts you in the driver’s seat. You get to decide if you would benefit more by focusing 
+on developing more sophisticated terminal applications using Python, or if your energy would be better spent mastering 
+Web development with HTML, CSS, and JavaScript. But never forget the legendary phrase:</p>
 
-<p>Let's start with what we hope to learn in sprint 7:</p>
+<div style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
+“With great power there must also come great responsibility”<br /></div>
+<div style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
+-Peter Parker (aka Spider-Man)</div>
+
+<br />
+<p>What will you do with all that power... and responsibility?</p>
+<p>Let's start with what we need to learn in sprint 7:</p>
 <ul style={{listStyleType:'square'}}>
-	<li>Understand Software Development</li>
 	<li>Understand Security</li>
-	<li>Understand Interactive Websites with JavaScript</li>
+	<li>Practice more sophisticated HTML, CSS, and JavaScript Website or Python Terminal development</li>
 	<li>Begin work on Final Project</li> 
 </ul>
 
 <p>Below is our sprint 7 activities list. </p>
 <ol>
 	<li>Stay focused on dates by reviewing our course calendar<NavLink to='/calendar/7'>[link]</NavLink></li>	
-	<li>Verify sprint end date<NavLink to='/calendar/7'>[calendar]</NavLink></li>
 	<li><em>Review sprint 7 assignments including Lab 7, Quiz 7, Discussion 7, and Reflection 7</em></li>
-	<li>Read Dale Chapter 17 on Computer Security and review the associated lecture <NavLink to='/activity/dale-www'>[video]</NavLink></li>
-	<li>Thoroughly read chapter 5 of Lubanovic and complete each of the exercises<a href='https://learning.oreilly.com/home/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+	<li>Determine if you will be focusing on HTML, CSS, and JavaScript Website or Python Terminal development in Sprints 7 and 8</li>
+	<li>Start working on “Health Insurance Risk Calculator”<NavLink to='/activity/health-risk-calculator'>[link]</NavLink></li>
+	<li>Read Dale Chapter 17 on Computer Security and review the associated lecture <NavLink to='/activity/dale-chapter-17'>[video]</NavLink></li>
 	<li><em>Make your initial Discussion post by the middle of the sprint</em></li>
-
-	<li>Complete “<em>Todo:</em>Programming Assignment”<NavLink to='/activity/health-risk-calculator'>[link]</NavLink></li>
-	<li>Sign up for a final project review time</li>
-
-	<li>Read Chapter 10 of Dale review the associated lecture <NavLink to='/activity/dale-chapter-08'>[video]</NavLink></li>
-	<li><em>Submit all assignments include your Discussion, Lab, Quiz, and Reflection</em></li>
+	<li>Sign up for a Final Project presentation date &amp; time</li>
+	<li>Complete “Health Insurance Risk Calculator”<NavLink to='/activity/health-risk-calculator'>[link]</NavLink><sup> ~12 hours</sup></li>
+	<li><em>Submit all assignments including your Lab, Quiz, Discussion, and Reflection</em></li>
 </ol>
 
+<p>Let’s finish strong. How can I help?</p>
 </div>
 
 	)
