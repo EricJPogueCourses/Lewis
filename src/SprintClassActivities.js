@@ -39,6 +39,17 @@ export class SprintClassActivities extends Component {
 		})
 	}
 
+	renderSprintScheduleHeader = (sprintIn,calendarIn) => {
+		//let dates = calendarIn[sprintIn-1]
+		return( 
+		<div>
+			<h4>{URLParameters.title()}</h4>
+			<h5>Sprint {sprintIn}</h5>
+			<br />
+		</div>	
+		)
+	}
+
 	renderActivityRow = (activityDate,activity) => {
 		if (SprintDates.isToday(activityDate)) {
 			return (<tr style={{backgroundColor:'#adebdb'}}><td>{SprintDates.CSTDate(activityDate,false,false)}</td><td>{activity}</td></tr>)
@@ -49,8 +60,80 @@ export class SprintClassActivities extends Component {
 		return (<tr><td>{SprintDates.CSTDate(activityDate,false,false)}</td><td>{activity}</td></tr>)
 	}
 
-	render() {
+	renderScheduleTuesdayThursday = (dates) => {
+		return (
+			<div>
+				<h5>Class Schedule</h5>
+				<Table striped bordered hover>
+					<thead><tr><th>Day</th><th>Activity</th></tr></thead>
+					<tbody>
+						{this.renderActivityRow(SprintDates.incrementDate(dates.start,1),'Demos, Retrospective, and Sprint Planning')}
+						{this.renderActivityRow(SprintDates.incrementDate(dates.start,3),'Chapter Discussion, Discussion Board, and Lab')}
+						{this.renderActivityRow(SprintDates.incrementDate(dates.start,8),'Lab & Quiz')}
+						{this.renderActivityRow(SprintDates.incrementDate(dates.start,10),'Lab')}
+					</tbody>
+				</Table>
+				<em>Everything is due {SprintDates.CSTDate(dates.end,true,true)}</em>
+			</div>
+		)
+	}
 
+	renderScheduleTuesdayThursdayForSprint8 = (dates) => {
+		return (
+			<div>
+				<h5>Class Activity Schedule</h5>
+				<Table striped bordered hover>
+					<thead><tr><th>Day</th><th>Activity</th></tr></thead>
+					<tbody>
+						{this.renderActivityRow(SprintDates.incrementDate(dates.start,1),'Demos, Retrospective, and Sprint Planning')}
+						{this.renderActivityRow(SprintDates.incrementDate(dates.start,3),'Chapter Discussion, Quiz, and Lab')}
+						{this.renderActivityRow(SprintDates.incrementDate(dates.start,7),'Finals Exams Begin (no regular classes)')}
+					</tbody>
+				</Table>
+				<em style={{color:'red'}}>Everything is due {SprintDates.CSTDate(dates.end,true,true)}</em>
+			</div>
+		)
+	}
+
+	renderScheduleMondayWednesdayFriday = (dates) => {
+		return (
+			<div>
+				<h5>Class Schedule</h5>
+				<Table striped bordered hover>
+					<thead><tr><th>Day</th><th>Activity</th></tr></thead>
+					<tbody>
+						{this.renderActivityRow(SprintDates.incrementDate(dates.start,0),'Sprint Planning')}
+						{this.renderActivityRow(SprintDates.incrementDate(dates.start,2),'Demos & Retrospective')}
+						{this.renderActivityRow(SprintDates.incrementDate(dates.start,4),'Discussion Board & Lab')}
+						{this.renderActivityRow(SprintDates.incrementDate(dates.start,7),'Chapter Discussion')}
+						{this.renderActivityRow(SprintDates.incrementDate(dates.start,9),'Quiz')}
+						{this.renderActivityRow(SprintDates.incrementDate(dates.start,11),'Lab')}
+					</tbody>
+				</Table>
+				<em>Everything is due {SprintDates.CSTDate(dates.end,true,true)}</em>
+			</div>
+		)
+	}
+
+	renderScheduleMondayWednesdayFridayForSprint8 = (dates) => {
+		return (
+			<div>
+					<h5>Class Activity Schedule</h5>
+					<Table striped bordered hover>
+						<thead><tr><th>Day</th><th>Activity</th></tr></thead>
+						<tbody>
+							{this.renderActivityRow(SprintDates.incrementDate(dates.start,0),'Sprint Planning')}
+							{this.renderActivityRow(SprintDates.incrementDate(dates.start,2),'Demos, Retrospective, and Chapter Discussion')}
+							{this.renderActivityRow(SprintDates.incrementDate(dates.start,4),'Lab & Quiz')}
+							{this.renderActivityRow(SprintDates.incrementDate(dates.start,7),'Finals Exams Begin (no regular classes)')}
+						</tbody>
+					</Table>
+					<em style={{color:'red'}}>Everything is due {SprintDates.CSTDate(dates.end,true,true)}</em>
+			</div>
+		)
+	}
+
+	render() {
 		let sprint = this.highlightRow()+1
 		if (sprint === 0) {
 			return (null)
@@ -58,26 +141,41 @@ export class SprintClassActivities extends Component {
 
 		let calendar = SprintDates.sprintCalendarFromURL()
 		let dates = calendar[sprint-1]
-		return (
-			<div>
-			<h4>{URLParameters.title()}</h4>
-			<h5>Sprint {sprint}</h5>
-			<h6>Starts: {SprintDates.CSTDate(dates.start,false,true)}</h6>
-			<h6>Ends: {SprintDates.CSTDate(dates.end,false,true)}</h6>
-			<br />
-			<h5>Class Activity Schedule</h5>
-			<Table striped bordered hover>
-				<thead><tr><th>Day</th><th>Activity</th></tr></thead>
-				<tbody>
-					{this.renderActivityRow(SprintDates.incrementDate(dates.start,0),'Sprint Planning')}
-					{this.renderActivityRow(SprintDates.incrementDate(dates.start,2),'Demos plus Assignments')}
-					{this.renderActivityRow(SprintDates.incrementDate(dates.start,4),'Lab')}
-					{this.renderActivityRow(SprintDates.incrementDate(dates.start,7),'Assignments')}
-					{this.renderActivityRow(SprintDates.incrementDate(dates.start,9),'Quiz')}
-					{this.renderActivityRow(SprintDates.incrementDate(dates.start,11),'Lab')}
-				</tbody>
-			</Table>
-			</div>
-		)
+
+		if (sprint < 8) {
+			if (SprintDates.tuesdayThursdayClass()) {
+				return (
+					<div>
+						{this.renderSprintScheduleHeader(sprint,calendar)}
+						{this.renderScheduleTuesdayThursday(dates)}
+					</div>
+				)
+			} else {
+				return (
+					<div>
+						{this.renderSprintScheduleHeader(sprint,calendar)}
+						{this.renderScheduleMondayWednesdayFriday(dates)}
+					</div>
+				)
+			}
+		} else {
+			if (SprintDates.tuesdayThursdayClass()) {
+				return (
+					<div>
+						{this.renderSprintScheduleHeader(sprint,calendar)}
+						{this.renderScheduleTuesdayThursdayForSprint8(dates)}
+					</div>
+				)
+			} else {
+				return (
+					<div>
+						{this.renderSprintScheduleHeader(sprint,calendar)}
+						{this.renderScheduleMondayWednesdayFridayForSprint8(dates)}
+					</div>
+				)
+			}
+		} 
+
+
 	}
 }

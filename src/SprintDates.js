@@ -9,9 +9,20 @@ export const sprintCalendarFromURL = () => {
 		case '24700-fall-2020-001': return sprintCalendar('2020-08-31-16')
 		case '44000-fall-2020-001': return sprintCalendar('2020-08-31-16')
 
+		// Spring 2021 classes.
+		case '44000-spring-2021-001': return sprintCalendar('2021-01-18-16')
+
 		default:
 			console.log('Error: Course start date and duration not found (cpsc='+cpsc+')') 
 			return sprintCalendar('2020-08-31-16')
+	}
+}
+
+export const tuesdayThursdayClass = () => {
+	let cpsc = URLParameters.cpsc()
+	switch(cpsc) {
+		case '44000-spring-2021-001': return true;
+		default: return false;
 	}
 }
 
@@ -39,16 +50,29 @@ export const sprintCalendar = (startDateAndDuration) => {
 		{ 'start':'Mon Dec 07 2020 08:00:00 GMT-0600', 'end':'Thu Dec 17 2020 23:59:00 GMT-0600', 'notes':'Final Exams' }
 	]; 
 
+	const sprintCalendarSpring_2021_01_18_16 = [																											 
+		{ 'start':'Mon Jan 18 2021 08:00:00 GMT-0600', 'end':'Sun Jan 31 2021 23:59:00 GMT-0600', 'notes':'Martin Luther King Day' },
+		{ 'start':'Mon Feb 01 2021 08:00:00 GMT-0600', 'end':'Sun Feb 14 2021 23:59:00 GMT-0600', 'notes':'' },
+		{ 'start':'Mon Feb 15 2021 08:00:00 GMT-0600', 'end':'Sun Feb 28 2021 23:59:00 GMT-0600', 'notes':'' },
+		{ 'start':'Mon Mar 01 2021 08:00:00 GMT-0600', 'end':'Sun Mar 14 2021 23:59:00 GMT-0600', 'notes':'Spring Break' },
+		{ 'start':'Mon Mar 15 2021 08:00:00 GMT-0600', 'end':'Sun Mar 28 2021 23:59:00 GMT-0600', 'notes':'' },
+		{ 'start':'Mon Mar 29 2021 08:00:00 GMT-0600', 'end':'Sun Apr 11 2021 23:59:00 GMT-0600', 'notes':'Easter Holiday' },
+		{ 'start':'Mon Apr 12 2021 08:00:00 GMT-0600', 'end':'Sun Apr 25 2021 23:59:00 GMT-0600', 'notes':'' },
+		{ 'start':'Mon Apr 26 2021 08:00:00 GMT-0600', 'end':'Thu May 06 2021 23:59:00 GMT-0600', 'notes':'Final Exams' }
+	]; 
+
 	// Expecting a date and duration string representation of YYYY-MM-DD-RR where RR is the two 
 	// digit duration in weeks (e.g. '2020-08-31-16')
-	if (startDateAndDuration === '2020-08-31-16') {
+	if (startDateAndDuration === '2021-01-18-16') {
+		return sprintCalendarSpring_2021_01_18_16
+	} else if (startDateAndDuration === '2020-08-31-16') {
 		return sprintCalendarFall_2020_08_31_16
 	} else if (startDateAndDuration === '2020-01-13-16') {
 		return sprintCalendar_2020_01_13_16	
 	}
 
 	console.log('Fatal Error: sprintCalendar() called with invalid start date and duration')
-	return sprintCalendar_2020_01_13_16	
+	return sprintCalendar_2020_01_13_16;
 
 }
 
