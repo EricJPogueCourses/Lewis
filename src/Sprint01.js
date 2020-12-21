@@ -11,7 +11,7 @@ export const Sprint01 = () => {
 	switch(courseNumber) {
 		case 20000: return (al20000Sprint01(URLParameters.classSyllabusURL()))
 		case 24700: return (al24700Sprint01(URLParameters.classSyllabusURL()))
-		case 25000: return (al25000Sprint01(URLParameters.classSyllabusURL()))
+		case 24500: return (al25000Sprint01(URLParameters.classSyllabusURL()))
 		case 44000: return (al44000Sprint01(URLParameters.classSyllabusURL()))
 		default: return (al20000Sprint01(URLParameters.classSyllabusURL()))
 	}

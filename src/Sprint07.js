@@ -10,7 +10,7 @@ export const Sprint07 = () => {
 	switch(courseNumber) {
 		case 20000: return (al20000Sprint07())
 		case 24700: return (al24700Sprint07())
-		case 25000: return (al25000Sprint07())
+		case 24500: return (al25000Sprint07())
 		case 44000: return (al44000Sprint07())
 		default: return (al20000Sprint07())
 	}

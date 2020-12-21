@@ -13,7 +13,25 @@ export class Test extends React.Component {
 
 <p>Parameter ID: {this.props.match.params.id}</p>
 <br />
-<h4>Class Links:</h4>
+<h4>Spring 2021 Class Links:</h4><br />
+<h5>Introduction to Computer Science</h5>
+<h6>20000-spring-2021-002:</h6>
+{localAndGlobalLink('?cpsc=20000-spring-2021-002#/sprint-1')}
+
+<h5>Object-Oriented Programming</h5>
+<h6>24500-spring-2021-001:</h6>
+{localAndGlobalLink('?cpsc=24500-spring-2021-001#/sprint-1')}
+
+<h5>Applied Programming Languages</h5>
+<h6>24500-spring-2021-001:</h6>
+{localAndGlobalLink('?cpsc=33000-spring-2021-001#/sprint-1')}
+
+<h5>Software Engineering</h5>
+<h6>44000-spring-2020-001:</h6>
+{localAndGlobalLink('?cpsc=44000-spring-2021-001#/sprint-1')}
+<br /><br /><br />
+
+<h4>Depreciated Fall 2020 Class Links</h4>
 <h5>Introduction to Computer Science</h5> 
 <h6>20000-fall-2020-002:</h6>
 {localAndGlobalLink('?cpsc=20000-fall-2020-002#/sprint-1')}
@@ -26,7 +44,7 @@ export class Test extends React.Component {
 {localAndGlobalLink('?cpsc=24700-fall-2020-001#/sprint-1')}
 
 <h5>Software Engineering</h5>
-<h6>44000-fall-2020-001:</h6>
+<h6>44000-spring-2020-001:</h6>
 {localAndGlobalLink('?cpsc=44000-fall-2020-001#/sprint-1')}
 
 <br /><br />
@@ -40,13 +58,15 @@ export class Test extends React.Component {
 <a href='https://www.lewis.education/version'>https://www.lewis.education/version</a><br />
 <a href='http://localhost:3000/version'>http://localhost:3000/version</a>
 <br /><br />
+{localAndGlobalLink('?cpsc=44000-spring-2021-001#/sprint-1')}
+{localAndGlobalLink('?cpsc=44000-spring-2021-001#/welcome')}
+{localAndGlobalLink('?cpsc=44000-sprint-2021-001&hide-nav=y#/sprint-1')}
+
 {localAndGlobalLink('?cpsc=20000-fall-2020-002#/sprint-1')}
 {localAndGlobalLink('?cpsc=24700-fall-2020-001#/sprint-1')}
 {localAndGlobalLink('?cpsc=25000-fall-2020-001#/sprint-1')}
 {localAndGlobalLink('?cpsc=44000-fall-2020-001#/sprint-1')}
-
 {localAndGlobalLink('?cpsc=44000-fall-2020-001#/welcome')}
-{localAndGlobalLink('?cpsc=44000-fall-2020-001#/sprint-1')}
 {localAndGlobalLink('?cpsc=44000-fall-2020-001&hide-nav=y#/sprint-1')}
 {localAndGlobalLink('?cpsc=24700-fall-2020-001#/sprint-1')}
 {localAndGlobalLink('#/calendar/0')}

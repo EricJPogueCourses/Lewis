@@ -50,6 +50,11 @@ export const courseNumber = () => {
 export const classSyllabusURL = () => { 
 	let classReference = cpsc()
 	switch(classReference) {
+		case '20000-spring-2021-002': return 'https://botb.blob.core.windows.net/nvm4zqwm/v1qshz2j-syllabus-cpsc-20000-002.pdf'
+		case '24500-spring-2021-001': return 'https://botb.blob.core.windows.net/nvm4zqwm/o2sla524-syllabus-cpsc-24500-001.pdf'
+		case '36000-spring-2021-001': return 'https://botb.blob.core.windows.net/nvm4zqwm/se3c5q62-syllabus-cpsc-36000-001.pdf'
+		case '44000-spring-2021-001': return 'https://botb.blob.core.windows.net/nvm4zqwm/ps6xfphd-syllabus-cpsc-44000-001.pdf'
+
 		case '20000-fall-2020-002': return 'https://botb.blob.core.windows.net/nvm4zqwm/qknzei8k-syllabus.pdf'
 		case '20000-fall-2020-003': return 'https://botb.blob.core.windows.net/nvm4zqwm/qy0o0w0u-syllabus.pdf'
 		case '24700-fall-2020-001': return 'https://botb.blob.core.windows.net/nvm4zqwm/mrvgacu2-syllabus.pdf'
@@ -64,11 +69,17 @@ export const classSyllabusURL = () => {
 export const title = () => { 
 	let classReference = cpsc()
 	switch(classReference) {
+		case '20000-spring-2021-002': return 'Introduction to Computer Science'
+		case '24500-spring-2021-001': return 'Object-Oriented Programming'
+		case '36000-spring-2021-001': return 'Applied Programming Languages'
+		case '44000-spring-2021-001': return 'Software Engineering'
+
+		// Depreciated classes.
 		case '20000-fall-2020-002': return 'Introduction to Computer Science'
 		case '20000-fall-2020-003': return 'Introduction to Computer Science'
 		case '24700-fall-2020-001': return 'Web and Distributed Programming'
 		case '44000-fall-2020-001': return 'Software Engineering'
-		case '44000-spring-2021-001': return 'Software Engineering'
+
 
 		default:
 			console.log('Warning: Class title not found (class='+classReference+')') 

@@ -63,6 +63,4 @@ class SprintCalendar extends Component {
 	}
 }
 
-
-
 export { SprintCalendar }

@@ -60,6 +60,24 @@ export class SprintClassActivities extends Component {
 		return (<tr><td>{SprintDates.CSTDate(activityDate,false,false)}</td><td>{activity}</td></tr>)
 	}
 
+	renderScheduleTuesdayThursdayForSprint1 = (dates) => {
+		return (
+			<div>
+				<h5>Class Activity Schedule</h5>
+				<Table striped bordered hover>
+					<thead><tr><th>Day</th><th>Activity</th></tr></thead>
+					<tbody>
+					{this.renderActivityRow(SprintDates.incrementDate(dates.start,1),'Introductions & Sprint Planning')}
+						{this.renderActivityRow(SprintDates.incrementDate(dates.start,3),'Chapter Discussion, Discussion Board, and Lab')}
+						{this.renderActivityRow(SprintDates.incrementDate(dates.start,8),'Lab & Quiz')}
+						{this.renderActivityRow(SprintDates.incrementDate(dates.start,10),'Lab')}
+					</tbody>
+				</Table>
+				<em style={{color:'red'}}>Everything is due {SprintDates.CSTDate(dates.end,true,true)}</em>
+			</div>
+		)
+	}
+
 	renderScheduleTuesdayThursday = (dates) => {
 		return (
 			<div>
@@ -91,6 +109,27 @@ export class SprintClassActivities extends Component {
 					</tbody>
 				</Table>
 				<em style={{color:'red'}}>Everything is due {SprintDates.CSTDate(dates.end,true,true)}</em>
+			</div>
+		)
+	}
+
+
+	renderScheduleMondayWednesdayFridayForSprint1 = (dates) => {
+		return (
+			<div>
+				<h5>Class Schedule</h5>
+				<Table striped bordered hover>
+					<thead><tr><th>Day</th><th>Activity</th></tr></thead>
+					<tbody>
+						{this.renderActivityRow(SprintDates.incrementDate(dates.start,0),'No class')}
+						{this.renderActivityRow(SprintDates.incrementDate(dates.start,2),'Introductions & Sprint Planning')}
+						{this.renderActivityRow(SprintDates.incrementDate(dates.start,4),'Discussion Board & Lab')}
+						{this.renderActivityRow(SprintDates.incrementDate(dates.start,7),'Chapter Discussion')}
+						{this.renderActivityRow(SprintDates.incrementDate(dates.start,9),'Quiz')}
+						{this.renderActivityRow(SprintDates.incrementDate(dates.start,11),'Lab')}
+					</tbody>
+				</Table>
+				<em>Everything is due {SprintDates.CSTDate(dates.end,true,true)}</em>
 			</div>
 		)
 	}
@@ -142,7 +181,23 @@ export class SprintClassActivities extends Component {
 		let calendar = SprintDates.sprintCalendarFromURL()
 		let dates = calendar[sprint-1]
 
-		if (sprint < 8) {
+		if (sprint === 1) {
+			if (SprintDates.tuesdayThursdayClass()) {
+				return (
+					<div>
+						{this.renderSprintScheduleHeader(sprint,calendar)}
+						{this.renderScheduleTuesdayThursdayForSprint1(dates)}
+					</div>
+				)
+			} else {
+				return (
+					<div>
+						{this.renderSprintScheduleHeader(sprint,calendar)}
+						{this.renderScheduleMondayWednesdayFridayForSprint1(dates)}
+					</div>
+				)
+			}
+		} else if (sprint < 8) {
 			if (SprintDates.tuesdayThursdayClass()) {
 				return (
 					<div>
