@@ -42,9 +42,9 @@ listed in the order I think will be the most beneficial for you to work through 
 take 20 to 40 minutes of focused time unless otherwise noted. Highlighted activities are <em>directly</em> related to 
 graded assignments.</p>
 <ol>
-	<li>Review course syllabus<a href={syllabusURL}>[link]</a></li>
 	<li>Maintain laser focus on due dates by reviewing our course calendar<NavLink to='/calendar/1'>[link]</NavLink></li>	
-	<li>Understand Blended Learning by reviewing “Blended Learning & Flipped Classroom”<NavLink to='/activity/blended-learning'>[video]</NavLink></li>
+	<li>Review course syllabus<a href={syllabusURL}>[link]</a></li>
+	<li>Understand Blended Learning by reviewing “Blended Learning &amp; Flipped Classroom”<NavLink to='/activity/blended-learning'>[video]</NavLink></li>
 	<li>Be prepared to participate in a Scrum team by watching “Introduction to Scrum in 7 Minutes”<NavLink to='/activity/scrum-in-7-minutes'>[video]</NavLink></li>
 	<li><em>Review sprint 1 assignments including introduction, lab 1, quiz 1, discussion 1, and reflection 1</em></li>	
 	<li>Start early and consistently work on Lab 1 and Quiz 1 throughout the sprint</li>
