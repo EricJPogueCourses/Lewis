@@ -73,7 +73,7 @@ export class SprintClassActivities extends Component {
 						{this.renderActivityRow(SprintDates.incrementDate(dates.start,10),'Lab')}
 					</tbody>
 				</Table>
-				<em style={{color:'red'}}>Everything is due {SprintDates.CSTDate(dates.end,true,true)}</em>
+				<em>Everything is due {SprintDates.CSTDate(dates.end,true,true)}</em>
 			</div>
 		)
 	}
@@ -112,7 +112,6 @@ export class SprintClassActivities extends Component {
 			</div>
 		)
 	}
-
 
 	renderScheduleMondayWednesdayFridayForSprint1 = (dates) => {
 		return (
@@ -157,17 +156,17 @@ export class SprintClassActivities extends Component {
 	renderScheduleMondayWednesdayFridayForSprint8 = (dates) => {
 		return (
 			<div>
-					<h5>Class Activity Schedule</h5>
-					<Table striped bordered hover>
-						<thead><tr><th>Day</th><th>Activity</th></tr></thead>
-						<tbody>
-							{this.renderActivityRow(SprintDates.incrementDate(dates.start,0),'Sprint Planning')}
-							{this.renderActivityRow(SprintDates.incrementDate(dates.start,2),'Demos, Retrospective, and Chapter Discussion')}
-							{this.renderActivityRow(SprintDates.incrementDate(dates.start,4),'Lab & Quiz')}
-							{this.renderActivityRow(SprintDates.incrementDate(dates.start,7),'Finals Exams Begin (no regular classes)')}
-						</tbody>
-					</Table>
-					<em style={{color:'red'}}>Everything is due {SprintDates.CSTDate(dates.end,true,true)}</em>
+				<h5>Class Activity Schedule</h5>
+				<Table striped bordered hover>
+					<thead><tr><th>Day</th><th>Activity</th></tr></thead>
+					<tbody>
+						{this.renderActivityRow(SprintDates.incrementDate(dates.start,0),'Sprint Planning')}
+						{this.renderActivityRow(SprintDates.incrementDate(dates.start,2),'Demos, Retrospective, and Chapter Discussion')}
+						{this.renderActivityRow(SprintDates.incrementDate(dates.start,4),'Lab & Quiz')}
+						{this.renderActivityRow(SprintDates.incrementDate(dates.start,7),'Finals Exams Begin (no regular classes)')}
+					</tbody>
+				</Table>
+				<em style={{color:'red'}}>Everything is due {SprintDates.CSTDate(dates.end,true,true)}</em>
 			</div>
 		)
 	}
