@@ -6,14 +6,15 @@ export const sprintCalendarFromURL = () => {
 		// Spring 2021 classes.
 		case '20000-spring-2021-002': return sprintCalendar('2021-01-18-16')
 		case '24500-spring-2021-001': return sprintCalendar('2021-01-18-16')
-		case '33000-spring-2021-001': return sprintCalendar('2021-01-18-16')
+		case '36000-spring-2021-001': return sprintCalendar('2021-01-18-16')
 		case '44000-spring-2021-001': return sprintCalendar('2021-01-18-16')
 
-		case '25000-spring-2020-001': return sprintCalendar('2020-01-13-16')
 		case '20000-fall-2020-002': return sprintCalendar('2020-08-31-16')
 		case '20000-fall-2020-003': return sprintCalendar('2020-08-31-16')
 		case '24700-fall-2020-001': return sprintCalendar('2020-08-31-16')
 		case '44000-fall-2020-001': return sprintCalendar('2020-08-31-16')
+
+		case '25000-spring-2020-001': return sprintCalendar('2020-01-13-16')
 
 		default:
 			console.log('Error: Course start date and duration not found! (cpsc='+cpsc+')') 
@@ -24,7 +25,7 @@ export const sprintCalendarFromURL = () => {
 export const tuesdayThursdayClass = () => {
 	let cpsc = URLParameters.cpsc()
 	switch(cpsc) {
-		case '33000-spring-2021-001': return true;
+		case '36000-spring-2021-001': return true;
 		case '44000-spring-2021-001': return true;
 		default: return false;
 	}
@@ -77,7 +78,6 @@ export const sprintCalendar = (startDateAndDuration) => {
 
 	console.log('Fatal Error: sprintCalendar() called with invalid start date and duration')
 	return sprintCalendar_2020_01_13_16;
-
 }
 
 export const CSTDate = (dateIn, includeYear, includeTime) => {

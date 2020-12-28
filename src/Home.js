@@ -9,7 +9,7 @@ export class Home extends React.Component {
 <h5>Welcome to Sprint 2021 at Lewis.education!</h5>
 <br />
 <h5>Software Engineering:</h5>
-<h6>TTh 11am  noon CT (001)<a href= 'https://www.lewis.education/?cpsc=44000-spring-2021-001/#/sprint-1'>[link]</a></h6>
+<h6>TTh 11am  noon CT (001)<a href= 'https://www.lewis.education/?cpsc=44000-spring-2021-001#/sprint-1'>[link]</a></h6>
 <br /><br /><br />
 
 <h5>Depreciated Fall 2020 at Lewis.education links!</h5>

@@ -1,23 +1,23 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
 
-export const al44000Sprint01 = (syllabusURL) => {
+export const al36000Sprint01 = (syllabusURL) => {
 	return (
 
 <div>
-<h4>Software Engineering</h4>
-<h5>Sprint 1: Getting Started, Software Engineering Life Cycles, Software as a Service, and Tools of the Trade</h5>
-<p><em>Welcome to Software Engineering!</em> By this point in your software development journey I'm sure you are 
-confident in writing moderately complicated software programs. You’ve learned about structured programming techniques 
-like sequence, selection, and repetition. You've learned how to break complicated programs down into more manageable 
-pieces by using functions. You even understand how Object-Oriented Programming can help you develop more complex
-applications by utilizing encapsulation, inheritance, and polymorphism.</p>
+<h4>Applied Programming Languages</h4>
+<h5>Sprint 1: Getting Started, Programming Languages, Go, and Tools of the Trade</h5>
+<p><em>Welcome to Applied Programming Languages!</em> By this point in your software development journey I'm sure you 
+are confident in writing moderately complicated software programs. You’ve learned about structured programming 
+techniques like sequence, selection, and repetition. You've learned how to break complicated programs down into more 
+manageable pieces by using functions, files, and modules. You even understand how Object-Oriented Programming can help 
+you develop more complex applications by utilizing encapsulation, inheritance, and polymorphism.</p>
 
-<p>That’s wonderful, however to create sophisticated modern programs we need to master some additional skills that 
-allow us to effectively work in and across teams to predictably develop, enhance, and maintain complex systems that 
-meet real users needs. These additional Software Engineering skills are included in what we call the Software 
-Development Life Cycle and include topics like Project Management, Architecture, Requirements, Testing, Support, and 
-Maintenance. These are some of the topics that we will be exploring as part of this Software Engineering course.</p>
+<p>That’s wonderful. However, is it possible that many things in software development are not as clear cut as we have 
+made it out to be? Could it be that some things we learned in Object-Oriented Programming added unnecessary complexity? 
+Could it be that the world of Scrum development and the power of multithreaded programming have elevated automated 
+testing and concurrency to a level that makes new software development languages justifiable? These are just some of the 
+topics that we will explore in our Applied Programming Languages class.</p>
 
 <p>You likely noticed that I am using the term “sprint 1” to describe our first set of course activities. Sprints are 
 part of the Scrum software development process. The term is used to describe a unit of work which we have committed to
@@ -30,11 +30,10 @@ need to complete the activities by the sprint 1 end date listed on our course ca
 By the end of sprint 1 we will be able to:</p>
 <ul style={{listStyleType:'square'}}>
 	<li>Effectively participate in a blended classroom environment and as part of a Scrum team</li>
-	<li>Compare and contrast the steps in leading Software Development Life Cycles</li>
-	<li>Explain why agile development has become the preferred software development process</li>
-	<li>Describe the benefits of software as a service and cloud computing</li>
-	<li>Describe client-server, three-tier and MVC design patterns</li>
-	<li>Utilize leading developer tools to create and update software applications</li>
+	<li>Compare and contrast key software development language and environment features</li>
+	<li>Explain why agile development and scrum have impacted our choice of programming languages</li>
+	<li>Explain why the prevalence of multithreaded programming has impacted our choice of programming languages</li>
+	<li>Begin to understand the Go language and how it compares with other languages</li>
 </ul>
 
 <p>Below is our sprint 1 activities list. Although you are welcome to pursue the activities in any order, they are
@@ -48,17 +47,13 @@ graded assignments.</p>
 	<li>Be prepared to participate in a Scrum team by watching “Introduction to Scrum in 7 Minutes”<NavLink to='/activity/scrum-in-7-minutes'>[video]</NavLink></li>
 	<li><em>Review sprint 1 assignments including introduction, lab 1, quiz 1, discussion 1, and reflection 1</em></li>	
 	<li>Start early and consistently work on Lab 1 and Quiz 1 throughout the sprint</li>
-	<li>Add your photo to your Blackboard profile<NavLink to='/activity/photo-to-blackboard'>[video]</NavLink></li>
-	<li>Read Chapter 1 of “Engineering Software as a Service: An Agile Approach Using Cloud Computing” by Armando Fox
-		and David Patterson (Fox) and review our Chapter 1 lecture<NavLink to='/activity/fox-chapter-01'>[video]</NavLink> ~2 hours</li>
-	<li><em>Complete the Introduction assignment by making your post and responding to at least two of your classmates' posts</em></li>
 	<li>Complete “Tools of the Trade” parts 1 and 2<NavLink to='/activity/tools'>[link]</NavLink> ~3 hours</li>
+	<li>Add your photo to your Blackboard profile<NavLink to='/activity/photo-to-blackboard'>[video]</NavLink></li>
+	<li>Recall signing up for your free O’Reilly online books subscription in “Tools of the Trade”<a href='https://www.oreilly.com' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+	<li>Read “Introducing Go” chapters 1 though 4<a href='https://learning.oreilly.com/library/view/introducing-go/9781491941997/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+	<li><em>Complete the Introduction assignment by making your post and responding to at least two of your classmates' posts</em></li>
 	<li><em>Make your initial Discussion 1 post by the middle of the sprint</em></li>
 	<li>Complete “Hello World with Python”<NavLink to='/activity/hello-world-python'>[link]</NavLink></li>
-	<li>Review everything that came before Chapter 1 including Preface in our Fox textbook and review associated lecture<NavLink to='/activity/fox-chapter-00'>[video]</NavLink></li>
-	<li>Read Chapter 2 of Fox and review our class lecture on Chapter 2<NavLink to='/activity/fox-chapter-02'>[video]</NavLink></li>
-	<li>Complete “HTML Programming - Part 1” from W3C<NavLink to='/activity/html'>[link]</NavLink> ~2 hours</li>
-	<li>Complete “My Favorite Hobby”<NavLink to='/activity/favorite-hobby'>[link]</NavLink>~2 hours</li>
 	<li><em>Complete Discussion 1 by responding to at least two of your classmates’ posts</em></li>
 	<li><em>Submit Lab 1, Quiz 1, and Reflection 1</em></li>
 </ol>
