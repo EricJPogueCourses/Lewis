@@ -32,7 +32,7 @@ listed in the order I think will be the most efficient to complete. Expect each 
 focused time unless otherwise noted. <em>Bold</em> items are graded assignments.</p>
 <ol>
 	<li>Review course syllabus<a href={syllabusURL}>[link]</a></li>
-	<li>Maintain laser focus on due dates by reviewing our course calendar<NavLink to='/calendar/1'>[link]</NavLink></li>
+	<li>Maintain laser focus on due dates by reviewing our sprint calendar<NavLink to='/calendar/1'>[link]</NavLink></li>
 	<li>Understand Blended Learning by reviewing “Blended Learning & Flipped Classroom”<NavLink to='/activity/blended-learning'>[video]</NavLink></li>
 	<li>Be prepared to participate in a Scrum team by watching “Introduction to Scrum in 7 Minutes”<NavLink to='/activity/scrum-in-7-minutes'>[video]</NavLink></li>
 	<li><em>Review sprint 1 assignments including Introduction, Lab 1, Quiz 1, Discussion 1, and Reflection 1</em></li>
@@ -49,7 +49,8 @@ focused time unless otherwise noted. <em>Bold</em> items are graded assignments.
 	<li><em>Complete Discussion 1 by responding to at least two of your classmates’ posts</em></li>
 	<li><em>Submit Lab 1, Quiz 1, and Reflection 1</em></li>
 </ol>
-<p>Be sure to start activities and assignments early and to reward yourself when you reach significant milestones.</p>
+<p>The best advise that I can give you for this class is to start assignments early and to always submit something. If 
+you do these two things, your success is virtually guaranteed.</p>
 </div>
 
 	)

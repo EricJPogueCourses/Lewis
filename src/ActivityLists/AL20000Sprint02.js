@@ -36,7 +36,6 @@ efficient for you and the <em>bold</em> items are graded assignments.</p>
 	<li><em>Make your initial Discussion 2 post by the middle of the sprint</em></li>
 	<li>Complete “HTML Programming - Part 1” from W3C<NavLink to='/activity/html'>[link]</NavLink>~4 hours</li>
 	<li>Complete “Getting to Know Each Other”<NavLink to='/activity/getting-to-know-each-other'>[link]</NavLink></li>
-	<li>Read Chapter 4 of Dale and review the associated lecture <NavLink to='/activity/dale-chapter-04'>[video]</NavLink></li>	
 	<li><em>Complete Discussion 2 by responding to at least two of your classmates’ posts</em></li>
 	<li><em>Submit Lab 2, Quiz 2, and Reflection 2</em></li>
 </ol>

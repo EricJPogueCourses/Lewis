@@ -20,7 +20,7 @@ install, configure, and utilize many tools and services. By the end of this tuto
 <p>Part 1 - In part one of the tutorial:</p>
 <ol>
 	<li>Sign up for Discord to allow your scrum team effectively communicate<a href='https://discord.com/' target='_blank' rel='noopener noreferrer'>[discord]</a></li>
-	<li>Sign up for O’Reilly Books service which is available free through Lewis University<a href='https://www.oreilly.com/library/view/temporary-access/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+	<li>Sign up for O’Reilly Books which is available free through Lewis University<a href='https://www.oreilly.com/library/view/temporary-access/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li>Install FireFox<a href='https://www.mozilla.org/en-US/firefox/new/' target='_blank' rel='noopener noreferrer'>[link]</a>and Chrome<a href='https://www.google.com/chrome/' target='_blank' rel='noopener noreferrer'>[link]</a>web browsers</li> 
 	<li>Install Visual Studio Code source code editor<a href='https://code.visualstudio.com/' target='_blank' rel='noopener noreferrer'>[link]</a><NavLink to='/activity-config/mscode-and-chrome-windows10-setup'>[video]</NavLink></li>
 	<li>Install the Visual Studio Code and the Python 3 programming environment<a href='https://code.visualstudio.com/docs/python/python-tutorial' target='_blank' rel='noopener noreferrer'>[link]</a></li>
@@ -31,21 +31,21 @@ install, configure, and utilize many tools and services. By the end of this tuto
 		Terminal (MacOS)<NavLink to='/activity-config/macos-setup-terminal-finder-and-git'>[video]</NavLink>to 
 		manage folders, files, zip files, and hidden folders/files</li>
 	<li>Utilize Windows or MacOS screen capture<a href='https://www.theverge.com/2019/11/8/20953522/how-to-take-screenshot-mac-windows-pc-iphone-android' target='_blank' rel='noopener noreferrer'>[link]</a></li>
-	<li>Sign up for the MS Azure cloud service for Students utilizing your Lewis University Office 365 credentials<a href='https://azure.microsoft.com/en-us/free/students/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 </ol>
 
 <p>Part 2 - In part two of the tutorial:</p>
 <ol>
-	<li>Install the Git command line client<a href='https://git-scm.com/'>[link]</a><NavLink to='/activity-config/git-installation-on-windows-10'>[video]</NavLink></li>
+	<li>Sign up for the MS Azure cloud service for Students utilizing your Lewis University Office 365 credentials<a href='https://azure.microsoft.com/en-us/free/students/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li>Sign up for the GitHub cloud source code management service utilizing the Student Developer Pack<a href='https://help.github.com/en/articles/applying-for-a-student-developer-pack' target='_blank' rel='noopener noreferrer'>[link]</a></li>
-		<li>Configure and utilize your GitHub account and Git client to:
+	<li>Install the Git command line client<a href='https://git-scm.com/'>[link]</a><NavLink to='/activity-config/git-installation-on-windows-10'>[video]</NavLink></li>
+	<li>Configure and utilize your GitHub account and Git client to:
 		<ul style={{ listStyleType: 'square' }}>
 			<li>Complete the “An Intro to Git and GitHub for Beginners” tutorial from the GitHub website<a href='https://guides.github.com/activities/hello-world/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 			<li>Complete the “An Intro to Git and GitHub for Beginners” tutorial from HubSpot<a href='https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 			<li>Review the “Git Handbook”<a href='https://guides.github.com/introduction/git-handbook/' target='_blank' rel='noopener noreferrer'>[link]</a>
 			and the “GitHub Git Cheat Sheet”<a href='https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf' target='_blank' rel='noopener noreferrer'>[link]</a></li> 
 		</ul></li>
-	<li>Install Node.js and NPM<a href='https://nodejs.org/en/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+	<li>Optionally install and verify Node.js and NPM<a href='https://nodejs.org/en/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li>Optionally install and verify Java Open SDK<a href='https://docs.microsoft.com/en-us/java/azure/jdk/?view=azure-java-stable' target='_blank' rel='noopener noreferrer'>[link]</a>
 		<NavLink to='/activity-config/java-jdk-windows10-setup'>[video]</NavLink></li>
 	<li>Optionally install and verify the Go language environment<a href='https://golang.org/' target='_blank' rel='noopener noreferrer'>[link]</a> </li>

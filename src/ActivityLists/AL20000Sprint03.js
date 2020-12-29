@@ -29,9 +29,9 @@ algorithms.</p>
 		them on <em>all</em> activities and assignments</li>
 	<li>Start early and consistently work on Lab 3 and Quiz 3 throughout the sprint</li>
 	<li>Complete “HTML Programming - Part 2” from W3C<NavLink to='/activity/html'>[link]</NavLink>~4 hours</li>
+	<li>Read Chapter 4 of Dale and review the associated lecture <NavLink to='/activity/dale-chapter-04'>[video]</NavLink></li>	
 	<li>Read Chapter 5 of “Computer Science Illuminated” by Nell Dale and John Lewis (Dale) and review the associated   
 		lecture <NavLink to='/activity/dale-chapter-05'>[video]</NavLink></li>
-	<li>Read Chapter 6 of Dale and review the associated lecture <NavLink to='/activity/dale-chapter-06'>[video]</NavLink></li>	
 	<li><em>Make your initial Discussion 3 post by the middle of the sprint</em></li>
 	<li>Review Git Cheat Sheet from GitHub<a href='https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf'
 		target='_blank' rel='noopener noreferrer'>[link]</a></li>

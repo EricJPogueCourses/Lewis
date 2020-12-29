@@ -25,19 +25,18 @@ Together we will also explore algorithms, abstractions, computational problem so
 listed in the order I think will be the most efficient to complete. Expect each item to take 20 to 40 minutes of 
 focused time unless otherwise noted. <em>Bold</em> items are graded assignments.</p>
 <ol>
-	<li>Maintain laser focus on due dates by reviewing our calendar<NavLink to='/calendar/1'>[link]</NavLink></li>
+	<li>Maintain laser focus on due dates by reviewing our sprint calendar<NavLink to='/calendar/1'>[link]</NavLink></li>
 	<li>Review course syllabus<a href={syllabusURL}>[link]</a></li>
 	<li>Understand Blended Learning by reviewing “Blended Learning &amp; Flipped Classroom”<NavLink to='/activity/blended-learning'>[video]</NavLink></li>
 	<li>Be prepared to participate in a Scrum team by watching “Introduction to Scrum in 7 Minutes”<NavLink to='/activity/scrum-in-7-minutes'>[video]</NavLink></li>
 	<li><em>Review sprint 1 assignments including Introduction, Lab 1, Quiz 1, Discussion 1, and Reflection 1</em></li>
-	<li>Start early and consistently work on assignments throughout the sprint</li>
 	<li>Start “Tools of the Trade - Part 1”<NavLink to='/activity/tools'>[link]</NavLink>by setting up Discord and O’Reilly Books</li>
 	<li><em>Complete the Introduction assignment by making your post and responding to at least two of your classmates</em></li>
 	{/* The above items should be consistent and complete by the end of the second class session. */ }
 
 	<li>Recall signing up for your O’Reilly Books<a href='https://www.oreilly.com' target='_blank' rel='noopener noreferrer'>[link]</a></li>
-	<li>Read Chapter 5 of “Computer Science Illuminated”<a href='https://learning.oreilly.com/library/view/computer-science-illuminated/9781284055917/' target='_blank' rel='noopener noreferrer'>[link]</a> 
-		by Nell Dale and John Lewis (Dale) and review the associated lecture<NavLink to='/activity/dale-chapter-05'>[video]</NavLink></li>
+	<li>Read “Computer Science Illuminated”<a href='https://learning.oreilly.com/library/view/computer-science-illuminated/9781284055917/' target='_blank' rel='noopener noreferrer'>[link]</a> 
+		Chapter 11 on File Systems and Directories and review the associated lecture<NavLink to='/activity/dale-chapter-11'>[video]</NavLink></li>
 
 	<li>Add a representative photo of yourself to your Blackboard and Zoom profiles<NavLink to='/activity/photo-to-blackboard'>[video]</NavLink></li>
 	<li><em>Make your initial Discussion 1 post by the middle of the sprint</em></li>
