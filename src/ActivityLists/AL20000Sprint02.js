@@ -29,6 +29,8 @@ efficient for you and the <em>bold</em> items are graded assignments.</p>
 		them on all activities and assignments</li>
 	<li>Start early and consistently work on Lab 2 and Quiz 2 throughout the sprint</li>
 	<li>Complete “Tools of the Trade - Part 2” ~3 hours <NavLink to='/activity/tools'>[link]</NavLink></li>
+	<li>Read Chapter 2 of “Computer Science Illuminated” by Nell Dale and John Lewis and chapter 2 lecture<NavLink to='/activity/dale-chapter-02'>[video]</NavLink></li>
+	<li>Complete “Numbering Systems with Python”<NavLink to='/activity/numbering-systems-python'>[link]</NavLink></li>
 	<li>Read Chapter 3 of “Computer Science Illuminated” by Nell Dale and John Lewis (Dale) and review the associated   
 		lecture <NavLink to='/activity/dale-chapter-03'>[video]</NavLink></li>
 	<li><em>Make your initial Discussion 2 post by the middle of the sprint</em></li>

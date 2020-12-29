@@ -8,7 +8,7 @@ export const PythonHelloWorld = () => {
 <div>
 
 <h4>Hello World with Python</h4>
-<h5>Summary: Convert between various Numbering Systems utilizing Python</h5>
+<h5>Summary: Create and execute a Python application that prints “Hello World” to the terminal</h5>
 <h5>Prerequisites: Python (v3), VS Code, and Terminal</h5>
 			
 <p>Instructions: Complete Hello World using the following video tutorial as a guide. As in all tutorials, you 

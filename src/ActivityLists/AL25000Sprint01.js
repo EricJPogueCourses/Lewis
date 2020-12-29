@@ -1,26 +1,27 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
 
-export const al25000Sprint01 = () => {
+export const al25000Sprint01 = (syllabusURL) => {
 	return (
 
 <div>
 <h4>Object-Oriented Programming</h4>
 <h5>Sprint 1: Getting Started, Concepts, Patterns, and Tools of the Trade</h5>
 
-<p><em>Welcome to Object-Oriented Programming!</em> By this point in your programming journey I'm sure that you are 
-confident in writing basic software programs. You've learned about structured programming techniques like sequence, 
-selection, and repetition. You've learned how to break complicated programs down into more manageable pieces by using 
-functions. That's great, but to create modern programs you need to master some additional skills. These additional skills 
-are what object-oriented programming give us.</p>
+<p><em>Welcome to Object-Oriented Programming!</em> By this point in your software development journey I’m sure that 
+you are confident in writing basic software programs. You’ve learned about structured programming techniques like 
+sequence, selection, and repetition. You've learned how to break complicated programs down into more manageable pieces 
+by using functions. That’s great, but to create modern programs you need to master some additional skills. These 
+additional skills are what object-oriented programming give us.</p>
 
-<p>You have likely noticed that I am using the term “sprint 1” to describe our first set of course activities and
-assignments. Sprints are part of the Scrum development process. The term is used to describe a unit of work which will
-be delivered in a given amount of time. We will be learning more about sprints and Scrum in the coming days. For now
-it is sufficient to know that our sprint 1 activities listed below are expected to take approximately 20 hours of
-focused effort to complete.</p>
+<p>You likely noticed that I am using the term “sprint 1” to describe our first set of course activities. Sprints are 
+part of the Scrum software development process. The term is used to describe a unit of work which we have committed to
+delivering by a given date. We will be learning more about sprints and Scrum in the coming days. For now it is 
+sufficient to know that our sprint 1 activities will take approximately 20 hours of focused effort to complete, and we 
+need to complete the activities by the sprint 1 end date listed on our course calendar 
+<NavLink to='/calendar/1'>[link]</NavLink>.</p>
 
-<p>Let's start with what we hope to learn in sprint 1. By the end of sprint 1 we will be able to:</p>
+<p>Let's start with our sprint 1 Learning Objectives. By the end of sprint 1 we will be able to:</p>
 <ul style={{ listStyleType: 'square' }}>
 	<li>Effectively participate in a blended classroom environment and as part of a Scrum team</li>
 	<li>Identify and understand key object-oriented programming concepts</li>
@@ -29,28 +30,37 @@ focused effort to complete.</p>
 </ul>
 
 <p>Below is our sprint 1 activities list. Although you are welcome to pursue the activities in any order, they are
-listed in the order I think will be the most beneficial for you to work through the topics. Each item is expected to
-take 20 to 40 minutes of focused time unless otherwise noted. <em>Highlighted activities are directly related to 
-graded assignments.</em></p>
+listed in the order I think will be the most efficient to complete. Expect each item to take 20 to 40 minutes of 
+focused time unless otherwise noted. <em>Bold</em> items are graded assignments.</p>
 <ol>
-	<li>Review course syllabus</li>
-	<li><em>Review Programming Assignment 1, Quiz 1, and Discussion Board 1</em></li>
-	<li>Complete Tools of the Trade<NavLink to='/tools'>[link]</NavLink></li>
-	<li>Understand how Blended Learning, Flipped Classroom, and Online class formats relate by reviewing 'Blended
-		Learning &amp; Flipped Classroom'<a href='https://www.youtube.com/watch?v=paQCE58334M&vl=en-US' target='_blank' rel='noopener noreferrer'>[video]</a></li>
-	<li>Review “Introduction to Scrum in 7 Minutes”<a href='https://www.youtube.com/watch?v=9TycLR0TqFA'>[video]</a></li>
+	<li>Maintain laser focus on due dates by reviewing our calendar<NavLink to='/calendar/1'>[link]</NavLink></li>
+	<li>Review course syllabus<a href={syllabusURL}>[link]</a></li>
+	<li>Understand Blended Learning by reviewing “Blended Learning &amp; Flipped Classroom”<NavLink to='/activity/blended-learning'>[video]</NavLink></li>
+	<li>Be prepared to participate in a Scrum team by watching “Introduction to Scrum in 7 Minutes”<NavLink to='/activity/scrum-in-7-minutes'>[video]</NavLink></li>
+	<li><em>Review sprint 1 assignments including Introduction, Lab 1, Quiz 1, Discussion 1, and Reflection 1</em></li>
+	<li>Start early and consistently work on assignments throughout the sprint</li>
+	<li>Start “Tools of the Trade - Part 1”<NavLink to='/activity/tools'>[link]</NavLink>by setting up Discord and O’Reilly Books</li>
+	<li><em>Complete the Introduction assignment by making your post and responding to at least two of your classmates</em></li>
+	{/* The above items should be consistent and complete by the end of the second class session. */ }
+
 	<li>Complete “Object-Oriented Programming Concepts and Practices”<NavLink to='/activity-oop/concepts-and-practices'>[video]</NavLink></li>
-	<li><em>Consistently work on Programming Assignment 1 and Quiz 1 throughout the sprint ~6 hours</em></li>
-	<li>Add your photo to your Blackboard profile<NavLink to='/activity/photo-to-blackboard'>[video]</NavLink></li>
-	<li>Complete the Java “Hello World” tutorial. As in all tutorials, you should follow along and complete the steps
-		yourself. As you go through the tutorial, you should make the resulting application uniquely your own by adding
-		standard comments at the top application (i.e. your name, class, etc.), changing the names of variables, adding
-		small features, etc. Finally, be sure to save your unique creation as I will often be asking you to submit it as
-		part of your programming assignment.<NavLink to='/activity-oop/java-hello-world'>[video]</NavLink></li>
+	<li>Recall signing up for your O’Reilly Books<a href='https://www.oreilly.com' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+	<li>Scan Chapters 1 and 2 of “Learning Java, 5th Edition”<a href='https://learning.oreilly.com/library/view/learning-java-5th/9781492056263/' target='_blank' rel='noopener noreferrer'>[link]</a> 
+		by Marc Loy, Patrick Niemeyer, Daniel Leuck</li>
+
+	<li>Add a representative photo of yourself to your Blackboard and Zoom profiles<NavLink to='/activity/photo-to-blackboard'>[video]</NavLink></li>
+	<li><em>Make your initial Discussion 1 post by the middle of the sprint</em></li>
 	<li>Complete “Object-Oriented Programming Patterns”<NavLink to='/activity-oop/patterns'>[video]</NavLink></li>
-	<li><em>Complete Discussion Board 1 by responding to at least one of your classmates' posts</em></li>
-	<li><em>Complete and submit Programming Assignment 1 and Quiz 1</em></li>
+	<li>Complete “Tools of the Trade” including Java<NavLink to='/activity/tools'>[link]</NavLink><sup> ~2 hours</sup></li>
+	<li>Complete “Hello World with Python”<NavLink to='/activity/hello-world-python'>[link]</NavLink></li>
+	<li>Complete “Hello World with Java”<NavLink to='/activity/hello-world-java'>[link]</NavLink></li>
+
+	<li><em>Complete Discussion 1 by responding to at least two of your classmates’ posts</em></li>
+	<li><em>Submit Lab 1, Quiz 1, and Reflection 1</em></li>
 </ol>
+
+<p>The best advise that I can give you for this class is to start assignments early and to always submit something. If 
+you do these two things, your success is virtually guaranteed.</p>\
 <p>Additional references:</p>
 	<ul style={{ listStyleType: 'square' }}>
 		<li>Sprint 1 recorded Lecture/Discussion session from a recent (2020) online Object-Oriented Programming class

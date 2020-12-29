@@ -25,6 +25,8 @@ import { WebMyFavoriteHobby } from './Activities/WebMyFavoriteHobby'
 import { WebCourseSchedule } from './Activities/WebCourseSchedule'
 import { WebMapManiaVersion1 } from './Activities/WebMapManiaVersion1'
 import { WebMapManiaVersion2 } from './Activities/WebMapManiaVersion2'
+import { JavaHelloWorld } from './Activities/JavaHelloWorld'
+import { GoHelloWorld } from './Activities/GoHelloWorld'
 
 export const videoLink = (header, url) => {
 	return ( <div><h5>{header}</h5><ReactPlayer url={url} controls={true} width={1024} height={576} /></div> )
@@ -114,6 +116,8 @@ class Activity extends Component {
 			case 'git-commands': return GitCommands()
 			case 'successful-programmer': return SuccessfulDeveloper()
 			case 'hello-world-python': return PythonHelloWorld()
+			case 'hello-world-java': return JavaHelloWorld()
+			case 'hello-world-go': return GoHelloWorld()
 			case 'numbering-systems-python': return PythonNumberingSystems()
 			case 'match-maker': return PythonMatchMaker()
 			case 'match-maker-examples': return PythonMatchMakerExamples()

@@ -12,8 +12,8 @@ export const PythonHealthRiskCalculator = () => {
 
 <br />
 <h4>Health Insurance Risk Calculator</h4>
-<h5>Summary: Create a Python application that will calculate the health risk for a new customer of an insurance company. 
-The application can be created as either a Terminal based Python application or as a Web application utilizing HTML, 
+<h5>Summary: Create a application that will calculate the health risk of a new customer of an insurance company. The 
+application can be created as either a Terminal based Python application or as a Web application utilizing HTML, 
 CSS, and JavaScript.
 </h5>
 <h5>Prerequisites:</h5>
