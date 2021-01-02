@@ -1,22 +1,29 @@
 
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-export const PythonMatchMaker = () => {
+
+export const MatchmakerGo = () => {
 	return (
-	
 <div>
 
 <br />
 <h4><span style={{color: "red"}}>&#10084;&#10084;&#10084;</span> Matchmaker <span style={{color: "red"}}>&#10084;&#10084;&#10084;</span></h4>
-<h5>Summary: Create a Python application that will determine your true love.</h5>
-<h5>Prerequisites: Python (v3), VS Code, Terminal, and the Python Debugger (optional) plus</h5>
-<ul style={{listStyleType:'square'}}>
-	<li>“Hello World with Python”<NavLink to='/activity/hello-world-python'>[link]</NavLink></li>
-	<li>“Numbering Systems with Python”<NavLink to='/activity/numbering-systems-python'>[link]</NavLink></li>
-</ul>
+<h5>Summary: Create a Go application that will determine your true love</h5>
+<h5>Prerequisites: Go, VS Code, and Terminal</h5>
+{Matchmaker('command-line application written in the Go language',
+	'Is implemented in a single Go (.go) file name “MatchMaker_xx.go” where “xx” are your initials in lower case',
+	'Successfully executes from the command line by typing “go MatchMaker_xx.go”'
+	)}
+</div>
+	)
+}
 
-<p>In this assignment you will develop and test a python application that asks questions to determine if a person is 
-your true love. More specifically your application should ask five questions in the form of statements and allow the 
+export const Matchmaker = (applicationType,requirement1_1,requirement1_2) => {
+	return (
+	
+<div>
+<p>In this assignment you will develop and test a {applicationType} that asks questions to determine if a person is your 
+true love. More specifically your application should ask five questions in the form of statements and allow the 
 user to respond to each statement with the numbers 1 through 5 with 1 indicating strongly disagree and 5 indicating 
 strongly agree. You will then compare the person’s answers with your desired “true love” answers. The closer the 
 answers are to your desired “true love” answers the better match the two of you are for each other.</p>
@@ -38,15 +45,16 @@ You utilize your programming knowledge, creativity, and good taste to set and ad
 and share the results to the user. Be sure to review and test your ideas for the application with a friend or classmate 
 to get some usability feedback.</p>
 
-<p>If you are looking for some examples of what this application might look like if Dr. Klump was creating it, you can 
-see it here <NavLink to='/activity/match-maker-examples'>[link]</NavLink>. I’m sure you can improve on his design. 
+<p>If you are looking for some examples of what this application might look like if it was a command line application 
+and Dr. Klump was creating it, you can see it here <NavLink to='/activity/match-maker-examples'>[link]</NavLink>. I’m 
+sure you can improve on his design. 
 </p>
 
 <em>Requirement 1</em>
-<p>Create a command-line Python application that:</p>
+<p>Create an application that:</p>
 <ol>
-	<li>Is implemented in a single Python3 (.py) file name “MatchMaker_xx.py” where “xx” are your initials in lower case</li>
-	<li>Successfully executes from the command line by typing “python3 MatchMaker_xx.py” </li>
+	<li>{requirement1_1}</li>
+	<li>{requirement1_2}</li>
 	<li>Has a simple yet an aesthetically pleasing user interface</li>
 	<li>Includes user instructions that succinctly describes the application and how it works</li>
 </ol>
@@ -55,7 +63,7 @@ see it here <NavLink to='/activity/match-maker-examples'>[link]</NavLink>. I’m
 <p>Be sure that application also:</p>
 <ol>
 	<li>Asks five questions as described above</li>
-	<li>Calculates the <em>weighted question compatibility score</em> score for each question</li>
+	<li>Calculates <em>question compatibility scores</em> and <em>weighted question compatibility scores</em> for each question</li>
 	<li>Calculates the total weighted compatibility scores across all questions</li>
 	<li>Calculates the total <em>compatibility score</em> across all questions</li>
 </ol>
@@ -63,15 +71,18 @@ see it here <NavLink to='/activity/match-maker-examples'>[link]</NavLink>. I’m
 <em>Requirement 3</em>
 <p>Enhance the application so that it:</p>
 <ol>
-	<li>Provides excellent end user instruction when the application starts</li>
-	<li>Validates user input, displays an meaningful error message, and asks the question again if the user enters 
-		something other than “1” through “5”</li>
+	<li>Displays a summary of each question’s compatibility score and weighted compatibility score</li>
+	<li>Displays a summary of the overall weighted compatibility score as a percentage</li>
+	<li>Displays an interesting closing remark based on predetermined compatibility ranges</li>
+	<li>Validates user input, displays meaningful error messages, and asks the question again if the user enters 
+		invalid text</li>
 </ol>
 
 <em>Requirement 4</em>
 <p>Finally test and refactor the application so that it:</p>
 <ol>
-	<li>Utilizes constants at the top of the file for <em>all</em> desired answers and question weightings</li>
+	<li>Utilizes constants at the top of the file or in a separate file for <em>all</em> desired answers, question weightings,
+		and compatibility ranges</li>
 	<li>Utilizes a single function called “validate” to validate user input and displays and error message for all questions</li>
 </ol>
 

@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import photo from './InfoEricPoguePhoto.png'
 
 export const InfoEricPogue = () => {
@@ -18,7 +19,11 @@ instructor.<br /><br />
 email me directly. History suggests that posts to our Class Forum get the quickest and highest 
 quality responses. However, if your question is of personal nature, email is your best alternative. 
 In either case, you can expect a maximum response time of 24 hours weekdays.</p>
+
 <p>If you need an immediate response, call my mobile phone.</p>
+<br /><br />
+<p>Need help with University Resources including the Office of Technology or the Library? Here is a good place to start
+<NavLink to='/getting-help'>[link]</NavLink></p>
 </div>
 
 	)

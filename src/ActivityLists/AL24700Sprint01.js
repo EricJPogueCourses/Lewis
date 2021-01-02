@@ -50,7 +50,7 @@ focused time unless otherwise noted. <em>Bold</em> items are graded assignments.
 	<li><em>Submit Lab 1, Quiz 1, and Reflection 1</em></li>
 </ol>
 <p>The best advise that I can give you for this class is to start assignments early and to always submit something. If 
-you do these two things, your success is virtually guaranteed.</p>
+you do these two things, I believe your success is virtually guaranteed.</p>
 </div>
 
 	)
