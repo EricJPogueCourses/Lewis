@@ -18,8 +18,8 @@ CSS, and JavaScript.
 </h5>
 <h5>Prerequisites:</h5>
 <ul style={{listStyleType:'square'}}>
-	<li>“Matchmaker” with Python<NavLink to='/activity/match-maker'>[link]</NavLink></li>
-	<li>Or “Matchmaker for the Web”<NavLink to='/activity/web-matchmaker'>[link]</NavLink></li>
+	<li>“Matchmaker with Python”<NavLink to='/activity/matchmaker-python'>[link]</NavLink></li>
+	<li>Or “Matchmaker for the Web”<NavLink to='/activity/matchmaker-web'>[link]</NavLink></li>
 </ul>
 
 <p>In this assignment, you will create a tool a health insurance company could use to determine the risk associated with 

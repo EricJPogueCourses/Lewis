@@ -26,7 +26,7 @@ sufficient to know that our sprint 1 activities will take approximately 20 hours
 need to complete the activities by the sprint 1 end date listed on our course calendar 
 <NavLink to='/calendar/1'>[link]</NavLink>.</p>
 
-<p>Let's start with our sprint 1 Learning Objectives. By the end of sprint 1 we will be able to:</p>>
+<p>Let's start with our sprint 1 Learning Objectives. By the end of sprint 1 we will be able to:</p>
 <ul style={{listStyleType:'square'}}>
 	<li>Effectively participate in a blended classroom environment and as part of a Scrum team</li>
 	<li>Compare and contrast the steps in leading Software Development Life Cycles</li>

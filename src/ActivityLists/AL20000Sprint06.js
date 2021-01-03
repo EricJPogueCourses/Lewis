@@ -24,10 +24,10 @@ create an interactive version of<span style={{color: "red"}}> &#10084;&#10084;&#
 <ol>
 	<li>Verify sprint end date<NavLink to='/calendar/6'>[calendar]</NavLink></li>
 	<li><em>Review sprint 6 assignments including Lab 6, Quiz 6, Discussion 6, and Reflection 6</em></li>
-	<li>Start working on “Matchmaker for the Web”<NavLink to='/activity/web-matchmaker'>[link]</NavLink></li>
+	<li>Start working on “Matchmaker for the Web”<NavLink to='/activity/matchmaker-web'>[link]</NavLink></li>
 	<li>Review the following activities that were completed in previous sprints:</li>
 	<ul style={{listStyleType:'square'}}>
-		<li>“Matchmaker”<NavLink to='/activity/match-maker'>[link]</NavLink></li>
+		<li>“Matchmaker with Python”<NavLink to='/activity/matchmaker-python'>[link]</NavLink></li>
 		<li>“Getting to Know Each Other”<NavLink to='/activity/getting-to-know-each-other'>[link]</NavLink></li>
 		<li>“Website Creation with GitHub and Microsoft Azure - 2020 Supplemental Edition”<NavLink to='/activity/azure-website-supplemental-2020'>[link]</NavLink></li>
 	</ul>
@@ -36,7 +36,7 @@ create an interactive version of<span style={{color: "red"}}> &#10084;&#10084;&#
 	<li>Review the JavaScript tutorial from W3C <a href='https://www.w3schools.com/js/'>[link]</a></li>
 	<li>Read Chapter 16 “The World Wide Web” of Dale on the review the associated lecture<NavLink to='/activity/dale-chapter-16'>[video]</NavLink></li>
 	<li><em>Make your initial Discussion post by the middle of the sprint</em></li>
-	<li><em>Complete “Matchmaker for the Web”</em><NavLink to='/activity/web-matchmaker'>[link]</NavLink> ~8 hours</li>
+	<li><em>Complete “Matchmaker for the Web”</em><NavLink to='/activity/matchmaker-web'>[link]</NavLink> ~8 hours</li>
 	<li><em>Submit all assignments include your Discussion, Lab, Quiz, and Reflection</em></li>
 </ol>
 {extras()}

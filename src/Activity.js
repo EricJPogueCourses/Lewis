@@ -8,9 +8,7 @@ import { FinalProjectProposal } from './Activities/FinalProjectProposal'
 import { GitCommands } from './Activities/GitCommands'
 import { PythonHelloWorld } from './Activities/PythonHelloWorld'
 import { PythonNumberingSystems } from './Activities/PythonNumberingSystems'
-import { PythonMatchMaker } from './Activities/PythonMatchMaker'
-import { PythonMatchMakerExamples } from './Activities/PythonMatchMakerExamples'
-import { WebMatchMaker } from './Activities/WebMatchMaker'
+
 import { PythonTurtleDraw } from './Activities/PythonTurtleDraw'
 import { PythonHealthRiskCalculator } from './Activities/PythonHealthRiskCalculator'
 import { PythonHealthRiskCalculatorExamples } from './Activities/PythonHealthRiskCalculatorExamples'
@@ -27,7 +25,9 @@ import { WebMapManiaVersion1 } from './Activities/WebMapManiaVersion1'
 import { WebMapManiaVersion2 } from './Activities/WebMapManiaVersion2'
 import { JavaHelloWorld } from './Activities/JavaHelloWorld'
 import { GoHelloWorld } from './Activities/GoHelloWorld'
-import { MatchmakerGo } from './Activities/Matchmaker';
+
+import { MatchmakerPython, MatchmakerWeb, MatchmakerJava, MatchmakerGo } from './Activities/Matchmaker';
+import { PythonMatchMakerExamples } from './Activities/PythonMatchMakerExamples'
 
 export const videoLink = (header, url) => {
 	return ( <div><h5>{header}</h5><ReactPlayer url={url} controls={true} width={1024} height={576} /></div> )
@@ -120,10 +120,7 @@ class Activity extends Component {
 			case 'hello-world-java': return JavaHelloWorld()
 			case 'hello-world-go': return GoHelloWorld()
 			case 'numbering-systems-python': return PythonNumberingSystems()
-			case 'match-maker': return PythonMatchMaker()
-			case 'matchmaker-go': return MatchmakerGo()
-			case 'match-maker-examples': return PythonMatchMakerExamples()
-			case 'web-matchmaker': return WebMatchMaker()
+
 			case 'turtle-draw': return PythonTurtleDraw()
 			case 'health-risk-calculator': return PythonHealthRiskCalculator()
 			case 'health-risk-calculator-examples': return PythonHealthRiskCalculatorExamples()
@@ -139,6 +136,11 @@ class Activity extends Component {
 			case 'course-schedule': return WebCourseSchedule()
 			case 'map-mania-v1': return WebMapManiaVersion1()
 			case 'map-mania-v2': return WebMapManiaVersion2()
+			case 'matchmaker-go': return MatchmakerGo()
+			case 'matchmaker-python': return MatchmakerPython()
+			case 'matchmaker-web': return MatchmakerWeb()
+			case 'matchmaker-java': return MatchmakerJava()
+			case 'matchmaker-examples': return PythonMatchMakerExamples()
 
 			// Start Computer Science Illuminated” by Nell Dale and John Lewis (Dale).
 			case 'dale-chapter-01': return videoLinkWithSlides(

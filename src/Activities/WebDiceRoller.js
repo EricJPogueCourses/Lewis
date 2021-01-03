@@ -14,7 +14,6 @@ export const WebDiceRoller = () => {
 	<li>“Getting to Know Each Other”<NavLink to='/activity/getting-to-know-each-other'>[link]</NavLink></li>
 	<li>“Azure Free Static Website”<NavLink to='/activity/azure-website'>[link]</NavLink></li>
 </ul>
-
 			
 <p><em>Instructions:</em> Many games require dice to be rolled to generate random numbers. This week you will create an 
 application that rolls dice for a game of your choice. If you cannot come up with a game, you are welcome to create a 

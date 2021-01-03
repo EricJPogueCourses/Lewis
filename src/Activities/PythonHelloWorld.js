@@ -6,7 +6,7 @@ export const PythonHelloWorld = () => {
 	return (
 	
 <div>
-
+<br />
 <h4>Hello World with Python</h4>
 <h5>Summary: Create and execute a Python application that prints “Hello World” to the terminal</h5>
 <h5>Prerequisites: Python (v3), VS Code, and Terminal</h5>

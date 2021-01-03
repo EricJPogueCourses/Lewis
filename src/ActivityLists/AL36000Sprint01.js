@@ -55,6 +55,7 @@ focused time unless otherwise noted. <em>Bold</em> items are graded assignments.
 	<li>Complete “Tools of the Trade” including Go<NavLink to='/activity/tools'>[link]</NavLink><sup> ~2 hours</sup></li>
 	<li>Complete “Hello World with Python”<NavLink to='/activity/hello-world-python'>[link]</NavLink></li>
 	<li>Complete “Hello World with Go”<NavLink to='/activity/hello-world-go'>[link]</NavLink></li>
+	<li>Complete “Matchmaker with Go”<NavLink to='/activity/matchmaker-go'>[link]</NavLink></li>
 	<li><em>Complete Discussion 1 by responding to at least two of your classmates’ posts</em></li>
 	<li><em>Submit Lab 1, Quiz 1, and Reflection 1</em></li>
 </ol>
