@@ -8,7 +8,7 @@ export const GoHelloWorld = () => {
 <h4>Hello World with Go</h4>
 <h5>Summary: Create and execute a Go application that prints a special version of “Hello World” that includes your
 name in possessive form with a curly apostrophe followed by “Hello World” to the terminal</h5>
-<h5>Prerequisites: Java, VS Code, and Terminal</h5>
+<h5>Prerequisites: Go, VS Code, and Terminal</h5>
 			
 <p>Instructions: Complete Hello World using Go. However in our version of Hello World, we are going to add some
 special formatting. Specifically, we are going to add our preferred first name and our last name in possessive form 

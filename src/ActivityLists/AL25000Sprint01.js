@@ -44,15 +44,15 @@ focused time unless otherwise noted. <em>Bold</em> items are graded assignments.
 
 	<li>Complete “Object-Oriented Programming Concepts and Practices”<NavLink to='/activity-oop/concepts-and-practices'>[video]</NavLink></li>
 	<li>Review O’Reilly Books<a href='https://www.oreilly.com' target='_blank' rel='noopener noreferrer'>[link]</a>and 
-		Scan Chapters 1 and 2 of “Learning Java, 5th Edition”<a href='https://learning.oreilly.com/library/view/learning-java-5th/9781492056263/' target='_blank' rel='noopener noreferrer'>[link]</a> 
-		by Marc Loy, Patrick Niemeyer, Daniel Leuck</li>
+		read “Learning Java, 5th Edition” chapters 1 and 2<a href='https://learning.oreilly.com/library/view/learning-java-5th/9781492056263/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 
 	<li>Add a representative photo of yourself to your Blackboard and Zoom profiles<NavLink to='/activity/photo-to-blackboard'>[video]</NavLink></li>
 	<li><em>Make your initial Discussion 1 post by the middle of the sprint</em></li>
-	<li>Complete “Object-Oriented Programming Patterns”<NavLink to='/activity-oop/patterns'>[video]</NavLink></li>
+
 	<li>Complete “Tools of the Trade” including Java<NavLink to='/activity/tools'>[link]</NavLink><sup> ~2 hours</sup></li>
 	<li>Complete “Hello World with Python”<NavLink to='/activity/hello-world-python'>[link]</NavLink></li>
 	<li>Complete “Hello World with Java”<NavLink to='/activity/hello-world-java'>[link]</NavLink></li>
+	<li>Complete “Matchmaker with Java”<NavLink to='/activity/matchmaker-java'>[link]</NavLink></li>
 
 	<li><em>Complete Discussion 1 by responding to at least two of your classmates’ posts</em></li>
 	<li><em>Submit Lab 1, Quiz 1, and Reflection 1</em></li>

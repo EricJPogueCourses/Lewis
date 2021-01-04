@@ -25,6 +25,7 @@ pursue the activities in any order you prefer. However, they are listed in the o
 beneficial for you to work through the topics. The time commitment for each line item is generally 20 to 40
 minutes unless otherwise noted.</p>
 <ol>
+	<li>Complete “Object-Oriented Programming Patterns”<NavLink to='/activity-oop/patterns'>[video]</NavLink></li>
 	<li><em>Review Programming Assignment 2, Quiz 2, and Discussion Board 2</em></li>
 	<li>Analyze and commit to adopting the “How to Be a Successful Programmer” suggestions that you feel are the
 		most important 

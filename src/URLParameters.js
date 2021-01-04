@@ -80,7 +80,6 @@ export const title = () => {
 		case '24700-fall-2020-001': return 'Web and Distributed Programming'
 		case '44000-fall-2020-001': return 'Software Engineering'
 
-
 		default:
 			console.log('Warning: Class title not found (class='+classReference+')') 
 			return 'Introduction to Computer Science'

@@ -48,7 +48,7 @@ focused time unless otherwise noted. <em>Bold</em> items are graded assignments.
 	<li><em>Complete the Introduction assignment by making your post and responding to at least two of your classmates</em></li>
 	{/* The above items should be consistent and complete by the end of the second class session. */ }
 
-	<li>Review O’Reilly Books<a href='https://www.oreilly.com' target='_blank' rel='noopener noreferrer'>[link]</a>and Read “Introducing Go” chapters 1 though 6<a href='https://learning.oreilly.com/library/view/introducing-go/9781491941997/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+	<li>Review O’Reilly Books<a href='https://www.oreilly.com' target='_blank' rel='noopener noreferrer'>[link]</a>and read “Introducing Go” chapters 1 though 6<a href='https://learning.oreilly.com/library/view/introducing-go/9781491941997/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li>Add a representative photo of yourself to your Blackboard and Zoom profiles<NavLink to='/activity/photo-to-blackboard'>[video]</NavLink></li>
 	<li><em>Make your initial Discussion 1 post by the middle of the sprint</em></li>
 
