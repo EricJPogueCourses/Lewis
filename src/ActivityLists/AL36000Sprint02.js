@@ -45,7 +45,7 @@ graded assignments.</p>
 	<li><em>Review sprint 2 assignments including lab 2, quiz 2, discussion 2, and reflection 2</em></li>	
 	<li>Start early and consistently work on Lab 2 and Quiz 1 throughout the sprint</li>
 	<li>Recall signing up for your free O’Reilly online books subscription in “Tools of the Trade”<a href='https://www.oreilly.com' target='_blank' rel='noopener noreferrer'>[link]</a></li>
-	<li>Read “Introducing Go” chapters 5 though 8<a href='https://learning.oreilly.com/library/view/introducing-go/9781491941997/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+	<li>Read “Introducing Go” chapters 7 and 8<a href='https://learning.oreilly.com/library/view/introducing-go/9781491941997/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li><em>Make your initial Discussion 2 post by the middle of the sprint</em></li>
 	<li>Complete “HTML Programming - Part 1” from W3C<NavLink to='/activity/html'>[link]</NavLink> ~2 hours</li>
 	<li>Complete “My Favorite Hobby”<NavLink to='/activity/favorite-hobby'>[link]</NavLink>~2 hours</li>
