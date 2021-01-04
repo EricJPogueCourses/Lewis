@@ -10,8 +10,8 @@ export const al20000Welcome = (syllabusURL) => {
 <h4>Introduction to Computer Science</h4>
 <h5>Welcome to Introduction to Computer Science!</h5>
 <br />
-<p>Please take a few minutes to view your welcome video below, and a few more minutes to complete the “Getting Started” 
-topics listed below the video.</p>
+<p>Welcome! Please take a few minutes to view your welcome video below and to complete the “Getting Started” 
+activities listed below prior to our first class.</p>
 
 <ReactPlayer url='https://botb.blob.core.windows.net/nvm4zqwm/pz316akr-welcome.mp4' controls={true} width={1024} height={576} />
 
@@ -21,7 +21,7 @@ topics listed below the video.</p>
 better understanding of how we will be working together, and to understand what needs to be done first in order to be 
 successful in this class.</p>
 <ol>
-	<li>Review our course syllabus and obtain the items identified in section “IV. Course Materials”<a href={syllabusURL}>[link]</a></li>
+	<li>Review our course syllabus <a href={syllabusURL}>[link]</a> and obtain the items identified in section “IV. Course Materials”</li>
 	<li>Watch “Blended Learning & Flipped Classroom”<NavLink to='/activity/blended-learning'>[video]</NavLink></li>
 	<li>Review “Introduction to Scrum in 7 Minutes”<NavLink to='/activity/scrum-in-7-minutes'>[video]</NavLink></li> 
 	<li>Watch the “Blackboard Ultra”<NavLink to='/activity/blackboard-ultra'>[video]</NavLink></li> 
