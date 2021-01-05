@@ -31,8 +31,8 @@ need to complete the activities by the sprint 1 end date listed on our course ca
 listed in the order I think will be the most efficient to complete. Expect each item to take 20 to 40 minutes of 
 focused time unless otherwise noted. <em>Bold</em> items are graded assignments.</p>
 <ol>
-	<li>Review course syllabus<a href={syllabusURL}>[link]</a></li>
 	<li>Maintain laser focus on due dates by reviewing our sprint calendar<NavLink to='/calendar/1'>[link]</NavLink></li>
+	<li>Review course syllabus<a href={syllabusURL}>[link]</a></li>
 	<li>Understand Blended Learning by reviewing “Blended Learning & Flipped Classroom”<NavLink to='/activity/blended-learning'>[video]</NavLink></li>
 	<li>Be prepared to participate in a Scrum team by watching “Introduction to Scrum in 7 Minutes”<NavLink to='/activity/scrum-in-7-minutes'>[video]</NavLink></li>
 	<li><em>Review sprint 1 assignments including Introduction, Lab 1, Quiz 1, Discussion 1, and Reflection 1</em></li>

@@ -33,8 +33,8 @@ const MatchmakerJavaProperties = {
 	'language': 'Java',
 	'prerequisites': 'Java, VS Code, and Terminal',
 	'type': 'command-line application written in the Java language',
-	'requirement1_1': 'Is implemented in a single Java (.java) file named “MatchMaker_xx.java” where “xx” are your initials in lower case',
-	'requirement1_2': 'Successfully compiles with “javac MatchMaker_xx.java" and successfully executes with “java MatchMaker_xx'
+	'requirement1_1': 'Is implemented in a single Java (.java) file named “MatchMaker.java”',
+	'requirement1_2': 'Successfully compiles with “javac MatchMaker.java" and successfully executes with “java MatchMaker'
 }
 
 export const MatchmakerJava = () => {

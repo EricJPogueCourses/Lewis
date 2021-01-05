@@ -25,19 +25,15 @@ pursue the activities in any order you prefer. However, they are listed in the o
 beneficial for you to work through the topics. The time commitment for each line item is generally 20 to 40
 minutes unless otherwise noted.</p>
 <ol>
-	<li>Complete “Object-Oriented Programming Patterns”<NavLink to='/activity-oop/patterns'>[video]</NavLink></li>
+	<li>Stay focused on the due dates by reviewing our course calendar<NavLink to='/calendar/2'>[link]</NavLink></li>
 	<li><em>Review Programming Assignment 2, Quiz 2, and Discussion Board 2</em></li>
-	<li>Analyze and commit to adopting the “How to Be a Successful Programmer” suggestions that you feel are the
-		most important 
-		<a href='https://cpsc-24500.azurewebsites.net/successful-programmer.html'>[link]</a></li>
-	<li>Review our “Coding Standards”<NavLink to='/activity/coding-standards'>[link]</NavLink> and consistently utilize 
+	<li>Complete “Object-Oriented Programming Patterns”<NavLink to='/activity-oop/patterns'>[video]</NavLink></li>
+	<li>Study our “Coding Standards”<NavLink to='/activity/coding-standards'>[link]</NavLink> and consistently utilize 
 		them on all activities and assignments</li>
-	<li>Sign up for Safari Books Online which is available to you free through Lewis University
-		<a href='https://www.oreilly.com/library/view/temporary-access/'>[link]</a></li>
-	<li>Within Safari Books Online execute searches for Object-Oriented Programming, OOP, Git, GitHub, and Java
-		and review the results of each search</li>
-	<li>Review the answers to Quiz 1 as many of the topics in Quiz 1 will come up in future so it is important
-		that you understand the concepts question</li>							 
+	<li>Complete “How To Be A Successful Programmer”<NavLink to='/activity/successful-programmer'>[link]</NavLink></li>
+	<li>Read “Learning Java, 5th Edition” chapter3<a href='https://learning.oreilly.com/library/view/learning-java-5th/9781492056263/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+	<li>Within O’Reilly Books<a href='https://www.oreilly.com' target='_blank' rel='noopener noreferrer'>[link]</a>
+		execute searches for Object-Oriented Programming, OOP, Git, GitHub, and Java</li>
 	<li>Complete the Java 'Shapes Step 1' tutorial. As will all tutorials, be sure to follow along and complete
 		the steps yourself, make the resulting application uniquely your own, and to be ready to submit your
 		personalized version of the application as part of an assignment<NavLink to='/activity-oop/java-shapes-step1'>[video]</NavLink></li> 

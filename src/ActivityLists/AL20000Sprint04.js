@@ -23,8 +23,8 @@ export const al20000Sprint04 = ( props ) => {
 	<li>Stay focused on due dates<NavLink to='/calendar/4'>[calendar]</NavLink></li>
 	<li><em>Review sprint 4 assignments including Lab 4, Quiz 4, Discussion 4, and Reflection 4</em></li>
 	<li>Start early and remain laser focused on “Matchmaker”<NavLink to='/activity/matchmaker-python'>[link]</NavLink></li>
-	{/* <li>Read Chapter 6 of Dale and review the associated lecture <NavLink to='/activity/dale-chapter-06'>[video]</NavLink></li> */}
-	<li>Read Chapter 13 on Artificial Intelligence from Dale on  the review the associated lecture <NavLink to='/activity/dale-chapter-13'>[video]</NavLink></li>
+	<li>Read Chapter 13 of “Computer Science Illuminated”<a href='https://learning.oreilly.com/library/view/computer-science-illuminated/9781284055917/' target='_blank' rel='noopener noreferrer'>[link]</a>
+		and review our chapter 13 lecture <NavLink to='/activity/dale-chapter-13'>[video]</NavLink></li>
 	<li>Within Safari Books Online<a href='https://learning.oreilly.com/home/' target='_blank' rel='noopener noreferrer'>[link]</a>
 		find “Introducing Python, 2nd Edition” by Bill Lubanovic (Lubanovic)</li>
 	<li>Read Lubanovic Preface and Chapter 1 while completing “Using Code Examples” from the Preface</li>
@@ -54,6 +54,9 @@ const extras = () => {
 				target='_blank' rel='noopener noreferrer'>[link]</a></li>
 			<li>Review tutoring options<a href='https://botb.blob.core.windows.net/nvm4zqwm/cadahnn5-tutoring.pdf'
 				target='_blank' rel='noopener noreferrer'>[link]</a></li> 
+			<li>Read Chapter 6 of Dale and review the associated lecture <NavLink to='/activity/dale-chapter-06'>[video]</NavLink></li>
+			<li>Read Chapter 6 of “Computer Science Illuminated”<a href='https://learning.oreilly.com/library/view/computer-science-illuminated/9781284055917/' target='_blank' rel='noopener noreferrer'>[link]</a>
+				and review our chapter 6 lecture <NavLink to='/activity/dale-chapter-06'>[video]</NavLink></li>
 		</ul>
 	</div>)
 }

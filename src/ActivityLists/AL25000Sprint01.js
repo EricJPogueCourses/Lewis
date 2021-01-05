@@ -38,7 +38,8 @@ focused time unless otherwise noted. <em>Bold</em> items are graded assignments.
 	<li>Understand Blended Learning by reviewing “Blended Learning &amp; Flipped Classroom”<NavLink to='/activity/blended-learning'>[video]</NavLink></li>
 	<li>Be prepared to participate in a Scrum team by watching “Introduction to Scrum in 7 Minutes”<NavLink to='/activity/scrum-in-7-minutes'>[video]</NavLink></li>
 	<li><em>Review sprint 1 assignments including Introduction, Lab 1, Quiz 1, Discussion 1, and Reflection 1</em></li>
-	<li>Start “Tools of the Trade - Part 1”<NavLink to='/activity/tools'>[link]</NavLink>by setting up Discord and O’Reilly Books</li>
+	<li>Start “Tools of the Trade”<NavLink to='/activity/tools'>[link]</NavLink>by setting up Discord and O’Reilly Books</li>
+	<li>Start “Matchmaker with Java”<NavLink to='/activity/matchmaker-java'>[link]</NavLink></li>
 	<li><em>Complete the Introduction assignment by making your post and responding to at least two of your classmates</em></li>
 	{/* The above items should be consistent and complete by the end of the second class session. */ }
 
@@ -52,7 +53,7 @@ focused time unless otherwise noted. <em>Bold</em> items are graded assignments.
 	<li>Complete “Tools of the Trade” including Java<NavLink to='/activity/tools'>[link]</NavLink><sup> ~2 hours</sup></li>
 	<li>Complete “Hello World with Python”<NavLink to='/activity/hello-world-python'>[link]</NavLink></li>
 	<li>Complete “Hello World with Java”<NavLink to='/activity/hello-world-java'>[link]</NavLink></li>
-	<li>Complete “Matchmaker with Java”<NavLink to='/activity/matchmaker-java'>[link]</NavLink></li>
+	<li>Complete “Matchmaker with Java”<NavLink to='/activity/matchmaker-java'>[link]</NavLink><sup> ~6 hours</sup></li>
 
 	<li><em>Complete Discussion 1 by responding to at least two of your classmates’ posts</em></li>
 	<li><em>Submit Lab 1, Quiz 1, and Reflection 1</em></li>

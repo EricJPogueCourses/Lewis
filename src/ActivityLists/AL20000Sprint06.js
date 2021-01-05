@@ -31,10 +31,11 @@ create an interactive version of<span style={{color: "red"}}> &#10084;&#10084;&#
 		<li>“Getting to Know Each Other”<NavLink to='/activity/getting-to-know-each-other'>[link]</NavLink></li>
 		<li>“Website Creation with GitHub and Microsoft Azure - 2020 Supplemental Edition”<NavLink to='/activity/azure-website-supplemental-2020'>[link]</NavLink></li>
 	</ul>
+	<li>Read Chapter 16 of “Computer Science Illuminated”<a href='https://learning.oreilly.com/library/view/computer-science-illuminated/9781284055917/' target='_blank' rel='noopener noreferrer'>[link]</a>
+		and review our chapter 16 lecture <NavLink to='/activity/dale-chapter-16'>[video]</NavLink></li>
 	<li>Turn your “Final Project Proposal”<NavLink to='/activity/final-project-proposal'>[link]</NavLink> into a Web 
 		application by hosting it in the Azure Cloud</li>
 	<li>Review the JavaScript tutorial from W3C <a href='https://www.w3schools.com/js/'>[link]</a></li>
-	<li>Read Chapter 16 “The World Wide Web” of Dale on the review the associated lecture<NavLink to='/activity/dale-chapter-16'>[video]</NavLink></li>
 	<li><em>Make your initial Discussion post by the middle of the sprint</em></li>
 	<li><em>Complete “Matchmaker for the Web”</em><NavLink to='/activity/matchmaker-web'>[link]</NavLink> ~8 hours</li>
 	<li><em>Submit all assignments include your Discussion, Lab, Quiz, and Reflection</em></li>

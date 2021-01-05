@@ -28,6 +28,8 @@ export const al25000Sprint03 = ( props ) => {
 		<li>Start working early and stay focused on the Programming Assignment 3 - FaceDraw</li>
 		<li>Complete 'Graphical User Interfaces (GUI) in Java' lesson<NavLink to='/activity-oop/java-gui-programming'>[video]</NavLink></li>
 		<li>Complete the FaceDrawLite<NavLink to='/activity-oop/java-facedraw-lite'>[video]</NavLink>~2 hours</li>
+		<li>Embrace our “Coding Standards”<NavLink to='/activity/coding-standards'>[link]</NavLink> and consistently utilize 
+			them on <em>all</em> activities and assignments</li>
 		<li>FaceDraw, FaceDraw, FaceDraw ~8 to 12 hours</li>
 		<li>Review the answers from Quiz 2</li>
 		<li><em>Complete your initial Discussion Board (DB) post by the middle of the sprint</em></li>

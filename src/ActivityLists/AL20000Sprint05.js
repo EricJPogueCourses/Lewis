@@ -34,8 +34,9 @@ will have more control <em>and responsibility</em> in determining what is done a
 	<li><em>Review sprint 5 assignments including Lab 5, Quiz 5, Discussion 5, and Reflection 5</em></li>
 	<li>Start working on your “Final Project Proposal”<NavLink to='/activity/final-project-proposal'>[link]</NavLink></li>
 	<li>Start working on “TurtleDraw”<NavLink to='/activity/turtle-draw'>[link]</NavLink></li>
+	<li>Read Chapter 15 of “Computer Science Illuminated”<a href='https://learning.oreilly.com/library/view/computer-science-illuminated/9781284055917/' target='_blank' rel='noopener noreferrer'>[link]</a>
+		and review our chapter 15 lecture <NavLink to='/activity/dale-chapter-15'>[video]</NavLink></li>
 	<li><em>Make your initial Discussion post by the middle of the sprint</em></li>
-	<li>Read Chapter 15 “Networks” of Dale on the review the associated lecture <NavLink to='/activity/dale-chapter-15'>[video]</NavLink></li>
 	<li>Read chapters 2 &amp; 3 of Lubanovic and complete each of the exercises<a href='https://learning.oreilly.com/home/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li><em>Complete your “Final Project Proposal”</em><NavLink to='/activity/final-project-proposal'>[link]</NavLink> ~2 hours</li>
 	<li><em>Complete “TurtleDraw”</em><NavLink to='/activity/turtle-draw'>[link]</NavLink> ~8 hours</li>	
