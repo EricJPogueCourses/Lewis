@@ -6,7 +6,7 @@ export const al20000Sprint01 = (syllabusURL) => {
 
 <div>
 <h4>Introduction to Computer Science</h4>
-<h5>Sprint 1: Getting Started, Number Systems, Data Representation, and Tools of the Trade</h5>
+<h5>Sprint 1: Getting Started, The Big Picture, Files Systems, and Tools of the Trade</h5>
 
 <p>Welcome to Introduction to Computer Science! In this course we will be exploring the field of computer 
 science. The course will include an overview of computer architecture, networking, data organization, and security. 

@@ -6,7 +6,7 @@ export const al25000Sprint02 = ( props ) => {
 
 <div className='sprint-02'>
 <h4>Object-Oriented Programming</h4>
-<h5>Sprint 2: Patterns, Principles, and Java Programming</h5>
+<h5>Sprint 2: Patterns, Principles, UML, and more Java Programming</h5>
 
 <p><em>Welcome to sprint 2.</em> We covered a lot of material in sprint 1. However, we didn't get a
 chance to write much code. This sprint get your Java compilers out. We are going to start practicing some of the

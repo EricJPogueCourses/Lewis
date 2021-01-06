@@ -6,7 +6,7 @@ export const al25000Sprint01 = (syllabusURL) => {
 
 <div>
 <h4>Object-Oriented Programming</h4>
-<h5>Sprint 1: Getting Started, Concepts, Patterns, and Tools of the Trade</h5>
+<h5>Sprint 1: Getting Started, Concepts, Patterns, and Java Programming</h5>
 
 <p><em>Welcome to Object-Oriented Programming!</em> By this point in your software development journey I’m sure that 
 you are confident in writing basic software programs. You’ve learned about structured programming techniques like 

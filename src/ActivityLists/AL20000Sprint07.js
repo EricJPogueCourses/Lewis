@@ -6,7 +6,7 @@ export const al20000Sprint07 = ( props ) => {
 
 <div>
 <h4>Introduction to Computer Science</h4>
-<h5>Sprint 7: Software Development Lifecycle, Security, JavaScript, and Final Projects</h5>
+<h5>Sprint 7: Security, JavaScript, and you setting the direction</h5>
 
 <p>Welcome to sprint 7.</p>
 <p>Welcome to sprint 7. Sprint 7 puts you in the driver’s seat. You get to decide if you would benefit more by focusing 

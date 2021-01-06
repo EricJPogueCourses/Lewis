@@ -44,6 +44,8 @@ graded assignments.</p>
 	<li>Maintain laser focus on due dates by reviewing our course calendar<NavLink to='/calendar/2'>[link]</NavLink></li>	
 	<li><em>Review sprint 2 assignments including lab 2, quiz 2, discussion 2, and reflection 2</em></li>	
 	<li>Start early and consistently work on Lab 2 and Quiz 1 throughout the sprint</li>
+	<li>Review Patterns<NavLink to='/activity-oop/patterns'>[video]</NavLink> 
+		and Principles<NavLink to='/activity-oop/principles'>[video]</NavLink></li>
 	<li>Recall signing up for your free O’Reilly online books subscription in “Tools of the Trade”<a href='https://www.oreilly.com' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li>Read “Introducing Go” chapters 7 and 8<a href='https://learning.oreilly.com/library/view/introducing-go/9781491941997/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li><em>Make your initial Discussion 2 post by the middle of the sprint</em></li>
