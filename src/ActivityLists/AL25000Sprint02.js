@@ -8,13 +8,14 @@ export const al25000Sprint02 = ( props ) => {
 <h4>Object-Oriented Programming</h4>
 <h5>Sprint 2: Patterns, Principles, UML, and more Java Programming</h5>
 
-<p><em>Welcome to sprint 2.</em> We covered a lot of material in sprint 1. However, we didn't get a
-chance to write much code. This sprint get your Java compilers out. We are going to start practicing some of the
-concepts we learned. </p>
+<p><em>Welcome to sprint 2.</em> We covered a lot of material in sprint 1. We even did some programming by completing
+Matchmaker with Java. How did Matchmaker go? Keep your Java compilers out for this sprint. We are going to start 
+practicing some of the concepts we learned while we continue to learn more about object-oriented programming (OOP) as 
+we focus on OOP Patterns and Principles.</p>
 
 <p>By the end of sprint 2 we will be able to:</p>
 <ul style={{listStyleType:'square'}}>
-	<li>Identify, define, and discuss OOP Principles</li>
+	<li>Identify, define, and discuss object-oriented Patterns and Principles</li>
 	<li>Create, modify, compile, and execute OOP based Java applications</li>
 	<li>Manage and submit source code utilizing the GitHub and the Git command line client</li>
 	<li>Utilize JSON to represent program data</li>
@@ -31,7 +32,7 @@ minutes unless otherwise noted.</p>
 	<li>Study our “Coding Standards”<NavLink to='/activity/coding-standards'>[link]</NavLink> and consistently utilize 
 		them on all activities and assignments</li>
 	<li>Complete “How To Be A Successful Programmer”<NavLink to='/activity/successful-programmer'>[link]</NavLink></li>
-	<li>Read “Learning Java, 5th Edition” chapter3<a href='https://learning.oreilly.com/library/view/learning-java-5th/9781492056263/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+	<li>Read “Learning Java, 5th Edition” chapter 3<a href='https://learning.oreilly.com/library/view/learning-java-5th/9781492056263/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li>Within O’Reilly Books<a href='https://www.oreilly.com' target='_blank' rel='noopener noreferrer'>[link]</a>
 		execute searches for Object-Oriented Programming, OOP, Git, GitHub, and Java</li>
 	<li>Complete the Java 'Shapes Step 1' tutorial. As will all tutorials, be sure to follow along and complete

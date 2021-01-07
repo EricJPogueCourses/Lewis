@@ -19,7 +19,7 @@ const MatchmakerWebProperties = {
 	'name': 'Matchmaker for the Web', 
 	'language': 'Web',
 	'prerequisites': 'HTML, CSS, JavaScript, VS Code, and Terminal',
-	'type': 'Web version of Matchmaker using HTML, CSS, and JavaScript',
+	'type': 'Web application using HTML, CSS, and JavaScript',
 	'requirement1_1': 'Is implemented in a single file name “index.html”',
 	'requirement1_2': 'Is hosted as a public website in Microsoft Azure'
 }

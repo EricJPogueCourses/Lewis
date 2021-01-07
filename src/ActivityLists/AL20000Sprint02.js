@@ -1,6 +1,10 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
+import { GettingToKnowEachOther, start, complete } from './ProgrammingAssignments'
+
+var programmingAssignment = GettingToKnowEachOther
+
 export const al20000Sprint02 = ( props ) => {
 	return (
 
@@ -24,20 +28,23 @@ include a detailed look at two of those technologies by introducing HTML and Cas
 efficient for you and the <em>bold</em> items are graded assignments.</p>
 <ol>
 	<li>Stay focused on the due dates by reviewing our course calendar<NavLink to='/calendar/2'>[link]</NavLink></li>
-	<li><em>Review sprint 2 assignments including Lab 2, Quiz 2, Discussion 2, and Reflection 2</em></li>
-	<li>Start working on “Getting to Know Each Other”<NavLink to='/activity/getting-to-know-each-other'>[link]</NavLink></li>
+	<li><em>Review sprint 2 assignments including Lab 2, Quiz 2, Discussion 2, Reflection 2, and Lab Demo</em></li>
+	<li>{start(programmingAssignment)}</li>
+	<li>Study and understand our “Coding Standards”<NavLink to='/activity/coding-standards'>[link]</NavLink></li>
+	{/* The above items should be consistent across classes. */ }
+
 	<li>Read Chapter 2 of “Computer Science Illuminated”<a href='https://learning.oreilly.com/library/view/computer-science-illuminated/9781284055917/' target='_blank' rel='noopener noreferrer'>[link]</a>
 		and review our chapter 2 lecture <NavLink to='/activity/dale-chapter-02'>[video]</NavLink></li>
-	<li>Study our “Coding Standards”<NavLink to='/activity/coding-standards'>[link]</NavLink> and consistently utilize 
-		them on all activities and assignments</li>
 	<li>Complete “Tools of the Trade - Part 2” ~3 hours <NavLink to='/activity/tools'>[link]</NavLink></li>
 	<li><em>Make your initial Discussion 2 post by the middle of the sprint</em></li>
 
 	<li>Read Chapter 3 of “Computer Science Illuminated”<a href='https://learning.oreilly.com/library/view/computer-science-illuminated/9781284055917/' target='_blank' rel='noopener noreferrer'>[link]</a>
 		and review our chapter 3 lecture <NavLink to='/activity/dale-chapter-03'>[video]</NavLink></li>
 	<li>Complete “Numbering Systems with Python”<NavLink to='/activity/numbering-systems-python'>[link]</NavLink></li>
-	<li>Complete “HTML Programming - Part 1” from W3C<NavLink to='/activity/html'>[link]</NavLink>~4 hours</li>
-	<li>Complete “Getting to Know Each Other”<NavLink to='/activity/getting-to-know-each-other'>[link]</NavLink></li>
+	<li>Complete “HTML Programming - Part 1” from W3C<NavLink to='/activity/html'>[link]</NavLink><sup> ~4 hours </sup></li>
+
+	{/* The items below should be consistent across classes. */ }
+	<li>{complete(programmingAssignment)}</li>
 	<li><em>Complete Discussion 2 by responding to at least two of your classmates’ posts</em></li>
 	<li><em>Submit Lab 2, Quiz 2, and Reflection 2</em></li>
 </ol>

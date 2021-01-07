@@ -1,12 +1,16 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
 
+import { MatchmakerWithGo, start, complete } from './ProgrammingAssignments'
+
+const programmingAssignment = MatchmakerWithGo
+
 export const al36000Sprint01 = (syllabusURL) => {
 	return (
 
 <div>
 <h4>Applied Programming Languages</h4>
-<h5>Sprint 1: Getting Started, Programming Languages, Go, and Tools of the Trade</h5>
+<h5>Sprint 1: Getting Started, Programming Languages, Object-Oriented Programming, Go, and Matchmaker</h5>
 <p><em>Welcome to Applied Programming Languages!</em> By this point in your software development journey I'm sure you 
 are confident in writing moderately complicated software programs. You’ve learned about structured programming 
 techniques like sequence, selection, and repetition. You've learned how to break complicated programs down into more 
@@ -14,10 +18,12 @@ manageable pieces by using functions, files, and modules. You even understand ho
 you develop more complex applications by utilizing encapsulation, inheritance, and polymorphism.</p>
 
 <p>That’s wonderful. However, is it possible that some things in software development are not as clear cut as we have 
-made it out to be? Could it be that some of the things we learned in Object-Oriented Programming added unnecessary 
-complexity? Could it be that the world of Scrum development, iterative releases, and the new power of multithreaded 
-programming have elevated testing and concurrency to a level that makes new software development languages justifiable? 
-These are just some of the topics that we will explore in our Applied Programming Languages class.</p>
+made them out to be? Could it be that some of the things we learned in Object-Oriented Programming added unnecessary 
+complexity? Could it be that the world of software development has changed<a href='https://youtu.be/4L_3JrRSMQ4?t=30' target='_blank' rel='noopener noreferrer'>[link]</a>?
+Could it be that Scrum development techniques, iterative product releases, new web development technologies,
+and the ever increasing power of multithreaded programming have elevated testing and concurrency to a level that makes 
+new software development languages justifiable? These are just some of the topics that we will explore in our Applied 
+Programming Languages class.</p>
 
 <p>You likely noticed that I am using the term “sprint 1” to describe our first set of course activities. Sprints are 
 part of the Scrum software development process. The term is used to describe a unit of work which we have committed to
@@ -44,11 +50,12 @@ focused time unless otherwise noted. <em>Bold</em> items are graded assignments.
 	<li>Understand Blended Learning by reviewing “Blended Learning &amp; Flipped Classroom”<NavLink to='/activity/blended-learning'>[video]</NavLink></li>
 	<li>Be prepared to participate in a Scrum team by watching “Introduction to Scrum in 7 Minutes”<NavLink to='/activity/scrum-in-7-minutes'>[video]</NavLink></li>
 	<li><em>Review sprint 1 assignments including Introduction, Lab 1, Quiz 1, Discussion 1, and Reflection 1</em></li>
-	<li>Start “Tools of the Trade - Part 1”<NavLink to='/activity/tools'>[link]</NavLink>by setting up Discord and O’Reilly Books</li>
-	<li>Review Object-Oriented Concepts<NavLink to='/activity-oop/concepts-and-practices'>[video]</NavLink></li>
+	<li>Start “Tools of the Trade”<NavLink to='/activity/tools'>[link]</NavLink>by setting up Discord and O’Reilly Books</li>
 	<li><em>Complete the Introduction assignment by making your post and responding to at least two of your classmates</em></li>
+	<li>{start(programmingAssignment)}</li>
 	{/* The above items should be consistent and complete by the end of the second class session. */ }
 
+	<li>Review Object-Oriented Concepts<NavLink to='/activity-oop/concepts-and-practices'>[video]</NavLink></li>
 	<li>Review O’Reilly Books<a href='https://www.oreilly.com' target='_blank' rel='noopener noreferrer'>[link]</a>and read “Introducing Go” chapters 1 though 6<a href='https://learning.oreilly.com/library/view/introducing-go/9781491941997/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li>Add a representative photo of yourself to your Blackboard and Zoom profiles<NavLink to='/activity/photo-to-blackboard'>[video]</NavLink></li>
 	<li><em>Make your initial Discussion 1 post by the middle of the sprint</em></li>
@@ -56,7 +63,9 @@ focused time unless otherwise noted. <em>Bold</em> items are graded assignments.
 	<li>Complete “Tools of the Trade” including Go<NavLink to='/activity/tools'>[link]</NavLink><sup> ~2 hours</sup></li>
 	<li>Complete “Hello World with Python”<NavLink to='/activity/hello-world-python'>[link]</NavLink></li>
 	<li>Complete “Hello World with Go”<NavLink to='/activity/hello-world-go'>[link]</NavLink></li>
-	<li>Complete “Matchmaker with Go”<NavLink to='/activity/matchmaker-go'>[link]</NavLink><sup> ~6 hours</sup></li>
+
+	{/* Item below this line should be consistent across classes. */}
+	<li>{complete(programmingAssignment)}</li>
 	<li><em>Complete Discussion 1 by responding to at least two of your classmates’ posts</em></li>
 	<li><em>Submit Lab 1, Quiz 1, and Reflection 1</em></li>
 </ol>
