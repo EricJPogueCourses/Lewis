@@ -23,7 +23,7 @@ export class Test extends React.Component {
 {localAndGlobalLink('?cpsc=24500-spring-2021-001#/sprint-1')}
 
 <h5>Applied Programming Languages</h5>
-<h6>24500-spring-2021-001:</h6>
+<h6>36000-spring-2021-001:</h6>
 {localAndGlobalLink('?cpsc=36000-spring-2021-001#/sprint-1')}
 
 <h5>Software Engineering</h5>

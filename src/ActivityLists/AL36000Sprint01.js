@@ -13,11 +13,11 @@ techniques like sequence, selection, and repetition. You've learned how to break
 manageable pieces by using functions, files, and modules. You even understand how Object-Oriented Programming can help 
 you develop more complex applications by utilizing encapsulation, inheritance, and polymorphism.</p>
 
-<p>That’s wonderful. However, is it possible that many things in software development are not as clear cut as we have 
-made it out to be? Could it be that some things we learned in Object-Oriented Programming added unnecessary complexity? 
-Could it be that the world of Scrum development and the power of multithreaded programming have elevated automated 
-testing and concurrency to a level that makes new software development languages justifiable? These are just some of the 
-topics that we will explore in our Applied Programming Languages class.</p>
+<p>That’s wonderful. However, is it possible that some things in software development are not as clear cut as we have 
+made it out to be? Could it be that some of the things we learned in Object-Oriented Programming added unnecessary 
+complexity? Could it be that the world of Scrum development, iterative releases, and the new power of multithreaded 
+programming have elevated testing and concurrency to a level that makes new software development languages justifiable? 
+These are just some of the topics that we will explore in our Applied Programming Languages class.</p>
 
 <p>You likely noticed that I am using the term “sprint 1” to describe our first set of course activities. Sprints are 
 part of the Scrum software development process. The term is used to describe a unit of work which we have committed to
