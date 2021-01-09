@@ -1,16 +1,25 @@
 
 import React from 'react';
 
-export const JavaHelloWorld = () => {
+const JavaProperties = {
+	'language': 'Java',
+	'prerequisites': 'Java, VS Code, and Terminal',
+}
+
+export const HelloWorldJava = () => {
+	return HelloWorld(JavaProperties)
+}
+
+const HelloWorld = (app) => {
 	return (
 	
 <div>
-<h4>Hello World with Java</h4>
-<h5>Summary: Create and execute a Java application that prints a special version of “Hello World” that includes your
+<h4>Hello World with {app.language}</h4>
+<h5>Summary: Create and execute a {app.language} application that prints a special version of “Hello World” that includes your
 name in possessive form with a curly apostrophe followed by “Hello World” to the terminal</h5>
-<h5>Prerequisites: Java, VS Code, and Terminal</h5>
+<h5>Prerequisites: {app.prerequisites}</h5>
 			
-<p>Instructions: Complete Hello World using Java. However in our version of Hello World, we are going to add some
+<p>Instructions: Complete Hello World using {app.language}. However in our version of Hello World, we are going to add some
 special formatting. Specifically, we are going to add our preferred first name and our last name in possessive form 
 along with a curly apostrophe (“’”). For example my hello world output would be “Eric Pogue’s Hello World” including 
 the curly apostrophe.</p>
