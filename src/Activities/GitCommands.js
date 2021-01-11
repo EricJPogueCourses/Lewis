@@ -31,7 +31,8 @@ following branching commands:</p>
 	<li>git clone OR git pull</li>
 	<li>git branch f-0x</li>
 	<li>git checkout f-0x</li>
-	<li>git commit -a -m “Implement f-0x”</li>
+	<li>git add .</li>
+	<li>git commit -m “Implement f-0x”</li>
 	<li>git checkout master</li>
 	<li>git merge f-0x</li>
 	<li>git push</li>

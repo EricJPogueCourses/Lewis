@@ -32,12 +32,13 @@ Web development with HTML, CSS, and JavaScript. But never forget the legendary p
 	<li>Stay focused on dates by reviewing our course calendar<NavLink to='/calendar/7'>[link]</NavLink></li>	
 	<li><em>Review sprint 7 assignments including Lab 7, Quiz 7, Discussion 7, and Reflection 7</em></li>
 	<li>Determine if you will be focusing on HTML, CSS, and JavaScript Website or Python Terminal development in Sprints 7 and 8</li>
-	<li>Start working on “Health Insurance Risk Calculator”<NavLink to='/activity/health-risk-calculator'>[link]</NavLink></li>
+	<li>Start working on “Health Insurance Risk Calculator” for the Web<NavLink to='/activity/health-risk-calculator-web'>[link]</NavLink>
+		or in Python<NavLink to='/activity/health-risk-calculator-python'>[link]</NavLink></li>	
 	<li>Read Chapter 17 of “Computer Science Illuminated”<a href='https://learning.oreilly.com/library/view/computer-science-illuminated/9781284055917/' target='_blank' rel='noopener noreferrer'>[link]</a>
 		and review our chapter 17 lecture <NavLink to='/activity/dale-chapter-17'>[video]</NavLink></li>
 	<li><em>Make your initial Discussion post by the middle of the sprint</em></li>
 	<li>Sign up for a Final Project presentation date &amp; time</li>
-	<li>Complete “Health Insurance Risk Calculator”<NavLink to='/activity/health-risk-calculator'>[link]</NavLink><sup> ~12 hours</sup></li>
+	<li>Complete “Health Insurance Risk Calculator”<NavLink to='/activity/health-risk-calculator-python'>[link]</NavLink><sup> ~12 hours</sup></li>
 	<li><em>Submit all assignments including your Lab, Quiz, Discussion, and Reflection</em></li>
 </ol>
 

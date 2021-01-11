@@ -2,23 +2,16 @@ import React, { Component } from 'react';
 import ReactPlayer from 'react-player'
 import * as URLParameters from './URLParameters'
 
-import { HelloWorldJava } from './Activities/HelloWorld'
-
-import { GoHelloWorld } from './Activities/GoHelloWorld'
-import { PythonHelloWorld } from './Activities/PythonHelloWorld'
-
+import { HelloWorldPython, HelloWorldJava, HelloWorldGo } from './Activities/HelloWorld'
 import { MatchmakerPython, MatchmakerWeb, MatchmakerJava, MatchmakerGo, MatchmakerExamples } from './Activities/Matchmaker';
+import { HealthRiskCalculatorPython, HealthRiskCalculatorWeb, HealthRiskCalculatorJava, HealthRiskCalculatorGo, HealthRiskCalculatorExamples } from './Activities/HealthRiskCalculator'
 
 import { Tools } from './Activities/ToolsOfTheTrade'
 import { CodingStandards } from './Activities/CodingStandards'
-import { FinalProjectProposal } from './Activities/FinalProjectProposal'
 import { GitCommands } from './Activities/GitCommands'
-
+import { FinalProjectProposal } from './Activities/FinalProjectProposal'
 import { PythonNumberingSystems } from './Activities/PythonNumberingSystems'
-
 import { PythonTurtleDraw } from './Activities/PythonTurtleDraw'
-import { PythonHealthRiskCalculator } from './Activities/PythonHealthRiskCalculator'
-import { PythonHealthRiskCalculatorExamples } from './Activities/PythonHealthRiskCalculatorExamples'
 import { HTML } from './Activities/HTML'
 import { PythonW3C } from './Activities/PythonW3C'
 import { SuccessfulDeveloper } from './Activities/SuccessfulDeveloper'
@@ -30,8 +23,6 @@ import { WebMyFavoriteHobby } from './Activities/WebMyFavoriteHobby'
 import { WebCourseSchedule } from './Activities/WebCourseSchedule'
 import { WebMapManiaVersion1 } from './Activities/WebMapManiaVersion1'
 import { WebMapManiaVersion2 } from './Activities/WebMapManiaVersion2'
-
-
 
 export const videoLink = (header, url) => {
 	return ( <div><h5>{header}</h5><ReactPlayer url={url} controls={true} width={1024} height={576} /></div> )
@@ -121,16 +112,24 @@ class Activity extends Component {
 			case 'git-commands': return GitCommands()
 			case 'successful-programmer': return SuccessfulDeveloper()
 
+			case 'hello-world-python': return HelloWorldPython()
 			case 'hello-world-java': return HelloWorldJava()
+			case 'hello-world-go': return HelloWorldGo()
 
-			case 'hello-world-python': return PythonHelloWorld()
-		
-			case 'hello-world-go': return GoHelloWorld()
+			case 'matchmaker-python': return MatchmakerPython()
+			case 'matchmaker-web': return MatchmakerWeb()
+			case 'matchmaker-java': return MatchmakerJava()
+			case 'matchmaker-go': return MatchmakerGo()
+			case 'matchmaker-examples': return MatchmakerExamples()
+
+			case 'health-risk-calculator-python': return HealthRiskCalculatorPython()
+			case 'health-risk-calculator-web': return HealthRiskCalculatorWeb()
+			case 'health-risk-calculator-java': return HealthRiskCalculatorJava()
+			case 'health-risk-calculator-go': return HealthRiskCalculatorGo()
+			case 'health-risk-calculator-examples': return HealthRiskCalculatorExamples()
+
 			case 'numbering-systems-python': return PythonNumberingSystems()
-
 			case 'turtle-draw': return PythonTurtleDraw()
-			case 'health-risk-calculator': return PythonHealthRiskCalculator()
-			case 'health-risk-calculator-examples': return PythonHealthRiskCalculatorExamples()
 			case 'html': return HTML()
 			case 'python-w3c': return PythonW3C()
 			case 'azure-website': return AzureWebsite()
@@ -143,11 +142,7 @@ class Activity extends Component {
 			case 'course-schedule': return WebCourseSchedule()
 			case 'map-mania-v1': return WebMapManiaVersion1()
 			case 'map-mania-v2': return WebMapManiaVersion2()
-			case 'matchmaker-go': return MatchmakerGo()
-			case 'matchmaker-python': return MatchmakerPython()
-			case 'matchmaker-web': return MatchmakerWeb()
-			case 'matchmaker-java': return MatchmakerJava()
-			case 'matchmaker-examples': return MatchmakerExamples()
+
 
 
 

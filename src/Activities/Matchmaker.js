@@ -2,23 +2,12 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-export const MatchmakerPython = () => {
-	return Matchmaker(MatchmakerPythonProperties)
-}
+export const MatchmakerPython = () => { return Matchmaker(MatchmakerPythonProperties) }
+export const MatchmakerWeb = ()    => { return Matchmaker(MatchmakerWebProperties) }
+export const MatchmakerJava = ()   => { return Matchmaker(MatchmakerJavaProperties) }
+export const MatchmakerGo = ()     => { return Matchmaker(MatchmakerGoProperties) }
 
-export const MatchmakerWeb = () => {
-	return Matchmaker(MatchmakerWebProperties)
-}
-
-export const MatchmakerJava = () => {
-	return Matchmaker(MatchmakerJavaProperties)
-}
-
-export const MatchmakerGo = () => {
-	return Matchmaker(MatchmakerGoProperties)
-}
-
-const MatchmakerPythonProperties = {
+export const MatchmakerPythonProperties = {
 	'name': 'Matchmaker with Python', 
 	'language': 'Python',
 	'prerequisites': 'Python (v3), VS Code, and Terminal',
@@ -27,7 +16,7 @@ const MatchmakerPythonProperties = {
 	'requirement1_2': 'Successfully executes from the command line by typing “python3 MatchMaker_xx.py'
 }
 
-const MatchmakerWebProperties = {
+export const MatchmakerWebProperties = {
 	'name': 'Matchmaker for the Web', 
 	'language': 'Web',
 	'prerequisites': 'HTML, CSS, JavaScript, VS Code, and Terminal',
@@ -36,7 +25,7 @@ const MatchmakerWebProperties = {
 	'requirement1_2': 'Is hosted as a public website in Microsoft Azure'
 }
 
-const MatchmakerJavaProperties = {
+export const MatchmakerJavaProperties = {
 	'name': 'Matchmaker with Java', 
 	'language': 'Java',
 	'prerequisites': 'Java, VS Code, and Terminal',
@@ -45,7 +34,7 @@ const MatchmakerJavaProperties = {
 	'requirement1_2': 'Successfully compiles with “javac MatchMaker.java" and successfully executes with “java MatchMaker'
 }
 
-const MatchmakerGoProperties = {
+export const MatchmakerGoProperties = {
 	'name': 'Matchmaker with Go', 
 	'language': 'Go',
 	'prerequisites': 'Go, VS Code, and Terminal',
@@ -54,16 +43,16 @@ const MatchmakerGoProperties = {
 	'requirement1_2': 'Successfully executes from the command line by typing “go MatchMaker_xx.go'
 }
 
-const Matchmaker = (app) => {
+const Matchmaker = (appProps) => {
 	return (
 	
 <div>
 <br />
-<h4><span style={{color: "red"}}>&#10084;&#10084;&#10084;</span> {app.name} <span style={{color: "red"}}>&#10084;&#10084;&#10084;</span></h4>
-<h5>Summary: Create a {app.language} application that will determine your true love</h5>
-<h5>Prerequisites: {app.prerequisites}</h5>
+<h4><span style={{color: "red"}}>&#10084;&#10084;&#10084;</span> {appProps.name} <span style={{color: "red"}}>&#10084;&#10084;&#10084;</span></h4>
+<h5>Summary: Create a {appProps.language} application that will determine your true love.</h5>
+<h5>Prerequisites: {appProps.prerequisites}</h5>
 
-<p>In this assignment you will develop and test a {app.type} that asks questions to determine if a person is your 
+<p>In this assignment you will develop and test a {appProps.type} that asks questions to determine if a person is your 
 true love. More specifically your application should ask five questions in the form of statements and allow the 
 user to respond to each statement with the numbers 1 through 5 with 1 indicating strongly disagree and 5 indicating 
 strongly agree. You will then compare the person’s answers with your desired “true love” answers. The closer the 
@@ -94,8 +83,8 @@ sure you can improve on his design.
 <em>Requirement 1</em>
 <p>Create an application that:</p>
 <ol>
-	<li>{app.requirement1_1}</li>
-	<li>{app.requirement1_2}</li>
+	<li>{appProps.requirement1_1}</li>
+	<li>{appProps.requirement1_2}</li>
 	<li>Has a simple yet an aesthetically pleasing user interface</li>
 	<li>Includes user instructions that succinctly describes the application and how it works</li>
 </ol>

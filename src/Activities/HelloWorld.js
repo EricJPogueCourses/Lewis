@@ -1,13 +1,40 @@
 
 import React from 'react';
+import ReactPlayer from 'react-player'
+
+export const HelloWorldPython = () => { return HelloWorld(PythonProperties) }
+export const HelloWorldJava = () => { return HelloWorld(JavaProperties) }
+export const HelloWorldGo = () => { return HelloWorld(GoProperties) }
+
+const PythonProperties = {
+	'language': 'Python',
+	'prerequisites': 'Python (v3), VS Code, and Terminal',
+	'tutorial': 'https://botb.blob.core.windows.net/nvm4zqwm/s44aopq9-hello-world.mp4'
+}
 
 const JavaProperties = {
 	'language': 'Java',
 	'prerequisites': 'Java, VS Code, and Terminal',
+	'tutorial': null
 }
 
-export const HelloWorldJava = () => {
-	return HelloWorld(JavaProperties)
+const GoProperties = {
+	'language': 'Go',
+	'prerequisites': 'Go, VS Code, and Terminal',
+	'tutorial': null
+}
+
+const TutorialLink = (app) => {
+	if (app.tutorial == null) {
+		return null
+	} else {
+		return ( 
+			<div>
+			Be sure to follow along with the video tutorial below!
+			<ReactPlayer url='https://botb.blob.core.windows.net/nvm4zqwm/s44aopq9-hello-world.mp4' controls={true} width={1024} height={576} />
+			</div>
+		)
+	}
 }
 
 const HelloWorld = (app) => {
@@ -20,8 +47,8 @@ name in possessive form with a curly apostrophe followed by “Hello World” to
 <h5>Prerequisites: {app.prerequisites}</h5>
 			
 <p>Instructions: Complete Hello World using {app.language}. However in our version of Hello World, we are going to add some
-special formatting. Specifically, we are going to add our preferred first name and our last name in possessive form 
-along with a curly apostrophe (“’”). For example my hello world output would be “Eric Pogue’s Hello World” including 
+special formatting. Specifically, we are going to add our preferred first name followed by our last name in possessive form 
+along with a curly apostrophe (“ ’ ”). For example my hello world output would be “Eric Pogue’s Hello World” including 
 the curly apostrophe.</p>
 
 <p>Why do we need to utilize a curly apostrophe? Well, it turns out that curly quotes and curly apostrophes should always
@@ -34,5 +61,8 @@ understanding how to utilize special characters and eventually multiple language
 the resulting application uniquely your own by adding standard comments at the top application (i.e. your name, class, 
 etc.), changing the names of variables, and adding small features. Finally, be sure to save your work as you will often 
 be asked to submit it as part of an assignment.</p>
+
+{TutorialLink(app)}
+
 </div> )
 }
