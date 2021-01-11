@@ -33,12 +33,12 @@ efficient for you and the <em>bold</em> items are graded assignments.</p>
 	<li>Study and understand our “Coding Standards”<NavLink to='/activity/coding-standards'>[link]</NavLink></li>
 	{/* The above items should be consistent across classes. */ }
 
-	<li>Read Chapter 2 of “Computer Science Illuminated”<a href='https://learning.oreilly.com/library/view/computer-science-illuminated/9781284055917/' target='_blank' rel='noopener noreferrer'>[link]</a>
-		and review our chapter 2 lecture <NavLink to='/activity/dale-chapter-02'>[video]</NavLink></li>
+	<li>Read “Computer Science Illuminated” (Dale) chapter 2<a href='https://learning.oreilly.com/library/view/computer-science-illuminated/9781284055917/' target='_blank' rel='noopener noreferrer'>[link]</a>
+		Binary Values and Number Systems and review our chapter 2 lecture <NavLink to='/activity/dale-chapter-02'>[video]</NavLink></li>
 	<li>Complete “Tools of the Trade - Part 2” ~3 hours <NavLink to='/activity/tools'>[link]</NavLink></li>
 	<li><em>Make your initial Discussion 2 post by the middle of the sprint</em></li>
 
-	<li>Read Chapter 3 of “Computer Science Illuminated”<a href='https://learning.oreilly.com/library/view/computer-science-illuminated/9781284055917/' target='_blank' rel='noopener noreferrer'>[link]</a>
+	<li>Read Dale chapter 3 Data Representation<a href='https://learning.oreilly.com/library/view/computer-science-illuminated/9781284055917/' target='_blank' rel='noopener noreferrer'>[link]</a>
 		and review our chapter 3 lecture <NavLink to='/activity/dale-chapter-03'>[video]</NavLink></li>
 	<li>Complete “Numbering Systems with Python”<NavLink to='/activity/numbering-systems-python'>[link]</NavLink></li>
 	<li>Complete “HTML Programming - Part 1” from W3C<NavLink to='/activity/html'>[link]</NavLink><sup> ~4 hours </sup></li>

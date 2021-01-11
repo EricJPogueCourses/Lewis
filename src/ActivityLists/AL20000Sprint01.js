@@ -35,13 +35,13 @@ focused time unless otherwise noted. <em>Bold</em> items are graded assignments.
 	{/* The above items should be consistent and complete by the end of the second class session. */ }
 
 	<li>Within O’Reilly Books open “Computer Science Illuminated”<a href='https://learning.oreilly.com/library/view/computer-science-illuminated/9781284055917/' target='_blank' rel='noopener noreferrer'>[link]</a>
-		and read chapter 11 on File Systems and Directories</li>
+		and read chapter 11 File Systems and Directories</li>
 	<li>Review our “Computer Science Illuminated” chapter 11 lecture<NavLink to='/activity/dale-chapter-11'>[video]</NavLink> 
-		and be prepared for scrum team discussion on the key lecture topics</li>
+		and be prepared for scrum team discussion on the lecture topics</li>
 
 	<li>Add a representative photo of yourself to your Blackboard and Zoom profiles<NavLink to='/activity/photo-to-blackboard'>[video]</NavLink></li>
 	<li><em>Make your initial Discussion 1 post by the middle of the sprint</em></li>
-	<li>Read Chapter 1 of “Computer Science Illuminated”<a href='https://learning.oreilly.com/library/view/computer-science-illuminated/9781284055917/' target='_blank' rel='noopener noreferrer'>[link]</a>
+	<li>Read “Computer Science Illuminated” Chapter 1<a href='https://learning.oreilly.com/library/view/computer-science-illuminated/9781284055917/' target='_blank' rel='noopener noreferrer'>[link]</a>
 		and review our chapter 1 lecture <NavLink to='/activity/dale-chapter-01'>[video]</NavLink><sup> ~2 hours</sup></li>
 	<li>Complete “Tools of the Trade - Part 1”<NavLink to='/activity/tools'>[link]</NavLink><sup> ~2 hours</sup></li>
 	<li>Complete “Hello World with Python”<NavLink to='/activity/hello-world-python'>[link]</NavLink></li>

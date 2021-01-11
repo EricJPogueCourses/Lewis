@@ -35,11 +35,11 @@ minutes unless otherwise noted.</p>
 	<li>Read “Learning Java, 5th Edition” chapter 3<a href='https://learning.oreilly.com/library/view/learning-java-5th/9781492056263/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li>Within O’Reilly Books<a href='https://www.oreilly.com' target='_blank' rel='noopener noreferrer'>[link]</a>
 		execute searches for Object-Oriented Programming, OOP, Git, GitHub, and Java</li>
-	<li>Complete the Java 'Shapes Step 1' tutorial. As will all tutorials, be sure to follow along and complete
+	<li>Complete “Shape - Step 1” tutorial. As will all tutorials, be sure to follow along and complete
 		the steps yourself, make the resulting application uniquely your own, and to be ready to submit your
 		personalized version of the application as part of an assignment<NavLink to='/activity-oop/java-shapes-step1'>[video]</NavLink></li> 
-	<li>Complete the Java “Shapes Step 2” tutorial<NavLink to='/activity-oop/java-shapes-step2'>[video]</NavLink></li>
 	<li>Complete your initial Discussion Board (DB) post by the middle of the sprint</li>
+	<li>Complete the Java “Shapes Step 2” tutorial<NavLink to='/activity-oop/java-shapes-step2'>[video]</NavLink></li>
 	<li>Complete “Object-Oriented Programming Principles”<NavLink to='/activity-oop/principles'>[video]</NavLink></li>
 	<li>Read and Understand the article “What is JSON? JavaScript Object Notation explained” 
 		<a href='https://www.infoworld.com/article/3222851/javascript/what-is-json-javascript-object-notation-explained.html' target='_blank' rel='noopener noreferrer'>[link]</a></li> 
