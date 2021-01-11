@@ -36,6 +36,7 @@ export const al25000Sprint03 = ( props ) => {
 		<li>Take one last look at 'How to Be a Success Programmer' suggestions <NavLink to='/successful-programmer'>[link]</NavLink> 
 			and consider decide if there is something you are going to change now that the programming assignments are becoming more 
 			challenging </li>
+		<li>Read and Understand “JSON Introduction” from W3C<a href='https://www.w3schools.com/js/js_json_intro.asp' target='_blank' rel='noopener noreferrer'>[link]</a></li> 
 		<li><em>Complete Discussion Board 3 by responding to at least one of your classmates' posts</em></li>
 		<li><em>Complete and submit Programming Assignment 3 and Quiz 3</em></li>
 	</ol> 

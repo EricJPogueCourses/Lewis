@@ -1,6 +1,10 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
 
+import { OvalDrawPlusWithJava, start, complete } from './ProgrammingAssignments'
+
+const programmingAssignment = OvalDrawPlusWithJava
+
 export const al25000Sprint02 = ( props ) => {
 	return (
 
@@ -18,7 +22,7 @@ we focus on OOP Patterns and Principles.</p>
 	<li>Identify, define, and discuss object-oriented Patterns and Principles</li>
 	<li>Create, modify, compile, and execute OOP based Java applications</li>
 	<li>Manage and submit source code utilizing the GitHub and the Git command line client</li>
-	<li>Utilize JSON to represent program data</li>
+	<li>Utilize UML and JSON to represent program data</li>
 </ul>
 
 <p>Below is the list of activities that we will need to complete this sprint. Once again you are welcome to
@@ -26,8 +30,13 @@ pursue the activities in any order you prefer. However, they are listed in the o
 beneficial for you to work through the topics. The time commitment for each line item is generally 20 to 40
 minutes unless otherwise noted.</p>
 <ol>
-	<li>Stay focused on the due dates by reviewing our course calendar<NavLink to='/calendar/2'>[link]</NavLink></li>
-	<li><em>Review Programming Assignment 2, Quiz 2, and Discussion Board 2</em></li>
+
+<li>Stay focused on the due dates by reviewing our course calendar<NavLink to='/calendar/2'>[link]</NavLink></li>
+	<li><em>Review sprint 2 assignments including Lab 2, Quiz 2, Discussion 2, Reflection 2, and Lab Demo</em></li>
+	<li>{start(programmingAssignment)}</li>
+	<li>Study and understand our “Coding Standards”<NavLink to='/activity/coding-standards'>[link]</NavLink></li>
+	{/* The above items should be consistent across classes. */ }
+
 	<li>Complete “Object-Oriented Programming Patterns”<NavLink to='/activity-oop/patterns'>[video]</NavLink></li>
 	<li>Study our “Coding Standards”<NavLink to='/activity/coding-standards'>[link]</NavLink> and consistently utilize 
 		them on all activities and assignments</li>
@@ -35,18 +44,16 @@ minutes unless otherwise noted.</p>
 	<li>Read “Learning Java, 5th Edition” chapter 3<a href='https://learning.oreilly.com/library/view/learning-java-5th/9781492056263/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li>Within O’Reilly Books<a href='https://www.oreilly.com' target='_blank' rel='noopener noreferrer'>[link]</a>
 		execute searches for Object-Oriented Programming, OOP, Git, GitHub, and Java</li>
-	<li>Complete “Shape - Step 1” tutorial. As will all tutorials, be sure to follow along and complete
-		the steps yourself, make the resulting application uniquely your own, and to be ready to submit your
-		personalized version of the application as part of an assignment<NavLink to='/activity-oop/java-shapes-step1'>[video]</NavLink></li> 
+	<li>Complete “Shapes - Part 1”<NavLink to='/activity-oop/java-shapes-step1'>[video]</NavLink></li> 
 	<li>Complete your initial Discussion Board (DB) post by the middle of the sprint</li>
-	<li>Complete the Java “Shapes Step 2” tutorial<NavLink to='/activity-oop/java-shapes-step2'>[video]</NavLink></li>
+	<li>Complete “Shapes - Part 2”<NavLink to='/activity-oop/java-shapes-step2'>[video]</NavLink></li>
 	<li>Complete “Object-Oriented Programming Principles”<NavLink to='/activity-oop/principles'>[video]</NavLink></li>
-	<li>Read and Understand the article “What is JSON? JavaScript Object Notation explained” 
-		<a href='https://www.infoworld.com/article/3222851/javascript/what-is-json-javascript-object-notation-explained.html' target='_blank' rel='noopener noreferrer'>[link]</a></li> 
-	<li>Read and Understand “JSON Introduction” from W3C 
-		<a href='https://www.w3schools.com/js/js_json_intro.asp' target='_blank' rel='noopener noreferrer'>[link]</a></li> 
-	<li><em>Complete Discussion Board 2 by responding to at least one of your classmates' posts</em></li>
-	<li><em>Complete and submit Programming Assignment 2 and Quiz 2</em></li>
+	<li>Review UML Class Diagrams<a href='https://www.youtube.com/watch/UI6lqHOVHic' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+
+	{/* The items below should be consistent across classes. */ }
+	<li>{complete(programmingAssignment)}</li>
+	<li><em>Complete Discussion 2 by responding to at least two of your classmates’ posts</em></li>
+	<li><em>Submit Lab 2, Quiz 2, and Reflection 2</em></li>
 </ol> 
 <p>Additional references are provided below:</p>
 <ul style={{ listStyleType:'square' }}>

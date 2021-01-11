@@ -5,6 +5,7 @@ import * as URLParameters from './URLParameters'
 import { HelloWorldPython, HelloWorldJava, HelloWorldGo } from './Activities/HelloWorld'
 import { MatchmakerPython, MatchmakerWeb, MatchmakerJava, MatchmakerGo, MatchmakerExamples } from './Activities/Matchmaker';
 import { HealthRiskCalculatorPython, HealthRiskCalculatorWeb, HealthRiskCalculatorJava, HealthRiskCalculatorGo, HealthRiskCalculatorExamples } from './Activities/HealthRiskCalculator'
+import { OvalDrawPlusJava } from './Activities/OvalDrawPlus'
 
 import { Tools } from './Activities/ToolsOfTheTrade'
 import { CodingStandards } from './Activities/CodingStandards'
@@ -121,6 +122,8 @@ class Activity extends Component {
 			case 'matchmaker-java': return MatchmakerJava()
 			case 'matchmaker-go': return MatchmakerGo()
 			case 'matchmaker-examples': return MatchmakerExamples()
+
+			case 'ovaldraw-plus-java': return OvalDrawPlusJava()
 
 			case 'health-risk-calculator-python': return HealthRiskCalculatorPython()
 			case 'health-risk-calculator-web': return HealthRiskCalculatorWeb()

@@ -1,6 +1,9 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
+import { HelloWorldWithPython, start, complete } from './ProgrammingAssignments'
+const programmingAssignment = HelloWorldWithPython
+
 export const al20000Sprint01 = (syllabusURL) => {
 	return (
 
@@ -32,6 +35,7 @@ focused time unless otherwise noted. <em>Bold</em> items are graded assignments.
 	<li><em>Review sprint 1 assignments including Introduction, Lab 1, Quiz 1, Discussion 1, and Reflection 1</em></li>
 	<li>Start working on “Tools of the Trade”<NavLink to='/activity/tools'>[link]</NavLink>by setting up Discord and O’Reilly Books</li>
 	<li><em>Complete the Introduction assignment by making your post and responding to at least two of your classmates</em></li>
+	<li>{start(programmingAssignment)}</li>
 	{/* The above items should be consistent and complete by the end of the second class session. */ }
 
 	<li>Within O’Reilly Books open “Computer Science Illuminated”<a href='https://learning.oreilly.com/library/view/computer-science-illuminated/9781284055917/' target='_blank' rel='noopener noreferrer'>[link]</a>
@@ -46,6 +50,8 @@ focused time unless otherwise noted. <em>Bold</em> items are graded assignments.
 	<li>Complete “Tools of the Trade - Part 1”<NavLink to='/activity/tools'>[link]</NavLink><sup> ~2 hours</sup></li>
 	<li>Complete “Hello World with Python”<NavLink to='/activity/hello-world-python'>[link]</NavLink></li>
 
+	{/* The items below should be consistent across classes. */ }
+	<li>{complete(programmingAssignment)}</li>
 	<li><em>Complete Discussion 1 by responding to at least two of your classmates’ posts</em></li>
 	<li><em>Submit Lab 1, Quiz 1, and Reflection 1</em></li>
 </ol>
