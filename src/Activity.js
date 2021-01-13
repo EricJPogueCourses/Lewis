@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ReactPlayer from 'react-player'
+
 import * as URLParameters from './URLParameters'
 
 import { HelloWorldPython, HelloWorldJava, HelloWorldGo } from './Activities/HelloWorld'
@@ -86,6 +87,7 @@ const knowmiaVideoPageWithSlides = (header, videoFileReference, urlSlides) => {
 }
 // ** End -- Knowmia functions **
 
+
 class Activity extends Component {
 	activity() {
 		let activityReference = this.props.match.params.reference
@@ -145,9 +147,6 @@ class Activity extends Component {
 			case 'course-schedule': return WebCourseSchedule()
 			case 'map-mania-v1': return WebMapManiaVersion1()
 			case 'map-mania-v2': return WebMapManiaVersion2()
-
-
-
 
 			// Start Computer Science Illuminated” by Nell Dale and John Lewis (Dale).
 			case 'dale-chapter-01': return videoLinkWithSlides(

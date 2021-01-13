@@ -75,7 +75,7 @@ be asked to submit it as part of an assignment.</p>
 <p>Finally enhance the application so that it:</p>
 <ol>
 	<li>Draws a dark blue rectangle directly behind the oval</li>
-	<li>Utilizes constants at the top of the file to define rectangle color</li>
+	<li>Utilizes constants at the top of the file to define the rectangle color</li>
 	<li>Prints “Closing OvalDrawPlus...” in the terminal window when the application is exited</li>
 </ol>
 </div> )
