@@ -49,6 +49,7 @@ focused time unless otherwise noted. <em>Bold</em> items are graded assignments.
 		and review our chapter 1 lecture <NavLink to='/activity/dale-chapter-01'>[video]</NavLink><sup> ~2 hours</sup></li>
 	<li>Complete “Tools of the Trade - Part 1”<NavLink to='/activity/tools'>[link]</NavLink><sup> ~2 hours</sup></li>
 	<li>Complete “Hello World with Python”<NavLink to='/activity/hello-world-python'>[link]</NavLink></li>
+	<li>Complete “Numbering Systems with Python”<NavLink to='/activity/numbering-systems-python'>[link]</NavLink></li>
 
 	{/* The items below should be consistent across classes. */ }
 	<li>{complete(programmingAssignment)}</li>

@@ -19,6 +19,8 @@ export const welcome2021Spring = () => {
 			<li>“Introduction to Scrum in 7 Minutes”
 				<NavLink to='/activity/scrum-in-7-minutes'>[video]</NavLink></li> 
 		</ul>
+		Finally, you will want to take a look at our course syllabus syllabus<a href={URLParameters.classSyllabusURL()}>[link]</a> 
+			and obtain the items identified in the “IV. Course Materials.”
 		</div> )
 }
 
