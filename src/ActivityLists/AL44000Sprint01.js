@@ -1,6 +1,9 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
 
+import { GettingToKnowEachOther, start, complete } from './ProgrammingAssignments'
+const programmingAssignment = GettingToKnowEachOther
+
 export const al44000Sprint01 = (syllabusURL) => {
 	return (
 
@@ -40,13 +43,14 @@ need to complete the activities by the sprint 1 end date listed on our course ca
 listed in the order I think will be the most efficient to complete. Expect each item to take 20 to 40 minutes of 
 focused time unless otherwise noted. <em>Bold</em> items are graded assignments.</p>
 <ol>
-	<li>Maintain laser focus on due dates by reviewing our sprint calendar<NavLink to='/calendar/1'>[link]</NavLink></li>
+<li>Maintain laser focus on due dates by reviewing our sprint calendar<NavLink to='/calendar/1'>[link]</NavLink></li>
 	<li>Review course syllabus<a href={syllabusURL}>[link]</a></li>
 	<li>Understand Blended Learning by reviewing “Blended Learning &amp; Flipped Classroom”<NavLink to='/activity/blended-learning'>[video]</NavLink></li>
 	<li>Be prepared to participate in a Scrum team by watching “Introduction to Scrum in 7 Minutes”<NavLink to='/activity/scrum-in-7-minutes'>[video]</NavLink></li>
 	<li><em>Review sprint 1 assignments including Introduction, Lab 1, Quiz 1, Discussion 1, and Reflection 1</em></li>
-	<li>Start “Tools of the Trade”<NavLink to='/activity/tools'>[link]</NavLink>by setting up Discord and O’Reilly Books</li>
+	<li>Start working on “Tools of the Trade”<NavLink to='/activity/tools'>[link]</NavLink>by setting up Discord and O’Reilly Books</li>
 	<li><em>Complete the Introduction assignment by making your post and responding to at least two of your classmates</em></li>
+	<li>{start(programmingAssignment)}</li>
 	{/* The above items should be consistent and complete by the end of the second class session. */ }
 
 	<li>Read Chapter 1 of “Engineering Software as a Service: An Agile Approach Using Cloud Computing” by Armando Fox
@@ -59,8 +63,9 @@ focused time unless otherwise noted. <em>Bold</em> items are graded assignments.
 	<li>Read Chapter 2 of Fox and review our class lecture on Chapter 2<NavLink to='/activity/fox-chapter-02'>[video]</NavLink></li>
 
 	<li>Complete “HTML Programming - Part 1” from W3C<NavLink to='/activity/html'>[link]</NavLink><sup> ~2 hours</sup></li>
-	<li>Complete “Getting to Know Each Other”<NavLink to='/activity/getting-to-know-each-other'>[link]</NavLink><sup> ~6 hours </sup></li>
-	{/*<li>Complete “My Favorite Hobby”<NavLink to='/activity/favorite-hobby'>[link]</NavLink><sup> ~2 hours</sup></li>*/}
+
+	{/* The items below should be consistent across classes. */ }
+	<li>{complete(programmingAssignment)}</li>
 	<li><em>Complete Discussion 1 by responding to at least two of your classmates’ posts</em></li>
 	<li><em>Submit Lab 1, Quiz 1, and Reflection 1</em></li>
 </ol>

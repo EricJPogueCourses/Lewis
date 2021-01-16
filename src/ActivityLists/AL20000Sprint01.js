@@ -41,7 +41,7 @@ focused time unless otherwise noted. <em>Bold</em> items are graded assignments.
 	<li>Within O’Reilly Books open “Computer Science Illuminated”<a href='https://learning.oreilly.com/library/view/computer-science-illuminated/9781284055917/' target='_blank' rel='noopener noreferrer'>[link]</a>
 		and read chapter 11 File Systems and Directories</li>
 	<li>Review our “Computer Science Illuminated” chapter 11 lecture<NavLink to='/activity/dale-chapter-11'>[video]</NavLink> 
-		and be prepared for scrum team discussion on the lecture topics</li>
+		and be prepared for scrum team discussion</li>
 
 	<li>Add a representative photo of yourself to your Blackboard and Zoom profiles<NavLink to='/activity/photo-to-blackboard'>[video]</NavLink></li>
 	<li><em>Make your initial Discussion 1 post by the middle of the sprint</em></li>
