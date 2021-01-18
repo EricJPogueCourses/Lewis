@@ -20,6 +20,7 @@ import { Credits } from './Credits'
 import { InfoEricPogue } from './InfoEricPogue'
 import { Version } from './Version'
 import { UniversityResources } from './UniversityResources'
+import { StudyTable } from './Activities/StudyTable'
 import { Test } from './Test'
 import { Home } from './Home'
 
@@ -52,6 +53,7 @@ class Main extends Component {
 						<Route path='/info' component={InfoEricPogue}/>
 						<Route path='/credits' component={Credits}/>
 						<Route path='/getting-help' component={UniversityResources}/>
+						<Route path='/study-table' component={StudyTable}/>
 						<Route path='/version' component={Version}/>
 
 						<Route path={'/test/:id'} component={Test}/>

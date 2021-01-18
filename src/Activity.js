@@ -3,6 +3,7 @@ import ReactPlayer from 'react-player'
 
 import * as URLParameters from './URLParameters'
 
+import { StudyTable } from './Activities/StudyTable'
 import { HelloWorldPython, HelloWorldJava, HelloWorldGo } from './Activities/HelloWorld'
 import { MatchmakerPython, MatchmakerWeb, MatchmakerJava, MatchmakerGo, MatchmakerExamples } from './Activities/Matchmaker';
 import { HealthRiskCalculatorPython, HealthRiskCalculatorWeb, HealthRiskCalculatorJava, HealthRiskCalculatorGo, HealthRiskCalculatorExamples } from './Activities/HealthRiskCalculator'
@@ -114,6 +115,7 @@ class Activity extends Component {
 			case 'final-project-proposal': return FinalProjectProposal()
 			case 'git-commands': return GitCommands()
 			case 'successful-programmer': return SuccessfulDeveloper()
+			case 'study-table': return StudyTable()
 
 			case 'hello-world-python': return HelloWorldPython()
 			case 'hello-world-java': return HelloWorldJava()
