@@ -11,7 +11,8 @@ export const InfoEricPogue = () => {
 <h5>Eric Pogue</h5>
 Email: <a href='mailto:webmaster@example.com'>epogue@lewisu.edu</a><br />
 Mobile Phone: <a href='tel: +15632097280'>(563)209-7280</a><br />
-Personal Discord “Lewis” Server Invite (preview)<a href='https://discord.gg/5GEgy5nEce' target='_blank' rel='noopener noreferrer'>[link]</a><br />
+Personal Zoom Meeting<a href='https://us02web.zoom.us/j/6068812502?pwd=ODI5anpCa2RYNHV1Qlp3a3MyT01pUT09' target='_blank' rel='noopener noreferrer'>[link]</a><br />
+Personal Discord “Lewis” Server Invite (preview)<a href='https://discord.gg/5GEgy5nEce' target='_blank' rel='noopener noreferrer'>[link]</a><br /><br />
 Short Bio: Professional software developer and software development manager turned college 
 instructor.<br /><br />
 
