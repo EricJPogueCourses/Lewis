@@ -24,7 +24,7 @@ install, configure, and utilize many tools and services. By the end of this tuto
 	<li>Install FireFox<a href='https://www.mozilla.org/en-US/firefox/new/' target='_blank' rel='noopener noreferrer'>[link]</a>and Chrome<a href='https://www.google.com/chrome/' target='_blank' rel='noopener noreferrer'>[link]</a>web browsers</li> 
 	<li>Install Visual Studio Code source code editor<a href='https://code.visualstudio.com/' target='_blank' rel='noopener noreferrer'>[link]</a><NavLink to='/activity-config/mscode-and-chrome-windows10-setup'>[video]</NavLink></li>
 	<li>Install the Visual Studio Code and the Python 3 programming environment<a href='https://code.visualstudio.com/docs/python/python-tutorial' target='_blank' rel='noopener noreferrer'>[link]</a></li>
-	<li>Configure Microsoft Office 365 Outlook which is available to you free through Lewis University<a href='https://www.office.com/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+	<li>Configure Microsoft Office 365 which is available to you free through Lewis University<a href='https://www.office.com/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li>Utilize File Explorer (Windows) or Finder (MacOS) to manage folders, files, file extensions, zip files, and 
 		hidden folders/files</li>
 	<li>Utilize PowerShell (Windows)<NavLink to='/activity-config/powershell-windows10-setup'>[video]</NavLink>or 

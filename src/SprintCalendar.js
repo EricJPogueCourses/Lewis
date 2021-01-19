@@ -45,7 +45,7 @@ class SprintCalendar extends Component {
 	render() {
 		return (
 			<div>
-			<h4>{URLParameters.title()}</h4>
+			<h4>{URLParameters.courseTitle()}</h4>
 			<h5>Calendar</h5>
 			
 			<Table striped bordered hover>

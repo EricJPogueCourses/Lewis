@@ -27,6 +27,8 @@ import { WebCourseSchedule } from './Activities/WebCourseSchedule'
 import { WebMapManiaVersion1 } from './Activities/WebMapManiaVersion1'
 import { WebMapManiaVersion2 } from './Activities/WebMapManiaVersion2'
 
+import { programmingTogether } from './Panopto'
+
 export const videoLink = (header, url) => {
 	return ( <div><h5>{header}</h5><ReactPlayer url={url} controls={true} width={1024} height={576} /></div> )
 }
@@ -93,6 +95,12 @@ class Activity extends Component {
 	activity() {
 		let activityReference = this.props.match.params.reference
 		switch(activityReference) {
+// Bugbug
+case 'test': return programmingTogether()
+// End Bugbug
+
+
+
 			// Each of the case statements below represent a link to an activity. Activities are referenced via the
 			// application URL. For example, the following two links would take us to the test and production Blended 
 			// Learning activities:
@@ -258,7 +266,7 @@ class Activity extends Component {
 	render() {
 		return (
 			<div>
-				<h4>{URLParameters.title()}</h4>
+				<h4>{URLParameters.courseTitle()}</h4>
 				{this.activity()}
 			</div>
 		)

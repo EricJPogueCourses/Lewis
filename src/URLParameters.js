@@ -66,7 +66,7 @@ export const classSyllabusURL = () => {
 	}
 }
 
-export const title = () => { 
+export const courseTitle = () => { 
 	let classReference = cpsc()
 	switch(classReference) {
 		case '20000-spring-2021-002': return 'Introduction to Computer Science'

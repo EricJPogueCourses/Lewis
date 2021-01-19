@@ -43,7 +43,7 @@ export class SprintClassActivities extends Component {
 		//let dates = calendarIn[sprintIn-1]
 		return( 
 		<div>
-			<h4>{URLParameters.title()}</h4>
+			<h4>{URLParameters.courseTitle()}</h4>
 			<h5>Sprint {sprintIn}</h5>
 			<br />
 		</div>	
