@@ -51,9 +51,20 @@ export const programmingTogether = () => {
 		case '24500-spring-2021-001': return (null)
 		case '36000-spring-2021-001': return (null)
 		case '44000-spring-2021-001': return (null)
-		default: return (<div><PanoptoIFrameComponent iframe={programmingTogetherPlaylistFor20000()} /></div>)
+		default: return (null)
 	}
+}
 
+const panoptoEmbedCodePrefix = '<iframe src="https://lewisu.hosted.panopto.com/Panopto/Pages/Embed.aspx?id='
+const panoptoEmbedSuffix = '&autoplay=false&offerviewer=false&showtitle=false&showbrand=false&start=0&interactivity=all" height="576" width="1024" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>'
+const embedCode = (iD) => { return panoptoEmbedCodePrefix + iD +panoptoEmbedSuffix }
 
-	//return (<div><PanoptoIFrameComponent iframe={programmingTogetherPlaylistFor20000()} /></div>)
+const panoptoVideo = (iD) => {
+	const emCode = embedCode(iD)
+	return (<PanoptoIFrameComponent iframe={emCode} />)
+}
+
+const helloWorldPythonID = '090cc4e3-20c8-46e4-a723-acb500f6a30a'
+export const programmingTogetherHelloWorldPython = () => {
+	return panoptoVideo(helloWorldPythonID)
 }

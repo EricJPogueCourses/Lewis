@@ -1,6 +1,7 @@
 
 import React from 'react';
-import ReactPlayer from 'react-player'
+
+import { programmingTogetherHelloWorldPython } from './../Panopto'
 
 export const HelloWorldPython = () => { return HelloWorld(PythonProperties) }
 export const HelloWorldJava = () => { return HelloWorld(JavaProperties) }
@@ -24,14 +25,14 @@ const GoProperties = {
 	'tutorial': null
 }
 
-const TutorialLink = (app) => {
+const Tutorial = (app) => {
 	if (app.tutorial == null) {
 		return null
 	} else {
 		return ( 
 			<div>
 			Be sure to follow along with the video tutorial below!
-			<ReactPlayer url='https://botb.blob.core.windows.net/nvm4zqwm/s44aopq9-hello-world.mp4' controls={true} width={1024} height={576} />
+			{programmingTogetherHelloWorldPython()}
 			</div>
 		)
 	}
@@ -62,7 +63,7 @@ the resulting application uniquely your own by adding standard comments at the t
 etc.), changing the names of variables, and adding small features. Finally, be sure to save your work as you will often 
 be asked to submit it as part of an assignment.</p>
 
-{TutorialLink(app)}
+{Tutorial(app)}
 
 </div> )
 }
