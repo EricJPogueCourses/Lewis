@@ -40,7 +40,7 @@ export const MatchmakerGoProperties = {
 	'prerequisites': 'Go, VS Code, and Terminal',
 	'type': 'command-line application written in the Go language',
 	'requirement1_1': 'Is implemented in a single Go (.go) file named “MatchMaker_xx.go” where “xx” are your initials in lower case',
-	'requirement1_2': 'Successfully executes from the command line by typing “go MatchMaker_xx.go'
+	'requirement1_2': 'Successfully executes from the command line by typing “go MatchMaker_xx.go',
 }
 
 const Matchmaker = (appProps) => {
@@ -66,7 +66,7 @@ your desired answer. In addition, each question should have a weighting of 1 to 
 is to you. For example, the “Broccoli is delicious.” statement may only have a weighting of 1 where a “I could play 
 Fortnight for hours.” question may be more important to you and deserve a weighting of 3.</p>
 
-<p>After all five questions are answered, you will need to add up the <em>weighted question compatibility scores</em> 
+<p>After all five questions are answered, you will need to add up the <em>weighted question compatibility scores </em> 
 for each of the five questions and subtract the value from 100 to calculate a final <em>compatibility score</em> that
 has a maximum value of 100.</p>
 

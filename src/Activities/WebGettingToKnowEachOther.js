@@ -18,8 +18,8 @@ in VS Code so that you can fully understand the HTML and CSS that makes up a web
 <ol>
 	<li>A heading section at the top with your full name centered on the page</li>
 	<li>A line with your preferred name only if it is different from your first name listed above</li>
-	<li>Your Lewis email address on a separate line as a HTML email link</li>
-	<li>A hight quality and representative head and shoulders photo of yourself appropriately sized and centered</li>
+	<li>Your Lewis email address on a separate line as an HTML email link</li>
+	<li>A high quality and representative head and shoulders photo of yourself appropriately sized and centered</li>
 </ol>
 
 <em>Requirement 2</em>

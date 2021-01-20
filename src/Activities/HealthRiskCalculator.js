@@ -2,7 +2,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-import { MatchmakerPythonProperties, MatchmakerWebProperties, MatchmakerGoProperties } from './Matchmaker';
 import BloodPressureImage from './HealthRiskCalculatorBloodPressure.png';
 import BodyMassIndexImage from './HealthRiskCalculatorBodyMassIndex.png';
 
@@ -11,24 +10,42 @@ export const HealthRiskCalculatorWeb = ()    => { return HealthRiskCalculator(He
 export const HealthRiskCalculatorJava = ()   => { return HealthRiskCalculator(HealthRiskCalculatorJavaProperties) }
 export const HealthRiskCalculatorGo = ()     => { return HealthRiskCalculator(HealthRiskCalculatorGoProperties) }
 
-const HealthRiskCalculatorPythonProperties = MatchmakerPythonProperties
-HealthRiskCalculatorPythonProperties.name = 'Health Insurance Risk Calculator with Python'
-HealthRiskCalculatorPythonProperties.requirement1_1 = 'Is implemented in a single Python (.py) file named “RiskCalculator.py”'
-HealthRiskCalculatorPythonProperties.requirement1_2 = 'Successfully executes from the command line by typing “python3 RiskCalculator.py'
+const HealthRiskCalculatorPythonProperties = {
+	'name': 'Health Insurance Risk Calculator with Python', 
+	'language': 'Python',
+	'prerequisites': 'Python (v3), VS Code, and Terminal',
+	'type': 'command-line application written in the Python language',
+	'requirement1_1': 'Is implemented in a single Python (.py) file named “RiskCalculator.py”',
+	'requirement1_2': 'Successfully executes from the command line by typing “python3 RiskCalculator.py'
+}
 
-const HealthRiskCalculatorWebProperties = MatchmakerWebProperties
-HealthRiskCalculatorPythonProperties.name = 'Health Insurance Risk Calculator for the Web'
+const HealthRiskCalculatorWebProperties = {
+	'name': 'Health Insurance Risk Calculator for the Web', 
+	'language': 'Web',
+	'prerequisites': 'HTML, CSS, JavaScript, VS Code, and Terminal',
+	'type': 'Web application using HTML, CSS, and JavaScript',
+	'requirement1_1': 'Is implemented in a single file name “index.html”',
+	'requirement1_2': 'Is hosted as a public website in Microsoft Azure'
+}
 
-const HealthRiskCalculatorJavaProperties = MatchmakerGoProperties
-HealthRiskCalculatorJavaProperties.name = 'Health Insurance Risk Calculator with Java'
-HealthRiskCalculatorJavaProperties.requirement1_1 = 'Is implemented in multiple Java (.java) files with a main file named “RiskCalculator.java”'
-HealthRiskCalculatorJavaProperties.requirement1_2 = 'Successfully compiles from Terminal using “javac *.java” and executes by typing “java RiskCalculator'
+const HealthRiskCalculatorJavaProperties = {
+	'name': 'Health Insurance Risk Calculator with Java', 
+	'language': 'Java',
+	'prerequisites': 'Java, VS Code, and Terminal',
+	'type': 'command-line application written in the Java language',
+	'requirement1_1': 'Is implemented in multiple Java (.java) files with a main file named “RiskCalculator.java”',
+	'requirement1_2': 'Successfully compiles from Terminal using “javac *.java” and executes by typing “java RiskCalculator'
+}
 
-const HealthRiskCalculatorGoProperties = MatchmakerGoProperties
-HealthRiskCalculatorGoProperties.name = 'Health Insurance Risk Calculator with Go'
-HealthRiskCalculatorGoProperties.requirement1_1 = 'Is implemented multiple Go (.go) files with a main file named “RiskCalculator.go”'
-HealthRiskCalculatorGoProperties.requirement1_2 = 'Successfully executes from the command line by typing “go RiskCalculator.py'
-
+const HealthRiskCalculatorGoProperties = {
+	'name': 'Health Insurance Risk Calculator with Go', 
+	'language': 'Go',
+	'prerequisites': 'Go, VS Code, and Terminal',
+	'type': 'command-line application written in the Go language',
+	'requirement1_1': 'Is implemented multiple Go (.go) files with a main file named “RiskCalculator.go”',
+	'requirement1_2': 'Successfully executes from the command line by typing “go RiskCalculator.py',
+}	
+	
 const HealthRiskCalculator = (appProps) => {
 	return (
 	

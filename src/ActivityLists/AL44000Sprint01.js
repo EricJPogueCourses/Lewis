@@ -57,10 +57,10 @@ focused time unless otherwise noted. <em>Bold</em> items are graded assignments.
 		and David Patterson (Fox) and review our Chapter 1 lecture<NavLink to='/activity/fox-chapter-01'>[video]</NavLink><sup> ~2 hours</sup></li>
 	<li>Add your photo to your Blackboard profile<NavLink to='/activity/photo-to-blackboard'>[video]</NavLink></li>
 	<li><em>Make your initial Discussion 1 post by the middle of the sprint</em></li>
-	<li>Complete “Tools of the Trade” parts 1 and 2<NavLink to='/activity/tools'>[link]</NavLink><sup> ~3 hours</sup></li>
-	<li>Complete “Hello World with Python”<NavLink to='/activity/hello-world-python'>[link]</NavLink></li>
 	<li>Review everything that came before Chapter 1 including Preface in our Fox textbook and review associated lecture<NavLink to='/activity/fox-chapter-00'>[video]</NavLink></li>
 	<li>Read Chapter 2 of Fox and review our class lecture on Chapter 2<NavLink to='/activity/fox-chapter-02'>[video]</NavLink></li>
+	<li>Complete “Tools of the Trade” parts 1 and 2<NavLink to='/activity/tools'>[link]</NavLink><sup> ~3 hours</sup></li>
+	<li>Complete “Hello World with Python”<NavLink to='/activity/hello-world-python'>[link]</NavLink></li>
 
 	<li>Complete “HTML Programming - Part 1” from W3C<NavLink to='/activity/html'>[link]</NavLink><sup> ~2 hours</sup></li>
 
