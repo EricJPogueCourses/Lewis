@@ -28,6 +28,7 @@ import { Activity } from './Activity'
 import { ActivityConfig } from './ActivityConfig'
 import { ActivityOOP } from './ActivityOOP'
 import { ActivityWeb } from './ActivityWeb'
+import { ActivityDale } from './ActivityDale'
 import { ActivityArchitecture } from './ActivityArchitecture'
 
 class Main extends Component {
@@ -62,6 +63,7 @@ class Main extends Component {
 						<Route path={'/activity-config/:reference'} component={ActivityConfig}/>
 						<Route path={'/activity-oop/:reference'} component={ActivityOOP}/>
 						<Route path={'/activity-web/:reference'} component={ActivityWeb}/>
+						<Route path={'/activity-dale/:reference'} component={ActivityDale}/>
 						<Route path={'/activity-architecture/:reference'} component={ActivityArchitecture}/>
 
 					</div>

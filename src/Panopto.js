@@ -68,3 +68,13 @@ const helloWorldPythonID = '090cc4e3-20c8-46e4-a723-acb500f6a30a'
 export const programmingTogetherHelloWorldPython = () => {
 	return panoptoVideo(helloWorldPythonID)
 }
+
+// Dale lecture video IDs.
+const daleChapterLectureVideoID = [
+	'',
+	'6d751974-7cfc-45ef-aec8-acb6016de351'
+]
+
+export const daleChapterLectureVideo = (chapter) => {
+	return panoptoVideo(daleChapterLectureVideoID[chapter])
+}
