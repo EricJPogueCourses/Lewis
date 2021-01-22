@@ -31,6 +31,8 @@ import { ActivityWeb } from './ActivityWeb'
 import { ActivityDale } from './ActivityDale'
 import { ActivityArchitecture } from './ActivityArchitecture'
 
+import { Backlog } from './Backlog'
+
 class Main extends Component {
 	render() {
 		return (
@@ -65,7 +67,7 @@ class Main extends Component {
 						<Route path={'/activity-web/:reference'} component={ActivityWeb}/>
 						<Route path={'/activity-dale/:reference'} component={ActivityDale}/>
 						<Route path={'/activity-architecture/:reference'} component={ActivityArchitecture}/>
-
+						<Route path={'/backlog'} component={Backlog}/>
 					</div>
 				</HashRouter>
 			</div>

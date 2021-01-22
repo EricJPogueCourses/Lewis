@@ -34,31 +34,26 @@ efficient for you and the <em>bold</em> items are graded assignments.</p>
 
 	<li>Read “Computer Science Illuminated” (Dale) chapter 2<a href='https://learning.oreilly.com/library/view/computer-science-illuminated/9781284055917/' target='_blank' rel='noopener noreferrer'>[link]</a>
 		Binary Values and Number Systems and review our chapter 2 lecture <NavLink to='/activity-dale/2'>[video]</NavLink></li>
-	<li>Complete “Tools of the Trade - Part 2” ~3 hours <NavLink to='/activity/tools'>[link]</NavLink></li>
+	<li>Complete “Tools of the Trade - Part 2”<NavLink to='/activity/tools'>[link]</NavLink><sup>~3 hours</sup></li>
 	<li><em>Make your initial Discussion 2 post by the middle of the sprint</em></li>
 
 	<li>Read Dale chapter 3 Data Representation<a href='https://learning.oreilly.com/library/view/computer-science-illuminated/9781284055917/' target='_blank' rel='noopener noreferrer'>[link]</a>
 		and review our chapter 3 lecture <NavLink to='/activity-dale/3'>[video]</NavLink></li>
-	<li>Complete “HTML Programming - Part 1” from W3C<NavLink to='/activity/html'>[link]</NavLink><sup> ~4 hours </sup></li>
+	<li>Complete “HTML Programming - Part 1” from W3C<NavLink to='/activity/html'>[link]</NavLink><sup> ~4 hours</sup></li>
 
 	{/* The items below should be consistent across classes. */ }
 	<li>{complete(programmingAssignment)}</li>
 	<li><em>Complete Discussion 2 by responding to at least two of your classmates’ posts</em></li>
 	<li><em>Submit Lab 2, Quiz 2, and Reflection 2</em></li>
 </ol>
-<p>If you are struggling, remember to reach out to your Scrum teammates early and often for help .</p>
+<p>If you are struggling, remember to reach out to your Scrum teammates early and often for help. Also, be sure to 
+periodically check for new programming together tutorials<NavLink to='/activity/programming-together'>[link]</NavLink>.</p>
+{/* Programming Together: “HelloWorld Plus for the Web” and “HelloWorldPlus with Pictures” */}
 {extras()}
 </div>
-
 	)
 };
 
 const extras = () => {
-	return (<div>	
-		<p>Additional suggested activities:</p>
-		<ul style={{listStyleType:'square'}}>
-			<li>Complete programming together “HelloWorldPlus with Pictures”<a href='https://app.knowmia.com/mhYz' target='_blank' rel='noopener noreferrer'>[link]</a></li>
-			<li>Review programming together “HelloWorld”<a href='https://app.knowmia.com/mhYz' target='_blank' rel='noopener noreferrer'>[link]</a></li>
-		</ul>
-	</div>)
+	return (null)
 }

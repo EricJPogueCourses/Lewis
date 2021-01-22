@@ -44,7 +44,7 @@ const programmingTogetherPlaylistFor20000 = () => {
 	return "<iframe src='https://lewisu.hosted.panopto.com/Panopto/Pages/Embed.aspx?pid=5b13e440-2f35-437a-ba5e-acaf01643326&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all' height='576' width='1024' style='border: 1px solid #464646;' allowfullscreen allow='autoplay'></iframe>"
 }	 
 
-export const programmingTogether = () => {
+export const ProgrammingTogether = () => {
 	let classReference = cpsc()
 	switch(classReference) {
 		case '20000-spring-2021-002': return (<div><PanoptoIFrameComponent iframe={programmingTogetherPlaylistFor20000()} /></div>)
@@ -54,8 +54,6 @@ export const programmingTogether = () => {
 		default: return (null)
 	}
 }
-
-
 
 const panoptoEmbedCodePrefix = '<iframe src="https://lewisu.hosted.panopto.com/Panopto/Pages/Embed.aspx?id='
 const panoptoEmbedSuffix = '&autoplay=false&offerviewer=false&showtitle=false&showbrand=false&start=0&interactivity=all" height="576" width="1024" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>'

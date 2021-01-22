@@ -7,6 +7,7 @@ import { StudyTable } from './Activities/StudyTable'
 import { HelloWorldPython, HelloWorldJava, HelloWorldGo } from './Activities/HelloWorld'
 import { MatchmakerPython, MatchmakerWeb, MatchmakerJava, MatchmakerGo, MatchmakerExamples } from './Activities/Matchmaker';
 import { HealthRiskCalculatorPython, HealthRiskCalculatorWeb, HealthRiskCalculatorJava, HealthRiskCalculatorGo, HealthRiskCalculatorExamples } from './Activities/HealthRiskCalculator'
+
 import { OvalDrawPlusJava } from './Activities/OvalDrawPlus'
 
 import { Tools } from './Activities/ToolsOfTheTrade'
@@ -26,6 +27,8 @@ import { WebMyFavoriteHobby } from './Activities/WebMyFavoriteHobby'
 import { WebCourseSchedule } from './Activities/WebCourseSchedule'
 import { WebMapManiaVersion1 } from './Activities/WebMapManiaVersion1'
 import { WebMapManiaVersion2 } from './Activities/WebMapManiaVersion2'
+
+import { ProgrammingTogether } from './Panopto'
 
 export const videoLink = (header, url) => {
 	return ( <div><h5>{header}</h5><ReactPlayer url={url} controls={true} width={1024} height={576} /></div> )
@@ -104,6 +107,8 @@ class Activity extends Component {
 			case 'course-schedule': return WebCourseSchedule()
 			case 'map-mania-v1': return WebMapManiaVersion1()
 			case 'map-mania-v2': return WebMapManiaVersion2()
+
+			case 'programming-together': return ProgrammingTogether()
 
 			// Start Programming The World Wide Web” by Robert W. Sebesta (Sebesta)
 			case 'sebesta-chapter-01': return videoLinkWithSlides(
