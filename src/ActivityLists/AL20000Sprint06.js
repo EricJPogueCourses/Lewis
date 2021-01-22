@@ -29,7 +29,7 @@ create an interactive version of<span style={{color: "red"}}> &#10084;&#10084;&#
 	<ul style={{listStyleType:'square'}}>
 		<li>“Matchmaker with Python”<NavLink to='/activity/matchmaker-python'>[link]</NavLink></li>
 		<li>“Getting to Know Each Other”<NavLink to='/activity/getting-to-know-each-other'>[link]</NavLink></li>
-		<li>“Website Creation with GitHub and Microsoft Azure - 2020 Supplemental Edition”<NavLink to='/activity/azure-website-supplemental-2020'>[link]</NavLink></li>
+		<li>“Website Creation with GitHub and Microsoft Azure - 2020 Supplemental Edition” (highly recommended)<NavLink to='/activity-config/git-deployment-to-azure-supplemental-2020'>[link]</NavLink></li>
 	</ul>
 	<li>Read Dale chapter 16 The World Wide Web<a href='https://learning.oreilly.com/library/view/computer-science-illuminated/9781284055917/' target='_blank' rel='noopener noreferrer'>[link]</a>
 		and review our chapter 16 lecture <NavLink to='/activity-dale/16'>[video]</NavLink></li>
@@ -57,8 +57,7 @@ const extras = () => {
 			<li>Review “HTML Programming - Part 1” from W3C<NavLink to='/activity/html'>[link]</NavLink>~4 hours</li>
 			<li>Review “HTML Programming - Part 2” from W3C<NavLink to='/activity/html'>[link]</NavLink>~4 hours</li>
 			<li>Review “Azure Free Static Website”<NavLink to='/activity/azure-website'>[link]</NavLink>~3 hours</li>
-			<li>Review “Website Creation with GitHub and Microsoft Azure - 2020 Supplemental Edition”
-				<NavLink to='/activity/azure-website-supplemental-2020'>[link]</NavLink></li>
+			<li>Review “Website Creation with GitHub and Microsoft Azure - 2020 Supplemental Edition” (highly recommended)<NavLink to='/activity-config/git-deployment-to-azure-supplemental-2020'>[link]</NavLink></li>
 		</ul>
 	</div>)
 }

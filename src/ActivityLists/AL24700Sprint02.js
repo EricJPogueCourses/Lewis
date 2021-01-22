@@ -55,8 +55,6 @@ const extras = () => {
 		<p>Additional suggested activities:</p>
 		<ul style={{listStyleType:'square'}}>
 			<li>Review “Website Creation with GitHub and Microsoft Azure” as needed<NavLink to='/activity/azure-website'>[link]</NavLink></li>
-			<li>Complete “Website Creation with GitHub and Microsoft Azure - 2020 Supplemental Edition”
-				<NavLink to='/activity/azure-website-supplemental-2020'>[link]</NavLink></li>
 			<li>Review Git Cheat Sheet from GitHub<a href='https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf'
 				target='_blank' rel='noopener noreferrer'>[link]</a></li>
 		</ul>

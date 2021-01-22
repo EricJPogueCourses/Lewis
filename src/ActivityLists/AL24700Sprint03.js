@@ -58,8 +58,7 @@ const extras = () => {
 		<p>Additional suggested activities:</p>
 		<ul style={{listStyleType:'square'}}>
 			<li>Review our class sample code by executing “git clone https://github.com/EricJPogueCourses/WEB-ExampleCode.git”</li>
-			<li>Review “Website Creation with GitHub and Microsoft Azure - 2020 Supplemental Edition”
-				<NavLink to='/activity/azure-website-supplemental-2020'>[link]</NavLink></li>
+			<li>Review“Website Creation with GitHub and Microsoft Azure - 2020 Supplemental Edition” (highly recommended)<NavLink to='/activity-config/git-deployment-to-azure-supplemental-2020'>[link]</NavLink></li>
 			<li>Consider tutoring options<a href='https://botb.blob.core.windows.net/nvm4zqwm/cadahnn5-tutoring.pdf'
 				target='_blank' rel='noopener noreferrer'>[link]</a></li> 
 		</ul>

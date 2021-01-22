@@ -74,7 +74,7 @@ const extras = () => {
 		<ul style={{listStyleType:'square'}}>
 			<li>Review our class sample code by executing “git clone https://github.com/EricJPogueCourses/SE-ExampleCode.git”</li>
 			<li>Complete “Deploying Node.js on Microsoft Azure”<a href='https://app.knowmia.com/lyyA' target='_blank' rel='noopener noreferrer'>[link]</a></li>			
-			<li>Complete “Website Creation with GitHub and Microsoft Azure - 2020 Supplemental Edition”<NavLink to='/activity/azure-website-supplemental-2020'>[link]</NavLink></li>
+			<li>Review “Website Creation with GitHub and Microsoft Azure - 2020 Supplemental Edition” (highly recommended)<NavLink to='/activity-config/git-deployment-to-azure-supplemental-2020'>[link]</NavLink></li>
 			<li>Review “Website Creation with GitHub and Microsoft Azure”<NavLink to='/activity/azure-website'>[link]</NavLink></li>
 			<li>Review Git Cheat Sheet from GitHub<a href='https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf'
 				target='_blank' rel='noopener noreferrer'>[link]</a></li>

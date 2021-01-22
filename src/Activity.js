@@ -54,27 +54,6 @@ const foxLink = (fileName) => {
 	return baseLink()+'fox/'+fileName	
 }
 
-// ** Knowmia functions **
-// Knowmia Todo: Report "Uncaught Error: Highcharts error #16" to TechSmith as it occurs even when the TechSmith copied link (below) is inserted into a Hello World style html file.
-// const iFrameForChapter5 = "<iframe scrolling='no' frameborder='0' style='width: 1024px; height: 576px; border:0;' src='https://app.knowmia.com/connector/embed/index/5nwa' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
-const knowmiaVideoLink = (videoFileReference) => {
-	return 'https://app.knowmia.com/connector/embed/index/'+videoFileReference
-}
-
-const knowmiaIFrameTag = (videoFileReference) => {
-	return "<iframe scrolling='no' frameborder='0' style='width: 1024px; height: 576px; border:0;' src='"+knowmiaVideoLink(videoFileReference)+"' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
-}
-
-const IFrameComponent = (props) =>{
-	return (<div dangerouslySetInnerHTML={{__html:  props.iframe?props.iframe:""}} />);
-}
-
-const knowmiaVideoPage = (header, videoFileReference) => {
-	return ( <div><h5>{header}</h5><IFrameComponent iframe={knowmiaIFrameTag(videoFileReference)} /></div> )
-}
-// ** End -- Knowmia functions **
-
-
 class Activity extends Component {
 	activity() {
 		let activityReference = this.props.match.params.reference
@@ -84,18 +63,10 @@ class Activity extends Component {
 			// Learning activities:
 			//     http://localhost:3000/#/activity/blended-learning  
 			//     http://www.lewis.education/#/activity/blended-learning
-			case 'blended-learning': return videoLink(
-				'Blended Learning', 
-				'https://www.youtube.com/watch?v=paQCE58334M&vl')
-			case 'scrum-in-7-minutes': return videoLink(
-				'Introduction to Scrum', 
-				'https://www.youtube.com/watch?v=9TycLR0TqFA')
-			case 'photo-to-blackboard': return videoLink(
-				'Add Your Photo to Blackboard', 
-				'https://www.youtube.com/watch?v=PTmK3QdwZro&feature=youtu.be')
-			case 'blackboard-ultra': return videoLink(
-				'Introduction to Blackboard Ultra', 
-				'https://www.youtube.com/watch?v=IKjBxIe_138&feature=youtu.be')
+			case 'blended-learning': return videoLink('Blended Learning', 'https://www.youtube.com/watch?v=paQCE58334M&vl')
+			case 'scrum-in-7-minutes': return videoLink('Introduction to Scrum', 'https://www.youtube.com/watch?v=9TycLR0TqFA')
+			case 'photo-to-blackboard': return videoLink('Add Your Photo to Blackboard', 'https://www.youtube.com/watch?v=PTmK3QdwZro&feature=youtu.be')
+			case 'blackboard-ultra': return videoLink('Introduction to Blackboard Ultra', 'https://www.youtube.com/watch?v=IKjBxIe_138&feature=youtu.be')
 			case 'tools': return Tools()
 			case 'coding-standards': return CodingStandards()
 			case 'final-project-proposal': return FinalProjectProposal()
@@ -126,8 +97,6 @@ class Activity extends Component {
 			case 'html': return HTML()
 			case 'python-w3c': return PythonW3C()
 			case 'azure-website': return AzureWebsite()
-			case 'azure-website-supplemental-2020': return knowmiaVideoPage(
-				'Website Creation with GitHub and Microsoft Azure - 2020 Supplemental Edition', '6Jkv')
 			case 'assignment-portfolio': return WebAssignmentPortfolio()
 			case 'dice-roller': return WebDiceRoller()
 			case 'getting-to-know-each-other': return WebGettingToKnowEachOther()
