@@ -35,7 +35,7 @@ Web development with HTML, CSS, and JavaScript. But never forget the legendary p
 	<li>Start working on “Health Insurance Risk Calculator” for the Web<NavLink to='/activity/health-risk-calculator-web'>[link]</NavLink>
 		or in Python<NavLink to='/activity/health-risk-calculator-python'>[link]</NavLink></li>	
 	<li>Read Dale chapter 17 Security”<a href='https://learning.oreilly.com/library/view/computer-science-illuminated/9781284055917/' target='_blank' rel='noopener noreferrer'>[link]</a>
-		and review our chapter 17 lecture <NavLink to='/activity/dale-chapter-17'>[video]</NavLink></li>
+		and review our chapter 17 lecture <NavLink to='/activity-dale/17'>[video]</NavLink></li>
 	<li><em>Make your initial Discussion post by the middle of the sprint</em></li>
 	<li>Sign up for a Final Project presentation date &amp; time</li>
 	<li>Complete “Health Insurance Risk Calculator”<NavLink to='/activity/health-risk-calculator-python'>[link]</NavLink><sup> ~12 hours</sup></li>

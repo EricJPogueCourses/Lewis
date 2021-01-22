@@ -35,7 +35,7 @@ will have more control <em>and responsibility</em> in determining what is done a
 	<li>Start working on your “Final Project Proposal”<NavLink to='/activity/final-project-proposal'>[link]</NavLink></li>
 	<li>Start working on “TurtleDraw”<NavLink to='/activity/turtle-draw'>[link]</NavLink></li>
 	<li>Read Dale chapter 15 Networks<a href='https://learning.oreilly.com/library/view/computer-science-illuminated/9781284055917/' target='_blank' rel='noopener noreferrer'>[link]</a>
-		and review our chapter 15 lecture <NavLink to='/activity/dale-chapter-15'>[video]</NavLink></li>
+		and review our chapter 15 lecture <NavLink to='/activity-dale/15'>[video]</NavLink></li>
 	<li><em>Make your initial Discussion post by the middle of the sprint</em></li>
 	<li>Read chapters 2 &amp; 3 of Lubanovic and complete each of the exercises<a href='https://learning.oreilly.com/home/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li><em>Complete your “Final Project Proposal”</em><NavLink to='/activity/final-project-proposal'>[link]</NavLink> ~2 hours</li>

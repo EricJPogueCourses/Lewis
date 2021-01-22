@@ -55,9 +55,11 @@ export const programmingTogether = () => {
 	}
 }
 
+
+
 const panoptoEmbedCodePrefix = '<iframe src="https://lewisu.hosted.panopto.com/Panopto/Pages/Embed.aspx?id='
 const panoptoEmbedSuffix = '&autoplay=false&offerviewer=false&showtitle=false&showbrand=false&start=0&interactivity=all" height="576" width="1024" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>'
-const embedCode = (iD) => { return panoptoEmbedCodePrefix + iD +panoptoEmbedSuffix }
+const embedCode = (iD) => { return panoptoEmbedCodePrefix+iD+panoptoEmbedSuffix }
 
 const panoptoVideo = (iD) => {
 	const emCode = embedCode(iD)
@@ -69,12 +71,27 @@ export const programmingTogetherHelloWorldPython = () => {
 	return panoptoVideo(helloWorldPythonID)
 }
 
-// Dale lecture video IDs.
-const daleChapterLectureVideoID = [
-	'',
-	'6d751974-7cfc-45ef-aec8-acb6016de351'
-]
+// Dale videos.
+export const daleLectureVideo = (chapter) => {
+	const daleLectureVideoID = (chapter) => {
+		switch(chapter) {
+			case  '1': return '6d751974-7cfc-45ef-aec8-acb6016de351'
+			case  '2': return 'a563c200-75ed-451d-a55e-acb6016db7f6'
+			case  '3': return '4e3b4753-5b71-4290-9596-acb6016d9264'
+			case  '4': return '3a8a5169-a3f7-49c1-8e13-acb6016d889e'
+			case  '5': return '578a64ed-76fe-4572-9b52-acb6016d559a'
+			case  '6': return '3a9ab748-974c-40d0-9b9e-acb6016d2ff7'
+			case '11': return 'f7e1cb7b-cf9a-4563-b5e9-acb6016d05e8'
+			case '13': return 'a7192813-57a8-4c4b-9522-acb6016ce60b'
+			case '15': return '57dc1c20-a953-4ef6-87ed-acb6016ce5ad'
+			case '16': return '26144aa8-0670-496b-b847-acb6016ce586'
+			case '17': return 'db61a5b6-4b59-4bdf-980a-acb6016ce5d6'
+		
+			default:
+				console.log('Error: Dale lecture video ID not found (chapter='+chapter+')') 
+				return ''
+		}
+	}
 
-export const daleChapterLectureVideo = (chapter) => {
-	return panoptoVideo(daleChapterLectureVideoID[chapter])
+	return panoptoVideo(daleLectureVideoID(chapter))
 }

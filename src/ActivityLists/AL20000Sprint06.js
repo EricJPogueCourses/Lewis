@@ -32,7 +32,7 @@ create an interactive version of<span style={{color: "red"}}> &#10084;&#10084;&#
 		<li>“Website Creation with GitHub and Microsoft Azure - 2020 Supplemental Edition”<NavLink to='/activity/azure-website-supplemental-2020'>[link]</NavLink></li>
 	</ul>
 	<li>Read Dale chapter 16 The World Wide Web<a href='https://learning.oreilly.com/library/view/computer-science-illuminated/9781284055917/' target='_blank' rel='noopener noreferrer'>[link]</a>
-		and review our chapter 16 lecture <NavLink to='/activity/dale-chapter-16'>[video]</NavLink></li>
+		and review our chapter 16 lecture <NavLink to='/activity-dale/16'>[video]</NavLink></li>
 	<li>Turn your “Final Project Proposal”<NavLink to='/activity/final-project-proposal'>[link]</NavLink> into a Web 
 		application by hosting it in the Azure Cloud</li>
 	<li>Review the JavaScript tutorial from W3C <a href='https://www.w3schools.com/js/'>[link]</a></li>

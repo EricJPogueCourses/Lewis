@@ -27,8 +27,6 @@ import { WebCourseSchedule } from './Activities/WebCourseSchedule'
 import { WebMapManiaVersion1 } from './Activities/WebMapManiaVersion1'
 import { WebMapManiaVersion2 } from './Activities/WebMapManiaVersion2'
 
-import { programmingTogether } from './Panopto'
-
 export const videoLink = (header, url) => {
 	return ( <div><h5>{header}</h5><ReactPlayer url={url} controls={true} width={1024} height={576} /></div> )
 }
@@ -52,10 +50,6 @@ const webProgrammingLink = (fileName) => {
 	return baseLink()+'web-and-distributed-programming/'+fileName
 }
 
-const daleLink = (fileName) => {
-	return baseLink()+'dale/'+fileName	
-}
-
 const foxLink = (fileName) => {
 	return baseLink()+'fox/'+fileName	
 }
@@ -77,16 +71,6 @@ const IFrameComponent = (props) =>{
 
 const knowmiaVideoPage = (header, videoFileReference) => {
 	return ( <div><h5>{header}</h5><IFrameComponent iframe={knowmiaIFrameTag(videoFileReference)} /></div> )
-}
-
-const knowmiaVideoPageWithSlides = (header, videoFileReference, urlSlides) => {
-	return ( 
-		<div>
-			<h5>{header}</h5>
-			<IFrameComponent iframe={knowmiaIFrameTag(videoFileReference)} />
-			<br />
-			If you are looking for the associated slides, you can find them here<a href={urlSlides}>[link]</a>.
-		</div> )
 }
 // ** End -- Knowmia functions **
 
@@ -151,44 +135,6 @@ class Activity extends Component {
 			case 'course-schedule': return WebCourseSchedule()
 			case 'map-mania-v1': return WebMapManiaVersion1()
 			case 'map-mania-v2': return WebMapManiaVersion2()
-
-			// Start Computer Science Illuminated” by Nell Dale and John Lewis (Dale).
-			case 'dale-chapter-01': return videoLinkWithSlides(
-				'“Computer Science Illuminated” by Nell Dale and John Lewis (Dale) Chapter 1 Lecture', 
-				daleLink('chapter-01-lecture.mp4'), daleLink('chapter-01-lecture.pptx'))
-			case 'dale-chapter-02': return videoLinkWithSlides(
-				'“Computer Science Illuminated” by Nell Dale and John Lewis (Dale) Chapter 2 Lecture', 
-				daleLink('chapter-02-lecture.mp4'), daleLink('chapter-02-lecture.pptx'))
-			case 'dale-chapter-03': return videoLinkWithSlides(
-				'“Computer Science Illuminated” by Nell Dale and John Lewis (Dale) Chapter 3 Lecture',
-				daleLink('chapter-03-lecture.mp4'), daleLink('chapter-03-lecture.pptx')) 
-			case 'dale-chapter-04': return videoLink(
-				'“Computer Science Illuminated” by Nell Dale and John Lewis (Dale) Chapter 4 Lecture', 
-				daleLink('chapter-04-lecture.mp4'), daleLink('chapter-04-lecture.pptx'))
-			case 'dale-chapter-05': return knowmiaVideoPageWithSlides(
-				'“Computer Science Illuminated” by Nell Dale and John Lewis (Dale) Chapter 5 Lecture', '5nwa',
-				daleLink('chapter-05-lecture.pptx'))
-			case 'dale-chapter-06': return knowmiaVideoPageWithSlides(
-				'“Computer Science Illuminated” by Nell Dale and John Lewis (Dale) Chapter 6 Lecture', 'ehQJ',
-				daleLink('chapter-06-lecture.pptx'))
-
-			// Note that dale chapters are not consistent across version of the book after chapter 6. 
-			case 'dale-chapter-11': return knowmiaVideoPageWithSlides(
-				'“Computer Science Illuminated” by Nell Dale and John Lewis (Dale) Chapter 11 Lecture', 'yn0q',
-				daleLink('chapter-11-lecture.pdf'))
-			case 'dale-chapter-13': return knowmiaVideoPageWithSlides(
-				'“Computer Science Illuminated” by Nell Dale and John Lewis (Dale) Chapter 13 Lecture on Artificial Intelligence', 'QcQb',
-				daleLink('chapter-13-lecture.pdf'))
-			case 'dale-chapter-15': return knowmiaVideoPageWithSlides(
-				'“Computer Science Illuminated” by Nell Dale and John Lewis (Dale) Chapter 15 Lecture on Networks', 'lVyL',
-				daleLink('chapter-15-lecture.pdf'))
-			case 'dale-chapter-16': return knowmiaVideoPageWithSlides(
-				'“Computer Science Illuminated” by Nell Dale and John Lewis (Dale) Chapter 16 Lecture on The World Wide Web', '4X5Z',
-				daleLink('chapter-16-lecture.pdf'))
-			case 'dale-chapter-17': return knowmiaVideoPageWithSlides(
-				'“Computer Science Illuminated” by Nell Dale and John Lewis (Dale) Chapter 17 Lecture on Computer Security', 'xtQN',
-				daleLink('chapter-17-lecture.pdf'))
-			// End Dale.
 
 			// Start Programming The World Wide Web” by Robert W. Sebesta (Sebesta)
 			case 'sebesta-chapter-01': return videoLinkWithSlides(

@@ -26,13 +26,13 @@ algorithms.</p>
 	<li>Stay focused on the due dates<NavLink to='/calendar/3'>[link]</NavLink></li>
 	<li><em>Review sprint 3 assignments including Lab 3, Quiz 3, Discussion 3, and Reflection 3</em></li>
 	<li>Read Dale chapter 4 Gates and Circuits<a href='https://learning.oreilly.com/library/view/computer-science-illuminated/9781284055917/' target='_blank' rel='noopener noreferrer'>[link]</a>
-		and review our chapter 4 lecture <NavLink to='/activity/dale-chapter-04'>[video]</NavLink></li>
+		and review our chapter 4 lecture <NavLink to='/activity-dale/4'>[video]</NavLink></li>
 	<li>Embrace our “Coding Standards”<NavLink to='/activity/coding-standards'>[link]</NavLink> and consistently utilize 
 		them on <em>all</em> activities and assignments</li>
 	<li>Complete “HTML Programming - Part 2” from W3C<NavLink to='/activity/html'>[link]</NavLink>~4 hours</li>
 	<li><em>Make your initial Discussion 3 post by the middle of the sprint</em></li>
 	<li>Read Dale chapter 5 Computing Components<a href='https://learning.oreilly.com/library/view/computer-science-illuminated/9781284055917/' target='_blank' rel='noopener noreferrer'>[link]</a>
-		and review our chapter 5 lecture <NavLink to='/activity/dale-chapter-05'>[video]</NavLink></li>
+		and review our chapter 5 lecture <NavLink to='/activity-dale/5'>[video]</NavLink></li>
 	<li>Review Git Cheat Sheet from GitHub<a href='https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf'
 		target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li>Complete “Azure Free Static Website”<NavLink to='/activity/azure-website'>[link]</NavLink>~3 hours</li>

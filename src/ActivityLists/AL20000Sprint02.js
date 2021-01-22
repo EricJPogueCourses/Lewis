@@ -33,12 +33,12 @@ efficient for you and the <em>bold</em> items are graded assignments.</p>
 	{/* The above items should be consistent across classes. */ }
 
 	<li>Read “Computer Science Illuminated” (Dale) chapter 2<a href='https://learning.oreilly.com/library/view/computer-science-illuminated/9781284055917/' target='_blank' rel='noopener noreferrer'>[link]</a>
-		Binary Values and Number Systems and review our chapter 2 lecture <NavLink to='/activity/dale-chapter-02'>[video]</NavLink></li>
+		Binary Values and Number Systems and review our chapter 2 lecture <NavLink to='/activity-dale/2'>[video]</NavLink></li>
 	<li>Complete “Tools of the Trade - Part 2” ~3 hours <NavLink to='/activity/tools'>[link]</NavLink></li>
 	<li><em>Make your initial Discussion 2 post by the middle of the sprint</em></li>
 
 	<li>Read Dale chapter 3 Data Representation<a href='https://learning.oreilly.com/library/view/computer-science-illuminated/9781284055917/' target='_blank' rel='noopener noreferrer'>[link]</a>
-		and review our chapter 3 lecture <NavLink to='/activity/dale-chapter-03'>[video]</NavLink></li>
+		and review our chapter 3 lecture <NavLink to='/activity-dale/3'>[video]</NavLink></li>
 	<li>Complete “HTML Programming - Part 1” from W3C<NavLink to='/activity/html'>[link]</NavLink><sup> ~4 hours </sup></li>
 
 	{/* The items below should be consistent across classes. */ }
