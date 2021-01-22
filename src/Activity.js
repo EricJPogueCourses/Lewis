@@ -95,12 +95,6 @@ class Activity extends Component {
 	activity() {
 		let activityReference = this.props.match.params.reference
 		switch(activityReference) {
-// Bugbug
-case 'test': return programmingTogether()
-// End Bugbug
-
-
-
 			// Each of the case statements below represent a link to an activity. Activities are referenced via the
 			// application URL. For example, the following two links would take us to the test and production Blended 
 			// Learning activities:
