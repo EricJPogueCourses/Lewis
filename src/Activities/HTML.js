@@ -8,10 +8,10 @@ export const HTML= () => {
 
 <br />
 <h4>HTML Tutorial</h4>
-<h5>Summary: Create basic web applications utilizing HTML and CSS</h5>
+<h5>Summary: Complete the W3C tutorial on HTML</h5>
 <h5>Prerequisites: Windows 10 or MacOS, Web Browser, and VS Code</h5>
 			
-<p>Instructions: Complete the HTML tutorial from W3C <a href='https://www.w3schools.com/html/'>[link]</a></p>
+<p>Instructions: Complete the W3C tutorial on HTML<a href='https://www.w3schools.com/html/'>[link]</a></p>
 <ul style={{ listStyleType:'square' }}>
 	<li>Part 1 of this tutorial begins with “HTML Home” and ends when you have completed the “HTML Images” section</li>
 	<li>Part 2 picks up with “HTML Tables” and ends with “HTML vs. XHTML”</li>
