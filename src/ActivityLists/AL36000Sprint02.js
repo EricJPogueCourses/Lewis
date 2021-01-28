@@ -34,17 +34,25 @@ minutes unless otherwise noted.</p>
 	<li>Study and understand our “Coding Standards”<NavLink to='/activity/coding-standards'>[link]</NavLink></li>
 	{/* The above items should be consistent across classes. */ }
 
-	<li>Review Object-Oriented Programming Patterns<NavLink to='/activity-oop/patterns'>[video]</NavLink> 
-		and Principles<NavLink to='/activity-oop/principles'>[video]</NavLink></li>
+	<li>Review Object-Oriented Programming Patterns<NavLink to='/activity-oop/patterns'>[video]</NavLink></li>
+	<li>Review Object-Oriented Programming Principles<NavLink to='/activity-oop/principles'>[video]</NavLink></li>
 	<li>Within O’Reilly Books<a href='https://www.oreilly.com' target='_blank' rel='noopener noreferrer'>[link]</a> 
 		perform a searches for Golang, Git, and ReactJS  </li>
 	<li>Read “Introducing Go” chapters 7 and 8<a href='https://learning.oreilly.com/library/view/introducing-go/9781491941997/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li><em>Make your initial Discussion 2 post by the middle of the sprint</em></li>
 	<li>Complete “HTML Programming - Part 1” from W3C<NavLink to='/activity/html'>[link]</NavLink> ~2 hours</li>
-	<li>Complete “My Favorite Hobby”<NavLink to='/activity/favorite-hobby'>[link]</NavLink>~2 hours</li>
+
+	{/* The items below should be consistent across classes. */ }
+	<li>{complete(programmingAssignment)}</li>
 	<li><em>Complete Discussion 2 by responding to at least two of your classmates’ posts</em></li>
 	<li><em>Submit Lab 2, Quiz 2, and Reflection 2</em></li>
 </ol>
+
+<p>If you are struggling, remember to reach out to your Scrum teammates early and often for help. Also, be sure to 
+periodically check for new programming together tutorials<NavLink to='/activity/programming-together'>[link]</NavLink>.</p>
+
+
+
 <p>Be sure to start activities and assignments early and to reward yourself when you reach significant milestones.</p>
 </div>
 

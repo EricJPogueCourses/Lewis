@@ -13,6 +13,12 @@ export const GettingToKnowEachOther = {
 	'estimate':'~6 hours'
 }
 
+export const AssignmentPortfolioWebsite = {
+	'name':'“Assignment Portfolio Website”',
+	'link':'/activity/assignment-portfolio',
+	'estimate':'~3 hours'	
+}
+
 export const MatchmakerWithJava = {
 	'name':'“Matchmaker with Java”',
 	'link':'/activity/matchmaker-java',

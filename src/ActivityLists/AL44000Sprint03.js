@@ -25,12 +25,14 @@ prescriptive. I want to encourage you to collaborate more with your peers as you
 <ol>
 	<li>Stay focused on the due dates by reviewing our course calendar<NavLink to='/calendar/3'>[link]</NavLink></li>
 	<li><em>Review sprint 3 assignments including discussion 3, quiz 3, lab 3 and reflection 3</em></li>
+	
 	<li>Recall signing up for Safari Books Online which is available to you free through Lewis University
 		<a href='https://www.oreilly.com/library/view/temporary-access/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li>Review Section 4.5 of Fox on Debugging</li>
 	<li>Read Chapter 7 of Fox on Requirements and review the associated class lecture<NavLink to='/activity/fox-chapter-07'>[video]</NavLink></li>
 	<li>Within Safari Books Online find “Web Development with Node and Express, 2nd Edition” by Ethan Brown (Brown)
 		and preview the preface and first four chapters of the book</li>
+
 	<li>Thoroughly read chapters 1 and 2 of Brown while completing each of the exercises</li>
 	<li><em>Consistently work on your sprint 3 assignments throughout the sprint ~12 hours</em></li>
 	<li><em>Complete discussion board initial DB3 post by the middle of the sprint</em></li>

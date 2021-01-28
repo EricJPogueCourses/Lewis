@@ -33,28 +33,32 @@ const panoptoWelcomeIFrameTag = () => {
 	return "<iframe src='https://lewisu.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=ea0cac63-6820-411f-b31a-acaf01489295&autoplay=true&offerviewer=false&showtitle=false&showbrand=false&start=0&interactivity=all' height='576' width='1024' style='border: 1px solid #464646;' allowfullscreen allow='autoplay'></iframe>"
 }
 
-// Start programming together section.
-
-// Note that making the following function start with a lower case "P" causes an error in the browser.
+// Programming together functions.
 const PanoptoIFrameComponent = (props) =>{
 	return (<div dangerouslySetInnerHTML={{__html: props.iframe?props.iframe:""}} />);
 }
+// Note that changing PanoptoIFrameComponent to a lower case leading “p”) caused an error in the browser.
 
-const programmingTogetherPlaylistFor20000 = () => {
-	return "<iframe src='https://lewisu.hosted.panopto.com/Panopto/Pages/Embed.aspx?pid=5b13e440-2f35-437a-ba5e-acaf01643326&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all' height='576' width='1024' style='border: 1px solid #464646;' allowfullscreen allow='autoplay'></iframe>"
-}	 
+// Playlist functions.
+const panoptoEmbedCodePrefixForPlaylist = '<iframe src="https://lewisu.hosted.panopto.com/Panopto/Pages/Embed.aspx?pid='
+const panoptoEmbedSuffixForPlaylist = '&autoplay=false&offerviewer=false&showtitle=false&showbrand=false&start=0&interactivity=all" height="576" width="1024" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>'
+const embedCodePlaylist = (iD) => { return panoptoEmbedCodePrefixForPlaylist+iD+panoptoEmbedSuffixForPlaylist }
+
+const programmingTogether20000ID = '02966c28-e8c1-4a94-b6b2-acbe003233bb'
+const programmingTogether44000ID = '02966c28-e8c1-4a94-b6b2-acbe003233bb'
 
 export const ProgrammingTogether = () => {
 	let classReference = cpsc()
 	switch(classReference) {
-		case '20000-spring-2021-002': return (<div><PanoptoIFrameComponent iframe={programmingTogetherPlaylistFor20000()} /></div>)
+		case '20000-spring-2021-002': return (<div><PanoptoIFrameComponent iframe={embedCodePlaylist(programmingTogether20000ID)} /></div>)
 		case '24500-spring-2021-001': return (null)
 		case '36000-spring-2021-001': return (null)
-		case '44000-spring-2021-001': return (null)
+		case '44000-spring-2021-001': return (<div><PanoptoIFrameComponent iframe={embedCodePlaylist(programmingTogether44000ID)} /></div>)
 		default: return (null)
 	}
 }
 
+// Video Functions. 
 const panoptoEmbedCodePrefix = '<iframe src="https://lewisu.hosted.panopto.com/Panopto/Pages/Embed.aspx?id='
 const panoptoEmbedSuffix = '&autoplay=false&offerviewer=false&showtitle=false&showbrand=false&start=0&interactivity=all" height="576" width="1024" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>'
 const embedCode = (iD) => { return panoptoEmbedCodePrefix+iD+panoptoEmbedSuffix }
