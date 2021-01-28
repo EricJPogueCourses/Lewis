@@ -44,7 +44,7 @@ const panoptoEmbedCodePrefixForPlaylist = '<iframe src="https://lewisu.hosted.pa
 const panoptoEmbedSuffixForPlaylist = '&autoplay=false&offerviewer=false&showtitle=false&showbrand=false&start=0&interactivity=all" height="576" width="1024" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>'
 const embedCodePlaylist = (iD) => { return panoptoEmbedCodePrefixForPlaylist+iD+panoptoEmbedSuffixForPlaylist }
 
-const programmingTogether20000ID = '02966c28-e8c1-4a94-b6b2-acbe003233bb'
+const programmingTogether20000ID = '5b13e440-2f35-437a-ba5e-acaf01643326'
 const programmingTogether44000ID = '02966c28-e8c1-4a94-b6b2-acbe003233bb'
 
 export const ProgrammingTogether = () => {
