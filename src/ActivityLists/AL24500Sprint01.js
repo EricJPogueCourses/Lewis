@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 import { MatchmakerWithJava, start, complete } from './ProgrammingAssignments'
 const programmingAssignment = MatchmakerWithJava
 
-export const al25000Sprint01 = (syllabusURL) => {
+export const al24500Sprint01 = (syllabusURL) => {
 	return (
 
 <div>

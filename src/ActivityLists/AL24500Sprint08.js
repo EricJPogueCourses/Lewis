@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
-export const al25000Sprint08 = ( props ) => {
+export const al24500Sprint08 = ( props ) => {
 	return (
 
 <div>

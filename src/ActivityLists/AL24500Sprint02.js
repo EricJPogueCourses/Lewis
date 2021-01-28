@@ -5,7 +5,7 @@ import { OvalDrawPlusWithJava, start, complete } from './ProgrammingAssignments'
 
 const programmingAssignment = OvalDrawPlusWithJava
 
-export const al25000Sprint02 = ( props ) => {
+export const al24500Sprint02 = ( props ) => {
 	return (
 
 <div className='sprint-02'>
@@ -44,8 +44,8 @@ minutes unless otherwise noted.</p>
 	<li>Read “Learning Java, 5th Edition” chapter 3<a href='https://learning.oreilly.com/library/view/learning-java-5th/9781492056263/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li>Within O’Reilly Books<a href='https://www.oreilly.com' target='_blank' rel='noopener noreferrer'>[link]</a>
 		execute searches for Object-Oriented Programming, OOP, Git, GitHub, and Java</li>
-	<li>Complete “Shapes - Part 1”<NavLink to='/activity-oop/java-shapes-step1'>[video]</NavLink></li> 
-	<li>Complete your initial Discussion Board (DB) post by the middle of the sprint</li>
+	<li>Complete “Shapes - Part 1”<NavLink to='/activity-oop/java-shapes-step1'>[video]</NavLink></li>
+	<li><em>Make your initial Discussion 2 post by the middle of the sprint</em></li>
 	<li>Complete “Shapes - Part 2”<NavLink to='/activity-oop/java-shapes-step2'>[video]</NavLink></li>
 	<li>Complete “Object-Oriented Programming Principles”<NavLink to='/activity-oop/principles'>[video]</NavLink></li>
 	<li>Review UML Class Diagrams<a href='https://www.youtube.com/watch/UI6lqHOVHic' target='_blank' rel='noopener noreferrer'>[link]</a></li>
@@ -55,14 +55,21 @@ minutes unless otherwise noted.</p>
 	<li><em>Complete Discussion 2 by responding to at least two of your classmates’ posts</em></li>
 	<li><em>Submit Lab 2, Quiz 2, and Reflection 2</em></li>
 </ol> 
-<p>Additional references are provided below:</p>
-<ul style={{ listStyleType:'square' }}>
-	<li>Sprint 2 Recorded Lecture/Discussion session from the Spring 2020 online Object-Oriented Programming class
-		<a href='https://botb.blob.core.windows.net/ovun/2020-01-22_sprint-02-oop.mp4'>[link]</a></li>
-	<li>Git/GitHub Cheat Sheet	
-		<a href='https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf' target='_blank' rel='noopener noreferrer'>[link]</a></li> 
-</ul>
+
+{extras()}
 </div>
 
 	)
+}
+
+const extras = () => {
+	return (<div>	
+		<p>Additional suggested activities:</p>
+		<ul style={{listStyleType:'square'}}>
+		<li>Sprint 2 Recorded Lecture/Discussion session from the Spring 2020 online Object-Oriented Programming class
+		<a href='https://botb.blob.core.windows.net/ovun/2020-01-22_sprint-02-oop.mp4'>[link]</a></li>
+			<li>Git/GitHub Cheat Sheet	
+				<a href='https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf' target='_blank' rel='noopener noreferrer'>[link]</a></li> 
+		</ul>
+	</div>)
 }

@@ -27,7 +27,7 @@ export const showHeaderNavigation = () => {
 }
 
 export const courseNumber = () => { 
-	const defaultCourseNumber = 20000 // Default to cpsc-25000 which is OOP
+	const defaultCourseNumber = 20000 // Default to cpsc-24500 which is OOP
 	const queryString = window.location.search;
 	const urlParams = new URLSearchParams(queryString);
 	let cpsc = urlParams.get('cpsc')
@@ -45,8 +45,8 @@ export const courseNumber = () => {
 }
 
 // The following function will provide a link to a Lewis University class syllabus. A class is an instance of a 
-// course (sometimes referred to as a section). For example Object-Oriented Programming (cpsc-25000) is a course 
-// the Object-Oriented Programming class (cpsc-25000-001) is the section that meets MWF from 10-10:50am CT.
+// course (sometimes referred to as a section). For example Object-Oriented Programming (cpsc-24500) is a course 
+// the Object-Oriented Programming class (cpsc-24500-001) is the section that meets MWF from 10-10:50am CT.
 export const classSyllabusURL = () => { 
 	let classReference = cpsc()
 	switch(classReference) {
