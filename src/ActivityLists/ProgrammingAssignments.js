@@ -37,6 +37,18 @@ export const OvalDrawPlusWithJava = {
 	'estimate':'~4 hours'
 }
 
+export const CodingStandardsValidatorPart1 = {
+	'name':'“Coding Standards Validator - Part 1”',
+	'link':'/activity/coding-standards-validator',
+	'estimate':'~8 hours'
+}
+
+export const CodingStandardsValidatorPart2 = {
+	'name':'“Coding Standards Validator - Part 2”',
+	'link':'/activity/coding-standards-validator',
+	'estimate':'~8 hours'
+}
+
 export const start = (assignment) => { return ( <div>Start working on {assignment.name}<NavLink to={assignment.link}>[link]</NavLink></div>) }
 export const complete = (assignment) => { return ( <div>Complete {assignment.name}<NavLink to={assignment.link}>[link]</NavLink>{sup(assignment.estimate)}</div>)}
 

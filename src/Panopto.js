@@ -14,7 +14,7 @@ export const welcome2021Spring = () => {
 		<br />
 		<p>Prior to our first class session, please also take a few minutes to gain a better understand of 
 		Blended Learning and Scrum by reviewing the following videos.</p>
-		<ul>
+		<ul style={{listStyleType:'square'}}>
 			<li>“Blended Learning &amp; Flipped Classroom” 
 				<NavLink to='/activity/blended-learning'>[video]</NavLink></li>
 			<li>“Introduction to Scrum in 7 Minutes”

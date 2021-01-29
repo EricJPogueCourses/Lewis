@@ -28,8 +28,8 @@ efficient for you and the <em>bold</em> items are graded assignments.</p>
 <ol>
 	<li>Stay focused on the due dates by reviewing our course calendar<NavLink to='/calendar/2'>[link]</NavLink></li>
 	<li><em>Review sprint 2 assignments including Lab 2, Quiz 2, Discussion 2, Reflection 2, and Lab Demo</em></li>
-	<li>{start(programmingAssignment)}</li>
 	<li>Study and understand our “Coding Standards”<NavLink to='/activity/coding-standards'>[link]</NavLink></li>
+	<li>{start(programmingAssignment)}</li>
 	{/* The above items should be consistent across classes. */ }
 
 	<li>Read “Computer Science Illuminated” chapter 2<a href='https://learning.oreilly.com/library/view/computer-science-illuminated/9781284055917/' target='_blank' rel='noopener noreferrer'>[link]</a>

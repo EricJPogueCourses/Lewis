@@ -1,26 +1,26 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
 
-import { GettingToKnowEachOther, start, complete } from './ProgrammingAssignments'
-const programmingAssignment = GettingToKnowEachOther
+import { CodingStandardsValidatorPart1, start, complete } from './ProgrammingAssignments'
+const programmingAssignment = CodingStandardsValidatorPart1
 
 export const al36000Sprint02 = () => {
 	return (
 
 <div>
 <h4>Applied Programming Languages</h4>
-<h5>Sprint 2: Patterns, Principles, Functional Programming, Interfaces, and Packages</h5>
+<h5>Sprint 2: Patterns, Principles, Interfaces, Packages, and Functional Programming, </h5>
 <p><em>Welcome to sprint 2.</em> We covered a lot of material in sprint 1. We even did some programming by completing
-Matchmaker with Go. Keep your Go compilers out for this sprint. We are going to start practicing some of the concepts 
-we learned while we continue to review object-oriented programming Patterns and Principles while we learn about 
-functional programming using Go.</p>
+Matchmaker with Go. Keep your Go compilers out for this sprint. We will be enhancing our knowledge of interfaces and 
+packages while working to understand the similarities and differences between object-oriented programming and functional
+programming.</p>
 
 <p>By the end of sprint 2 we will be able to:</p>
 <ul style={{listStyleType:'square'}}>
-	<li>Compare and contrast Object-Oriented Programming with Functional Programming</li>
-	<li>Create, modify, compile, and execute Go applications using Functional Programming techniques</li>
+	<li>Compare and contrast object-oriented programming with functional programming</li>
+	<li>Create, modify, compile, and execute Go applications using functional programming techniques</li>
 	<li>Utilize moderately complex configuration management techniques to effectively work in small teams</li>
-	<li>Utilize Structs, Interfaces, and Packages to implement Polymorphic and Encapsulated programs</li>
+	<li>Utilize structs, interfaces, and packages to implement polymorphic and encapsulated programs</li>
 </ul>
 
 <p>Below is the list of activities that we will need to complete this sprint. Once again you are welcome to
@@ -30,17 +30,18 @@ minutes unless otherwise noted.</p>
 <ol>
 	<li>Stay focused on the due dates by reviewing our course calendar<NavLink to='/calendar/2'>[link]</NavLink></li>
 	<li><em>Review sprint 2 assignments including Lab 2, Quiz 2, Discussion 2, Reflection 2, and Lab Demo</em></li>
-	<li>{start(programmingAssignment)}</li>
 	<li>Study and understand our “Coding Standards”<NavLink to='/activity/coding-standards'>[link]</NavLink></li>
+	<li>{start(programmingAssignment)}</li>
 	{/* The above items should be consistent across classes. */ }
 
 	<li>Review Object-Oriented Programming Patterns<NavLink to='/activity-oop/patterns'>[video]</NavLink></li>
 	<li>Review Object-Oriented Programming Principles<NavLink to='/activity-oop/principles'>[video]</NavLink></li>
+	<li>Read “Introducing Go” chapters 7 on Structs and Interfaces<a href='https://learning.oreilly.com/library/view/introducing-go/9781491941997/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+	<li>Read “Introducing Go” chapters 8 on Packages<a href='https://learning.oreilly.com/library/view/introducing-go/9781491941997/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+	<li>Complete the “Create a Go module” tutorial<a href='https://golang.org/doc/tutorial/create-module' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li>Within O’Reilly Books<a href='https://www.oreilly.com' target='_blank' rel='noopener noreferrer'>[link]</a> 
-		perform a searches for Golang, Git, and ReactJS  </li>
-	<li>Read “Introducing Go” chapters 7 and 8<a href='https://learning.oreilly.com/library/view/introducing-go/9781491941997/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+		perform a searches for Golang, Git, and ReactJS</li>
 	<li><em>Make your initial Discussion 2 post by the middle of the sprint</em></li>
-	<li>Complete “HTML Programming - Part 1” from W3C<NavLink to='/activity/html'>[link]</NavLink> ~2 hours</li>
 
 	{/* The items below should be consistent across classes. */ }
 	<li>{complete(programmingAssignment)}</li>
@@ -51,9 +52,6 @@ minutes unless otherwise noted.</p>
 <p>If you are struggling, remember to reach out to your Scrum teammates early and often for help. Also, be sure to 
 periodically check for new programming together tutorials<NavLink to='/activity/programming-together'>[link]</NavLink>.</p>
 
-
-
-<p>Be sure to start activities and assignments early and to reward yourself when you reach significant milestones.</p>
 </div>
 
 	)
