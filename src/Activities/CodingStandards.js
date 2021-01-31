@@ -121,7 +121,7 @@ overview of how you will be validating each standard.</p>
 		<li>test-01 demonstrates all validations passing</li>
 		<li>test-02 demonstrates all validations failing multiple times</li>
 		<li>test-03 demonstrates only one validation failing</li>
-		<li>test-04demonstrates only one validation succeeding</li>
+		<li>test-04 demonstrates only one validation succeeding</li>
 	</ul>
 	<li>Includes a Python3 script named “val-test.py” that executes all four tests sequentially</li>
 </ol>
