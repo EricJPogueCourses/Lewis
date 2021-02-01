@@ -33,7 +33,7 @@ minutes unless otherwise noted.</p>
 	<li>{start(programmingAssignment)}</li>
 	{/* The above items should be consistent across classes. */ }
 
-	<li>Read “Engineering Software as a Service” Chapter 6 and review our class lecture on Chapter 6<NavLink to='/activity/fox-chapter-06'>[video]</NavLink></li>
+	<li>Read “Engineering Software as a Service” chapter 6 and review our class lecture on chapter 6<NavLink to='/activity/fox-chapter-06'>[video]</NavLink></li>
 	<li>Complete “Website Creation with GitHub and Microsoft Azure”<NavLink to='/activity/azure-website'>[link]</NavLink><sup> ~3 hours </sup></li>
 	<li>Review our class sample code by executing “git clone https://github.com/EricJPogue/cpsc-example-code.git”</li>
 	<li>Study and understand our “Coding Standards”<NavLink to='/activity/coding-standards'>[link]</NavLink></li>
@@ -53,8 +53,7 @@ minutes unless otherwise noted.</p>
 			CSS<a href='https://www.youtube.com/watch?v=AfBK2Masemk' target='_blank' rel='noopener noreferrer'>[video]</a>,
 			Cookies<a href='https://www.youtube.com/watch?v=Xlt7xeqVfO4' target='_blank' rel='noopener noreferrer'>[video]</a>,
 			Attributes<a href='https://www.youtube.com/watch?v=X5ArSbUea_o' target='_blank' rel='noopener noreferrer'>[video]</a>,
-			Ruby MVC<a href='https://www.youtube.com/watch?v=XXrYmVzjTKQ' target='_blank' rel='noopener noreferrer'>[video]</a>,
-			and HAML<a href='https://www.youtube.com/watch?v=yX1tMdBuG3g' target='_blank' rel='noopener noreferrer'>[video]</a></li>
+			and Ruby MVC<a href='https://www.youtube.com/watch?v=XXrYmVzjTKQ' target='_blank' rel='noopener noreferrer'>[video]</a></li>
 
 	{/* The items below should be consistent across classes. */ }
 	<li>{complete(programmingAssignment)}</li>

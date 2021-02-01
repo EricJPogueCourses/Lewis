@@ -38,8 +38,6 @@ minutes unless otherwise noted.</p>
 	{/* The above items should be consistent across classes. */ }
 
 	<li>Complete “Object-Oriented Programming Patterns”<NavLink to='/activity-oop/patterns'>[video]</NavLink></li>
-	<li>Study our “Coding Standards”<NavLink to='/activity/coding-standards'>[link]</NavLink> and consistently utilize 
-		them on all activities and assignments</li>
 	<li>Complete “How To Be A Successful Programmer”<NavLink to='/activity/successful-programmer'>[link]</NavLink></li>
 	<li>Read “Learning Java, 5th Edition” chapter 3<a href='https://learning.oreilly.com/library/view/learning-java-5th/9781492056263/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li>Within O’Reilly Books<a href='https://www.oreilly.com' target='_blank' rel='noopener noreferrer'>[link]</a>
