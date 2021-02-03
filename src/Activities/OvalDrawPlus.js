@@ -21,7 +21,7 @@ const ExampleLink = (tutorialLink) => {
 			<div>
 			<p>Be sure to review the example OvalDraw project in the Java section of our example code repository. The following 
 			command will retrieve the example code:
-			<pre>     get clone {tutorialLink}</pre></p>
+			<pre>     git clone {tutorialLink}</pre></p>
 			</div>
 		)
 	}
@@ -39,10 +39,10 @@ const OvalDrawPlus = (appProps) => {
 centered in the main application window when the programming starts. The oval should automatically resize and 
 reposition itself when the window is resized.</p>
 
-<p>As in all tutorials, you should follow along and complete the steps yourself. As you go through the tutorial, make 
-the resulting application uniquely your own by adding standard comments at the top application (i.e. your name, class, 
-etc.), changing the names of variables, and adding small features. Finally, be sure to save your work as you will often 
-be asked to submit it as part of an assignment.</p>
+<p>In this activity you will start with our OvalDraw application in our sample code, review the code, and then make 
+incremental improvements to the application. Be sure to make the resulting application uniquely your own by adding 
+standard comments at the top application (i.e. your name, class, etc.), changing the names of variables, and adding 
+small features. Finally, be sure to save your work as you will often be asked to submit it as part of an assignment.</p>
 
 {ExampleLink(appProps.example)}
 
