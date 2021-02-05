@@ -21,7 +21,7 @@ const ExampleLink = (tutorialLink) => {
 			<div>
 			<p>Be sure to review the example OvalDraw project in the Java section of our example code repository. The following 
 			command will retrieve the example code:
-			<pre>     git clone {tutorialLink}</pre></p>
+			<pre>     git clone --depth=1 {tutorialLink}</pre></p>
 			</div>
 		)
 	}
