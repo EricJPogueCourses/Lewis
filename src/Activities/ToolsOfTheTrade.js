@@ -41,9 +41,9 @@ install, configure, and utilize many tools and services. By the end of this tuto
 	<li>Configure and utilize your GitHub account and Git client to:
 		<ul style={{ listStyleType: 'square' }}>
 			<li>Complete the “An Intro to Git and GitHub for Beginners” tutorial from the GitHub website<a href='https://guides.github.com/activities/hello-world/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
-			<li>Complete the “An Intro to Git and GitHub for Beginners” tutorial from HubSpot<a href='https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 			<li>Review the “Git Handbook”<a href='https://guides.github.com/introduction/git-handbook/' target='_blank' rel='noopener noreferrer'>[link]</a>
-			and the “GitHub Git Cheat Sheet”<a href='https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf' target='_blank' rel='noopener noreferrer'>[link]</a></li> 
+				and the “GitHub Git Cheat Sheet”<a href='https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf' target='_blank' rel='noopener noreferrer'>[link]</a></li> 
+			<li>Optionally complete the “An Intro to Git and GitHub for Beginners” tutorial from HubSpot<a href='https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 		</ul></li>
 	<li>Optionally install and verify Node.js and NPM<a href='https://nodejs.org/en/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li>Optionally install and verify Java Open SDK<a href='https://docs.microsoft.com/en-us/java/azure/jdk/?view=azure-java-stable' target='_blank' rel='noopener noreferrer'>[link]</a>
