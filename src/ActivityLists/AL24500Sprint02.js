@@ -2,7 +2,6 @@ import React from 'react'
 import { NavLink } from 'react-router-dom';
 
 import { OvalDrawPlusWithJava, start, complete } from './ProgrammingAssignments'
-
 const programmingAssignment = OvalDrawPlusWithJava
 
 export const al24500Sprint02 = ( props ) => {

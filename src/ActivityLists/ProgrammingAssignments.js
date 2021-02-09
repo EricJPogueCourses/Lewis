@@ -49,6 +49,12 @@ export const CodingStandardsValidatorPart2 = {
 	'estimate':'~8 hours'
 }
 
+export const FaceDrawWithJava = {
+	'name':'“FaceDraw”',
+	'link':'/activity/facedraw-java',
+	'estimate':'~10 hours'
+}
+
 export const start = (assignment) => { return ( <div>Start working on {assignment.name}<NavLink to={assignment.link}>[link]</NavLink></div>) }
 export const complete = (assignment) => { return ( <div>Complete {assignment.name}<NavLink to={assignment.link}>[link]</NavLink>{sup(assignment.estimate)}</div>)}
 

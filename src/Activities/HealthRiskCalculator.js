@@ -33,7 +33,7 @@ const HealthRiskCalculatorJavaProperties = {
 	'language': 'Java',
 	'prerequisites': 'Java, VS Code, and Terminal',
 	'type': 'command-line application written in the Java language',
-	'requirement1_1': 'Is implemented in multiple Java (.java) files with a main file named “RiskCalculator.java”',
+	'requirement1_1': 'Is implemented in multiple Java (.java) files with the main file named “RiskCalculator.java”',
 	'requirement1_2': 'Successfully compiles from Terminal using “javac *.java” and executes by typing “java RiskCalculator'
 }
 
@@ -122,7 +122,7 @@ improve on his design in any event.
 </p>
 
 <em>Requirement 1</em>
-<p>Either create a Terminal based command-line Python application that:</p>
+<p>Create a command line based application that:</p>
 <ol>
 	<li>{appProps.requirement1_1}</li>
 	<li>{appProps.requirement1_2}</li>
@@ -148,7 +148,7 @@ improve on his design in any event.
 </ol>
 
 <em>Requirement 4</em>
-<p>Finally test and refactor the application so that it implement all appropriate Coding Standards<NavLink to='/activity/coding-standards'>[link]</NavLink></p>
+<p>Finally test and refactor the application so that it implements all appropriate Coding Standards<NavLink to='/activity/coding-standards'>[link]</NavLink></p>
 </div> )
 
 }

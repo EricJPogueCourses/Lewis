@@ -1,6 +1,10 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
 
+import { FaceDrawWithJava, start, complete } from './ProgrammingAssignments'
+const programmingAssignment = FaceDrawWithJava
+
+
 export const al24500Sprint03 = ( props ) => {
 	return (
 
@@ -24,34 +28,29 @@ export const al24500Sprint03 = ( props ) => {
 	Learning Objectives. Once again I have attempted to list the items in the order that I think will be most
 	beneficial for you to complete them.</p> 
 	<ol>
-		<li><em>Review Programming Assignment 3, Quiz 3, and Discussion Board 3</em></li>
-		<li>Start working early and stay focused on the Programming Assignment 3 - FaceDraw</li>
+		<li>Stay focused on the due dates by reviewing our course calendar<NavLink to='/calendar/2'>[link]</NavLink></li>
+		<li><em>Review sprint 3 assignments including Lab 3, Quiz 3, Discussion 3, Reflection 3, and Lab Demo</em></li>
+		<li>Review our “Coding Standards”<NavLink to='/activity/coding-standards'>[link]</NavLink></li>
+		<li>{start(programmingAssignment)}</li>
+		{/* The above items should be consistent across classes. */ }
+
 		<li>Complete 'Graphical User Interfaces (GUI) in Java' lesson<NavLink to='/activity-oop/java-gui-programming'>[video]</NavLink></li>
-		<li>Complete the FaceDrawLite<NavLink to='/activity-oop/java-facedraw-lite'>[video]</NavLink>~2 hours</li>
-		<li>Embrace our “Coding Standards”<NavLink to='/activity/coding-standards'>[link]</NavLink> and consistently utilize 
-			them on <em>all</em> activities and assignments</li>
-		<li>FaceDraw, FaceDraw, FaceDraw ~8 to 12 hours</li>
-		<li>Review the answers from Quiz 2</li>
+		<li>Complete the FaceDrawLite<NavLink to='/activity-oop/java-facedraw-lite'>[video]</NavLink><sup>~2 hours</sup></li>
 		<li><em>Complete your initial Discussion Board (DB) post by the middle of the sprint</em></li>
-		<li>Take one last look at 'How to Be a Success Programmer' suggestions <NavLink to='/successful-programmer'>[link]</NavLink> 
-			and consider decide if there is something you are going to change now that the programming assignments are becoming more 
-			challenging </li>
 		<li>Read and Understand “JSON Introduction” from W3C<a href='https://www.w3schools.com/js/js_json_intro.asp' target='_blank' rel='noopener noreferrer'>[link]</a></li> 
-		<li><em>Complete Discussion Board 3 by responding to at least one of your classmates' posts</em></li>
-		<li><em>Complete and submit Programming Assignment 3 and Quiz 3</em></li>
+
+		{/* The items below should be consistent across classes. */ }
+		<li>{complete(programmingAssignment)}</li>
+		<li><em>Complete Discussion 3 by responding to at least two of your classmates’ posts</em></li>
+		<li><em>Submit Lab 3, Quiz 3, and Reflection </em></li>
 	</ol> 
-	<p>Feel free to post a note in our class forum or to send me an email you have questions.</p> 
-	<br />
-	<p>Additional references:</p>
-	<ul style={{ listStyleType: 'square' }}>
-		<li>Sprint 3 Recorded Lecture/Discussion session from the Spring 2020 online Object-Oriented Programming class
-		Programming class
-			<a href='https://botb.blob.core.windows.net/ovun/2020-01-29_sprint-03-oop.mp4'>[link]</a></li>
-		<li>Git/GitHub Cheat Sheet
-			<a href='https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf'
-			target='_blank' rel='noopener noreferrer'>[link]</a></li> 
-	</ul>
+	<p>If you are struggling, remember to reach out to your Scrum teammates early and often for help.</p>
+{extras()}
 </div>
 
 	)
+}
+
+const extras = () => {
+	return (null)
 }
