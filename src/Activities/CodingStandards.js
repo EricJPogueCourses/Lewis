@@ -115,7 +115,7 @@ overview of how you will be validating each standard.</p>
 <em>Requirement 5</em>
 <p>Enhance the application so that it provides 100% coverage utilizing manual testing and:</p>
 <ol>
-	<li>Includes five (5) test Go projects included in subdirectories labeled “test-00” through “test-04” where:</li>
+	<li>Includes five (5) test Go projects where:</li>
 	<ul style={{listStyleType:'square'}}>
 		<li>test-00 executes on your current “val” project</li>
 		<li>test-01 demonstrates all validations passing</li>
@@ -123,17 +123,19 @@ overview of how you will be validating each standard.</p>
 		<li>test-03 demonstrates only one validation failing</li>
 		<li>test-04 demonstrates only one validation succeeding</li>
 	</ul>
-	<li>Includes a Python3 script named “val-test.py” that executes all four tests sequentially</li>
+	<li>Includes separate directories for test data labeled “test-01” through “test-04”</li>
+	<li>Provides manual testing instructions in the README.md file for testing each coding standard</li>
+	<li>Team members develop manual testing instructions for each other’s coding standard validations functions</li>
 </ol>
 
 <em>Requirement 6</em>
 <p>Finally enhance the application so that it provides at least 80% coverage utilizing Go integrated automated testing and:</p>
 <ol>
-	<li>Includes four (4) application level automated tests consistent with the manual tests 01 through 05 above</li>
+	<li>Includes four (4) application level automated tests consistent with the manual tests 01 through 04 above</li>
 	<li>Implements at least two (2) tests for each module</li>
-	<li>Elegantly provides feature that executes and reports on all automated tests</li>
-	<li>Add a testing section in your README.md file that succinctly describes how to utilize the  
-		automated testing features</li>
+	<li>Elegantly executes and reports on all automated tests</li>
+	<li>Provides automated testing instructions in the README.md file for testing each coding standard</li>
+	<li>Team members develop automated testing scripts for each other’s coding standard validations functions</li>
 </ol>
 </div>
 

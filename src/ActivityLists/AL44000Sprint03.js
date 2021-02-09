@@ -11,7 +11,7 @@ export const al44000Sprint03 = () => {
 <h4>Software Engineering</h4>
 <h5>Sprint 3: Application Requirements, Behavior-Driven Design, Node.js, and Azure, </h5>
 
-<p>Welcome to sprint 3. This sprint we are going to be focused on Node.js as a platform for Saas. We will be
+<p>Welcome to sprint 3. This sprint we will be focused on Node.js as a platform for Saas. We will be
 utilizing a book from O’Reilly Books to learn more about the Node.js and Express platform. The book that we are 
 utilizing is “Web Development with Node and Express, 2nd Edition” by Ethan Brown. You will also notice that starting 
 with this sprint the assignments are becoming more open-ended and less prescriptive. I encourage you to collaborate 
@@ -41,10 +41,12 @@ with your classmates and scrum team members as you work through some of the open
 		find “Web Development with Node and Express, 2nd Edition” by Ethan Brown</li>
 	<li>Read “Web Development with Node and Express” chapters 1 and 2<a href='https://learning.oreilly.com/library/view/web-development-with/9781492053507/' target='_blank' rel='noopener noreferrer'>[link]</a>
 		while completing each of the exercises</li>
-	<li><em>Complete discussion board initial DB3 post by the middle of the sprint</em></li>
+	<li>Review “web/node-js-on-azure” code in our class example code</li>
+	<li><em>Make your initial Discussion 3 post by the middle of the sprint</em></li>
+
 	<li>Read “Web Development with Node and Express” chapters 3 and 4<a href='https://learning.oreilly.com/library/view/web-development-with/9781492053507/' target='_blank' rel='noopener noreferrer'>[link]</a>
 		while completing each of the exercises</li>
-	<li>Review the “Node.js Tutorial” from W3C
+	<li>Complete the “Node.js Tutorial” from W3C
 		<a href='https://www.w3schools.com/nodejs/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 
 	{/* The items below should be consistent across classes. */ }
@@ -61,14 +63,5 @@ periodically check for new programming together tutorials<NavLink to='/activity/
 }
 
 const extras = () => {
-	return (
-<div>
-<p>Additional references:</p>
-<ul style={{listStyleType:'square'}}>
-	<li>Review “Hello World Plus with Node.js and Azure” sample code</li>
-	<li>Complete “Deploying Node.js on Microsoft Azure”<a href='https://app.knowmia.com/lyyA' target='_blank' rel='noopener noreferrer'>[link]</a></li>	
-	<li>Review “Azure Website”<NavLink to='/activity/azure-website'>[link]</NavLink></li>		
-</ul> 
-</div>
-		)
+	return (null)
 }
