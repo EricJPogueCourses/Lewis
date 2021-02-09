@@ -28,10 +28,12 @@ export const al24500Sprint03 = ( props ) => {
 	Learning Objectives. Once again I have attempted to list the items in the order that I think will be most
 	beneficial for you to complete them.</p> 
 	<ol>
-		<li>Stay focused on the due dates by reviewing our course calendar<NavLink to='/calendar/2'>[link]</NavLink></li>
+		<li>Stay focused on the due dates by reviewing our course calendar<NavLink to='/calendar/3'>[link]</NavLink></li>
 		<li><em>Review sprint 3 assignments including Lab 3, Quiz 3, Discussion 3, Reflection 3, and Lab Demo</em></li>
-		<li>Review our “Coding Standards”<NavLink to='/activity/coding-standards'>[link]</NavLink></li>
 		<li>{start(programmingAssignment)}</li>
+		<li>Review the CAMS Study Table tutoring options<NavLink to='/activity/study-table'>[link]</NavLink></li>
+		<li>Review our class example code<NavLink to='/activity/example-code'>[link]</NavLink></li>
+		<li>Review our coding standards<NavLink to='/activity/coding-standards'>[link]</NavLink></li>
 		{/* The above items should be consistent across classes. */ }
 
 		<li>Complete 'Graphical User Interfaces (GUI) in Java' lesson<NavLink to='/activity-oop/java-gui-programming'>[video]</NavLink></li>
@@ -42,10 +44,11 @@ export const al24500Sprint03 = ( props ) => {
 		{/* The items below should be consistent across classes. */ }
 		<li>{complete(programmingAssignment)}</li>
 		<li><em>Complete Discussion 3 by responding to at least two of your classmates’ posts</em></li>
-		<li><em>Submit Lab 3, Quiz 3, and Reflection </em></li>
-	</ol> 
-	<p>If you are struggling, remember to reach out to your Scrum teammates early and often for help.</p>
-{extras()}
+		<li><em>Submit Lab 3, Quiz 3, and Reflection 3</em></li>
+	</ol>
+	<p>If you are struggling, remember to reach out to your Scrum teammates early and often for help. Also, be sure to 
+	periodically check for new programming together tutorials<NavLink to='/activity/programming-together'>[link]</NavLink>.</p>
+	{extras()}
 </div>
 
 	)

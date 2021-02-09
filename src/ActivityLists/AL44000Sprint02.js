@@ -70,5 +70,12 @@ periodically check for new programming together tutorials<NavLink to='/activity/
 }
 
 const extras = () => {
-	return (null)
+	return (
+<div>
+<p>Additional suggested activities:</p>
+		<ul style={{listStyleType:'square'}}>
+			<li>Review “Azure Website”<NavLink to='/activity/azure-website'>[link]</NavLink></li>
+		</ul>
+</div>
+)
 }

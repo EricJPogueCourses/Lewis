@@ -9,6 +9,7 @@ import { MatchmakerPython, MatchmakerWeb, MatchmakerJava, MatchmakerGo, Matchmak
 import { HealthRiskCalculatorPython, HealthRiskCalculatorWeb, HealthRiskCalculatorJava, HealthRiskCalculatorGo, HealthRiskCalculatorExamples } from './Activities/HealthRiskCalculator'
 
 import { OvalDrawPlusJava } from './Activities/OvalDrawPlus'
+import { ExampleCode } from './Activities/ExampleCode'
 import { FaceDrawWeb, FaceDrawJava, FaceDrawReact } from './Activities/FaceDraw'
 
 import { Tools } from './Activities/ToolsOfTheTrade'
@@ -90,6 +91,7 @@ class Activity extends Component {
 			case 'matchmaker-examples': return MatchmakerExamples()
 
 			case 'ovaldraw-plus-java': return OvalDrawPlusJava()
+			case 'example-code': return ExampleCode()
 
 			case 'facedraw-web': return FaceDrawWeb()
 			case 'facedraw-java': return FaceDrawJava()

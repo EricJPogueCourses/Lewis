@@ -55,6 +55,12 @@ export const FaceDrawWithJava = {
 	'estimate':'~10 hours'
 }
 
+export const AzureWebsite = {
+	'name':'“Azure Website”',
+	'link':'/activity/azure-website',
+	'estimate':'~6 hours'
+}
+
 export const start = (assignment) => { return ( <div>Start working on {assignment.name}<NavLink to={assignment.link}>[link]</NavLink></div>) }
 export const complete = (assignment) => { return ( <div>Complete {assignment.name}<NavLink to={assignment.link}>[link]</NavLink>{sup(assignment.estimate)}</div>)}
 

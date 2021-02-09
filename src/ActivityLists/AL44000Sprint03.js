@@ -1,6 +1,9 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
+import { AssignmentPortfolioWebsite, start, complete } from './ProgrammingAssignments'
+const programmingAssignment = AssignmentPortfolioWebsite
+
 export const al44000Sprint03 = () => {
 	return (
 
@@ -9,10 +12,10 @@ export const al44000Sprint03 = () => {
 <h5>Sprint 3: Application Requirements, Behavior-Driven Design, Node.js, and Azure, </h5>
 
 <p>Welcome to sprint 3. This sprint we are going to be focused on Node.js as a platform for Saas. We will be
-utilizing a book from our Safari Books Online in order to help us learn more about the Node.js platform. The book
-that we are utilizing learn more about Node.js and the Express framework is “Web Development with Node and Express,
-2nd Edition” by Ethan Brown. You will also notice that starting in sprint 3 the assignments are becoming more open-ended and less
-prescriptive. I want to encourage you to collaborate more with your peers as you work through some of the open-ended topics.</p>
+utilizing a book from O’Reilly Books to learn more about the Node.js and Express platform. The book that we are 
+utilizing is “Web Development with Node and Express, 2nd Edition” by Ethan Brown. You will also notice that starting 
+with this sprint the assignments are becoming more open-ended and less prescriptive. I encourage you to collaborate 
+with your classmates and scrum team members as you work through some of the open-ended topics.</p>
 
 <p>By the end of sprint 3 we will be able to:</p>
 <ul style={{ listStyleType:'square'}}>
@@ -24,35 +27,48 @@ prescriptive. I want to encourage you to collaborate more with your peers as you
 <p>Below is the list of activities that we will need to complete this sprint.</p>
 <ol>
 	<li>Stay focused on the due dates by reviewing our course calendar<NavLink to='/calendar/3'>[link]</NavLink></li>
-	<li><em>Review sprint 3 assignments including discussion 3, quiz 3, lab 3 and reflection 3</em></li>
-	
-	<li>Recall signing up for Safari Books Online which is available to you free through Lewis University
-		<a href='https://www.oreilly.com/library/view/temporary-access/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
-	<li>Review Section 4.5 of Fox on Debugging</li>
-	<li>Read Chapter 7 of Fox on Requirements and review the associated class lecture<NavLink to='/activity/fox-chapter-07'>[video]</NavLink></li>
-	<li>Within Safari Books Online find “Web Development with Node and Express, 2nd Edition” by Ethan Brown (Brown)
-		and preview the preface and first four chapters of the book</li>
+	<li><em>Review sprint 3 assignments including Lab 3, Quiz 3, Discussion 3, Reflection 3, and Lab Demo</em></li>
+	<li>{start(programmingAssignment)}</li>
+	<li>Review the CAMS Study Table tutoring options<NavLink to='/activity/study-table'>[link]</NavLink></li>
+	<li>Review our class example code<NavLink to='/activity/example-code'>[link]</NavLink></li>
+	<li>Review our coding standards<NavLink to='/activity/coding-standards'>[link]</NavLink></li>
+	{/* The above items should be consistent across classes. */ }
 
-	<li>Thoroughly read chapters 1 and 2 of Brown while completing each of the exercises</li>
-	<li><em>Consistently work on your sprint 3 assignments throughout the sprint ~12 hours</em></li>
+	<li>Review “Engineering Software as a Service” section 4.5 of Fox on Debugging</li>
+	<li>Read “Engineering Software as a Service” chapter 7 on Requirements and review the associated class lecture<NavLink to='/activity/fox-chapter-07'>[video]</NavLink></li>
+
+	<li>Within O’Reilly Books<a href='https://www.oreilly.com' target='_blank' rel='noopener noreferrer'>[link]</a>
+		find “Web Development with Node and Express, 2nd Edition” by Ethan Brown</li>
+	<li>Read “Web Development with Node and Express” chapters 1 and 2<a href='https://learning.oreilly.com/library/view/web-development-with/9781492053507/' target='_blank' rel='noopener noreferrer'>[link]</a>
+		while completing each of the exercises</li>
 	<li><em>Complete discussion board initial DB3 post by the middle of the sprint</em></li>
-	<li>Thoroughly read chapters 3 and 4 of Brown while completing each of the exercises</li>
+	<li>Read “Web Development with Node and Express” chapters 3 and 4<a href='https://learning.oreilly.com/library/view/web-development-with/9781492053507/' target='_blank' rel='noopener noreferrer'>[link]</a>
+		while completing each of the exercises</li>
 	<li>Review the “Node.js Tutorial” from W3C
 		<a href='https://www.w3schools.com/nodejs/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
-	<li><em>Complete and submit all sprint 3 assignments including discussion 3, quiz 3, lab 3 and reflection 3</em></li>
-</ol>
 
-<p>Additional references:</p>
-<ul style={{listStyleType:'square'}}>
-	<li>Review our class sample code by executing “git clone https://github.com/EricJPogueCourses/SE-ExampleCode.git”</li>
-	<li>Review “Hello World Plus with Node.js and Azure” sample code by executing “git clone https://github.com/EricJPogue/node-js-on-azure.git”</li>
-	<li>Complete “Deploying Node.js on Microsoft Azure”<a href='https://app.knowmia.com/lyyA' target='_blank' rel='noopener noreferrer'>[link]</a></li>			
-	<li>Review “Website Creation with GitHub and Microsoft Azure - 2020 Supplemental Edition” (highly recommended)<NavLink to='/activity-config/git-deployment-to-azure-supplemental-2020'>[link]</NavLink></li>
-	<li>Review “Website Creation with GitHub and Microsoft Azure”<NavLink to='/activity/azure-website'>[link]</NavLink></li>
-	<li>Git/GitHub Cheat Sheet<a href='https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf'
-		target='_blank' rel='noopener noreferrer'>[link]</a></li> 
-</ul> 
+	{/* The items below should be consistent across classes. */ }
+	<li>{complete(programmingAssignment)}</li>
+	<li><em>Complete Discussion 3 by responding to at least two of your classmates’ posts</em></li>
+	<li><em>Submit Lab 3, Quiz 3, and Reflection 3</em></li>
+</ol>
+<p>If you are struggling, remember to reach out to your Scrum teammates early and often for help. Also, be sure to 
+periodically check for new programming together tutorials<NavLink to='/activity/programming-together'>[link]</NavLink>.</p>
+{extras()}
 </div>
 
 	)
+}
+
+const extras = () => {
+	return (
+<div>
+<p>Additional references:</p>
+<ul style={{listStyleType:'square'}}>
+	<li>Review “Hello World Plus with Node.js and Azure” sample code</li>
+	<li>Complete “Deploying Node.js on Microsoft Azure”<a href='https://app.knowmia.com/lyyA' target='_blank' rel='noopener noreferrer'>[link]</a></li>	
+	<li>Review “Azure Website”<NavLink to='/activity/azure-website'>[link]</NavLink></li>		
+</ul> 
+</div>
+		)
 }

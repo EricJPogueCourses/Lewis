@@ -33,7 +33,7 @@ return.</p>
 		you to finding the answer)</li>
 	<li>Fully participate in tutorials and class exercises</li>
 	<li>Become comfortable with searching the solutions in past projects, class tutorials, books, and on the
-	I	Internet</li>
+		Internet</li>
 	<li>Reward yourself each time you make meaningful progress</li> 
 	<li>Learn how to utilize a debugger</li>
 </ul>
