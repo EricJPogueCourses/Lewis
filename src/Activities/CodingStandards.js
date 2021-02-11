@@ -125,7 +125,7 @@ overview of how you will be validating each standard.</p>
 	</ul>
 	<li>Includes separate directories for test data labeled “test-01” through “test-04”</li>
 	<li>Provides manual testing instructions in the README.md file for testing each coding standard</li>
-	<li>Team members develop manual testing instructions for each other’s coding standard validations functions</li>
+	<li>Team members develop manual testing instructions for each other’s coding standard validations</li>
 </ol>
 
 <em>Requirement 6</em>
@@ -135,7 +135,7 @@ overview of how you will be validating each standard.</p>
 	<li>Implements at least two (2) tests for each module</li>
 	<li>Elegantly executes and reports on all automated tests</li>
 	<li>Provides automated testing instructions in the README.md file for testing each coding standard</li>
-	<li>Team members develop automated testing scripts for each other’s coding standard validations functions</li>
+	<li>Team members develop automated testing scripts for each other’s coding standard validations</li>
 </ol>
 </div>
 

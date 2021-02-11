@@ -63,3 +63,7 @@ minutes unless otherwise noted.</p>
 const extras = () => {
 	return (null)
 }
+
+// Todo:
+// 1 - Remove duplicate question from quiz... Which concepts enable the Factory Pattern to be useful?
+// 2 - Remove duplicate question from quiz... Which of the following statements about constructors is FALSE?

@@ -21,13 +21,17 @@ as expected.</p>
 	<li>Review “Git Deployment to Microsoft Azure”<NavLink to='/activity-config/git-deployment-to-azure'>[link]</NavLink></li>
 	<li>Review “Eric's Azure Static Website with FTP”<NavLink to='/activity-config/my-first-website-with-ftp'>[link]</NavLink></li>
 	<li>Review “Create a static HTML web application in Azure”<a href='https://docs.microsoft.com/en-us/azure/app-service/app-service-web-get-started-html' target='_blank' rel='noopener noreferrer'>[link]</a></li>
-</ul>
+</ul><br />
 
-<p>You should follow along and complete the steps yourself. As you go through the tutorial(s), you will need to make the 
-resulting application uniquely your own by adding standard comments at the top application (i.e. your name, class, etc.), 
-changing the names of variables, and adding small features.</p>
-
-<p>Be sure to save your work so that you can submit it as part of an assignment.</p>
+<h5>Frequently Asked Questions:</h5>
+Question: Why do I receive an access denied error when I enter the URL in my browser<br />
+Do you have an “index.html” file? If you main HTML file is something other than “index.html”, you 
+need to include the name of the HTML file in the URL to access the page.<br /><br />
+Question: Why does nothing comes up when I enter the URL in my browser<br />
+What did you pick for a server-side environment? My recommendation for a static site is PHP.<br /><br />
+Question: What should I do if I forgot my Azure password?<br />
+Don’t forget your Azure password, or reset your password. If you are not able to reset your password, you will need to 
+create a new account.
 </div> )
 
 }
