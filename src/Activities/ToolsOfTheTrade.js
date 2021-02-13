@@ -40,7 +40,7 @@ install, configure, and utilize many tools and services. By the end of this tuto
 	<li>Install the Git command line client<a href='https://git-scm.com/'>[link]</a><NavLink to='/activity-config/git-installation-on-windows-10'>[video]</NavLink></li>
 	<li>Configure and utilize your GitHub account and Git client to:
 		<ul style={{ listStyleType: 'square' }}>
-			<li>Complete the “An Intro to Git and GitHub for Beginners” tutorial from the GitHub website<a href='https://guides.github.com/activities/hello-world/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+			<li>Complete the “An Intro to Git and GitHub for Beginners” tutorial steps 1 though 3 from GitHub<a href='https://guides.github.com/activities/hello-world/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 			<li>Review the “Git Handbook”<a href='https://guides.github.com/introduction/git-handbook/' target='_blank' rel='noopener noreferrer'>[link]</a>
 				and the “GitHub Git Cheat Sheet”<a href='https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf' target='_blank' rel='noopener noreferrer'>[link]</a></li> 
 			<li>Optionally complete the “An Intro to Git and GitHub for Beginners” tutorial from HubSpot<a href='https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners' target='_blank' rel='noopener noreferrer'>[link]</a></li>

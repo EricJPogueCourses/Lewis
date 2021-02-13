@@ -29,9 +29,9 @@ Do you have an “index.html” file? If you main HTML file is something other t
 need to include the name of the HTML file in the URL to access the page.<br /><br />
 Question: Why does nothing comes up when I enter the URL in my browser<br />
 What did you pick for a server-side environment? My recommendation for a static site is PHP.<br /><br />
-Question: What should I do if I forgot my Azure password?<br />
-Don’t forget your Azure password, or reset your password. If you are not able to reset your password, you will need to 
-create a new account.
+Question: What should I do if I forgot my Azure (or GitHub) password?<br />
+Don’t forget your Azure (or GitHub) password, or reset your password. If you are not able to reset your password, you 
+will need to create a new account.
 </div> )
 
 }
