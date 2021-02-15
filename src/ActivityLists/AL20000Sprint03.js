@@ -9,19 +9,18 @@ export const al20000Sprint03 = ( props ) => {
 
 <div>
 <h4>Introduction to Computer Science</h4>
-<h5>Sprint 3: Algorithms, Abstraction, Variables, Expressions, and more Web development</h5>
+<h5>Sprint 3: Gates and Circuits, Computing Components, and Hosting Web Application is Azure</h5>
 
-<p>Welcome to sprint 3. I hope you enjoyed our work with HTML and CSS. In this sprint we are going to get back to  
-Python as we explore variables and expressions. We will also take another look at abstraction. Finally, we will look at
-algorithms.</p>
+<p>Welcome to sprint 3. I hope you enjoyed our work with HTML and CSS because we are going to be continuing that journey
+by enhancing our web applications and hosting them in Microsoft Azure. We will also be learning about gates, circuits, 
+and computing components.</p>
 
 <p>Let's start with what we hope to be able to do by the end of sprint 3:</p>
 <ul style={{ listStyleType:'square' }}>
-	<li>Identify, define, and utilize algorithms</li>
+	<li>Enhance our web applications and host them in Microsoft Azure</li>
+	<li>Understand and discuss gates and circuits</li>
 	<li>Understand and discuss computing components</li>
-	<li>Effectively utilize file systems</li>
 	<li>Understand variables and expressions</li>
-	<li>Utilize Git and GitHub along with Microsoft Azure to manage content and deploy web applications</li>
 </ul>
 
 <p>Below is our sprint 3 activities list:</p>
@@ -36,14 +35,13 @@ algorithms.</p>
 
 	<li>Read Dale chapter 4 Gates and Circuits<a href='https://learning.oreilly.com/library/view/computer-science-illuminated/9781284055917/' target='_blank' rel='noopener noreferrer'>[link]</a>
 		and review our chapter 4 lecture <NavLink to='/activity-dale/4'>[video]</NavLink></li>
-	<li>Complete “HTML Programming - Part 2” from W3C<NavLink to='/activity/html'>[link]</NavLink>~4 hours</li>
+	<li>Complete “HTML Programming - Part 2” from W3C<NavLink to='/activity/html'>[link]</NavLink><sup>~4 hours</sup></li>
 	<li><em>Complete your initial Discussion 3 post by the middle of the sprint</em></li>
 	<li>Read Dale chapter 5 Computing Components<a href='https://learning.oreilly.com/library/view/computer-science-illuminated/9781284055917/' target='_blank' rel='noopener noreferrer'>[link]</a>
 		and review our chapter 5 lecture <NavLink to='/activity-dale/5'>[video]</NavLink></li>
 	<li>Review Git Cheat Sheet from GitHub<a href='https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf'
 		target='_blank' rel='noopener noreferrer'>[link]</a></li>
-	<li>Review, test, and <em>enhance</em> “Getting to Know Each Other”<NavLink to='/activity/getting-to-know-each-other'>[link]</NavLink>
-		from last sprint</li>
+	<li>Review, test, and <em>enhance</em> “Getting to Know Each Other”<NavLink to='/activity/getting-to-know-each-other'>[link]</NavLink></li>
 	<li>Deploy “Getting to Know Each Other"<NavLink to='/activity/getting-to-know-each-other'>[link]</NavLink> from 
 		last sprint to an Azure website<NavLink to='/activity/azure-website'>[link]</NavLink><sup>~4 hours</sup></li>
 
