@@ -56,3 +56,5 @@ periodically check for new programming together tutorials<NavLink to='/activity/
 
 	)
 }
+
+// Todo: Review https://www.educba.com/functional-programming-vs-oop/.

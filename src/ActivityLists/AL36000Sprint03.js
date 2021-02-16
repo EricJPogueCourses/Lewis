@@ -15,7 +15,7 @@ code control and configuration management tools and patterns. We will continue t
 Validator - Part 2” as part of our team. Finally, testing will be a focus as we work within our teams to develop automated
 and manual tests.</p>
 
-<p>By the end of sprint 2 we will be able to:</p>
+<p>By the end of sprint 3 we will be able to:</p>
 <ul style={{listStyleType:'square'}}>
 	<li>Explain key language features like Constructors, Destructors, Exceptions, and Templates</li>
 	<li>Compare and contrast the features of various popular programming languages</li>

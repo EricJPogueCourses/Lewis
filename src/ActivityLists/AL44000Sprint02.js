@@ -69,6 +69,8 @@ periodically check for new programming together tutorials<NavLink to='/activity/
 	)
 }
 
+// Todo: Update lab 2 question 6 so that it says to just deploy it to Azure instead of referencing specific sites.
+
 const extras = () => {
 	return (
 <div>
