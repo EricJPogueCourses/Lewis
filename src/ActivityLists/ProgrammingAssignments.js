@@ -19,6 +19,12 @@ export const AssignmentPortfolioWebsite = {
 	'estimate':'~3 hours'	
 }
 
+export const MatchmakerWithPython = {
+	'name':'“Matchmaker with Python”',
+	'link':'/activity/matchmaker-python',
+	'estimate':'~6 hours'
+}
+
 export const MatchmakerWithJava = {
 	'name':'“Matchmaker with Java”',
 	'link':'/activity/matchmaker-java',
