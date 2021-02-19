@@ -34,14 +34,14 @@ export const al24500Sprint03 = ( props ) => {
 		<li>Review the CAMS Study Table tutoring options<NavLink to='/activity/study-table'>[link]</NavLink></li>
 		<li>Review our class example code<NavLink to='/activity/example-code'>[link]</NavLink></li>
 		<li>Review our coding standards<NavLink to='/activity/coding-standards'>[link]</NavLink></li>
-		{/* The above items should be consistent across classes. */ }
+		{/* The above items should be consistent across classes. */}
 
-		<li>Complete 'Graphical User Interfaces (GUI) in Java' lesson<NavLink to='/activity-oop/java-gui-programming'>[video]</NavLink></li>
-		<li>Complete the FaceDrawLite<NavLink to='/activity-oop/java-facedraw-lite'>[video]</NavLink><sup>~2 hours</sup></li>
+		<li>Complete “Graphical User Interfaces (GUI) in Java”<NavLink to='/activity-oop/java-gui-programming'>[video]</NavLink></li>
+		<li>Complete the FaceDraw Lite<NavLink to='/activity-oop/java-facedraw-lite'>[video]</NavLink><sup>~2 hours</sup></li>
 		<li><em>Complete your initial Discussion Board (DB) post by the middle of the sprint</em></li>
 		<li>Read and Understand “JSON Introduction” from W3C<a href='https://www.w3schools.com/js/js_json_intro.asp' target='_blank' rel='noopener noreferrer'>[link]</a></li> 
 
-		{/* The items below should be consistent across classes. */ }
+		{/* The items below should be consistent across classes. */}
 		<li>{complete(programmingAssignment)}</li>
 		<li><em>Complete Discussion 3 by responding to at least two of your classmates’ posts</em></li>
 		<li><em>Submit Lab 3, Quiz 3, and Reflection 3</em></li>

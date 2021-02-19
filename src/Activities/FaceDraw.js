@@ -1,8 +1,7 @@
 
-import React from 'react';
-import { NavLink } from 'react-router-dom';
-
-import FaceDrawScreenshot from './FaceDrawScreenshot.png';
+import React from 'react'
+import { NavLink } from 'react-router-dom'
+import FaceDrawScreenshot from './FaceDrawScreenshot.png'
 
 export const FaceDrawJava  = () => { return FaceDraw(FaceDrawJavaProperties) }
 export const FaceDrawWeb   = () => { return FaceDraw(FaceDrawWebProperties) }
@@ -35,6 +34,7 @@ const FaceDrawReactProperties = {
 	'requirement1_2': 'Is hosted as a public website in Microsoft Azure'
 }	
 	
+
 const FaceDraw = (appProps) => {
 	return (
 	
@@ -45,7 +45,7 @@ const FaceDraw = (appProps) => {
 </h5>
 <h5>Prerequisites: {appProps.prerequisites}</h5>
 
-<p>In this assignment, you will create a graphical application that draws random faces in a window. The application 
+<p>In this activity, you will create a graphical application that draws random faces in a window. The application 
 will draw 3 to 10 faces. The faces will have a random width and height that are set to reasonable and visually appealing 
 ranges. The application window size should be initially set to a reasonable size and all faces should draw entirely 
 within the window. You do not have to worry about moving or resizing the faces as the window is resized. Specifically 
@@ -57,7 +57,7 @@ mouth should be randomly smiling, frowning, or in-between. </p>
 <img src={FaceDrawScreenshot} alt='Eric Pogue' width= '512'/>
 </div>
 <br />
-<p>Specific requirements for the application include the following.</p>
+<p>Specific requirements for the application include:</p>
 <em>Requirement 1</em>
 <p>Create an application that:</p>
 <ol>

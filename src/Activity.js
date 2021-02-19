@@ -11,6 +11,7 @@ import { HealthRiskCalculatorPython, HealthRiskCalculatorWeb, HealthRiskCalculat
 import { OvalDrawPlusJava } from './Activities/OvalDrawPlus'
 import { ExampleCode } from './Activities/ExampleCode'
 import { FaceDrawWeb, FaceDrawJava, FaceDrawReact } from './Activities/FaceDraw'
+import { MosaicWeb, MosaicJava, MosaicReact } from './Activities/Mosaic'
 
 import { Tools } from './Activities/ToolsOfTheTrade'
 import { CodingStandards, CodingStandardsValidator } from './Activities/CodingStandards'
@@ -96,6 +97,10 @@ class Activity extends Component {
 			case 'facedraw-web': return FaceDrawWeb()
 			case 'facedraw-java': return FaceDrawJava()
 			case 'facedraw-react': return FaceDrawReact()
+
+			case 'mosaic-web': return MosaicWeb()
+			case 'mosaic-java': return MosaicJava()
+			case 'mosaic-react': return MosaicReact()
 
 			case 'health-risk-calculator-python': return HealthRiskCalculatorPython()
 			case 'health-risk-calculator-web': return HealthRiskCalculatorWeb()

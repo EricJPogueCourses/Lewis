@@ -61,6 +61,12 @@ export const FaceDrawWithJava = {
 	'estimate':'~10 hours'
 }
 
+export const MosaicWithJava = {
+	'name':'“Mosaic”',
+	'link':'/activity/mosaic',
+	'estimate':'~10 hours'
+}
+
 export const AzureWebsite = {
 	'name':'“Azure Website”',
 	'link':'/activity/azure-website',
