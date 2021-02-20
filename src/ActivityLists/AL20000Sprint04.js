@@ -11,7 +11,9 @@ export const al20000Sprint04 = ( props ) => {
 <h4>Introduction to Computer Science</h4>
 <h5>Sprint 4: Selection, Repetition, String, Lists, and Dictionaries</h5>
 
-<p>Sprint 4. Where does the time go? Let’s write some Python code.</p>
+<p>Sprint 4. Where does the time go? Let’s write some Python code. Matchmaker for Python will be challenging application 
+but I think you will enjoy working on it. 
+</p>
 
 <p>By the end of this sprint we will be able to:</p>
 <ul style={{ listStyleType:'square' }}>
@@ -23,9 +25,10 @@ export const al20000Sprint04 = ( props ) => {
 
 <p>Below is our sprint 4 activities list:</p>
 <ol>
-<	li>Stay focused on the due dates by reviewing our course calendar<NavLink to='/calendar/4'>[link]</NavLink></li>
-	<li><em>Review sprint 3 assignments including Lab 4, Quiz 4, Discussion 4, Reflection 4, and Lab Demo</em></li>
+	<li>Stay focused on the due dates by reviewing our course calendar<NavLink to='/calendar/4'>[link]</NavLink></li>
+	<li><em>Review sprint 4 assignments including Lab 4, Quiz 4, Discussion 4, Reflection 4, and Lab Demo</em></li>
 	<li>{start(programmingAssignment)}</li>
+	{/* The above items should be consistent across classes. */ }
 
 	<li>Review the CAMS Study Table tutoring options<NavLink to='/activity/study-table'>[link]</NavLink></li>
 	<li>Read Dale chapter 13 Artificial Intelligence<a href='https://learning.oreilly.com/library/view/computer-science-illuminated/9781284055917/' target='_blank' rel='noopener noreferrer'>[link]</a>
@@ -44,7 +47,7 @@ export const al20000Sprint04 = ( props ) => {
 	{/* The items below should be consistent across classes. */ }
 	<li>{complete(programmingAssignment)}</li>
 	<li><em>Complete Discussion 4 by responding to at least two of your classmates’ posts</em></li>
-	<li><em>Submit Lab 3, Quiz 3, and Reflection 3</em></li>
+	<li><em>Submit Lab 4, Quiz 4, and Reflection 4</em></li>
 </ol>
 <p>If you are struggling, remember to reach out to your Scrum teammates early and often for help. Also, be sure to 
 periodically check for new programming together tutorials<NavLink to='/activity/programming-together'>[link]</NavLink>.</p>

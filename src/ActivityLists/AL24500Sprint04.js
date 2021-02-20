@@ -1,6 +1,9 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
 
+import { MosaicWithJava, start, complete } from './ProgrammingAssignments'
+const programmingAssignment = MosaicWithJava
+
 export const al24500Sprint04 = ( props ) => {
 	return (
 
@@ -28,6 +31,11 @@ export const al24500Sprint04 = ( props ) => {
 
 	<p>Our activities list for this sprint is provided below:</p> 
 	<ol>
+		<li>Stay focused on the due dates by reviewing our course calendar<NavLink to='/calendar/4'>[link]</NavLink></li>
+		<li><em>Review sprint 4 assignments including Lab 4, Quiz 4, Discussion 4, Reflection 4, and Lab Demo</em></li>
+		<li>{start(programmingAssignment)}</li>
+		{/* The above items should be consistent across classes. */ }
+
 		<li><em>Review Programming Assignment 4, Quiz 4, and Discussion Board 4</em></li>
 		{/*Todo: Update video below to remove date references. */}
 		<li>Complete the ActionListenerPlus<NavLink to='/activity-oop/java-action-listeners'>[video]</NavLink></li>
@@ -43,6 +51,14 @@ export const al24500Sprint04 = ( props ) => {
 		<li>Complete the BMI with JavaDoc and Scanner (keyboard input)<NavLink to='/activity-oop/bmi-calculator-add-javadoc-and-keyboard-input'>[video]</NavLink></li>
 		<li><em>Complete all remaining items including submitting Programming Assignment 4, Quiz 4, and responding
 			to at least one of your classmates’ Discussion Board posts by the end of the sprint</em></li>
+
+
+
+		{/* The items below should be consistent across classes. */ }
+		<li>{complete(programmingAssignment)}</li>
+		<li><em>Complete Discussion 4 by responding to at least two of your classmates’ posts</em></li>
+		<li><em>Submit Lab 4, Quiz 4, and Reflection 4</em></li>
+
 	</ol> 
 	<p>Feel free to post something in our Class Forum discussion board forum or to send me an email you have
 	questions. Give yourself a special reward at the end of the sprint. You have made it to the halfway point!</p>

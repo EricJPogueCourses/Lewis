@@ -24,12 +24,12 @@ as expected.</p>
 </ul><br />
 
 <h5>Frequently Asked Questions:</h5>
-Question: Why do I receive an access denied error when I enter the URL in my browser<br />
+Question 1: Why do I receive an message that says “You do not have permission to view this directory or page.” when I enter the URL in my browser<br />
 Do you have an “index.html” file? If you main HTML file is something other than “index.html”, you 
 need to include the name of the HTML file in the URL to access the page.<br /><br />
-Question: Why does nothing comes up when I enter the URL in my browser<br />
+Question 2: Why does nothing comes up when I enter the URL in my browser<br />
 What did you pick for a server-side environment? My recommendation for a static site is PHP.<br /><br />
-Question: What should I do if I forgot my Azure (or GitHub) password?<br />
+Question 3: What should I do if I forgot my Azure (or GitHub) password?<br />
 Don’t forget your Azure (or GitHub) password, or reset your password. If you are not able to reset your password, you 
 will need to create a new account.
 </div> )

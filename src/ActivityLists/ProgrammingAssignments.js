@@ -63,7 +63,7 @@ export const FaceDrawWithJava = {
 
 export const MosaicWithJava = {
 	'name':'“Mosaic”',
-	'link':'/activity/mosaic',
+	'link':'/activity/mosaic-java',
 	'estimate':'~10 hours'
 }
 

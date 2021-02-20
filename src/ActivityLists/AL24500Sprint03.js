@@ -37,7 +37,7 @@ export const al24500Sprint03 = ( props ) => {
 		{/* The above items should be consistent across classes. */}
 
 		<li>Complete “Graphical User Interfaces (GUI) in Java”<NavLink to='/activity-oop/java-gui-programming'>[video]</NavLink></li>
-		<li>Complete the FaceDraw Lite<NavLink to='/activity-oop/java-facedraw-lite'>[video]</NavLink><sup>~2 hours</sup></li>
+		<li>Complete the “FaceDraw Lite”<NavLink to='/activity-oop/java-facedraw-lite'>[video]</NavLink><sup>~2 hours</sup></li>
 		<li><em>Complete your initial Discussion Board (DB) post by the middle of the sprint</em></li>
 		<li>Read and Understand “JSON Introduction” from W3C<a href='https://www.w3schools.com/js/js_json_intro.asp' target='_blank' rel='noopener noreferrer'>[link]</a></li> 
 

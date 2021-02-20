@@ -58,6 +58,8 @@ periodically check for new programming together tutorials<NavLink to='/activity/
 	)
 }
 
+// Todo: Change discussion three from “low level languages” to “Gates and Circuits” topic.
+
 const extras = () => {
 	return (null)
 }
