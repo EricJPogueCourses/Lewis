@@ -7,10 +7,10 @@ export const WebGettingToKnowEachOther = () => {
 <div>
 <br />
 <h4>Getting to Know Each Other</h4>
-<h5>Summary: Create a HTML page describing yourself</h5>
+<h5>Summary: Create an HTML page describing yourself</h5>
 <h5>Prerequisites: Windows 10 or MacOS, VS Code, FireFox, Chrome, HTML, and CSS</h5>
 			
-<p>In this project you will create a HTML and CSS based web page about yourself. You will need to hand code this page 
+<p>In this project you will create an HTML and CSS based web page about yourself. You will need to hand code this page 
 in VS Code so that you can fully understand the HTML and CSS that makes up a web page.</p>
 
 <em>Requirement 1</em>

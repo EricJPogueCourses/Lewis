@@ -37,6 +37,12 @@ export const MatchmakerWithGo = {
 	'estimate':'~6 hours'
 }
 
+export const HealthRiskCalculator = {
+	'name':'“Health Insurance Risk Calculator for the Web”',
+	'link':'/activity/health-risk-calculator-web',
+	'estimate':'~6 hours'
+}
+
 export const OvalDrawPlusWithJava = {
 	'name':'“OvalDraw Plus”',
 	'link':'/activity/ovaldraw-plus-java',

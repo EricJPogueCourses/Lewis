@@ -31,12 +31,16 @@ export const al24500Sprint03 = ( props ) => {
 		<li>Stay focused on the due dates by reviewing our course calendar<NavLink to='/calendar/3'>[link]</NavLink></li>
 		<li><em>Review sprint 3 assignments including Lab 3, Quiz 3, Discussion 3, Reflection 3, and Lab Demo</em></li>
 		<li>{start(programmingAssignment)}</li>
+
+		{/* Todo: Update quiz 3 and remove duplicate question*/}
 		<li>Review the CAMS Study Table tutoring options<NavLink to='/activity/study-table'>[link]</NavLink></li>
 		<li>Review our class example code<NavLink to='/activity/example-code'>[link]</NavLink></li>
 		<li>Review our coding standards<NavLink to='/activity/coding-standards'>[link]</NavLink></li>
 		{/* The above items should be consistent across classes. */}
 
 		<li>Complete “Graphical User Interfaces (GUI) in Java”<NavLink to='/activity-oop/java-gui-programming'>[video]</NavLink></li>
+		{/* Todo: Uncomment the following line and remove chapters 4 and 5 from sprint 4*/}
+		{/*<li>Scan “Learning Java, 5th Edition” chapters 4 and 5<a href='https://learning.oreilly.com/library/view/learning-java-5th/9781492056263/' target='_blank' rel='noopener noreferrer'>[link]</a></li>*/}
 		<li>Complete the “FaceDraw Lite”<NavLink to='/activity-oop/java-facedraw-lite'>[video]</NavLink><sup>~2 hours</sup></li>
 		<li><em>Complete your initial Discussion Board (DB) post by the middle of the sprint</em></li>
 		<li>Read and Understand “JSON Introduction” from W3C<a href='https://www.w3schools.com/js/js_json_intro.asp' target='_blank' rel='noopener noreferrer'>[link]</a></li> 

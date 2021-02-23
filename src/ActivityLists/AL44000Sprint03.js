@@ -32,7 +32,8 @@ with your classmates and scrum team members as you work through some of the open
 	<li>Review the CAMS Study Table tutoring options<NavLink to='/activity/study-table'>[link]</NavLink></li>
 	<li>Review our class example code<NavLink to='/activity/example-code'>[link]</NavLink></li>
 	<li>Review our coding standards<NavLink to='/activity/coding-standards'>[link]</NavLink></li>
-	{/* The above items should be consistent across classes. */ }
+	{/* The above items should be consistent across classes. */}
+
 
 	<li>Review “Engineering Software as a Service” section 4.5 of Fox on Debugging</li>
 	<li>Read “Engineering Software as a Service” chapter 7 on Requirements and review the associated class lecture<NavLink to='/activity/fox-chapter-07'>[video]</NavLink></li>
@@ -61,6 +62,10 @@ periodically check for new programming together tutorials<NavLink to='/activity/
 
 	)
 }
+
+// Todo: Remove question 9 from lab 3. */}
+// Todo: Remove lab 3 final question.
+// Todo: Change assignment from AssignmentPortfolioWebsite. 
 
 const extras = () => {
 	return (null)

@@ -14,6 +14,8 @@ import { FaceDrawWeb, FaceDrawJava, FaceDrawReact } from './Activities/FaceDraw'
 import { MosaicWeb, MosaicJava, MosaicReact } from './Activities/Mosaic'
 
 import { Tools } from './Activities/ToolsOfTheTrade'
+import { Repository } from './Activities/Repository'
+
 import { CodingStandards, CodingStandardsValidator } from './Activities/CodingStandards'
 import { GitCommands } from './Activities/GitCommands'
 import { FinalProjectProposal } from './Activities/FinalProjectProposal'
@@ -74,6 +76,7 @@ class Activity extends Component {
 			case 'photo-to-blackboard': return videoLink('Add Your Photo to Blackboard', 'https://www.youtube.com/watch?v=PTmK3QdwZro&feature=youtu.be')
 			case 'blackboard-ultra': return videoLink('Introduction to Blackboard Ultra', 'https://www.youtube.com/watch?v=IKjBxIe_138&feature=youtu.be')
 			case 'tools': return Tools()
+			case 'repository': return Repository()
 			case 'coding-standards': return CodingStandards()
 			case 'coding-standards-validator': return CodingStandardsValidator()
 			case 'final-project-proposal': return FinalProjectProposal()
