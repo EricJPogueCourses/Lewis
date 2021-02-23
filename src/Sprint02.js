@@ -15,6 +15,6 @@ export const Sprint02 = () => {
 		case 24500: return (al24500Sprint02())
 		case 36000: return (al36000Sprint02())
 		case 44000: return (al44000Sprint02())
-		default: return (al20000Sprint02())
+		default: return (null)
 	}
 }

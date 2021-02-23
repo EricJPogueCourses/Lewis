@@ -42,14 +42,14 @@ and manual tests.</p>
 	<li>Within O’Reilly Books<a href='https://www.oreilly.com' target='_blank' rel='noopener noreferrer'>[link]</a> 
 		find the most interesting book on Golang, scan the contents, and be ready to discuss the book</li>
 
-		{/* The items below should be consistent across classes. */ }
-		<li>{complete(programmingAssignment)}</li>
-		<li><em>Complete Discussion 3 by responding to at least two of your classmates’ posts</em></li>
-		<li><em>Submit Lab 3, Quiz 3, and Reflection 3</em></li>
-	</ol>
-	<p>If you are struggling, remember to reach out to your Scrum teammates early and often for help. Also, be sure to 
-	periodically check for new programming together tutorials<NavLink to='/activity/programming-together'>[link]</NavLink>.</p>
-	{extras()}
+	{/* The items below should be consistent across classes. */ }
+	<li>{complete(programmingAssignment)}</li>
+	<li><em>Complete Discussion 3 by responding to at least two of your classmates’ posts</em></li>
+	<li><em>Submit Lab 3, Quiz 3, and Reflection 3</em></li>
+</ol>
+<p>If you are struggling, remember to reach out to your Scrum teammates early and often for help. Also, be sure to 
+periodically check for new programming together tutorials<NavLink to='/activity/programming-together'>[link]</NavLink>.</p>
+{extras()}
 </div>
 
 	)

@@ -7,7 +7,7 @@ export const QuizMaster = () => {
 <div>
 <br />
 <h4>QuizMaster Server</h4>
-<h5>Summary: Create a web service that serves quizzes</h5>
+<h5>Summary: Create a web service that serves quiz questions</h5>
 <h5>Prerequisites: Windows 10 or MacOS, VS Code, Go, and a cloud provider</h5>
 			
 <p>In this project you will create a web service that returns a quiz based on multiple question banks.</p>

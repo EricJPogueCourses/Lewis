@@ -17,6 +17,7 @@ import { Tools } from './Activities/ToolsOfTheTrade'
 import { Repository } from './Activities/Repository'
 
 import { CodingStandards, CodingStandardsValidator } from './Activities/CodingStandards'
+import { QuizMaster } from './Activities/QuizMaster'
 import { GitCommands } from './Activities/GitCommands'
 import { FinalProjectProposal } from './Activities/FinalProjectProposal'
 import { PythonNumberingSystems } from './Activities/PythonNumberingSystems'
@@ -79,6 +80,7 @@ class Activity extends Component {
 			case 'repository': return Repository()
 			case 'coding-standards': return CodingStandards()
 			case 'coding-standards-validator': return CodingStandardsValidator()
+			case 'quiz-master': return QuizMaster()
 			case 'final-project-proposal': return FinalProjectProposal()
 			case 'git-commands': return GitCommands()
 			case 'successful-programmer': return SuccessfulDeveloper()

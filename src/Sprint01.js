@@ -15,6 +15,6 @@ export const Sprint01 = () => {
 		case 24500: return (al24500Sprint01(URLParameters.classSyllabusURL()))
 		case 36000: return (al36000Sprint01(URLParameters.classSyllabusURL()))
 		case 44000: return (al44000Sprint01(URLParameters.classSyllabusURL()))
-		default: return (al20000Sprint01(URLParameters.classSyllabusURL()))
+		default: return (null)
 	}
 };

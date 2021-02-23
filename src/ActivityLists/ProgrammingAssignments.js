@@ -61,6 +61,12 @@ export const CodingStandardsValidatorPart2 = {
 	'estimate':'~8 hours'
 }
 
+export const QuizMaster = {
+	'name':'“QuizMaster Server”',
+	'link':'/activity/quiz-master',
+	'estimate':'~8 hours'
+}
+
 export const FaceDrawWithJava = {
 	'name':'“FaceDraw”',
 	'link':'/activity/facedraw-java',
