@@ -18,7 +18,8 @@ area by developing a better understanding of cloud services, serverless computin
 <ul style={{listStyleType:'square'}}>
 	<li>Explain and implement concurrency in Go</li>
 	<li>Explain and implement serverless computing functions</li>
-	<li>Understand containers and Docker containers</li>
+	<li>Understand Docker containers</li>
+	<li>Understand important network protocols</li>
 	<li>Understand and utilize cloud hosting services</li>
 </ul>
 
@@ -32,10 +33,10 @@ area by developing a better understanding of cloud services, serverless computin
 	<li>Within O’Reilly Books do a search for “Azure Functions” and “Serverless Computing” and document the best resources</li>
 	<li>Analyze the following cloud services material:
 	<ul style={{listStyleType:'square'}}>
-		<li>Microsoft Serverless Computing
+		<li>Azure Functions
 			<a href='https://azure.microsoft.com/en-us/overview/serverless-computing/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
-		<li>Google App Engine
-			<a href='https://cloud.google.com/appengine/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+		<li>Google Cloud Functions
+			<a href='https://cloud.google.com/functions' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 		<li>AWS Lambda 
 			<a href='https://aws.amazon.com/lambda/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	</ul></li>

@@ -15,9 +15,9 @@ export const QuizMaster = () => {
 <em>Requirement 1</em>
 <p>Create an HTTPs based web service utilizing one of the following architectures:</p>
 <ol>
-	<li>Microsoft Azure with a Go web application running in a Docker container</li>
-	<li>Microsoft Azure with a Go functions</li>
-	<li>Google App Engine with Go functions</li>
+	<li>Microsoft Azure with a Go web service  running in a Docker container</li>
+	<li>Microsoft Azure Functions with Go utilizing a custom handler</li>
+	<li>Google Cloud Functions with Go</li>
 	<li>Microsoft Azure with JavaScript</li>
 </ol>
 

@@ -40,7 +40,7 @@ help.</p>
 
 	<li><em>Review Programming Assignment 4, Quiz 4, and Discussion Board 4</em></li>
 	{/*Todo: Update video below to remove date references. */}
-	<li>Complete the ActionListenerPlus<NavLink to='/activity-oop/java-action-listeners'>[video]</NavLink></li>
+	<li>Complete ActionListenerPlus<NavLink to='/activity-oop/java-action-listeners'>[video]</NavLink></li>
 
 	<li>Review “Graphical User Interfaces (GUI) in Java”<NavLink to='/activity-oop/java-gui-programming'>[video]</NavLink></li>
 	<li>Scan “Learning Java, 5th Edition” chapters 4 and 5<a href='https://learning.oreilly.com/library/view/learning-java-5th/9781492056263/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
