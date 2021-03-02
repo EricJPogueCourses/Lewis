@@ -78,8 +78,8 @@ mouth should be randomly smiling, frowning, or in-between. </p>
 <p>Enhance the application so that when it starts it:</p>
 <ol>
 	<li>Draws between 3 and 10 faces (utilizing a random number)</li>
-	<li>Randomly determines each face’s location, size, and emotion (smile, frown, or neutral)</li>
-	<li>Determines the number of faces and face characteristics only once at program start</li>
+	<li>Randomly determines each faces’ characteristics including location, size, and emotion (smile, frown, or neutral)</li>
+	<li>Retains original face characteristics when the window is resized</li>
 	<li>Uses reasonable and visually appealing ranges for all random numbers</li>
 </ol>
 

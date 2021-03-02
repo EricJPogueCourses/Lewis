@@ -59,7 +59,8 @@ periodically check for new programming together tutorials<NavLink to='/activity/
 }
 
 // Todo: Change discussion three from “low level languages” to “Gates and Circuits” topic.
-// Todo: Fix quiz question on Unicode characters (not 64K but millions)
+// Todo: Fix quiz question on Unicode characters (not 64K but millions).
+// Todo: Modify or delete “Which of the following are considered secondary storage devices?” question (partial credit).
 
 const extras = () => {
 	return (null)
