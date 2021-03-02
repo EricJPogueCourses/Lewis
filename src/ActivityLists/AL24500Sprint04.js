@@ -27,10 +27,6 @@ read and write files.</p>
 
 </ul>
 
-<p>Please let me know if you need assistance. If you struggled with FaceDraw, it might help if we had a chance
-to sit down and talk through how we can get things back on track for the remainder of the course. I am here to
-help.</p>
-
 <p>Our activities list for this sprint is provided below:</p> 
 <ol>
 	<li>Stay focused on the due dates by reviewing our course calendar<NavLink to='/calendar/4'>[link]</NavLink></li>
@@ -43,20 +39,17 @@ help.</p>
 	<li>Complete ActionListenerPlus<NavLink to='/activity-oop/java-action-listeners'>[video]</NavLink></li>
 
 	<li>Review “Graphical User Interfaces (GUI) in Java”<NavLink to='/activity-oop/java-gui-programming'>[video]</NavLink></li>
+	<li>Complete the MosaicLite<NavLink to='/activity-oop/java-mosaic-lite'>[video]</NavLink></li>
 	<li>Scan “Learning Java, 5th Edition” chapters 4 and 5<a href='https://learning.oreilly.com/library/view/learning-java-5th/9781492056263/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li>Read “Learning Java, 5th Edition” chapters 6 and 10<a href='https://learning.oreilly.com/library/view/learning-java-5th/9781492056263/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
-
-	<li>Complete the MosaicLite<NavLink to='/activity-oop/java-mosaic-lite'>[video]</NavLink></li>
-	<li><em>Complete Mosaic (PA4) ~10 hours</em></li>
-	<li>Review the answers from last week's programming assignment and quiz. </li>
 	<li><em>Complete your initial Discussion Board (DB) post by the middle of the sprint</em></li>
-	<li>Complete OvalDraw Plus (called ShapeDrawPlus in our sample code)<NavLink to='/activity-oop/java-ovaldraw-plus'>[video]</NavLink>~1.5 hours.</li>
+
+	<li>Analyze and test ShapeDraw (located in our sample code repository)</li>
+	<li>Complete ShapeDraw Plus by enhancing ShapeDraw<NavLink to='/activity-oop/java-ovaldraw-plus'>[video]</NavLink><sup>~2 hours</sup></li>
 	<li>Review the Java file documentation provide by Oracle<a href='https://docs.oracle.com/javase/7/docs/api/java/io/package-summary.html' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li>Review the related Java file tutorials provided my Oracle<a href='https://docs.oracle.com/javase/tutorial/essential/io/' target='_blank' rel='noopener noreferrer'>[link]</a>
 		and complete and complete one of the tutorials.</li>
 	<li>Complete the BMI with JavaDoc and Scanner (keyboard input)<NavLink to='/activity-oop/bmi-calculator-add-javadoc-and-keyboard-input'>[video]</NavLink></li>
-	<li><em>Complete all remaining items including submitting Programming Assignment 4, Quiz 4, and responding
-		to at least one of your classmates’ Discussion Board posts by the end of the sprint</em></li>
 
 	{/* The items below should be consistent across classes. */ }
 	<li>{complete(programmingAssignment)}</li>

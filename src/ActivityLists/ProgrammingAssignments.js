@@ -70,13 +70,13 @@ export const QuizMaster = {
 export const FaceDrawWithJava = {
 	'name':'“FaceDraw”',
 	'link':'/activity/facedraw-java',
-	'estimate':'~10 hours'
+	'estimate':'~8 hours'
 }
 
 export const MosaicWithJava = {
 	'name':'“Mosaic”',
 	'link':'/activity/mosaic-java',
-	'estimate':'~10 hours'
+	'estimate':'~8 hours'
 }
 
 export const AzureWebsite = {
