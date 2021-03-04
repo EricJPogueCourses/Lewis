@@ -1,7 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
-// import * as URLParameters from './URLParameters'
 import { cpsc, courseTitle, classSyllabusURL } from './URLParameters'
 
 export const welcome2021Spring = () => {

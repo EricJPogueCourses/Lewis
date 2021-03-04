@@ -40,6 +40,7 @@ area by developing a better understanding of cloud services, serverless computin
 		<li>AWS Lambda 
 			<a href='https://aws.amazon.com/lambda/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	</ul></li>
+	<li>Review “Azure Functions with JavaScript and VS Code”<NavLink to='/activity-config/azure-functions-with-javascript-and-vs-code'>[link]</NavLink></li>
 	<li>Read “Introducing Go” chapter 11 Next Steps<a href='https://learning.oreilly.com/library/view/introducing-go/9781491941997/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 
 	<li>Review and consistently utilize the Git commands and patterns used by professional development teams<NavLink to='/activity/git-commands'>[link]</NavLink></li>
