@@ -22,9 +22,9 @@ export class Home extends React.Component {
 <br />
 <h6>For additional testing resources, see the following<a href= 'http://localhost:3000/#/test/me'>[link]</a>.</h6>
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-<h5>Depreciated Fall 2020 at Lewis.education links!</h5>
+<h5>Depreciated Fall 2020 at Lewis.education links:</h5>
 <br />
-<h5>Introduction to Computer Science:</h5> 
+<h5>Introduction to Computer Science:</h5>
 <h6>MWF 10am CT (002)<a href= 'https://www.lewis.education/?cpsc=20000-fall-2020-002/#/sprint-1'>[link]</a></h6>
 <h6>MWF 11am CT (003)<a href= 'https://www.lewis.education/?cpsc=20000-fall-2020-003/#/sprint-1'>[link]</a></h6>
 <br />
