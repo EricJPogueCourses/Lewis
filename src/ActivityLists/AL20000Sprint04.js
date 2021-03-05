@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 import { MatchmakerWithPython, start, complete } from './ProgrammingAssignments'
 const programmingAssignment = MatchmakerWithPython
 
-export const al20000Sprint04 = ( props ) => {
+export const al20000Sprint04 = () => {
 	return (
 
 <div>
@@ -39,9 +39,9 @@ but I think you will enjoy working on it.
 	<li><em>Submit your initial Discussion 4 post by the middle of the sprint</em></li>
 
 	<li>Within Safari Books Online<a href='https://learning.oreilly.com/home/' target='_blank' rel='noopener noreferrer'>[link]</a>
-		find “Introducing Python, 2nd Edition” by Bill Lubanovic (Lubanovic)</li>
-	<li>Read Lubanovic Preface and Chapter 1 while completing “Using Code Examples” from the Preface</li>
-	<li>Execute and review “quotes.py” from the Lubanovic Chapter 1 example code</li>
+		find “Introducing Python, 2nd Edition” by Bill Lubanovic</li>
+	<li>Read “Introducing Python, 2nd Edition” Preface and Chapter 1 while completing “Using Code Examples” from the Preface</li>
+	<li>Execute and review “quotes.py” from the “Introducing Python, 2nd Edition” Chapter 1 example code</li>
 	<li>Complete Programming Together with MatchmakerLite - Part 2</li>
 
 	{/* The items below should be consistent across classes. */ }

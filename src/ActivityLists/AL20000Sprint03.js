@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 import { AzureWebsite, start, complete } from './ProgrammingAssignments'
 const programmingAssignment = AzureWebsite
 
-export const al20000Sprint03 = ( props ) => {
+export const al20000Sprint03 = () => {
 	return (
 
 <div>

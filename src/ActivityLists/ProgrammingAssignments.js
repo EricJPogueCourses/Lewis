@@ -79,6 +79,18 @@ export const MosaicWithJava = {
 	'estimate':'~8 hours'
 }
 
+export const TurtleDraw = {
+	'name':'“TurtleDraw”',
+	'link':'/activity/turtle-draw',
+	'estimate':'~8 hours'
+}
+
+export const FinalProjectProposal = {
+	'name':'“Final Project Proposal”',
+	'link':'/activity/final-project-proposal',
+	'estimate':'~2 hours'
+}
+
 export const AzureWebsite = {
 	'name':'“Azure Website”',
 	'link':'/activity/azure-website',

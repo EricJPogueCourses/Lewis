@@ -39,7 +39,7 @@ read and write files.</p>
 	<li>Complete ActionListenerPlus<NavLink to='/activity-oop/java-action-listeners'>[video]</NavLink></li>
 
 	<li>Review “Graphical User Interfaces (GUI) in Java”<NavLink to='/activity-oop/java-gui-programming'>[video]</NavLink></li>
-	<li>Complete the MosaicLite<NavLink to='/activity-oop/java-mosaic-lite'>[video]</NavLink></li>
+	<li>Complete the MosaicLite<NavLink to='/activity-oop/java-mosaic-lite'>[video]</NavLink><sup>~2 hours</sup></li>
 	<li>Scan “Learning Java, 5th Edition” chapters 4 and 5<a href='https://learning.oreilly.com/library/view/learning-java-5th/9781492056263/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li>Read “Learning Java, 5th Edition” chapters 6 and 10<a href='https://learning.oreilly.com/library/view/learning-java-5th/9781492056263/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li><em>Complete your initial Discussion Board (DB) post by the middle of the sprint</em></li>

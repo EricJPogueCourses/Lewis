@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 import { GettingToKnowEachOther, start, complete } from './ProgrammingAssignments'
 const programmingAssignment = GettingToKnowEachOther
 
-export const al20000Sprint02 = ( props ) => {
+export const al20000Sprint02 = () => {
 	return (
 
 <div>
