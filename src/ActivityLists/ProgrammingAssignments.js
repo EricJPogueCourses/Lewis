@@ -91,6 +91,12 @@ export const FinalProjectProposal = {
 	'estimate':'~2 hours'
 }
 
+export const FinalProjectSprint00 = {
+	'name':'“Final Project Sprint 0”',
+	'link':'/activity/final-project-sprint-00',
+	'estimate':'~4 hours'
+}
+
 export const AzureWebsite = {
 	'name':'“Azure Website”',
 	'link':'/activity/azure-website',

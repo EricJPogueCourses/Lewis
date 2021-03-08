@@ -1,6 +1,9 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
+import { FinalProjectProposal, FinalProjectSprint00, start, complete } from './ProgrammingAssignments'
+const programmingAssignment = FinalProjectSprint00
+
 export const al44000Sprint05 = () => {
 	return (
 
@@ -34,28 +37,39 @@ export const al44000Sprint05 = () => {
 	<p>Below is the list of activities that we will need to complete this sprint.</p>
 	<ol>
 		<li>Stay focused on the due dates by reviewing our course calendar<NavLink to='/calendar/5'>[link]</NavLink></li>
-		<li><em>Review sprint 5 assignments including discussion 5, quiz 5, lab 5, and reflection 5</em></li>
-		<li><em>Develop your final project proposal by providing Agile Epics and Stories that describe the intended application 
-			functionality from a user perspective and by providing it an excellent name</em></li>
-		<li>Review the Agile Alliance site <a href='https://www.agilealliance.org/' target='_blank' rel='noopener noreferrer'>[link]</a>, analyze
-			“Agile 101” (you should understand these topics), and perform a quick overview of the “Agile Glossary”</li>
-		<li><em>Complete discussion board initial DB5 post by the middle of the sprint</em></li>
+		<li><em>Review Lab 5, Quiz 5, Discussion 5, Reflection 5, and Lab Demo</em></li>
+		<li>{start(FinalProjectProposal)}</li>
+		<li>{start(programmingAssignment)}</li>
+		{/* The above items should be consistent across classes. */ }
+
 		<li>Read Chapter 9 of Fox on Software Maintenance</li>
-		<li><em>Setup your production final project Node.js based website and migrate all of the applications that you
-		developed previously in this class to the new site</em></li>
-		<li>Create and execute a test plan on the production site that verifies that the site and all migrated 
-		applications are correctly up and running</li>
-		<li><em>Complete and submit all sprint 5 assignments including discussion board 5, quiz 5, lab 5, and
-		reflection 5</em></li>
+		<li>Review the Agile Alliance site <a href='https://www.agilealliance.org/' target='_blank' rel='noopener noreferrer'>[link]</a>, analyze
+			“Agile 101”, and perform an overview of the “Agile Glossary”</li>
+		<li>Enhance you final project by providing Agile Epics and Stories that describe the application</li>
+		<li><em>Make your initial Discussion post by the middle of the sprint</em></li>
+		<li>Complete your personal Azure based Node.js website and migrate all of your previous application to the new site</li>
+		<li>Set up your team’s final project production site and deploy your Final Project Proposal and “Health Insurance Risk Calculator”</li>
+		<li>Create and execute a test plan on the site that verifies that the site and all applications</li>
+
+		{/* The items below should be consistent across classes. */ }
+		<li>{complete(FinalProjectProposal)}</li>
+		<li>{complete(programmingAssignment)}</li>
+		<li><em>Complete Discussion 4 by responding to at least two of your classmates’ posts</em></li>
+		<li><em>Submit Lab 4, Quiz 4, and Reflection 4</em></li>
 	</ol>
 
-	<p>Additional references:</p>
-	<ul style={{ listStyleType: 'square' }}>
-		<li>Git/GitHub Cheat Sheet  
-		<a href='https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf'
-			target='_blank' rel='noopener noreferrer'>[link]</a></li> 
-	</ul> 
+	<p>If you are struggling, remember to reach out to your Scrum teammates early and often for help. Also, be sure to 
+	periodically check for new programming together tutorials<NavLink to='/activity/programming-together'>[link]</NavLink>.</p>
+	{extras()}
 </div>
 
 	)
+}
+
+// Todo: Add multiple-choice question on refactoring vs re-engineering.
+// Todo: Add multiple-choice question on “Describe the similarities and differences normally observed when maintaining a 
+//     software product using a Waterfall vs an Agile process.”
+
+const extras = () => {
+	return (null)
 }

@@ -19,7 +19,7 @@ file named “final-project-[[NAME]].html” where [[NAME]] is the name you have
 should be self contained and include HTML, CSS, and any JavaScript associated with your proposal.</p>
 
 <em>Requirement</em>
-<p>Create an descriptive and aesthetically pleasing final project proposal web page that includes:</p>
+<p>Create a descriptive and aesthetically pleasing final project proposal web page that includes:</p>
 <ol>
 	<li>Your application name... <em>give it a good name!</em></li>
 	<li>The team delivering the application</li>
