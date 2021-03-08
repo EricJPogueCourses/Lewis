@@ -34,8 +34,7 @@ to help prepare us for our final projects.</p>
 	<li>Read Chapter 8 of Fox on Test-Driven Development and review the associated class lecture<NavLink to='/activity/fox-chapter-08'>[video]</NavLink></li>
 
 	<li>Briefly scan “Web Development with Node and Express” chapters 5 through 14<a href='https://learning.oreilly.com/library/view/web-development-with/9781492053507/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
-	<li>Read “Web Development with Node and Express” chapter 15<a href='https://learning.oreilly.com/library/view/web-development-with/9781492053507/ch15.html' target='_blank' rel='noopener noreferrer'>[link]</a>
-		while completing each of the exercises</li>
+	<li>Read “Web Development with Node and Express” chapter 15<a href='https://learning.oreilly.com/library/view/web-development-with/9781492053507/ch15.html' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 
 	<li><em>Complete discussion board initial DB4 post by the middle of the sprint</em></li>
 	<li>Migrate all previous HTML, CSS, and JavaScript applications to Node.js in Azure<sup>~3 hours</sup></li>
