@@ -1,8 +1,8 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
-import { FinalProjectProposal, FinalProjectSprint00, start, complete } from './ProgrammingAssignments'
-const programmingAssignment = FinalProjectSprint00
+import { FinalProjectProposal, FinalProjectSprint0, start, complete } from './ProgrammingAssignments'
+const programmingAssignment = FinalProjectSprint0
 
 export const al44000Sprint05 = () => {
 	return (
@@ -43,8 +43,8 @@ export const al44000Sprint05 = () => {
 		{/* The above items should be consistent across classes. */ }
 
 		<li>Read Chapter 9 of Fox on Software Maintenance</li>
-		<li>Review the Agile Alliance site <a href='https://www.agilealliance.org/' target='_blank' rel='noopener noreferrer'>[link]</a>, analyze
-			“Agile 101”, and perform an overview of the “Agile Glossary”</li>
+		<li>Review the Agile Alliance site <a href='https://www.agilealliance.org/agile-essentials/' target='_blank' rel='noopener noreferrer'>[link]</a>, analyze
+			“Agile 101”, and review the “Agile Glossary”</li>
 		<li>Enhance you final project by providing Agile Epics and Stories that describe the application</li>
 		<li><em>Make your initial Discussion post by the middle of the sprint</em></li>
 		<li>Complete your personal Azure based Node.js website and migrate all of your previous application to the new site</li>
@@ -69,6 +69,7 @@ export const al44000Sprint05 = () => {
 // Todo: Add multiple-choice question on refactoring vs re-engineering.
 // Todo: Add multiple-choice question on “Describe the similarities and differences normally observed when maintaining a 
 //     software product using a Waterfall vs an Agile process.”
+// Todo: Add lots of links from the Agile Alliance to various activity lists.
 
 const extras = () => {
 	return (null)

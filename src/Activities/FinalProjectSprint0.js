@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-export const FinalProjectProposal = () => {
+export const FinalProjectSprint0 = () => {
 	return (
 	
 <div>
@@ -13,8 +13,8 @@ export const FinalProjectProposal = () => {
 	<li>“Final Project Proposal”<NavLink to='/activity/final-project-proposal'>[link]</NavLink></li>
 </ul>
 
-<p>In this project you will start your final project. Build something. Anything that makes you feel good and shows 
-that you invested an appropriate amount of effort.</p>
+<p>In this activity you will start your final project. Build something. Anything that makes you feel good and shows 
+that you invested an appropriate amount of effort. Maybe perform a technology spike?</p>
 
 <em>Requirement</em>
 <p>Create something pretty that showcases your idea by:</p>

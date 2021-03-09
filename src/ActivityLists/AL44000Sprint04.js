@@ -51,7 +51,7 @@ periodically check for new programming together tutorials<NavLink to='/activity/
 	)
 }
 
-// Todo: Create an activity and lab 4 question to move all applications to NodeJS and Azure
+// Todo: Consider moving from sprint 5 the activity and lab 4 question to move all applications to NodeJS and Azure
 
 const extras = () => {
 	return (null)

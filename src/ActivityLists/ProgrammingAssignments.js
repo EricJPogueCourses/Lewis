@@ -91,9 +91,9 @@ export const FinalProjectProposal = {
 	'estimate':'~2 hours'
 }
 
-export const FinalProjectSprint00 = {
+export const FinalProjectSprint0 = {
 	'name':'“Final Project Sprint 0”',
-	'link':'/activity/final-project-sprint-00',
+	'link':'/activity/final-project-sprint-0',
 	'estimate':'~4 hours'
 }
 
