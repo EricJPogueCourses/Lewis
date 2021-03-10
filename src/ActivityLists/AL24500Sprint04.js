@@ -68,7 +68,7 @@ const extras = () => {
 		<p>Additional suggested activities:</p>
 		<ul style={{listStyleType:'square'}}>
 			<li>Review our class example code<NavLink to='/activity/example-code'>[link]</NavLink></li>
-			<li>Review “Learning Java, 5th Edition” sample code available at<a href='https://github.com/l0y/learnjava5e.git' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+			<li>Review “Learning Java, 5th Edition” example code<a href='https://github.com/l0y/learnjava5e.git' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 		</ul>
 	</div>)
 }

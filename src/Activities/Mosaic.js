@@ -56,7 +56,7 @@ like the windows resizing.</p>
 <img src={MosaicScreenshot} alt='Eric Pogue' width= '512'/>
 </div>
 <br />
-<p>Specific requirements for the application include:</p>
+<h5>Specific requirements for the application include:</h5>
 <em>Requirement 1</em>
 <p>Create an application that:</p>
 <ol>

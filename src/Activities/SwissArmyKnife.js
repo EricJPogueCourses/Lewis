@@ -1,7 +1,7 @@
 
 import React from 'react'
 
-export const SwissArmyKnifeJava  = () => { return Mosaic(MosaicJavaProperties) }
+export const SwissArmyKnifeJava  = () => { return SwissArmyKnife(SwissArmyKnifeJavaJavaProperties) }
 
 const SwissArmyKnifeJavaJavaProperties = {
 	'name': 'SwissArmyKnife with Java', 
@@ -22,10 +22,15 @@ const SwissArmyKnife = (appProps) => {
 </h5>
 <h5>Prerequisites: {appProps.prerequisites}</h5>
 
-<p>In this programming activity, you will create a command-line application that implements various functions focused on 
-distributed computing and web services. </p>
+<p>In this programming activity, you will create a command-line application that implements a variety of function 
+focused on distributed computing and web services. </p>
 
-<p>Specific requirements for the application include:</p>
+<p>The application will also serve as a “sandbox” development environment for future programs. It is often 
+beneficial to develop a new feature in the simplest possible environment before moving it to its final often complex 
+production environment. This eliminates unnecessary dependencies and minimizes our risk of creating code that suffers 
+from immobility.</p>
+
+<h5>Specific requirements for the application include:</h5>
 <em>Requirement 1</em>
 <p>Create an application that:</p>
 <ol>
@@ -39,7 +44,7 @@ distributed computing and web services. </p>
 	<li>Responds to the “-Help” command-line parameter assuming case insensitivity</li>
 	<li>Implements visually appealing detailed instructions on how to use the application</li>
 	<li>Provides fully tested copy/paste examples of each application feature</li>
-	<li>Is implemented in a separate Java file</li>
+	<li>Is implemented in a separate source code file</li>
 </ol>
 
 <em>Requirement 3</em>
@@ -48,7 +53,7 @@ distributed computing and web services. </p>
 	<li>Responds to the “-HttpRequest [URL]” command-line parameter assuming case insensitivity</li>
 	<li>Retrieves the data from the URL and stores the data from the URL in memory</li>
 	<li>Prints the data to the command-line</li>
-	<li>Is implemented in a separate Java file</li>
+	<li>Is implemented in a separate source code file</li>
 </ol>
 
 <em>Requirement 4</em>
@@ -59,7 +64,7 @@ distributed computing and web services. </p>
 	<li>Parses the index file for the additional URLs</li>
 	<li>Retrieves the data from each additional URL</li>
 	<li>Prints the index data followed by each individual URL data elegantly to the command-line</li>
-	<li>Is implemented in a separate Java file</li>
+	<li>Is implemented in a separate source code file</li>
 </ol>
 </div> )
 }

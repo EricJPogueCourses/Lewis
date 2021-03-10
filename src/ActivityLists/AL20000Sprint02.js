@@ -39,7 +39,7 @@ efficient for you and the <em>bold</em> items are graded assignments.</p>
 
 	<li>Read “Computer Science Illuminated” chapter 3 Data Representation<a href='https://learning.oreilly.com/library/view/computer-science-illuminated/9781284055917/' target='_blank' rel='noopener noreferrer'>[link]</a>
 		and review our chapter 3 lecture <NavLink to='/activity-dale/3'>[video]</NavLink></li>
-	<li>Complete “HTML Programming - Part 1” from W3C<NavLink to='/activity/html'>[link]</NavLink><sup> ~4 hours</sup></li>
+	<li>Complete “HTML Programming - Part 1” from W3C<NavLink to='/activity/html'>[link]</NavLink><sup>~4 hours</sup></li>
 
 	{/* The items below should be consistent across classes. */ }
 	<li>{complete(programmingAssignment)}</li>

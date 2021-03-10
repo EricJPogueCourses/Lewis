@@ -79,6 +79,12 @@ export const MosaicWithJava = {
 	'estimate':'~8 hours'
 }
 
+export const SwissArmyKnifeWithJava = {
+	'name':'“SwissArmyKnife”',
+	'link':'/activity/swiss-army-knife-java',
+	'estimate':'~8 hours'
+}
+
 export const TurtleDraw = {
 	'name':'“TurtleDraw”',
 	'link':'/activity/turtle-draw',
