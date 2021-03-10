@@ -65,7 +65,8 @@ periodically check for new programming together tutorials<NavLink to='/activity/
 
 // Todo: Remove question 9 from lab 3. */}
 // Todo: Remove lab 3 final question.
-// Todo: Change assignment from AssignmentPortfolioWebsite. 
+// Todo: Change assignment from AssignmentPortfolioWebsite.
+// Todo: Update "Spike are a story" quiz 3 question to be more clear.
 
 const extras = () => {
 	return (null)
