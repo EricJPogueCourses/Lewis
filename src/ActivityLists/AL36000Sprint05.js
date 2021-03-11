@@ -1,55 +1,55 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
 
-import { QuizMaster, start, complete } from './ProgrammingAssignments'
-const programmingAssignment = QuizMaster
+import { FinalProjectProposal, AssignmentPortfolioWebsite, start, complete } from './ProgrammingAssignments'
+const programmingAssignment = AssignmentPortfolioWebsite
 
-export const al36000Sprint04 = () => {
+export const al36000Sprint05 = () => {
 	return (
 
 <div>
 <h4>Applied Programming Languages</h4>
-<h5>Sprint 4: Concurrency, Serverless Computing, and Docker Containers</h5>
-<p><em>Welcome to sprint 4.</em> This sprint we will continue to be focused on working in small teams and using industry standard source 
-code control and configuration management tools and patterns. We will be expanding our configuration management knowledge into the hosting
-area by developing a better understanding of cloud services, serverless computing, and containers.</p>
+<h5>Sprint 5: Web Development with HTML, CSS, JavaScript, and a touch of React</h5>
+<p>Sprint 5. Where does the time go?</p>
+<p>Sprint 5 sees us working in the same teams but working with new technologies. We will be full speed ahead with web 
+software development using HTML, CSS, and JavaScript hosted on Azure. We will also get our first look at React.</p>
 
-<p>By the end of sprint 4 we will be able to:</p>
+<p>It’s also time for us to think about our final projects. How would you like to finish the class by creating 
+something that makes you proud? What type of a final project would you enjoy creating? Is there a project that would 
+both be interesting to create and be something you could add to your professional portfolio to show as you are looking 
+for an internship or job? You have the power.</p>
+
+
+<p>We will also be completing our initial Final Project proposal this sprint. How would you like to finish the class by 
+creating something that makes you proud? What type of a final project would you enjoy creating? Is there a project that 
+would both be interesting to create and be something you could add to your professional portfolio to show as you are 
+looking for and internship or job? You have the power.</p>
+
+<p>By the end of sprint 5 we will be able to:</p>
 <ul style={{listStyleType:'square'}}>
-	<li>Explain and implement concurrency in Go</li>
-	<li>Explain and implement serverless computing functions</li>
-	<li>Understand Docker containers</li>
-	<li>Understand important network protocols</li>
-	<li>Understand and utilize cloud hosting services</li>
+	<li>Write basic web application utilizing HTML, CSS, and Javascript</li>
+	<li>Host web applications using Azure static application hosting</li>
+	<li>Understand the basics of React applications</li>
+	<li>Call a web service from a web application</li>
 </ul>
 
 <p>Below is the list of activities that we will need to complete this sprint.</p>
 <ol>
-	<li><em>Review sprint 4 assignments including Lab 4, Quiz 4, Discussion 4, Reflection 4, and Lab Demo</em></li>
+	<li>Stay focused on the due dates by reviewing our course calendar<NavLink to='/calendar/5'>[link]</NavLink></li>
+	<li><em>Review Lab 5, Quiz 5, Discussion 5, Reflection 5, and Lab Demo</em></li>
+	<li>{start(FinalProjectProposal)}</li>
 	<li>{start(programmingAssignment)}</li>
 	{/* The above items should be consistent across classes. */ }
 
-	<li>Read “Introducing Go” chapter 10 on Concurrency<a href='https://learning.oreilly.com/library/view/introducing-go/9781491941997/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
-	<li>Within O’Reilly Books do a search for “Azure Functions” and “Serverless Computing” and document the best resources</li>
-	<li>Analyze the following cloud services material:
-	<ul style={{listStyleType:'square'}}>
-		<li>Azure Functions
-			<a href='https://azure.microsoft.com/en-us/overview/serverless-computing/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
-		<li>Google Cloud Functions
-			<a href='https://cloud.google.com/functions' target='_blank' rel='noopener noreferrer'>[link]</a></li>
-		<li>AWS Lambda 
-			<a href='https://aws.amazon.com/lambda/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
-	</ul></li>
-	<li>Review “Azure Functions with JavaScript and VS Code”<NavLink to='/activity-config/azure-functions-with-javascript-and-vs-code'>[link]</NavLink></li>
-	<li>Read “Introducing Go” chapter 11 Next Steps<a href='https://learning.oreilly.com/library/view/introducing-go/9781491941997/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
-
-	<li>Review and consistently utilize the Git commands and patterns used by professional development teams<NavLink to='/activity/git-commands'>[link]</NavLink></li>
-	<li><em>Make your initial Discussion 4 post by the middle of the sprint</em></li>
+	<li>Complete “HTML Programming - Parts 1 and 2” from W3C<NavLink to='/activity/html'>[link]</NavLink><sup>~4 hours</sup></li>
+	<li>Complete “CSS Tutorial” from W3C<a href='https://www.w3schools.com/css/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+	<li>Complete “JavaScript Tutorial” from W3C<a href='https://www.w3schools.com/js/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+	<li><em>Make your initial Discussion 5 post by the middle of the sprint</em></li>
 
 	{/* The items below should be consistent across classes. */ }
+	<li>{complete(FinalProjectProposal)}</li>
 	<li>{complete(programmingAssignment)}</li>
-	<li><em>Complete Discussion 4 by responding to at least two of your classmates’ posts</em></li>
-	<li><em>Submit Lab 4, Quiz 4, and Reflection 4</em></li>
+	<li><em>Complete Discussion 5, Lab 5, Quiz 5, and Reflection 5</em></li>
 </ol>
 <p>If you are struggling, remember to reach out to your Scrum teammates early and often for help. Also, be sure to 
 periodically check for new programming together tutorials<NavLink to='/activity/programming-together'>[link]</NavLink>.</p>
@@ -58,9 +58,6 @@ periodically check for new programming together tutorials<NavLink to='/activity/
 
 	)
 }
-
-// Todo: Update all sprint 5 material.
-// Todo: Include activity aka.ms/swadocs
 
 const extras = () => {
 	return (null)

@@ -38,7 +38,7 @@ but I think you will enjoy working on it.
 	<li>Complete Programming Together with MatchmakerLite - Part 1</li>
 	<li><em>Submit your initial Discussion 4 post by the middle of the sprint</em></li>
 
-	<li>Within Safari Books Online<a href='https://learning.oreilly.com/home/' target='_blank' rel='noopener noreferrer'>[link]</a>
+	<li>Within O’Reilly Books<a href='https://learning.oreilly.com/home/' target='_blank' rel='noopener noreferrer'>[link]</a>
 		find “Introducing Python, 2nd Edition” by Bill Lubanovic</li>
 	<li>Read “Introducing Python, 2nd Edition” Preface and Chapter 1 while completing “Using Code Examples” from the Preface</li>
 	<li>Execute and review “quotes.py” from the “Introducing Python, 2nd Edition” Chapter 1 example code</li>
@@ -57,6 +57,8 @@ periodically check for new programming together tutorials<NavLink to='/activity/
 	)
 }
 
+// Todo: Consider updating Matchmaker to remove question weighting.
+
 const extras = () => {
 	return (<div>	
 		<p>Additional suggested activities:</p>
@@ -67,3 +69,4 @@ const extras = () => {
 		</ul>
 	</div>)
 }
+

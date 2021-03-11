@@ -27,7 +27,7 @@ experiment, and make decisions on how you wish to implement the features. Howeve
 to your final project. We will see if we can carve out some additional time prior to sprint 8 as well. How would you 
 like to finish the class by creating something that makes you proud? What type of a final project would you enjoy 
 creating? Is there a project that would both be interesting to create and be something you could add to your 
-professional portfolio to show as you are looking for and internship or job? You have the power.</p>
+professional portfolio to show as you are looking for an internship or job? You have the power.</p>
 
 <p>By the end of this sprint we will be able to:</p>
 <ul style={{ listStyleType: 'square' }}>

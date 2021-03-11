@@ -41,7 +41,7 @@ minutes unless otherwise noted.</p>
 	<li>Complete the “Create a Go module” tutorial<a href='https://golang.org/doc/tutorial/create-module' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li>Within O’Reilly Books<a href='https://www.oreilly.com' target='_blank' rel='noopener noreferrer'>[link]</a> 
 		perform a searches for Golang, Git, and ReactJS</li>
-	<li><em>Make your initial Discussion 2 post by the middle of the sprint</em></li>
+	<li><em>Make your initial Discussion 2post by the middle of the sprint</em></li>
 
 	{/* The items below should be consistent across classes. */ }
 	<li>{complete(programmingAssignment)}</li>

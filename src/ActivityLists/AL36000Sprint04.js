@@ -44,7 +44,7 @@ area by developing a better understanding of cloud services, serverless computin
 	<li>Read “Introducing Go” chapter 11 Next Steps<a href='https://learning.oreilly.com/library/view/introducing-go/9781491941997/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 
 	<li>Review and consistently utilize the Git commands and patterns used by professional development teams<NavLink to='/activity/git-commands'>[link]</NavLink></li>
-	<li><em>Make your initial Discussion 4 post by the middle of the sprint</em></li>
+	<li><em>Make your initial Discussion 4post by the middle of the sprint</em></li>
 
 	{/* The items below should be consistent across classes. */ }
 	<li>{complete(programmingAssignment)}</li>
