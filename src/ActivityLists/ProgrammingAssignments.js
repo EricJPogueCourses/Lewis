@@ -14,9 +14,9 @@ export const GettingToKnowEachOther = {
 }
 
 export const AssignmentPortfolioWebsite = {
-	'name':'“Assignment Portfolio Website”',
+	'name':'“Assignment Portfolio”',
 	'link':'/activity/assignment-portfolio',
-	'estimate':'~3 hours'	
+	'estimate':'~2 hours'	
 }
 
 export const MatchmakerWithPython = {
@@ -79,6 +79,12 @@ export const MosaicWithJava = {
 	'estimate':'~8 hours'
 }
 
+export const MosaicWithReact = {
+	'name':'“Mosaic”',
+	'link':'/activity/mosaic-react',
+	'estimate':'~8 hours'
+}
+
 export const SwissArmyKnifeWithJava = {
 	'name':'“SwissArmyKnife”',
 	'link':'/activity/swiss-army-knife-java',
@@ -110,6 +116,7 @@ export const AzureWebsite = {
 }
 
 export const start = (assignment) => { return ( <div>Start working on {assignment.name}<NavLink to={assignment.link}>[link]</NavLink></div>) }
+export const reviewAndUpdate = (assignment) => { return ( <div>Review and update your {assignment.name}<NavLink to={assignment.link}>[link]</NavLink></div>) }
 export const complete = (assignment) => { return ( <div>Complete {assignment.name}<NavLink to={assignment.link}>[link]</NavLink>{sup(assignment.estimate)}</div>)}
 
 const sup = (text) => { return (<sup> {text} </sup>)}

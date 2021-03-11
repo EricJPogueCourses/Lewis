@@ -34,7 +34,6 @@ with your classmates and scrum team members as you work through some of the open
 	<li>Review our coding standards<NavLink to='/activity/coding-standards'>[link]</NavLink></li>
 	{/* The above items should be consistent across classes. */}
 
-
 	<li>Review “Engineering Software as a Service” section 4.5 of Fox on Debugging</li>
 	<li>Read “Engineering Software as a Service” chapter 7 on Requirements and review the associated class lecture<NavLink to='/activity/fox-chapter-07'>[video]</NavLink></li>
 
@@ -44,11 +43,9 @@ with your classmates and scrum team members as you work through some of the open
 		while completing each of the exercises</li>
 	<li>Review “web/node-js-on-azure” code in our class example code</li>
 	<li><em>Make your initial Discussion 3 post by the middle of the sprint</em></li>
-
 	<li>Read “Web Development with Node and Express” chapters 3 and 4<a href='https://learning.oreilly.com/library/view/web-development-with/9781492053507/' target='_blank' rel='noopener noreferrer'>[link]</a>
 		while completing each of the exercises</li>
-	<li>Complete the “Node.js Tutorial” from W3C
-		<a href='https://www.w3schools.com/nodejs/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+	<li>Complete the “Node.js Tutorial” from W3C<a href='https://www.w3schools.com/nodejs/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 
 	{/* The items below should be consistent across classes. */ }
 	<li>{complete(programmingAssignment)}</li>
@@ -63,7 +60,7 @@ periodically check for new programming together tutorials<NavLink to='/activity/
 	)
 }
 
-// Todo: Remove question 9 from lab 3. */}
+// Todo: Remove question 9 from lab 3.
 // Todo: Remove lab 3 final question.
 // Todo: Change assignment from AssignmentPortfolioWebsite.
 // Todo: Update "Spike are a story" quiz 3 question to be more clear.

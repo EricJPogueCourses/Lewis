@@ -7,7 +7,7 @@ export const WebAssignmentPortfolio = () => {
 	
 <div>
 <br />
-<h4>Assignment Portfolio Website</h4>
+<h4>Assignment Portfolio</h4>
 <h5>Summary: Create a website that links all of your class assignments utilizing HTML, CSS, and Azure</h5>
 <h5>Prerequisite: “Azure Website”<NavLink to='/activity/azure-website'>[link]</NavLink></h5>
 			

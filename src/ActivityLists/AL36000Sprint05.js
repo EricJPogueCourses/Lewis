@@ -41,10 +41,15 @@ looking for and internship or job? You have the power.</p>
 	<li>{start(programmingAssignment)}</li>
 	{/* The above items should be consistent across classes. */ }
 
-	<li>Complete “HTML Programming - Parts 1 and 2” from W3C<NavLink to='/activity/html'>[link]</NavLink><sup>~4 hours</sup></li>
-	<li>Complete “CSS Tutorial” from W3C<a href='https://www.w3schools.com/css/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
-	<li>Complete “JavaScript Tutorial” from W3C<a href='https://www.w3schools.com/js/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+	<li>Complete “HTML Programming - Parts 1 and 2” from W3C<NavLink to='/activity/html'>[link]</NavLink><sup>~2 hours</sup></li>
+	<li>Complete “CSS Tutorial” from W3C<a href='https://www.w3schools.com/css/' target='_blank' rel='noopener noreferrer'>[link]</a><sup>~2 hours</sup></li>
+	<li>Complete “Azure Website”<NavLink to='/activity/azure-website'>[link]</NavLink><sup>~2 hours </sup></li>
+	<li>Complete “JavaScript Tutorial” from W3C<a href='https://www.w3schools.com/js/' target='_blank' rel='noopener noreferrer'>[link]</a><sup>~2 hours</sup></li>
 	<li><em>Make your initial Discussion 5 post by the middle of the sprint</em></li>
+	<li>Individually complete “Getting to Know Each Other”<NavLink to='/activity/getting-to-know-each-other'>[link]</NavLink> 
+		and deploy it to Azure</li>
+	<li>Individually complete “Dice Roller”<NavLink to='/activity/dice-roller'>[link]</NavLink>and deploy it to Azure<sup>~2 hours</sup></li>
+	<li>Link your individual “Getting to Know Each Other” website to your team “Assignment Portfolio” and to your team “Final Project Proposal”</li>
 
 	{/* The items below should be consistent across classes. */ }
 	<li>{complete(FinalProjectProposal)}</li>
