@@ -39,20 +39,20 @@ from immobility.</p>
 </ol>
 
 <em>Requirement 2</em>
-<p>Enhance your application by implementing a help feature that it:</p>
-<ol>
-	<li>Responds to the “-Help” command-line parameter assuming case insensitivity</li>
-	<li>Implements visually appealing detailed instructions on how to use the application</li>
-	<li>Provides fully tested copy/paste examples of each application feature</li>
-	<li>Is implemented in a separate source code file</li>
-</ol>
-
-<em>Requirement 3</em>
 <p>Enhance your application by implementing an HTTPRequest feature that it:</p>
 <ol>
 	<li>Responds to the “-HttpRequest [URL]” command-line parameter assuming case insensitivity</li>
 	<li>Retrieves the data from the URL and stores the data from the URL in memory</li>
 	<li>Prints the data to the command-line</li>
+	<li>Is implemented in a separate source code file</li>
+</ol>
+
+<em>Requirement 3</em>
+<p>Enhance your application by implementing a help feature that it:</p>
+<ol>
+	<li>Responds to the “-Help” command-line parameter assuming case insensitivity</li>
+	<li>Implements visually appealing detailed instructions on how to use the application</li>
+	<li>Provides fully tested copy/paste examples of each application feature</li>
 	<li>Is implemented in a separate source code file</li>
 </ol>
 

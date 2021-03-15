@@ -13,12 +13,14 @@ export const al20000Sprint07 = () => {
 on developing more sophisticated terminal applications using Python, or if your energy would be better spent mastering 
 Web development with HTML, CSS, and JavaScript. But never forget the legendary phrase:</p>
 
+<h5>
 <div style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
 “With great power there must also come great responsibility”<br /></div>
 <div style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
 -Peter Parker (aka Spider-Man)</div>
-
+</h5>
 <br />
+
 <p>What will you do with all that power... and responsibility?</p>
 <p>Let's start with what we need to learn in sprint 7:</p>
 <ul style={{listStyleType:'square'}}>

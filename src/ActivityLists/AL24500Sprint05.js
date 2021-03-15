@@ -17,10 +17,12 @@ making. For example, you will notice that our activities list this sprint includ
 files over the Internet from Java. I will be giving you some direction but you will have the power to explore options, 
 experiment, and make decisions on how you wish to implement the features. However, always remember: </p>
 
+<h5>
 <div style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
 “With great power there must also come great responsibility”<br /></div>
 <div style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
 -Peter Parker (aka Spider-Man)</div>
+</h5>
 <br />
 
 <p>Part of this new found responsibility will include working on your Final Project proposal. Sprint 8 will be dedicated 
