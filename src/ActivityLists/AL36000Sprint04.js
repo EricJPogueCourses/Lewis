@@ -62,3 +62,7 @@ periodically check for new programming together tutorials<NavLink to='/activity/
 const extras = () => {
 	return (null)
 }
+
+// Todo: Add API submission and testing criteria to lab 4.
+// Todo: Review https://medium.com/analytics-vidhya/azure-functions-for-dummies-part-1-http-trigger-a95cd000bc62.
+// Todo: Review https://www.reddit.com/r/golang/comments/ilytlu/using_go_on_azure_functions_article/.
