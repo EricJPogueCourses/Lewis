@@ -12,7 +12,7 @@ export const al44000Sprint05 = () => {
 	<h5>Sprint 5: Software Maintenance, Final Project Proposal, and production Azure Site Setup</h5>
 
 	<p>Welcome to sprint 5. This sprint marks the start of our final project. Think of this sprint as your final project
-	sprint 1 (of 4). In this sprint you will be defining your final project in terms Epics and User Stories, submitting
+	sprint 0 (of 3). In this sprint you will be defining your final project in terms Epics and User Stories, submitting
 	them as part of Lab 5, and sharing them with your classmates' as part of Discussion Board 5. If you would like to
 	work on your final project with a partner, this will also be the time for you to find a partner.</p>
 

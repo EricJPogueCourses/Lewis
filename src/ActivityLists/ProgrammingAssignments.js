@@ -31,6 +31,12 @@ export const MatchmakerWithJava = {
 	'estimate':'~6 hours'
 }
 
+export const MatchmakerForTheWeb = {
+	'name':'“Matchmaker for the Web”',
+	'link':'/activity/matchmaker-web',
+	'estimate':'~6 hours'
+}
+
 export const MatchmakerWithGo = {
 	'name':'“Matchmaker with Go”',
 	'link':'/activity/matchmaker-go',

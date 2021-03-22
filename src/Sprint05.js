@@ -1,4 +1,7 @@
 
+// Final project proposals.
+// Todo: Consider moving Networks to sprint 5. 
+
 import { al20000Sprint05 } from './ActivityLists/AL20000Sprint05'
 import { al24700Sprint05 } from './ActivityLists/AL24700Sprint05'
 import { al24500Sprint05 } from './ActivityLists/AL24500Sprint05'

@@ -1,4 +1,6 @@
 
+// Assumed knowledge and tools of the trade.
+
 import { al20000Sprint01 } from './ActivityLists/AL20000Sprint01'
 import { al24700Sprint01 } from './ActivityLists/AL24700Sprint01'
 import { al24500Sprint01 } from './ActivityLists/AL24500Sprint01'
@@ -18,3 +20,4 @@ export const Sprint01 = () => {
 		default: return (null)
 	}
 };
+

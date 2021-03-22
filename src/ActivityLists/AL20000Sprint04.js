@@ -11,8 +11,8 @@ export const al20000Sprint04 = () => {
 <h4>Introduction to Computer Science</h4>
 <h5>Sprint 4: Selection, Repetition, String, Lists, and Dictionaries</h5>
 
-<p>Sprint 4. Where does the time go? Let’s write some Python code. Matchmaker for Python will be challenging application 
-but I think you will enjoy working on it. 
+<p>Sprint 4. Where does the time go? Let’s write some Python code. <span style={{color: "red"}}> &#10084;&#10084;&#10084;</span> Matchmaker <span style={{color: "red"}}>&#10084;&#10084;&#10084; </span> 
+for Python will be challenging application but I think you will enjoy working on it. 
 </p>
 
 <p>By the end of this sprint we will be able to:</p>

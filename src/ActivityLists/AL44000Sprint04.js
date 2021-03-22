@@ -51,8 +51,15 @@ periodically check for new programming together tutorials<NavLink to='/activity/
 	)
 }
 
-// Todo: Consider moving from sprint 5 the activity and lab 4 question to move all applications to NodeJS and Azure
+
 
 const extras = () => {
 	return (null)
 }
+
+// Todo: Consider moving from sprint 5 the activity and lab 4 question to move all applications to NodeJS and Azure.
+// Todo: Add the instructions for team names if I leave it as a group assignment next semester.
+// Todo: From Stephanie: There wasn't really anywhere to take off points if the health app did not work properly, except 
+//     for the question where they copy/paste the url. I took off half of those points if it didn't work since it was only 
+//     6 pts. Adding a separate question about the requirements/functionality might be better. 
+// Todo: Review quiz questions that Ren missed on attempt 3. 
