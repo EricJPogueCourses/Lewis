@@ -54,8 +54,7 @@ export const al44000Sprint05 = () => {
 		{/* The items below should be consistent across classes. */ }
 		<li>{complete(FinalProjectProposal)}</li>
 		<li>{complete(programmingAssignment)}</li>
-		<li><em>Complete Discussion 4 by responding to at least two of your classmates’ posts</em></li>
-		<li><em>Submit Lab 4, Quiz 4, and Reflection 4</em></li>
+		<li><em>Complete Discussion 5, Lab 5, Quiz 5, and Reflection 5</em></li>
 	</ol>
 
 	<p>If you are struggling, remember to reach out to your Scrum teammates early and often for help. Also, be sure to 
@@ -67,10 +66,18 @@ export const al44000Sprint05 = () => {
 }
 
 // Todo: Add multiple-choice question on refactoring vs re-engineering.
-// Todo: Add multiple-choice question on “Describe the similarities and differences normally observed when maintaining a 
+// Todo: Add multiple-choice question on “Describe the similarities and differences normally observed when maintaining a
 //     software product using a Waterfall vs an Agile process.”
 // Todo: Add lots of links from the Agile Alliance to various activity lists.
+// Todo: Integrate Software Maintenance, Support, and Metrics into all appropriate classes.
+// Todo: Consider doing the same thing for testing.
 
 const extras = () => {
-	return (null)
+	return (<div>	
+		<p>Additional suggested activities:</p>
+		<ul style={{listStyleType:'square'}}>
+			<li>Review “Software Maintenance &amp; Support”<a href='https://lewiseducation.blob.core.windows.net/software-engineering/software-maintenance-and-support.mp4' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+			<li>Review “Software Metrics”<a href='https://lewiseducation.blob.core.windows.net/software-engineering/software-engineering-metrics.mp4' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+		</ul>
+	</div>)
 }

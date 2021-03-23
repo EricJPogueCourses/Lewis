@@ -51,8 +51,6 @@ periodically check for new programming together tutorials<NavLink to='/activity/
 	)
 }
 
-
-
 const extras = () => {
 	return (null)
 }

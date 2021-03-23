@@ -1,4 +1,8 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
+
+import { FinalProjectSprint1, start, complete } from './ProgrammingAssignments'
+const programmingAssignment = FinalProjectSprint1
 
 export const al44000Sprint06 = () => {
 	return (
@@ -20,33 +24,35 @@ export const al44000Sprint06 = () => {
 	</ul>
 	<p>Below is the list of activities that we will need to complete this sprint.</p>
 	<ol>
-		<li><em>Review sprint 6 assignments including discussion 6, quiz 6, lab 6, and reflection 6</em></li>
-		<li>Start working on your final project project and implement the start implementing the functionality that you 
-			identified in the highest priority stories last sprint</li>
-		<li>Update your final project Requirements for next sprint and document your commitment for what you will 
-			accomplish next sprint</li>
-		<li>Recall signing up for Safari Books Online which is available to you free through Lewis University
-			<a href='https://www.oreilly.com/library/view/temporary-access/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
-		<li>Within Safari Books Online do a search on “Azure Functions” and “Serverless Computing”</li>
-		<li>Scan the resulting books and identify what you think is the best source of information on both topics</li>
-		<li>Read/Watch and Analyze the following cloud services material below:
-		<ul style={{listStyleType:'square'}}>
-			<li>Analyze Microsoft Serverless Computing
-				<a href='https://azure.microsoft.com/en-us/overview/serverless-computing/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
-			<li>Analyze AWS Lambda 
-				<a href='https://aws.amazon.com/lambda/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
-			<li>Analyze Google App Engine
-				<a href='https://cloud.google.com/appengine/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
-		</ul></li>
-		<li><em>Complete discussion board initial DB6 post by the middle of the sprint</em></li>
+		<li>Stay focused on the due dates by reviewing our course calendar<NavLink to='/calendar/6'>[link]</NavLink></li>
+		<li><em>Review Lab 6, Quiz 6, Discussion 6, Reflection 6, and Lab Demo</em></li>
+		<li>{start(programmingAssignment)}</li>
+		{/* The above items should be consistent across classes. */ }
+
+		<li>Compete your sprint 0 Review and Retrospective</li>
 		<li>Read Chapter 10 of Fox on Project Management, Scrum, Pairs, and Version Control Systems</li>
-		<li>Build a serverless computing Azure Function utilizing information and tutorials referenced above or possibly
-			utilizing an “Additional resources” link below</li>
-		<li>Within Safari Books Online find the book “Scaling Software Agility: Best Practices for Large Enterprises” by
-			Dean Luffingwell and read chapters 1 and 2 paying close attention to the “Assumptions Underlying The Model”
-			section</li>
-		<li><em>Complete and submit all sprint 6 assignments including responding back to one of your classmates' 
-			discussion board 6 post, quiz 6, lab 6, and reflections 6</em></li>
+
+		<li>Within O’Reilly Books do a search for “Azure Functions” and “Serverless Computing” and document the best resources</li>
+		<li>Analyze the following cloud services material:
+		<ul style={{listStyleType:'square'}}>
+			<li>Azure Functions
+				<a href='https://azure.microsoft.com/en-us/overview/serverless-computing/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+			<li>Google Cloud Functions
+				<a href='https://cloud.google.com/functions' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+			<li>AWS Lambda 
+				<a href='https://aws.amazon.com/lambda/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+		</ul></li>
+
+		<li><em>Compete your initial Discussion post by the middle of the sprint</em></li>
+
+		{/* Bugbug: Review/start here! */}
+
+		<li>Complete Programming Together with “Azure Functions with VS Code and JavaScript” and build your <em>personal</em> serverless function</li>
+		<li>Within O’Reilly Books read “Scaling Software Agility: Best Practices for Large Enterprises” chapters 1 and 2 focussing on “Assumptions Underlying the Model”</li>
+
+		{/* The items below should be consistent across classes. */ }
+		<li>{complete(programmingAssignment)}</li>
+		<li><em>Complete Discussion 6, Lab 6, Quiz 6, and Reflection 6</em></li>
 	</ol>
 	
 	<p>Additional references:</p>
@@ -54,12 +60,7 @@ export const al44000Sprint06 = () => {
 		<li>Complete Programming Together with “Azure Functions with VS Code and JavaScript”<a href='https://app.knowmia.com/OG2Q'target='_blank' rel='noopener noreferrer'>[link]</a></li>
 		<li>Complete Programming Together with “React On Azure”<a href='https://app.knowmia.com/bBVA'target='_blank' rel='noopener noreferrer'>[link]</a></li>
 		<li>Recall “Deploying Node.js on Microsoft Azure”<a href='https://app.knowmia.com/lyyA' target='_blank' rel='noopener noreferrer'>[link]</a></li>		
-		<li>Azure serverless computing tutorial
-			<a href='https://mikepfeiffer.io/blog/azure-serverless-101'
-			target='_blank' rel='noopener noreferrer'>[link]</a></li>
-		<li>Git/GitHub Cheat Sheet  
-		<a href='https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf'
-			target='_blank' rel='noopener noreferrer'>[link]</a></li> 
+		<li>Azure serverless computing tutorial<a href='https://mikepfeiffer.io/blog/azure-serverless-101' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	</ul>
 </div>
 

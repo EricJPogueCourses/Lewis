@@ -25,7 +25,7 @@ create an <em>Web</em> version <span style={{color: "red"}}> &#10084;&#10084;&#1
 
 <p>Below is our sprint 6 activities list. </p>
 <ol>
-<li>Stay focused on the due dates by reviewing our course calendar<NavLink to='/calendar/6'>[link]</NavLink></li>
+	<li>Stay focused on the due dates by reviewing our course calendar<NavLink to='/calendar/6'>[link]</NavLink></li>
 	<li><em>Review Lab 6, Quiz 6, Discussion 6, Reflection 6, and Lab Demo</em></li>
 	<li>{start(programmingAssignment)}</li>
 	{/* The above items should be consistent across classes. */ }
