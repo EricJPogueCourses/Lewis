@@ -13,7 +13,7 @@ import { ExampleCode } from './Activities/ExampleCode'
 import { FaceDrawWeb, FaceDrawJava, FaceDrawReact } from './Activities/FaceDraw'
 import { MosaicWeb, MosaicJava, MosaicReact } from './Activities/Mosaic'
 
-import { SwissArmyKnifeJava } from './Activities/SwissArmyKnife'
+import { SwissArmyKnifeJava, SwissArmyKnifeJavaV2 } from './Activities/SwissArmyKnife'
 
 import { Tools } from './Activities/ToolsOfTheTrade'
 import { Repository } from './Activities/Repository'
@@ -115,6 +115,7 @@ class Activity extends Component {
 			case 'mosaic-react': return MosaicReact()
 
 			case 'swiss-army-knife-java': return SwissArmyKnifeJava()
+			case 'swiss-army-knife-java-v2': return SwissArmyKnifeJavaV2()
 
 			case 'health-risk-calculator-python': return HealthRiskCalculatorPython()
 			case 'health-risk-calculator-web': return HealthRiskCalculatorWeb()

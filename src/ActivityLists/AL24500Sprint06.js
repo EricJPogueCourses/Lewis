@@ -6,7 +6,7 @@ export const al24500Sprint06 = ( props ) => {
 
 <div>
 	<h4>Object-Oriented Programming</h4>
-	<h5>Sprint 6: Multithreading and Application Programming Interfaces</h5>
+	<h5>Sprint 6: Multithreaded Programming and Application Programming Interfaces</h5>
 
 	<p>Sprint 6! This sprint offers a mix of the old and the new. Some things like hosting JSON files on our Azure
 	websites and enhancing our SwissArmyKnife application will be additions to what we have already learned. On the
@@ -15,7 +15,7 @@ export const al24500Sprint06 = ( props ) => {
 	<p>By the end of this sprint we will be able to:</p>
 	<ul style={{ listStyleType: 'square' }}>
 		<li>Develop our first multi-threaded Java application</li>
-		<li>Create / update a web service by hosting JSON files on MS Azure</li>
+		<li>Create and update a web service by hosting JSON files in Azure</li>
 		<li>Enhance intermediate command line Java applications that span multiple Java files</li>
 		<li>Create an automated (api level) Java test client</li>
 	</ul>

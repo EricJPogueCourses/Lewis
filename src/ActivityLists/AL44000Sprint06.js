@@ -11,8 +11,9 @@ export const al44000Sprint06 = () => {
 	<h4>Software Engineering</h4>
 	<h5>Sprint 6: Project Management, Serverless Computing, and Final Project</h5>
 
-	<p>Welcome to sprint 6. This sprint will see us splitting our time between working on our final project, implementing 
-	our first serverless computing services utilizing Azure Functions, and learning more about project management.</p>
+	<p>Welcome to sprint 6. This sprint will see us splitting our time between working on sprint 1 of our final 
+		project, implementing our first serverless computing services utilizing Azure Functions, and learning 
+		more about project management.</p>
 
 	<p>By the end of this sprint we will be able to:</p>
 	<ul style={{listStyleType:'square'}}>
@@ -45,24 +46,24 @@ export const al44000Sprint06 = () => {
 
 		<li><em>Compete your initial Discussion post by the middle of the sprint</em></li>
 
-		{/* Bugbug: Review/start here! */}
-
 		<li>Complete Programming Together with “Azure Functions with VS Code and JavaScript” and build your <em>personal</em> serverless function</li>
-		<li>Within O’Reilly Books read “Scaling Software Agility: Best Practices for Large Enterprises” chapters 1 and 2 focussing on “Assumptions Underlying the Model”</li>
+		<li>Within O’Reilly Books read “Scaling Software Agility: Best Practices for Large Enterprises” chapters 1 and 
+			2 focussing on “Assumptions Underlying the Model”</li>
+		<li>Complete sprint 2 planning</li>
+		<li>Review Programming Together with “Deploying Node.js on Microsoft Azure”</li>
 
 		{/* The items below should be consistent across classes. */ }
 		<li>{complete(programmingAssignment)}</li>
 		<li><em>Complete Discussion 6, Lab 6, Quiz 6, and Reflection 6</em></li>
 	</ol>
 	
-	<p>Additional references:</p>
-	<ul style={{listStyleType:'square'}}>
-		<li>Complete Programming Together with “Azure Functions with VS Code and JavaScript”<a href='https://app.knowmia.com/OG2Q'target='_blank' rel='noopener noreferrer'>[link]</a></li>
-		<li>Complete Programming Together with “React On Azure”<a href='https://app.knowmia.com/bBVA'target='_blank' rel='noopener noreferrer'>[link]</a></li>
-		<li>Recall “Deploying Node.js on Microsoft Azure”<a href='https://app.knowmia.com/lyyA' target='_blank' rel='noopener noreferrer'>[link]</a></li>		
-		<li>Azure serverless computing tutorial<a href='https://mikepfeiffer.io/blog/azure-serverless-101' target='_blank' rel='noopener noreferrer'>[link]</a></li>
-	</ul>
+	<p>If you are struggling, remember to reach out to your Scrum teammates early and often for help. Also, be sure to 
+	periodically check for new programming together tutorials<NavLink to='/activity/programming-together'>[link]</NavLink>.</p>
+	{extras()}
 </div>
-
 	)
+}
+
+const extras = () => {
+	return (null)
 }

@@ -19,6 +19,8 @@ export const al44000Sprint07 = () => {
 	</ul>
 	<p>Below is the list of activities that we will need to complete this sprint.</p>
 	<ol>
+		<li>** Complete Programming Together with “React On Azure”<a href='https://app.knowmia.com/bBVA'target='_blank' rel='noopener noreferrer'>[link]</a></li>
+
 		<li>Stay focused on the dates by reviewing our course calendar<NavLink to='/calendar/7'>[link]</NavLink></li>
 		<li><em>Review sprint 7 assignments including discussion 7, quiz 7, lab 7, and reflection 7</em></li>
 		<li>Focus your energy on delivering and testing the sprint 3 stories that your final project team has committed to delivering</li>
