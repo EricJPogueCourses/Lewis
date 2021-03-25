@@ -28,7 +28,7 @@ export const al44000Sprint06 = () => {
 		<li>Stay focused on the due dates by reviewing our course calendar<NavLink to='/calendar/6'>[link]</NavLink></li>
 		<li><em>Review Lab 6, Quiz 6, Discussion 6, Reflection 6, and Lab Demo</em></li>
 		<li>{start(programmingAssignment)}</li>
-		{/* The above items should be consistent across classes. */ }
+		{/* The above items should be consistent across classes. */}
 
 		<li>Compete your sprint 0 Review and Retrospective</li>
 		<li>Read Chapter 10 of Fox on Project Management, Scrum, Pairs, and Version Control Systems</li>

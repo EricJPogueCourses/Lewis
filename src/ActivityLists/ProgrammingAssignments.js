@@ -97,6 +97,12 @@ export const SwissArmyKnifeWithJava = {
 	'estimate':'~8 hours'
 }
 
+export const SwissArmyKnifeWithJavaV2 = {
+	'name':'“SwissArmyKnife version 2”',
+	'link':'/activity/swiss-army-knife-java-v2',
+	'estimate':'~8 hours'
+}
+
 export const TurtleDraw = {
 	'name':'“TurtleDraw”',
 	'link':'/activity/turtle-draw',

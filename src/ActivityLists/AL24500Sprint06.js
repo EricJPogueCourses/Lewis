@@ -1,56 +1,64 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
+import { SwissArmyKnifeWithJavaV2, start, complete } from './ProgrammingAssignments'
+const programmingAssignment = SwissArmyKnifeWithJavaV2
+
 export const al24500Sprint06 = ( props ) => {
 	return (
 
 <div>
 	<h4>Object-Oriented Programming</h4>
-	<h5>Sprint 6: Multithreaded Programming and Application Programming Interfaces</h5>
+<h5>Sprint 6: Multithreaded Programming and Application Programming Interfaces</h5>
 
-	<p>Sprint 6! This sprint offers a mix of the old and the new. Some things like hosting JSON files on our Azure
-	websites and enhancing our SwissArmyKnife application will be additions to what we have already learned. On the
-	other hand, learning how to write multi-threaded Java applications will likely prove to be challenging.</p>
+<p>Sprint 6! This sprint offers a mix of the old and the new. Some things like hosting JSON files on our Azure
+websites and enhancing our SwissArmyKnife application will be additions to what we have already learned. On the
+other hand, learning how to write multi-threaded Java applications will likely prove to be challenging.</p>
 
-	<p>By the end of this sprint we will be able to:</p>
-	<ul style={{ listStyleType: 'square' }}>
-		<li>Develop our first multi-threaded Java application</li>
-		<li>Create and update a web service by hosting JSON files in Azure</li>
-		<li>Enhance intermediate command line Java applications that span multiple Java files</li>
-		<li>Create an automated (api level) Java test client</li>
-	</ul>
+<p>By the end of this sprint we will be able to:</p>
+<ul style={{ listStyleType: 'square' }}>
+	<li>Develop our first multi-threaded Java application</li>
+	<li>Create and update a web service by hosting JSON files in Azure</li>
+	<li>Enhance intermediate command line Java applications that span multiple Java files</li>
+	<li>Create an automated (api level) Java test client</li>
+</ul>
 
-	<p>You will notice this sprint that it looks like our activities list is shrinking. Don't let that fool you. At
-	this point in the class many of our activities are naturally migrating from our activities list to our
-	assignments. This is because you are becoming more capable of researching and figuring out how to implement new
-	features. </p>
+<p>Below is the list of activities that we will need to complete this sprint.</p>
+<ol>
+	<li>Stay focused on the due dates by reviewing our course calendar<NavLink to='/calendar/6'>[link]</NavLink></li>
+	<li><em>Review Lab 6, Quiz 6, Discussion 6, Reflection 6, and Lab Demo</em></li>
+	<li>{start(programmingAssignment)}</li>
+	{/* The above items should be consistent across classes. */}
 
-	<p>Our activities list for this sprint includes:</p>
-	<ol>
-		<li><em>Review Programming Assignment 6, Quiz 6, and Discussion Board 6</em></li>
-		<li>Review 'Website Creation With GitHub and Microsoft Azure'<NavLink to='/activity/azure-website'>[link]</NavLink></li>
-		<li>Complete 'Personal Information JSON Files'<NavLink to='/activity-oop/personal-info-json-to-azure'>[video]</NavLink></li>
-		<li><em>Consistently work on the SwissArmyKnife v2 assignment (PA6) and Quiz 6 throughout the sprint ~10 hours</em></li>
-		<li><em>Complete your initial Discussion Board post by the middle of the sprint</em></li>
-		<li>Create and/or update your JSON files on your MS Azure website by the middle of the sprint to reflect the
-			requirements identified in our sprint 6 assignments</li>
-		<li>Review 'Performance and Multithreading'<NavLink to='/activity-oop/performance-and-multithreaded-programming'>[video]</NavLink></li>
-		<li>Complete 'SleepFast'<NavLink to='/activity-oop/java-sleep-fast'>[video]</NavLink></li>
-		<li>Review Object-Oriented Programming Languages and Platforms<NavLink to='/activity-oop/languages-and-platforms'>[video]</NavLink></li>
-		<li><em>Complete all sprint 6 assignments and activity list items by the end of the sprint</em></li>
-	</ol>
+	<li>Review 'Performance and Multithreading'<NavLink to='/activity-oop/performance-and-multithreaded-programming'>[video]</NavLink></li>
+	<li>Review 'Website Creation With GitHub and Microsoft Azure'<NavLink to='/activity/azure-website'>[link]</NavLink></li>
+	<li>Complete 'Personal Information JSON Files'<NavLink to='/activity-oop/personal-info-json-to-azure'>[video]</NavLink></li>
+	<li><em>Complete your initial Discussion Board post by the middle of the sprint</em></li>
 
-	<p>Feel free to post something in our discussion board forum or to send me an email you have questions.</p><br />
+	<li>Read “Learning Java, 5th Edition” chapter 9<a href='https://learning.oreilly.com/library/view/learning-java-5th/9781492056263/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+	<li>Complete 'SleepFast'<NavLink to='/activity-oop/java-sleep-fast'>[video]</NavLink></li>
+	<li>Review Object-Oriented Programming Languages and Platforms<NavLink to='/activity-oop/languages-and-platforms'>[video]</NavLink></li>
 
-	<p>Additional references:</p>
-	<ul style={{ listStyleType: 'square' }}>	
-		<li>Sprint 6 recorded Lecture/Discussion session from a previous online Object-Oriented Programming class
-			<a href='https://24500lt1.blob.core.windows.net/lecture-recordings/cpsc-24500-2019-01-spring-lt1_2019-02-20.mp4'>[link]</a></li> 
-		<li>Git/GitHub Cheat Sheet	
-			<a href='https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf'
-			target='_blank' rel='noopener noreferrer'>[link]</a></li> 
-	</ul> 
+	{/* The items below should be consistent across classes. */}
+	<li>{complete(programmingAssignment)}</li>
+	<li><em>Complete Discussion 6, Lab 6, Quiz 6, and Reflection 6</em></li>
+</ol>
+
+<p>If you are struggling, remember to reach out to your Scrum teammates early and often for help. Also, be sure to 
+periodically check for new programming together tutorials<NavLink to='/activity/programming-together'>[link]</NavLink>.</p>
+{extras()}
 </div>
-
 	)
+}
+
+const extras = () => {
+	return (<div>	
+		<p>Additional suggested activities:</p>
+		<ul style={{listStyleType:'square'}}>
+			<li>Update the content of your “Final Project Proposal”<NavLink to='/activity/final-project-proposal'>[link]</NavLink> 
+				and host the updated web page in Azure</li>
+			<li>Review our class example code<NavLink to='/activity/example-code'>[link]</NavLink></li>
+			<li>Review “Learning Java, 5th Edition” example code<a href='https://github.com/l0y/learnjava5e.git' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+		</ul>
+	</div>)
 }

@@ -6,7 +6,7 @@ export const SwissArmyKnifeJava  = () => { return SwissArmyKnife(SwissArmyKnifeJ
 export const SwissArmyKnifeJavaV2  = () => { return SwissArmyKnifeV2(SwissArmyKnifeJavaJavaV2Properties) }
 
 const SwissArmyKnifeJavaJavaProperties = {
-	'name': 'SwissArmyKnife with Java', 
+	'name': 'SwissArmyKnife', 
 	'language': 'Java command-line (CLI)',
 	'prerequisites': 'Java, VS Code, and Terminal',
 	'type': 'command-line application written in the Java language',
@@ -15,7 +15,7 @@ const SwissArmyKnifeJavaJavaProperties = {
 }
 
 const SwissArmyKnifeJavaJavaV2Properties = {
-	'name': 'SwissArmyKnife with Java version 2', 
+	'name': 'SwissArmyKnife version 2', 
 	'language': 'Java command-line (CLI)',
 	'prerequisites': 'Java, VS Code, and Terminal',
 	'type': 'command-line application written in the Java language',

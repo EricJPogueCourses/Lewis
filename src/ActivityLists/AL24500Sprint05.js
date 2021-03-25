@@ -46,7 +46,7 @@ professional portfolio to show as you are looking for an internship or job? You 
 	<li><em>Review Lab 5, Quiz 5, Discussion 5, Reflection 5, and Lab Demo</em></li>
 	<li>{start(FinalProjectProposal)}</li>
 	<li>{start(programmingAssignment)}</li>
-	{/* The above items should be consistent across classes. */ }
+	{/* The above items should be consistent across classes. */}
 
 	<li>Complete Testing lecture<NavLink to='/activity-oop/java-testing'>[link]</NavLink></li>
 	<li>Read “Learning Java, 5th Edition” chapter 11<a href='https://learning.oreilly.com/library/view/learning-java-5th/9781492056263/' target='_blank' rel='noopener noreferrer'>[link]</a></li>

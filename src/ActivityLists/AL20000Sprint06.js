@@ -42,14 +42,12 @@ create an <em>Web</em> version <span style={{color: "red"}}> &#10084;&#10084;&#1
 	</ul>
 
 	<li>Update the content of your “Final Project Proposal”<NavLink to='/activity/final-project-proposal'>[link]</NavLink> 
-		and turn your proposal into a Web application by hosting it in Azure</li>
+			and host the updated web page in Azure</li>
 	<li>Complete Programming Together with MatchmakerLite for the Web - Part 1</li>
-
 
 	<li><em>Make your initial Discussion post by the middle of the sprint</em></li>
 	<li>Review the JavaScript tutorial from W3C <a href='https://www.w3schools.com/js/'>[link]</a></li>
 	<li>Complete Programming Together with MatchmakerLite for the Web - Part 2</li>
-
 
 	{/* The items below should be consistent across classes. */ }
 	<li>{complete(programmingAssignment)}</li>
