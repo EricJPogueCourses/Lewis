@@ -27,12 +27,21 @@ export const al36000Sprint06 = () => {
 	<li>{start(programmingAssignment)}</li>
 	{/* The above items should be consistent across classes. */ }
 
-	<li>Focus on CI/CD by completing several React and “no framework” tutorials from “Azure Static Web Apps”<a href='https://aka.ms/swadocs' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+	<li>Focus on CI/CD by completing “Create your fist React app” several React and “no framework” tutorials from “Azure Static Web Apps”<a href='https://aka.ms/swadocs' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+	<li>Focus on CI/CD by completing the following tutorials from “Azure Static Web Apps”<a href='https://aka.ms/swadocs' target='_blank' rel='noopener noreferrer'>[link]</a>:
+	<ul style={{listStyleType:'square'}}>
+		<li>“Build and deploy a static web app” from the “Video” section )</li>
+		<li>”Create your first app (no framework)” from the “Getting started” section</li>
+		<li>“Create your fist React app” from the “Getting started” section</li>
+	</ul></li>
+
 	<li>Complete “React on Azure” programming together<NavLink to='/activity-config/react-on-azure'>[video]</NavLink></li>
 	<li>Read “Learning React, 2nd Edition” by Eve Porcello and Alex Banks chapters 1 and 2<a href='https://learning.oreilly.com/library/view/learning-react-2nd/9781492051718/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li><em>Make your initial Discussion post by the middle of the sprint</em></li>
 	<li>Complete “React - The Complete Guide” by Maximilian Schwarzmüller chapters 1 and 2<a href='https://learning.oreilly.com/videos/react-the/9781789132229/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li>Review “Azure Website”<NavLink to='/activity/azure-website'>[link]</NavLink></li>
+	<li>Read “Learn React to get that first job” <a href='https://www.infoworld.com/article/3607234/entry-level-software-developer-learn-react-to-get-that-first-job.html' target='_blank' rel='noopener noreferrer'>[link]</a>
+		and consider how you might utilize your Final Project to enhance your professional portfolio</li>
 
 	{/* The items below should be consistent across classes. */ }
 	<li>{reviewAndUpdate(FinalProjectProposal)}</li>

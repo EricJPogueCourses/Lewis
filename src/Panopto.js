@@ -44,13 +44,14 @@ const panoptoEmbedSuffixForPlaylist = '&autoplay=false&offerviewer=false&showtit
 const embedCodePlaylist = (iD) => { return panoptoEmbedCodePrefixForPlaylist+iD+panoptoEmbedSuffixForPlaylist }
 
 const programmingTogether20000ID = '5b13e440-2f35-437a-ba5e-acaf01643326'
+const programmingTogether24500ID = '52d70042-a880-4d3f-990d-acf701094e57'
 const programmingTogether44000ID = '02966c28-e8c1-4a94-b6b2-acbe003233bb'
 
 export const ProgrammingTogether = () => {
 	let classReference = cpsc()
 	switch(classReference) {
 		case '20000-spring-2021-002': return (<div><PanoptoIFrameComponent iframe={embedCodePlaylist(programmingTogether20000ID)} /></div>)
-		case '24500-spring-2021-001': return (null)
+		case '24500-spring-2021-001': return (<div><PanoptoIFrameComponent iframe={embedCodePlaylist(programmingTogether24500ID)} /></div>)
 		case '36000-spring-2021-001': return (null)
 		case '44000-spring-2021-001': return (<div><PanoptoIFrameComponent iframe={embedCodePlaylist(programmingTogether44000ID)} /></div>)
 		default: return (null)

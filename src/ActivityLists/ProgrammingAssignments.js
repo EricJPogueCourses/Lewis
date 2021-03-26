@@ -86,7 +86,7 @@ export const MosaicWithJava = {
 }
 
 export const MosaicWithReact = {
-	'name':'“Mosaic”',
+	'name':'“Mosaic with React”',
 	'link':'/activity/mosaic-react',
 	'estimate':'~8 hours'
 }
