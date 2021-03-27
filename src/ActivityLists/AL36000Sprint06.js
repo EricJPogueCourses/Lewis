@@ -9,15 +9,15 @@ export const al36000Sprint06 = () => {
 
 <div>
 <h4>Applied Programming Languages</h4>
-<h5>Sprint 6: React, React on Azure, Continuous Integration and Continuous Deployment (CI/CD)</h5>
+<h5>Sprint 6: Continuous Integration and Continuous Deployment (CI/CD), React, and React on Azure</h5>
 <p>Let’s develop some React web applications on Microsoft Azure.</p>
 
 <p>By the end of the sprint we will be able to:</p>
 <ul style={{listStyleType:'square'}}>
+	<li>Understand and implement CI/CD</li>
 	<li>Develope moderately complex React web applications</li>
 	<li>Call a web service from a React web application</li>
 	<li>Host React web applications using Azure</li>
-	<li>Understand and implement CI/CD</li>
 </ul>
 
 <p>Below is our activities list:</p>
@@ -27,14 +27,16 @@ export const al36000Sprint06 = () => {
 	<li>{start(programmingAssignment)}</li>
 	{/* The above items should be consistent across classes. */ }
 
-	<li>Focus on CI/CD by completing “Create your fist React app” several React and “no framework” tutorials from “Azure Static Web Apps”<a href='https://aka.ms/swadocs' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+	<li>Focus on CI/CD by completing “Create your fist React app” and the “no framework” tutorials from “Azure Static Web Apps”<a href='https://aka.ms/swadocs' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+	<li>Review React.org<a href='https://reactjs.org/' target='_blank' rel='noopener noreferrer'>[link]</a> focusing on 
+		the “Getting Started” section</li>
+	<li>Review the React tutorial from W3C<a href='https://www.w3schools.com/react/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li>Focus on CI/CD by completing the following tutorials from “Azure Static Web Apps”<a href='https://aka.ms/swadocs' target='_blank' rel='noopener noreferrer'>[link]</a>:
 	<ul style={{listStyleType:'square'}}>
 		<li>“Build and deploy a static web app” from the “Video” section )</li>
 		<li>”Create your first app (no framework)” from the “Getting started” section</li>
 		<li>“Create your fist React app” from the “Getting started” section</li>
 	</ul></li>
-
 	<li>Complete “React on Azure” programming together<NavLink to='/activity-config/react-on-azure'>[video]</NavLink></li>
 	<li>Read “Learning React, 2nd Edition” by Eve Porcello and Alex Banks chapters 1 and 2<a href='https://learning.oreilly.com/library/view/learning-react-2nd/9781492051718/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li><em>Make your initial Discussion post by the middle of the sprint</em></li>
