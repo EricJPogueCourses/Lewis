@@ -30,6 +30,7 @@ export const al36000Sprint06 = () => {
 	<li>Focus on CI/CD by completing “Create your fist React app” and the “no framework” tutorials from “Azure Static Web Apps”<a href='https://aka.ms/swadocs' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li>Review React.org<a href='https://reactjs.org/' target='_blank' rel='noopener noreferrer'>[link]</a> focusing on 
 		the “Getting Started” section</li>
+	<li>Read “Learning React, 2nd Edition” by Eve Porcello and Alex Banks chapters 1, 2, and 3<a href='https://learning.oreilly.com/library/view/learning-react-2nd/9781492051718/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li>Review the React tutorial from W3C<a href='https://www.w3schools.com/react/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li>Focus on CI/CD by completing the following tutorials from “Azure Static Web Apps”<a href='https://aka.ms/swadocs' target='_blank' rel='noopener noreferrer'>[link]</a>:
 	<ul style={{listStyleType:'square'}}>
@@ -38,7 +39,6 @@ export const al36000Sprint06 = () => {
 		<li>“Create your fist React app” from the “Getting started” section</li>
 	</ul></li>
 	<li>Complete “React on Azure” programming together<NavLink to='/activity-config/react-on-azure'>[video]</NavLink></li>
-	<li>Read “Learning React, 2nd Edition” by Eve Porcello and Alex Banks chapters 1 and 2<a href='https://learning.oreilly.com/library/view/learning-react-2nd/9781492051718/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li><em>Make your initial Discussion post by the middle of the sprint</em></li>
 	<li>Complete “React - The Complete Guide” by Maximilian Schwarzmüller chapters 1 and 2<a href='https://learning.oreilly.com/videos/react-the/9781789132229/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li>Review “Azure Website”<NavLink to='/activity/azure-website'>[link]</NavLink></li>
@@ -54,7 +54,6 @@ export const al36000Sprint06 = () => {
 periodically check for new programming together tutorials<NavLink to='/activity/programming-together'>[link]</NavLink>.</p>
 {extras()}
 </div>
-
 	)
 }
 
