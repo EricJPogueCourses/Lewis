@@ -13,7 +13,7 @@ export const al20000Sprint06 = () => {
 
 <p>Welcome to sprint 6. Sprint 6 is going to see you taking control and being more proactive exploring how to learn 
 more about a topic. The new topic this sprint is JavaScript. We will utilize JavaScript along with HTML and CSS to 
-create an <em>Web</em> version <span style={{color: "red"}}> &#10084;&#10084;&#10084;</span> Matchmaker <span style={{color: "red"}}>&#10084;&#10084;&#10084;</span>.</p>
+create a <em>Web</em> version of <span style={{color: "red"}}> &#10084;&#10084;&#10084;</span> Matchmaker <span style={{color: "red"}}>&#10084;&#10084;&#10084;</span>.</p>
 
 <p>Let's start with what we hope to learn in sprint 6:</p>
 <ul style={{ listStyleType:'square' }}>
@@ -41,9 +41,9 @@ create an <em>Web</em> version <span style={{color: "red"}}> &#10084;&#10084;&#1
 		<li>Programming together “HelloWorld” and “HelloWorldPlus with Pictures”</li>
 	</ul>
 
+	<li>Complete Programming Together with MatchmakerLite for the Web - Part 1</li>
 	<li>Update the content of your “Final Project Proposal”<NavLink to='/activity/final-project-proposal'>[link]</NavLink> 
 			and host the updated web page in Azure</li>
-	<li>Complete Programming Together with MatchmakerLite for the Web - Part 1</li>
 
 	<li><em>Make your initial Discussion post by the middle of the sprint</em></li>
 	<li>Review the JavaScript tutorial from W3C <a href='https://www.w3schools.com/js/'>[link]</a></li>

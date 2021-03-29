@@ -30,13 +30,13 @@ other hand, learning how to write multi-threaded Java applications will likely p
 	<li>{start(programmingAssignment)}</li>
 	{/* The above items should be consistent across classes. */}
 
-	<li>Review 'Performance and Multithreading'<NavLink to='/activity-oop/performance-and-multithreaded-programming'>[video]</NavLink></li>
-	<li>Review 'Website Creation With GitHub and Microsoft Azure'<NavLink to='/activity/azure-website'>[link]</NavLink></li>
-	<li>Complete 'Personal Information JSON Files'<NavLink to='/activity-oop/personal-info-json-to-azure'>[video]</NavLink></li>
+	<li>Review “Performance and Multithreading”<NavLink to='/activity-oop/performance-and-multithreaded-programming'>[video]</NavLink></li>
+	<li>Review “Website Creation With GitHub and Microsoft Azure”<NavLink to='/activity/azure-website'>[link]</NavLink></li>
+	<li>Complete “Personal Information JSON Files”<NavLink to='/activity-oop/personal-info-json-to-azure'>[video]</NavLink></li>
 	<li><em>Complete your initial Discussion Board post by the middle of the sprint</em></li>
 
 	<li>Read “Learning Java, 5th Edition” chapter 9<a href='https://learning.oreilly.com/library/view/learning-java-5th/9781492056263/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
-	<li>Complete 'SleepFast'<NavLink to='/activity-oop/java-sleep-fast'>[video]</NavLink></li>
+	<li>Complete “SleepFast”<NavLink to='/activity-oop/java-sleep-fast'>[video]</NavLink></li>
 	<li>Review Object-Oriented Programming Languages and Platforms<NavLink to='/activity-oop/languages-and-platforms'>[video]</NavLink></li>
 
 	{/* The items below should be consistent across classes. */}
