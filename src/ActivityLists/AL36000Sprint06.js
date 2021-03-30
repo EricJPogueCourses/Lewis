@@ -28,7 +28,7 @@ export const al36000Sprint06 = () => {
 	{/* The above items should be consistent across classes. */ }
 
 	<li>Read “What is CI/CD? Continuous integration and continuous delivery explained”<a href='https://www.infoworld.com/article/3271126/what-is-cicd-continuous-integration-and-continuous-delivery-explained.html' target='_blank' rel='noopener noreferrer'>[link]</a></li>
-	<li>Focus on CI/CD by completing “Create your fist React app” and the “no framework” tutorials from “Azure Static Web Apps”<a href='https://aka.ms/swadocs' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+	<li>Focus on CI/CD by briefly reviewing “Create your fist React app” from “Azure Static Web Apps”<a href='https://aka.ms/swadocs' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li>Review React.org<a href='https://reactjs.org/' target='_blank' rel='noopener noreferrer'>[link]</a> focusing on 
 		the “Getting Started” section</li>
 	<li>Read “Learning React, 2nd Edition” by Eve Porcello and Alex Banks chapters 1, 2, and 3<a href='https://learning.oreilly.com/library/view/learning-react-2nd/9781492051718/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
