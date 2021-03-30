@@ -27,6 +27,7 @@ export const al36000Sprint06 = () => {
 	<li>{start(programmingAssignment)}</li>
 	{/* The above items should be consistent across classes. */ }
 
+	<li>Read “What is CI/CD? Continuous integration and continuous delivery explained”<a href='https://www.infoworld.com/article/3271126/what-is-cicd-continuous-integration-and-continuous-delivery-explained.html' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li>Focus on CI/CD by completing “Create your fist React app” and the “no framework” tutorials from “Azure Static Web Apps”<a href='https://aka.ms/swadocs' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li>Review React.org<a href='https://reactjs.org/' target='_blank' rel='noopener noreferrer'>[link]</a> focusing on 
 		the “Getting Started” section</li>
@@ -34,7 +35,7 @@ export const al36000Sprint06 = () => {
 	<li>Review the React tutorial from W3C<a href='https://www.w3schools.com/react/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li>Focus on CI/CD by completing the following tutorials from “Azure Static Web Apps”<a href='https://aka.ms/swadocs' target='_blank' rel='noopener noreferrer'>[link]</a>:
 	<ul style={{listStyleType:'square'}}>
-		<li>“Build and deploy a static web app” from the “Video” section )</li>
+		<li>“Build and deploy a static web app” from the “Video” section</li>
 		<li>”Create your first app (no framework)” from the “Getting started” section</li>
 		<li>“Create your fist React app” from the “Getting started” section</li>
 	</ul></li>
@@ -42,9 +43,7 @@ export const al36000Sprint06 = () => {
 	<li><em>Make your initial Discussion post by the middle of the sprint</em></li>
 	<li>Complete “React - The Complete Guide” by Maximilian Schwarzmüller chapters 1 and 2<a href='https://learning.oreilly.com/videos/react-the/9781789132229/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li>Review “Azure Website”<NavLink to='/activity/azure-website'>[link]</NavLink></li>
-	<li>Read “Learn React to get that first job” <a href='https://www.infoworld.com/article/3607234/entry-level-software-developer-learn-react-to-get-that-first-job.html' target='_blank' rel='noopener noreferrer'>[link]</a>
-		and consider how you might utilize your Final Project to enhance your professional portfolio</li>
-
+ 
 	{/* The items below should be consistent across classes. */ }
 	<li>{reviewAndUpdate(FinalProjectProposal)}</li>
 	<li>{complete(programmingAssignment)}</li>
