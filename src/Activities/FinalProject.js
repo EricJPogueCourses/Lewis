@@ -1,6 +1,52 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
+export const FinalProject = () => {
+	return (
+	
+<div>
+<br />
+<h4>Final Project</h4>
+<h5>Summary: Based on our final project proposal, you are going to deliver something uniquely your own.</h5>
+<h5>Prerequisites:</h5>
+<ul style={{listStyleType:'square'}}>
+	<li>“Final Project Proposal”<NavLink to='/activity/final-project-proposal'>[link]</NavLink></li>
+</ul>
+
+<p>In this activity you will deliver a final project that is uniquely your own. What you create should include the 
+features defined in your final project proposal. As much as possible the features should be implemented in the priority 
+order that you identified in your proposal.</p>
+<p>It’s understandable that you may not be able to implement all of the features that you identified. However, you will
+need to make sure that your finished product implements sufficient features to be a complete and usable product.</p>
+
+<em>Requirement 1</em>
+<p>Create a product based on your “Final Project Proposal”<NavLink to='/activity/final-project-proposal'>[link]</NavLink> by:</p>
+<ol>
+	<li>Successfully deploying your usable application to an appropriate production environment</li>
+	<li>Making the source code available for review</li>
+	<li>Creating a simple yet visually pleasing user interface</li>
+	<li>Including and help system and user instructions that succinctly describes the application and how it works</li>
+</ol>
+
+<em>Requirement 2</em>
+<p>Implement at least four (4) meaningful features that are of <em>similar complexity</em> to 
+features we delivered in previous applications.</p>
+
+<em>Requirement 3</em>
+<p>Enhance your application so that it implements at least two (2) meaningful features that 
+are <em>greater in complexity</em> than features we delivered in previous applications.</p>
+
+<em>Requirement 4</em>
+<p>Update your “Final Project Proposal”<NavLink to='/activity/final-project-proposal'>[link]</NavLink> and README.md file so they reflect:</p>
+<ol>
+	<li>What was originally planned for your final project</li>
+	<li>What was delivered in your Final Project</li>
+	<li>What would be the next feature(s) you would add if you had more time</li>
+	<li>Contact information for yourself if someone wanted to contact you about continuing to enhance your Final Project application</li>
+</ol>
+</div> )
+}
+
 export const FinalProjectSprint0 = () => {
 	return (
 	

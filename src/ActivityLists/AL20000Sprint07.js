@@ -1,6 +1,9 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
+import { HealthRiskCalculatorForTheWeb, start, complete } from './ProgrammingAssignments'
+const programmingAssignment = HealthRiskCalculatorForTheWeb
+
 export const al20000Sprint07 = () => {
 	return (
 
@@ -24,28 +27,40 @@ Web development with HTML, CSS, and JavaScript. But never forget the legendary p
 <p>What will you do with all that power... and responsibility?</p>
 <p>Let's start with what we need to learn in sprint 7:</p>
 <ul style={{listStyleType:'square'}}>
-	<li>Understand Security</li>
+	<li>Understand Computer Security</li>
 	<li>Practice more sophisticated HTML, CSS, and JavaScript Website or Python Terminal development</li>
-	<li>Begin work on Final Project</li> 
+	<li>Finalize and commit to your Final Project</li> 
 </ul>
 
 <p>Below is our sprint 7 activities list. </p>
 <ol>
-	<li>Stay focused on dates by reviewing our course calendar<NavLink to='/calendar/7'>[link]</NavLink></li>	
-	<li><em>Review sprint 7 assignments including Lab 7, Quiz 7, Discussion 7, and Reflection 7</em></li>
-	<li>Determine if you will be focusing on HTML, CSS, and JavaScript Website or Python Terminal development in Sprints 7 and 8</li>
-	<li>Start working on “Health Insurance Risk Calculator” for the Web<NavLink to='/activity/health-risk-calculator-web'>[link]</NavLink>
-		or in Python<NavLink to='/activity/health-risk-calculator-python'>[link]</NavLink></li>	
+	<li>Stay focused on the due dates by reviewing our course calendar<NavLink to='/calendar/7'>[link]</NavLink></li>
+	<li><em>Review Lab 7, Quiz 7, Discussion 7, Reflection 7, and Lab Demo</em></li>
+	<li>{start(programmingAssignment)}</li>
+	{/* The above items should be consistent across classes. */ }
+
+	<li>... Or maybe you would prefer working in Python and create “Health Insurance Risk Calculator with Python”<NavLink to='/activity/health-risk-calculator-python'>[link]</NavLink></li>
+	<li>Determine if you will be focusing on Web development or Python development in Sprints 7 and 8</li>
 	<li>Read Dale chapter 17 Security”<a href='https://learning.oreilly.com/library/view/computer-science-illuminated/9781284055917/' target='_blank' rel='noopener noreferrer'>[link]</a>
 		and review our chapter 17 lecture <NavLink to='/activity-dale/17'>[video]</NavLink></li>
 	<li><em>Make your initial Discussion post by the middle of the sprint</em></li>
-	<li>Sign up for a Final Project presentation date &amp; time</li>
-	<li>Complete “Health Insurance Risk Calculator”<NavLink to='/activity/health-risk-calculator-python'>[link]</NavLink><sup> ~12 hours</sup></li>
+	<li>Review, update, and finalize your Azure hosted “Final Project Proposal”<NavLink to='/activity/final-project-proposal'>[link]</NavLink></li>
+	<li>Review your Final Project presentation date &amp; time</li>
 	<li><em>Submit all assignments including your Lab, Quiz, Discussion, and Reflection</em></li>
-</ol>
 
-<p>Let’s finish strong. How can I help?</p>
+	{/* The items below should be consistent across classes. */ }
+	<li>{complete(programmingAssignment)}</li>
+	<li>... Or complete “Health Insurance Risk Calculator with Python”<NavLink to='/activity/health-risk-calculator-python'>[link]</NavLink></li>
+	<li><em>Complete Discussion 7, Lab 7, Quiz 7, and Reflection 7</em></li>
+</ol>
+<p>If you are struggling, remember to reach out to your Scrum teammates early and often for help. Also, be sure to 
+periodically check for new programming together tutorials<NavLink to='/activity/programming-together'>[link]</NavLink>.</p>
+{extras()}
 </div>
 
 	)
+}
+
+const extras = () => {
+	return (null)
 }

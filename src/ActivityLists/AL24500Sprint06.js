@@ -8,7 +8,7 @@ export const al24500Sprint06 = ( props ) => {
 	return (
 
 <div>
-	<h4>Object-Oriented Programming</h4>
+<h4>Object-Oriented Programming</h4>
 <h5>Sprint 6: Multithreaded Programming and Application Programming Interfaces</h5>
 
 <p>Sprint 6! This sprint offers a mix of the old and the new. Some things like hosting JSON files on our Azure
@@ -50,6 +50,9 @@ periodically check for new programming together tutorials<NavLink to='/activity/
 </div>
 	)
 }
+
+// Todo: Fix quiz question, “If it cost $200 to fix a defect that was found in Unit Testing, how much would it likely cost to fix that same defect if it was found in Validation testing?”
+// Todo: Review and/or fix all the texting questions. Particularly the money question. 
 
 const extras = () => {
 	return (<div>	

@@ -43,7 +43,7 @@ export const MatchmakerWithGo = {
 	'estimate':'~6 hours'
 }
 
-export const HealthRiskCalculator = {
+export const HealthRiskCalculatorForTheWeb = {
 	'name':'“Health Insurance Risk Calculator for the Web”',
 	'link':'/activity/health-risk-calculator-web',
 	'estimate':'~6 hours'
@@ -113,6 +113,12 @@ export const FinalProjectProposal = {
 	'name':'“Final Project Proposal”',
 	'link':'/activity/final-project-proposal',
 	'estimate':'~2 hours'
+}
+
+export const FinalProject = {
+	'name':'“Final Project”',
+	'link':'/activity/final-project',
+	'estimate':'~12 hours per team member'
 }
 
 export const FinalProjectSprint0 = {

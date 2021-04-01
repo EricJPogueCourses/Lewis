@@ -65,6 +65,9 @@ export const al44000Sprint05 = () => {
 	)
 }
 
+// Todo: Fix or remove quiz question “Which of the following are advantages of software inspections over testing?”
+// Todo: Fix quiz question “These are tests to show whether the software operates as the customer intended”... should be validate.
+// Todo: Fix quiz question “Why do maintenance costs increase as software as maintained”... order of questions.
 // Todo: Add multiple-choice question on refactoring vs re-engineering.
 // Todo: Add multiple-choice question on “Describe the similarities and differences normally observed when maintaining a
 //     software product using a Waterfall vs an Agile process.”

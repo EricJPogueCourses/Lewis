@@ -1,8 +1,8 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
-import { HealthRiskCalculator, start, complete } from './ProgrammingAssignments'
-const programmingAssignment = HealthRiskCalculator
+import { HealthRiskCalculatorForTheWeb, start, complete } from './ProgrammingAssignments'
+const programmingAssignment = HealthRiskCalculatorForTheWeb
 
 export const al44000Sprint04 = () => {
 	return (
