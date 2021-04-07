@@ -28,7 +28,7 @@ Web development with HTML, CSS, and JavaScript. But never forget the legendary p
 <p>Let's start with what we need to learn in sprint 7:</p>
 <ul style={{listStyleType:'square'}}>
 	<li>Understand Computer Security</li>
-	<li>Practice more sophisticated HTML, CSS, and JavaScript Website or Python Terminal development</li>
+	<li>Deliver more sophisticated HTML, CSS, and JavaScript Website or Python Terminal development</li>
 	<li>Finalize and commit to your Final Project</li> 
 </ul>
 
@@ -46,12 +46,11 @@ Web development with HTML, CSS, and JavaScript. But never forget the legendary p
 	<li><em>Make your initial Discussion post by the middle of the sprint</em></li>
 	<li>Review, update, and finalize your Azure hosted “Final Project Proposal”<NavLink to='/activity/final-project-proposal'>[link]</NavLink></li>
 	<li>Review your Final Project presentation date &amp; time</li>
-	<li><em>Submit all assignments including your Lab, Quiz, Discussion, and Reflection</em></li>
 
 	{/* The items below should be consistent across classes. */ }
 	<li>{complete(programmingAssignment)}</li>
 	<li>... Or complete “Health Insurance Risk Calculator with Python”<NavLink to='/activity/health-risk-calculator-python'>[link]</NavLink></li>
-	<li><em>Complete Discussion 7, Lab 7, Quiz 7, and Reflection 7</em></li>
+	<li><em>Complete Discussion 7, Lab 7, Quiz 7, Reflection 7, and Lab Demo</em></li>
 </ol>
 <p>If you are struggling, remember to reach out to your Scrum teammates early and often for help. Also, be sure to 
 periodically check for new programming together tutorials<NavLink to='/activity/programming-together'>[link]</NavLink>.</p>

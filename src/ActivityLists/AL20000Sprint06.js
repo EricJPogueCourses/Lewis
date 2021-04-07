@@ -23,7 +23,7 @@ create a <em>Web</em> version of <span style={{color: "red"}}> &#10084;&#10084;&
 	<li>Update our Final Project proposals and host them on the Web</li>
 </ul>
 
-<p>Below is our sprint 6 activities list. </p>
+<p>Below is our sprint 6 activities list.</p>
 <ol>
 	<li>Stay focused on the due dates by reviewing our course calendar<NavLink to='/calendar/6'>[link]</NavLink></li>
 	<li><em>Review Lab 6, Quiz 6, Discussion 6, Reflection 6, and Lab Demo</em></li>
