@@ -57,5 +57,10 @@ periodically check for new programming together tutorials<NavLink to='/activity/
 }
 
 const extras = () => {
-	return (null)
+	return (<div>	
+		<p>Additional suggested activities:</p>
+		<ul style={{listStyleType:'square'}}>
+			<li>Complete “Intro to React - Tic-Tac-Toe”<a href='https://reactjs.org/tutorial/tutorial.html' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+		</ul>
+	</div>)
 }
