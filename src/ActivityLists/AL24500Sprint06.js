@@ -53,6 +53,7 @@ periodically check for new programming together tutorials<NavLink to='/activity/
 
 // Todo: Fix quiz question, “If it cost $200 to fix a defect that was found in Unit Testing, how much would it likely cost to fix that same defect if it was found in Validation testing?”
 // Todo: Review and/or fix all the texting questions. Particularly the money question. 
+// Todo: Add review and update Final Project Proposal
 
 const extras = () => {
 	return (<div>	
