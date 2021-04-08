@@ -103,6 +103,12 @@ export const SwissArmyKnifeWithJavaV2 = {
 	'estimate':'~8 hours'
 }
 
+export const ThunderbirdWithJava = {
+	'name':'“Thunderbird”',
+	'link':'/activity/thunderbird-java',
+	'estimate':'~6 hours'
+}
+
 export const TurtleDraw = {
 	'name':'“TurtleDraw”',
 	'link':'/activity/turtle-draw',

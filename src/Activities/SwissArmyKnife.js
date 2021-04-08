@@ -2,25 +2,25 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
-export const SwissArmyKnifeJava  = () => { return SwissArmyKnife(SwissArmyKnifeJavaJavaProperties) }
-export const SwissArmyKnifeJavaV2  = () => { return SwissArmyKnifeV2(SwissArmyKnifeJavaJavaV2Properties) }
+export const SwissArmyKnifeJava  = () => { return SwissArmyKnife(SwissArmyKnifeJavaProperties) }
+export const SwissArmyKnifeJavaV2  = () => { return SwissArmyKnifeV2(SwissArmyKnifeJavaV2Properties) }
 
-const SwissArmyKnifeJavaJavaProperties = {
+const SwissArmyKnifeJavaProperties = {
 	'name': 'SwissArmyKnife', 
 	'language': 'Java command-line (CLI)',
 	'prerequisites': 'Java, VS Code, and Terminal',
 	'type': 'command-line application written in the Java language',
 	'requirement1_1': 'Is implemented in multiple Java (.java) files with the main file named “sak.java”',
-	'requirement1_2': 'Successfully compiles from the command line using “javac *.java” and executes by typing “java sak'
+	'requirement1_2': 'Successfully compiles from the command line using “javac *.java” and executes by typing “java sak”'
 }
 
-const SwissArmyKnifeJavaJavaV2Properties = {
+const SwissArmyKnifeJavaV2Properties = {
 	'name': 'SwissArmyKnife version 2', 
 	'language': 'Java command-line (CLI)',
 	'prerequisites': 'Java, VS Code, and Terminal',
 	'type': 'command-line application written in the Java language',
 	'requirement1_1': 'Is implemented in multiple Java (.java) files with the main file named “sak.java”',
-	'requirement1_2': 'Successfully compiles from the command line using “javac *.java” and executes by typing “java sak'
+	'requirement1_2': 'Successfully compiles from the command line using “javac *.java” and executes by typing “java sak”'
 }
 
 const SwissArmyKnife = (appProps) => {
@@ -155,15 +155,9 @@ from immobility.</p>
 </ol>
 
 <em>Requirement 7</em>
-<p>Enhance your application by implementing a HTTPValidateIndex feature that:</p>
+<p>Implement a HTTPValidateIndex feature that validates each personal information JSON files to make sure that:</p>
 <ol>
-	<li>Executes HTTPRequestIndex and parses the index JSON for each of the additional URLs</li>
-	<li>Makes an additional HTTPs request for the personal information JSON referenced in the URLs</li>
-</ol>
-
-<em>Requirement 7</em>
-<p>Enhance HTTPValidateIndex feature so that it validates each personal information JSON files to make sure that:</p>
-<ol>
+	<li>Each personal information file referenced in the index file<a href='https://thunderbird-index.azurewebsites.net/w0a6zk195d.json' target='_blank' rel='noopener noreferrer'>[link]</a> exists</li>
 	<li>The "firstName" and "lastName" fields exist and have a length of 2 to 16 characters (inclusive)</li>
 	<li>If the optional "preferredName" field exists, it meets the same length requirements as "firstName" and "lastName"</li>
 	<li>Prints each personal information JSON file followed by a “passed” or “failed - [[error message]]” validation statement</li>
