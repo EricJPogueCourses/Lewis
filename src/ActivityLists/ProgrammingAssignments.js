@@ -91,6 +91,12 @@ export const MosaicWithReact = {
 	'estimate':'~8 hours'
 }
 
+export const MosaicV2WithReact = {
+	'name':'“Mosaic with React version 2”',
+	'link':'/activity/mosaic-v2-react',
+	'estimate':'~6 hours'
+}
+
 export const SwissArmyKnifeWithJava = {
 	'name':'“SwissArmyKnife”',
 	'link':'/activity/swiss-army-knife-java',
