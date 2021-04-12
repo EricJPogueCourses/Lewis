@@ -10,11 +10,11 @@ export const al36000Sprint07 = () => {
 <div>
 <h4>Applied Programming Languages</h4>
 <h5>Sprint 7: Application Architecture, Data Management, Application State, Security, React, and Azure</h5>
-<p>Welcome to sprint 7. This sprint we are going to focus on understanding data management and managing data fit’s into 
-application architecture. The journey starts with understanding how to effectively manage application state across 
-application features and managing data across user sessions. As we explore managing managing data across user sessions, 
-we immediately find ourselves in need of a better understanding of application security and the best ways to 
-authenticate and authorize users</p>
+<p>Welcome to sprint 7. This sprint we are going to focus on understanding data management and how managing data fit’s 
+into application architecture. The journey starts with understanding how to effectively manage application state across 
+application features and the with managing data across user sessions. As we explore managing managing data across user 
+sessions, we quickly find ourselves in need of effective application security including the best ways to authenticate 
+and authorize users</p>
 <p>Let’s focus on working as a team and developing some more React web applications on Microsoft Azure.</p>
 
 <p>By the end of the sprint we will be able to:</p>
@@ -50,7 +50,6 @@ authenticate and authorize users</p>
 	<li>Complete “Access Azure Storage from a web app” Tutorial<a href='https://docs.microsoft.com/en-us/azure/app-service/scenario-secure-app-access-storage?tabs=azure-portal%2Ccommand-line' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li>{complete(programmingAssignment)}</li>
 
-	<li>{start(FinalProjectSprint0)}</li>
 	<li>{complete(FinalProjectSprint0)}</li>
 
 	{/* The items below should be consistent across classes. */}

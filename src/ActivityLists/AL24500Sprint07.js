@@ -40,7 +40,6 @@ middle of the sprint so that you can be 100% focused on your final project durin
 
 	<li><em>Make your initial Discussion post by the middle of the sprint</em></li>
 	<li>{reviewAndUpdate(FinalProjectProposal)}</li>
-	<li>{start(FinalProjectSprint0)}</li>
 	<li>{complete(FinalProjectSprint0)}</li>
 
 	{/* The items below should be consistent across classes. */ }

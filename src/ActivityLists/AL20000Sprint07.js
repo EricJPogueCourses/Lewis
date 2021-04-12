@@ -41,7 +41,7 @@ Web development with HTML, CSS, and JavaScript. But never forget the legendary p
 
 	<li>... Or maybe you would prefer working in Python and create “Health Insurance Risk Calculator with Python”<NavLink to='/activity/health-risk-calculator-python'>[link]</NavLink></li>
 	<li>Determine if you will be focusing on Web development or Python development in Sprints 7 and 8</li>
-	<li>Read Dale chapter 17 Security”<a href='https://learning.oreilly.com/library/view/computer-science-illuminated/9781284055917/' target='_blank' rel='noopener noreferrer'>[link]</a>
+	<li>Read Dale chapter 17 Security<a href='https://learning.oreilly.com/library/view/computer-science-illuminated/9781284055917/' target='_blank' rel='noopener noreferrer'>[link]</a>
 		and review our chapter 17 lecture <NavLink to='/activity-dale/17'>[video]</NavLink></li>
 	<li><em>Make your initial Discussion post by the middle of the sprint</em></li>
 	<li>Review, update, and finalize your Azure hosted “Final Project Proposal”<NavLink to='/activity/final-project-proposal'>[link]</NavLink></li>
