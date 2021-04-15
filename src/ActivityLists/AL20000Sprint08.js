@@ -33,7 +33,7 @@ yourself.</p>
 	{/* The items below should be consistent across classes. */ }
 	<li>{complete(programmingAssignment)}</li>
 	<li><em>Complete Discussion 8, Lab 8, Quiz 8, Reflection 8, and Final Project Presentation</em></li>
-	<li><em style={{color:'red'}}> Submit all assignments at least two hours prior to your scheduled presentation time</em></li>
+	<li><em style={{color:'red'}}> Submit all assignments at least two hours prior to your <u>scheduled presentation time</u></em></li>
 
 </ol>
 

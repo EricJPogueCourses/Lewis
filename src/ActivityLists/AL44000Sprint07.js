@@ -44,9 +44,9 @@ export const al44000Sprint07 = () => {
 		</ul>
 		<li>Individually complete Programming Together with “React on Azure”<NavLink to='/activity-config/react-on-azure'>[video]</NavLink></li>
 		<li><em>Compete your initial Discussion post by the middle of the sprint</em></li>
+		<li>Complete “Application Architectures, Object-Oriented Programming, and Databases - Part 1”<NavLink to='/activity-architecture/application-architecture-part1'>[video]</NavLink></li>
 
 		<li>Complete sprint 3 planning with your final project team</li>
-		<li>Complete “Application Architectures, Object-Oriented Programming, and Databases - Part 1”<NavLink to='/activity-architecture/application-architecture-part1'>[video]</NavLink></li>
 
 		{/* The items below should be consistent across classes. */ }
 		<li>{complete(programmingAssignment)}</li>
