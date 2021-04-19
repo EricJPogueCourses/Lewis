@@ -131,3 +131,33 @@ approximately 10 hours per person to allocate to delivering something special. H
 something special?</p>
 </div> )
 }
+
+export const FinalProjectSprint3 = () => {
+	return (
+	
+<div>
+<br />
+<h4>Final Project Sprint 3</h4>
+<h5>Summary: Sprint 2. This is it. Let’s build something special.</h5>
+<h5>Prerequisites:</h5>
+<ul style={{listStyleType:'square'}}>
+	<li>“Final Project Proposal”<NavLink to='/activity/final-project-proposal'>[link]</NavLink></li>
+	<li>“Final Project Sprint 1”<NavLink to='/activity/final-project-sprint-1'>[link]</NavLink></li>
+	<li>“Final Project Sprint 2”<NavLink to='/activity/final-project-sprint-2'>[link]</NavLink></li>
+</ul>
+
+<p>We should be working with a solid cadence. Now it’s time to focus all of our energy on building something special.</p>
+
+<p>Our cadence should include:</p>
+<ul style={{listStyleType:'square'}}>
+	<li>Demo, release, and reflect on what was delivered in the previous sprint</li>
+	<li>Deliver committed stories in current sprint</li>
+	<li>In the spirit of Agile we will not be planning for the next sprint</li>
+</ul>
+
+<p>Once again, high performing scrum teams are able to consistently allocate 80% or more of their effort to Delivery of 
+current sprint stories while still effectively completing demo, release, reflect, and planning activities. We don’t need 
+to plan for the next sprint because this is it. You should plan on each team member allocating approximately 12 this 
+sprint.</p>
+</div> )
+}
