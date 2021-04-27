@@ -31,11 +31,11 @@ this week's Activities List. As such, our list includes:</p>
 
 	<li>{start(programmingAssignment)}</li>
 
-	<li>Read Fox Chapter 12 on Performance, Releases, Reliability, and Security</li>
+	<li>Complete “Application Architectures, Object-Oriented Programming, and Databases - Part 2”<NavLink to='/activity-architecture/application-architecture-part2'>[video]</NavLink></li>
 	<li>Complete your team’s sprint 2 Review and Retrospective</li>
 	<li>Focus your energy on delivering and testing your team’s sprint 3 backlog stories</li>
 
-	<li>Complete “Application Architectures, Object-Oriented Programming, and Databases - Part 2”<NavLink to='/activity-architecture/application-architecture-part2'>[video]</NavLink></li>
+	<li>Read Fox Chapter 12 on Performance, Releases, Reliability, and Security</li>
 	<li>{complete(programmingAssignment)}</li>
 	<li>Complete your Final Project presentation</li>
 	<li><em>Complete Discussion 8, Lab 8, Quiz 8, Reflection 8, and Final Project Presentation</em></li>
