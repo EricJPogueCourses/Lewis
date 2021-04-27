@@ -61,6 +61,7 @@ export const al24500Sprint03 = ( props ) => {
 // Todo: Review both quiz 3 questions about verification vs validation testing costs. Validation is testing if it meets 
 //     the customer’s needs and occurs after at least pilot release.
 
+
 const extras = () => {
 	return (null)
 }

@@ -56,3 +56,8 @@ periodically check for new programming together tutorials<NavLink to='/activity/
 const extras = () => {
 	return (null)
 }
+
+// Todo: Add Final Project proposals to assignments. 
+// Todo: Fix quiz 7 question 'Identify the Python statement that computes the average of the values stored in exam1, 
+//     exam2 and exam3" so it does not include 'All of the above.'
+// Todo: Remove duplicate quiz 7 question, 'Confidentiality is.'

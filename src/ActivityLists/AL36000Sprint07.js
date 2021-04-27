@@ -40,7 +40,7 @@ and authorize users</p>
 		from Wikipedia</li>
 	<li>Read “Authentication and authorization in Azure App Service and Azure Functions”<a href='https://docs.microsoft.com/en-us/azure/app-service/overview-authentication-authorization' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li>Complete “Restrict access” from “Azure Static Web Apps”<a href='https://aka.ms/swadocs' target='_blank' rel='noopener noreferrer'>[link]</a>
-		while focussing on Authentication and authorization</li>
+		while focusing on Authentication and Authorization</li>
 
 	<li><em>Make your initial Discussion post by the middle of the sprint</em></li>
 	<li>Read “Learning React, 2nd Edition” chapters 4, 5, and 6<a href='https://learning.oreilly.com/library/view/learning-react-2nd/9781492051718/' target='_blank' rel='noopener noreferrer'>[link]</a></li>

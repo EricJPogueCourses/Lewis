@@ -65,6 +65,7 @@ export const al44000Sprint05 = () => {
 	)
 }
 
+// Todo: Add sprint planning participation points to lab.
 // Todo: Fix or remove quiz question “Which of the following are advantages of software inspections over testing?”
 // Todo: Fix quiz question “These are tests to show whether the software operates as the customer intended”... should be validate.
 // Todo: Fix quiz question “Why do maintenance costs increase as software as maintained”... order of questions.

@@ -31,9 +31,9 @@ this week's Activities List. As such, our list includes:</p>
 
 	<li>{start(programmingAssignment)}</li>
 
-	<li>Read Fox Chapter 12 on on Performance, Releases, Reliability, and Security</li>
+	<li>Read Fox Chapter 12 on Performance, Releases, Reliability, and Security</li>
 	<li>Complete your team’s sprint 2 Review and Retrospective</li>
-	<li>Focus your energy on delivering and testing your sprint 3 backlog stories</li>
+	<li>Focus your energy on delivering and testing your team’s sprint 3 backlog stories</li>
 
 	<li>Complete “Application Architectures, Object-Oriented Programming, and Databases - Part 2”<NavLink to='/activity-architecture/application-architecture-part2'>[video]</NavLink></li>
 	<li>{complete(programmingAssignment)}</li>
@@ -47,3 +47,5 @@ this week's Activities List. As such, our list includes:</p>
 
 	)
 }
+
+// Todo: Consider having only one discussion topic in sprint 8. 
