@@ -6,7 +6,13 @@ export class Home extends React.Component {
 
 <div>
 <h4>Lewis.education</h4>
-<h5>Welcome to Sprint 2021 at Lewis.education!</h5>
+<h5>Welcome to Fall 2021 at Lewis.education!</h5>
+<h5>Introduction to Computer Science:</h5>
+<h6>MWF 10am CT<a href= 'https://www.lewis.education/?cpsc=20000-fall-2021-002#/sprint-1'>[link]</a></h6>
+
+<br />
+<h5>**********</h5>
+<h5>Welcome to Spring 2021 at Lewis.education:</h5>
 <br />
 <h5>Introduction to Computer Science:</h5>
 <h6>MWF 1pm CT<a href= 'https://www.lewis.education/?cpsc=20000-spring-2021-002#/sprint-1'>[link]</a></h6>

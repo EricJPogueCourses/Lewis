@@ -18,6 +18,14 @@ export const UniversityResources = () => {
 </ul>
 
 <br />
+<p>Catalogs, Schedules, and Calendars:</p>
+<ul>
+	<li>Course Catalogs<a href='https://lewisu.edu/academics/programs/catalog.htm'>[link]</a></li>
+	<li>Course Schedules<a href='https://lewisu.edu/academics/programs/schedule.htm'>[link]</a></li>
+	<li>Academic Calendars<a href='https://www.lewisu.edu/academics/academiccalendar.htm'>[link]</a></li>
+</ul>
+
+<br />
 <p>Below are several Additional References that you may also find useful:</p>
 <ul>
 	<li>Technology Requirements for Web Enhanced Courses<a href='https://docs.google.com/document/d/1F1t882ne3d2Y64wJxTQX1GuUV7HvVafzB7Uj8mMSARU/edit'>[link]</a></li>

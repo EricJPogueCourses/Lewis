@@ -40,3 +40,5 @@ this week's Activities List. As such, our list includes:</p>
 </div>
 	)
 }
+
+// Todo: Lab question 2 needs to be updated for Java project. 

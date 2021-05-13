@@ -75,3 +75,6 @@ you do these two things, I believe your success is virtually guaranteed.</p>
 
 	)
 }
+
+// Todo: Where should mediaatoz/software-engineering/* videos go? Are they already included?
+// Todo: Change estimated to actual capacity metric to actual over estimated so that it comes out to less than one generally. 

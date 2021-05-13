@@ -64,3 +64,5 @@ export const al44000Sprint07 = () => {
 const extras = () => {
 	return (null)
 }
+
+// Todo: Remove duplicate question “Which of the following is FALSE relating to Azure Functions”.

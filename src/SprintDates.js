@@ -3,6 +3,9 @@ import * as URLParameters from './URLParameters'
 export const sprintCalendarFromURL = () => {
 	let cpsc = URLParameters.cpsc()
 	switch(cpsc) {
+		// Fall 2021 classes.
+		case '20000-fall-2021-002': return sprintCalendar('2021-08-30-16')
+
 		// Spring 2021 classes.
 		case '20000-spring-2021-002': return sprintCalendar('2021-01-18-16')
 		case '24500-spring-2021-001': return sprintCalendar('2021-01-18-16')
@@ -67,6 +70,17 @@ export const sprintCalendar = (startDateAndDuration) => {
 		{ 'start':'Mon Apr 26 2021 08:00:00 GMT-0600', 'end':'Thu May 06 2021 23:59:00 GMT-0600', 'notes':'Final Exams' }
 	]; 
 
+	const sprintCalendarFall_2021_08_30_16 = [																											 
+		{ 'start':'Mon Aug 30 2021 08:00:00 GMT-0600', 'end':'Sun Sep 12 2021 23:59:00 GMT-0600', 'notes':'Labor Day' },
+		{ 'start':'Mon Sep 13 2021 08:00:00 GMT-0600', 'end':'Sun Sep 26 2021 23:59:00 GMT-0600', 'notes':'' },
+		{ 'start':'Mon Sep 27 2021 08:00:00 GMT-0600', 'end':'Sun Oct 10 2021 23:59:00 GMT-0600', 'notes':'Fall Break' },
+		{ 'start':'Mon Oct 11 2021 08:00:00 GMT-0600', 'end':'Sun Oct 24 2021 23:59:00 GMT-0600', 'notes':'' },
+		{ 'start':'Mon Oct 25 2021 08:00:00 GMT-0600', 'end':'Sun Nov 07 2021 23:59:00 GMT-0600', 'notes':'' },
+		{ 'start':'Mon Nov 08 2021 08:00:00 GMT-0600', 'end':'Sun Nov 21 2021 23:59:00 GMT-0600', 'notes':'' },
+		{ 'start':'Mon Nov 22 2021 08:00:00 GMT-0600', 'end':'Sun Dec 05 2021 23:59:00 GMT-0600', 'notes':'Thanksgiving Break' },
+		{ 'start':'Mon Dec 06 2021 08:00:00 GMT-0600', 'end':'Thu Dec 16 2021 23:59:00 GMT-0600', 'notes':'Final Exams' }
+	]; 
+
 	// Expecting a date and duration string representation of YYYY-MM-DD-RR where RR is the two 
 	// digit duration in weeks (e.g. '2020-08-31-16')
 	if (startDateAndDuration === '2021-01-18-16') {
@@ -75,6 +89,8 @@ export const sprintCalendar = (startDateAndDuration) => {
 		return sprintCalendarFall_2020_08_31_16
 	} else if (startDateAndDuration === '2020-01-13-16') {
 		return sprintCalendar_2020_01_13_16	
+	} else if (startDateAndDuration === '2021-08-30-16') {
+		return sprintCalendarFall_2021_08_30_16	
 	}
 
 	console.log('Fatal Error: sprintCalendar() called with invalid start date and duration')

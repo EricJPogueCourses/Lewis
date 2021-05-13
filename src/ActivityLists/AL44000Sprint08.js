@@ -49,3 +49,4 @@ this week's Activities List. As such, our list includes:</p>
 }
 
 // Todo: Consider having only one discussion topic in sprint 8. 
+// Todo: Lab question 2 review and update for non-Python. 

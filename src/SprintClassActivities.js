@@ -40,7 +40,6 @@ export class SprintClassActivities extends Component {
 	}
 
 	renderSprintScheduleHeader = (sprintIn,calendarIn) => {
-		//let dates = calendarIn[sprintIn-1]
 		return( 
 		<div>
 			<h4>{URLParameters.courseTitle()}</h4>
@@ -86,7 +85,7 @@ export class SprintClassActivities extends Component {
 					<thead><tr><th>Day</th><th>Activity</th></tr></thead>
 					<tbody>
 						{this.renderActivityRow(SprintDates.incrementDate(dates.start,1),'Demos, Retrospective, and Sprint Planning')}
-						{this.renderActivityRow(SprintDates.incrementDate(dates.start,3),'Chapter Discussion, Discussion Board, and Lab')}
+						{this.renderActivityRow(SprintDates.incrementDate(dates.start,3),'Topic Discussion, Discussion Board, and Lab')}
 						{this.renderActivityRow(SprintDates.incrementDate(dates.start,8),'Lab & Quiz')}
 						{this.renderActivityRow(SprintDates.incrementDate(dates.start,10),'Lab')}
 					</tbody>
@@ -104,7 +103,7 @@ export class SprintClassActivities extends Component {
 					<thead><tr><th>Day</th><th>Activity</th></tr></thead>
 					<tbody>
 						{this.renderActivityRow(SprintDates.incrementDate(dates.start,1),'Demos, Retrospective, and Sprint Planning')}
-						{this.renderActivityRow(SprintDates.incrementDate(dates.start,3),'Chapter Discussion, Quiz, and Lab')}
+						{this.renderActivityRow(SprintDates.incrementDate(dates.start,3),'Topic Discussion, Quiz, and Lab')}
 						{this.renderActivityRow(SprintDates.incrementDate(dates.start,7),'Finals Exams Begin (no regular classes)')}
 					</tbody>
 				</Table>
@@ -120,10 +119,10 @@ export class SprintClassActivities extends Component {
 				<Table striped bordered hover>
 					<thead><tr><th>Day</th><th>Activity</th></tr></thead>
 					<tbody>
-						{this.renderActivityRow(SprintDates.incrementDate(dates.start,0),'No class')}
-						{this.renderActivityRow(SprintDates.incrementDate(dates.start,2),'Introductions & Sprint Planning')}
+						{this.renderActivityRow(SprintDates.incrementDate(dates.start,0),'Sprint Planning')}
+						{this.renderActivityRow(SprintDates.incrementDate(dates.start,2),'Introductions & Team Assignments')}
 						{this.renderActivityRow(SprintDates.incrementDate(dates.start,4),'Discussion Board & Lab')}
-						{this.renderActivityRow(SprintDates.incrementDate(dates.start,7),'Chapter Discussion')}
+						{this.renderActivityRow(SprintDates.incrementDate(dates.start,7),'Topic Discussion')}
 						{this.renderActivityRow(SprintDates.incrementDate(dates.start,9),'Quiz')}
 						{this.renderActivityRow(SprintDates.incrementDate(dates.start,11),'Lab')}
 					</tbody>
@@ -141,9 +140,9 @@ export class SprintClassActivities extends Component {
 					<thead><tr><th>Day</th><th>Activity</th></tr></thead>
 					<tbody>
 						{this.renderActivityRow(SprintDates.incrementDate(dates.start,0),'Sprint Planning')}
-						{this.renderActivityRow(SprintDates.incrementDate(dates.start,2),'Demos & Retrospective')}
+						{this.renderActivityRow(SprintDates.incrementDate(dates.start,2),'Demos & Retrospectives')}
 						{this.renderActivityRow(SprintDates.incrementDate(dates.start,4),'Discussion Board & Lab')}
-						{this.renderActivityRow(SprintDates.incrementDate(dates.start,7),'Chapter Discussion')}
+						{this.renderActivityRow(SprintDates.incrementDate(dates.start,7),'Topic Discussion')}
 						{this.renderActivityRow(SprintDates.incrementDate(dates.start,9),'Quiz')}
 						{this.renderActivityRow(SprintDates.incrementDate(dates.start,11),'Lab')}
 					</tbody>
