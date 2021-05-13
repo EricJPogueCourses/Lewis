@@ -11,6 +11,7 @@ import * as URLParameters from './URLParameters'
 
 export const Sprint01 = () => {
 	let courseNumber = URLParameters.courseNumber()
+	console.log(courseNumber)
 	switch(courseNumber) {
 		case 20000: return (al20000Sprint01(URLParameters.classSyllabusURL()))
 		case 24700: return (al24700Sprint01(URLParameters.classSyllabusURL()))

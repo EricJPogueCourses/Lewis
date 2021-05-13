@@ -14,8 +14,10 @@ export class Test extends React.Component {
 <br />
 <h4>Fall 2021 Class Links:</h4>
 <h5>Introduction to Computer Science</h5>
-<h6>20000-spring-2021-002:</h6>
 {localAndGlobalLink('?cpsc=20000-fall-2021-002#/sprint-1')}
+
+<h5>Introduction to Computer Science</h5>
+{localAndGlobalLink('?cpsc=20000-fall-2021-003#/sprint-1')}
 
 <br />
 <h4>Spring 2021 Class Links:</h4>
@@ -36,6 +38,7 @@ export class Test extends React.Component {
 {localAndGlobalLink('?cpsc=44000-spring-2021-001#/sprint-1')}
 <br /><br /><br />
 </div>
+
 		)
 	}
 }

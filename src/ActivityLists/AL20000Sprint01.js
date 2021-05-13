@@ -12,8 +12,9 @@ export const al20000Sprint01 = (syllabusURL) => {
 <h5>Sprint 1: Getting Started, The Big Picture, Files Systems, and Tools of the Trade</h5>
 
 <p>Welcome to Introduction to Computer Science! In this course we will be exploring the field of computer 
-science. The course will include an overview of computer architecture, networking, data organization, and security. 
-Together we will also explore algorithms, abstractions, computational problem solving, and programming. </p>
+science. The course will include an overview of computer architecture, software engineering, networking, 
+data organization, and security. Together we will also explore algorithms, abstractions, computational 
+problem solving, and programming.</p>
 
 <p>Let's start with our sprint 1 Learning Objectives. By the end of sprint 1 we will be able to:</p>
 <ul style={{listStyleType:'square'}}>

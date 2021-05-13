@@ -12,14 +12,6 @@ export const sprintCalendarFromURL = () => {
 		case '36000-spring-2021-001': return sprintCalendar('2021-01-18-16')
 		case '44000-spring-2021-001': return sprintCalendar('2021-01-18-16')
 
-		// Fall 2020 classes.
-		case '20000-fall-2020-002': return sprintCalendar('2020-08-31-16')
-		case '20000-fall-2020-003': return sprintCalendar('2020-08-31-16')
-		case '24700-fall-2020-001': return sprintCalendar('2020-08-31-16')
-		case '44000-fall-2020-001': return sprintCalendar('2020-08-31-16')
-
-		case '24500-spring-2020-001': return sprintCalendar('2020-01-13-16')
-
 		default:
 			console.log('Error: Course start date and duration not found! (cpsc='+cpsc+')') 
 			return sprintCalendar('2020-08-31-16')
