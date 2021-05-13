@@ -50,8 +50,10 @@ export const courseNumber = () => {
 export const classSyllabusURL = () => { 
 	let classReference = cpsc()
 	switch(classReference) {
-
-		case '20000-fall-2021-002': return 'https://botb.blob.core.windows.net/nvm4zqwm/v1qshz2j-syllabus-cpsc-20000-002.pdf'
+		case '20000-fall-2021-002': return 'https://botb.blob.core.windows.net/nvm4zqwm/lzq51xkz-syllabus-cpsc-20000-002.pdf'
+		case '20000-fall-2021-003': return 'https://botb.blob.core.windows.net/nvm4zqwm/pto4cncy-syllabus-cpsc-20000-003.pdf'
+		case '24700-fall-2021-001': return 'https://botb.blob.core.windows.net/nvm4zqwm/btey68pg-syllabus-cpsc-24700-001.pdf'
+		case '44000-fall-2021-001': return 'https://botb.blob.core.windows.net/nvm4zqwm/l9vm2own-syllabus-cpsc-44000-001.pdf'
 
 		case '20000-spring-2021-002': return 'https://botb.blob.core.windows.net/nvm4zqwm/v1qshz2j-syllabus-cpsc-20000-002.pdf'
 		case '24500-spring-2021-001': return 'https://botb.blob.core.windows.net/nvm4zqwm/o2sla524-syllabus-cpsc-24500-001.pdf'

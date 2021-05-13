@@ -66,3 +66,6 @@ periodically check for new programming together tutorials<NavLink to='/activity/
 const extras = () => {
 	return (null)
 }
+
+// Final project proposals.
+// Todo: Consider moving Networks to sprint 5. 
