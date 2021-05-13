@@ -49,6 +49,7 @@ export const courseNumber = () => {
 // the Object-Oriented Programming class (cpsc-24500-001) is the section that meets MWF from 10-10:50am CT.
 export const classSyllabusURL = () => { 
 	let classReference = cpsc()
+	console.log('test')
 	switch(classReference) {
 		case '20000-fall-2021-002': return 'https://botb.blob.core.windows.net/nvm4zqwm/lzq51xkz-syllabus-cpsc-20000-002.pdf'
 		case '20000-fall-2021-003': return 'https://botb.blob.core.windows.net/nvm4zqwm/pto4cncy-syllabus-cpsc-20000-003.pdf'
