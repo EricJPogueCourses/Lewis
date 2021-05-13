@@ -11,8 +11,6 @@ export class Test extends React.Component {
 
 <p>Parameter ID: {this.props.match.params.id}</p>
 
-
-<h1>Testaslkdfas;fj</h1>
 <br />
 <h4>Fall 2021 Class Links:</h4>
 <h5>Introduction to Computer Science</h5>
