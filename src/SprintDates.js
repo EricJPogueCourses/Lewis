@@ -120,3 +120,13 @@ export const pastDate = (checkDate) => {
 	return false;
 }
 
+export const sprintStartDate = (sprintNumber) => {
+	let sprintCalendar = sprintCalendarFromURL()
+	return CSTDate(sprintCalendar[sprintNumber].start,false,false)
+}
+
+export const sprintEndDate = (sprintNumber) => {
+	let sprintCalendar = sprintCalendarFromURL()
+	return CSTDate(sprintCalendar[sprintNumber].end,false,true)
+}
+

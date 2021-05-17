@@ -67,3 +67,5 @@ programming together tutorials<NavLink to='/activity/programming-together'>[link
 
 // Todo: Consider moving chapter 5 to next sprint and moving each subsequent chapter out so that we have a chapter to 
 //     review in sprint 8. 
+
+// Todo: Review https://edu.gcfglobal.org/en/computer-science/sequences-selections-and-loops/1/ 
