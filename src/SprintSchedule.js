@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Table from 'react-bootstrap/Table'
 
 import { courseTitle } from './URLParameters'
-import { CSTDate, incrementDate, isToday, pastDate, sprintCalendarFromURL, tuesdayThursdayClass, sprintStartDate, sprintEndDate } from './SprintDates'
+import { CSTDate, incrementDate, isToday, pastDate, sprintCalendarFromURL, tuesdayThursdayClass, sprintStartDate, sprintEndDateWithoutTime } from './SprintDates'
 
 export class SprintClassActivities extends Component {
 	currentSprint = () => {
@@ -18,12 +18,12 @@ export class SprintClassActivities extends Component {
 		return currentSprint
 	}
 
-	renderSprintScheduleHeader = () => {
+	renderScheduleHeader = () => {
 		let sprint = this.currentSprint()+1
 		return( 
 		<div>
 			<h4>{courseTitle()}</h4>
-			<p>Sprint {sprint} starts <em>{sprintStartDate(sprint-1)}</em> and ends <em>{sprintEndDate(sprint-1)}</em>.</p>
+			<p>Sprint {sprint} starts <em>{sprintStartDate(sprint-1)}</em> and ends <em>{sprintEndDateWithoutTime(sprint-1)}</em>.</p>
 			<h5 style={{marginTop:'32px', color: "grey"}} onClick={() => this.headerClicked(sprint)}>Calendar | <span style={{color: "black"}}>Schedule</span></h5>
 		</div>	
 		)
@@ -83,9 +83,9 @@ export class SprintClassActivities extends Component {
 		const dates = calendar[this.currentSprint()]
 		return (
 			<div>
-				{this.renderSprintScheduleHeader()}
+				{this.renderScheduleHeader()}
 				<Table striped bordered hover>
-					<thead><tr><th>Day</th><th>Schedule</th></tr></thead>
+					<thead><tr><th style={{width:'300px'}}>Day</th><th>Schedule</th></tr></thead>
 					<tbody>
 						{this.renderScheduleRow(incrementDate(dates.start,0),schedule.FirstMonday)}
 						{this.renderScheduleRow(incrementDate(dates.start,2),schedule.FirstWednesday)}
@@ -134,7 +134,7 @@ export class SprintClassActivities extends Component {
 		let dates = calendar[this.currentSprint()]
 		return (
 			<div>
-				{this.renderSprintScheduleHeader()}
+				{this.renderScheduleHeader()}
 				<Table striped bordered hover>
 					<thead><tr><th>Day</th><th>Schedule</th></tr></thead>
 					<tbody>

@@ -130,3 +130,7 @@ export const sprintEndDate = (sprintNumber) => {
 	return CSTDate(sprintCalendar[sprintNumber].end,false,true)
 }
 
+export const sprintEndDateWithoutTime = (sprintNumber) => {
+	let sprintCalendar = sprintCalendarFromURL()
+	return CSTDate(sprintCalendar[sprintNumber].end,false,false)
+}

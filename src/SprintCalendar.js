@@ -6,7 +6,7 @@ import { courseTitle } from './URLParameters'
 
 export class SprintCalendar extends Component {
 	headerClicked = (input) => {
-		window.location.assign('#/class-activities/'+input);	
+		window.location.assign('#/schedule/'+input);	
 	}
 
 	rowClicked = (input) => {
