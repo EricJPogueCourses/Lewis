@@ -13,12 +13,13 @@ export class SprintCalendar extends Component {
 		window.location.assign('#/calendar/'+input);	
 	}
 
-	highlightRow = () => {
-		let highlightRow = parseInt(this.props.match.params.reference)
-		if (isNaN(highlightRow)) {
+	currentSprint = () => {
+		// Current sprint is zero based internally but passed on the URL as one based because users can view it on the URL. 
+		let currentSprint = parseInt(this.props.match.params.reference)
+		if (isNaN(currentSprint)) {
 			return -1 // Do not highlight any rows.
 		}
-		return highlightRow-1
+		return currentSprint-1
 	}
 
 	renderCalendarBody = () => {
@@ -26,7 +27,7 @@ export class SprintCalendar extends Component {
 
 		return sprintCalendar.map((row, index) => {
 			const {start, end, notes} = row 
-			if (index === this.highlightRow()) {
+			if (index === this.currentSprint()) {
 				return (
 					<tr onClick={() => this.rowClicked(index+1)} key={index+1} style={{backgroundColor:'#adebdb'}}>
 						<td style={{textAlign:'center'}}>{index+1}</td>
@@ -52,9 +53,9 @@ export class SprintCalendar extends Component {
 		return (
 			<div>
 			<h4>{courseTitle()}</h4>
-			<p>Sprint {this.highlightRow()+1} starts <em>{sprintStartDate(this.highlightRow())}</em> and ends <em>{sprintEndDate(this.highlightRow())}</em>.</p><br />
+			<p>Sprint {this.currentSprint()+1} starts <em>{sprintStartDate(this.currentSprint())}</em> and ends <em>{sprintEndDate(this.currentSprint())}</em>.</p>
 
-			<h5 onClick={() => this.headerClicked(this.highlightRow()+1)}>Calendar | <span style={{color: "grey"}}>Schedule</span></h5>
+			<h5 style={{marginTop:'32px'}} onClick={() => this.headerClicked(this.currentSprint()+1)}>Calendar | <span style={{color: "grey"}}>Schedule</span></h5>
 			<Table striped bordered hover>
 				<thead><tr>
 					<th style={{textAlign:'center'}}>Sprint</th>
