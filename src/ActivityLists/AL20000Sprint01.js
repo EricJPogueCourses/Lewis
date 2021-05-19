@@ -1,13 +1,17 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
+import { DisplayPreviewStampIfNeeded } from './ALPreviewStamp'
+
 import { HelloWorldWithPython, start, complete } from './ProgrammingAssignments'
 const programmingAssignment = HelloWorldWithPython
 
 export const al20000Sprint01 = (syllabusURL) => {
+	const sprint = 1; 
 	return (
 
 <div>
+
 <h4>Introduction to Computer Science</h4>
 <h5>Sprint 1: Getting Started, The Big Picture, Files Systems, and Tools of the Trade</h5>
 
@@ -60,6 +64,8 @@ focused time unless otherwise noted. <em>Bold</em> items are graded assignments.
 you do these two things, I believe your success is virtually guaranteed. Finally, be sure to periodically check for new 
 programming together tutorials<NavLink to='/activity/programming-together'>[link]</NavLink>.</p>
 {/* Programming Together: “Hello World with Python” */}
+
+{DisplayPreviewStampIfNeeded(sprint)}
 </div>
 
 	)

@@ -15,6 +15,7 @@ import { Sprint05 } from './Sprint05'
 import { Sprint06 } from './Sprint06'
 import { Sprint07 } from './Sprint07'
 import { Sprint08 } from './Sprint08'
+import { Sprint } from './Sprint'
 
 import { SprintCalendar } from './SprintCalendar'
 import { SprintClassActivities } from './SprintSchedule'
@@ -53,6 +54,8 @@ class Main extends Component {
 						<Route path='/sprint-6' component={Sprint06}/>
 						<Route path='/sprint-7' component={Sprint07}/>
 						<Route path='/sprint-8' component={Sprint08}/>
+
+						<Route path='/sprint/:reference' component={Sprint}/>
 
 						<Route path='/calendar/:reference' component={SprintCalendar}/>
 						<Route path='/schedule/:reference' component={SprintClassActivities}/>

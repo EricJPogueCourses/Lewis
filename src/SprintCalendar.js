@@ -19,11 +19,24 @@ export class SprintCalendar extends Component {
 		if (isNaN(currentSprint)) {
 			return -1 // Do not highlight any rows.
 		}
+
 		return currentSprint-1
 	}
 
+	renderSummaryText = (sprint) => {
+		console.log('sprint='+sprint)
+		if (sprint === -1)
+			return (null)
+		else
+			return (
+				<p>Sprint {sprint+1} starts <em>{sprintStartDate(sprint)}</em> and ends <em>{sprintEndDate(sprint)}</em>.</p>
+			)
+	}
+
 	renderCalendarBody = () => {
+		console.log(1)
 		let sprintCalendar = sprintCalendarFromURL()
+		console.log(sprintCalendar)
 
 		return sprintCalendar.map((row, index) => {
 			const {start, end, notes} = row 
@@ -53,7 +66,7 @@ export class SprintCalendar extends Component {
 		return (
 			<div>
 			<h4>{courseTitle()}</h4>
-			<p>Sprint {this.currentSprint()+1} starts <em>{sprintStartDate(this.currentSprint())}</em> and ends <em>{sprintEndDate(this.currentSprint())}</em>.</p>
+			{this.renderSummaryText(this.currentSprint())}
 
 			<h5 style={{marginTop:'32px'}} onClick={() => this.headerClicked(this.currentSprint()+1)}>Calendar | <span style={{color: "grey"}}>Schedule</span></h5>
 			<Table striped bordered hover>

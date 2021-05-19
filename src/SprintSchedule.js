@@ -5,6 +5,8 @@ import { courseTitle } from './URLParameters'
 import { CSTDate, incrementDate, isToday, pastDate, sprintCalendarFromURL, tuesdayThursdayClass, sprintStartDate, sprintEndDateWithoutTime } from './SprintDates'
 
 export class SprintClassActivities extends Component {
+	// Todo: Update 'currentSprint()+1' to 'currentSprintBaseOne()'.
+
 	currentSprint = () => {
 		// Current sprint is zero based internally but passed on the URL as one based because users can view it on the URL. 
 		return this.currentSprintBaseOne()-1
@@ -13,8 +15,13 @@ export class SprintClassActivities extends Component {
 	currentSprintBaseOne = () => {
 		let currentSprint = parseInt(this.props.match.params.reference)
 		if (isNaN(currentSprint)) {
-			return -1
+			return 1
 		}
+
+		if ((currentSprint < 1) || (currentSprint > 8)) {
+			return 1
+		}
+
 		return currentSprint
 	}
 
