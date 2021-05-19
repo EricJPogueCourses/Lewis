@@ -57,3 +57,6 @@ periodically check for new programming together tutorials<NavLink to='/activity/
 const extras = () => {
 	return (null)
 }
+
+// Todo: Reorder or hide some of the programming together entries.
+// Todo: Create and link O’Reilly Books playlist for class or topic.

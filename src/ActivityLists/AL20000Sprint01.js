@@ -1,18 +1,39 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
-import { DisplayPreviewStampIfNeeded } from './ALPreviewStamp'
+import { classSyllabusURL } from '../URLParameters'
 
 import { HelloWorldWithPython, start, complete } from './ProgrammingAssignments'
-const programmingAssignment = HelloWorldWithPython
 
-export const al20000Sprint01 = (syllabusURL) => {
-	const sprint = 1; 
+export const sprint1StandardActivities = (programmingAssignment) => { 
+	return ( <div>
+
+<li>Maintain laser focus on due dates by reviewing our class calendar<NavLink to='/calendar/1'>[link]</NavLink> and sprint 1 schedule<NavLink to='/schedule/1'>[link]</NavLink></li>
+<li>Review course syllabus<a href={classSyllabusURL()}>[link]</a></li>
+<li>Understand Blended Learning by reviewing “Blended Learning &amp; Flipped Classroom”<NavLink to='/activity/blended-learning'>[video]</NavLink></li>
+<li>Be prepared to participate in your Scrum team by watching “Introduction to Scrum in 7 Minutes”<NavLink to='/activity/scrum-in-7-minutes'>[video]</NavLink></li>
+<li><em>Review sprint 1 assignments including Lab 1, Quiz 1, Discussion 1, and Reflection 1</em></li>
+<li>{start(programmingAssignment)}</li>
+<li>Start working on “Tools of the Trade”<NavLink to='/activity/tools'>[link]</NavLink>by setting up Discord and O’Reilly Books</li>
+
+	</div> )
+}
+
+export const sprint1StandardActivitiesClosing = (programmingAssignment) => { 
+	return ( <div>
+
+<li>Add a representative photo of yourself to your Blackboard and Zoom profiles<NavLink to='/activity/photo-to-blackboard'>[video]</NavLink></li>
+<li>{complete(programmingAssignment)}</li>
+<li><em>Complete Discussion 1 by responding to at least two of your classmates’ posts</em></li>
+<li><em>Submit Lab 1, Quiz 1, and Reflection 1</em></li>
+
+	</div> ) 
+}
+
+export const al20000Sprint01 = () => {
 	return (
 
 <div>
-
-<h4>Introduction to Computer Science</h4>
 <h5>Sprint 1: Getting Started, The Big Picture, Files Systems, and Tools of the Trade</h5>
 
 <p>Welcome to Introduction to Computer Science! In this course we will be exploring the field of computer 
@@ -31,47 +52,28 @@ problem solving, and programming.</p>
 
 <p>Below is our sprint 1 activities list. Although you are welcome to pursue the activities in any order, they are
 listed in the order I think will be the most efficient to complete. Expect each item to take 20 to 40 minutes of 
-focused time unless otherwise noted. <em>Bold</em> items are graded assignments.</p>
+focused time to complete unless otherwise noted. <em>Bold</em> items are graded assignments.</p>
 <ol>
-	<li>Maintain laser focus on due dates by reviewing our sprint calendar<NavLink to='/calendar/1'>[link]</NavLink></li>
-	<li>Review course syllabus<a href={syllabusURL}>[link]</a></li>
-	<li>Understand Blended Learning by reviewing “Blended Learning &amp; Flipped Classroom”<NavLink to='/activity/blended-learning'>[video]</NavLink></li>
-	<li>Be prepared to participate in a Scrum team by watching “Introduction to Scrum in 7 Minutes”<NavLink to='/activity/scrum-in-7-minutes'>[video]</NavLink></li>
-	<li><em>Review sprint 1 assignments including Introduction, Lab 1, Quiz 1, Discussion 1, and Reflection 1</em></li>
-	<li>Start working on “Tools of the Trade”<NavLink to='/activity/tools'>[link]</NavLink>by setting up Discord and O’Reilly Books</li>
-	<li><em>Complete the Introduction assignment by making your post and responding to at least two of your classmates</em></li>
-	<li>{start(programmingAssignment)}</li>
-	{/* The above items should be consistent and complete by the end of the second class session. */ }
+	{sprint1StandardActivities(HelloWorldWithPython)}
 
 	<li>Within O’Reilly Books open “Computer Science Illuminated”<a href='https://learning.oreilly.com/library/view/computer-science-illuminated/9781284055917/' target='_blank' rel='noopener noreferrer'>[link]</a>
 		and read chapter 11 File Systems and Directories</li>
 	<li>Review our “Computer Science Illuminated” chapter 11 lecture<NavLink to='/activity-dale/11'>[video]</NavLink> 
 		and be prepared for scrum team discussion</li>
-
-	<li>Add a representative photo of yourself to your Blackboard and Zoom profiles<NavLink to='/activity/photo-to-blackboard'>[video]</NavLink></li>
+	<li>Review “Sequences, selections, and loops (repetition)”<a href='https://edu.gcfglobal.org/en/computer-science/sequences-selections-and-loops/1/ ' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li><em>Make your initial Discussion 1 post by the middle of the sprint</em></li>
 	<li>Read “Computer Science Illuminated” Chapter 1<a href='https://learning.oreilly.com/library/view/computer-science-illuminated/9781284055917/' target='_blank' rel='noopener noreferrer'>[link]</a>
 		and review our chapter 1 lecture <NavLink to='/activity-dale/1'>[video]</NavLink><sup>~2 hours</sup></li>
 	<li>Complete “Tools of the Trade - Part 1”<NavLink to='/activity/tools'>[link]</NavLink><sup>~2 hours</sup></li>
 	<li>Complete “Numbering Systems with Python”<NavLink to='/activity/numbering-systems-python'>[link]</NavLink></li>
-
-	{/* The items below should be consistent across classes. */ }
-	<li>{complete(programmingAssignment)}</li>
-	<li><em>Complete Discussion 1 by responding to at least two of your classmates’ posts</em></li>
-	<li><em>Submit Lab 1, Quiz 1, and Reflection 1</em></li>
+	
+	{sprint1StandardActivitiesClosing(HelloWorldWithPython)}
 </ol>
-<p>The best advise that I can give you for this class is to start assignments early and to always submit something. If 
-you do these two things, I believe your success is virtually guaranteed. Finally, be sure to periodically check for new 
+<p>The best advise that I can give you for this class is to start assignments early and to always submit something for each assignment. 
+If you do these two things, I believe your success is virtually guaranteed. Finally, be sure to periodically check for new 
 programming together tutorials<NavLink to='/activity/programming-together'>[link]</NavLink>.</p>
-{/* Programming Together: “Hello World with Python” */}
-
-{DisplayPreviewStampIfNeeded(sprint)}
 </div>
 
 	)
 }
 
-// Todo: Consider moving chapter 5 to next sprint and moving each subsequent chapter out so that we have a chapter to 
-//     review in sprint 8. 
-
-// Todo: Review https://edu.gcfglobal.org/en/computer-science/sequences-selections-and-loops/1/ 

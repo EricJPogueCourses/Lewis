@@ -50,6 +50,11 @@ const programmingTogether44000ID = '02966c28-e8c1-4a94-b6b2-acbe003233bb'
 export const ProgrammingTogether = () => {
 	let classReference = cpsc()
 	switch(classReference) {
+		case '20000-fall-2021-002': return (<div><PanoptoIFrameComponent iframe={embedCodePlaylist(programmingTogether20000ID)} /></div>)
+		case '20000-fall-2021-003': return (<div><PanoptoIFrameComponent iframe={embedCodePlaylist(programmingTogether20000ID)} /></div>)
+		case '24700-fall-2021-001': return (null)
+		case '44000-fall-2021-001': return (<div><PanoptoIFrameComponent iframe={embedCodePlaylist(programmingTogether44000ID)} /></div>)
+
 		case '20000-spring-2021-002': return (<div><PanoptoIFrameComponent iframe={embedCodePlaylist(programmingTogether20000ID)} /></div>)
 		case '24500-spring-2021-001': return (<div><PanoptoIFrameComponent iframe={embedCodePlaylist(programmingTogether24500ID)} /></div>)
 		case '36000-spring-2021-001': return (null)

@@ -6,8 +6,7 @@ import ALPreviewStamp from './ALPreviewStamp.png'
 
 
 export const DisplayPreviewStampIfNeeded = (activityListSprint) => {
-	if ((activityListSprint > 8) || (activityListSprint < 1)) {
-		console.log('Error: Invalid sprint number ('+activityListSprint+') DisplayPreviewStampIfNeeded.') 
+	if ((activityListSprint > 8) || (activityListSprint < 2)) {
 		return (null)
 	}
 

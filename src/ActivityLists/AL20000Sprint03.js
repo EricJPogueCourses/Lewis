@@ -65,3 +65,6 @@ periodically check for new programming together tutorials<NavLink to='/activity/
 const extras = () => {
 	return (null)
 }
+
+// Todo: Consider moving chapter 5 to next sprint and moving each subsequent chapter out so that we have a chapter to 
+//     review in sprint 8. 
