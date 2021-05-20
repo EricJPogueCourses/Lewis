@@ -1,14 +1,13 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
 
-import { GettingToKnowEachOther, start, complete } from './ProgrammingAssignments'
-const programmingAssignment = GettingToKnowEachOther
+import { LearningObjectivesIntro, ActivitiesListIntro, StandardActivities, InitialPost, StandardActivitiesClosing, ScrumIntro, Closing } from './AL00000Sprint01'
+import { GettingToKnowEachOther, ProgrammingActivity, ToolsOfTheTradeParts1And2, HTMLProgrammingPart1, HelloWorldWithPython } from './ProgrammingAssignments'
 
 export const al44000Sprint01 = (syllabusURL) => {
 	return (
 
 <div>
-<h4>Software Engineering</h4>
 <h5>Sprint 1: Getting Started, Software Engineering Life Cycles, Software as a Service, and Tools of the Trade</h5>
 <p><em>Welcome to Software Engineering!</em> By this point in your software development journey I'm sure you are 
 confident in writing moderately complicated software programs. You’ve learned about structured programming techniques 
@@ -22,14 +21,9 @@ meet real users needs. These additional Software Engineering skills are included
 Development Life Cycle and include topics like Project Management, Architecture, Requirements, Testing, Support, and 
 Maintenance. These are some of the topics that we will be exploring as part of this Software Engineering course.</p>
 
-<p>You likely noticed that I am using the term “sprint 1” to describe our first set of course activities. Sprints are 
-part of the Scrum software development process. The term is used to describe a unit of work which we have committed to
-delivering by a given date. We will be learning more about sprints and Scrum in the coming days. For now it is 
-sufficient to know that our sprint 1 activities will take approximately 20 hours of focused effort to complete, and we 
-need to complete the activities by the sprint 1 end date listed on our course calendar 
-<NavLink to='/calendar/1'>[link]</NavLink>.</p>
+{ScrumIntro()}
 
-<p>Let's start with our sprint 1 Learning Objectives. By the end of sprint 1 we will be able to:</p>
+{LearningObjectivesIntro()}
 <ul style={{listStyleType:'square'}}>
 	<li>Effectively participate in a blended classroom environment and as part of a Scrum team</li>
 	<li>Compare and contrast the steps in leading Software Development Life Cycles</li>
@@ -39,42 +33,26 @@ need to complete the activities by the sprint 1 end date listed on our course ca
 	<li>Utilize leading developer tools to create and update software applications</li>
 </ul>
 
-<p>Below is our sprint 1 activities list. Although you are welcome to pursue the activities in any order, they are
-listed in the order I think will be the most efficient to complete. Expect each item to take 20 to 40 minutes of 
-focused time unless otherwise noted. <em>Bold</em> items are graded assignments.</p>
+{ActivitiesListIntro()}
 <ol>
-<li>Maintain laser focus on due dates by reviewing our sprint calendar<NavLink to='/calendar/1'>[link]</NavLink></li>
-	<li>Review course syllabus<a href={syllabusURL}>[link]</a></li>
-	<li>Understand Blended Learning by reviewing “Blended Learning &amp; Flipped Classroom”<NavLink to='/activity/blended-learning'>[video]</NavLink></li>
-	<li>Be prepared to participate in a Scrum team by watching “Introduction to Scrum in 7 Minutes”<NavLink to='/activity/scrum-in-7-minutes'>[video]</NavLink></li>
-	<li><em>Review sprint 1 assignments including Introduction, Lab 1, Quiz 1, Discussion 1, and Reflection 1</em></li>
-	<li>Start working on “Tools of the Trade”<NavLink to='/activity/tools'>[link]</NavLink>by setting up Discord and O’Reilly Books</li>
-	<li><em>Complete the Introduction assignment by making your post and responding to at least two of your classmates</em></li>
-	<li>{start(programmingAssignment)}</li>
-	{/* The above items should be consistent and complete by the end of the second class session. */ }
+	{StandardActivities(GettingToKnowEachOther)}
 
-	<li>Read Chapter 1 of “Engineering Software as a Service: An Agile Approach Using Cloud Computing” by Armando Fox
-		and David Patterson (Fox) and review our Chapter 1 lecture<NavLink to='/activity/fox-chapter-01'>[video]</NavLink><sup> ~2 hours</sup></li>
-	<li>Add your photo to your Blackboard profile<NavLink to='/activity/photo-to-blackboard'>[video]</NavLink></li>
-	<li><em>Make your initial Discussion 1 post by the middle of the sprint</em></li>
-	<li>Review everything that came before Chapter 1 including Preface in our Fox textbook and review associated lecture<NavLink to='/activity/fox-chapter-00'>[video]</NavLink></li>
-	<li>Read Chapter 2 of Fox and review our class lecture on Chapter 2<NavLink to='/activity/fox-chapter-02'>[video]</NavLink></li>
-	<li>Complete “Tools of the Trade” parts 1 and 2<NavLink to='/activity/tools'>[link]</NavLink><sup> ~3 hours</sup></li>
-	<li>Complete “Hello World with Python”<NavLink to='/activity/hello-world-python'>[link]</NavLink></li>
+	<li>Read Chapter 1 of “Engineering Software as a Service” by Armando Fox and David Patterson</li>
+	<li>Review “Engineering Software as a Service” chapter 1 lecture<NavLink to='/activity/fox-chapter-01'>[video]</NavLink> 
+		and be prepared for a scrum team discussion</li>
+	<li>Review “Engineering Software as a Service” Preface and review associated class lecture<NavLink to='/activity/fox-chapter-00'>[video]</NavLink></li>
+	{ProgrammingActivity(HTMLProgrammingPart1)}
 
-	<li>Complete “HTML Programming - Part 1” from W3C<NavLink to='/activity/html'>[link]</NavLink><sup> ~2 hours</sup></li>
+	{InitialPost()}
 
-	{/* The items below should be consistent across classes. */ }
-	<li>{complete(programmingAssignment)}</li>
-	<li><em>Complete Discussion 1 by responding to at least two of your classmates’ posts</em></li>
-	<li><em>Submit Lab 1, Quiz 1, and Reflection 1</em></li>
+	<li>Read Chapter 2 of “Engineering Software as a Service” and review our associated class lecture<NavLink to='/activity/fox-chapter-02'>[video]</NavLink></li>
+	{ProgrammingActivity(ToolsOfTheTradeParts1And2)}
+	{ProgrammingActivity(HelloWorldWithPython, 1)}
+
+	{StandardActivitiesClosing(GettingToKnowEachOther)}
 </ol>
-<p>The best advise that I can give you for this class is to start assignments early and to always submit something. If 
-you do these two things, I believe your success is virtually guaranteed.</p>
+{Closing()}
 </div>
 
 	)
 }
-
-// Todo: Where should mediaatoz/software-engineering/* videos go? Are they already included?
-// Todo: Change estimated to actual capacity metric to actual over estimated so that it comes out to less than one generally. 

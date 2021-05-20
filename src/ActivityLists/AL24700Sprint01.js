@@ -1,8 +1,8 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
 
-import { LearningObjectivesIntro, ActivitiesListIntro, StandardActivities, MakeInitialPost, StandardActivitiesClosing, ScrumIntro, Closing } from './AL00000Sprint01'
-import { GettingToKnowEachOther } from './ProgrammingAssignments'
+import { LearningObjectivesIntro, ActivitiesListIntro, StandardActivities, InitialPost, StandardActivitiesClosing, ScrumIntro, Closing } from './AL00000Sprint01'
+import { ProgrammingActivity, ToolsOfTheTradePart1, HTMLProgrammingPart1, GettingToKnowEachOther, HelloWorldWithPython  } from './ProgrammingAssignments'
 
 export const al24700Sprint01 = (syllabusURL) => {
 	return (
@@ -26,18 +26,18 @@ languages in industry leading cloud environments to deliver Web applications.</p
 
 {ActivitiesListIntro()}
 <ol>
-	{ StandardActivities(GettingToKnowEachOther) }
+	{StandardActivities(GettingToKnowEachOther)}
 
 	<li>Read chapter 2 of “Programming The World Wide Web” (Sebesta)</li>
 	<li>Review our “Programming The World Wide Web” (Sebesta) lecture<NavLink to='/activity/sebesta-chapter-02'>[video]</NavLink> 
-		and be prepared for scrum team discussion</li>
-	<li>Complete “Tools of the Trade - Part 1”<NavLink to='/activity/tools'>[link]</NavLink>~2 hours</li>
-	<li>Complete “HTML Programming - Part 1” from W3C<NavLink to='/activity/html'>[link]</NavLink>~2 hours</li>
+		and be prepared for a scrum team discussion</li>
+	{ProgrammingActivity(ToolsOfTheTradePart1)}
+	{ProgrammingActivity(HTMLProgrammingPart1)}
 
-	{MakeInitialPost()}
+	{InitialPost()}
 
 	<li>Read chapter 1 of Sebesta and review the associated lecture<NavLink to='/activity/sebesta-chapter-01'>[video]</NavLink></li>
-	<li>Complete “Hello World with Python”<NavLink to='/activity/hello-world-python'>[link]</NavLink></li>
+	{ProgrammingActivity(HelloWorldWithPython, 2)}
 
 	{StandardActivitiesClosing(GettingToKnowEachOther)}
 </ol>

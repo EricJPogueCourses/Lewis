@@ -1,10 +1,34 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
+export const ToolsOfTheTradePart1 = {
+	'name':'“Tools of the Trade - Part 1”',
+	'link':'/activity/tools',
+	'estimate':'~2 hours'
+}
+
+export const ToolsOfTheTradeParts1And2 = {
+	'name':'“Tools of the Trade” parts 1 and 2',
+	'link':'/activity/tools',
+	'estimate':'~3 hours'
+}
+
+export const HTMLProgrammingPart1 = {
+	'name':'“HTML Programming - Part 1” from W3C',
+	'link':'/activity/html',
+	'estimate':'~2 hours'
+}
+
 export const HelloWorldWithPython = {
 	'name':'“Hello World with Python”',
 	'link':'/activity/hello-world-python',
-	'estimate':'~4 hours'
+	'estimate':'~3 hours'
+}
+
+export const NumberingSystemsWithPython = {
+	'name':'“Numbering Systems with Python”',
+	'link':'/activity/numbering-systems-python',
+	'estimate':'~3 hours'
 }
 
 export const GettingToKnowEachOther = {
@@ -163,8 +187,41 @@ export const AzureWebsite = {
 	'estimate':'~6 hours'
 }
 
-export const start = (assignment) => { return ( <div>Start working on {assignment.name}<NavLink to={assignment.link}>[link]</NavLink></div>) }
-export const reviewAndUpdate = (assignment) => { return ( <div>Review and update your {assignment.name}<NavLink to={assignment.link}>[link]</NavLink></div>) }
-export const complete = (assignment) => { return ( <div>Complete {assignment.name}<NavLink to={assignment.link}>[link]</NavLink>{sup(assignment.estimate)}</div>)}
+export const start = (assignment) => { 
+	if (assignment != null) 
+		return ( <div>Start working on {assignment.name}<NavLink to={assignment.link}>[link]</NavLink></div>)
+}
+
+export const StartProgrammingActivity = (assignment) => {
+	if (assignment != null) 
+		return ( <div><li>Start working on {assignment.name}<NavLink to={assignment.link}>[link]</NavLink></li></div> )
+}
+
+export const reviewAndUpdate = (assignment) => { 
+	return ( <div>Review and update your {assignment.name}<NavLink to={assignment.link}>[link]</NavLink></div>) 
+}
+
+export const reviewAndUpdateProgrammingActivity = (assignment) => { 
+	if (assignment != null) 
+	return ( <div><li>Review and update your {assignment.name}<NavLink to={assignment.link}>[link]</NavLink></li></div> )
+}
+
+export const complete = (assignment) => { 
+	return ( <div>Complete {assignment.name}<NavLink to={assignment.link}>[link]</NavLink>{sup(assignment.estimate)}</div>)
+}
+
+export const ProgrammingActivity = (assignment, estimatedTime) => { 
+	if (assignment != null) {
+		let estimate = assignment.estimate
+		if (estimatedTime != null) {
+			if (estimatedTime === 1)
+				estimate = '~'+estimatedTime+' hour'
+			else
+				estimate = '~'+estimatedTime+' hours'
+		} 
+
+		return ( <div><li>Complete {assignment.name}<NavLink to={assignment.link}>[link]</NavLink>{sup(estimate)}</li></div> )
+	}
+}
 
 const sup = (text) => { return (<sup> {text} </sup>)}

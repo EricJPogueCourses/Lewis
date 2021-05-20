@@ -1,8 +1,8 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
-import { LearningObjectivesIntro, ActivitiesListIntro, StandardActivities, MakeInitialPost, StandardActivitiesClosing, ScrumIntro, Closing } from './AL00000Sprint01'
-import { HelloWorldWithPython } from './ProgrammingAssignments'
+import { LearningObjectivesIntro, ActivitiesListIntro, StandardActivities, InitialPost, StandardActivitiesClosing, ScrumIntro, Closing } from './AL00000Sprint01'
+import { ProgrammingActivity, ToolsOfTheTradePart1, HelloWorldWithPython, NumberingSystemsWithPython } from './ProgrammingAssignments'
 
 export const al20000Sprint01 = () => {
 	return ( <div>
@@ -32,17 +32,18 @@ problem solving, and programming.</p>
 	<li>Within O’Reilly Books open “Computer Science Illuminated”<a href='https://learning.oreilly.com/library/view/computer-science-illuminated/9781284055917/' target='_blank' rel='noopener noreferrer'>[link]</a>
 		and read chapter 11 File Systems and Directories</li>
 	<li>Review our “Computer Science Illuminated” chapter 11 lecture<NavLink to='/activity-dale/11'>[video]</NavLink> 
-		and be prepared for scrum team discussion</li>
-	<li>Complete “Tools of the Trade - Part 1”<NavLink to='/activity/tools'>[link]</NavLink><sup>~2 hours</sup></li>
+		and be prepared for a scrum team discussion</li>
+	{ProgrammingActivity(ToolsOfTheTradePart1)}
 	<li>Review “Sequences, selections, and loops (repetition)”<a href='https://edu.gcfglobal.org/en/computer-science/sequences-selections-and-loops/1/ ' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 
-	{MakeInitialPost()}
+	{InitialPost()}
 
 	<li>Read “Computer Science Illuminated” Chapter 1<a href='https://learning.oreilly.com/library/view/computer-science-illuminated/9781284055917/' target='_blank' rel='noopener noreferrer'>[link]</a>
-		and review our chapter 1 lecture <NavLink to='/activity-dale/1'>[video]</NavLink><sup>~2 hours</sup></li>
-	<li>Complete “Numbering Systems with Python”<NavLink to='/activity/numbering-systems-python'>[link]</NavLink></li>
-	
-	{StandardActivitiesClosing(HelloWorldWithPython)}
+		and review our chapter 1 lecture <NavLink to='/activity-dale/1'>[video]</NavLink><sup> ~2 hours</sup></li>
+	{ProgrammingActivity(HelloWorldWithPython)}
+	{ProgrammingActivity(NumberingSystemsWithPython)}
+
+	{StandardActivitiesClosing()}
 </ol>
 
 {Closing()}
