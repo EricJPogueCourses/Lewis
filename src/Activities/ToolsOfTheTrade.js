@@ -19,7 +19,7 @@ install, configure, and utilize many tools and services. By the end of this tuto
 
 <p>Part 1 - In part one of the tutorial:</p>
 <ol>
-	<li>Sign up for Discord to allow your scrum team effectively communicate<a href='https://discord.com/' target='_blank' rel='noopener noreferrer'>[discord]</a></li>
+	<li>Sign up for Discord to allow your scrum team effectively communicate<a href='https://discord.com/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li>Sign up for O’Reilly Books which is available free through Lewis University<a href='https://www.oreilly.com/library/view/temporary-access/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li>Install FireFox<a href='https://www.mozilla.org/en-US/firefox/new/' target='_blank' rel='noopener noreferrer'>[link]</a>and Chrome<a href='https://www.google.com/chrome/' target='_blank' rel='noopener noreferrer'>[link]</a>web browsers</li> 
 	<li>Install Visual Studio Code source code editor<a href='https://code.visualstudio.com/' target='_blank' rel='noopener noreferrer'>[link]</a><NavLink to='/activity-config/mscode-and-chrome-windows10-setup'>[video]</NavLink></li>

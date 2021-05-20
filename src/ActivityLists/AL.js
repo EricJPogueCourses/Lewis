@@ -1,8 +1,8 @@
-import { al20000 } from './AL20000'
-import { al24500 } from './AL24500'
-import { al24700 } from './AL24700'
-import { al36000 } from './AL36000'
-import { al44000 } from './AL44000'
+import { al20000 } from './AL20000Index'
+import { al24500 } from './AL24500Index'
+import { al24700 } from './AL24700Index'
+import { al36000 } from './AL36000Index'
+import { al44000 } from './AL44000Index'
 
 export const al = (courseNumber, sprint) => {
 	switch(courseNumber) {
