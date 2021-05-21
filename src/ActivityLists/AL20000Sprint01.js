@@ -1,3 +1,5 @@
+// BugBug: Remove second Discussion Board from sprint 1.
+
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
@@ -50,4 +52,5 @@ problem solving, and programming.</p>
 
 </div> )
 }
+
 

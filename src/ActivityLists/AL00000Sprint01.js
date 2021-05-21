@@ -41,7 +41,7 @@ export const StandardActivities = (programmingAssignment) => {
 	return ( <div>
 
 <li>Maintain laser focus on due dates by reviewing our class calendar<NavLink to='/calendar/1'>[link]</NavLink> and sprint 1 schedule<NavLink to='/schedule/1'>[link]</NavLink></li>
-<li>Review course syllabus<a href={classSyllabusURL()}>[link]</a></li>
+<li>Review our course syllabus<a href={classSyllabusURL()}>[link]</a></li>
 <li>Understand Blended Learning by reviewing “Blended Learning &amp; Flipped Classroom”<NavLink to='/activity/blended-learning'>[video]</NavLink></li>
 <li>Be prepared to participate in your Scrum team by watching “Introduction to Scrum in 7 Minutes”<NavLink to='/activity/scrum-in-7-minutes'>[video]</NavLink></li>
 <li><em>Review sprint 1 assignments including Lab 1, Quiz 1, Discussion 1, and Reflection 1</em></li>
