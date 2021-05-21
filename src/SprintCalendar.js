@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Table from 'react-bootstrap/Table'
 
-import { CSTDate, duration, sprintCalendarFromURL, sprintStartDate, sprintEndDate } from './SprintDates'
+import { CSTDate, duration, sprintCalendarFromURL, sprintStartDate, sprintEndDateWithoutTime } from './SprintDates'
 import { courseTitle } from './URLParameters'
 
 export class SprintCalendar extends Component {
@@ -29,7 +29,7 @@ export class SprintCalendar extends Component {
 			return (null)
 		else
 			return (
-				<p>Sprint {sprint+1} starts <em>{sprintStartDate(sprint)}</em> and ends <em>{sprintEndDate(sprint)}</em>.</p>
+				<p>Sprint {sprint+1} starts <em>{sprintStartDate(sprint)}</em> and ends <em>{sprintEndDateWithoutTime(sprint)}</em>.</p>
 			)
 	}
 
