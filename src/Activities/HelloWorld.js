@@ -1,11 +1,13 @@
 
 import React from 'react';
 
+import ReactPlayer from 'react-player'
 import { programmingTogetherHelloWorldPython } from './../Panopto'
 
 export const HelloWorldPython = () => { return HelloWorld(PythonProperties) }
 export const HelloWorldJava = () => { return HelloWorld(JavaProperties) }
 export const HelloWorldGo = () => { return HelloWorld(GoProperties) }
+export const HelloWorldWeb = () => { return HelloWorld(WebProperties) }
 
 const PythonProperties = {
 	'language': 'Python',
@@ -25,17 +27,26 @@ const GoProperties = {
 	'tutorial': null
 }
 
+const WebProperties = {
+	'language': 'HTML, GitHub, and Azure based',
+	'prerequisites': 'GitHub, Microsoft Azure, VS Code, and Terminal',
+	'tutorial': 'https://lewiseducation.blob.core.windows.net/configuration/hello-world-html-github-and-azure.mp4'
+}
+
 const Tutorial = (app) => {
-	if (app.tutorial == null) {
-		return null
-	} else {
-		return ( 
-			<div>
+	if (app === WebProperties) {
+		return ( <div>
+			Be sure to follow along with the video tutorial below!
+			<ReactPlayer url={app.tutorial} controls={true} width={1024} height={576} />
+		</div> ) 
+	} 
+	else if (app === PythonProperties) {
+		return ( <div>
 			Be sure to follow along with the video tutorial below!
 			{programmingTogetherHelloWorldPython()}
-			</div>
-		)
+		</div> )
 	}
+	else return null
 }
 
 const HelloWorld = (app) => {
@@ -43,14 +54,13 @@ const HelloWorld = (app) => {
 	
 <div>
 <h4>Hello World with {app.language}</h4>
-<h5>Summary: Create and execute a {app.language} application that prints a special version of “Hello World” that includes your
-name in possessive form with a curly apostrophe followed by “Hello World” to the terminal</h5>
+<h5>Summary: Create a {app.language} application that prints a special version of “Hello World” that 
+includes your name in possessive form with a curly apostrophe followed by “Hello World” to the terminal</h5>
 <h5>Prerequisites: {app.prerequisites}</h5>
 			
-<p>Instructions: Complete Hello World using {app.language}. However in our version of Hello World, we are going to add some
-special formatting. Specifically, we are going to add our preferred first name followed by our last name in possessive form 
-along with a curly apostrophe (“ ’ ”). For example my hello world output would be “Eric Pogue’s Hello World” including 
-the curly apostrophe.</p>
+<p>Instructions: Complete Hello World using {app.language} some special formatting. Specifically, we are going to add 
+our preferred first name followed by our last name in possessive form along with a curly apostrophe (“ ’ ”). For 
+example, my hello world output would be “Eric Pogue’s Hello World” including the curly apostrophe.</p>
 
 <p>Why do we need to utilize a curly apostrophe? Well, it turns out that curly quotes and curly apostrophes should always
 be utilized in written text. The following article from Practical Typography does a nice job of explaining the 
@@ -64,6 +74,5 @@ etc.), changing the names of variables, and adding small features. Finally, be s
 be asked to submit it as part of an assignment.</p>
 
 {Tutorial(app)}
-
 </div> )
 }

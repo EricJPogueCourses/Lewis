@@ -34,7 +34,7 @@ minutes unless otherwise noted.</p>
 	{/* The above items should be consistent across classes. */ }
 
 	<li>Read “Engineering Software as a Service” chapter 6 and review our class lecture on chapter 6<NavLink to='/activity/fox-chapter-06'>[video]</NavLink></li>
-	<li>Complete “Website Creation with GitHub and Microsoft Azure”<NavLink to='/activity/azure-website'>[link]</NavLink><sup> ~3 hours </sup></li>
+	<li>Complete “Azure Website”<NavLink to='/activity/azure-website'>[link]</NavLink><sup> ~2 hours </sup></li>
 	<li>Review our class sample code by executing “git clone https://github.com/EricJPogue/cpsc-example-code.git”</li>
 	<li>Study and understand our “Coding Standards”<NavLink to='/activity/coding-standards'>[link]</NavLink></li>
 	<li>Scan “Engineering Software as a Service” chapters 3 through 5 and review the associated class lecture<NavLink to='/activity/fox-chapter-03'>[video]</NavLink></li>

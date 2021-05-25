@@ -31,12 +31,12 @@ problem solving, and programming.</p>
 <ol>
 	{StandardActivities(HelloWorldWithPython)}
 
-	<li>Within O’Reilly Books open “Computer Science Illuminated”<a href='https://learning.oreilly.com/library/view/computer-science-illuminated/9781284055917/' target='_blank' rel='noopener noreferrer'>[link]</a>
-		and read chapter 11 File Systems and Directories</li>
+	<li>Within O’Reilly Books<a href='https://learning.oreilly.com/playlists/c64af15a-7918-4898-9488-8d573674a2dc' target='_blank' rel='noopener noreferrer'>[link]</a>
+		read “Computer Science Illuminated” chapter 11 File Systems and Directories</li>
 	<li>Review our “Computer Science Illuminated” chapter 11 lecture<NavLink to='/activity-dale/11'>[video]</NavLink> 
 		and be prepared for a scrum team discussion</li>
 	{ProgrammingActivity(ToolsOfTheTradePart1)}
-	<li>Review “Sequences, selections, and loops (repetition)”<a href='https://edu.gcfglobal.org/en/computer-science/sequences-selections-and-loops/1/ ' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+	<li>Review “Sequences, selections, and loops (repetition)”<a href='https://edu.gcfglobal.org/en/computer-science/sequences-selections-and-loops/1/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 
 	{InitialPost()}
 

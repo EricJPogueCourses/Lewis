@@ -1,3 +1,5 @@
+// Sprint 1 is focused on installing and configuring industry standard developer tools which is included in the  
+// “Tools of the Trade” programming activity.
 
 import React from 'react'
 import { NavLink } from 'react-router-dom'
