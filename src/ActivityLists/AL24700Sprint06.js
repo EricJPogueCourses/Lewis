@@ -31,16 +31,16 @@ if you would like.</p>
 
 <p>With this in mind our activities list includes:</p>
 <ol>
-	<li>Verify due dates by checking our course calendar<NavLink to='/calendar/6'>[link]</NavLink></li>
+	<li>Verify due dates by checking our course calendar <NavLink to='/calendar/6'>[link]</NavLink></li>
 	<li><em>Review sprint 6 assignments including Lab 6, Quiz 6, Discussion 6, and Reflection 6</em></li>
 	<li>Start working on our Mustang version 2 distributed contact manager</li>
 	{/* Todo: Check if there is a Mustang version 2 lite tutorial?*/}
-	<li>Read chapter 9 of Sebesta and review our PHP lecture<NavLink to='/activity/sebesta-chapter-09'>[video]</NavLink></li>
+	<li>Read chapter 9 of Sebesta and review our PHP lecture <NavLink to='/activity/sebesta-chapter-09'>[video]</NavLink></li>
 	<li><em>Complete your initial discussion post by the middle of the sprint</em></li>
 	<li><em>Complete Mustang version 2 (~10 hours)</em></li>
-	<li>Review “Final Project Proposal”<NavLink to='/activity/final-project-proposal'>[link]</NavLink></li>
+	<li>Review “Final Project Proposal” <NavLink to='/activity/final-project-proposal'>[link]</NavLink></li>
 	<li><em>Update your final project proposal by including a technical design</em></li>
-	<li>Explore Application Architecture - Part 1<NavLink to='/activity-architecture/application-architecture-part1'>[video]</NavLink></li>
+	<li>Explore Application Architecture - Part 1 <NavLink to='/activity-architecture/application-architecture-part1'>[video]</NavLink></li>
 	<li><em>Complete and submit all assignments including your lab, quiz, discussion, and reflection</em></li>
 </ol>
 
@@ -63,11 +63,11 @@ const al24700Sprint06Extras = () => {
 <ul style={{listStyleType:'square'}}>
 	<li>Review MustangLite v2 in our class sample code which is available by executing “git clone 
 		https://github.com/EricJPogueCourses/WEB-ExampleCode.git”</li>
-	<li>Complete Programming Together with “Deploying Node.js on Microsoft Azure”<a href='https://app.knowmia.com/lyyA' target='_blank' rel='noopener noreferrer'>[link]</a></li>		
-	<li>Optionally complete Programming Together with “React On Azure”<a href='https://app.knowmia.com/bBVA' target='_blank' rel='noopener noreferrer'>[link]</a></li>
-	<li>Optionally review the “React - The Complete Guide” video tutorial series available from O'Reilly<a href='https://learning.oreilly.com/videos/react-the/9781789132229' target='_blank' rel='noopener noreferrer'>[link]</a></li>					
-	<li>Sprint 6 Recorded Lecture/Discussion session from a previous class<a href='https://recordings.join.me/ZFa-lvS3G0W7TEieUjqKuw' target='_blank' rel='noopener noreferrer'>[link]</a></li>      
-	<li>Git/GitHub Cheat Sheet<a href='https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+	<li>Complete Programming Together with “Deploying Node.js on Microsoft Azure” <a href='https://app.knowmia.com/lyyA' target='_blank' rel='noopener noreferrer'>[link]</a></li>		
+	<li>Optionally complete Programming Together with “React On Azure” <a href='https://app.knowmia.com/bBVA' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+	<li>Optionally review the “React - The Complete Guide” video tutorial series available from O'Reilly <a href='https://learning.oreilly.com/videos/react-the/9781789132229' target='_blank' rel='noopener noreferrer'>[link]</a></li>					
+	<li>Sprint 6 Recorded Lecture/Discussion session from a previous class <a href='https://recordings.join.me/ZFa-lvS3G0W7TEieUjqKuw' target='_blank' rel='noopener noreferrer'>[link]</a></li>      
+	<li>Git/GitHub Cheat Sheet <a href='https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 </ul>
 </div>
 

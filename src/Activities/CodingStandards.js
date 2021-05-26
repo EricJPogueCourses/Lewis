@@ -34,8 +34,7 @@ software development.</p>
 	<li>Source code must be commented with comments being valuable but conservative</li>
 	<li>Each class should be in a separate file</li>
 	<li>File names should be meaningful and consistently follow either a CamelCase or dash-case naming convention</li>
-	<li>Source code quotes should be single straight quotes when possible and user visible quotes should be curly
-		<a href='https://typographyforlawyers.com/straight-and-curly-quotes.html' target='blank' rel='noopener noreferrer'>[link]</a></li>
+	<li>Source code quotes should be single straight quotes when possible and user visible quotes should be curly <a href='https://typographyforlawyers.com/straight-and-curly-quotes.html' target='blank' rel='noopener noreferrer'>[link]</a></li>
 	<li>All files should to be UTF-8 compatible text files</li>
 	<li>Git and GitHub should be utilized to manage code</li>
 	<li>Plagiarism in any form is not acceptable</li>
@@ -45,11 +44,11 @@ software development.</p>
 <br />
 <p>Below are several references and examples of high quality to coding standards including:</p>
 <ul style={{listStyleType:'square'}}>
-	<li>Wikipedia coding standards reference<a href='https://en.wikipedia.org/wiki/Coding_conventions' target='blank' rel='noopener noreferrer'>[link]</a></li>
-	<li>W3C HTML coding standards<a href='https://www.w3schools.com/html/html5_syntax.asp' target='blank' rel='noopener noreferrer'>[link]</a></li>
-	<li>Python.org Python coding standards<a href='https://www.python.org/dev/peps/pep-0008/' target='blank' rel='noopener noreferrer'>[link]</a></li>
-	<li>Google Java coding standards<a href='https://google.github.io/styleguide/javaguide.html' target='blank' rel='noopener noreferrer'>[link]</a></li>
-	<li>Oracle Java coding standards<a href='https://www.oracle.com/technetwork/java/codeconventions-150003.pdf' target='blank' rel='noopener noreferrer'>[link]</a></li> 	
+	<li>Wikipedia coding standards reference <a href='https://en.wikipedia.org/wiki/Coding_conventions' target='blank' rel='noopener noreferrer'>[link]</a></li>
+	<li>W3C HTML coding standards <a href='https://www.w3schools.com/html/html5_syntax.asp' target='blank' rel='noopener noreferrer'>[link]</a></li>
+	<li>Python.org Python coding standards <a href='https://www.python.org/dev/peps/pep-0008/' target='blank' rel='noopener noreferrer'>[link]</a></li>
+	<li>Google Java coding standards <a href='https://google.github.io/styleguide/javaguide.html' target='blank' rel='noopener noreferrer'>[link]</a></li>
+	<li>Oracle Java coding standards <a href='https://www.oracle.com/technetwork/java/codeconventions-150003.pdf' target='blank' rel='noopener noreferrer'>[link]</a></li> 	
 </ul>
 </div>
 
@@ -70,7 +69,7 @@ organizations that feel that a standard should not be adopted unless the validat
 can be automated.</p>
 
 <p>With that in mind we are going to be developing a Go command line application that will automatically validate source
-code to see if it meets a subset of our coding standards<NavLink to='/activity/coding-standards'>[link]</NavLink>. You 
+code to see if it meets a subset of our coding standards <NavLink to='/activity/coding-standards'>[link]</NavLink>. You 
 will pick four (4) coding standards to validate and document those standards in your README.md file with a brief 
 overview of how you will be validating each standard.</p> 
 

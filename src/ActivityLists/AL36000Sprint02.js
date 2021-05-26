@@ -28,18 +28,18 @@ pursue the activities in any order you prefer. However, they are listed in the o
 beneficial for you to work through the topics. The time commitment for each line item is generally 20 to 40
 minutes unless otherwise noted.</p>
 <ol>
-	<li>Stay focused on the due dates by reviewing our course calendar<NavLink to='/calendar/2'>[link]</NavLink></li>
+	<li>Stay focused on the due dates by reviewing our course calendar <NavLink to='/calendar/2'>[link]</NavLink></li>
 	<li><em>Review sprint 2 assignments including Lab 2, Quiz 2, Discussion 2, Reflection 2, and Lab Demo</em></li>
-	<li>Study and understand our “Coding Standards”<NavLink to='/activity/coding-standards'>[link]</NavLink></li>
+	<li>Study and understand our “Coding Standards” <NavLink to='/activity/coding-standards'>[link]</NavLink></li>
 	<li>{start(programmingAssignment)}</li>
 	{/* The above items should be consistent across classes. */ }
 
 	<li>Review Object-Oriented Programming Patterns<NavLink to='/activity-oop/patterns'>[video]</NavLink></li>
-	<li>Review Object-Oriented Programming Principles<NavLink to='/activity-oop/principles'>[video]</NavLink></li>
-	<li>Read “Introducing Go” chapters 7 on Structs and Interfaces<a href='https://learning.oreilly.com/library/view/introducing-go/9781491941997/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
-	<li>Read “Introducing Go” chapters 8 on Packages<a href='https://learning.oreilly.com/library/view/introducing-go/9781491941997/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
-	<li>Complete the “Create a Go module” tutorial<a href='https://golang.org/doc/tutorial/create-module' target='_blank' rel='noopener noreferrer'>[link]</a></li>
-	<li>Within O’Reilly Books<a href='https://www.oreilly.com' target='_blank' rel='noopener noreferrer'>[link]</a> 
+	<li>Review Object-Oriented Programming Principles <NavLink to='/activity-oop/principles'>[video]</NavLink></li>
+	<li>Read “Introducing Go” chapters 7 on Structs and Interfaces <a href='https://learning.oreilly.com/library/view/introducing-go/9781491941997/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+	<li>Read “Introducing Go” chapters 8 on Packages <a href='https://learning.oreilly.com/library/view/introducing-go/9781491941997/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+	<li>Complete the “Create a Go module” tutorial <a href='https://golang.org/doc/tutorial/create-module' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+	<li>Within O’Reilly Books <a href='https://www.oreilly.com' target='_blank' rel='noopener noreferrer'>[link]</a> 
 		perform a searches for Golang, Git, and ReactJS</li>
 	<li><em>Make your initial Discussion 2post by the middle of the sprint</em></li>
 
@@ -50,7 +50,7 @@ minutes unless otherwise noted.</p>
 </ol>
 
 <p>If you are struggling, remember to reach out to your Scrum teammates early and often for help. Also, be sure to 
-periodically check for new programming together tutorials<NavLink to='/activity/programming-together'>[link]</NavLink>.</p>
+periodically check for new programming together tutorials <NavLink to='/activity/programming-together'>[link]</NavLink>.</p>
 
 </div>
 

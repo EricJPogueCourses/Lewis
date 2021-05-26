@@ -40,7 +40,7 @@ following branching commands:</p>
 
 <p>Below is a Git and GitHub reference provided by GitHub:</p>
 <ul style={{listStyleType:'square'}}>
-	<li>GitHub Git Cheat Sheet<a href='https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf' target='blank' rel='noopener noreferrer'>[link]</a></li>
+	<li>GitHub Git Cheat Sheet <a href='https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf' target='blank' rel='noopener noreferrer'>[link]</a></li>
 </ul>
 </div>
 

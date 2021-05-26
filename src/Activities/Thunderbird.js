@@ -25,9 +25,9 @@ their favorite super heros.
 <h5>Prerequisites: </h5>
 <ol>
 	<li>{appProps.prerequisites}</li>
-	<li>“ThunderbirdLite”<NavLink to='/activity-oop/java-thunderbird-lite'>[video]</NavLink></li>
-	<li>“Personal Information JSON Files”<NavLink to='/activity-oop/personal-info-json-to-azure'>[video]</NavLink></li>
-	<li>“SleepFast”<NavLink to='/activity-oop/java-sleep-fast'>[video]</NavLink></li>
+	<li>“ThunderbirdLite” <NavLink to='/activity-oop/java-thunderbird-lite'>[video]</NavLink></li>
+	<li>“Personal Information JSON Files” <NavLink to='/activity-oop/personal-info-json-to-azure'>[video]</NavLink></li>
+	<li>“SleepFast” <NavLink to='/activity-oop/java-sleep-fast'>[video]</NavLink></li>
 </ol>
 <p>Thunderbird is an activity that leverages the knowledge that you have gained in previous activities (graphical, 
 distributed, and multithreaded programming) to create a visually appealing virtual seating chart. We will utilize 
@@ -54,7 +54,7 @@ to what you created in ThunderbirdLite), and then utilize the code as the starti
 	<li>Implementing each “Todo:” feature identified in the Thunderbird starter code</li>
 	<li>Adding a comment with your initials in the source code after each “Todo:” comment describing your 
 		implementation</li>
-	<li>Loading the JSON index file<a href='https://thunderbird-index.azurewebsites.net/w0a6zk195d.json' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+	<li>Loading the JSON index file <a href='https://thunderbird-index.azurewebsites.net/w0a6zk195d.json' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li>Parsing each contact JSON URL</li>
 	<li>Loading each contact JSON file</li>
 	<li>Validating each contact JSON file</li>

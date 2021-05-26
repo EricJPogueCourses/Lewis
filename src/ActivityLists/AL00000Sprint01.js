@@ -42,12 +42,12 @@ focused time unless otherwise noted. <em>Bold</em> items are graded assignments.
 export const StandardActivities = (programmingAssignment) => { 
 	return ( <div>
 
-<li>Maintain laser focus on due dates by reviewing our class calendar<NavLink to='/calendar/1'>[link]</NavLink> and sprint 1 schedule<NavLink to='/schedule/1'>[link]</NavLink></li>
-<li>Review our course syllabus<a href={classSyllabusURL()}>[link]</a></li>
-<li>Understand Blended Learning by reviewing “Blended Learning &amp; Flipped Classroom”<NavLink to='/activity/blended-learning'>[video]</NavLink></li>
-<li>Be prepared to participate in your Scrum team by watching “Introduction to Scrum in 7 Minutes”<NavLink to='/activity/scrum-in-7-minutes'>[video]</NavLink></li>
+<li>Maintain laser focus on due dates by reviewing our class calendar <NavLink to='/calendar/1'>[link]</NavLink> and sprint 1 schedule <NavLink to='/schedule/1'>[link]</NavLink></li>
+<li>Review our course syllabus <a href={classSyllabusURL()}>[link]</a></li>
+<li>Understand Blended Learning by reviewing “Blended Learning &amp; Flipped Classroom” <NavLink to='/activity/blended-learning'>[video]</NavLink></li>
+<li>Be prepared to participate in your Scrum team by watching “Introduction to Scrum in 7 Minutes” <NavLink to='/activity/scrum-in-7-minutes'>[video]</NavLink></li>
 <li><em>Review sprint 1 assignments including Lab 1, Quiz 1, Discussion 1, and Reflection 1</em></li>
-<li>Start working on “Tools of the Trade”<NavLink to='/activity/tools'>[link]</NavLink>by setting up Discord and O’Reilly Books</li>
+<li>Start working on “Tools of the Trade” <NavLink to='/activity/tools'>[link]</NavLink> by setting up Discord and O’Reilly Books</li>
 {StartProgrammingActivity(programmingAssignment)}
 
 	</div> )
@@ -60,7 +60,7 @@ export const InitialPost = () => {
 export const StandardActivitiesClosing = (programmingAssignment) => { 
 	return ( <div>
 
-<li>Add a representative photo of yourself to your Blackboard and Zoom profiles<NavLink to='/activity/photo-to-blackboard'>[video]</NavLink></li>
+<li>Add a representative photo of yourself to your Blackboard and Zoom profiles <NavLink to='/activity/photo-to-blackboard'>[video]</NavLink></li>
 {ProgrammingActivity(programmingAssignment)}
 <li><em>Complete Discussion 1 by responding to at least two of your classmates’ posts</em></li>
 <li><em>Submit Lab 1, Quiz 1, and Reflection 1</em></li>
@@ -73,7 +73,7 @@ export const Closing = () => {
 
 <p>The best advise that I can give you for being successful this sprint is to attend class, start assignments early, and to submit 
 something for each assignment. If you do these things, I believe your success is virtually guaranteed. Finally, be sure to 
-periodically check for new programming together tutorials<NavLink to='/activity/programming-together'>[link]</NavLink>.</p>
+periodically check for new programming together tutorials <NavLink to='/activity/programming-together'>[link]</NavLink>.</p>
 
 	) 
 }

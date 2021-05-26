@@ -30,22 +30,22 @@ beneficial for you to work through the topics. The time commitment for each line
 minutes unless otherwise noted.</p>
 <ol>
 
-<li>Stay focused on the due dates by reviewing our course calendar<NavLink to='/calendar/2'>[link]</NavLink></li>
+<li>Stay focused on the due dates by reviewing our course calendar <NavLink to='/calendar/2'>[link]</NavLink></li>
 	<li><em>Review sprint 2 assignments including Lab 2, Quiz 2, Discussion 2, Reflection 2, and Lab Demo</em></li>
 	<li>Study and understand our “Coding Standards”<NavLink to='/activity/coding-standards'>[link]</NavLink></li>
 	<li>{start(programmingAssignment)}</li>
 	{/* The above items should be consistent across classes. */ }
 
-	<li>Complete “Object-Oriented Programming Patterns”<NavLink to='/activity-oop/patterns'>[video]</NavLink></li>
-	<li>Complete “How To Be A Successful Programmer”<NavLink to='/activity/successful-programmer'>[link]</NavLink></li>
-	<li>Read “Learning Java, 5th Edition” chapter 3<a href='https://learning.oreilly.com/library/view/learning-java-5th/9781492056263/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
-	<li>Within O’Reilly Books<a href='https://www.oreilly.com' target='_blank' rel='noopener noreferrer'>[link]</a>
+	<li>Complete “Object-Oriented Programming Patterns” <NavLink to='/activity-oop/patterns'>[video]</NavLink></li>
+	<li>Complete “How To Be A Successful Programmer” <NavLink to='/activity/successful-programmer'>[link]</NavLink></li>
+	<li>Read “Learning Java, 5th Edition” chapter 3 <a href='https://learning.oreilly.com/library/view/learning-java-5th/9781492056263/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+	<li>Within O’Reilly Books <a href='https://www.oreilly.com' target='_blank' rel='noopener noreferrer'>[link]</a>
 		execute searches for Object-Oriented Programming, OOP, Git, GitHub, and Java</li>
-	<li>Complete “Shapes - Part 1”<NavLink to='/activity-oop/java-shapes-step1'>[video]</NavLink></li>
+	<li>Complete “Shapes - Part 1” <NavLink to='/activity-oop/java-shapes-step1'>[video]</NavLink></li>
 	<li><em>Make your initial Discussion 2 post by the middle of the sprint</em></li>
-	<li>Complete “Shapes - Part 2”<NavLink to='/activity-oop/java-shapes-step2'>[video]</NavLink></li>
-	<li>Complete “Object-Oriented Programming Principles”<NavLink to='/activity-oop/principles'>[video]</NavLink></li>
-	<li>Review UML Class Diagrams<a href='https://www.youtube.com/watch/UI6lqHOVHic' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+	<li>Complete “Shapes - Part 2” <NavLink to='/activity-oop/java-shapes-step2'>[video]</NavLink></li>
+	<li>Complete “Object-Oriented Programming Principles” <NavLink to='/activity-oop/principles'>[video]</NavLink></li>
+	<li>Review UML Class Diagrams <a href='https://www.youtube.com/watch/UI6lqHOVHic' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 
 	{/* The items below should be consistent across classes. */ }
 	<li>{complete(programmingAssignment)}</li>

@@ -23,7 +23,7 @@ export const al44000Sprint07 = () => {
 	</ul>
 	<p>Below is the list of activities that we will need to complete this sprint.</p>
 	<ol>
-		<li>Stay focused on the due dates by reviewing our course calendar<NavLink to='/calendar/7'>[link]</NavLink></li>
+		<li>Stay focused on the due dates by reviewing our course calendar <NavLink to='/calendar/7'>[link]</NavLink></li>
 		<li><em>Review Lab 7, Quiz 7, Discussion 7, Reflection 7, and Lab Demo</em></li>
 		<li>{start(programmingAssignment)}</li>
 		{/* The above items should be consistent across classes. */ }
@@ -37,14 +37,14 @@ export const al44000Sprint07 = () => {
 			
 		<li>Invest 30 minutes to understand the basics of React:</li>
 		<ul style={{listStyleType:'square'}}>
-			<li>Briefly review React.org<a href='https://reactjs.org/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+			<li>Briefly review React.org <a href='https://reactjs.org/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 			<li>Scan “Learning React, 2nd Edition” by Eve Porcello and Alex Banks chapters 1, 2, and 3<a href='https://learning.oreilly.com/library/view/learning-react-2nd/9781492051718/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
-			<li>Scan the React tutorial from W3C<a href='https://www.w3schools.com/react/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+			<li>Scan the React tutorial from W3C <a href='https://www.w3schools.com/react/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 			<li>Briefly review “Create your fist React app” from “Azure Static Web Apps”<a href='https://aka.ms/swadocs' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 		</ul>
-		<li>Individually complete Programming Together with “React on Azure”<NavLink to='/activity-config/react-on-azure'>[video]</NavLink></li>
+		<li>Individually complete Programming Together with “React on Azure” <NavLink to='/activity-config/react-on-azure'>[video]</NavLink></li>
 		<li><em>Compete your initial Discussion post by the middle of the sprint</em></li>
-		<li>Complete “Application Architectures, Object-Oriented Programming, and Databases - Part 1”<NavLink to='/activity-architecture/application-architecture-part1'>[video]</NavLink></li>
+		<li>Complete “Application Architectures, Object-Oriented Programming, and Databases - Part 1” <NavLink to='/activity-architecture/application-architecture-part1'>[video]</NavLink></li>
 
 		<li>Complete sprint 3 planning with your final project team</li>
 
@@ -54,7 +54,7 @@ export const al44000Sprint07 = () => {
 	</ol>
 	
 	<p>If you are struggling, remember to reach out to your Scrum teammates early and often for help. Also, be sure to 
-	periodically check for new programming together tutorials<NavLink to='/activity/programming-together'>[link]</NavLink>.</p>
+	periodically check for new programming together tutorials <NavLink to='/activity/programming-together'>[link]</NavLink>.</p>
 	{extras()}
 </div>
 

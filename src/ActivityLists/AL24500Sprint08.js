@@ -24,12 +24,12 @@ yourself.</p>
 <p>In order to do my part if giving you time to build something exceptional, I am removing all non-essential items
 this week's Activities List. As such, our list includes:</p>
 <ol>
-<li><em style={{color:'red'}}>Stay laser focused on the due dates by reviewing our course calendar</em><NavLink to='/calendar/8'>[link]</NavLink></li>
+<li><em style={{color:'red'}}>Stay laser focused on the due dates by reviewing our course calendar</em> <NavLink to='/calendar/8'>[link]</NavLink></li>
 	<li><em>Confirm your Final Project presentation date &amp; time</em></li>
 	<li><em>Review Lab 8, Quiz 8, Discussion 8, Reflection 8, and Final Project Presentation</em></li>
 	<li>{start(FinalProject)}</li>
 
-	<li>Complete “Application Architectures, Object-Oriented Programming, and Databases - Part 2”<NavLink to='/activity-architecture/application-architecture-part2'>[video]</NavLink></li>
+	<li>Complete “Application Architectures, Object-Oriented Programming, and Databases - Part 2” <NavLink to='/activity-architecture/application-architecture-part2'>[video]</NavLink></li>
 
 	<li>{complete(FinalProject)}</li>
 	<li>Complete your Final Project presentation</li>

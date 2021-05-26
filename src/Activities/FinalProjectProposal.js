@@ -10,8 +10,8 @@ export const FinalProjectProposal = () => {
 <h5>Summary: Create a final project proposal web page.</h5>
 <h5>Prerequisites:</h5>
 <ul style={{listStyleType:'square'}}>
-	<li>“Getting to Know Each Other”<NavLink to='/activity/getting-to-know-each-other'>[link]</NavLink></li>
-	<li>“Azure Free Static Website Tutorial”<NavLink to='/activity/azure-website'>[link]</NavLink></li>
+	<li>“Getting to Know Each Other” <NavLink to='/activity/getting-to-know-each-other'>[link]</NavLink></li>
+	<li>“Azure Free Static Website Tutorial” <NavLink to='/activity/azure-website'>[link]</NavLink></li>
 </ul>
 			
 <p>In this project you will create a final project proposal web page. The web page should take the form of a single 

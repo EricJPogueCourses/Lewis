@@ -189,25 +189,25 @@ export const AzureWebsite = {
 
 export const start = (assignment) => { 
 	if (assignment != null) 
-		return ( <div>Start working on {assignment.name}<NavLink to={assignment.link}>[link]</NavLink></div>)
+		return ( <div>Start working on {assignment.name} <NavLink to={assignment.link}>[link]</NavLink></div>)
 }
 
 export const StartProgrammingActivity = (assignment) => {
 	if (assignment != null) 
-		return ( <div><li>Start working on {assignment.name}<NavLink to={assignment.link}>[link]</NavLink></li></div> )
+		return ( <div><li>Start working on {assignment.name} <NavLink to={assignment.link}>[link]</NavLink></li></div> )
 }
 
 export const reviewAndUpdate = (assignment) => { 
-	return ( <div>Review and update your {assignment.name}<NavLink to={assignment.link}>[link]</NavLink></div>) 
+	return ( <div>Review and update your {assignment.name} <NavLink to={assignment.link}>[link]</NavLink></div>) 
 }
 
 export const reviewAndUpdateProgrammingActivity = (assignment) => { 
 	if (assignment != null) 
-	return ( <div><li>Review and update your {assignment.name}<NavLink to={assignment.link}>[link]</NavLink></li></div> )
+	return ( <div><li>Review and update your {assignment.name} <NavLink to={assignment.link}>[link]</NavLink></li></div> )
 }
 
 export const complete = (assignment) => { 
-	return ( <div>Complete {assignment.name}<NavLink to={assignment.link}>[link]</NavLink>{sup(assignment.estimate)}</div>)
+	return ( <div>Complete {assignment.name} <NavLink to={assignment.link}>[link]</NavLink>{sup(assignment.estimate)}</div>)
 }
 
 export const ProgrammingActivity = (assignment, estimatedTime) => { 
@@ -220,7 +220,7 @@ export const ProgrammingActivity = (assignment, estimatedTime) => {
 				estimate = '~'+estimatedTime+' hours'
 		} 
 
-		return ( <div><li>Complete {assignment.name}<NavLink to={assignment.link}>[link]</NavLink>{sup(estimate)}</li></div> )
+		return ( <div><li>Complete {assignment.name} <NavLink to={assignment.link}>[link]</NavLink>{sup(estimate)}</li></div> )
 	}
 }
 

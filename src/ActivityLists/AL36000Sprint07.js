@@ -27,27 +27,27 @@ and authorize users</p>
 
 <p>Below is our activities list:</p>
 <ol>
-	<li>Stay focused on the due dates by reviewing our course calendar<NavLink to='/calendar/7'>[link]</NavLink></li>
+	<li>Stay focused on the due dates by reviewing our course calendar <NavLink to='/calendar/7'>[link]</NavLink></li>
 	<li><em>Review Lab 7, Quiz 7, Discussion 7, Reflection 7, and Lab Demo</em></li>
 	<li>{start(programmingAssignment)}</li>
 	{/* The above items should be consistent across classes.*/}
 
 	<li>{reviewAndUpdate(FinalProjectProposal)}</li>
-	<li>Complete “Application Architectures, Object-Oriented Programming, and Databases - Part 1”<NavLink to='/activity-architecture/application-architecture-part1'>[video]</NavLink></li>
+	<li>Complete “Application Architectures, Object-Oriented Programming, and Databases - Part 1” <NavLink to='/activity-architecture/application-architecture-part1'>[video]</NavLink></li>
 
-	<li>Read “Authentication”<a href='https://en.wikipedia.org/wiki/Authentication' target='_blank' rel='noopener noreferrer'>[link]</a>
-		and “Authorization”<a href='https://en.wikipedia.org/wiki/Authorization' target='_blank' rel='noopener noreferrer'>[link]</a>
+	<li>Read “Authentication” <a href='https://en.wikipedia.org/wiki/Authentication' target='_blank' rel='noopener noreferrer'>[link]</a>
+		and “Authorization” <a href='https://en.wikipedia.org/wiki/Authorization' target='_blank' rel='noopener noreferrer'>[link]</a>
 		from Wikipedia</li>
 	<li>Read “Authentication and authorization in Azure App Service and Azure Functions”<a href='https://docs.microsoft.com/en-us/azure/app-service/overview-authentication-authorization' target='_blank' rel='noopener noreferrer'>[link]</a></li>
-	<li>Complete “Restrict access” from “Azure Static Web Apps”<a href='https://aka.ms/swadocs' target='_blank' rel='noopener noreferrer'>[link]</a>
+	<li>Complete “Restrict access” from “Azure Static Web Apps” <a href='https://aka.ms/swadocs' target='_blank' rel='noopener noreferrer'>[link]</a>
 		while focusing on Authentication and Authorization</li>
 
 	<li><em>Make your initial Discussion post by the middle of the sprint</em></li>
-	<li>Read “Learning React, 2nd Edition” chapters 4, 5, and 6<a href='https://learning.oreilly.com/library/view/learning-react-2nd/9781492051718/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
-	<li>Scan “Learning React, 2nd Edition” chapters 7 and 8<a href='https://learning.oreilly.com/library/view/learning-react-2nd/9781492051718/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+	<li>Read “Learning React, 2nd Edition” chapters 4, 5, and 6 <a href='https://learning.oreilly.com/library/view/learning-react-2nd/9781492051718/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+	<li>Scan “Learning React, 2nd Edition” chapters 7 and 8 <a href='https://learning.oreilly.com/library/view/learning-react-2nd/9781492051718/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 
-	<li>Complete “Add authentication to your web app running on Azure App Service” Tutorial<a href='https://docs.microsoft.com/en-us/azure/app-service/scenario-secure-app-authentication-app-service' target='_blank' rel='noopener noreferrer'>[link]</a></li>
-	<li>Complete “Access Azure Storage from a web app” Tutorial<a href='https://docs.microsoft.com/en-us/azure/app-service/scenario-secure-app-access-storage?tabs=azure-portal%2Ccommand-line' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+	<li>Complete “Add authentication to your web app running on Azure App Service” Tutorial <a href='https://docs.microsoft.com/en-us/azure/app-service/scenario-secure-app-authentication-app-service' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+	<li>Complete “Access Azure Storage from a web app” Tutorial <a href='https://docs.microsoft.com/en-us/azure/app-service/scenario-secure-app-access-storage?tabs=azure-portal%2Ccommand-line' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li>{complete(programmingAssignment)}</li>
 
 	<li>{complete(FinalProjectSprint0)}</li>
@@ -57,7 +57,7 @@ and authorize users</p>
 </ol>
 	
 <p>If you are struggling, remember to reach out to your Scrum teammates early and often for help. Also, be sure to 
-periodically check for new programming together tutorials<NavLink to='/activity/programming-together'>[link]</NavLink>.</p>
+periodically check for new programming together tutorials <NavLink to='/activity/programming-together'>[link]</NavLink>.</p>
 {extras()}
 </div>
 	)
@@ -70,11 +70,11 @@ const extras = () => {
 
 <p>Additional suggested activities:</p>
 <ul style={{listStyleType:'square'}}>
-	<li>Review React.org<a href='https://reactjs.org/' target='_blank' rel='noopener noreferrer'>[link]</a> focusing on 
+	<li>Review React.org <a href='https://reactjs.org/' target='_blank' rel='noopener noreferrer'>[link]</a> focusing on 
 		“Stateful Components”</li>
-	<li>Review the React tutorial from W3C<a href='https://www.w3schools.com/react/' target='_blank' rel='noopener noreferrer'>[link]</a> 
+	<li>Review the React tutorial from W3C <a href='https://www.w3schools.com/react/' target='_blank' rel='noopener noreferrer'>[link]</a> 
 		focusing on Components, Props, and State</li>
-	<li>Complete “React - The Complete Guide” chapters 3 and 4<a href='https://learning.oreilly.com/videos/react-the/9781789132229/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+	<li>Complete “React - The Complete Guide” chapters 3 and 4 <a href='https://learning.oreilly.com/videos/react-the/9781789132229/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 </ul>
 
 	</div>)

@@ -84,7 +84,7 @@ mouth should be randomly smiling, frowning, or in-between. </p>
 </ol>
 
 <em>Requirement 4</em>
-<p>Test and refactor the application so that it implements all appropriate Coding Standards<NavLink to='/activity/coding-standards'>[link]</NavLink></p>
+<p>Test and refactor the application so that it implements all appropriate Coding Standards <NavLink to='/activity/coding-standards'>[link]</NavLink></p>
 </div> )
 
 }

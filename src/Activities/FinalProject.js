@@ -10,7 +10,7 @@ export const FinalProject = () => {
 <h5>Summary: Based on our final project proposal, you are going to deliver something uniquely your own.</h5>
 <h5>Prerequisites:</h5>
 <ul style={{listStyleType:'square'}}>
-	<li>“Final Project Proposal”<NavLink to='/activity/final-project-proposal'>[link]</NavLink></li>
+	<li>“Final Project Proposal” <NavLink to='/activity/final-project-proposal'>[link]</NavLink></li>
 </ul>
 
 <p>In this activity you will deliver a final project that is uniquely your own. What you create should include the 
@@ -20,7 +20,7 @@ order that you identified in your proposal.</p>
 need to make sure that your finished product implements sufficient features to be a complete and usable product.</p>
 
 <em>Requirement 1</em>
-<p>Create a product based on your “Final Project Proposal”<NavLink to='/activity/final-project-proposal'>[link]</NavLink> by:</p>
+<p>Create a product based on your “Final Project Proposal” <NavLink to='/activity/final-project-proposal'>[link]</NavLink> by:</p>
 <ol>
 	<li>Successfully deploying your usable application to an appropriate production environment</li>
 	<li>Making the source code available for review</li>
@@ -37,7 +37,7 @@ features we delivered in previous applications.</p>
 are <em>greater in complexity</em> than features we delivered in previous applications.</p>
 
 <em>Requirement 4</em>
-<p>Update your “Final Project Proposal”<NavLink to='/activity/final-project-proposal'>[link]</NavLink> and README.md file so they reflect:</p>
+<p>Update your “Final Project Proposal” <NavLink to='/activity/final-project-proposal'>[link]</NavLink> and README.md file so they reflect:</p>
 <ol>
 	<li>What was originally planned for your final project</li>
 	<li>What was delivered in your Final Project</li>
@@ -56,7 +56,7 @@ export const FinalProjectSprint0 = () => {
 <h5>Summary: In addition to creating a final project proposal, we are going to deliver something.</h5>
 <h5>Prerequisites:</h5>
 <ul style={{listStyleType:'square'}}>
-	<li>“Final Project Proposal”<NavLink to='/activity/final-project-proposal'>[link]</NavLink></li>
+	<li>“Final Project Proposal” <NavLink to='/activity/final-project-proposal'>[link]</NavLink></li>
 </ul>
 
 <p>In this activity you will start your final project. Build something. Anything that makes you feel good and shows 
@@ -81,8 +81,8 @@ export const FinalProjectSprint1 = () => {
 <h5>Summary: Let’s deliver sprint 1 of our final project.</h5>
 <h5>Prerequisites:</h5>
 <ul style={{listStyleType:'square'}}>
-	<li>“Final Project Proposal”<NavLink to='/activity/final-project-proposal'>[link]</NavLink></li>
-	<li>“Final Project Sprint 0”<NavLink to='/activity/final-project-sprint-0'>[link]</NavLink></li>
+	<li>“Final Project Proposal” <NavLink to='/activity/final-project-proposal'>[link]</NavLink></li>
+	<li>“Final Project Sprint 0” <NavLink to='/activity/final-project-sprint-0'>[link]</NavLink></li>
 </ul>
 
 <p>This is our first full sprint for our final project. We delivered something in sprint 0, we completed sprint 1 
@@ -111,8 +111,8 @@ export const FinalProjectSprint2 = () => {
 <h5>Summary: Sprint 2. Let’s keep building on we have accomplished.</h5>
 <h5>Prerequisites:</h5>
 <ul style={{listStyleType:'square'}}>
-	<li>“Final Project Proposal”<NavLink to='/activity/final-project-proposal'>[link]</NavLink></li>
-	<li>“Final Project Sprint 1”<NavLink to='/activity/final-project-sprint-1'>[link]</NavLink></li>
+	<li>“Final Project Proposal” <NavLink to='/activity/final-project-proposal'>[link]</NavLink></li>
+	<li>“Final Project Sprint 1” <NavLink to='/activity/final-project-sprint-1'>[link]</NavLink></li>
 </ul>
 
 <p>We should be gaining a rhythm in our working together as a team by now. Hopefully we delivered something useful 
@@ -141,9 +141,9 @@ export const FinalProjectSprint3 = () => {
 <h5>Summary: Sprint 2. This is it. Let’s build something special.</h5>
 <h5>Prerequisites:</h5>
 <ul style={{listStyleType:'square'}}>
-	<li>“Final Project Proposal”<NavLink to='/activity/final-project-proposal'>[link]</NavLink></li>
-	<li>“Final Project Sprint 1”<NavLink to='/activity/final-project-sprint-1'>[link]</NavLink></li>
-	<li>“Final Project Sprint 2”<NavLink to='/activity/final-project-sprint-2'>[link]</NavLink></li>
+	<li>“Final Project Proposal” <NavLink to='/activity/final-project-proposal'>[link]</NavLink></li>
+	<li>“Final Project Sprint 1” <NavLink to='/activity/final-project-sprint-1'>[link]</NavLink></li>
+	<li>“Final Project Sprint 2” <NavLink to='/activity/final-project-sprint-2'>[link]</NavLink></li>
 </ul>
 
 <p>We should be working with a solid cadence. Now it’s time to focus all of our energy on building something special.</p>

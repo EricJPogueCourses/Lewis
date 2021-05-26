@@ -14,8 +14,8 @@ export const PythonTurtleDraw = () => {
 <h5>Summary: Create a Python application that will read from a file and draw graphical lines and shapes.</h5>
 <h5>Prerequisites: Python (v3), VS Code, Terminal, and the Python Debugger (optional) plus</h5>
 <ul style={{listStyleType:'square'}}>
-	<li>“Hello World with Python”<NavLink to='/activity/hello-world-python'>[link]</NavLink></li>
-	<li>“Numbering Systems with Python”<NavLink to='/activity/numbering-systems-python'>[link]</NavLink></li>
+	<li>“Hello World with Python” <NavLink to='/activity/hello-world-python'>[link]</NavLink></li>
+	<li>“Numbering Systems with Python” <NavLink to='/activity/numbering-systems-python'>[link]</NavLink></li>
 </ul>
 			
 <p>In this assignment you will develop and test a python application that reads data from a text file and then based on 

@@ -116,7 +116,7 @@ Total Score and Risk Category:
 
 We will allow the agent to evaluate people's health risk until they indicate they are done.
 
-<p>If you are looking for some examples of what this application might look, you can see it here<NavLink to='/activity/health-risk-calculator-examples'>[link]</NavLink>. 
+<p>If you are looking for some examples of what this application might look, you can see it here <NavLink to='/activity/health-risk-calculator-examples'>[link]</NavLink>. 
 You will need to design your own interface and verify that it meets the specific requirements below. I’m sure you can 
 improve on his design in any event. 
 </p>
@@ -148,7 +148,7 @@ improve on his design in any event.
 </ol>
 
 <em>Requirement 4</em>
-<p>Finally test and refactor the application so that it implements all appropriate Coding Standards<NavLink to='/activity/coding-standards'>[link]</NavLink></p>
+<p>Finally test and refactor the application so that it implements all appropriate Coding Standards <NavLink to='/activity/coding-standards'>[link]</NavLink></p>
 </div> )
 
 }

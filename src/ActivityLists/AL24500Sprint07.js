@@ -29,13 +29,13 @@ middle of the sprint so that you can be 100% focused on your final project durin
 
 <p>Below is our sprint 7 activities list. </p>
 <ol>
-	<li>Stay focused on the due dates by reviewing our course calendar<NavLink to='/calendar/7'>[link]</NavLink></li>
+	<li>Stay focused on the due dates by reviewing our course calendar <NavLink to='/calendar/7'>[link]</NavLink></li>
 	<li><em>Review Lab 7, Quiz 7, Discussion 7, Reflection 7, and Lab Demo</em></li>
 	{/* The above items should be consistent across classes. */ }
 	<li>{start(ThunderbirdWithJava)}</li>
 
-	<li>Complete “ThunderbirdLite”<NavLink to='/activity-oop/java-thunderbird-lite'>[video]</NavLink><sup>~2 hours</sup></li>
-	<li>Complete “Application Architectures, Object-Oriented Programming, and Databases - Part 1”<NavLink to='/activity-architecture/application-architecture-part1'>[video]</NavLink></li>
+	<li>Complete “ThunderbirdLite” <NavLink to='/activity-oop/java-thunderbird-lite'>[video]</NavLink><sup>~2 hours</sup></li>
+	<li>Complete “Application Architectures, Object-Oriented Programming, and Databases - Part 1” <NavLink to='/activity-architecture/application-architecture-part1'>[video]</NavLink></li>
 	<li>{complete(ThunderbirdWithJava)}</li>
 
 	<li><em>Make your initial Discussion post by the middle of the sprint</em></li>
@@ -46,7 +46,7 @@ middle of the sprint so that you can be 100% focused on your final project durin
 	<li><em>Complete Discussion 7, Lab 7, Quiz 7, Reflection 7, and Lab Demo</em></li>
 </ol>
 <p>If you are struggling, remember to reach out to your Scrum teammates early and often for help. Also, be sure to 
-periodically check for new programming together tutorials<NavLink to='/activity/programming-together'>[link]</NavLink>.</p>
+periodically check for new programming together tutorials <NavLink to='/activity/programming-together'>[link]</NavLink>.</p>
 {extras()}
 </div>
 

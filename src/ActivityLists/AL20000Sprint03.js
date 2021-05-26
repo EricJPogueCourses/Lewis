@@ -25,25 +25,25 @@ and computing components.</p>
 
 <p>Below is our sprint 3 activities list:</p>
 <ol>
-	<li>Stay focused on the due dates by reviewing our course calendar<NavLink to='/calendar/3'>[link]</NavLink></li>
+	<li>Stay focused on the due dates by reviewing our course calendar <NavLink to='/calendar/3'>[link]</NavLink></li>
 	<li><em>Review sprint 3 assignments including Lab 3, Quiz 3, Discussion 3, Reflection 3, and Lab Demo</em></li>
 	<li>{start(programmingAssignment)}</li>
-	<li>Review the CAMS Study Table tutoring options<NavLink to='/activity/study-table'>[link]</NavLink></li>
-	<li>Review our class example code<NavLink to='/activity/example-code'>[link]</NavLink></li>
-	<li>Review our coding standards<NavLink to='/activity/coding-standards'>[link]</NavLink></li>
+	<li>Review the CAMS Study Table tutoring options <NavLink to='/activity/study-table'>[link]</NavLink></li>
+	<li>Review our class example code <NavLink to='/activity/example-code'>[link]</NavLink></li>
+	<li>Review our coding standards <NavLink to='/activity/coding-standards'>[link]</NavLink></li>
 	{/* The above items should be consistent across classes. */ }
 
-	<li>Read Dale chapter 4 Gates and Circuits<a href='https://learning.oreilly.com/library/view/computer-science-illuminated/9781284055917/' target='_blank' rel='noopener noreferrer'>[link]</a>
+	<li>Read Dale chapter 4 Gates and Circuits <a href='https://learning.oreilly.com/library/view/computer-science-illuminated/9781284055917/' target='_blank' rel='noopener noreferrer'>[link]</a>
 		and review our chapter 4 lecture <NavLink to='/activity-dale/4'>[video]</NavLink></li>
-	<li>Complete “HTML Programming - Part 2” from W3C<NavLink to='/activity/html'>[link]</NavLink><sup>~4 hours</sup></li>
+	<li>Complete “HTML Programming - Part 2” from W3C <NavLink to='/activity/html'>[link]</NavLink><sup>~4 hours</sup></li>
 	<li><em>Complete your initial Discussion 3 post by the middle of the sprint</em></li>
-	<li>Read Dale chapter 5 Computing Components<a href='https://learning.oreilly.com/library/view/computer-science-illuminated/9781284055917/' target='_blank' rel='noopener noreferrer'>[link]</a>
+	<li>Read Dale chapter 5 Computing Components <a href='https://learning.oreilly.com/library/view/computer-science-illuminated/9781284055917/' target='_blank' rel='noopener noreferrer'>[link]</a>
 		and review our chapter 5 lecture <NavLink to='/activity-dale/5'>[video]</NavLink></li>
-	<li>Review Git Cheat Sheet from GitHub<a href='https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf'
+	<li>Review Git Cheat Sheet from GitHub <a href='https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf'
 		target='_blank' rel='noopener noreferrer'>[link]</a></li>
-	<li>Review, test, and <em>enhance</em> “Getting to Know Each Other”<NavLink to='/activity/getting-to-know-each-other'>[link]</NavLink></li>
-	<li>Deploy “Getting to Know Each Other"<NavLink to='/activity/getting-to-know-each-other'>[link]</NavLink> from 
-		last sprint to an Azure website<NavLink to='/activity/azure-website'>[link]</NavLink><sup>~4 hours</sup></li>
+	<li>Review, test, and <em>enhance</em> “Getting to Know Each Other” <NavLink to='/activity/getting-to-know-each-other'>[link]</NavLink></li>
+	<li>Deploy “Getting to Know Each Other" <NavLink to='/activity/getting-to-know-each-other'>[link]</NavLink> from 
+		last sprint to an Azure website <NavLink to='/activity/azure-website'>[link]</NavLink><sup>~4 hours</sup></li>
 
 	{/* The items below should be consistent across classes. */ }
 	<li>{complete(programmingAssignment)}</li>
@@ -51,7 +51,7 @@ and computing components.</p>
 	<li><em>Submit Lab 3, Quiz 3, and Reflection 3</em></li>
 </ol>
 <p>If you are struggling, remember to reach out to your Scrum teammates early and often for help. Also, be sure to 
-periodically check for new programming together tutorials<NavLink to='/activity/programming-together'>[link]</NavLink>.</p>
+periodically check for new programming together tutorials <NavLink to='/activity/programming-together'>[link]</NavLink>.</p>
 {extras()}
 </div>
 

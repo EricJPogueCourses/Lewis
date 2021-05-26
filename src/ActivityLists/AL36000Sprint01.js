@@ -19,7 +19,7 @@ you develop more complex applications by utilizing encapsulation, inheritance, a
 
 <p>That’s wonderful. However, is it possible that some things in software development are not as clear cut as we have 
 made them out to be? Could it be that some of the things we learned in Object-Oriented Programming added unnecessary 
-complexity? Could it be that the world of software development has changed<a href='https://youtu.be/4L_3JrRSMQ4?t=30' target='_blank' rel='noopener noreferrer'>[link]</a>?
+complexity? Could it be that the world of software development has changed <a href='https://youtu.be/4L_3JrRSMQ4?t=30' target='_blank' rel='noopener noreferrer'>[link]</a>?
 Could it be that Scrum development techniques, iterative product releases, new web development technologies,
 and the ever increasing power of multithreaded programming have elevated testing and concurrency to a level that makes 
 new software development languages justifiable? These are just some of the topics that we will explore in our Applied 
@@ -45,24 +45,24 @@ need to complete the activities by the sprint 1 end date listed on our course ca
 listed in the order I think will be the most efficient to complete. Expect each item to take 20 to 40 minutes of 
 focused time unless otherwise noted. <em>Bold</em> items are graded assignments.</p>
 <ol>
-	<li>Maintain laser focus on due dates by reviewing our sprint calendar<NavLink to='/calendar/1'>[link]</NavLink></li>
+	<li>Maintain laser focus on due dates by reviewing our sprint calendar <NavLink to='/calendar/1'>[link]</NavLink></li>
 	<li>Review course syllabus<a href={syllabusURL}>[link]</a></li>
-	<li>Understand Blended Learning by reviewing “Blended Learning &amp; Flipped Classroom”<NavLink to='/activity/blended-learning'>[video]</NavLink></li>
-	<li>Be prepared to participate in a Scrum team by watching “Introduction to Scrum in 7 Minutes”<NavLink to='/activity/scrum-in-7-minutes'>[video]</NavLink></li>
+	<li>Understand Blended Learning by reviewing “Blended Learning &amp; Flipped Classroom” <NavLink to='/activity/blended-learning'>[video]</NavLink></li>
+	<li>Be prepared to participate in a Scrum team by watching “Introduction to Scrum in 7 Minutes” <NavLink to='/activity/scrum-in-7-minutes'>[video]</NavLink></li>
 	<li><em>Review sprint 1 assignments including Introduction, Lab 1, Quiz 1, Discussion 1, and Reflection 1</em></li>
-	<li>Start “Tools of the Trade”<NavLink to='/activity/tools'>[link]</NavLink>by setting up Discord and O’Reilly Books</li>
+	<li>Start “Tools of the Trade” <NavLink to='/activity/tools'>[link]</NavLink> by setting up Discord and O’Reilly Books</li>
 	<li><em>Complete the Introduction assignment by making your post and responding to at least two of your classmates</em></li>
 	<li>{start(programmingAssignment)}</li>
 	{/* The above items should be consistent and complete by the end of the second class session. */ }
 
-	<li>Review Object-Oriented Concepts<NavLink to='/activity-oop/concepts-and-practices'>[video]</NavLink></li>
-	<li>Review O’Reilly Books<a href='https://www.oreilly.com' target='_blank' rel='noopener noreferrer'>[link]</a>and read “Introducing Go” chapters 1 though 6<a href='https://learning.oreilly.com/library/view/introducing-go/9781491941997/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+	<li>Review Object-Oriented Concepts <NavLink to='/activity-oop/concepts-and-practices'>[video]</NavLink></li>
+	<li>Review O’Reilly Books <a href='https://www.oreilly.com' target='_blank' rel='noopener noreferrer'>[link]</a>and read “Introducing Go” chapters 1 though 6<a href='https://learning.oreilly.com/library/view/introducing-go/9781491941997/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li>Add a representative photo of yourself to your Blackboard and Zoom profiles<NavLink to='/activity/photo-to-blackboard'>[video]</NavLink></li>
 	<li><em>Make your initial Discussion 1 post by the middle of the sprint</em></li>
 
-	<li>Complete “Tools of the Trade” including Go<NavLink to='/activity/tools'>[link]</NavLink><sup> ~2 hours</sup></li>
-	<li>Complete “Hello World with Python”<NavLink to='/activity/hello-world-python'>[link]</NavLink></li>
-	<li>Complete “Hello World with Go”<NavLink to='/activity/hello-world-go'>[link]</NavLink></li>
+	<li>Complete “Tools of the Trade” including Go <NavLink to='/activity/tools'>[link]</NavLink><sup> ~2 hours</sup></li>
+	<li>Complete “Hello World with Python” <NavLink to='/activity/hello-world-python'>[link]</NavLink></li>
+	<li>Complete “Hello World with Go” <NavLink to='/activity/hello-world-go'>[link]</NavLink></li>
 
 	{/* Item below this line should be consistent across classes. */}
 	<li>{complete(programmingAssignment)}</li>

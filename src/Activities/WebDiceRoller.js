@@ -11,13 +11,13 @@ export const WebDiceRoller = () => {
 <h5>Summary: Create a website that simulates the rolling as part of a game</h5>
 <h5>Prerequisites: </h5>
 <ul style={{listStyleType:'square'}}>
-	<li>“Getting to Know Each Other”<NavLink to='/activity/getting-to-know-each-other'>[link]</NavLink></li>
-	<li>“Azure Free Static Website”<NavLink to='/activity/azure-website'>[link]</NavLink></li>
+	<li>“Getting to Know Each Other” <NavLink to='/activity/getting-to-know-each-other'>[link]</NavLink></li>
+	<li>“Azure Free Static Website” <NavLink to='/activity/azure-website'>[link]</NavLink></li>
 </ul>
 			
 <p><em>Instructions:</em> Many games require dice to be rolled to generate random numbers. This week you will create an 
 application that rolls dice for a game of your choice. If you cannot come up with a game, you are welcome to create a 
-dice roller that rolls dice for the Yahtzee game<a href='https://en.wikipedia.org/wiki/Yahtzee' target='blank' rel='noopener noreferrer'>[link]</a>
+dice roller that rolls dice for the Yahtzee game <a href='https://en.wikipedia.org/wiki/Yahtzee' target='blank' rel='noopener noreferrer'>[link]</a>
 games which requires each player to roll five 6-sided dice.</p>
 <p>Note that this is intended to be a fairly simple project that only provides the dices rolling aspect of the game. 
 The project does not require you to implement additional game play.</p>

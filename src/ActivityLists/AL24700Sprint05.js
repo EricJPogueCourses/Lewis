@@ -33,17 +33,17 @@ ourselves in JSON files that we can utilize to create a Distributed contact mana
 
 <p>With this in mind our activities list includes:</p>
 <ol>
-	<li>Verify due dates by checking our course calendar<NavLink to='/calendar/5'>[link]</NavLink></li>
+	<li>Verify due dates by checking our course calendar <NavLink to='/calendar/5'>[link]</NavLink></li>
 	<li><em>Review sprint 5 assignments including Lab 5, Quiz 5, Discussion 5, and Reflection 5</em></li>
-	<li>Start working on your “Final Project Proposal”<NavLink to='/activity/final-project-proposal'>[link]</NavLink></li>
+	<li>Start working on your “Final Project Proposal” <NavLink to='/activity/final-project-proposal'>[link]</NavLink></li>
 	<li>Start working on “Mustang version 1”</li>
 	{/* Todo: Check if there is a Mustang lite tutorial?*/}
-	<li><em>Complete “Final Project Proposal”</em><NavLink to='/activity/final-project-proposal'>[link]</NavLink> ~2 hours</li>
-	<li>Read chapter 10 of Sebesta and review our Ajax lecture<NavLink to='/activity/sebesta-chapter-10'>[video]</NavLink></li>
+	<li><em>Complete “Final Project Proposal”</em> <NavLink to='/activity/final-project-proposal'>[link]</NavLink> ~2 hours</li>
+	<li>Read chapter 10 of Sebesta and review our Ajax lecture <NavLink to='/activity/sebesta-chapter-10'>[video]</NavLink></li>
 	<li><em>Complete your initial discussion post by the middle of the sprint</em></li>
-	<li>Read chapter 13 of Sebesta and review our Database Access through the Web lecture<NavLink to='/activity/sebesta-chapter-13'>[video]</NavLink></li>
+	<li>Read chapter 13 of Sebesta and review our Database Access through the Web lecture <NavLink to='/activity/sebesta-chapter-13'>[video]</NavLink></li>
 	<li><em>Complete Mustang version 1</em> ~10 hours</li>
-	<li><em>Complete “Final Project Proposal”<NavLink to='/activity/final-project-proposal'>[link]</NavLink></em></li>
+	<li><em>Complete “Final Project Proposal” <NavLink to='/activity/final-project-proposal'>[link]</NavLink></em></li>
 	<li><em>Complete and submit all sprint 5 assignments including your lab, quiz, discussion, and reflection</em></li>
 </ol>
 

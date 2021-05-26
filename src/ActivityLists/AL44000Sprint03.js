@@ -26,26 +26,26 @@ with your classmates and scrum team members as you work through some of the open
 </ul>
 <p>Below is the list of activities that we will need to complete this sprint.</p>
 <ol>
-	<li>Stay focused on the due dates by reviewing our course calendar<NavLink to='/calendar/3'>[link]</NavLink></li>
+	<li>Stay focused on the due dates by reviewing our course calendar <NavLink to='/calendar/3'>[link]</NavLink></li>
 	<li><em>Review sprint 3 assignments including Lab 3, Quiz 3, Discussion 3, Reflection 3, and Lab Demo</em></li>
 	<li>{start(programmingAssignment)}</li>
-	<li>Review the CAMS Study Table tutoring options<NavLink to='/activity/study-table'>[link]</NavLink></li>
-	<li>Review our class example code<NavLink to='/activity/example-code'>[link]</NavLink></li>
-	<li>Review our coding standards<NavLink to='/activity/coding-standards'>[link]</NavLink></li>
+	<li>Review the CAMS Study Table tutoring options <NavLink to='/activity/study-table'>[link]</NavLink></li>
+	<li>Review our class example code <NavLink to='/activity/example-code'>[link]</NavLink></li>
+	<li>Review our coding standards <NavLink to='/activity/coding-standards'>[link]</NavLink></li>
 	{/* The above items should be consistent across classes. */}
 
 	<li>Review “Engineering Software as a Service” section 4.5 of Fox on Debugging</li>
-	<li>Read “Engineering Software as a Service” chapter 7 on Requirements and review the associated class lecture<NavLink to='/activity/fox-chapter-07'>[video]</NavLink></li>
+	<li>Read “Engineering Software as a Service” chapter 7 on Requirements and review the associated class lecture <NavLink to='/activity/fox-chapter-07'>[video]</NavLink></li>
 
-	<li>Within O’Reilly Books<a href='https://www.oreilly.com' target='_blank' rel='noopener noreferrer'>[link]</a>
+	<li>Within O’Reilly Books <a href='https://www.oreilly.com' target='_blank' rel='noopener noreferrer'>[link]</a>
 		find “Web Development with Node and Express, 2nd Edition” by Ethan Brown</li>
-	<li>Read “Web Development with Node and Express” chapters 1 and 2<a href='https://learning.oreilly.com/library/view/web-development-with/9781492053507/' target='_blank' rel='noopener noreferrer'>[link]</a>
+	<li>Read “Web Development with Node and Express” chapters 1 and 2 <a href='https://learning.oreilly.com/library/view/web-development-with/9781492053507/' target='_blank' rel='noopener noreferrer'>[link]</a>
 		while completing each of the exercises</li>
 	<li>Review “web/node-js-on-azure” code in our class example code</li>
 	<li><em>Make your initial Discussion 3 post by the middle of the sprint</em></li>
-	<li>Read “Web Development with Node and Express” chapters 3 and 4<a href='https://learning.oreilly.com/library/view/web-development-with/9781492053507/' target='_blank' rel='noopener noreferrer'>[link]</a>
+	<li>Read “Web Development with Node and Express” chapters 3 and 4 <a href='https://learning.oreilly.com/library/view/web-development-with/9781492053507/' target='_blank' rel='noopener noreferrer'>[link]</a>
 		while completing each of the exercises</li>
-	<li>Complete the “Node.js Tutorial” from W3C<a href='https://www.w3schools.com/nodejs/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+	<li>Complete the “Node.js Tutorial” from W3C <a href='https://www.w3schools.com/nodejs/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 
 	{/* The items below should be consistent across classes. */ }
 	<li>{complete(programmingAssignment)}</li>
@@ -53,7 +53,7 @@ with your classmates and scrum team members as you work through some of the open
 	<li><em>Submit Lab 3, Quiz 3, and Reflection 3</em></li>
 </ol>
 <p>If you are struggling, remember to reach out to your Scrum teammates early and often for help. Also, be sure to 
-periodically check for new programming together tutorials<NavLink to='/activity/programming-together'>[link]</NavLink>.</p>
+periodically check for new programming together tutorials <NavLink to='/activity/programming-together'>[link]</NavLink>.</p>
 {extras()}
 </div>
 

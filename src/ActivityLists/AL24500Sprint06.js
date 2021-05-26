@@ -25,19 +25,19 @@ other hand, learning how to write multi-threaded Java applications will likely p
 
 <p>Below is the list of activities that we will need to complete this sprint.</p>
 <ol>
-	<li>Stay focused on the due dates by reviewing our course calendar<NavLink to='/calendar/6'>[link]</NavLink></li>
+	<li>Stay focused on the due dates by reviewing our course calendar <NavLink to='/calendar/6'>[link]</NavLink></li>
 	<li><em>Review Lab 6, Quiz 6, Discussion 6, Reflection 6, and Lab Demo</em></li>
 	<li>{start(programmingAssignment)}</li>
 	{/* The above items should be consistent across classes. */}
 
-	<li>Review “Performance and Multithreading”<NavLink to='/activity-oop/performance-and-multithreaded-programming'>[video]</NavLink></li>
-	<li>Review “Website Creation With GitHub and Microsoft Azure”<NavLink to='/activity/azure-website'>[link]</NavLink></li>
-	<li>Complete “Personal Information JSON Files”<NavLink to='/activity-oop/personal-info-json-to-azure'>[video]</NavLink></li>
+	<li>Review “Performance and Multithreading” <NavLink to='/activity-oop/performance-and-multithreaded-programming'>[video]</NavLink></li>
+	<li>Review “Website Creation With GitHub and Microsoft Azure” <NavLink to='/activity/azure-website'>[link]</NavLink></li>
+	<li>Complete “Personal Information JSON Files” <NavLink to='/activity-oop/personal-info-json-to-azure'>[video]</NavLink></li>
 	<li><em>Complete your initial Discussion Board post by the middle of the sprint</em></li>
 
-	<li>Read “Learning Java, 5th Edition” chapter 9<a href='https://learning.oreilly.com/library/view/learning-java-5th/9781492056263/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
-	<li>Complete “SleepFast”<NavLink to='/activity-oop/java-sleep-fast'>[video]</NavLink></li>
-	<li>Review Object-Oriented Programming Languages and Platforms<NavLink to='/activity-oop/languages-and-platforms'>[video]</NavLink></li>
+	<li>Read “Learning Java, 5th Edition” chapter 9 <a href='https://learning.oreilly.com/library/view/learning-java-5th/9781492056263/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+	<li>Complete “SleepFast” <NavLink to='/activity-oop/java-sleep-fast'>[video]</NavLink></li>
+	<li>Review Object-Oriented Programming Languages and Platforms <NavLink to='/activity-oop/languages-and-platforms'>[video]</NavLink></li>
 
 	{/* The items below should be consistent across classes. */}
 	<li>{complete(programmingAssignment)}</li>
@@ -45,7 +45,7 @@ other hand, learning how to write multi-threaded Java applications will likely p
 </ol>
 
 <p>If you are struggling, remember to reach out to your Scrum teammates early and often for help. Also, be sure to 
-periodically check for new programming together tutorials<NavLink to='/activity/programming-together'>[link]</NavLink>.</p>
+periodically check for new programming together tutorials <NavLink to='/activity/programming-together'>[link]</NavLink>.</p>
 {extras()}
 </div>
 	)
@@ -60,10 +60,10 @@ const extras = () => {
 	return (<div>	
 		<p>Additional suggested activities:</p>
 		<ul style={{listStyleType:'square'}}>
-			<li>Update the content of your “Final Project Proposal”<NavLink to='/activity/final-project-proposal'>[link]</NavLink> 
+			<li>Update the content of your “Final Project Proposal” <NavLink to='/activity/final-project-proposal'>[link]</NavLink> 
 				and host the updated web page in Azure</li>
-			<li>Review our class example code<NavLink to='/activity/example-code'>[link]</NavLink></li>
-			<li>Review “Learning Java, 5th Edition” example code<a href='https://github.com/l0y/learnjava5e.git' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+			<li>Review our class example code <NavLink to='/activity/example-code'>[link]</NavLink></li>
+			<li>Review “Learning Java, 5th Edition” example code <a href='https://github.com/l0y/learnjava5e.git' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 		</ul>
 	</div>)
 }

@@ -25,7 +25,7 @@ export const al44000Sprint06 = () => {
 	</ul>
 	<p>Below is the list of activities that we will need to complete this sprint.</p>
 	<ol>
-		<li>Stay focused on the due dates by reviewing our course calendar<NavLink to='/calendar/6'>[link]</NavLink></li>
+		<li>Stay focused on the due dates by reviewing our course calendar <NavLink to='/calendar/6'>[link]</NavLink></li>
 		<li><em>Review Lab 6, Quiz 6, Discussion 6, Reflection 6, and Lab Demo</em></li>
 		<li>{start(programmingAssignment)}</li>
 		{/* The above items should be consistent across classes. */}
@@ -58,7 +58,7 @@ export const al44000Sprint06 = () => {
 	</ol>
 	
 	<p>If you are struggling, remember to reach out to your Scrum teammates early and often for help. Also, be sure to 
-	periodically check for new programming together tutorials<NavLink to='/activity/programming-together'>[link]</NavLink>.</p>
+	periodically check for new programming together tutorials <NavLink to='/activity/programming-together'>[link]</NavLink>.</p>
 	{extras()}
 </div>
 	)

@@ -33,18 +33,18 @@ will have more control <em>and responsibility</em> in determining what is done a
 
 <p>Below is our sprint 5 activities list. </p>
 <ol>
-	<li>Stay focused on the due dates by reviewing our course calendar<NavLink to='/calendar/5'>[link]</NavLink></li>
+	<li>Stay focused on the due dates by reviewing our course calendar <NavLink to='/calendar/5'>[link]</NavLink></li>
 	<li><em>Review Lab 5, Quiz 5, Discussion 5, Reflection 5, and Lab Demo</em></li>
 	<li>{start(programmingAssignment)}</li>
 	<li>{start(FinalProjectProposal)}</li>
 	{/* The above items should be consistent across classes. */ }
 
-	<li>Read Dale chapter 15 Networks<a href='https://learning.oreilly.com/library/view/computer-science-illuminated/9781284055917/' target='_blank' rel='noopener noreferrer'>[link]</a>
+	<li>Read Dale chapter 15 Networks <a href='https://learning.oreilly.com/library/view/computer-science-illuminated/9781284055917/' target='_blank' rel='noopener noreferrer'>[link]</a>
 		and review our chapter 15 lecture <NavLink to='/activity-dale/15'>[video]</NavLink></li>
 	<li>Complete Programming Together with TurtleDrawLite Part 1</li>
-	<li>Review the CAMS Study Table tutoring options<NavLink to='/activity/study-table'>[link]</NavLink></li>
-	<li>Review “Python Programming - Part 1 &amp; Part 2” from W3C<NavLink to='/activity/python-w3c'>[link]</NavLink></li>
-	<li>Review the Turtle graphics documentation<a href='https://docs.python.org/3/library/turtle.html#introduction'target='_blank' rel='noopener noreferrer'>[link]</a></li>
+	<li>Review the CAMS Study Table tutoring options <NavLink to='/activity/study-table'>[link]</NavLink></li>
+	<li>Review “Python Programming - Part 1 &amp; Part 2” from W3C <NavLink to='/activity/python-w3c'>[link]</NavLink></li>
+	<li>Review the Turtle graphics documentation <a href='https://docs.python.org/3/library/turtle.html#introduction'target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li><em>Make your initial Discussion post by the middle of the sprint</em></li>
 	<li>Complete Programming Together with TurtleDrawLite Parts 2 and 3</li>
 	<li>Review the “Introducing Python, 2nd Edition” example code utilizing “git clone https://github.com/madscheme/introducing-python"</li>
@@ -56,7 +56,7 @@ will have more control <em>and responsibility</em> in determining what is done a
 	<li><em>Complete Discussion 5, Lab 5, Quiz 5, and Reflection 5</em></li>
 </ol>
 <p>If you are struggling, remember to reach out to your Scrum teammates early and often for help. Also, be sure to 
-periodically check for new programming together tutorials<NavLink to='/activity/programming-together'>[link]</NavLink>.</p>
+periodically check for new programming together tutorials <NavLink to='/activity/programming-together'>[link]</NavLink>.</p>
 {extras()}
 </div>
 

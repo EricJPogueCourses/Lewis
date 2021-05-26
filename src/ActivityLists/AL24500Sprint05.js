@@ -48,11 +48,11 @@ professional portfolio to show as you are looking for an internship or job? You 
 	<li>{start(programmingAssignment)}</li>
 	{/* The above items should be consistent across classes. */}
 
-	<li>Complete Testing lecture<NavLink to='/activity-oop/java-testing'>[link]</NavLink></li>
-	<li>Read “Learning Java, 5th Edition” chapter 11<a href='https://learning.oreilly.com/library/view/learning-java-5th/9781492056263/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
-	<li>Review “HTML Programming - Part 1” from W3C<NavLink to='/activity/html'>[link]</NavLink><sup>~2 hours</sup></li>
-	<li>Complete “Azure Website”<NavLink to='/activity/azure-website'>[link]</NavLink><sup>~3 hours</sup></li>
-	<li>Review “What is JSON? JavaScript Object Notation explained”<a href='https://www.infoworld.com/article/3222851/javascript/what-is-json-javascript-object-notation-explained.html' target='_blank' rel='noopener noreferrer'>[link]</a>
+	<li>Complete Testing lecture <NavLink to='/activity-oop/java-testing'>[link]</NavLink></li>
+	<li>Read “Learning Java, 5th Edition” chapter 11 <a href='https://learning.oreilly.com/library/view/learning-java-5th/9781492056263/' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+	<li>Review “HTML Programming - Part 1” from W3C <NavLink to='/activity/html'>[link]</NavLink><sup>~2 hours</sup></li>
+	<li>Complete “Azure Website” <NavLink to='/activity/azure-website'>[link]</NavLink><sup>~3 hours</sup></li>
+	<li>Review “What is JSON? JavaScript Object Notation explained” <a href='https://www.infoworld.com/article/3222851/javascript/what-is-json-javascript-object-notation-explained.html' target='_blank' rel='noopener noreferrer'>[link]</a>
 		and “JSON Introduction” from W3C <a href='https://www.w3schools.com/js/js_json_intro.asp' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 	<li><em>Make your initial Discussion post by the middle of the sprint</em></li>
 	<li>Create an Azure website to host globally accessible JSON files</li>
@@ -64,7 +64,7 @@ professional portfolio to show as you are looking for an internship or job? You 
 </ol>
 
 <p>If you are struggling, remember to reach out to your Scrum teammates early and often for help. Also, be sure to 
-periodically check for new programming together tutorials<NavLink to='/activity/programming-together'>[link]</NavLink>.</p>
+periodically check for new programming together tutorials <NavLink to='/activity/programming-together'>[link]</NavLink>.</p>
 {extras()}
 </div>
 	)
@@ -74,8 +74,8 @@ const extras = () => {
 	return (<div>	
 		<p>Additional suggested activities:</p>
 		<ul style={{listStyleType:'square'}}>
-			<li>Review our class example code<NavLink to='/activity/example-code'>[link]</NavLink></li>
-			<li>Review “Learning Java, 5th Edition” example code<a href='https://github.com/l0y/learnjava5e.git' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+			<li>Review our class example code <NavLink to='/activity/example-code'>[link]</NavLink></li>
+			<li>Review “Learning Java, 5th Edition” example code <a href='https://github.com/l0y/learnjava5e.git' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 		</ul>
 	</div>)
 }

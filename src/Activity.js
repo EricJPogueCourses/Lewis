@@ -50,7 +50,7 @@ const videoLinkWithSlides = (header, url, urlSlides) => {
 			<h5>{header}</h5>
 			<ReactPlayer url={url} controls={true} width={1024} height={576} />
 			<br />
-			If you are looking for the associated slides, you can find them here<a href={urlSlides}>[link]</a>.
+			If you are looking for the associated slides, you can find them here <a href={urlSlides}>[link]</a>.
 		</div>
 	)
 }

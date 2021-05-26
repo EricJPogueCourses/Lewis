@@ -118,7 +118,7 @@ persistence across user sessions.
 </h5>
 <h5>Prerequisites: {appProps.prerequisites}</h5>
 
-<p>After reviewing your implementation of Mosaic {appProps.language}<NavLink to='/activity/azure-website'>[link]</NavLink>, 
+<p>After reviewing your implementation of Mosaic {appProps.language} <NavLink to='/activity/azure-website'>[link]</NavLink>, 
 you will enhance Mosaic so that it implements statefulness, security including authentication and authorization, and 
 data persistance across user sessions</p>
 

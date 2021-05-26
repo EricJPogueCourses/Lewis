@@ -28,12 +28,12 @@ works.</p>
 
 <p>Our sprint 4 activities list includes:</p>
 <ol>
-	<li>Review our course calendar<NavLink to='/calendar/4'>[link]</NavLink></li>
+	<li>Review our course calendar <NavLink to='/calendar/4'>[link]</NavLink></li>
 	<li><em>Review sprint 4 assignments including Lab 4, Quiz 4, Discussion 4, and Reflection 4</em></li>
-	<li>Start early and remain laser focused on “Map Mania Version 2”<NavLink to='/activity/map-mania-v2'>[link]</NavLink>and Lab 4</li>
-    <li>Review Map Mania Lite<NavLink to='/activity-web/map-mania-lite'>[video]</NavLink>~2 hours </li>
-	<li>Read Sebesta chapter 6 and review the associated Dynamic Documents with JavaScript lecture<NavLink to='/activity/sebesta-chapter-06'>[video]</NavLink></li>
-	<li>Read Sebesta chapter 7 and review the associated XML and Web Services lecture<NavLink to='/activity/sebesta-chapter-07'>[video]</NavLink></li>
+	<li>Start early and remain laser focused on “Map Mania Version 2” <NavLink to='/activity/map-mania-v2'>[link]</NavLink>and Lab 4</li>
+    <li>Review Map Mania Lite <NavLink to='/activity-web/map-mania-lite'>[video]</NavLink>~2 hours </li>
+	<li>Read Sebesta chapter 6 and review the associated Dynamic Documents with JavaScript lecture <NavLink to='/activity/sebesta-chapter-06'>[video]</NavLink></li>
+	<li>Read Sebesta chapter 7 and review the associated XML and Web Services lecture <NavLink to='/activity/sebesta-chapter-07'>[video]</NavLink></li>
 	<li><em>Make your initial Discussion 4 post by the middle of the sprint</em></li>
 	<li><em>Complete Map Mania version 2</em>~10 hours</li>
 	{/*Todo: Fix the samples! And uncomment the following line.*/}

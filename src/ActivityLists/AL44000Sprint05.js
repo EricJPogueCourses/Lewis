@@ -36,7 +36,7 @@ export const al44000Sprint05 = () => {
 	</ul>
 	<p>Below is the list of activities that we will need to complete this sprint.</p>
 	<ol>
-		<li>Stay focused on the due dates by reviewing our course calendar<NavLink to='/calendar/5'>[link]</NavLink></li>
+		<li>Stay focused on the due dates by reviewing our course calendar <NavLink to='/calendar/5'>[link]</NavLink></li>
 		<li><em>Review Lab 5, Quiz 5, Discussion 5, Reflection 5, and Lab Demo</em></li>
 		<li>{start(FinalProjectProposal)}</li>
 		<li>{start(programmingAssignment)}</li>
@@ -58,7 +58,7 @@ export const al44000Sprint05 = () => {
 	</ol>
 
 	<p>If you are struggling, remember to reach out to your Scrum teammates early and often for help. Also, be sure to 
-	periodically check for new programming together tutorials<NavLink to='/activity/programming-together'>[link]</NavLink>.</p>
+	periodically check for new programming together tutorials <NavLink to='/activity/programming-together'>[link]</NavLink>.</p>
 	{extras()}
 </div>
 
@@ -80,8 +80,8 @@ const extras = () => {
 	return (<div>	
 		<p>Additional suggested activities:</p>
 		<ul style={{listStyleType:'square'}}>
-			<li>Review “Software Maintenance &amp; Support”<a href='https://lewiseducation.blob.core.windows.net/software-engineering/software-maintenance-and-support.mp4' target='_blank' rel='noopener noreferrer'>[link]</a></li>
-			<li>Review “Software Metrics”<a href='https://lewiseducation.blob.core.windows.net/software-engineering/software-engineering-metrics.mp4' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+			<li>Review “Software Maintenance &amp; Support” <a href='https://lewiseducation.blob.core.windows.net/software-engineering/software-maintenance-and-support.mp4' target='_blank' rel='noopener noreferrer'>[link]</a></li>
+			<li>Review “Software Metrics” <a href='https://lewiseducation.blob.core.windows.net/software-engineering/software-engineering-metrics.mp4' target='_blank' rel='noopener noreferrer'>[link]</a></li>
 		</ul>
 	</div>)
 }

@@ -26,20 +26,20 @@ include a detailed look at two of those technologies by introducing HTML and Cas
 <p>Below is our sprint 2 activities list. Once again they are provided in the order that I think will be the most
 efficient for you and the <em>bold</em> items are graded assignments.</p>
 <ol>
-	<li>Stay focused on the due dates by reviewing our course calendar<NavLink to='/calendar/2'>[link]</NavLink></li>
+	<li>Stay focused on the due dates by reviewing our course calendar <NavLink to='/calendar/2'>[link]</NavLink></li>
 	<li><em>Review sprint 2 assignments including Lab 2, Quiz 2, Discussion 2, Reflection 2, and Lab Demo</em></li>
-	<li>Study and understand our “Coding Standards”<NavLink to='/activity/coding-standards'>[link]</NavLink></li>
+	<li>Study and understand our “Coding Standards” <NavLink to='/activity/coding-standards'>[link]</NavLink></li>
 	<li>{start(programmingAssignment)}</li>
 	{/* The above items should be consistent across classes. */ }
 
-	<li>Read “Computer Science Illuminated” chapter 2<a href='https://learning.oreilly.com/library/view/computer-science-illuminated/9781284055917/' target='_blank' rel='noopener noreferrer'>[link]</a>
+	<li>Read “Computer Science Illuminated” chapter 2 <a href='https://learning.oreilly.com/library/view/computer-science-illuminated/9781284055917/' target='_blank' rel='noopener noreferrer'>[link]</a>
 		Binary Values and Number Systems and review our chapter 2 lecture <NavLink to='/activity-dale/2'>[video]</NavLink></li>
-	<li>Complete “Tools of the Trade - Part 2”<NavLink to='/activity/tools'>[link]</NavLink><sup>~3 hours</sup></li>
+	<li>Complete “Tools of the Trade - Part 2” <NavLink to='/activity/tools'>[link]</NavLink><sup> ~3 hours</sup></li>
 	<li><em>Make your initial Discussion 2 post by the middle of the sprint</em></li>
 
-	<li>Read “Computer Science Illuminated” chapter 3 Data Representation<a href='https://learning.oreilly.com/library/view/computer-science-illuminated/9781284055917/' target='_blank' rel='noopener noreferrer'>[link]</a>
+	<li>Read “Computer Science Illuminated” chapter 3 Data Representation <a href='https://learning.oreilly.com/library/view/computer-science-illuminated/9781284055917/' target='_blank' rel='noopener noreferrer'>[link]</a>
 		and review our chapter 3 lecture <NavLink to='/activity-dale/3'>[video]</NavLink></li>
-	<li>Complete “HTML Programming - Part 1” from W3C<NavLink to='/activity/html'>[link]</NavLink><sup>~4 hours</sup></li>
+	<li>Complete “HTML Programming - Part 1” from W3C <NavLink to='/activity/html'>[link]</NavLink><sup> ~4 hours</sup></li>
 
 	{/* The items below should be consistent across classes. */ }
 	<li>{complete(programmingAssignment)}</li>
@@ -47,7 +47,7 @@ efficient for you and the <em>bold</em> items are graded assignments.</p>
 	<li><em>Submit Lab 2, Quiz 2, and Reflection 2</em></li>
 </ol>
 <p>If you are struggling, remember to reach out to your Scrum teammates early and often for help. Also, be sure to 
-periodically check for new programming together tutorials<NavLink to='/activity/programming-together'>[link]</NavLink>.</p>
+periodically check for new programming together tutorials <NavLink to='/activity/programming-together'>[link]</NavLink>.</p>
 {/* Programming Together: “HelloWorld Plus for the Web” and “HelloWorldPlus with Pictures” */}
 {extras()}
 </div>

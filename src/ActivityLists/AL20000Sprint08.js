@@ -20,7 +20,7 @@ yourself.</p>
 
 <p>Below is our sprint 8 activities list. </p>
 <ol>
-	<li><em style={{color:'red'}}>Stay laser focused on the due dates by reviewing our course calendar</em><NavLink to='/calendar/8'>[link]</NavLink></li>
+	<li><em style={{color:'red'}}>Stay laser focused on the due dates by reviewing our course calendar</em> <NavLink to='/calendar/8'>[link]</NavLink></li>
 	<li><em>Confirm your Final Project presentation date &amp; time</em></li>
 	<li><em>Review Lab 8, Quiz 8, Discussion 8, Reflection 8, and Final Project Presentation</em></li>
 	<li>{start(FinalProject)}</li>

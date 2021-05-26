@@ -64,7 +64,7 @@ example, my hello world output would be “Eric Pogue’s Hello World” includi
 
 <p>Why do we need to utilize a curly apostrophe? Well, it turns out that curly quotes and curly apostrophes should always
 be utilized in written text. The following article from Practical Typography does a nice job of explaining the 
-rational<a href='https://practicaltypography.com/straight-and-curly-quotes.html' target='_blank' rel='noopener noreferrer'>[link]</a>.
+rational <a href='https://practicaltypography.com/straight-and-curly-quotes.html' target='_blank' rel='noopener noreferrer'>[link]</a>.
 Equally important, becoming comfortable with utilizing curly quotes and curly apostrophes is a good starting point for 
 understanding how to utilize special characters and eventually multiple languages in software applications.</p>
 
